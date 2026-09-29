@@ -1,13 +1,15 @@
-import { DemoNotice } from "@/components/demo-notice";
 import { TurnWorkspace } from "@/components/turnos/turn-workspace";
+import { getAudienciaBundle } from "@/lib/thalia-data";
 
-export default function Page() {
-  return (
-    <>
-      <DemoNotice>
-        <strong>Audiência simulada.</strong> Esta tela mostra uma audiência fictícia (nº 901) no formato dos dados de turnos, opiniões, DQI, cobertura, grafo e resumo. Ela vale para qualquer audiência até os dados reais serem integrados.
-      </DemoNotice>
-      <TurnWorkspace/>
-    </>
-  );
+export default async function Page({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const bundle = await getAudienciaBundle(Number(id));
+  if (!bundle) {
+    return (
+      <section className="px-5 py-12 lg:px-8">
+        <p className="mx-auto max-w-[1200px] rounded-2xl border border-black/10 bg-white p-8 text-center text-sm text-[#666666]">Não há dados de turnos, opiniões e deliberação para esta audiência.</p>
+      </section>
+    );
+  }
+  return <TurnWorkspace bundle={bundle}/>;
 }

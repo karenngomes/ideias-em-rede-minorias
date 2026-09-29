@@ -1,30 +1,35 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Pause, Play, RotateCcw } from "lucide-react";
 import { ReadingPanel, type PanelTab } from "@/components/turnos/reading-panel";
 import { TurnChart, type ChartMode } from "@/components/turnos/turn-chart";
-import { opinioes, palavras, secoes, temaCores, turnos, type Opiniao } from "@/lib/thalia";
+import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao } from "@/lib/thalia";
 
 const SPEEDS = [0.5, 1, 2, 4];
+const MAX_BARS = 160;
 
-export function TurnWorkspace() {
-  const total = turnos.length;
+export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
+  const data = useMemo(() => derive(bundle), [bundle]);
+  const total = data.turnos.length;
   const [turn, setTurn] = useState(1);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
   const [mode, setMode] = useState<ChartMode>("posicoes");
+  const [showThemes, setShowThemes] = useState(false);
   const [tab, setTab] = useState<PanelTab>("transcricao");
   const [selected, setSelected] = useState<Opiniao>();
 
   useEffect(() => {
     if (!playing) return;
+    // Audiências longas avançam mais turnos por passo, para durarem no máximo alguns minutos.
+    const step = Math.max(1, Math.round(total / 200));
     const timer = setInterval(() => {
       setTurn((current) => {
         if (current >= total) { setPlaying(false); return current; }
-        return current + 1;
+        return Math.min(total, current + step);
       });
-    }, 1400 / speed);
+    }, 1200 / speed);
     return () => clearInterval(timer);
   }, [playing, speed, total]);
 
@@ -33,10 +38,21 @@ export function TurnWorkspace() {
     setTurn(Math.min(total, Math.max(1, next)));
   }
 
-  const current = turnos[turn - 1];
-  const words = turnos.map((item) => palavras(item.texto));
-  const maxWords = Math.max(...words);
-  const visibleOpinions = opinioes.filter((opiniao) => opiniao.turno_id <= turn).length;
+  // Histograma do tamanho das falas, agrupado quando há turnos demais para uma barra cada.
+  const bars = useMemo(() => {
+    const words = data.turnos.map((item) => palavras(item.texto));
+    const size = Math.max(1, Math.ceil(words.length / MAX_BARS));
+    const grouped = [];
+    for (let index = 0; index < words.length; index += size) {
+      grouped.push({ first: index + 1, last: Math.min(words.length, index + size), words: words.slice(index, index + size).reduce((a, b) => a + b, 0) });
+    }
+    const max = Math.max(1, ...grouped.map((bar) => bar.words));
+    return grouped.map((bar) => ({ ...bar, height: Math.max(12, (bar.words / max) * 100) }));
+  }, [data.turnos]);
+
+  const current = data.turnos[turn - 1];
+  const visibleOpinions = data.opinioes.filter((opiniao) => opiniao.turno_id <= turn).length;
+  const themes = data.secoes.map((secao, index) => ({ titulo: secao.titulo, index })).filter((item, index, list) => list.findIndex((other) => other.titulo === item.titulo) === index);
 
   return (
     <section className="px-5 py-8 lg:px-8">
@@ -55,16 +71,19 @@ export function TurnWorkspace() {
                   <button key={id} type="button" onClick={() => setMode(id)} className={`rounded-md px-3 py-1.5 transition ${mode === id ? "bg-white text-ink shadow-sm" : "text-[#666666] hover:text-ink"}`}>{label}</button>
                 ))}
               </div>
-              <span className="text-xs text-[#666666]">{visibleOpinions} de {opinioes.length} opiniões no gráfico</span>
+              <div className="flex items-center gap-4 text-xs text-[#666666]">
+                {mode === "posicoes" && <label className="flex items-center gap-1.5"><input type="checkbox" checked={showThemes} onChange={(event) => setShowThemes(event.target.checked)} className="accent-orange-500"/>ligações por tema</label>}
+                <span>{visibleOpinions} de {data.opinioes.length} opiniões no gráfico</span>
+              </div>
             </div>
 
             <div className="flex flex-1 items-center px-2 py-3">
-              <TurnChart mode={mode} turn={turn} selected={selected?.id} onSelect={(opinion) => { setSelected(opinion); setPlaying(false); }} onTurn={goTo}/>
+              <TurnChart data={data} mode={mode} showThemes={showThemes} turn={turn} selected={selected?.id} onSelect={(opinion) => { setSelected(opinion); setPlaying(false); }} onTurn={goTo}/>
             </div>
 
             <div className="flex flex-wrap gap-x-4 gap-y-1.5 border-t border-black/10 px-4 py-3 text-[11px] text-[#666666]">
-              {mode === "posicoes" ? secoes.map((secao, index) => (
-                <span key={secao.titulo} className="flex items-center gap-1.5"><i className="size-2.5 rounded-full" style={{ backgroundColor: temaCores[index] }}/>{secao.titulo}</span>
+              {mode === "posicoes" ? themes.map((theme) => (
+                <span key={theme.index} className="flex items-center gap-1.5"><i className="size-2.5 rounded-full" style={{ backgroundColor: temaCor(theme.index) }}/>{theme.titulo}</span>
               )) : (
                 <>
                   <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-[#c9c9c9]"/>fala após <Exact/></span>
@@ -79,7 +98,7 @@ export function TurnWorkspace() {
             </div>
           </div>
 
-          <ReadingPanel tab={tab} onTab={setTab} turn={turn} onTurn={goTo} selected={selected} onClose={() => setSelected(undefined)}/>
+          <ReadingPanel data={data} tab={tab} onTab={setTab} turn={turn} onTurn={goTo} selected={selected} onClose={() => setSelected(undefined)}/>
         </div>
 
         <div className="mt-4 flex flex-wrap items-center gap-4 rounded-2xl border border-black/10 bg-white px-4 py-3">
@@ -97,8 +116,8 @@ export function TurnWorkspace() {
 
           <div className="min-w-[220px] flex-1">
             <div className="flex h-7 items-end gap-px" aria-hidden>
-              {words.map((count, index) => (
-                <button key={index} type="button" tabIndex={-1} onClick={() => goTo(index + 1)} className={`flex-1 rounded-t-sm ${index + 1 <= turn ? "bg-orange-400" : "bg-[#dcdcdc]"} ${index + 1 === turn ? "bg-orange-600" : ""}`} style={{ height: `${Math.max(12, (count / maxWords) * 100)}%` }}/>
+              {bars.map((bar) => (
+                <button key={bar.first} type="button" tabIndex={-1} onClick={() => goTo(bar.first)} className={`flex-1 rounded-t-sm ${turn >= bar.first && turn <= bar.last ? "bg-orange-600" : bar.first <= turn ? "bg-orange-400" : "bg-[#dcdcdc]"}`} style={{ height: `${bar.height}%` }}/>
               ))}
             </div>
             <input type="range" min={1} max={total} value={turn} onChange={(event) => goTo(Number(event.target.value))} aria-label="Turno da audiência" className="timeline-range mt-2 w-full cursor-pointer" style={{ "--progress": `${((turn - 1) / Math.max(1, total - 1)) * 100}%` } as React.CSSProperties}/>
@@ -106,7 +125,7 @@ export function TurnWorkspace() {
 
           <div className="text-right text-xs">
             <p className="text-[#666666]">turno <strong className="text-ink">{turn}</strong> de {total}</p>
-            <p className="font-semibold text-ink">{current.falante_norm}</p>
+            <p className="font-semibold text-ink">{current?.falante_norm}</p>
           </div>
         </div>
       </div>

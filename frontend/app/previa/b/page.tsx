@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { hypotheses, loadHomeData, Methodology, MinorityList } from "@/components/home/shared";
-import { getHighlightedExcerpt, getSummary } from "@/lib/api-server";
+import { getClassifiedRecords, getHighlightedExcerpt, getSummary } from "@/lib/api-server";
 import { superclassNames } from "@/lib/persuasion";
 
 const path = [
@@ -12,9 +12,11 @@ const path = [
 
 export default async function PreviewB() {
   const { health, minorities, example } = await loadHomeData();
-  const first = minorities[0];
-  const excerpt = first
-    ? await getSummary(first.runs[0].job_id).then((summary) => getHighlightedExcerpt(first.id, first.runs[0].job_id, summary.parlamentares))
+  const classified = await getClassifiedRecords();
+  const first = classified.items.find((record) => record.id === minorities.find((item) => item.persuasao)?.id);
+  const jobId = first?.runs[0]?.job_id;
+  const excerpt = first && jobId
+    ? await getSummary(jobId).then((summary) => getHighlightedExcerpt(first.id, jobId, summary.parlamentares))
     : null;
 
   return (

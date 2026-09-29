@@ -1,11 +1,5 @@
-// Tipos e dados derivados do pacote de dados da Thalia (turnos, opiniões, DQI,
-// cobertura, grafo e resumo). Por enquanto lê a audiência fictícia 901 de
-// data/mocks, gerada por data/mocks/gerar_mock.py no formato documentado.
-import coberturaJson from "@/data/mocks/901/cobertura.json";
-import dqiJson from "@/data/mocks/901/dqi.json";
-import grafoJson from "@/data/mocks/901/grafo.json";
-import resumoJson from "@/data/mocks/901/resumo.json";
-import turnosJson from "@/data/mocks/901/turnos.json";
+// Tipos do pacote de dados da Thalia e os dados derivados usados pela página
+// Turno a turno. Tudo se resolve pelo turno_id (veja dados/conteudo/CONTRATO.md).
 
 export type Turno = {
   turno_id: number;
@@ -30,55 +24,107 @@ export type CodigoDqi = {
   fonte: "modelo" | "exato";
 };
 
+type Proporcoes = { participacao_civil_palavras: number | null; citacao_civil_opinioes: number | null; deficit_civil: number | null };
+
 export type Cobertura = {
   n_falantes: number;
   n_parlamentares: number;
   n_convidados: number;
-  proporcoes: Record<"com_mesa" | "sem_mesa", {
-    participacao_civil_palavras: number | null;
-    citacao_civil_opinioes: number | null;
-    deficit_civil: number | null;
-  }>;
+  proporcoes: { com_mesa: Proporcoes; sem_mesa: Proporcoes };
   citados_ausentes: string[];
   falantes_silenciados: string[];
   falantes: Array<{ nome: string; parlamentar: boolean; mesa: boolean; n_turnos: number; n_palavras: number; turnos: number[] }>;
 };
 
-export type No = { id: string; tipo: "participante" | "opiniao"; rotulo: string; dados: Record<string, unknown> };
-export type Aresta = { origem: string; destino: string; tipo: "emitiu" | "fala_apos" | "concede_palavra" | "mesmo_tema"; peso: number; dados: { turno_id?: number } };
+export type Qualificador = { tipo: string; trecho: string; preservado?: boolean };
 
-export type Posicao = { falante: string; texto: string; turno_id: number };
-export type Secao = { titulo: string; sintese: string; participantes: string[]; deriva_de: string[]; posicoes: Posicao[] };
+type OpiniaoArquivo = { texto: string; ancora: { turno_id: number }; nucleo?: string; qualificadores?: Qualificador[] };
 
-export type Opiniao = { id: string; texto: string; falante: string; turno_id: number; tema: number };
+export type AudienciaBundle = {
+  turnos: Turno[];
+  opinioes: { assunto: string; envolvidos: Array<{ nome: string; cargo: string; opinioes: OpiniaoArquivo[] }> } | null;
+  dqi: { n_turnos: number; n_turnos_codificados: number; codigos: CodigoDqi[] } | null;
+  cobertura: Cobertura | null;
+  grafo: {
+    nos: Array<{ id: string; tipo: "participante" | "opiniao"; rotulo: string; dados: { falante?: string; cargo?: string; turno_id?: number } }>;
+    arestas: Array<{ origem: string; destino: string; tipo: "emitiu" | "fala_apos" | "concede_palavra" | "mesmo_tema"; peso: number; dados?: { turno_id?: number } }>;
+  } | null;
+  resumo: { secoes: Array<{ titulo: string; sintese: string; participantes: string[]; deriva_de: string[]; posicoes: Array<{ falante: string; texto: string; turno_id: number }> }> } | null;
+  materia: { blocos: Array<{ tipo: string; texto: string; falante: string | null; cargo: string; ancora: { turno_id: number } | null; ancorado: boolean }> } | null;
+  argumento_intra: { itens: Array<{ opiniao: string; falante: string; turno_id: number; fundamentos: Array<{ tipo: string; trecho: string; ancorado: boolean }>; contraponto: { trecho?: string } | null }> } | null;
+};
 
-export const turnos = turnosJson as Turno[];
-export const codigos = (dqiJson.codigos as CodigoDqi[]);
-export const dqiResumo = { n_turnos: dqiJson.n_turnos, n_turnos_codificados: dqiJson.n_turnos_codificados };
-export const cobertura = coberturaJson as Cobertura;
-export const arestas = grafoJson.arestas as Aresta[];
-export const secoes = resumoJson.secoes as Secao[];
+export type Opiniao = {
+  id: string;
+  texto: string;
+  falante: string;
+  turno_id: number;
+  tema: number;
+  qualificadores: Qualificador[];
+  fundamentos: Array<{ tipo: string; trecho: string }>;
+};
 
-const temaPorOpiniao = new Map<string, number>();
-secoes.forEach((secao, indice) => secao.deriva_de.forEach((id) => temaPorOpiniao.set(id, indice)));
+export type Audiencia = ReturnType<typeof derive>;
 
-export const opinioes: Opiniao[] = (grafoJson.nos as No[])
-  .filter((no) => no.tipo === "opiniao")
-  .map((no) => ({
-    id: no.id,
-    texto: no.rotulo,
-    falante: String(no.dados.falante),
-    turno_id: Number(no.dados.turno_id),
-    tema: temaPorOpiniao.get(no.id) ?? -1,
+export const temaCores = ["#ff4b3e", "#344b7f", "#e0a01b", "#2f8f6b", "#8a3d50", "#5b8fd6", "#c2185b", "#6d8b2f", "#9c6ade", "#d9772b"];
+
+export function temaCor(tema: number) {
+  return tema < 0 ? "#999999" : temaCores[tema % temaCores.length];
+}
+
+export function derive(bundle: AudienciaBundle) {
+  const turnos = bundle.turnos;
+  const secoes = bundle.resumo?.secoes ?? [];
+  const temaPorOpiniao = new Map<string, number>();
+  secoes.forEach((secao, indice) => secao.deriva_de.forEach((id) => {
+    if (!temaPorOpiniao.has(id)) temaPorOpiniao.set(id, indice);
   }));
 
-// Participantes na ordem em que falam pela primeira vez.
-export const participantes = Array.from(new Set(turnos.map((turno) => turno.falante_norm)));
+  const chave = (turno: number, texto: string) => `${turno}::${texto.trim().toLowerCase()}`;
+  const qualificadores = new Map<string, Qualificador[]>();
+  bundle.opinioes?.envolvidos.forEach((pessoa) => pessoa.opinioes.forEach((opiniao) => {
+    if (opiniao.qualificadores?.length) qualificadores.set(chave(opiniao.ancora.turno_id, opiniao.texto), opiniao.qualificadores);
+  }));
+  const fundamentos = new Map<string, Array<{ tipo: string; trecho: string }>>();
+  bundle.argumento_intra?.itens.forEach((item) => fundamentos.set(chave(item.turno_id, item.opiniao), item.fundamentos.filter((f) => f.ancorado)));
 
-// Parlamentar é quem tem sufixo "- UF" no partido em alguma fala; vale para a pessoa.
-export const parlamentares = new Set(turnos.filter((turno) => /- [A-Z]{2}$/.test(turno.partido ?? "")).map((turno) => turno.falante_norm));
+  const opinioes: Opiniao[] = (bundle.grafo?.nos ?? [])
+    .filter((no) => no.tipo === "opiniao" && no.dados.turno_id != null)
+    .map((no) => {
+      const turno = Number(no.dados.turno_id);
+      return {
+        id: no.id,
+        texto: no.rotulo,
+        falante: String(no.dados.falante ?? ""),
+        turno_id: turno,
+        tema: temaPorOpiniao.get(no.id) ?? -1,
+        qualificadores: qualificadores.get(chave(turno, no.rotulo)) ?? [],
+        fundamentos: fundamentos.get(chave(turno, no.rotulo)) ?? [],
+      };
+    });
 
-export const temaCores = ["#ff4b3e", "#344b7f", "#e0a01b", "#2f8f6b", "#8a3d50", "#5b8fd6"];
+  // Participantes na ordem em que falam pela primeira vez.
+  const participantes = Array.from(new Set(turnos.map((turno) => turno.falante_norm)));
+  // cobertura.json já agrega quem é parlamentar; sem ela, usa o sufixo "- UF" do partido.
+  const parlamentares = new Set(
+    bundle.cobertura
+      ? bundle.cobertura.falantes.filter((falante) => falante.parlamentar).map((falante) => falante.nome)
+      : turnos.filter((turno) => /- [A-Z]{2}$/.test(turno.partido ?? "")).map((turno) => turno.falante_norm),
+  );
+
+  return {
+    turnos,
+    opinioes,
+    participantes,
+    parlamentares,
+    secoes,
+    arestas: bundle.grafo?.arestas ?? [],
+    codigos: bundle.dqi?.codigos ?? [],
+    dqi: bundle.dqi,
+    cobertura: bundle.cobertura,
+    materia: bundle.materia,
+  };
+}
 
 export const dimensoes: Array<{ id: string; titulo: string; pergunta: string; niveis: string[] }> = [
   { id: "participacao", titulo: "Participação", pergunta: "A pessoa foi interrompida no meio da fala?", niveis: ["interrompido", "normal"] },

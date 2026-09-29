@@ -1,14 +1,36 @@
-// The minority group is encoded in the experiment tag of each classification run.
-const minorityGroups: Array<{ match: string; label: string }> = [
-  { match: "racial-black", label: "Pessoas negras" },
-  { match: "indigenous", label: "Povos indígenas" },
-  { match: "lgbt", label: "LGBTQIA+" },
-  { match: "pcd", label: "Pessoas com deficiência" },
-  { match: "women", label: "Mulheres" },
-];
+// Recorte de minorias a partir da rotulagem da Thalia (dados/conteudo/dados/rotulos).
+// O grupo M reúne as audiências convocadas sobre pautas de grupos historicamente
+// vulnerabilizados; as categorias não são exclusivas.
+import { getClassifiedRecords } from "@/lib/api-server";
+import { getCategoriasMinoria, getIndice } from "@/lib/thalia-data";
 
-export const PILOT_GROUP = "Piloto (fora do recorte)";
+export type MinorityAudience = {
+  id: number;
+  assunto: string;
+  tema: string;
+  categorias: string[];
+  group: string;
+  persuasao: boolean;
+};
 
-export function minorityGroupOf(experimentsTags: string[]) {
-  return minorityGroups.find((group) => experimentsTags.some((tag) => tag.includes(group.match)))?.label ?? PILOT_GROUP;
+export async function getMinorityAudiences(): Promise<MinorityAudience[]> {
+  const [indice, categorias, classified] = await Promise.all([
+    getIndice(),
+    getCategoriasMinoria(),
+    getClassifiedRecords().catch(() => ({ items: [] })),
+  ]);
+  const withPersuasion = new Set(classified.items.map((record) => record.id));
+  return Array.from(indice.values())
+    .filter((item) => item.grupo === "M")
+    .sort((a, b) => a.sample_id - b.sample_id)
+    .map((item) => {
+      const cats = categorias.get(item.sample_id) ?? [];
+      return { id: item.sample_id, assunto: item.assunto, tema: item.tema, categorias: cats, group: cats.join(" · ") || "Minorias", persuasao: withPersuasion.has(item.sample_id) };
+    });
+}
+
+// Rótulo curto por audiência, só para as do grupo M.
+export async function getMinorityLabels() {
+  const audiences = await getMinorityAudiences();
+  return new Map(audiences.map((audience) => [audience.id, audience.group]));
 }

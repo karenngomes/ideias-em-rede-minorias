@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, FileText, Megaphone, Network, Newspaper, Quote, Scale } from "lucide-react";
-import { getClassifiedRecords, getHealth } from "@/lib/api-server";
-import { minorityGroupOf, PILOT_GROUP } from "@/lib/minorities";
+import { getHealth } from "@/lib/api-server";
+import { getMinorityAudiences } from "@/lib/minorities";
 
 export const hypotheses = [
   "Convidados são interrompidos com mais frequência que parlamentares.",
@@ -22,11 +22,8 @@ const methods = [
 export type MinorityRecord = Awaited<ReturnType<typeof loadHomeData>>["minorities"][number];
 
 export async function loadHomeData() {
-  const [health, classified] = await Promise.all([getHealth(), getClassifiedRecords()]);
-  const minorities = classified.items
-    .map((record) => ({ ...record, group: minorityGroupOf(record.runs.map((run) => run.experiments_tag)) }))
-    .filter((record) => record.group !== PILOT_GROUP);
-  return { health, minorities, example: minorities[0]?.id };
+  const [health, minorities] = await Promise.all([getHealth(), getMinorityAudiences()]);
+  return { health, minorities, example: minorities.find((record) => record.persuasao)?.id ?? minorities[0]?.id };
 }
 
 export function Methodology({ example }: { example?: number }) {
@@ -57,7 +54,7 @@ export function MinorityList({ minorities }: { minorities: MinorityRecord[] }) {
     <ul className="divide-y divide-zinc-200 border-y border-zinc-200">
       {minorities.map((record) => (
         <li key={record.id}>
-          <Link href={`/audiencias/${record.id}/argumentacao`} className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-center sm:gap-4">
+          <Link href={`/audiencias/${record.id}`} className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-center sm:gap-4">
             <span className="shrink-0 text-xs font-semibold uppercase tracking-wider text-orange-600 sm:w-48">{record.group}</span>
             <span className="flex-1 text-sm font-medium text-zinc-800 group-hover:text-zinc-950">{record.assunto}</span>
             <ArrowRight className="hidden size-4 shrink-0 text-zinc-300 transition group-hover:translate-x-0.5 group-hover:text-orange-500 sm:block"/>

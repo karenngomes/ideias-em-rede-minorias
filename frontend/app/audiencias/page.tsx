@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { extractDate, firstLine, getAudiencias, getClassifiedRecords } from "@/lib/api-server";
-import { minorityGroupOf, PILOT_GROUP } from "@/lib/minorities";
+import { extractDate, firstLine, getAudiencias } from "@/lib/api-server";
+import { getMinorityLabels } from "@/lib/minorities";
 
 const PAGE_SIZE = 20;
 
@@ -12,8 +12,7 @@ export default async function AudienciasPage({ searchParams }: { searchParams: P
   const query = await searchParams;
   const requested = Number(query.page ?? "1");
   const page = Number.isInteger(requested) && requested > 0 ? requested : 1;
-  const [audiencias, classified] = await Promise.all([getAudiencias(page, PAGE_SIZE), getClassifiedRecords()]);
-  const groups = new Map(classified.items.map((record) => [record.id, minorityGroupOf(record.runs.map((run) => run.experiments_tag))]));
+  const [audiencias, groups] = await Promise.all([getAudiencias(page, PAGE_SIZE), getMinorityLabels()]);
   const totalPages = Math.max(1, Math.ceil(audiencias.total / PAGE_SIZE));
 
   return (
@@ -33,7 +32,7 @@ export default async function AudienciasPage({ searchParams }: { searchParams: P
                     <span className="block text-sm font-semibold text-zinc-900 group-hover:text-orange-700">{audiencia.metadados.assunto || firstLine(audiencia.materia)}</span>
                     <span className="mt-1 block text-xs text-zinc-500">
                       {[extractDate(audiencia.materia), `${audiencia.metadados.envolvidos.length} participantes`, `${(audiencia.chunk_count ?? 0).toLocaleString("pt-BR")} trechos`].filter(Boolean).join(" · ")}
-                      {group && group !== PILOT_GROUP && <span className="ml-2 font-semibold text-orange-600">{group}</span>}
+                      {group && <span className="ml-2 font-semibold text-orange-600">{group}</span>}
                     </span>
                   </span>
                   <ArrowRight className="mt-0.5 hidden size-4 shrink-0 text-zinc-300 transition group-hover:translate-x-0.5 group-hover:text-orange-500 sm:block"/>

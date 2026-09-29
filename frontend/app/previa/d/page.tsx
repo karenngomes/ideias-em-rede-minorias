@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, FileText, Megaphone, Network, Newspaper, Quote, Scale } from "lucide-react";
-import { getClassifiedRecords, getHealth } from "@/lib/api-server";
-import { minorityGroupOf, PILOT_GROUP } from "@/lib/minorities";
+import { getHealth } from "@/lib/api-server";
+import { getMinorityAudiences } from "@/lib/minorities";
 
 const hypotheses = [
   "Convidados são interrompidos com mais frequência que parlamentares.",
@@ -20,11 +20,8 @@ const methods = [
 ];
 
 export default async function PreviewD() {
-  const [health, classified] = await Promise.all([getHealth(), getClassifiedRecords()]);
-  const minorities = classified.items
-    .map((record) => ({ ...record, group: minorityGroupOf(record.runs.map((run) => run.experiments_tag)) }))
-    .filter((record) => record.group !== PILOT_GROUP);
-  const example = minorities[0]?.id;
+  const [health, minorities] = await Promise.all([getHealth(), getMinorityAudiences()]);
+  const example = minorities.find((record) => record.persuasao)?.id ?? minorities[0]?.id;
 
   return (
     <main>
@@ -85,11 +82,11 @@ export default async function PreviewD() {
       <section id="audiencias" className="bg-paper px-5 py-20 lg:px-8">
         <div className="mx-auto max-w-[1200px]">
           <h2 className="text-center text-3xl font-semibold tracking-[-0.03em]">Recorte de minorias</h2>
-          <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-6 text-zinc-500">{minorities.length} audiências com as técnicas de persuasão já classificadas.</p>
+          <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-6 text-zinc-500">{minorities.length} audiências convocadas sobre pautas de minorias, {minorities.filter((record) => record.persuasao).length} delas com as técnicas de persuasão classificadas.</p>
           <ul className="mx-auto mt-12 max-w-4xl divide-y divide-zinc-200 border-y border-zinc-200">
             {minorities.map((record) => (
               <li key={record.id}>
-                <Link href={`/audiencias/${record.id}/argumentacao`} className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-center sm:gap-4">
+                <Link href={`/audiencias/${record.id}`} className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-center sm:gap-4">
                   <span className="shrink-0 text-xs font-semibold uppercase tracking-wider text-orange-600 sm:w-48">{record.group}</span>
                   <span className="flex-1 text-sm font-medium text-zinc-800 group-hover:text-zinc-950">{record.assunto}</span>
                   <ArrowRight className="hidden size-4 shrink-0 text-zinc-300 transition group-hover:translate-x-0.5 group-hover:text-orange-500 sm:block"/>

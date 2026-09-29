@@ -3,8 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronLeft, FileText, Users } from "lucide-react";
 import { AudienceNav } from "@/components/audience-nav";
-import { extractDate, getAudiencia, getChunkCount, getClassifiedRecords } from "@/lib/api-server";
-import { minorityGroupOf, PILOT_GROUP } from "@/lib/minorities";
+import { extractDate, getAudiencia, getChunkCount } from "@/lib/api-server";
+import { getRotuloAudiencia } from "@/lib/thalia-data";
 
 type Props = { children: React.ReactNode; params: Promise<{ id: string }> };
 
@@ -24,15 +24,13 @@ export default async function AudienceLayout({ children, params }: Props) {
 
   let audiencia;
   let chunkCount;
-  let classified;
   try {
-    [audiencia, chunkCount, classified] = await Promise.all([getAudiencia(id), getChunkCount(id), getClassifiedRecords()]);
+    [audiencia, chunkCount] = await Promise.all([getAudiencia(id), getChunkCount(id)]);
   } catch {
     notFound();
   }
 
-  const record = classified.items.find((item) => item.id === id);
-  const group = record ? minorityGroupOf(record.runs.map((run) => run.experiments_tag)) : undefined;
+  const rotulo = await getRotuloAudiencia(id);
   const date = extractDate(audiencia.materia);
   const lead = audiencia.materia.split("\n").filter((line) => line.trim()).slice(0, 2).join(" — ");
 
@@ -47,7 +45,8 @@ export default async function AudienceLayout({ children, params }: Props) {
               <span className="rounded-md bg-orange-500 px-2.5 py-1 text-white">Audiência pública</span>
               <span className="rounded-md border border-white/15 px-2.5 py-1 text-zinc-300">#{audiencia.id}</span>
               {date && <span className="rounded-md border border-white/15 px-2.5 py-1 text-zinc-300">{date}</span>}
-              {group && group !== PILOT_GROUP && <span className="rounded-md border border-orange-400/40 bg-orange-500/10 px-2.5 py-1 text-orange-300">Minorias · {group}</span>}
+              {rotulo?.grupo === "M" && <span className="rounded-md border border-orange-400/40 bg-orange-500/10 px-2.5 py-1 text-orange-300">Minorias · {rotulo.categorias.join(" · ")}</span>}
+              {rotulo?.tema && <span className="rounded-md border border-white/15 px-2.5 py-1 text-zinc-300">{rotulo.tema}</span>}
             </div>
             <h1 className="mt-6 max-w-5xl text-3xl font-semibold tracking-[-0.035em] sm:text-5xl">{audiencia.metadados.assunto}</h1>
             <p className="mt-4 max-w-4xl text-sm leading-7 text-zinc-300 sm:text-base">{lead}</p>

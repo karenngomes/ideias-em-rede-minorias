@@ -1,15 +1,14 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { hypotheses, loadHomeData, Methodology, MinorityList } from "@/components/home/shared";
-import { getSummary } from "@/lib/api-server";
+import { getCoberturaResumo } from "@/lib/thalia-data";
 
 export default async function PreviewA() {
   const { health, minorities, example } = await loadHomeData();
-  const shares = await Promise.all(minorities.map(async (record) => {
-    const summary = await getSummary(record.runs[0].job_id);
-    const { parlamentar, convidado } = summary.groups;
-    return { ...record, parlamentar: parlamentar.chunks, convidado: convidado.chunks };
-  }));
+  // Parte das palavras faladas por convidados em cada audiência do recorte (cobertura.json, com a mesa).
+  const shares = (await Promise.all(minorities.map(async (record) => ({ ...record, civil: await getCoberturaResumo(record.id) }))))
+    .filter((row): row is typeof row & { civil: number } => row.civil != null)
+    .sort((a, b) => b.civil - a.civil);
 
   return (
     <main className="bg-white">
@@ -32,18 +31,14 @@ export default async function PreviewA() {
 
           <figure className="rounded-2xl bg-zinc-50 p-6">
             <figcaption className="mb-1 text-sm font-semibold text-zinc-900">Quem fala nas audiências do recorte</figcaption>
-            <p className="mb-5 text-xs text-zinc-500">Parte das falas de cada audiência</p>
-            <div className="space-y-2.5">
+            <p className="mb-5 text-xs text-zinc-500">Parte das palavras de cada uma das {shares.length} audiências sobre minorias</p>
+            <div className="space-y-[3px]">
               {shares.map((row) => {
-                const total = row.parlamentar + row.convidado || 1;
-                const guests = Math.round((row.convidado / total) * 100);
+                const guests = Math.round(row.civil * 100);
                 return (
-                  <Link key={row.id} href={`/audiencias/${row.id}/argumentacao`} className="group grid grid-cols-[120px_1fr] items-center gap-3" title={row.assunto ?? ""}>
-                    <span className="truncate text-[11px] text-zinc-500 group-hover:text-zinc-900">{row.group}</span>
-                    <span className="flex h-4 overflow-hidden rounded-sm">
-                      <span className="bg-zinc-800" style={{ width: `${100 - guests}%` }}/>
-                      <span className="bg-orange-400" style={{ width: `${guests}%` }}/>
-                    </span>
+                  <Link key={row.id} href={`/audiencias/${row.id}`} className="flex h-[7px] overflow-hidden rounded-sm hover:opacity-80" title={`${row.assunto}: ${guests}% das palavras de convidados`}>
+                    <span className="bg-zinc-800" style={{ width: `${100 - guests}%` }}/>
+                    <span className="bg-orange-400" style={{ width: `${guests}%` }}/>
                   </Link>
                 );
               })}

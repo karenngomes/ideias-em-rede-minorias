@@ -34,7 +34,7 @@ O projeto junta dois trabalhos anteriores:
 |---|---|---|
 | Home do artigo | `/` | reais (contagens e recorte) |
 | Acervo de audiências | `/audiencias` | reais |
-| Turno a turno | `/audiencias/[id]/turnos` | **simulados** (mock 901) |
+| Turno a turno | `/audiencias/[id]/turnos` | reais (pacote da Thalia) |
 | Tipo de argumentação | `/audiencias/[id]/argumentacao` | reais (persuasão) |
 | Interações entre falantes | `/audiencias/[id]/interacoes` | **demonstrativos** |
 | Resumo em níveis | `/audiencias/[id]/resumo` | **demonstrativos** |
@@ -46,8 +46,9 @@ simulados ou demonstrativos exibem um aviso.
 
 ### Turno a turno
 
-Inspirada na implementação de referência da Thalia. Tudo se resolve pelo
-`turno_id`, e a linha do tempo filtra todas as partes ao mesmo tempo:
+Inspirada na implementação de referência da Thalia e ligada ao pacote de dados
+dela (206 audiências). Tudo se resolve pelo `turno_id`, e a linha do tempo filtra
+todas as partes ao mesmo tempo:
 
 - **Gráfico**, em dois modos:
   - *mapa de posições*: cada opinião no turno em que foi dita, colorida pelo
@@ -57,10 +58,11 @@ Inspirada na implementação de referência da Thalia. Tudo se resolve pelo
 - **Painel de leitura**:
   - *Transcrição*: acompanha o turno atual.
   - *Resumo*: cada seção acende quando ganha evidência.
-  - *Matéria*: quem falou × quem a Agência Câmara citou, com o déficit da
-    sociedade civil.
+  - *Matéria*: a notícia da Agência Câmara com cada citação ligada ao turno de
+    origem, e quem falou × quem foi citado, com o déficit da sociedade civil.
   - *Deliberação*: as 7 dimensões do DQI, com os trechos citados.
-- **Detalhe da opinião**: mostra a fala que a sustenta (âncora).
+- **Detalhe da opinião**: mostra a fala que a sustenta (âncora), os
+  fundamentos (dados, autoridades) e as ressalvas destacados no texto.
 - **Linha do tempo**: play, velocidades de 0,5× a 4× e histograma do tamanho
   dos turnos.
 
@@ -75,7 +77,9 @@ pode receber "nenhuma". A página mostra:
 - a transcrição com os trechos de evidência destacados;
 - a auditoria de cada chamada ao modelo (prompt e resposta).
 
-A persuasão foi classificada em **10 audiências do recorte de minorias**:
+O recorte de minorias segue a rotulagem da Thalia: **53 audiências no grupo M**,
+em 8 categorias não exclusivas, e 153 no grupo C. A persuasão foi classificada
+em **10 audiências do grupo M**:
 
 | Grupo | Audiências |
 |---|---|
@@ -115,9 +119,10 @@ A audiência 140 foi usada como piloto e aparece como "fora do recorte".
 │   ├── lib/
 │   │   ├── api-server.ts              # chamadas à API no servidor
 │   │   ├── persuasion-api.ts          # chamadas à API no navegador
-│   │   └── thalia.ts                  # tipos e dados do pacote da Thalia
-│   ├── data/mocks/                    # audiência fictícia 901 + gerador
+│   │   ├── thalia.ts                  # tipos e dados derivados do pacote da Thalia
+│   │   └── thalia-data.ts             # leitura do pacote no servidor
 │   └── public/                        # logos do Instituto Kunumi
+├── dados/conteudo/                    # pacote de dados da Thalia (JSON)
 ├── LICENSE
 └── README.md
 ```
@@ -200,30 +205,31 @@ O banco `public_hearing_br` tem 206 audiências (`lds`), os dados de avaliação
 NLI (`nli`) e 17.261 falas (`transcript_chunks`). As classificações ficam em
 `classification_jobs` e `persuasion_classification_results`.
 
-### Pacote da Thalia (simulado)
+### Pacote da Thalia
 
-A página Turno a turno segue o formato documentado pela Thalia:
+Fica em `dados/conteudo/` e não precisa de servidor: são arquivos JSON lidos pelo
+frontend no servidor (`frontend/lib/thalia-data.ts`). A documentação completa está
+em [`dados/conteudo/README.md`](dados/conteudo/README.md) e
+[`dados/conteudo/CONTRATO.md`](dados/conteudo/CONTRATO.md).
 
 | Arquivo | Conteúdo |
 |---|---|
-| `turnos.json` | texto de cada turno; todo dado se resolve por `turno_id` |
-| `opinioes.json` | opiniões por participante, ancoradas no turno que as sustenta |
-| `dqi.json` | códigos das 7 dimensões do DQI por turno |
-| `cobertura.json` | quem falou × quem a matéria citou |
-| `grafo.json` | nós participante/opinião e arestas `emitiu`, `fala_apos`, `concede_palavra`, `mesmo_tema` |
-| `resumo.json` | seções do resumo ligadas às opiniões |
-| `clausulas.json` | recortes finos dentro das falas (formato suposto) |
+| `indice_audiencias.json` | uma linha por audiência, com grupo (M ou C), tema e assunto |
+| `rotulos/rotulos_minorias.json` | as 8 categorias do grupo M |
+| `rotulos/temas.json` | os 24 temas, exclusivos |
+| `audiencias/audiencia_NNN/turnos.json` | a transcrição dividida em falas; todo dado se resolve por `turno_id` |
+| `…/opinioes.json` | as posições de cada participante, ancoradas no turno |
+| `…/grafo.json` | opiniões e participantes como rede |
+| `…/resumo.json` | o resumo por tema, ligado às opiniões |
+| `…/materia.json` | a matéria da Agência Câmara em blocos, com âncoras |
+| `…/argumento_intra.json` | o que sustenta cada posição |
+| `…/clausulas.json` | as ressalvas de cada posição |
+| `…/dqi.json` | os sete indicadores do DQI por fala |
+| `…/cobertura.json` | quem falou × quem foi citado |
+| `…/proveniencia.json` | a conferência de que cada posição aponta para fala real |
 
-Enquanto os arquivos reais não chegam, a página usa a **audiência fictícia
-901** em `frontend/data/mocks/901/`: 23 turnos, 8 participantes, 17 opiniões e
-30 códigos de DQI. Ela é gerada e conferida por:
-
-```bash
-python3 frontend/data/mocks/gerar_mock.py
-```
-
-Os tipos e o carregamento estão em `frontend/lib/thalia.ts`. Para usar os dados
-reais, basta trocar os `import` desse arquivo pela fonte real.
+Os tipos e os dados derivados estão em `frontend/lib/thalia.ts`. Para ler o pacote
+de outro lugar, defina `THALIA_DATA_DIR`.
 
 ## Backend
 
@@ -294,28 +300,26 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 ## O que está faltando
 
-**Dados**
+**Dados e análises**
 
-- [ ] **Dados reais da Thalia.** A página Turno a turno usa a audiência
-  fictícia 901 e mostra o mesmo conteúdo em todas as audiências. Falta integrar
-  os arquivos reais (turnos, opiniões, DQI, cobertura, grafo e resumo) e
-  carregá-los por audiência.
-- [ ] **Formato de `clausulas.json`.** Não estava na documentação; o mock usa um
-  formato suposto.
-- [ ] **Grupo de controle para "minorias × demais".** A persuasão só foi
-  classificada nas 10 audiências do recorte. Para testar as hipóteses, é
-  preciso classificar audiências de controle, o que gera custo na OpenAI.
-
-**Visualizações**
-
-- [ ] **Painel comparativo minorias × demais**, com tamanho, persuasão,
-  argumentação, DQI e cobertura.
+- [ ] **Persuasão no grupo C e no restante do grupo M.** Só 10 das 53 audiências
+  do grupo M têm a persuasão classificada. Para comparar minorias × demais, é
+  preciso classificar audiências do grupo C (e o resto do M), o que gera custo
+  na OpenAI.
+- [ ] **Painel comparativo minorias × demais.** Com o pacote da Thalia, DQI,
+  cobertura e tamanho já podem ser comparados entre M e C sem custo extra.
 - [ ] **Resultados da validação humana** da persuasão: concordância (kappa),
   F1 por classe e matriz de confusão humano × modelo.
 - [ ] **Validação da extração de opiniões** contra o ground truth do corpus.
+
+**Visualizações**
+
 - [ ] **Páginas com dados demonstrativos.** "Interações entre falantes" e
   "Resumo em níveis" ainda mostram uma audiência inventada sobre transição
-  energética. Falta ligá-las aos dados reais ou removê-las.
+  energética. A página Turno a turno já cobre a rede de interação e o resumo com
+  dados reais; falta decidir se as duas saem ou se viram outra coisa.
+- [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
+  posição) e as perdas registradas em `clausulas.json`.
 
 **Home e textos**
 
@@ -328,7 +332,7 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 **Infraestrutura**
 
-- [ ] **Deploy** do backend e do frontend.
+- [ ] **Deploy** do backend e do frontend (o frontend precisa da pasta `dados/`).
 - [ ] **Testes** dos endpoints novos (`summary`, `persuasion-classified-records`)
   e do frontend.
 
