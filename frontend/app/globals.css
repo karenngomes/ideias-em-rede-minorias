@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer components {
+  .timeline-range {
+    height: 4px;
+    appearance: none;
+    border-radius: 9999px;
+    background: linear-gradient(to right, #f97316 var(--progress), #e4e4e7 var(--progress));
+  }
+
+  .timeline-range::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+    appearance: none;
+    border: 3px solid white;
+    border-radius: 9999px;
+    background: #f97316;
+    box-shadow: 0 1px 5px rgb(24 24 27 / 25%);
+  }
+
+  .timeline-range::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    border: 3px solid white;
+    border-radius: 9999px;
+    background: #f97316;
+    box-shadow: 0 1px 5px rgb(24 24 27 / 25%);
+  }
+}
+
+/* Persuasion highlights and audit dialogs, ported from the ideias-em-rede-am dashboard. */
+:root { --ink: #17212b; --muted: #65717d; --blue: #146ca4; }
+.persuasionHighlight { padding: 1px 2px; border-bottom: 3px solid; border-radius: 3px; color: inherit; cursor: help; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.chunkPromptButton { display: inline-flex; align-items: center; gap: 6px; width: 100%; justify-content: center; margin-top: 5px; padding: 7px 9px; border: 1px solid #a8c6d8; border-radius: 7px; color: #245f82; background: #edf7fc; font: inherit; font-size: 10px; font-weight: 700; cursor: pointer; }
+.chunkPromptButton:hover { border-color: #5d9abd; background: #e1f2fb; }
+.chunkPromptButton span { display: grid; place-items: center; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 99px; color: white; background: #397fa6; font-size: 9px; }
+.chunkPromptModal { width: min(920px, calc(100vw - 32px)); max-height: min(86vh, 900px); padding: 0; border: 0; border-radius: 15px; color: var(--ink); background: white; box-shadow: 0 30px 90px rgba(9,29,44,.3); }
+.chunkPromptModal::backdrop { background: rgba(10,27,40,.68); backdrop-filter: blur(2px); }
+.chunkPromptModalHeader { position: sticky; z-index: 2; top: 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; padding: 22px 25px; border-bottom: 1px solid #dfe5e8; background: white; }
+.chunkPromptModalHeader span { color: var(--blue); font-size: 9px; font-weight: 700; letter-spacing: .13em; }
+.chunkPromptModalHeader h2 { margin: 5px 0 3px; font-size: 21px; }
+.chunkPromptModalHeader p { margin: 0; color: var(--muted); font-size: 11px; }
+.chunkPromptModalHeader button { width: 33px; height: 33px; border: 1px solid #d8dfe3; border-radius: 8px; color: #66747d; background: #f7f9f9; font-size: 22px; line-height: 1; cursor: pointer; }
+.chunkPromptModalBody { display: flex; flex-direction: column; gap: 13px; padding: 20px 25px 28px; }
+.executedPrompt { overflow: hidden; border: 1px solid #dfe5e8; border-radius: 10px; }
+.executedPromptHeading { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 14px; background: #f4f7f7; }
+.executedPromptHeading strong { font-size: 12px; }
+.executedPromptHeading span { color: #65747e; font-size: 10px; text-transform: capitalize; }
+.executedPrompt details { border-top: 1px solid #e3e8ea; }
+.executedPrompt summary { padding: 10px 14px; color: #34647f; background: #fafbfa; font-size: 11px; font-weight: 700; cursor: pointer; }
+.executedPrompt pre { overflow: auto; max-height: 340px; margin: 0; padding: 15px; color: #34424b; background: #eef2f3; font-family: ui-monospace, SFMono-Regular, monospace; font-size: 10px; line-height: 1.6; white-space: pre-wrap; word-break: break-word; }
+.auditWarnings { padding: 12px 14px; border-top: 1px solid #ead5a6; color: #76531f; background: #fff8e8; font-size: 10px; line-height: 1.5; }
+.auditWarnings strong { display: block; margin-bottom: 4px; }
+.auditWarnings ul { margin: 0; padding-left: 17px; }
+.chunkErrorButton { width: 100%; padding: 7px 9px; border: 1px solid #dfaaaa; border-radius: 7px; color: #912f2f; background: #fff0f0; font: inherit; font-size: 10px; font-weight: 700; cursor: pointer; }
+.chunkErrorButton:hover { border-color: #c66f6f; background: #ffe5e5; }
+.chunkErrorModal { width: min(680px, calc(100vw - 32px)); max-height: 86vh; padding: 0; border: 0; border-radius: 15px; color: var(--ink); background: white; box-shadow: 0 30px 90px rgba(50,10,10,.3); }
+.chunkErrorModal::backdrop { background: rgba(35,12,12,.65); backdrop-filter: blur(2px); }
+.chunkErrorModalHeader { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; padding: 22px 25px; border-bottom: 1px solid #eedada; background: #fffafa; }
+.chunkErrorModalHeader span { color: #a33d3d; font-size: 9px; font-weight: 700; letter-spacing: .13em; }
+.chunkErrorModalHeader h2 { margin: 5px 0 0; font-size: 21px; }
+.chunkErrorModalHeader button { width: 33px; height: 33px; border: 1px solid #e3caca; border-radius: 8px; color: #875858; background: white; font-size: 22px; line-height: 1; cursor: pointer; }
+.chunkErrorModalBody { padding: 21px 25px 27px; }
+.chunkErrorModalBody dl { display: grid; grid-template-columns: 1fr 1.5fr; gap: 10px; margin: 0 0 18px; }
+.chunkErrorModalBody dl div { padding: 12px; border: 1px solid #e5e8e9; border-radius: 8px; background: #f8f9f8; }
+.chunkErrorModalBody dt, .chunkErrorModalBody section > strong { display: block; margin-bottom: 6px; color: #78848c; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+.chunkErrorModalBody dd { margin: 0; color: #3d4a52; font-size: 11px; }
+.chunkErrorModalBody code { color: #922f2f; font-weight: 700; }
+.chunkErrorModalBody pre { overflow: auto; max-height: 400px; margin: 0; padding: 16px; border: 1px solid #ebd3d3; border-radius: 9px; color: #6f2929; background: #fff4f4; font-family: ui-monospace, SFMono-Regular, monospace; font-size: 11px; line-height: 1.65; white-space: pre-wrap; word-break: break-word; }
+.interactiveAnnotationTag { cursor: pointer; transition: filter .16s ease, opacity .16s ease, transform .16s ease, box-shadow .16s ease; }
+.transcriptParagraphSegment { transition: color .18s ease, background-color .18s ease, box-shadow .18s ease; }
+.interactiveClassificationRow.isParagraphFiltering .transcriptText { color: #9aa2a8; }
+.interactiveClassificationRow.isParagraphFiltering .transcriptParagraphSegment.isParagraphFocused { color: #253640; background-color: #e8f5fc; box-shadow: inset 0 -2px 0 #72afd0; }
+.interactiveAnnotationTag:hover, .interactiveAnnotationTag:focus-visible { z-index: 1; outline: 2px solid rgba(20,49,70,.55); outline-offset: 2px; filter: saturate(1.35) brightness(1.05); transform: translateY(-1px); box-shadow: 0 3px 9px rgba(20,49,70,.18); }
+.persuasionHighlight { scroll-margin-block: 45vh; transition: color .16s ease, background-color .16s ease, border-color .16s ease, opacity .16s ease, filter .16s ease, box-shadow .16s ease; }
+.interactiveClassificationRow.isHighlightFiltering .persuasionHighlight { color: #a3aaaf !important; background-color: #f2f4f5 !important; border-bottom-color: transparent !important; opacity: .38; filter: grayscale(1) saturate(0); box-shadow: none; }
+.interactiveClassificationRow.isHighlightFiltering .persuasionHighlight.isHighlightFocused { position: relative; z-index: 1; color: #17232c !important; background-color: #fff176 !important; border-bottom-color: #e88b00 !important; opacity: 1; filter: saturate(1.35) brightness(1.04); box-shadow: 0 0 0 2px rgba(255,193,7,.42), 0 2px 8px rgba(105,69,0,.18); }
+.interactiveClassificationRow.isHighlightPinned .persuasionHighlight.isHighlightFocused { font-weight: 700; background-color: #ffe44d !important; border-bottom-color: #d87300 !important; box-shadow: 0 0 0 3px rgba(255,183,0,.48), 0 4px 13px rgba(105,69,0,.24); }

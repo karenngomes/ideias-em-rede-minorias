@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { --ink:#173f51; --accent:#147d75; --bg:#f3f6f7; --muted:#64747b; --warn:#fff2c7; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:#17252b; font:16px/1.5 Arial,sans-serif; }
+    main { max-width:980px; margin:0 auto; padding:28px 18px 80px; }
+    header { display:flex; justify-content:space-between; gap:16px; align-items:center; margin-bottom:18px; }
+    h1,h2,h3 { color:var(--ink); margin:0 0 12px; }
+    .card { background:white; border:1px solid #dce5e8; border-radius:12px; padding:22px; margin:14px 0; box-shadow:0 2px 8px #173f5110; }
+    .meta,.muted { color:var(--muted); font-size:14px; }
+    .context { color:#aab3b7; background:#fafbfb; border-left:4px solid #e2e8ea; white-space:pre-wrap; }
+    .target { color:#111; background:#fff; border:3px solid var(--accent); white-space:pre-wrap; font-size:18px; font-weight:500; }
+    .choice-row { display:flex; flex-wrap:wrap; gap:12px; }
+    label.option { border:1px solid #bfced3; border-radius:9px; padding:11px 15px; cursor:pointer; }
+    input,select,textarea,button { font:inherit; }
+    input[type="text"],input[type="email"],select,textarea { width:100%; padding:10px; border:1px solid #aebfc5; border-radius:7px; }
+    textarea { min-height:90px; resize:vertical; }
+    .annotation { border-top:1px solid #dce5e8; padding-top:18px; margin-top:18px; }
+    .field { margin:12px 0; }
+    .field label { display:block; font-weight:bold; margin-bottom:5px; }
+    .study-summary { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:18px 0; }
+    .summary-item { padding:14px; border:1px solid #dce5e8; border-radius:9px; text-align:center; background:#f8fafb; }
+    .summary-item strong { display:block; color:var(--ink); font-size:24px; }
+    .participant-counts { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 18px; }
+    .participant-count { padding:7px 11px; border-radius:999px; background:#e5eef0; color:var(--ink); font-size:14px; }
+    button { border:0; border-radius:8px; padding:11px 16px; cursor:pointer; font-weight:bold; }
+    .primary { background:var(--accent); color:white; }
+    .secondary { background:#e5eef0; color:var(--ink); }
+    .danger { background:#f8dddd; color:#8a2727; float:right; }
+    .warning { background:var(--warn); border-color:#dfc667; }
+    .identity-notice { padding:14px 16px; border:1px solid #dfc667; border-left:5px solid #c28a00; border-radius:9px; color:#5f4700; background:var(--warn); }
+    .identity-notice strong { display:block; margin-bottom:4px; color:#493600; }
+    .llm { border-left:5px solid #8166aa; cursor:pointer; transition:opacity .15s,box-shadow .15s,border-color .15s; }
+    .llm:hover { box-shadow:0 3px 14px #173f5130; }
+    .llm.active { border-width:3px 3px 3px 8px; box-shadow:0 4px 18px #173f5140; }
+    .llm.dimmed { opacity:.38; }
+    .evidence-other { text-decoration:underline 3px #64747b; text-underline-offset:3px; }
+    .evidence-active { color:#111; border-radius:3px; padding:1px 2px; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
+    .actions { display:flex; gap:10px; justify-content:flex-end; margin-top:20px; }
+    .continue-action button { width:100%; }
+    .finish-action { margin-top:18px; padding-top:18px; border-top:1px solid #dce5e8; text-align:right; }
+    .finish-action p { margin:0 0 10px; color:var(--muted); font-size:14px; }
+    .protocol-button { position:fixed; right:18px; top:18px; z-index:20; box-shadow:0 2px 8px #173f5130; }
+    .modal { width:min(920px,calc(100vw - 32px)); max-height:min(86vh,900px); padding:0; border:0; border-radius:15px; color:var(--ink); background:white; box-shadow:0 30px 90px rgba(9,29,44,.3); }
+    .modal::backdrop { background:rgba(10,27,40,.68); backdrop-filter:blur(2px); }
+    .modal-header { position:sticky; z-index:2; top:0; display:flex; align-items:flex-start; justify-content:space-between; gap:20px; padding:22px 25px; border-bottom:1px solid #dfe5e8; background:white; }
+    .modal-header span { color:#397fa6; font-size:9px; font-weight:700; letter-spacing:.13em; }
+    .modal-header h2 { margin:5px 0 3px; font-size:21px; }
+    .modal-header p { margin:0; color:var(--muted); font-size:11px; }
+    .modal-close { width:33px; height:33px; padding:0; border:1px solid #d8dfe3; border-radius:8px; color:#66747d; background:#f7f9f9; font-size:22px; line-height:1; }
+    .modal-body { display:flex; flex-direction:column; gap:13px; padding:20px 25px 28px; }
+    .definition { overflow:hidden; margin:0; padding:14px; border:1px solid #dfe5e8; border-radius:10px; }
+    .example { background:#f3f6f7; border-left:4px solid var(--accent); padding:10px 12px; margin-top:8px; }
+    .hidden { display:none !important; }
+    #status { position:fixed; bottom:14px; right:14px; background:#17252b; color:white; padding:10px 14px; border-radius:7px; }
+    @media(max-width:650px) { header { align-items:flex-start; flex-direction:column; } .card { padding:16px; } .study-summary { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<button class="secondary protocol-button" onclick="openProtocol()">Consultar definições e protocolo</button>
+<main>
+  <header><div><h1>Validação de persuasão</h1><div id="evaluator" class="meta"></div></div><div id="progress" class="meta"></div></header>
+  <section id="landing" class="card">
+    <h2>Sobre este experimento</h2>
+    <p>Este estudo avalia como técnicas de persuasão aparecem em falas de audiências públicas e compara anotações humanas com classificações produzidas por um modelo de linguagem.</p>
+    <h3>Como funciona</h3>
+    <p>Você receberá um parágrafo acompanhado do contexto anterior e posterior. Primeiro fará sua própria anotação, sem ver a resposta do modelo. Depois verá a classificação da LLM e poderá avaliá-la.</p>
+    <p>Cada parágrafo leva poucos minutos. Após concluir um parágrafo, você poderá anotar outro ou encerrar sua participação. Sua identificação será usada somente para associar e contabilizar suas anotações.</p>
+    <div id="studyDashboard">
+      <h3>Progresso do estudo</h3>
+      <div class="study-summary"><div class="summary-item"><strong id="totalCompleted">–</strong>concluídas</div><div class="summary-item"><strong id="totalRequired">–</strong>necessárias</div><div class="summary-item"><strong id="totalRemaining">–</strong>faltam</div></div>
+      <div id="participantCounts" class="participant-counts"><span class="muted">Carregando progresso...</span></div>
+    </div>
+    <h3>Antes de começar</h3>
+    <p>Leia as definições e o protocolo. Você poderá consultá-los novamente a qualquer momento pelo botão no canto superior da página.</p>
+    <div class="actions"><button class="secondary" onclick="openProtocol()">Ler definições e protocolo</button><button class="primary" onclick="startExperiment()">Começar</button></div>
+  </section>
+  <section id="identification" class="card hidden">
+    <h2>Identificação do participante</h2>
+    <p>Selecione seu nome antes de iniciar. Todas as anotações serão associadas a essa identificação.</p>
+    <div class="field"><label for="annotator">Anotador</label><select id="annotator" onchange="onAnnotatorChange()"><option value="">Selecione</option><option value="thali">Thali</option><option value="robson">Robson</option><option value="karen">Karen</option><option value="outro">Outro</option></select></div>
+    <div id="otherParticipantFields" class="hidden">
+      <div class="identity-notice"><strong>Use sempre o mesmo e-mail</strong>O e-mail permite recuperar seu progresso e evita que você receba novamente um trecho já anotado.</div>
+      <div class="field"><label for="participantName">Nome</label><input id="participantName" type="text" autocomplete="name"></div>
+      <div class="field"><label for="participantEmail">E-mail</label><input id="participantEmail" type="email" autocomplete="email"></div>
+    </div>
+    <div class="actions"><button class="primary" onclick="registerParticipant()">Começar</button></div>
+  </section>
+  <section id="done" class="card hidden"><h2>Avaliação concluída</h2><p>Não existem tarefas pendentes para este avaliador.</p></section>
+  <div id="app" class="hidden">
+    <section class="card"><div id="taskMeta" class="meta"></div><h2>Contexto anterior</h2><div id="previous" class="context card"></div><h2>Parágrafo avaliado</h2><div id="target" class="target card"></div><h2>Contexto posterior</h2><div id="next" class="context card"></div></section>
+    <section id="humanPhase" class="card">
+      <h2>1. Anotação independente</h2>
+      <p>Existe alguma técnica de persuasão no parágrafo avaliado?</p>
+      <div class="choice-row"><label class="option"><input type="radio" name="has" value="yes"> Sim</label><label class="option"><input type="radio" name="has" value="no"> Não</label></div>
+      <div id="annotations" class="hidden"></div>
+      <button id="addButton" class="secondary hidden" type="button" onclick="addAnnotation()">Adicionar outra categoria</button>
+      <div class="actions"><button class="primary" onclick="submitHuman()">Salvar e revelar a LLM</button></div>
+    </section>
+    <section id="llmPhase" class="card hidden">
+      <h2>2. Avaliação da resposta da LLM</h2>
+      <p class="muted">Sua anotação independente já foi salva e não pode ser alterada nesta tela.</p>
+      <div id="llmAnnotations"></div>
+      <div class="actions continue-action"><button class="primary" onclick="submitLlm(false)">Salvar anotação atual e anotar mais um parágrafo</button></div>
+      <div class="finish-action">
+        <p>Se não quiser anotar outro parágrafo, encerre sua participação aqui.</p>
+        <button class="secondary" onclick="submitLlm(true)">Salvar anotação atual e finalizar processo de anotação</button>
+      </div>
+    </section>
+  </div>
+</main>
+<dialog id="protocolModal" class="modal" aria-labelledby="protocolTitle" onclick="closeProtocolOnBackdrop(event)">
+  <div class="modal-header">
+    <div><span>PROTOCOLO</span><h2 id="protocolTitle">Definições e protocolo de anotação</h2><p>Consulte as categorias e regras durante toda a avaliação.</p></div>
+    <button class="modal-close" onclick="closeProtocol()" aria-label="Fechar modal">×</button>
+  </div>
+  <div class="modal-body">
+    <p>Classifique somente o parágrafo em destaque. Use os contextos anterior e posterior apenas para compreender referências, assunto e intenção.</p>
+    <div class="definition"><h3>1. Attack on reputation</h3><p>O argumento não enfrenta diretamente o assunto discutido, mas ataca ou desqualifica uma pessoa, grupo, organização, instituição, objeto ou atividade para reduzir sua credibilidade. Inclui insultos e rótulos dirigidos a um alvo; questionamento de competência, experiência ou credibilidade; acusações de hipocrisia ou incoerência; associação do alvo a pessoas, grupos ou práticas vistas negativamente; e alegações negativas sobre caráter, moralidade ou reputação. Não classifique críticas fundamentadas diretamente na proposta, nos dados ou no mérito do argumento como ataque à reputação.</p></div>
+    <div class="definition"><h3>2. Justification</h3><p>Há uma posição, conclusão, recomendação ou decisão acompanhada de uma razão usada para justificá-la ou apoiá-la. A justificativa pode recorrer a autoridade ou experiência; valores morais, religiosos ou democráticos; patriotismo ou interesse de um grupo; popularidade ou opinião da maioria; medo de uma consequência; tradição ou prática estabelecida. A simples presença dessas palavras não basta. Deve ser possível identificar o que está sendo defendido, rejeitado ou justificado e a razão ou apelo empregado para sustentá-lo. A posição pode estar implícita ou aparecer no contexto, desde que a relação de justificativa seja clara.</p></div>
+    <div class="definition"><h3>3. Simplification</h3><p>O argumento reduz excessivamente um problema complexo, especialmente ao apresentar uma única causa como explicação suficiente; tratar duas alternativas como as únicas possíveis; afirmar que existe apenas uma solução; apresentar uma cadeia inevitável ou altamente especulativa de consequências; ou ignorar etapas, condições ou alternativas relevantes. Não use esta categoria apenas porque faltam detalhes ou porque a explicação parece superficial.</p></div>
+    <div class="definition"><h3>4. Distraction</h3><p>O texto desvia a atenção do tema ou argumento principal em vez de respondê-lo diretamente. Inclui substituir a posição original por uma versão distorcida, introduzir informação irrelevante, responder a uma crítica levantando outro caso ou mudar de assunto para evitar a questão. Informação adicional, comparação ou contextualização relevante não constitui distração.</p></div>
+    <div class="definition"><h3>5. Call</h3><p>O texto procura incentivar o público ou os participantes a agir, deixar de agir, apoiar, rejeitar ou adotar determinada forma de pensar. Inclui pedidos e convocações diretas, palavras de ordem e slogans, apelos para agir imediatamente e frases destinadas a encerrar o debate ou impedir questionamentos. Pedidos administrativos ou procedimentais normalmente não constituem Call.</p></div>
+    <div class="definition"><h3>6. Manipulative wording</h3><p>O texto emprega palavras ou expressões não neutras, emocionalmente carregadas, confusas, vagas, exageradas ou minimizadoras para influenciar a percepção do público. Inclui linguagem fortemente positiva ou negativa, exagero ou minimização, formulação deliberadamente vaga ou confusa e repetição persuasiva. Uma opinião não é automaticamente linguagem manipulativa. Quando uma expressão carregada desacreditar diretamente um alvo, considere também Attack on reputation se ambas as definições forem claramente satisfeitas.</p></div>
+    <div class="definition"><h3>7. Nenhuma</h3><p>Use quando o TEXTO_ALVO não contiver evidência suficiente das seis categorias anteriores, como descrição factual neutra, pergunta genuína, explicação técnica, crítica pertinente ao mérito, fala procedimental ou afirmação dependente de suposições externas. Nenhuma é exclusiva e nunca pode aparecer com outra categoria.</p></div>
+    <div class="definition"><h3>Regras de anotação</h3><ol><li>Adote uma abordagem conservadora. Em caso de dúvida, não atribua a categoria.</li><li>Não procure obrigatoriamente uma técnica de persuasão.</li><li>Não faça fact-checking nem use conhecimento externo.</li><li>Evite julgamentos políticos, partidários, morais ou pessoais.</li><li>Considere interlocutores e tema, mas classifique somente o TEXTO_ALVO.</li><li>Extraia o menor trecho literal, exato e contínuo do TEXTO_ALVO que comprove cada categoria.</li><li>Se partes diferentes sustentarem a mesma categoria, produza objetos separados.</li><li>Se o mesmo trecho sustentar mais de uma categoria, produza um objeto para cada uma.</li><li>Se Nenhuma for escolhida, use o TEXTO_ALVO completo como evidência.</li><li>A explicação deve ligar concretamente o trecho à definição, sem especular.</li></ol></div>
+    <div class="actions"><button class="primary" onclick="closeProtocol()">Fechar e continuar</button></div>
+  </div>
+</dialog>
+<div id="status" class="hidden"></div>
+<script>
+  let state = { categories: [], task: null, startedAt: null, email: null, modelAnnotations: [] };
+  const qs = selector => document.querySelector(selector);
+  const qsa = selector => Array.from(document.querySelectorAll(selector));
+
+  qsa('input[name="has"]').forEach(el => el.addEventListener('change', onPersuasionChange));
+  qs('#protocolModal').addEventListener('cancel', function(event) { event.preventDefault(); closeProtocol(); });
+  loadStudyStats();
+
+  function init(data) {
+    const assignment=data.assignment;
+    state.categories=data.categories; state.email=data.email; state.task=assignment&&assignment.task; state.startedAt=new Date();
+    qs('#evaluator').textContent = data.evaluator;
+    updateStats(data.stats);
+    renderStudyStats(data.studyStats);
+    if (!assignment) {
+      qs('#done').classList.remove('hidden');
+      showNoTasksMessage(data.studyStats);
+      return;
+    }
+    renderTask(assignment.task); qs('#app').classList.remove('hidden');
+    if (assignment.phase==='llm') showLlm({task:assignment.task,modelAnnotations:assignment.modelAnnotations});
+  }
+
+  function startExperiment() {
+    qs('#landing').classList.add('hidden');
+    qs('#identification').classList.remove('hidden');
+  }
+
+  function openProtocol() { const modal=qs('#protocolModal'); if (!modal.open) modal.showModal(); document.body.style.overflow='hidden'; }
+  function closeProtocol() { const modal=qs('#protocolModal'); if (modal.open) modal.close(); document.body.style.overflow=''; }
+  function closeProtocolOnBackdrop(event) { if (event.target===qs('#protocolModal')) closeProtocol(); }
+
+  function loadStudyStats() {
+    google.script.run.withSuccessHandler(renderStudyStats).withFailureHandler(function() {
+      qs('#participantCounts').innerHTML='<span class="muted">Não foi possível carregar o progresso agora.</span>';
+    }).getStudyStats();
+  }
+
+  function renderStudyStats(stats) {
+    if (!stats) return;
+    qs('#totalCompleted').textContent=stats.totalCompleted;
+    qs('#totalRequired').textContent=stats.totalRequired;
+    qs('#totalRemaining').textContent=stats.remaining;
+    qs('#participantCounts').innerHTML=stats.participants.map(function(participant) {
+      return `<span class="participant-count"><strong>${escapeHtml(participant.name)}</strong>: ${participant.completed}</span>`;
+    }).join('');
+  }
+
+  function showNoTasksMessage(stats) {
+    const complete=stats && stats.remaining===0;
+    qs('#done h2').textContent=complete ? 'Anotações concluídas' : 'Nenhuma tarefa disponível agora';
+    qs('#done p').textContent=complete
+      ? 'O número necessário de anotações já foi alcançado. Não precisamos de mais anotações neste momento. Obrigado!'
+      : 'Ainda existem anotações pendentes, mas as tarefas disponíveis já estão reservadas para outros participantes.';
+  }
+
+  function onAnnotatorChange() {
+    const isOther = qs('#annotator').value === 'outro';
+    qs('#otherParticipantFields').classList.toggle('hidden', !isOther);
+    qs('#participantName').required = isOther;
+    qs('#participantEmail').required = isOther;
+  }
+
+  function registerParticipant() {
+    const annotator=qs('#annotator').value, name=qs('#participantName').value.trim(), email=qs('#participantEmail').value.trim();
+    if (!annotator) return fail('Selecione um anotador.');
+    if (annotator==='outro' && (!name || !email)) return fail('Preencha nome e e-mail.');
+    busy('Salvando identificação...');
+    google.script.run.withSuccessHandler(function(participant) {
+      qs('#identification').classList.add('hidden');
+      loadParticipant(participant.email);
+    }).withFailureHandler(fail).registerParticipant(annotator,name,email);
+  }
+
+  function loadParticipant(email) {
+    state.email=email;
+    google.script.run.withSuccessHandler(function(data) { hideStatus(); init(data); }).withFailureHandler(function() {
+      state.email=null;
+      qs('#identification').classList.remove('hidden'); fail('Identifique-se para iniciar.');
+    }).getBootstrapData(email);
+  }
+
+  function renderTask(task) {
+    qs('#taskMeta').textContent = `Audiência ${task.audienceId} · fala ${task.speechNumber} · parágrafo ${task.paragraphNumber} · ${task.speaker}`;
+    qs('#previous').textContent = task.previousContext || '[não há]';
+    qs('#target').textContent = task.targetText;
+    qs('#next').textContent = task.nextContext || '[não há]';
+  }
+
+  function onPersuasionChange(event) {
+    const yes = event.target.value === 'yes';
+    qs('#annotations').classList.toggle('hidden', !yes);
+    qs('#addButton').classList.toggle('hidden', !yes);
+    if (yes && !qs('.annotation')) addAnnotation();
+    if (!yes) qs('#annotations').innerHTML = '';
+  }
+
+  function addAnnotation() {
+    const index = qsa('.annotation').length;
+    const block = document.createElement('div'); block.className = 'annotation';
+    block.innerHTML = `<button class="danger" type="button" onclick="this.parentElement.remove()">Remover</button><h3>Anotação ${index + 1}</h3><div class="field"><label>Categoria</label><select class="category"><option value="">Selecione</option>${state.categories.map(x => `<option value="${x}">${label(x)}</option>`).join('')}</select></div><div class="field"><label>Explicação</label><textarea class="explanation" placeholder="Explique por que o trecho representa essa categoria."></textarea></div><div class="field"><label>Trecho literal do parágrafo</label><textarea class="evidence" placeholder="Copie exatamente o menor trecho que comprova a classificação."></textarea></div>`;
+    qs('#annotations').appendChild(block);
+  }
+
+  function submitHuman() {
+    const selected = qs('input[name="has"]:checked');
+    if (!selected) return fail('Escolha Sim ou Não.');
+    const hasPersuasion = selected.value === 'yes';
+    const annotations = qsa('.annotation').map(block => ({ category:block.querySelector('.category').value, explanation:block.querySelector('.explanation').value, evidence:block.querySelector('.evidence').value }));
+    if (hasPersuasion && annotations.some(x => !x.category || !x.explanation.trim() || !x.evidence.trim())) return fail('Preencha categoria, explicação e trecho em todas as anotações.');
+    busy('Salvando anotação humana...');
+    google.script.run.withSuccessHandler(showLlm).withFailureHandler(fail).saveHumanAnnotation({ taskId:state.task.taskId, email:state.email, hasPersuasion, annotations, startedAt:state.startedAt.toISOString(), elapsedSeconds:Math.round((new Date()-state.startedAt)/1000) });
+  }
+
+  function showLlm(result) {
+    hideStatus(); qs('#humanPhase').classList.add('hidden'); qs('#llmPhase').classList.remove('hidden');
+    const items = result.modelAnnotations || [];
+    state.modelAnnotations=items;
+    qs('#llmAnnotations').innerHTML = items.length ? items.map((item,index) => `<div class="card llm model-item" data-index="${index}" data-category="${escapeAttr(item.category)}" data-evidence="${escapeAttr(item.evidence)}" data-explanation="${escapeAttr(item.explanation)}" onclick="focusModelAnnotation(${index})"><h3>${label(item.category)}</h3><p><strong>Trecho:</strong> ${escapeHtml(item.evidence)}</p><p><strong>Explicação da LLM:</strong> ${escapeHtml(item.explanation)}</p><div class="field"><label>Sua avaliação</label><select class="decision" onclick="event.stopPropagation()" onchange="onDecisionChange(this)"><option value="">Selecione</option><option>Concordo</option><option>Discordo</option><option>Concordo parcialmente</option></select></div><div class="field"><label>Tipo de erro da LLM</label><select class="error-type" onclick="event.stopPropagation()" disabled><option value="Não se aplica">Não se aplica — concordo com a LLM</option></select></div><div class="field"><label>Comentário <span class="comment-hint">opcional</span></label><textarea class="comment" onclick="event.stopPropagation()" placeholder="Acrescente detalhes quando necessário."></textarea></div></div>`).join('') : '<p>A LLM não retornou anotações para este parágrafo.</p>';
+    renderEvidenceHighlights(null);
+    qs('#llmPhase').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+
+  function submitLlm(finish) {
+    const evaluations = qsa('.model-item').map(block => ({ category:block.dataset.category, evidence:block.dataset.evidence, explanation:block.dataset.explanation, decision:block.querySelector('.decision').value, errorType:block.querySelector('.error-type').value, comment:block.querySelector('.comment').value }));
+    if (evaluations.some(x => !x.decision)) return fail('Avalie todas as anotações da LLM.');
+    if (evaluations.some(x => x.decision!=='Concordo' && !x.errorType)) return fail('Informe o tipo de erro da LLM.');
+    if (evaluations.some(x => x.errorType==='Outro' && !x.comment.trim())) return fail('Descreva o erro quando selecionar Outro.');
+    busy('Salvando avaliação...');
+    google.script.run.withSuccessHandler(nextTask).withFailureHandler(fail).saveLlmEvaluation({taskId:state.task.taskId,email:state.email,evaluations,finish});
+  }
+
+  function nextTask(result) {
+    hideStatus(); updateStats(result.stats); renderStudyStats(result.studyStats); const assignment=result.assignment; state.task=assignment&&assignment.task; state.startedAt=new Date();
+    if (!assignment) {
+      qs('#app').classList.add('hidden'); qs('#done').classList.remove('hidden');
+      if (result.finished) {
+        qs('#done h2').textContent='Participação finalizada';
+        qs('#done p').textContent='Suas anotações foram salvas. Obrigado pela participação.';
+      } else {
+        showNoTasksMessage(result.studyStats);
+      }
+      return;
+    }
+    qs('#humanPhase').classList.remove('hidden'); qs('#llmPhase').classList.add('hidden'); qs('#annotations').innerHTML=''; qsa('input[name="has"]').forEach(x=>x.checked=false); qs('#annotations').classList.add('hidden'); qs('#addButton').classList.add('hidden'); renderTask(assignment.task); window.scrollTo({top:0,behavior:'smooth'});
+  }
+
+  function updateStats(stats) { qs('#progress').textContent = `${stats.completed} parágrafo(s) concluído(s) por você · ${stats.total} no estudo`; }
+  function onDecisionChange(select) {
+    const block=select.closest('.model-item'), errorSelect=block.querySelector('.error-type'), hint=block.querySelector('.comment-hint');
+    if (select.value==='Concordo') {
+      errorSelect.innerHTML='<option value="Não se aplica">Não se aplica — concordo com a LLM</option>';
+      errorSelect.disabled=true; hint.textContent='opcional';
+    } else {
+      errorSelect.disabled=false;
+      errorSelect.innerHTML='<option value="">Selecione</option><option>O texto não contém persuasão, mas a LLM anotou mesmo assim</option><option>Existe persuasão, mas a LLM errou a classe</option><option>A classe está correta, mas o trecho literal não existe no texto</option><option>A classe está correta, mas a explicação está errada</option><option>Nem a classe nem a explicação estão corretas</option><option>Outro</option>';
+      hint.textContent='obrigatório para Outro';
+    }
+  }
+  function focusModelAnnotation(index) {
+    qsa('.model-item').forEach((block,i) => { block.classList.toggle('active',i===index); block.classList.toggle('dimmed',i!==index); });
+    renderEvidenceHighlights(index);
+    qs('#target').scrollIntoView({behavior:'smooth',block:'center'});
+  }
+  function renderEvidenceHighlights(activeIndex) {
+    const text=state.task.targetText, annotations=state.modelAnnotations||[], ranges=[];
+    annotations.forEach((item,index) => {
+      if (!item.evidence) return;
+      const start=text.toLocaleLowerCase().indexOf(item.evidence.toLocaleLowerCase());
+      if (start>=0) ranges.push({start,end:start+item.evidence.length,index,category:item.category});
+    });
+    ranges.sort((a,b) => a.start-b.start || (a.index===activeIndex?-1:1));
+    let cursor=0, html='';
+    ranges.forEach(range => {
+      if (range.start<cursor) return;
+      html+=escapeHtml(text.slice(cursor,range.start));
+      const selected=range.index===activeIndex;
+      const style=selected ? ` style="background:${categoryColor(range.category)}"` : '';
+      html+=`<span class="${selected?'evidence-active':'evidence-other'}"${style}>${escapeHtml(text.slice(range.start,range.end))}</span>`;
+      cursor=range.end;
+    });
+    html+=escapeHtml(text.slice(cursor)); qs('#target').innerHTML=html;
+  }
+  function categoryColor(category) {
+    return ({ataque_a_reputacao:'#ff8a80',justificativa:'#80cbc4',simplificacao:'#ffd180',distracao:'#b39ddb',chamada:'#81d4fa',linguagem_manipulativa:'#f48fb1'})[category]||'#fff59d';
+  }
+  function label(value) { return String(value||'').replaceAll('_',' ').replace(/^./,x=>x.toUpperCase()); }
+  function escapeHtml(value) { const d=document.createElement('div'); d.textContent=value||''; return d.innerHTML; }
+  function escapeAttr(value) { return escapeHtml(value).replaceAll('"','&quot;'); }
+  function busy(message) { qs('#status').textContent=message; qs('#status').classList.remove('hidden'); }
+  function hideStatus() { qs('#status').classList.add('hidden'); }
+  function fail(error) { qs('#status').textContent = typeof error==='string' ? error : (error.message||String(error)); qs('#status').classList.remove('hidden'); }
+</script>
+</body>
+</html>

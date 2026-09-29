@@ -1,0 +1,284 @@
+{
+  "nos": [
+    {
+      "id": "p::Deputada Ana Ribeiro",
+      "tipo": "participante",
+      "rotulo": "Deputada Ana Ribeiro",
+      "dados": {
+        "cargo": "Deputada (PSOL-RJ)",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "p::Joana Santos",
+      "tipo": "participante",
+      "rotulo": "Joana Santos",
+      "dados": {
+        "cargo": "Rede de Mulheres Negras da Baixada",
+        "n_opinioes": 3
+      }
+    },
+    {
+      "id": "p::Deputado Carlos Mendes",
+      "tipo": "participante",
+      "rotulo": "Deputado Carlos Mendes",
+      "dados": {
+        "cargo": "Deputado (PL-SP)",
+        "n_opinioes": 2
+      }
+    },
+    {
+      "id": "p::Paulo Lima",
+      "tipo": "participante",
+      "rotulo": "Paulo Lima",
+      "dados": {
+        "cargo": "Ministério da Saúde",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende a realização do debate sobre racismo institucional na saúde",
+      "dados": {
+        "falante": "Deputada Ana Ribeiro",
+        "turno_id": 1,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "afirma que mulheres negras esperam o dobro do tempo por pré-natal",
+      "dados": {
+        "falante": "Joana Santos",
+        "turno_id": 2,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "defende aprovar ainda neste semestre um protocolo de atendimento com recorte racial",
+      "dados": {
+        "falante": "Joana Santos",
+        "turno_id": 2,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "considera que o problema é de gestão e recursos, não racial",
+      "dados": {
+        "falante": "Deputado Carlos Mendes",
+        "turno_id": 3,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "sustenta que a desigualdade persiste mesmo controlando por renda",
+      "dados": {
+        "falante": "Joana Santos",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "propõe indicador de equidade racial e protocolo construído com os estados, com metas graduais",
+      "dados": {
+        "falante": "Paulo Lima",
+        "turno_id": 6,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0006",
+      "tipo": "opiniao",
+      "rotulo": "apoia a proposta intermediária se houver fonte de financiamento",
+      "dados": {
+        "falante": "Deputado Carlos Mendes",
+        "turno_id": 7,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Deputada Ana Ribeiro",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Joana Santos",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Joana Santos",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Deputado Carlos Mendes",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Joana Santos",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Paulo Lima",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Deputado Carlos Mendes",
+      "destino": "o::0006",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Deputada Ana Ribeiro",
+      "destino": "p::Joana Santos",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 2
+      }
+    },
+    {
+      "origem": "p::Joana Santos",
+      "destino": "p::Deputado Carlos Mendes",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 3
+      }
+    },
+    {
+      "origem": "p::Deputado Carlos Mendes",
+      "destino": "p::Joana Santos",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 4
+      }
+    },
+    {
+      "origem": "p::Joana Santos",
+      "destino": "p::Deputada Ana Ribeiro",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 5
+      }
+    },
+    {
+      "origem": "p::Deputada Ana Ribeiro",
+      "destino": "p::Paulo Lima",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 6
+      }
+    },
+    {
+      "origem": "p::Paulo Lima",
+      "destino": "p::Deputado Carlos Mendes",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 7
+      }
+    },
+    {
+      "origem": "p::Deputado Carlos Mendes",
+      "destino": "p::Deputada Ana Ribeiro",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 8
+      }
+    },
+    {
+      "origem": "p::Deputada Ana Ribeiro",
+      "destino": "p::Joana Santos",
+      "tipo": "concede_palavra",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 1
+      }
+    },
+    {
+      "origem": "p::Deputada Ana Ribeiro",
+      "destino": "p::Paulo Lima",
+      "tipo": "concede_palavra",
+      "peso": 1.0,
+      "dados": {
+        "turno_id": 5
+      }
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0003",
+      "tipo": "mesmo_tema",
+      "peso": 0.71,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0004",
+      "tipo": "mesmo_tema",
+      "peso": 0.78,
+      "dados": {}
+    },
+    {
+      "origem": "o::0005",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.83,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.66,
+      "dados": {}
+    }
+  ]
+}

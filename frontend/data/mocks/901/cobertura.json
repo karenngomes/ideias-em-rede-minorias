@@ -1,0 +1,70 @@
+{
+  "sample_id": 901,
+  "n_falantes": 4,
+  "n_parlamentares": 2,
+  "n_convidados": 2,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.528,
+      "citacao_civil_opinioes": 0.25,
+      "deficit_civil": 0.278
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.723,
+      "citacao_civil_opinioes": 0.333,
+      "deficit_civil": 0.389
+    }
+  },
+  "citados_ausentes": [
+    "Ministra da Igualdade Racial"
+  ],
+  "falantes_silenciados": [
+    "Joana Santos"
+  ],
+  "falantes": [
+    {
+      "nome": "Deputada Ana Ribeiro",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 3,
+      "n_palavras": 68,
+      "turnos": [
+        1,
+        5,
+        8
+      ]
+    },
+    {
+      "nome": "Joana Santos",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 81,
+      "turnos": [
+        2,
+        4
+      ]
+    },
+    {
+      "nome": "Deputado Carlos Mendes",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 51,
+      "turnos": [
+        3,
+        7
+      ]
+    },
+    {
+      "nome": "Paulo Lima",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 52,
+      "turnos": [
+        6
+      ]
+    }
+  ]
+}

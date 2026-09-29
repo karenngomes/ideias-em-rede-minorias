@@ -1,0 +1,83 @@
+<div id="label-distribution-viz">
+  <h2>Distribuição das labels</h2>
+  <div class="viz-grid">
+    <section>
+      <h3>Prompts disponíveis</h3>
+      <div class="chart" id="available-chart"></div>
+    </section>
+    <section>
+      <h3>Amostra estratificada</h3>
+      <div class="chart" id="sample-chart"></div>
+    </section>
+  </div>
+  <p class="text-small text-muted">Contagem de ocorrências por label. Um prompt multilabel pode aparecer em mais de uma barra.</p>
+</div>
+
+<style>
+  #label-distribution-viz { width: 100%; }
+  #label-distribution-viz h2 { margin-bottom: 1rem; }
+  #label-distribution-viz h3 { margin-bottom: .5rem; }
+  #label-distribution-viz .viz-grid { align-items: start; }
+  #label-distribution-viz .chart { width: 100%; min-height: 310px; }
+  #label-distribution-viz svg { display: block; width: 100%; height: auto; }
+  #label-distribution-viz .bar { fill: var(--viz-series-1); }
+  #label-distribution-viz .sample-bar { fill: var(--viz-series-2); }
+  #label-distribution-viz .grid-line { stroke: var(--border); stroke-width: 1; }
+  #label-distribution-viz .frame { fill: none; stroke: var(--border); stroke-width: 1; }
+  #label-distribution-viz text { fill: var(--foreground); font-size: 12px; }
+  #label-distribution-viz .tick { fill: var(--muted-foreground); }
+  #label-distribution-viz .value { font-weight: 500; }
+  #label-distribution-viz .text-muted { margin-top: .75rem; }
+</style>
+
+<script>
+(() => {
+  const root = document.getElementById('label-distribution-viz');
+  const labels = [
+    { label: 'Ataque à reputação', available: 321, sample: 15 },
+    { label: 'Justificativa', available: 1256, sample: 15 },
+    { label: 'Simplificação', available: 433, sample: 15 },
+    { label: 'Distração', available: 397, sample: 15 },
+    { label: 'Chamada', available: 665, sample: 15 },
+    { label: 'Linguagem manipulativa', available: 394, sample: 15 },
+    { label: 'Nenhuma', available: 264, sample: 15 }
+  ];
+
+  function draw(containerId, key, className) {
+    const container = root.querySelector(`#${containerId}`);
+    const width = Math.max(320, Math.floor(container.getBoundingClientRect().width));
+    const height = 310;
+    const margin = { top: 12, right: 54, bottom: 34, left: width < 430 ? 126 : 156 };
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+    const maxValue = Math.max(...labels.map(item => item[key]));
+    const paddedMax = key === 'sample' ? 18 : Math.ceil(maxValue / 200) * 200;
+    const rowHeight = innerHeight / labels.length;
+    const barHeight = Math.min(22, rowHeight * .62);
+    const x = value => margin.left + (value / paddedMax) * innerWidth;
+
+    const ticks = Array.from({ length: 5 }, (_, index) => paddedMax * index / 4);
+    const tickMarkup = ticks.map(value => {
+      const xpos = x(value);
+      return `<line class="grid-line" x1="${xpos}" y1="${margin.top}" x2="${xpos}" y2="${margin.top + innerHeight}"/><text class="tick" x="${xpos}" y="${height - 10}" text-anchor="middle">${Math.round(value).toLocaleString('pt-BR')}</text>`;
+    }).join('');
+
+    const bars = labels.map((item, index) => {
+      const y = margin.top + index * rowHeight + (rowHeight - barHeight) / 2;
+      const barWidth = Math.max(1, x(item[key]) - margin.left);
+      const valueX = Math.min(width - 6, margin.left + barWidth + 6);
+      return `<text x="${margin.left - 8}" y="${y + barHeight / 2 + 4}" text-anchor="end">${item.label}</text><rect class="bar ${className}" x="${margin.left}" y="${y}" width="${barWidth}" height="${barHeight}" data-tooltip="${item.label}: ${item[key].toLocaleString('pt-BR')} ocorrências"/><text class="value" x="${valueX}" y="${y + barHeight / 2 + 4}">${item[key].toLocaleString('pt-BR')}</text>`;
+    }).join('');
+
+    container.innerHTML = `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Distribuição de ocorrências por label"><title>Distribuição de labels</title><desc>Barras horizontais com as ocorrências de cada categoria.</desc><rect class="frame" data-chart-frame x="${margin.left}" y="${margin.top}" width="${innerWidth}" height="${innerHeight}"/>${tickMarkup}${bars}<text class="axis-title" data-axis="x" x="${margin.left + innerWidth / 2}" y="${height - 1}" text-anchor="middle">Ocorrências</text></svg>`;
+  }
+
+  function redraw() {
+    draw('available-chart', 'available', '');
+    draw('sample-chart', 'sample', 'sample-bar');
+  }
+
+  redraw();
+  new ResizeObserver(redraw).observe(root);
+})();
+</script>
