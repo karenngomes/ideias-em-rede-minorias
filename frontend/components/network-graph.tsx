@@ -3,7 +3,6 @@
 import * as d3 from "d3";
 import { Pause, Play, RotateCcw, Search, SkipBack, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArgumentationTab } from "@/components/argumentation/argumentation-tab";
 
 type NodeKind = "topic" | "subtopic" | "deputy";
 
@@ -90,12 +89,7 @@ const partyIdeology: Record<string, string> = {
   PSD: "centro-esquerda",
 };
 
-const tabs = [
-  { id: "interactions", label: "Interações entre falantes" },
-  { id: "deputy-interactions", label: "Interações entre deputados" },
-  { id: "argumentation", label: "Tipo de argumentação" },
-  { id: "summary", label: "Resumo textual com níveis de detalhamento" },
-] as const;
+export type NetworkGraphView = "interactions" | "deputy-interactions" | "summary";
 
 const interactionEvents = [
   { minute: 6, source: "president", target: "ana", type: "Dar a palavra" },
@@ -118,7 +112,7 @@ const interactionStyles: Record<string, { color: string; dash?: string }> = {
   "Solicitar palavra": { color: "#52525b", dash: "5 4" },
 };
 
-export function NetworkGraph() {
+export function NetworkGraph({ view }: { view: NetworkGraphView }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const [selected, setSelected] = useState<string | null>(null);
@@ -126,7 +120,7 @@ export function NetworkGraph() {
   const [revision, setRevision] = useState(0);
   const [currentMinute, setCurrentMinute] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [activeTab, setActiveTab] = useState<(typeof tabs)[number]["id"]>("interactions");
+  const activeTab = view;
   const [filterMode, setFilterMode] = useState<"party" | "ideology">("party");
   const [enabledParties, setEnabledParties] = useState<Set<string>>(() => new Set(parties.map((party) => party.id)));
   const [enabledIdeologies, setEnabledIdeologies] = useState<Set<string>>(() => new Set(ideologies.map((ideology) => ideology.id)));
@@ -356,28 +350,9 @@ export function NetworkGraph() {
   };
 
   return (
-    <main className="min-h-screen bg-[#f8f7f3] text-zinc-950">
-      <nav aria-label="Análises da audiência" className="border-b border-zinc-200 bg-white px-5 pt-3 lg:px-8">
-        <div className="mx-auto max-w-[1500px] overflow-x-auto">
-          <div role="tablist" className="flex min-w-max gap-1">
-            {tabs.map((tab) => {
-              const active = activeTab === tab.id;
-              return <button key={tab.id} type="button" role="tab" aria-selected={active} onClick={() => { setIsPlaying(false); setActiveTab(tab.id); }} className={`relative px-4 py-3 text-sm font-medium transition ${active ? "text-zinc-950" : "text-zinc-500 hover:text-zinc-800"}`}>{tab.label}{active && <span className="absolute inset-x-3 bottom-0 h-0.5 rounded-full bg-orange-500"/>}</button>;
-            })}
-          </div>
-        </div>
-      </nav>
+    <div className="bg-[#f8f7f3] text-zinc-950">
 
       {activeTab === "interactions" ? <>
-      <header className="border-b border-zinc-200/80 bg-white px-5 py-4 lg:px-8">
-        <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="grid size-9 place-items-center rounded-full bg-orange-500 text-sm font-black text-white">IR</div>
-            <div><h1 className="font-semibold tracking-tight">Ideias em Rede</h1><p className="text-xs text-zinc-500">Observatório de audiências públicas</p></div>
-          </div>
-          <div className="hidden rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1.5 text-xs text-zinc-600 sm:block">Audiência de 08 ago. 2026</div>
-        </div>
-      </header>
 
       <section className="mx-auto max-w-[1500px] px-5 py-6 lg:px-8 lg:py-8">
         <div className="mb-6 flex flex-col justify-between gap-4 lg:flex-row lg:items-end">
@@ -434,8 +409,8 @@ export function NetworkGraph() {
           </aside>
         </div>
       </section>
-      </> : activeTab === "deputy-interactions" ? <DeputyInteractionsTab currentMinute={currentMinute} setCurrentMinute={setCurrentMinute} isPlaying={isPlaying} setIsPlaying={setIsPlaying}/> : activeTab === "argumentation" ? <ArgumentationTab/> : activeTab === "summary" ? <SummaryTab/> : <section role="tabpanel" aria-label={tabs.find((tab) => tab.id === activeTab)?.label} className="mx-auto min-h-[calc(100vh-61px)] max-w-[1500px] bg-white"/>}
-    </main>
+      </> : activeTab === "deputy-interactions" ? <DeputyInteractionsTab currentMinute={currentMinute} setCurrentMinute={setCurrentMinute} isPlaying={isPlaying} setIsPlaying={setIsPlaying}/> : activeTab === "summary" ? <SummaryTab/> : null}
+    </div>
   );
 }
 

@@ -18,27 +18,12 @@ import {
 
 const PAGE_SIZE = 20;
 
-// The minority group is encoded in the experiment tag of each classification run.
-const minorityGroups: Array<{ match: string; label: string }> = [
-  { match: "racial-black", label: "Pessoas negras" },
-  { match: "indigenous", label: "Povos indígenas" },
-  { match: "lgbt", label: "LGBTQIA+" },
-  { match: "pcd", label: "Pessoas com deficiência" },
-  { match: "women", label: "Mulheres" },
-];
-
-function groupOf(record: ClassifiedRecord) {
-  const tag = record.runs[0]?.experiments_tag ?? "";
-  return minorityGroups.find((group) => tag.includes(group.match))?.label ?? "Piloto (fora do recorte)";
-}
-
 function percent(value: number, total: number) {
   return total > 0 ? Math.round((value / total) * 100) : 0;
 }
 
-export function ArgumentationTab() {
-  const [records, setRecords] = useState<ClassifiedRecord[]>([]);
-  const [recordId, setRecordId] = useState<number>();
+export function ArgumentationTab({ recordId }: { recordId: number }) {
+  const [record, setRecord] = useState<ClassifiedRecord | null>();
   const [jobId, setJobId] = useState<string>();
   const [summary, setSummary] = useState<ClassificationSummary>();
   const [chunks, setChunks] = useState<ChunkPage>();
@@ -48,13 +33,12 @@ export function ArgumentationTab() {
   useEffect(() => {
     getClassifiedRecords()
       .then(({ items }) => {
-        setRecords(items);
-        const first = items.find((record) => groupOf(record) !== "Piloto (fora do recorte)") ?? items[0];
-        setRecordId(first?.id);
-        setJobId(first?.runs[0]?.job_id);
+        const current = items.find((item) => item.id === recordId) ?? null;
+        setRecord(current);
+        setJobId(current?.runs[0]?.job_id);
       })
       .catch(() => setError("Não foi possível conectar à API. Verifique se o backend está rodando."));
-  }, []);
+  }, [recordId]);
 
   useEffect(() => {
     if (!jobId) return;
@@ -68,25 +52,11 @@ export function ArgumentationTab() {
     getClassifiedChunks(recordId, jobId, page, PAGE_SIZE).then(setChunks).catch(() => setError("Falha ao carregar as falas."));
   }, [recordId, jobId, page]);
 
-  const record = records.find((item) => item.id === recordId);
   const parliamentarians = useMemo(() => new Set(summary?.parlamentares ?? []), [summary]);
-  const grouped = useMemo(() => {
-    const groups = new Map<string, ClassifiedRecord[]>();
-    records.forEach((item) => groups.set(groupOf(item), [...(groups.get(groupOf(item)) ?? []), item]));
-    return Array.from(groups.entries());
-  }, [records]);
-
-  function selectRecord(id: number) {
-    const next = records.find((item) => item.id === id);
-    setRecordId(id);
-    setJobId(next?.runs[0]?.job_id);
-    setPage(1);
-  }
-
   const totalPages = chunks ? Math.max(1, Math.ceil(chunks.total / PAGE_SIZE)) : 1;
 
   return (
-    <section role="tabpanel" aria-label="Tipo de argumentação" className="min-h-[calc(100vh-61px)] bg-[#f8f7f3] px-5 py-8 lg:px-8">
+    <section role="tabpanel" aria-label="Tipo de argumentação" className="bg-[#f8f7f3] px-5 py-8 lg:px-8">
       <div className="mx-auto max-w-[1500px]">
         <div className="mb-7 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
           <div>
@@ -94,17 +64,7 @@ export function ArgumentationTab() {
             <h2 className="text-3xl font-semibold tracking-[-0.035em] sm:text-4xl">Técnicas de persuasão</h2>
             <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">Cada parágrafo das falas é classificado por um modelo de linguagem em seis técnicas, que podem coexistir, ou em “nenhuma”. Os destaques mostram o trecho que o modelo usou como evidência.</p>
           </div>
-          <div className="flex w-full flex-col gap-2 sm:flex-row lg:w-auto">
-            <label className="flex min-w-0 flex-1 flex-col gap-1 text-[11px] font-bold uppercase tracking-wider text-zinc-500 lg:w-[420px]">
-              Audiência
-              <select value={recordId ?? ""} onChange={(event) => selectRecord(Number(event.target.value))} className="rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm font-medium normal-case tracking-normal text-zinc-900">
-                {grouped.map(([group, items]) => (
-                  <optgroup label={group} key={group}>
-                    {items.map((item) => <option value={item.id} key={item.id}>#{item.id} · {item.assunto}</option>)}
-                  </optgroup>
-                ))}
-              </select>
-            </label>
+          <div className="flex flex-col gap-2 sm:flex-row">
             {record && record.runs.length > 1 && (
               <label className="flex flex-col gap-1 text-[11px] font-bold uppercase tracking-wider text-zinc-500">
                 Execução
@@ -123,9 +83,16 @@ export function ArgumentationTab() {
 
         {error && <p className="mb-4 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">{error}</p>}
 
+        {record === null && (
+          <div className="rounded-2xl border border-zinc-200 bg-white px-6 py-12 text-center">
+            <p className="text-sm font-semibold text-zinc-900">Esta audiência ainda não teve a persuasão classificada.</p>
+            <p className="mt-1 text-sm text-zinc-500">A classificação foi feita para as audiências do recorte de minorias. Ela pode ser rodada pela API em <code className="rounded bg-zinc-100 px-1">POST /persuasion-classifications</code>.</p>
+          </div>
+        )}
+
         {summary && <SummaryPanel summary={summary}/>}
 
-        <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-[0_12px_40px_rgba(24,24,27,0.04)]">
+        {record && <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-[0_12px_40px_rgba(24,24,27,0.04)]">
           <div className="flex flex-wrap gap-x-4 gap-y-2 border-b border-zinc-100 px-5 py-3 text-xs text-zinc-600">
             {Object.entries(superclassNames).map(([key, name]) => (
               <span key={key} className="flex items-center gap-2"><i className="size-3 rounded-sm" style={{ backgroundColor: superclassColors[key] }}/>{name}</span>
@@ -203,7 +170,7 @@ export function ArgumentationTab() {
               <button type="button" disabled={page >= totalPages} onClick={() => setPage((current) => current + 1)} className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 font-semibold text-zinc-700 disabled:opacity-40">Próxima</button>
             </div>
           </div>
-        </div>
+        </div>}
       </div>
     </section>
   );
