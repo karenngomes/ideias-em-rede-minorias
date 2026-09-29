@@ -22,7 +22,7 @@ export default function RootLayout({
         <header className="border-b border-black/10 bg-white px-5 py-4 lg:px-8">
           <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4">
             <Link href="/" className="flex items-center gap-3">
-              <Image src="/karkara-logo.png" alt="Karkará" width={515} height={200} priority className="h-10 w-auto sm:h-11"/>
+              <Image src="/karkara-logo.png" alt="Karkará" width={573} height={200} priority className="h-10 w-auto sm:h-11"/>
               <span className="hidden h-5 w-px bg-black/15 sm:block"/>
               <span className="hidden text-sm font-medium text-[#666666] sm:inline">Ideias em Rede</span>
             </Link>
