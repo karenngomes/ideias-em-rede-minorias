@@ -21,10 +21,10 @@ export default function RootLayout({
       <body className="bg-paper font-sans text-ink antialiased">
         <header className="border-b border-black/10 bg-white px-5 py-4 lg:px-8">
           <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4">
-            <Link href="/" className="flex items-baseline gap-2.5">
-              <span className="text-lg font-bold tracking-[-0.03em] text-ink">karkará</span>
-              <span className="size-1.5 translate-y-[-2px] rounded-full bg-orange-500"/>
-              <span className="text-sm font-medium text-[#666666]">Ideias em Rede</span>
+            <Link href="/" className="flex items-center gap-3">
+              <Image src="/karkara-logo.png" alt="Karkará" width={515} height={200} priority className="h-10 w-auto sm:h-11"/>
+              <span className="hidden h-5 w-px bg-black/15 sm:block"/>
+              <span className="hidden text-sm font-medium text-[#666666] sm:inline">Ideias em Rede</span>
             </Link>
             <nav className="flex items-center gap-6 text-sm font-medium text-[#666666]">
               <Link href="/#audiencias" className="hover:text-ink">Recorte</Link>
