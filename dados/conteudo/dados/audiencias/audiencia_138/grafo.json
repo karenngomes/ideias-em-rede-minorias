@@ -1,0 +1,213 @@
+{
+  "sample_id": 138,
+  "assunto": "Pedido de concurso público e fortalecimento da Agência Nacional de Proteção de Dados (ANPD)",
+  "nos": [
+    {
+      "id": "p::Caio Vianna",
+      "tipo": "participante",
+      "rotulo": "Caio Vianna",
+      "dados": {
+        "cargo": "",
+        "n_opinioes": 4
+      }
+    },
+    {
+      "id": "p::Waldemar Gonçalves Ortunho Júnior",
+      "tipo": "participante",
+      "rotulo": "Waldemar Gonçalves Ortunho Júnior",
+      "dados": {
+        "cargo": "ANPD",
+        "n_opinioes": 2
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende que a empresa é sempre responsável pelo vazamento de dados, mesmo em caso de invasão externa, por falha na proteção adequada",
+      "dados": {
+        "falante": "Caio Vianna",
+        "cargo": "",
+        "turno_id": 13,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "defende que a ANPD precisa de aprimoramento legislativo e maior eficácia na aplicação de sanções para garantir a proteção de dados",
+      "dados": {
+        "falante": "Caio Vianna",
+        "cargo": "",
+        "turno_id": 16,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "defende que a ANPD deve agir com mais celeridade e eficácia, especialmente em vazamentos de órgãos públicos como o Ministério da Saúde",
+      "dados": {
+        "falante": "Caio Vianna",
+        "cargo": "",
+        "turno_id": 18,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "defende a adoção de blockchain como tecnologia promissora para proteção de dados, com potencial para superar limitações atuais",
+      "dados": {
+        "falante": "Caio Vianna",
+        "cargo": "",
+        "turno_id": 40,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "é contrário à monetização de dados pessoais, pois considera ilícita a prática no ordenamento brasileiro",
+      "dados": {
+        "falante": "Waldemar Gonçalves Ortunho Júnior",
+        "cargo": "ANPD",
+        "turno_id": 34,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "prazo",
+            "trecho": "até o momento",
+            "preservado": false,
+            "char_start": 32263,
+            "char_end": 32276
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "é pessoalmente contrário à monetização de dados por considerá-la complexa e inadequada",
+      "dados": {
+        "falante": "Waldemar Gonçalves Ortunho Júnior",
+        "cargo": "ANPD",
+        "turno_id": 36,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "atribuicao",
+            "trecho": "particularmente",
+            "preservado": true,
+            "char_start": 33064,
+            "char_end": 33079
+          }
+        ]
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Caio Vianna",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Caio Vianna",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Caio Vianna",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Caio Vianna",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Waldemar Gonçalves Ortunho Júnior",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Waldemar Gonçalves Ortunho Júnior",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Caio Vianna",
+      "destino": "p::Waldemar Gonçalves Ortunho Júnior",
+      "tipo": "fala_apos",
+      "peso": 18.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Waldemar Gonçalves Ortunho Júnior",
+      "destino": "p::Caio Vianna",
+      "tipo": "fala_apos",
+      "peso": 18.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Caio Vianna",
+      "destino": "p::Waldemar Gonçalves Ortunho Júnior",
+      "tipo": "concede_palavra",
+      "peso": 18.0,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0002",
+      "tipo": "mesmo_tema",
+      "peso": 0.7171,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6719,
+      "dados": {}
+    }
+  ],
+  "resumo": {
+    "sample_id": 138,
+    "n_participantes": 2,
+    "n_opinioes": 6,
+    "arestas": {
+      "emitiu": 6,
+      "fala_apos": 2,
+      "concede_palavra": 1,
+      "mesmo_tema": 2
+    },
+    "camadas_exatas": [
+      "emitiu",
+      "fala_apos",
+      "concede_palavra"
+    ]
+  }
+}

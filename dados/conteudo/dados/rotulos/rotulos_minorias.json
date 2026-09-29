@@ -1,0 +1,48 @@
+{
+  "versao": "1.0",
+  "data": "2026-09-24",
+  "procedencia": "Rotulagem manual por Thalia Almeida sobre o campo `metadados.assunto` das 206 amostras do PublicHearingBR_LDS. Categorias NÃO exclusivas: uma audiência pode pertencer a mais de uma. Os totais estão conferidos contra paper/PRE_REGISTRO.md §1 por tests/test_rotulos.py.",
+  "criterio": "Entra no grupo M a audiência cujo ASSUNTO convocado é uma pauta de grupo historicamente vulnerabilizado — não basta o grupo ser mencionado na sessão. O critério é sobre a convocação, não sobre o conteúdo das falas, porque o conteúdo é justamente o que será medido.",
+  "escopo": "Ids de 1 a 206, como distribuídos no PublicHearingBR_LDS.jsonl. A amostra sintética 901 (data/fixtures) NÃO faz parte do corpus e não entra em grupo nenhum.",
+  "revisao_humana": "PENDENTE. A rotulagem foi feita à mão por uma pessoa só, sem segunda opinião. Ver ANOTACAO.md, tarefa T4.",
+  "eixos": {
+    "comentario": "Partição declarada em PRE_REGISTRO.md §H5. `fora` não é resíduo: crianca_adolescente atravessa as duas lógicas e migrante_refugiado tem amostras de menos.",
+    "reconhecimento": ["racial_etnico_povos_tradicionais", "lgbtqia", "mulher_genero"],
+    "redistribuicao": ["deficiencia_neurodivergencia", "pessoa_idosa", "populacao_rua"],
+    "fora": ["crianca_adolescente", "migrante_refugiado"]
+  },
+  "categorias": {
+    "racial_etnico_povos_tradicionais": {
+      "rotulo": "Raciais, étnicos e povos tradicionais",
+      "ids": [20, 29, 58, 89, 136, 139, 163, 170, 172, 180, 187, 206]
+    },
+    "lgbtqia": {
+      "rotulo": "LGBTQIA+",
+      "ids": [48, 85]
+    },
+    "deficiencia_neurodivergencia": {
+      "rotulo": "Pessoas com deficiência e neurodivergentes",
+      "ids": [5, 12, 37, 53, 94, 96, 111, 160, 176]
+    },
+    "pessoa_idosa": {
+      "rotulo": "Pessoas idosas",
+      "ids": [9, 41, 52, 60, 63, 73, 110, 127, 149, 155]
+    },
+    "mulher_genero": {
+      "rotulo": "Mulheres e desigualdade de gênero",
+      "ids": [12, 26, 58, 89, 99, 119, 121, 154, 163, 165, 180, 188, 203]
+    },
+    "crianca_adolescente": {
+      "rotulo": "Crianças e adolescentes",
+      "ids": [30, 34, 74, 84, 89, 90, 92, 99, 100, 129, 147, 170]
+    },
+    "migrante_refugiado": {
+      "rotulo": "Migrantes e refugiados",
+      "ids": [32, 198]
+    },
+    "populacao_rua": {
+      "rotulo": "População em situação de rua",
+      "ids": [83]
+    }
+  }
+}

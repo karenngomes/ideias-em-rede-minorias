@@ -1,0 +1,485 @@
+{
+  "sample_id": 103,
+  "n_falantes": 28,
+  "n_parlamentares": 27,
+  "n_convidados": 1,
+  "n_citados_gold": 5,
+  "n_citados_ausentes": 0,
+  "n_opinioes_gold": 19,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.43167931242865776,
+      "participacao_civil_turnos": 0.17222222222222222,
+      "citacao_civil_opinioes": 0.6842105263157895,
+      "citacao_civil_pessoas": 0.2,
+      "deficit_civil": -0.25253121388713173
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.46062907501612094,
+      "participacao_civil_turnos": 0.31,
+      "citacao_civil_opinioes": 0.6842105263157895,
+      "citacao_civil_pessoas": 0.2,
+      "deficit_civil": -0.22358145129966855
+    }
+  },
+  "citados_ausentes": [],
+  "falantes_silenciados": [
+    "Alberto Fraga",
+    "Albuquerque",
+    "Alencar Santana",
+    "Alfredo Gaspar",
+    "Aluisio Mendes",
+    "Capitão Alden",
+    "Coronel Meira",
+    "Delegada Adriana Accorsi",
+    "Delegado Caveira",
+    "Delegado Fabio Costa",
+    "Gilvan da Federal",
+    "Ismael Alexandrino",
+    "Lindbergh Farias",
+    "Marcos Pollon",
+    "Merlong Solano",
+    "Messias Donato",
+    "Pedro Aihara",
+    "Roberto Monteiro Pai",
+    "Rodolfo Nogueira",
+    "Sargento Fahur",
+    "Sargento Gonçalves",
+    "Sargento Portugal",
+    "Zucco"
+  ],
+  "falantes": [
+    {
+      "nome": "Alberto Fraga",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 80,
+      "n_palavras": 1872,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        36,
+        44,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        75,
+        77,
+        79,
+        81,
+        83,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        109,
+        111,
+        113,
+        115,
+        117,
+        118,
+        120,
+        122,
+        124,
+        126,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        140,
+        142,
+        144,
+        146,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        174,
+        176,
+        178,
+        180
+      ]
+    },
+    {
+      "nome": "Ministro Ricardo Lewandowski",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 31,
+      "n_palavras": 12858,
+      "turnos": [
+        2,
+        32,
+        34,
+        37,
+        39,
+        41,
+        43,
+        45,
+        48,
+        50,
+        60,
+        66,
+        70,
+        80,
+        85,
+        87,
+        95,
+        110,
+        116,
+        132,
+        134,
+        136,
+        152,
+        166,
+        167,
+        169,
+        171,
+        173,
+        175,
+        177,
+        179
+      ]
+    },
+    {
+      "nome": "Aluisio Mendes",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1310,
+      "turnos": [
+        4,
+        6,
+        119
+      ]
+    },
+    {
+      "nome": "Sanderson",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 8,
+      "n_palavras": 809,
+      "turnos": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        86,
+        89,
+        91
+      ]
+    },
+    {
+      "nome": "Alencar Santana",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 15,
+      "turnos": [
+        15
+      ]
+    },
+    {
+      "nome": "Rodolfo Nogueira",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 353,
+      "turnos": [
+        18
+      ]
+    },
+    {
+      "nome": "Sargento Gonçalves",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 815,
+      "turnos": [
+        20,
+        52,
+        54,
+        56
+      ]
+    },
+    {
+      "nome": "Delegado Paulo Bilynskyj",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 10,
+      "n_palavras": 1219,
+      "turnos": [
+        22,
+        24,
+        26,
+        28,
+        30,
+        35,
+        38,
+        40,
+        42,
+        46
+      ]
+    },
+    {
+      "nome": "Gilvan da Federal",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 813,
+      "turnos": [
+        58
+      ]
+    },
+    {
+      "nome": "General Girão",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1083,
+      "turnos": [
+        62,
+        64
+      ]
+    },
+    {
+      "nome": "Delegado Fabio Costa",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 352,
+      "turnos": [
+        68
+      ]
+    },
+    {
+      "nome": "Lindbergh Farias",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 8,
+      "n_palavras": 541,
+      "turnos": [
+        72,
+        74,
+        76,
+        107,
+        138,
+        147,
+        148,
+        150
+      ]
+    },
+    {
+      "nome": "Merlong Solano",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 494,
+      "turnos": [
+        73,
+        128,
+        130
+      ]
+    },
+    {
+      "nome": "Pastor Henrique Vieira",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1019,
+      "turnos": [
+        78
+      ]
+    },
+    {
+      "nome": "Marcos Pollon",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 524,
+      "turnos": [
+        82,
+        84
+      ]
+    },
+    {
+      "nome": "Ismael Alexandrino",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1018,
+      "turnos": [
+        93
+      ]
+    },
+    {
+      "nome": "Zucco",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 6,
+      "n_palavras": 457,
+      "turnos": [
+        97,
+        99,
+        101,
+        103,
+        105,
+        108
+      ]
+    },
+    {
+      "nome": "Delegada Adriana Accorsi",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 780,
+      "turnos": [
+        112,
+        114
+      ]
+    },
+    {
+      "nome": "Albuquerque",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 426,
+      "turnos": [
+        121,
+        123
+      ]
+    },
+    {
+      "nome": "Alfredo Gaspar",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 561,
+      "turnos": [
+        125
+      ]
+    },
+    {
+      "nome": "Sargento Portugal",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 405,
+      "turnos": [
+        141
+      ]
+    },
+    {
+      "nome": "Sargento Fahur",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 269,
+      "turnos": [
+        143
+      ]
+    },
+    {
+      "nome": "Capitão Alden",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 334,
+      "turnos": [
+        145
+      ]
+    },
+    {
+      "nome": "Messias Donato",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 198,
+      "turnos": [
+        154
+      ]
+    },
+    {
+      "nome": "Roberto Monteiro Pai",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 224,
+      "turnos": [
+        156
+      ]
+    },
+    {
+      "nome": "Pedro Aihara",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 384,
+      "turnos": [
+        158
+      ]
+    },
+    {
+      "nome": "Coronel Meira",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 383,
+      "turnos": [
+        160
+      ]
+    },
+    {
+      "nome": "Delegado Caveira",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 5,
+      "n_palavras": 270,
+      "turnos": [
+        162,
+        164,
+        168,
+        170,
+        172
+      ]
+    }
+  ]
+}

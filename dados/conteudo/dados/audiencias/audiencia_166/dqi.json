@@ -1,0 +1,4581 @@
+{
+  "sample_id": 166,
+  "n_turnos": 86,
+  "n_turnos_codificados": 54,
+  "n_codigos": 377,
+  "n_rejeitados": 1,
+  "taxa_rejeicao": 0.0123,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 54,
+      "distribuicao": {
+        "interrompido": 8,
+        "normal": 46
+      },
+      "media": 0.8519,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 54,
+      "distribuicao": {
+        "nenhuma": 18,
+        "inferior": 10,
+        "qualificada": 26,
+        "sofisticada": 0
+      },
+      "media": 1.1481,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 54,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 31,
+        "bem_comum_utilitario": 23,
+        "bem_comum_diferenca": 0
+      },
+      "media": 1.4259,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 53,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 44,
+        "explicito_positivo": 9
+      },
+      "media": 1.1698,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 54,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 52,
+        "explicito_positivo": 2
+      },
+      "media": 1.037,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 54,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 52,
+        "inclui": 2,
+        "valoriza": 0
+      },
+      "media": 1.037,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 54,
+      "distribuicao": {
+        "posicional": 54,
+        "proposta_alternativa": 0,
+        "proposta_mediadora": 0
+      },
+      "media": 0.0,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Aristides Andrade Cavalcante Neto": {
+        "participacao": {
+          "n": 8,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 8,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 8,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 8,
+          "media": 1.125
+        },
+        "justificacao_conteudo": {
+          "n": 8,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 7,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 8,
+          "media": 1.0
+        }
+      },
+      "Caio Sanas": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Caio Vianna": {
+        "participacao": {
+          "n": 21,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 21,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 21,
+          "media": 1.0476
+        },
+        "justificacao_nivel": {
+          "n": 21,
+          "media": 0.8095
+        },
+        "justificacao_conteudo": {
+          "n": 21,
+          "media": 1.381
+        },
+        "respeito_grupos": {
+          "n": 21,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 21,
+          "media": 1.0
+        }
+      },
+      "Chicão Bulhões": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Diego Oliveira Farias": {
+        "participacao": {
+          "n": 8,
+          "media": 0.875
+        },
+        "politica_construtiva": {
+          "n": 8,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 8,
+          "media": 1.125
+        },
+        "justificacao_nivel": {
+          "n": 8,
+          "media": 1.75
+        },
+        "justificacao_conteudo": {
+          "n": 8,
+          "media": 1.25
+        },
+        "respeito_grupos": {
+          "n": 8,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 8,
+          "media": 1.0
+        }
+      },
+      "Eliana Cardoso Emediato de Azambuja": {
+        "participacao": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Felipe Leão": {
+        "participacao": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Jeferson Dias Barbosa": {
+        "participacao": {
+          "n": 5,
+          "media": 0.8
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 1.2
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.2
+        }
+      },
+      "Julien Dutra": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Raimundo Santos": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 2.0
+        }
+      },
+      "Soraya Santos": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Chicão Bulhões",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Soraya Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Caio Sanas",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 63,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 66,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 68,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 71,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 76,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 77,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 83,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 85,
+      "falante": "Raimundo Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "Dessa maneira, a forma que temos de contribuir para promover a cultura da inovação é fazer com que a administração pública utilize essa tecnologia e maximize as chances de sucesso no Governo.",
+      "char_start": 4232,
+      "char_end": 4423,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "Isso evita que ele a utilize por modismo ou por entusiasmo tecnológico, fazendo com que não haja o desperdício de recursos públicos.",
+      "char_start": 4758,
+      "char_end": 4890,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "Quando falamos deblockchain, é interessante dar um contexto para todos. Quando transmitimos um ativo digital, fazemos um pagamento eletrônico hoje, não há confiança. Por exemplo, ao transmitir ao Diego 10 reais, sei que ele não confiará em mim. A confiança de que a transação realmente ocorreu depende sempre de um intermediário de confiança, como um Banco Central ou qualquer banco. A tecnologiablockchain, para sintetizar, demonstra que eu consigo transmitir esse ativo eletrônico, esse pagamento eletrônico, sem a necessidade desse intermediário. Essa é a essência da tecnologiablockchain, que nasceu em 2018, através de umpaperde um autor chamado Satoshi Nakamoto, do qual não se sabe até hoje a identidade real.",
+      "char_start": 12289,
+      "char_end": 13005,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "O Pix, o nosso pagamento instantâneo, já promoveu uma grande inclusão em termos de inclusão financeira para meios de pagamento. Eu estava falando com um colega hoje que 50 milhões de brasileiros conseguiram realizar a sua primeira transferência bancária devido ao Pix. Hoje entre 85% e 95% dos adultos têm algum tipo de conta. Mas o nosso desafio agora é promover a inclusão para outros tipos de serviço financeiro, como crédito, investimento, e assim por diante. Então, o objetivo do Banco Central, ao fazer esse piloto, é justamente conseguir avançar nessa inclusão financeira.",
+      "char_start": 19299,
+      "char_end": 19878,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Chicão Bulhões",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Chicão Bulhões",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Chicão Bulhões",
+      "trecho": "E o que nós ganhamos de escala? Eu não preciso ficar deslocando o meu servidor público para a ponta. Eu não preciso colocá-lo em risco. Eu não preciso ter ineficiência de contratos, por exemplo, de veículos. Eu não preciso ter uma ineficiência de tempo de deslocamento, de mau uso, às vezes, de um servidor extremamente qualificado para uma tarefa que poderia ser feita hoje por uma tecnologia fácil, que já existe. Então, por exemplo, nós vamos ampliar essa fiscalização comdronesna cidade inteira. A imagem chega certificada com a tecnologiablockchain. E o servidor público, dentro da sua tarefa, da sua atividade fim, faz o seu laudo de avaliação, emite o seu laudo de avaliação, a partir de uma imagem que está ali pronta e segura, para que você possa exercer a sua função e possamos ter essa fiscalização no dia a dia.",
+      "char_start": 31427,
+      "char_end": 32250,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Chicão Bulhões",
+      "trecho": "Espero que possamos ter uma visão racional de como utilizar essas ferramentas para melhorar a vida, na ponta, do cidadão, para dar efetividade às normas do que queremos ver, para quebrar barreiras regulatórias, facilitar que as pessoas acessem os sistemas, os licenciamentos, abram suas empresas, tenham sua fé pública reconhecida sem necessariamente muitas vezes ter que sair do seu escritório, da sua casa ou do seu ambiente de trabalho, o que obviamente se reflete na produtividade geral do País.",
+      "char_start": 32423,
+      "char_end": 32922,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Chicão Bulhões",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Chicão Bulhões",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Julien Dutra",
+      "trecho": "Entendemos que, para um mundo descentralizado que essa tecnologia proporciona, existe regulação e parâmetros comportamentais do mercado que sejam corretos, de acordo com as melhores práticas já adotadas no sistema financeiro tradicional, por exemplo. E, tendo essa base de melhores práticas no mercado, por que não adotá-las para a cripto também e, através disso, conseguirmos manter a liberdade que esse sistema nos proporciona? Mas ser libertário demais pode acabar induzindo a uma regulação mais rigorosa.\n\nEntão, para que não se tenha esse rigor que iniba a inovação, precisamos fazer as adequações necessárias com relação àcompliancee à governança regulatória, para continuarmos usufruindo dessa liberdade que a tecnologia nos proporciona.",
+      "char_start": 46247,
+      "char_end": 46991,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Julien Dutra",
+      "trecho": "para continuarmos usufruindo dessa liberdade que a tecnologia nos proporciona",
+      "char_start": 46913,
+      "char_end": 46990,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Soraya Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Soraya Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Soraya Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Soraya Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Soraya Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Soraya Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "Conquanto a imutabilidade dos registros deblockchainpossa contribuir para a preservação de fraudes e corrupção, fortalecendo a integridade dos sistemas e das instituições públicas, essa característica pode trazer conflitos, com requisitos relativos à correção de dados incompletos, inexatos e desatualizados e à eliminação de dados pessoais previstos nos direitos previstos no art. 18 da própria LGPD.",
+      "char_start": 59929,
+      "char_end": 60330,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Caio Sanas",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Caio Sanas",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Caio Sanas",
+      "trecho": "A inovação, Deputado, é exatamente assim, movida pela habilidade de estabelecer relações, de detectar oportunidades e de tirar proveito dessas oportunidades, muitas vezes trazidas por uma nova tecnologia, como no caso de Web3.",
+      "char_start": 78603,
+      "char_end": 78829,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Caio Sanas",
+      "trecho": "Pois bem. Para fins de governo, Deputado, eu trouxe algumas aplicações que podem de fato ter impacto e ser benéficas para toda a sociedade, para toda a Nação",
+      "char_start": 77120,
+      "char_end": 77277,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Caio Sanas",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Caio Sanas",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Felipe Leão",
+      "trecho": "não é por que se pode usarblockchainpara uma solução que se deve usarblockchainpara essa solução. Ablockchain,como muitos aqui já falaram, é uma solução tecnológica fenomenal. Ela expande muito as possibilidades que nós temos de dar publicidade, auditabilidade e confiança às informações, em especial às informações públicas. Existem diversos cenários de uso para essa tecnologia, que poderiam trazer muito valor para o Governo e para a participação da sociedade como um todo — a verificação do que o Governo está fazendo, a verificação de como as empresas estão se comportando nas suas relações com o Governo, de como os cidadãos estão se comportando nas suas relações com o Governo —, mas não é sempre que porque se pode usarblockchainse deve utilizarblockchain. Ainda vão existir soluções, ainda vão existir circunstâncias em que muito provavelmente uma base relacional vai ser uma solução mais aderente ao problema que se está tentando resolver.",
+      "char_start": 92039,
+      "char_end": 92988,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Felipe Leão",
+      "trecho": "Existem diversos cenários de uso para essa tecnologia, que poderiam trazer muito valor para o Governo e para a participação da sociedade como um todo",
+      "char_start": 92365,
+      "char_end": 92514,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Caio Vianna",
+      "trecho": "nós temos excelentes profissionais no nosso Brasil",
+      "char_start": 96467,
+      "char_end": 96517,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "A tecnologia também apresenta diversas características para reduzir a burocracia na administração pública, o que acaba reduzindo os custos de transação, em razão de ela funcionar como uma máquina de confiança, em que se eliminam intermediários e se reduzem os custos de transação do seu processo de negócio.",
+      "char_start": 98423,
+      "char_end": 98730,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Caio Vianna",
+      "trecho": "Por isso, talvez esse seja um dos grandes motivos por que o TCU hoje está tão atento a essa tecnologia? Para garantir que o TCU consiga fazer esse trabalho de auditoria, de fiscalização, de forma mais assertiva e mais eficiente?",
+      "char_start": 99362,
+      "char_end": 99590,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "Então, o uso da tecnologiablockchainabre diversas possibilidades para a atividade de auditoria. Por exemplo, no momento em que se trazem esses mecanismos de integridade para o início do processo, não é mais necessário que o auditor espere uma solução ser construída para validar se elas estão aderentes e em conformidade com a lei. O auditor agora pode participar no início do processo.",
+      "char_start": 99765,
+      "char_end": 100151,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "Então — eu acho até que o Caio Sanas falou da questão de reconhecimento de contratos —, pode-se ter essa interpretação. Mas achamos que é necessário, até para atender o princípio da legalidade, ter uma rede sob jurisdição própria.",
+      "char_start": 101063,
+      "char_end": 101293,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "Mas achamos que é necessário, até para atender o princípio da legalidade, ter uma rede sob jurisdição própria.",
+      "char_start": 101183,
+      "char_end": 101293,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "E aí, no caso de um órgão ser extinto, o que acontece muito no nosso País, como esses dados vão estar armazenados de forma distribuída, eles podem dar sustentação a essa rede. Então, uma das principais vantagens da tecnologiablockchainé o fato de haver essa distribuição dos dados.",
+      "char_start": 102386,
+      "char_end": 102667,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "Quando vamos para o mundoblockchain, eu acho que o cidadão consegue enxergar o Governo de forma única, onde vai estar todo mundo lá fornecendo as mesmas informações. Então, eu vejo um ganho de que, se todo mundo participar, conseguiremos ter uma permanência, uma perenidade da rede.",
+      "char_start": 104301,
+      "char_end": 104583,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "o cidadão consegue enxergar o Governo de forma única",
+      "char_start": 104350,
+      "char_end": 104402,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "Então, no contrato inteligente, a ideia doCompliance by Designé justamente usar todas essas informações que já estãoon-chaine codificar essas regras dentro do seu contrato inteligente.",
+      "char_start": 105301,
+      "char_end": 105485,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Caio Vianna",
+      "trecho": "Eu acho que é uma oportunidade imensa para o povo brasileiro poder ter essa participação no sistema financeiro.",
+      "char_start": 105795,
+      "char_end": 105906,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Caio Vianna",
+      "trecho": "porque é fundamental garantir a privacidade dos dados tanto para a empresa quanto para o cidadão",
+      "char_start": 108661,
+      "char_end": 108757,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 35,
+      "falante": "Caio Vianna",
+      "trecho": "garantir a privacidade dos dados tanto para a empresa quanto para o cidadão",
+      "char_start": 108682,
+      "char_end": 108757,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "Se através de tecnologia, eu consigo ter um ecossistema sólido, que reduza o custo da recuperação das garantias, isso vai trazer uma redução de crédito, o que trará o crédito mais barato, na ponta, para o cidadão, principalmente para financiamentos imobiliários, financiamentos de residências.",
+      "char_start": 110028,
+      "char_end": 110321,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "o que trará o crédito mais barato, na ponta, para o cidadão",
+      "char_start": 110181,
+      "char_end": 110240,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "Haverá essa integração, um movimento síncrono e consistente desses dois ativos, reduzindo, principalmente, muitos custos e dando maior segurança à população ao executar esse tipo de transação.",
+      "char_start": 113010,
+      "char_end": 113202,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "dando maior segurança à população",
+      "char_start": 113133,
+      "char_end": 113166,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "tentar dar essa simplicidade para o dia a dia do cidadão, com essas novas tecnologias, e benefícios de modo a facilitar e dar maior dinamismo à economia do País.",
+      "char_start": 113827,
+      "char_end": 113988,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "tentar dar essa simplicidade para o dia a dia do cidadão, com essas novas tecnologias, e benefícios de modo a facilitar e dar maior dinamismo à economia do País.",
+      "char_start": 113827,
+      "char_end": 113988,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "Uma das experiências de quem usa a Rede Blockchain, em diferentes países, é que essa facilidade, essa troca de ativos é muito mais eficiente se a moeda e o ativo estiverem no mesmo formato tecnológico.",
+      "char_start": 114435,
+      "char_end": 114636,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 55,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 55,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 56,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "Entendemos que temos que estabelecer passos.",
+      "char_start": 116776,
+      "char_end": 116820,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 57,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 57,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Diego Oliveira Farias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 58,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 58,
+      "falante": "Caio Vianna",
+      "trecho": "Não dá para, daqui a pouco, haver 200 redes no Brasil, como já acontece hoje com vários sistemas legados dentro do Governo que não se comunicam. Existem sistemas de saúde específicos em cada Município, em cada Estado, que não se comunicam. Então é uma dificuldade, obviamente, transacionar essas informações e dar um serviço melhor para o cidadão na ponta.",
+      "char_start": 118928,
+      "char_end": 119284,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 58,
+      "falante": "Caio Vianna",
+      "trecho": "dar um serviço melhor para o cidadão na ponta",
+      "char_start": 119238,
+      "char_end": 119283,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 58,
+      "falante": "Caio Vianna",
+      "trecho": "No Brasil, temos a capacidade de ser pioneiros, temos conhecimento técnico e bons profissionais.",
+      "char_start": 120928,
+      "char_end": 121024,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 59,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "Por que a Casa Civil da Presidência da República?No dia a dia — o senhor foi Secretário e deve saber disso —, um Ministério não manda no outro. O Ministério precisa de alguém que coordene essas políticas, que haja integração. É muito difícil que o Ministério da Ciência, Tecnologia comande alguma coisa que está na Fazenda e nas agências.",
+      "char_start": 123213,
+      "char_end": 123551,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 62,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 62,
+      "falante": "Caio Vianna",
+      "trecho": "Você falou sobre a impossibilidade, em alguns casos, de se utilizar ablockchainpela necessidade de se excluir dados, e não conseguir proporcionar essa exclusão.",
+      "char_start": 126636,
+      "char_end": 126796,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 62,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 63,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 63,
+      "falante": "Felipe Leão",
+      "trecho": "Considerando que há interesse público da solução e que, por eventual mau uso, alguém conseguiu descobrir uma falha no contrato inteligente, conseguiu fazer uso da credencial de um servidor público e inseriu uma determinada informação, extrapolando para uma situação muito perigosa, como, por exemplo, a publicação de pornografia infantil, naturalmente, nós precisamos controlar a rede e ter vieses de segurança na rede, para não permitir, de forma alguma, que esse tipo de informação seja colocado ali.",
+      "char_start": 127852,
+      "char_end": 128354,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 63,
+      "falante": "Felipe Leão",
+      "trecho": "para não permitir, de forma alguma, que esse tipo de informação seja colocado ali",
+      "char_start": 128272,
+      "char_end": 128353,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 66,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 66,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 66,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 66,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 66,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 66,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 67,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 67,
+      "falante": "Felipe Leão",
+      "trecho": "Então, por vezes, por mais que nós possamos ter a perda de um dado, é mais importante nós termos o rastreio e a manutenção do metadado.",
+      "char_start": 129924,
+      "char_end": 130059,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Felipe Leão",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 68,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 68,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 68,
+      "falante": "Caio Vianna",
+      "trecho": "porque a possibilidade de exclusão não aconteceria na rede distribuída. Então, sem dúvida alguma, o ganho é imenso.",
+      "char_start": 132629,
+      "char_end": 132744,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 68,
+      "falante": "Caio Vianna",
+      "trecho": "o maior benefício para a sociedade",
+      "char_start": 133117,
+      "char_end": 133151,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 68,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 68,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 69,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 69,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "Eu acho que o que acontece e possibilita as invasões de sistemas e o vazamento de dados pessoais que nós observamos hoje são os mecanismos de segurança que envolvem a proteção desses dados armazenados. Nós vemos, muitas vezes, instituições negligenciando os mecanismos de segurança, as camadas de proteções que são necessárias — tanto técnicas, operacionais, quanto administrativas —, para que esses dados possam ser vazados.",
+      "char_start": 133988,
+      "char_end": 134413,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 70,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 70,
+      "falante": "Caio Vianna",
+      "trecho": "Eu trago esses dados porque eu acho que talvez essa seja a discussão mais importante para todos os que aqui estão acompanhando esta discussão. Não é possível nós falarmos em proteção de dados quando nós não garantimos que esses dados sejam protegidos e sejam, de fato, de quem é o dono dos dados, que é o cidadão.",
+      "char_start": 136245,
+      "char_end": 136558,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 70,
+      "falante": "Caio Vianna",
+      "trecho": "Não é possível nós falarmos em proteção de dados quando nós não garantimos que esses dados sejam protegidos e sejam, de fato, de quem é o dono dos dados, que é o cidadão.",
+      "char_start": 136388,
+      "char_end": 136558,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 70,
+      "falante": "Caio Vianna",
+      "trecho": "Este tem que ser um dado de acesso permanente para toda a população, em qualquer tempo; pode ser para as gerações futuras, para daqui a 100 anos.",
+      "char_start": 139445,
+      "char_end": 139590,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 71,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 71,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 71,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "Para termos uma política de transformação digital, nós temos vários aspectos. Um deles é que temos que olhar a parte de infraestrutura.",
+      "char_start": 143168,
+      "char_end": 143303,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 71,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "talvez seja o que mais pega na vida do cidadão",
+      "char_start": 143351,
+      "char_end": 143397,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 71,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "Nós precisamos ter pessoas educadas e capacitadas para trabalharem neste ambiente. Precisamos ter um cidadão educado, para saber que corre riscos.",
+      "char_start": 143656,
+      "char_end": 143802,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 71,
+      "falante": "Eliana Cardoso Emediato de Azambuja",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 74,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Caio Vianna",
+      "trecho": "Isso acaba provocando um dano gigantesco.",
+      "char_start": 147239,
+      "char_end": 147280,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 76,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 76,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 76,
+      "falante": "Caio Vianna",
+      "trecho": "Mas, quando o cidadão fornece seus dados para um serviço do Governo, ele não precisa nem ser educado, porque a premissa principal do Governo é proteger este cidadão. O Governo precisa fornecer um sistema que ofereça as garantias que, obviamente, ele coloca como premissas do sistema implementado.",
+      "char_start": 148415,
+      "char_end": 148711,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 76,
+      "falante": "Caio Vianna",
+      "trecho": "O Governo precisa fornecer um sistema que ofereça as garantias que, obviamente, ele coloca como premissas do sistema implementado.",
+      "char_start": 148581,
+      "char_end": 148711,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 76,
+      "falante": "Caio Vianna",
+      "trecho": "Eu concordo que o cidadão precise cada vez mais estar educado, ou seja, educar e capacitar é papel também do Governo. Mas, quando o cidadão fornece seus dados para um serviço do Governo, ele não precisa nem ser educado, porque a premissa principal do Governo é proteger este cidadão.",
+      "char_start": 148297,
+      "char_end": 148580,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 76,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 77,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 77,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 77,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "Eu acho que hoje os sistemas não têm a segurança necessária, suficiente para proteger os dados do cidadão.",
+      "char_start": 149285,
+      "char_end": 149391,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 77,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "Eu acho que hoje os sistemas não têm a segurança necessária, suficiente para proteger os dados do cidadão.",
+      "char_start": 149285,
+      "char_end": 149391,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 77,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 77,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "Nós estamos bem alinhados, e acho que a ANPD concorda com isso.",
+      "char_start": 149221,
+      "char_end": 149284,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 79,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "devem-se observar, desde a sua concepção, a garantia destes direitos e o exercício de direitos pelos cidadãos",
+      "char_start": 150944,
+      "char_end": 151053,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 79,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "o exercício de direitos pelos cidadãos",
+      "char_start": 151015,
+      "char_end": 151053,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jeferson Dias Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 80,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Caio Vianna",
+      "trecho": "com certeza, em pontos mais sensíveis, acho que esta tecnologia seria bem mais assertiva para o cidadão do que as outras tecnologias que existem atualmente.",
+      "char_start": 151358,
+      "char_end": 151514,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 80,
+      "falante": "Caio Vianna",
+      "trecho": "esta tecnologia seria bem mais assertiva para o cidadão",
+      "char_start": 151406,
+      "char_end": 151461,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 83,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 83,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 83,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 83,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 83,
+      "falante": "Julien Dutra",
+      "trecho": "Quero aproveitar para ser solidário com os colegas do setor público",
+      "char_start": 151973,
+      "char_end": 152040,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 83,
+      "falante": "Julien Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 84,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 84,
+      "falante": "Caio Vianna",
+      "trecho": "Esta é uma tecnologia para que possamos, sim, evitar um dos maiores problemas que vemos no Brasil hoje, que é a corrupção. Imaginem o cidadão ter acesso à informação de todo recurso público, como ele chegou e para onde ele está indo. É fundamental ele ter este acesso. Quem quiser fazer a pesquisa vai poder fazer. Isso vai melhorar para que os órgãos de controle externo façam seu trabalho de auditoria e de fiscalização.",
+      "char_start": 154813,
+      "char_end": 155235,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 84,
+      "falante": "Caio Vianna",
+      "trecho": "Isso vai melhorar para que os órgãos de controle externo façam seu trabalho de auditoria e de fiscalização.",
+      "char_start": 155128,
+      "char_end": 155235,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 84,
+      "falante": "Caio Vianna",
+      "trecho": "garantindo que o cidadão tenha a informação de que foi alterado algo errado ou não",
+      "char_start": 154359,
+      "char_end": 154441,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 85,
+      "falante": "Raimundo Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 85,
+      "falante": "Raimundo Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 85,
+      "falante": "Raimundo Santos",
+      "trecho": "O cidadão tem direito constitucional à privacidade e à intimidade. Mas como ele estará protegido se ocorrem vazamentos de suas informações?",
+      "char_start": 159141,
+      "char_end": 159280,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 85,
+      "falante": "Raimundo Santos",
+      "trecho": "O cidadão tem direito constitucional à privacidade e à intimidade. Mas como ele estará protegido se ocorrem vazamentos de suas informações?",
+      "char_start": 159141,
+      "char_end": 159280,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 85,
+      "falante": "Raimundo Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 85,
+      "falante": "Raimundo Santos",
+      "trecho": "Concordo com todos ao perceber como o Brasil avançou e está à frente.",
+      "char_start": 158530,
+      "char_end": 158599,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 86,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 86,
+      "falante": "Caio Vianna",
+      "trecho": "A tecnologia deblockchainoferece uma visibilidade sem igual sobre as transações e processos, com mais segurança e proteção da informação. Podemos imaginar um cenário onde cada real do orçamento público pudesse ser rastreado do começo ao fim, tornando-se quase impossível qualquer tipo de desvio de recursos. A imutabilidade doblockchainpode tornar isso uma realidade, reforçando a integridade das nossas instituições, combatendo a corrupção e dando mais transparência aos dados públicos.",
+      "char_start": 161466,
+      "char_end": 161953,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 86,
+      "falante": "Caio Vianna",
+      "trecho": "oferecendo mais transparência, eficiência, segurança e confiança aos cidadãos",
+      "char_start": 161311,
+      "char_end": 161388,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 86,
+      "falante": "Caio Vianna",
+      "trecho": "Estou aqui à sua disposição, à disposição de toda a nossa bancada e do povo brasileiro, principalmente para continuar aprendendo muito com V.Exa. e com os demais colegas, com o nosso querido Líder, Deputado Antonio Brito, que tem sido também fundamental na nossa história.",
+      "char_start": 159940,
+      "char_end": 160212,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Caio Vianna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "respeito_grupos",
+      "turno_id": 36,
+      "falante": "Aristides Andrade Cavalcante Neto",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "explicito_positivo",
+      "trecho": "o que isso realmente traz de benefício ao cidadão? Faz sentido para ele? ... isso vai trazer uma redução de crédito, o que trará o crédito mais barato, na ponta, para o cidadão, principalmente para financiamentos imobiliários, financiamentos de residências."
+    }
+  ],
+  "turnos_falhos": []
+}

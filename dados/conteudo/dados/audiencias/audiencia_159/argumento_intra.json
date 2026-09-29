@@ -1,0 +1,879 @@
+{
+  "sample_id": 159,
+  "n_opinioes": 36,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 35,
+  "n_fundamentos_propostos": 66,
+  "n_fundamentos_ancorados": 66,
+  "n_fundamentos_com_numero": 20,
+  "por_tipo": {
+    "dado": 60,
+    "autoridade": 6
+  },
+  "n_contrapontos_propostos": 6,
+  "n_com_contraponto": 6,
+  "n_rejeitados": 0,
+  "itens": [
+    {
+      "opiniao": "defende o fortalecimento contínuo das campanhas de prevenção ao câncer de mama por causa da baixa adesão de mulheres aos exames",
+      "falante": "Flávia Morais",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "muitas mulheres ainda não fazem a prevenção",
+          "char_start": 16219,
+          "char_end": 16262,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a prevenção e o rastreamento mamográfico como essenciais para salvar vidas no combate ao câncer de mama.",
+      "falante": "Weliton Prado",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Isso realmente é o que salva vidas",
+          "char_start": 16827,
+          "char_end": 16861,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende criar leis e cobrar resultados dos gestores públicos para melhorar a saúde da mulher, especialmente em oncologia e no Bem Nascer",
+      "falante": "Geraldo Resende",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No Mato Grosso do Sul, quando eu era Secretário, enfrentei esse tema.",
+          "char_start": 18240,
+          "char_end": 18309,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há poucos dias, cobrei da atual Secretária Adjunta que dê atenção ao Bem Nascer e à oncologia no Mato Grosso do Sul, para evitar a morte precoce de mulheres por causa do câncer e a morte de mulheres durante a gravidez, que é uma realidade hoje no Brasil.",
+          "char_start": 18310,
+          "char_end": 18564,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os números da mortalidade materna e da mortalidade infantil têm que nos envergonhar.",
+          "char_start": 18565,
+          "char_end": 18649,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia as estratégias da Comissão Especial de Combate ao Câncer e a cooperação da OPAS com os esforços no Brasil",
+      "falante": "Larissa Veríssimo",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Parabenizo mais uma vez esta Comissão Especial de Combate ao Câncer, que se estabelece num momento único no Brasil, junto com Fernando Maia, Gilmara Santos e Suyanne, que esteve conosco representando a CGCAN. Nós da Organização Pan-Americana de Saúde apoiamos essas estratégias.",
+          "char_start": 21342,
+          "char_end": 21620,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Propõe que a OPAS participe da iniciativa para aprovar na ONU uma resolução reconhecendo mundialmente o Outubro Rosa e o Novembro Azul.",
+      "falante": "Weliton Prado",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "O Instituto Lado a Lado pela Vida, que trouxe o Novembro Azul para o Brasil, fez essa sugestão.",
+          "char_start": 24828,
+          "char_end": 24923,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende financiamento específico e sustentável para o SUS como condição para garantir acesso universal e integral ao cuidado em saúde, especialmente no diagnóstico e tratamento do câncer",
+      "falante": "Verônica Savatin Wottrich",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "5.570 Municípios",
+          "char_start": 28353,
+          "char_end": 28369,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O Ministério da Saúde nos apresentou alguns dados na audiência pública do Estado de Goiás. A quantidade de mamógrafos que existe no País atende tranquilamente a demanda da população, incluindo os mamógrafos que estão na rede privada e os que estão no serviço público.",
+          "char_start": 30427,
+          "char_end": 30694,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Verônica, eu tenho aparelho de mamografia aqui. Preciso de mais um, lógico, porque a maior população ribeirinha está em Rondônia. Mas eu não consigo de forma nenhuma, mesmo na Capital, contratar mastologista. Não consigo pagar um mastologista para vir para cá, e muito menos para ir até as comunidades ribeirinhas dar atendimento às mulheres",
+          "char_start": 31522,
+          "char_end": 31863,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "para eu chegar até o aparelho de mamografia mais próximo, tinha que andar 330 quilômetros, sendo 110 quilômetros de estrada de chão",
+          "char_start": 32808,
+          "char_end": 32939,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Podemos adquirir um mamógrafo com recursos de emenda parlamentar, mas como o mastologista vai ser pago? Como vamos pagar o técnico em radiologia? Como vamos pagar a pessoa para dar o laudo da mamografia?",
+        "resposta": "Precisamos compreender quais são os custos em saúde no País.",
+        "objecao_char_start": 30222,
+        "objecao_char_end": 30425,
+        "resposta_char_start": 31291,
+        "resposta_char_end": 31351,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Propõe a criação de um fundo nacional de enfrentamento ao câncer com recursos novos, como acordos judiciais e criptomoedas apreendidas, sem retirar verbas de outros setores.",
+      "falante": "Weliton Prado",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os acordos judiciais de todas as esferas do Poder Judiciário, as criptomoedas que foram apreendidas, provenientes do crime organizado, cujo processo já foi transitado em julgado com decisão judicial",
+          "char_start": 34124,
+          "char_end": 34322,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Nós estamos aqui propondo uma alternativa. E qual é a alternativa? A criação de um fundo nacional de enfrentamento ao câncer. Não vamos retirar recursos de lugar nenhum, porque sabemos que o cobertor é curto.",
+        "resposta": "Nós estamos propondo novos recursos que estão parados, que podem salvar vidas, como os acordos judiciais de todas as esferas do Poder Judiciário, as criptomoedas que foram apreendidas, provenientes do crime organizado, cujo processo já foi transitado em julgado com decisão judicial.",
+        "objecao_char_start": 33831,
+        "objecao_char_end": 34039,
+        "resposta_char_start": 34040,
+        "resposta_char_end": 34323,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a criação de um fundo específico com recursos novos para diagnóstico precoce e tratamento do câncer de mama",
+      "falante": "Leonardo Moura Vilela",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "faltam recursos",
+          "char_start": 39615,
+          "char_end": 39630,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Fica a pergunta: de onde nós tiraremos recursos para estabelecermos essas redes assistenciais?",
+          "char_start": 39894,
+          "char_end": 39988,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Fica a pergunta: de onde nós tiraremos recursos para estabelecermos essas redes assistenciais? A ideia do Deputado Weliton Prado é excepcional: criar um fundo específico com recursos novos, com recursos que não estão dentro da vinculação orçamentária nas três esferas de gestão do SUS: União, Estados e Municípios.",
+          "char_start": 39894,
+          "char_end": 40208,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Fica a pergunta: de onde nós tiraremos recursos para estabelecermos essas redes assistenciais?",
+          "char_start": 39894,
+          "char_end": 39988,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o reconhecimento do câncer infanto-juvenil como distinto do câncer adulto e a implementação da política nacional em todos os estados.",
+      "falante": "Weliton Prado",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O câncer infantil só tem o nome igual, mas é totalmente diferente o tratamento",
+          "char_start": 42756,
+          "char_end": 42834,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No câncer infantil, às vezes com três quimioterapias a criança já tem remissão total do câncer",
+          "char_start": 43089,
+          "char_end": 43183,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O câncer infantil é igual ao câncer de mama, tem em torno de 90% de chance de cura se houver o diagnóstico precoce",
+          "char_start": 44189,
+          "char_end": 44303,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a célula da criança se divide muito rápido, o câncer é muito agressivo, só que o tratamento, o resultado também é muito efetivo",
+          "char_start": 44307,
+          "char_end": 44434,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que pacientes metastáticos tenham acesso imediato a medicamentos e exames previstos no SUS, sem dependência de judicialização",
+      "falante": "Cíntia Cerqueira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É um absurdo eu ser uma paciente metastática e ficar 9 meses na fila de uma tomografia.",
+          "char_start": 46972,
+          "char_end": 47059,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "eu já fiquei com medicamento judicializado mesmo sem tomar, porque não havia, eles não me forneciam.",
+          "char_start": 47813,
+          "char_end": 47913,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu estou sem meu medicamento. Eu faço uso do Fluvestranto, que é o Faslodex. Eu estou sem. Por quê? Porque a Secretaria não comprou.",
+          "char_start": 48511,
+          "char_end": 48643,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Como pode o hospital público ter um medicamento e não me fornecer, se no hospital no qual faço tratamento oncológico não tem o remédio, não foi comprado este mês?",
+          "char_start": 48680,
+          "char_end": 48842,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o medicamento é muito caro, então vamos dar para aquele que pode ter cura",
+        "resposta": "É um absurdo eu ser uma paciente metastática e ficar 9 meses na fila de uma tomografia.",
+        "objecao_char_start": 46866,
+        "objecao_char_end": 46939,
+        "resposta_char_start": 46972,
+        "resposta_char_end": 47059,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que médicos possam informar pacientes sobre tratamentos disponíveis, mesmo não fornecidos pelo SUS, sem risco de punição",
+      "falante": "Cíntia Cerqueira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A minha oncologista falou para mim:\"Dói eu saber que não posso indicar para vocês um medicamento que o SUS não fornece, porque eu sou penalizada\".",
+          "char_start": 47354,
+          "char_end": 47500,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eles não podem falar porque não está no SUS, porque não está no rol, porque vai ser penalizado se o fizer, porque o hospital vai brigar.",
+          "char_start": 52698,
+          "char_end": 52834,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não está no SUS, porque não está no rol, porque vai ser penalizado se o fizer, porque o hospital vai brigar",
+        "resposta": "Nós temos que ter esse elo com o profissional, o profissional tem que chegar para o paciente e falar:\"Olha, existe isso, isso e isso, eu não posso passar isso, mas você judicializa, você faça isso; existe esse tratamento, não tem aqui no SUS, mas corra atrás\".",
+        "objecao_char_start": 52726,
+        "objecao_char_end": 52833,
+        "resposta_char_start": 52836,
+        "resposta_char_end": 53096,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Outubro Rosa inclua a luta do paciente metastático e que o Estado garanta acesso universal a tratamentos existentes",
+      "falante": "Cíntia Cerqueira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quem me dera que todos os Outubro Rosa fossem rosa, porque muitas vezes para nós é cinza.",
+          "char_start": 46543,
+          "char_end": 46632,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o nosso Outubro é cinza, é sombrio, por falta de medicamento, por falta de exame, por falta de médicos que tenham amor, que tenham compaixão e nos digam:\"Esse é o tratamento de que você precisa\".",
+          "char_start": 52355,
+          "char_end": 52550,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende campanhas de diagnóstico precoce acessíveis e com profissionais capacitados, sem espera por idade",
+      "falante": "Cíntia Cerqueira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu procurei, quando eu descobri o caroço, e fui diagnosticada como se fosse um nódulo de gordura, mas era um câncer.",
+          "char_start": 55774,
+          "char_end": 55890,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os profissionais de saúde muitas vezes não estão preparados nem para diagnosticar que você está com câncer.",
+          "char_start": 55937,
+          "char_end": 56044,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aumento do investimento em saúde pública, especialmente no câncer, devido ao baixo percentual atual do PIB",
+      "falante": "Alexandre Ben",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Brasil investe um percentual muito pequeno do seu Produto Interno Bruto, está muito longe do que investem, por exemplo, Estados Unidos e Europa. Há países que já investem dois dígitos do seu PIB em saúde pública. No Brasil, nós investimos cerca de quase 4%.",
+          "char_start": 61716,
+          "char_end": 61975,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende melhor alocação dos recursos em saúde, com ênfase em prevenção e atenção primária",
+      "falante": "Alexandre Ben",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Gastos diretos da população com a saúde representam cerca de 13% do orçamento familiar, que é basicamente investido em medicamentos.",
+          "char_start": 62820,
+          "char_end": 62952,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Todo investimento que fazemos na atenção primária e na prevenção acaba por otimizar justamente os recursos para evitar maiores gastos em hospitais e em Unidades de Pronto Atendimento, além de garantir sobrevida para o sistema de saúde.",
+          "char_start": 63072,
+          "char_end": 63307,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Existe uma organização internacional de associações de pacientes que discute muito troca de experiências que obtiveram êxito e boas práticas, que tem disseminado o conceito do modelo 50-50. Nós apresentamos o modelo 50-50 no TJCC. Segundo esse modelo, devemos investir 50% em prevenção e diagnóstico e 50% em tratamento e ações para a sobrevida do paciente.",
+          "char_start": 63396,
+          "char_end": 63753,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Outubro Rosa tenha significado político e não apenas sensibilização",
+      "falante": "Alexandre Ben",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em setembro, outubro e novembro há um aumento no número de exames, de mamografias realizadas,porque as mulheres, de fato, se sensibilizam com a mensagem que ganha as ruas, que ganha o debate público.",
+          "char_start": 64892,
+          "char_end": 65091,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o Outubro Rosa tem esse efeito de sensibilização",
+        "resposta": "mas ele tem, cada vez mais, que ganhar significado político",
+        "objecao_char_start": 65098,
+        "objecao_char_end": 65146,
+        "resposta_char_start": 65148,
+        "resposta_char_end": 65207,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a implementação de busca ativa e acompanhamento contínuo para mulheres com mamografia alterada",
+      "falante": "Luciana Holtz de Camargo Barros",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "55% são descobertos nas fases avançadas ou metastáticas",
+          "char_start": 76579,
+          "char_end": 76634,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a discrepância entre o simbolismo do Outubro Rosa e a falta de acesso concreto ao tratamento",
+      "falante": "Luciana Holtz de Camargo Barros",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Estamos falando do câncer mais incidente do Brasil, que é o câncer de mama, e é preciso mais atenção em relação a isso. São 73 mil novos casos.",
+          "char_start": 76406,
+          "char_end": 76549,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "38% dos óbitos acontecem de forma precoce",
+          "char_start": 76890,
+          "char_end": 76931,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Se eu consigo convencer uma mulher hoje, Deputado, a fazer a mamografia dela, e ela vai amanhã, a mamografia tem que estar disponível para ela",
+        "resposta": "e sabemos que isso não acontece",
+        "objecao_char_start": 78701,
+        "objecao_char_end": 78843,
+        "resposta_char_start": 78845,
+        "resposta_char_end": 78876,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a efetivação das leis que garantem diagnóstico em até 30 dias e início do tratamento em até 60 dias",
+      "falante": "Joana Jeker dos Anjos",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "De 2015 a 2020, o tempo médio entre o recebimento do diagnóstico do câncer de mama e o início do tratamento foi de 174 dias.",
+          "char_start": 90877,
+          "char_end": 91001,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não há a Lei dos 60 dias, que determina 60 dias para iniciar o tratamento após o diagnóstico? Então, 174 dias não é aceitável.",
+          "char_start": 91022,
+          "char_end": 91148,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aumento de recursos para a saúde, especialmente para o combate ao câncer, em resposta ao corte de 45% entre 2020 e 2023",
+      "falante": "Joana Jeker dos Anjos",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Houve um acréscimo muito grande na pandemia, e de 203 bilhões de reais fomos para 146 bilhões de reais em 2023.",
+          "char_start": 90090,
+          "char_end": 90201,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A verba foi cortada em 45% entre 2020 e 2023.",
+          "char_start": 90480,
+          "char_end": 90525,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a efetivação da Lei de Navegação de Pacientes para garantir celeridade no tratamento oncológico",
+      "falante": "Joana Jeker dos Anjos",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Outra questão é a Lei de Navegação de Pacientes, uma lei muito importante da ex-Deputada Federal Tereza Nelma, maravilhosa, que inclusive é modelo da nossa exposição fotográficaOutubro Rosa, que está lá no Senado Federal, estará o mês inteiro.",
+          "char_start": 91938,
+          "char_end": 92181,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende reavaliação da portaria dos UNACONs e CACONs, maior investimento no SUS e cumprimento do prazo de 180 dias para disponibilização de medicamentos",
+      "falante": "Joana Jeker dos Anjos",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Queremos também o cumprimento do prazo de 180 dias para a disponibilização — não é mesmo, Deputado Weliton Prado? — dos medicamentos incorporados, porque, se existe uma lei para incorporá-los após 180 dias, que ela seja, de fato, cumprida",
+          "char_start": 93357,
+          "char_end": 93595,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Para um futuro melhor, o que desejamos? A reavaliação da portaria dos UNACONs e dos CACONs e um maior investimento no SUS como um todo",
+          "char_start": 93125,
+          "char_end": 93259,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aprovação da Política Nacional de Prevenção e Controle do Câncer e do FUNCANCER para aumentar recursos e combater o câncer",
+      "falante": "Joana Jeker dos Anjos",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Temos aqui duas políticas públicas que estão em tramitação na Casa, as duas de autoria do Deputado Weliton Prado, o que já foi falado: a Política Nacional de Prevenção e Controle do Câncer, que esperamos que seja aprovada no Senado Federal para diminuir a incidência dos diversos tipos de câncer, garantir o acesso adequado ao cuidado integral e contribuir para a melhoria da qualidade de vida dos pacientes",
+          "char_start": 93671,
+          "char_end": 94078,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "e o FUNCANCER, que vai destinar recursos à Política Nacional do Câncer.",
+          "char_start": 94080,
+          "char_end": 94151,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a destinação de recursos no Orçamento da União para a política de combate ao câncer de mama",
+      "falante": "Leonardo Moura Vilela",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Da nossa parte, fica o apelo para que esta Casa, a Câmara dos Deputados, juntamente com o Senado, aporte, no Orçamento da União, os recursos necessários para que essa política possa ser executada a bom termo.",
+          "char_start": 95600,
+          "char_end": 95808,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a ampliação do orçamento do SUS para viabilizar o acesso a novas drogas e tecnologias em oncologia",
+      "falante": "Suyanne Camille Caldeira Monteiro",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "todas as novas drogas e tecnologias que surgem todos os dias no campo da oncologia",
+          "char_start": 99546,
+          "char_end": 99628,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a inclusão das trabalhadoras terceirizadas nas ações de informação e apoio do Grupo Recomeçar",
+      "falante": "Eliane Nascimento",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "as minhas companheiras copeiras terceirizadas, mulheres trabalhadoras, chefes de família, que são mães, que são filhas, que são avós, mas que ficam aqui também distantes de toda essa informação",
+          "char_start": 100818,
+          "char_end": 101011,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Essas mulheres que saem de madrugada, que pegam ônibus, que vêm trabalhar, precisam também se juntar a todas nós",
+          "char_start": 101251,
+          "char_end": 101363,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reconhece e valoriza a atuação do Deputado Weliton Prado no apoio às mulheres com câncer",
+      "falante": "Eliane Nascimento",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Deputado Weliton Prado, a coragem, a honra de tê-lo perto de nós. O senhor é um Deputado, é um Parlamentar que está em luta constante conosco, trazendo aqui essa reunião muito importante para todos nós",
+          "char_start": 102225,
+          "char_end": 102426,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a descentralização das informações e a inclusão de todas as trabalhadoras no acesso ao Recomeçar",
+      "falante": "Eliane Nascimento",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vamos descentralizar as informações e levá-las a quem não tem essa comunicação, essa informação e mesmo esse acesso",
+          "char_start": 103063,
+          "char_end": 103178,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende campanha publicitária para disseminar informações sobre câncer em regiões com baixo acesso à internet, especialmente no Norte e Nordeste.",
+      "falante": "Antônia Lúcia",
+      "turno_id": 41,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "porque a maior dificuldade que eu vejo de se adquirirem essas informações é a ausência de uma campanha publicitária",
+          "char_start": 107007,
+          "char_end": 107122,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "principalmente pela parte do nosso País que está vivendo mais dificuldade de acesso à informática devido ao fato de o 5G nunca ter chegado",
+          "char_start": 107387,
+          "char_end": 107525,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No Norte, eu me ofereço para fazer essa informação chegar de forma mais rápida",
+          "char_start": 108519,
+          "char_end": 108597,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "lá, como foi citado aqui, há povos indígenas, mulheres indígenas",
+          "char_start": 107709,
+          "char_end": 107773,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Propõe o uso de lotéricas como canal de divulgação de campanhas de prevenção ao câncer, com apoio da Caixa Econômica Federal.",
+      "falante": "Weliton Prado",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "por onde passam, por mês, em torno de 100 milhões de pessoas — a metade do Brasil",
+          "char_start": 110468,
+          "char_end": 110549,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Elas estão praticamente em todos os Municípios do País",
+          "char_start": 110550,
+          "char_end": 110604,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Propõe o uso de igrejas, lotéricas e Defensorias Públicas para disseminar informações sobre câncer e promover acesso a direitos.",
+      "falante": "Antônia Lúcia",
+      "turno_id": 43,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "as nossas cartilhas poderão muito bem fazer parte e estar disponibilizadas dentro das Defensorias",
+          "char_start": 111624,
+          "char_end": 111721,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Também há os Conselhos Tutelares que foram eleitos agora",
+          "char_start": 111724,
+          "char_end": 111780,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reitera o apelo pela aprovação da Política Nacional de Prevenção e Controle do Câncer e do FUNCANCER",
+      "falante": "Joana Jeker dos Anjos",
+      "turno_id": 49,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "que seja aprovada a nossa política nacional de controle e combate ao câncer, no Senado, e que seja também aprovado o projeto de lei que cria o FUNCÂNCER, aqui na Câmara dos Deputados",
+          "char_start": 116729,
+          "char_end": 116911,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende apoio parlamentar a ONGs que atuam na assistência a pacientes com câncer",
+      "falante": "Cíntia Cerqueira",
+      "turno_id": 51,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em menos de 15 dias, 30 dias, você chega lá e apanha uma pasta com todos os exames prontos e vai à primeira consulta com todos os exames em mãos",
+          "char_start": 118268,
+          "char_end": 118412,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Isso aconteceu comigo, eu descobri o câncer num dia e dois dias depois eu estava sentada à mesa da Dra. Luci, em menos de 30 dias eu estava sentada à mesa do meu oncologista, na época, com todos os exames prontos e já dando início ao meu tratamento",
+          "char_start": 118414,
+          "char_end": 118662,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que mulheres em privação de liberdade tenham direito a exames e informações sobre câncer de mama",
+      "falante": "Cíntia Cerqueira",
+      "turno_id": 51,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quantas mulheres estão presas, e elas também têm direito de serem diagnosticadas precocemente, elas também têm o direito às informações, ao autoexame",
+          "char_start": 119306,
+          "char_end": 119455,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o Parlamento deve garantir resolutividade nas políticas públicas de combate ao câncer, especialmente para alcançar populações vulneráveis",
+      "falante": "Silvia Cristina",
+      "turno_id": 53,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em 2007, depois que fui curada, a primeira coisa que fiz foi me organizar e fundar o Grupo de Apoio aos Portadores de Câncer, o GAPCA, que até hoje faz um trabalho excepcional no Estado de Rondônia",
+          "char_start": 120441,
+          "char_end": 120638,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9722,
+  "taxa_contraponto": 0.1667,
+  "taxa_ancoragem_fundamento": 1.0
+}

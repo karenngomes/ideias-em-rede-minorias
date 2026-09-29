@@ -1,0 +1,60 @@
+{
+  "sample_id": 90,
+  "n_opinioes": 25,
+  "n_decompostas": 25,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 8,
+  "n_ancorados": 6,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 4,
+  "n_perdidos": 2,
+  "por_tipo": {
+    "condicao": 3,
+    "escopo": 3
+  },
+  "perdas": [
+    {
+      "falante": "Luísa Carvalho Rodrigues",
+      "turno_id": 4,
+      "opiniao": "defende a quebra da 'lei do silêncio' sobre o assédio sexual no esporte por meio do empoderamento das vítimas",
+      "nucleo": "Defendeu a quebra da 'lei do silêncio' sobre o assédio sexual no esporte por meio do empoderamento das vítimas",
+      "tipo": "condicao",
+      "trecho": "para que ela se sinta amparada e possa romper essa política de silêncio",
+      "char_start": 9150,
+      "char_end": 9221
+    },
+    {
+      "falante": "Luísa Carvalho Rodrigues",
+      "turno_id": 59,
+      "opiniao": "defende que a prioridade absoluta aos direitos de crianças e adolescentes seja efetivada na prática",
+      "nucleo": "defendeu que a prioridade absoluta aos direitos de crianças e adolescentes seja efetivada na prática",
+      "tipo": "condicao",
+      "trecho": "se mais nada for possível",
+      "char_start": 67664,
+      "char_end": 67689
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 61,
+      "falante": "Rodrigo Acioli",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com foco nos atletas mais vulneráveis",
+      "opiniao": "defende a ampliação do cuidado psicológico a todas as modalidades esportivas, com foco nos atletas mais vulneráveis"
+    },
+    {
+      "turno_id": 70,
+      "falante": "Marcia de Andrade Angelo Bueno",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "sem burocracia excessiva",
+      "opiniao": "defende a facilitação do desenvolvimento dos clubes de base, sem burocracia excessiva, para garantir acesso ao esporte"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.6667,
+  "taxa_ancoragem": 0.75,
+  "taxa_opiniao_intacta": 0.92
+}

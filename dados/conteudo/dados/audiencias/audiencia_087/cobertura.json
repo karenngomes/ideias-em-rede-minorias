@@ -1,0 +1,512 @@
+{
+  "sample_id": 87,
+  "n_falantes": 33,
+  "n_parlamentares": 9,
+  "n_convidados": 24,
+  "n_citados_gold": 8,
+  "n_citados_ausentes": 0,
+  "n_opinioes_gold": 15,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.7542002944012994,
+      "participacao_civil_turnos": 0.44375,
+      "citacao_civil_opinioes": 0.7333333333333333,
+      "citacao_civil_pessoas": 0.75,
+      "deficit_civil": 0.02086696106796615
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.8291805016881051,
+      "participacao_civil_turnos": 0.7634408602150538,
+      "citacao_civil_opinioes": 0.7857142857142857,
+      "citacao_civil_pessoas": 0.8571428571428571,
+      "deficit_civil": 0.04346621597381939
+    }
+  },
+  "citados_ausentes": [],
+  "falantes_silenciados": [
+    "Aderson Ribeiro da Silva",
+    "Alexandre Lindenmeyer",
+    "André Porto",
+    "Carina Trindade",
+    "Coronel Assis",
+    "Daniel Agrobom",
+    "Delegado Caveira",
+    "Denis Moura",
+    "Eliseu Paulino da Cunha",
+    "Erika Kokay",
+    "Evandro Henrique Roque Pereira",
+    "Fausto Augusto Junior",
+    "Gleidson José Veras do Nascimento",
+    "Jeferson Rodrigues",
+    "Jonathas Amorim",
+    "Leandro da Cruz Medeiros",
+    "Lucas Ramos",
+    "Lucyana Rios Monteiro Barbosa Souza",
+    "Marlon Luz",
+    "Priscila Dibi Schvarcz",
+    "Professor Leite",
+    "Rodrigo Marinho",
+    "Taciano Rocha",
+    "Vinicius Borges",
+    "Ítalo da Silva Araujo"
+  ],
+  "falantes": [
+    {
+      "nome": "Josenildo",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 67,
+      "n_palavras": 3563,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        41,
+        44,
+        48,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        77,
+        79,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        97,
+        98,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        128,
+        149,
+        151,
+        154,
+        156,
+        158,
+        160
+      ]
+    },
+    {
+      "nome": "Adroaldo da Cunha Portal",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1483,
+      "turnos": [
+        2
+      ]
+    },
+    {
+      "nome": "Fernando Paes",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 850,
+      "turnos": [
+        4
+      ]
+    },
+    {
+      "nome": "Ricardo Leite",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1142,
+      "turnos": [
+        6
+      ]
+    },
+    {
+      "nome": "Denis Moura",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 10,
+      "n_palavras": 2947,
+      "turnos": [
+        8,
+        33,
+        35,
+        104,
+        106,
+        133,
+        135,
+        137,
+        139,
+        141
+      ]
+    },
+    {
+      "nome": "Paulo Xavier",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1225,
+      "turnos": [
+        10
+      ]
+    },
+    {
+      "nome": "Daniel Agrobom",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1216,
+      "turnos": [
+        12
+      ]
+    },
+    {
+      "nome": "Priscila Dibi Schvarcz",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 1257,
+      "turnos": [
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    {
+      "nome": "Jeferson Rodrigues",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 946,
+      "turnos": [
+        22,
+        23
+      ]
+    },
+    {
+      "nome": "Alexandre Lindenmeyer",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 546,
+      "turnos": [
+        25
+      ]
+    },
+    {
+      "nome": "Rodrigo Porto",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1561,
+      "turnos": [
+        27,
+        29
+      ]
+    },
+    {
+      "nome": "Carina Trindade",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 2077,
+      "turnos": [
+        31,
+        78
+      ]
+    },
+    {
+      "nome": "Delegado Caveira",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 9,
+      "n_palavras": 781,
+      "turnos": [
+        37,
+        38,
+        40,
+        42,
+        45,
+        47,
+        49,
+        50,
+        52
+      ]
+    },
+    {
+      "nome": "Ministro Luiz Marinho",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 19,
+      "n_palavras": 4329,
+      "turnos": [
+        39,
+        43,
+        46,
+        74,
+        76,
+        126,
+        127,
+        129,
+        130,
+        131,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        143,
+        155,
+        157
+      ]
+    },
+    {
+      "nome": "Evandro Henrique Roque Pereira",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1583,
+      "turnos": [
+        54
+      ]
+    },
+    {
+      "nome": "André Porto",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1429,
+      "turnos": [
+        56
+      ]
+    },
+    {
+      "nome": "Lucas Ramos",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 752,
+      "turnos": [
+        58
+      ]
+    },
+    {
+      "nome": "Rodrigo Marinho",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1540,
+      "turnos": [
+        60
+      ]
+    },
+    {
+      "nome": "Coronel Assis",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 625,
+      "turnos": [
+        62,
+        64,
+        66,
+        72
+      ]
+    },
+    {
+      "nome": "Leandro da Cruz Medeiros",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1965,
+      "turnos": [
+        68,
+        70
+      ]
+    },
+    {
+      "nome": "Lucyana Rios Monteiro Barbosa Souza",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 589,
+      "turnos": [
+        75
+      ]
+    },
+    {
+      "nome": "Marlon Luz",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 5,
+      "n_palavras": 611,
+      "turnos": [
+        81,
+        83,
+        85,
+        87,
+        89
+      ]
+    },
+    {
+      "nome": "Aderson Ribeiro da Silva",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 6,
+      "n_palavras": 967,
+      "turnos": [
+        91,
+        93,
+        95,
+        148,
+        150,
+        152
+      ]
+    },
+    {
+      "nome": "Fausto Augusto Junior",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 485,
+      "turnos": [
+        100,
+        102
+      ]
+    },
+    {
+      "nome": "Vinicius Borges",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 590,
+      "turnos": [
+        108,
+        147
+      ]
+    },
+    {
+      "nome": "Gleidson José Veras do Nascimento",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 853,
+      "turnos": [
+        110,
+        145,
+        153,
+        159
+      ]
+    },
+    {
+      "nome": "Eliseu Paulino da Cunha",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 474,
+      "turnos": [
+        112
+      ]
+    },
+    {
+      "nome": "Taciano Rocha",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 539,
+      "turnos": [
+        114
+      ]
+    },
+    {
+      "nome": "Professor Leite",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 403,
+      "turnos": [
+        116
+      ]
+    },
+    {
+      "nome": "Ítalo da Silva Araujo",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 449,
+      "turnos": [
+        118
+      ]
+    },
+    {
+      "nome": "Jonathas Amorim",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 369,
+      "turnos": [
+        120
+      ]
+    },
+    {
+      "nome": "Erika Kokay",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 608,
+      "turnos": [
+        122
+      ]
+    },
+    {
+      "nome": "Augusto Coutinho",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 648,
+      "turnos": [
+        124,
+        144,
+        146
+      ]
+    }
+  ]
+}

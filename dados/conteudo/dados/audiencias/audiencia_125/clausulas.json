@@ -1,0 +1,102 @@
+{
+  "sample_id": 125,
+  "n_opinioes": 21,
+  "n_decompostas": 21,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 13,
+  "n_ancorados": 11,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 5,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "excecao": 3,
+    "grau": 1,
+    "escopo": 5,
+    "condicao": 2
+  },
+  "perdas": [
+    {
+      "falante": "Idilvan Alencar",
+      "turno_id": 1,
+      "opiniao": "defende a eleição de diretores como modelo superior à indicação política, apesar de reconhecer limites",
+      "nucleo": "Defendeu a eleição de diretores como modelo superior à indicação política.",
+      "tipo": "excecao",
+      "trecho": "hoje, no Estado do Ceará, nas escolas profissionais, não há eleição, de acordo com uma lei estadual, e, nas escolas em tempo integral que estão completando o ciclo, também não há eleição",
+      "char_start": 6379,
+      "char_end": 6565
+    },
+    {
+      "falante": "Ana Cristina Prado de Oliveira",
+      "turno_id": 4,
+      "opiniao": "defende a seleção técnica de diretores escolares com base em competência, em vez de indicação política",
+      "nucleo": "defendeu a seleção técnica de diretores escolares com base em competência",
+      "tipo": "escopo",
+      "trecho": "para o cargo de diretor escolar",
+      "char_start": 19486,
+      "char_end": 19517
+    },
+    {
+      "falante": "Ana Cristina Prado de Oliveira",
+      "turno_id": 4,
+      "opiniao": "defende formação específica para diretores que integre aspectos técnicos e políticos",
+      "nucleo": "defendeu formação específica para diretores",
+      "tipo": "escopo",
+      "trecho": "para atuar na sua área",
+      "char_start": 20146,
+      "char_end": 20168
+    },
+    {
+      "falante": "Lara Simielli",
+      "turno_id": 12,
+      "opiniao": "defende a adoção de critérios técnicos e múltiplas etapas nos processos de seleção de diretores escolares",
+      "nucleo": "defendeu a adoção de critérios técnicos e múltiplas etapas nos processos de seleção de diretores escolares",
+      "tipo": "condicao",
+      "trecho": "como já foi colocado aqui por todo mundo que me precedeu",
+      "char_start": 40351,
+      "char_end": 40407
+    },
+    {
+      "falante": "Lara Simielli",
+      "turno_id": 12,
+      "opiniao": "defende a formação contínua e integrada de diretores, com forte componente prático",
+      "nucleo": "defendeu a formação contínua e integrada de diretores, com forte componente prático",
+      "tipo": "escopo",
+      "trecho": "desde o momento em que um professor apresenta a vontade de se tornar diretor",
+      "char_start": 41318,
+      "char_end": 41394
+    },
+    {
+      "falante": "Lara Simielli",
+      "turno_id": 12,
+      "opiniao": "defende a alocação estratégica de diretores qualificados nas escolas mais vulneráveis como medida de equidade",
+      "nucleo": "defendeu a alocação estratégica de diretores qualificados nas escolas mais vulneráveis como medida de equidade",
+      "tipo": "condicao",
+      "trecho": "Se não colocarmos intencionalmente isso dentro do planejamento das políticas públicas",
+      "char_start": 42760,
+      "char_end": 42845
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 1,
+      "falante": "Idilvan Alencar",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "ou se faz a seleção, ou vai-se perder recurso do FUNDEB",
+      "opiniao": "defende que a seleção de diretores escolares deve ser feita por critérios técnicos e não por indicação política, sob pena de perda de recursos do FUNDEB"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Antonio Bresolin",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "sobre as práticas atuais no País",
+      "opiniao": "defende a qualificação do debate sobre seleção e formação de diretores com base em evidências sobre as práticas atuais no País"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.4545,
+  "taxa_ancoragem": 0.8462,
+  "taxa_opiniao_intacta": 0.7143
+}

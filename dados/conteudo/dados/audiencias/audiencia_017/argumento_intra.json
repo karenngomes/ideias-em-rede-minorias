@@ -1,0 +1,960 @@
+{
+  "sample_id": 17,
+  "n_opinioes": 42,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 35,
+  "n_fundamentos_propostos": 66,
+  "n_fundamentos_ancorados": 57,
+  "n_fundamentos_com_numero": 13,
+  "por_tipo": {
+    "dado": 47,
+    "autoridade": 10
+  },
+  "n_contrapontos_propostos": 16,
+  "n_com_contraponto": 14,
+  "n_rejeitados": 11,
+  "itens": [
+    {
+      "opiniao": "defende que o Supremo Tribunal Federal descumpre a Constituição ao criar políticas públicas e interferir em decisões do Executivo e do Legislativo, como em decisões sobre aborto, segurança pública e nomeações",
+      "falante": "Rodrigo Saraiva",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Interromper gestação até o 3º mês não é crime, decide 1ª Turma do STF em HC.",
+          "char_start": 4431,
+          "char_end": 4507,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ministro do STF proíbe operações em favelas do Rio durante a pandemia.",
+          "char_start": 5297,
+          "char_end": 5367,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Alexandre de Moraes suspende nomeação de Ramagem para a chefia da PF.",
+          "char_start": 6714,
+          "char_end": 6783,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Cármen Lúcia suspende a posse de Cristiane Brasil no Ministério do Trabalho.",
+          "char_start": 8154,
+          "char_end": 8230,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "impeachmentgera duas consequências: perda de mandato e inelegibilidade por 8 anos.",
+          "char_start": 12614,
+          "char_end": 12696,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Supremo Tribunal Federal não deve intervir em nomeações presidenciais nem anular leis aprovadas pelo Congresso, por invadir competência de outros Poderes",
+      "falante": "Sebastiâo Coelho",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Ministro Gilmar Mendes, salvo engano — não quero errar o nome —, suspendeu aquela nomeação",
+          "char_start": 23089,
+          "char_end": 23181,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "houve a nomeação de uma Deputada Federal, a Deputada Cristiane Brasil, para o Ministério do Trabalho. Isso foi anunciado, mas um Ministro do Supremo a suspendeu",
+          "char_start": 23377,
+          "char_end": 23537,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "houve a suspensão da nomeação do Deputado Ramagem",
+          "char_start": 23642,
+          "char_end": 23691,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Muito bem. Como a senhora ali na audiência está dizendo que foi pedido de um Parlamentar",
+        "resposta": "devo dizer que, infelizmente, nesta Casa, alguns Parlamentares, quando não conseguem levar um projeto de lei adiante, vão buscar guarida no Supremo Tribunal Federal. Essa é uma realidade. As Casas legislativas da Nação devem entender que têm responsabilidade sobre isso, porque se não levassem ao Supremo Tribunal Federal, não haveria essa decisão",
+        "objecao_char_start": 23836,
+        "objecao_char_end": 23924,
+        "resposta_char_start": 23926,
+        "resposta_char_end": 24273,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a proximidade entre Ministros do STF e parlamentares, por configurar troca de favores e comprometer a independência do Judiciário",
+      "falante": "Sebastiâo Coelho",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "qual o sentido de um Parlamentar ter o número de telefone e ser amigo íntimo de um Ministro do Supremo Tribunal Federal? Por que um Ministro do Supremo Tribunal Federal teria interesse de ser amigo íntimo de Senadores?",
+          "char_start": 27595,
+          "char_end": 27813,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "fica essa troca de favores, vamos dizer assim",
+          "char_start": 27955,
+          "char_end": 28000,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica o STF por agir como partido político e se manifestar publicamente em redes sociais, o que compromete sua imparcialidade e função constitucional",
+      "falante": "Sebastiâo Coelho",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os Srs. Ministros diariamente se manifestando, por meio de tuítes, sobre absolutamente tudo, até sobre processos que eles vão julgar no futuro!",
+          "char_start": 32863,
+          "char_end": 33006,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o povo brasileiro deve agir para conter abusos do STF se o Parlamento não o fizer",
+      "falante": "Sebastiâo Coelho",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu não tenho mais esperança, Deputado, de que o Supremo Tribunal Federal vá retroceder nesta escalada autoritária",
+          "char_start": 34726,
+          "char_end": 34839,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a omissão da Câmara em reagir a prisões arbitrárias, em contraste com a atuação do Senado",
+      "falante": "Sebastião Coelho",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Senado agiu; a Câmara não agiu.",
+          "char_start": 35369,
+          "char_end": 35402,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o povo deve agir para conter abusos do STF se o Parlamento não cumprir seu papel fiscalizador",
+      "falante": "Sebastião Coelho",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós, povo brasileiro, vamos agir para mudar esta situação",
+          "char_start": 36349,
+          "char_end": 36406,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a crítica aos Poderes deve visar aperfeiçoar a democracia, não destruí-la",
+      "falante": "Pedro Estevam",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a história nos ensina: tem que se ter cautela com a crítica, deve-se fazer a crítica da crítica, tomar cuidado com a crítica, porque, ao atacar os homens, procura-se destruir as instituições. Ao atacar um Ministro do Supremo, procura-se destruir o Supremo Tribunal Federal e, com ele, a Constituição e a democracia.",
+          "char_start": 45431,
+          "char_end": 45746,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Existem disfunções no agir do Supremo Tribunal Federal? Existem.",
+        "resposta": "Nós não podemos ficar aqui fazendo um cipoal de críticas a decisões individuais do Supremo, pois cada uma deve ser considerada tecnicamente e debatida com a profundidade que a questão técnico-jurídica exige, e não promover, com isso, um uso ideológico do direito, porque foi isso que levou à ascensão do nazismo, foi isso que levou à destruição da democracia.",
+        "objecao_char_start": 45853,
+        "objecao_char_end": 45917,
+        "resposta_char_start": 47333,
+        "resposta_char_end": 47692,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "o debate judicial deve ser técnico, não político",
+      "falante": "Pedro Estevam",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Tribunais importantes, como o Tribunal de Justiça de São Paulo, decidiu que seviciar e violentar prisioneiros, quando a polícia o faz, só é considerado crime de tortura quando é para obter alguma informação.",
+          "char_start": 48482,
+          "char_end": 48689,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "não há crime hermenêutico",
+      "falante": "Pedro Estevam",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Não há crime hermenêutico, isso não existe em nenhuma democracia do mundo.",
+          "char_start": 50097,
+          "char_end": 50171,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "o modelo brasileiro de controle de constitucionalidade desequilibra os Poderes",
+      "falante": "Pedro Estevam",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós mostramos, numa dissertação de um orientando meu, que não, o Supremo brasileiro é o que tem mais casos no mundo.",
+          "char_start": 55903,
+          "char_end": 56019,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a decisão monocrática no STF é legítima para evitar perecimento de direitos",
+      "falante": "Pedro Estevam",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A pandemia, sei que há gente aqui que diverge disto, é exemplo disso, quando a demora na adoção de medidas recomendadas pela ciência poderia e pôde ocasionar a morte de pessoas, a contaminação.",
+          "char_start": 55283,
+          "char_end": 55476,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a Constituição, em cláusula pétrea, diz que direitos não devem perecer por falta de prestação jurisdicional.",
+          "char_start": 56351,
+          "char_end": 56459,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a crítica ao Judiciário deve ser técnica, não institucional",
+      "falante": "Pedro Estevam",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a maior parte das críticas que ouvi aqui feitas ao STF cabem a todo o sistema de Justiça.",
+          "char_start": 57441,
+          "char_end": 57530,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende um certo grau de ativismo judicial como necessário, desde que limitado, para adaptar o Direito às mudanças socioculturais e tecnológicas",
+      "falante": "Eduardo Lycurgo",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há 20 anos, eu tinha um telefone celular — ou talvez um pouco mais, há 22 anos ou há 23 anos. Esse telefone celular era, eu acho, um Motorola. Antigamente ele era um tijolo. Depois ele foi ficando menor. Alguém inventou um que dobrava; o outro inventou um que tremia. Mas era só um telefone. Hoje, o celular é tudo, até mesmo um telefone, ele serve até mesmo para fazer ligação. Você guarda fotos, você guarda música.",
+          "char_start": 64116,
+          "char_end": 64533,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A Lei de Direitos Autorais diz que, sem a prévia e expressa autorização do titular de direitos autorais, é possível se fazer uma única cópia para uso privado, ou seja, eu posso fazer uma única cópia de algo para uso privado.",
+          "char_start": 65362,
+          "char_end": 65586,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "será que o mundo não vai mudar? Será que as relações não vão mudar?",
+        "resposta": "E será que o Direito não vai se permitir ser revisitado de tempos em tempos a partir de uma visão das Cortes?",
+        "objecao_char_start": 69112,
+        "objecao_char_end": 69179,
+        "resposta_char_start": 69180,
+        "resposta_char_end": 69289,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a interpretação judicial atualizadora como forma de manter a relevância das leis frente às transformações sociais, sem romper a separação de poderes",
+      "falante": "Eduardo Lycurgo",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quantas proposições legislativas foram apresentadas nesta Casa ou no Senado e passaram anos sem ser analisadas?",
+          "char_start": 67543,
+          "char_end": 67654,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O Dr. Sebastião bem lembrou o que está na nossa Constituição, que todo o poder emana do povo e em seu nome será exercido.",
+          "char_start": 68579,
+          "char_end": 68700,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o STF não deve ter papel representativo, pois isso desequilibra os poderes e coloca em risco a democracia",
+      "falante": "José Medeiros",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "onze pessoas como que saindo da caixa e dizendo:\"Eu posso, eu posso tratar de qualquer tema\"",
+          "char_start": 72557,
+          "char_end": 72649,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "um Ministro, no plantão, anula todo o trabalho do Congresso",
+          "char_start": 75095,
+          "char_end": 75154,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu até admiro a sua vontade de tratar temas políticos, de ter essa representatividade.",
+        "resposta": "Então, vamos fazer o seguinte: na época da eleição, o senhor abandona o STF, põe uma botina e vai para os bairros pedir voto, e daí o senhor adquire essa representatividade.",
+        "objecao_char_start": 71937,
+        "objecao_char_end": 72023,
+        "resposta_char_start": 72024,
+        "resposta_char_end": 72197,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Supremo Tribunal Federal deve limitar-se a julgar casos concretos e respeitar a lei escrita, sem atuar com ativismo judicial que invada a competência do Poder Legislativo",
+      "falante": "Lafayette de Andrada",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu me recordo que, em uma lei eleitoral, o Supremo mudou a composição das Câmaras Municipais por causa de um julgamento.",
+          "char_start": 79355,
+          "char_end": 79475,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Num caso clássico, o Código Civil falava que família se dá com a união entre homem e mulher. A modernidade dos tempos mostrou que hoje a sociedade tolera e que passa a ser normal, o que é perfeitamente compreensível, haver a união de indivíduos do mesmo sexo. Entende-se perfeitamente isso. E aí o Supremo resolveu modificar a lei.",
+          "char_start": 79476,
+          "char_end": 79807,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Como diz o Dr. Lycurgo, às vezes, é bom um pequeno ativismo judiciário para corrigir essa pequena...",
+        "resposta": "Não é! Não é! Não é! Quem tem competência e quem deve exprimir a voz da população, os anseios do povo, da sociedade, é o Poder Legislativo.",
+        "objecao_char_start": 77295,
+        "objecao_char_end": 77395,
+        "resposta_char_start": 77396,
+        "resposta_char_end": 77535,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que matérias políticas e de grande impacto social, como a descriminalização do aborto, devem ser decididas pelo Parlamento e não pelo STF, por respeito à soberania popular e à separação de Poderes",
+      "falante": "Chris Tonietto",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "são mais de 600 proposições que versam sobre a matéria",
+          "char_start": 83403,
+          "char_end": 83457,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "art. 2º da nossa Constituição Federal, da nossa Carta Magna, sobre tripartição dos Poderes",
+          "char_start": 81582,
+          "char_end": 81672,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "art. 1º, parágrafo único, da nossa Constituição",
+          "char_start": 84624,
+          "char_end": 84671,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que eventuais reformas no sistema judicial devem ser debatidas com serenidade, respeito e participação plural, sem revanchismo, ainda que haja críticas ao Judiciário",
+      "falante": "Alencar Santana",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós não podemos fazer isso de maneira repentina. Teríamos que promover alguns debates, alguns seminários como este, audiências públicas, e trazer para esta Mesa um representante dos Poderes.",
+          "char_start": 89858,
+          "char_end": 90048,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Contestamos essas decisões judiciais, fizemos críticas políticas ao Poder Judiciário, mas nunca ultrapassamos a barreira e faltamos com o respeito ao Poder Judiciário, nunca achamos que deveria haver qualquer tipo de sanção ou qualquer tipo de punição.",
+          "char_start": 90526,
+          "char_end": 90778,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não dá para o Parlamento, achando que vai se vingar, simplesmente porque está contra uma decisão que foi dada, que é contra o seu interesse...",
+        "resposta": "Contestamos essas decisões judiciais, fizemos críticas políticas ao Poder Judiciário, mas nunca ultrapassamos a barreira e faltamos com o respeito ao Poder Judiciário, nunca achamos que deveria haver qualquer tipo de sanção ou qualquer tipo de punição.",
+        "objecao_char_start": 90233,
+        "objecao_char_end": 90375,
+        "resposta_char_start": 90526,
+        "resposta_char_end": 90778,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o ativismo político no Judiciário prejudica a imparcialidade e a democracia, especialmente quando ministros julgam casos envolvendo parentes",
+      "falante": "Abilio Brunini",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A esposa do Ministro, o irmão do Ministro ou o filho do Ministro podem ser advogados de um cliente do Ministro!",
+          "char_start": 96160,
+          "char_end": 96271,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "recentemente há decisões permitindo isso",
+          "char_start": 96491,
+          "char_end": 96531,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não estou dizendo que ele vá fazer um julgamento favorável ou contrário",
+        "resposta": "mas que se traz prejuízo ao processo judicial quando não há mais imparcialidade",
+        "objecao_char_start": 95790,
+        "objecao_char_end": 95861,
+        "resposta_char_start": 95863,
+        "resposta_char_end": 95942,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Judiciário não deve assumir lado ideológico para preservar a democracia e a confiança no Estado Democrático de Direito",
+      "falante": "Abilio Brunini",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a nossa democracia está em risco quando o povo não pode mais confiar na Justiça",
+          "char_start": 97972,
+          "char_end": 98051,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não estou dizendo que tem que haver um judiciário de direita ou um judiciário de esquerda ou um judiciário de centro.",
+        "resposta": "De qualquer um dos lados de que o Judiciário se apropriar, ele está tomando partido de um lado ideológico e partidário e prejudicando todo o julgamento do processo.",
+        "objecao_char_start": 97131,
+        "objecao_char_end": 97248,
+        "resposta_char_start": 97254,
+        "resposta_char_end": 97418,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "o Judiciário deve exercer autocontenção em temas sem consenso social",
+      "falante": "Pedro Estevam",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Cito aqui o grande livro do Prof. Paulo Fontes, Desembargador do Tribunal Regional Federal de São Paulo, em que, apesar de politicamente defender o aborto, ele fala que o Judiciário não deve interferir nisso, pela ausência de consenso ético mínimo no ambiente social.",
+          "char_start": 101154,
+          "char_end": 101421,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "o STF deve promover acordos para evitar divisões profundas na sociedade",
+      "falante": "Pedro Estevam",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Ele tem promovido acordos em ações de inconstitucionalidade. Às vezes, é o caso de promover acordo mesmo, para não haver lado derrotado.",
+          "char_start": 105689,
+          "char_end": 105825,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "afastar a regra para proteger o direito é legítimo, mesmo que a legislação não reflita isso",
+      "falante": "Pedro Estevam",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Existem 700 anos de debate sobre isso e critérios que não são tão subjetivos como se quer fazer crer",
+          "char_start": 106614,
+          "char_end": 106714,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a nossa legislação nem sempre reflete isso",
+          "char_start": 106723,
+          "char_end": 106765,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "a nossa legislação nem sempre reflete isso",
+        "resposta": "Infelizmente, nós precisamos aperfeiçoá-la nesse aspecto",
+        "objecao_char_start": 106723,
+        "objecao_char_end": 106765,
+        "resposta_char_start": 106767,
+        "resposta_char_end": 106823,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "a democracia deve ser agonista, não antagônica",
+      "falante": "Pedro Estevam",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "como fala Dworkin, como solo comum",
+          "char_start": 107089,
+          "char_end": 107123,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu vi os direitos e a democracia colocados como solo comum sobre o qual se realiza a disputa de poder, mas aceitando-se que na democracia não há antagônico",
+          "char_start": 107204,
+          "char_end": 107359,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "na democracia não há antagônico",
+        "resposta": "A relação democrática é como a relação dos Jogos Olímpicos da Grécia, é a relação agonista. Eu compito com aquela pessoa na corrida, eu jamais vou me conciliar com ela, mas eu sei que sem ela não há jogos",
+        "objecao_char_start": 107328,
+        "objecao_char_end": 107359,
+        "resposta_char_start": 107361,
+        "resposta_char_end": 107565,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a atuação monocrática e política do STF, defendendo que o Judiciário deve respeitar o devido processo legal e não interferir em funções dos outros Poderes",
+      "falante": "Rodrigo Saraiva",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "foram 117.784 decisões proferidas, no gabinete, e 21.215 despachos, e 84% das decisões, Presidente Rui Falcão, foram monocráticas.",
+          "char_start": 109066,
+          "char_end": 109196,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quando o STF traz 1.400 pessoas sem foro privilegiado para julgar, aqueles números, que já eram absurdos, passaram a ser ainda mais absurdos.",
+          "char_start": 110130,
+          "char_end": 110271,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Apenas isso já seria motivo para parar e dizer que alguma coisa está errada, num país que prende 1.400 pessoas ao mesmo tempo, por meio de uma decisão de um Ministro.",
+          "char_start": 114543,
+          "char_end": 114709,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Congresso Nacional deve frear os abusos da Suprema Corte com base no art. 52, diante do ativismo judicial crescente",
+      "falante": "Cabo Gilberto Silva",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "O Congresso Nacional é que tem a prerrogativa, através do art. 52, de frear os abusos da Suprema Corte",
+          "char_start": 119300,
+          "char_end": 119402,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita ser rotulado como fascista por defender valores cristãos e de família",
+      "falante": "Sebastião Coelho",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu sou um cristão evangélico, sou pastor da Assembleia de Deus e sempre defendi os valores de Deus, pátria, família e liberdade.",
+          "char_start": 121042,
+          "char_end": 121170,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a PEC sobre foro privilegiado como instrumento para conter abusos de decisões monocráticas do STF",
+      "falante": "Sebastião Coelho",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A PEC que foi aprovada especifica os casos em que não se substitui o Presidente da República, em que não se substitui o Presidente destas duas Casas e não se substituem leis aprovadas pelo conjunto dos 594 Parlamentares.",
+          "char_start": 124698,
+          "char_end": 124918,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ela não impede o Ministro de conceder uma decisão monocrática em caso concreto, mas impede, para inibir esses Ministros, de proferir decisões, por exemplo, como a do Fachin, que proferiu uma decisão monocrática e disse que o julgamento não deveria ser em Curitiba, mas em outro lugar; como a do Lewandowski, que burlou a Lei das S/A — ele concedeu uma liminar que até agora não foi resolvida; como a do Toffoli, que anulou tudo da Odebrecht.",
+          "char_start": 124941,
+          "char_end": 125382,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a resistência popular contra o abuso de poder do STF e afirma que a morte do Clezão não será em vão",
+      "falante": "Sebastião Coelho",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu digo mais uma vez, antes de concluir, que a morte do Clezão não será em vão.",
+          "char_start": 126649,
+          "char_end": 126728,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a crítica generalizada ao ativismo judicial, defendendo o exame pontual de excessos sem comprometer a função essencial das cortes",
+      "falante": "Eduardo Lycurgo",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "1 milhão e 300 mil advogados",
+          "char_start": 127606,
+          "char_end": 127634,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "centenas de milhares",
+          "char_start": 127303,
+          "char_end": 127323,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não devemos dizer \"o ativismo judicial\"",
+        "resposta": "há excessos? Há. Há excessos, nós devemos reconhecer. Há excessos. Mas eles devem ser tratados pontualmente.",
+        "objecao_char_start": 128363,
+        "objecao_char_end": 128402,
+        "resposta_char_start": 128254,
+        "resposta_char_end": 128362,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a neutralidade do Judiciário como condição para sua legitimidade e eficácia democrática",
+      "falante": "Eduardo Lycurgo",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Rui Barbosa dizia que a justiça tardia é uma justiça institucionalizada",
+          "char_start": 126970,
+          "char_end": 127041,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se à revisão legislativa pelo STF em temas sensíveis como o aborto, defendendo a primazia do Legislativo com possibilidade de análise judicial restrita a casos concretos",
+      "falante": "Eduardo Lycurgo",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a lei é clara, de forma geral",
+          "char_start": 131481,
+          "char_end": 131510,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A Deputada Chris Tonietto falou sobre o aborto. Eu tenho a minha convicção pessoal sobre isso.",
+        "resposta": "Acho que, se for para ser liberado ou autorizado, que isso seja feito nesta Casa, porque a lei é clara, de forma geral,e não pela Suprema Corte, que, em minha opinião, não tem competência para essa revisão legislativa.",
+        "objecao_char_start": 131297,
+        "objecao_char_end": 131391,
+        "resposta_char_start": 131392,
+        "resposta_char_end": 131610,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reitera a proposta de incluir ministros do STF em debates futuros, por videoconferência se necessário, para fortalecer o diálogo entre os Poderes",
+      "falante": "Abilio Brunini",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vejo que isso traz uma amplitude ao diálogo.",
+          "char_start": 132624,
+          "char_end": 132668,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não imagino um Ministro vindo à Câmara para participar de uma audiência, sentando-se na cadeira",
+        "resposta": "que isso ocorra pelos meios virtuais. Mandamos olink, o Ministro participa, dá a sua contribuição, ouve os demais e buscamos um consenso.",
+        "objecao_char_start": 133279,
+        "objecao_char_end": 133374,
+        "resposta_char_start": 133378,
+        "resposta_char_end": 133515,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Apoia a ideia de um seminário conjunto, embora não possa implementá-la por falta de tempo.",
+      "falante": "Rui Falcão",
+      "turno_id": 46,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não tenho como propiciar esse seminário conjunto",
+          "char_start": 134050,
+          "char_end": 134098,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não tenho como propiciar esse seminário conjunto",
+        "resposta": "mas acho uma boa ideia",
+        "objecao_char_start": 134050,
+        "objecao_char_end": 134098,
+        "resposta_char_start": 134100,
+        "resposta_char_end": 134122,
+        "ancorado": true
+      }
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Sebastiâo Coelho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "quando o Ministro Barroso prontamente disse o que nós temos aqui no Brasil em relação ao tema e fez algumas considerações, antecipando o posicionamento de um processo submetido à sua jurisdição"
+    },
+    {
+      "turno_id": 12,
+      "falante": "Pedro Estevam",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "Os americanos chamam isso de 'constitucionalismo abusivo'."
+    },
+    {
+      "turno_id": 12,
+      "falante": "Pedro Estevam",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns podem dizer: 'Não, mas o Plenário pode funcionar 24 horas'."
+    },
+    {
+      "turno_id": 14,
+      "falante": "Eduardo Lycurgo",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "Existe uma doutrinadora americana, a Profa. Pamela Samuelson, que diz:'A sina do direito autoral é caminhar junto com a tecnologia'."
+    },
+    {
+      "turno_id": 14,
+      "falante": "Eduardo Lycurgo",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "A Lei de Direitos Autorais, sancionada em 1998, foi pensada e começou a ser discutida nesta Casa em 1988. Se há 20 anos falávamos de música em CD's, imaginem em 1988. E essa norma ainda está vigente."
+    },
+    {
+      "turno_id": 20,
+      "falante": "Chris Tonietto",
+      "campo": "contraponto",
+      "motivo": "resposta não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Verdade, mas, então, pela competência, no mínimo, ele deveria dizer: 'Olha, essa competência é do Parlamento. Então, deixo o Parlamento decidir'."
+    },
+    {
+      "turno_id": 29,
+      "falante": "Pedro Estevam",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Eu não posso chamar de 'elefante', senão ninguém vai entender. Eu sou limitado por essa comunidade nos próprios processos de interação social."
+    },
+    {
+      "turno_id": 37,
+      "falante": "Sebastião Coelho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Quando houve os fatos do 8 de Janeiro, o Sr. Ministro Alexandre de Moraes, no Twitter — e vejam se isso é próprio para um Ministro —, disse que 'os desprezíveis ataques terroristas à democracia e às instituições (...) serão responsabilizados, assim como os financiadores, instigadores, anteriores e a"
+    },
+    {
+      "turno_id": 37,
+      "falante": "Sebastião Coelho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Quando do recebimento da denúncia, ele disse: 'A Procuradoria requer os seguintes núcleos: de executores, de autoridades responsáveis, de instigadores e de financiadores'."
+    },
+    {
+      "turno_id": 37,
+      "falante": "Sebastião Coelho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "O art. 13 do Código Penal trata da relação de causalidade: quem, por ação ou omissão, dá causa ao resultado é responsável, e o Sr. Alexandre de Moraes deu causa ao resultado morte do Clezão, por ação dele e dos demais Ministros e por sua omissão em analisar os vários pedidos que foram feitos, em que"
+    },
+    {
+      "turno_id": 37,
+      "falante": "Sebastião Coelho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Três frases de Ministros: 'Nós vencemos o bolsonarismo'; segunda frase: 'Nós somos amados por quem venceu as eleições'; terceira frase: 'O Governo é traidor'."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.8333,
+  "taxa_contraponto": 0.3333,
+  "taxa_ancoragem_fundamento": 0.8636
+}

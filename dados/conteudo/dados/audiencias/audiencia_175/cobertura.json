@@ -1,0 +1,113 @@
+{
+  "sample_id": 175,
+  "n_falantes": 5,
+  "n_parlamentares": 2,
+  "n_convidados": 3,
+  "n_citados_gold": 3,
+  "n_citados_ausentes": 1,
+  "n_opinioes_gold": 7,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.8013105051786091,
+      "participacao_civil_turnos": 0.48484848484848486,
+      "citacao_civil_opinioes": 0.0,
+      "citacao_civil_pessoas": 0.0,
+      "deficit_civil": 0.8013105051786091
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.9599898708533806,
+      "participacao_civil_turnos": 0.8421052631578947,
+      "citacao_civil_opinioes": 0.0,
+      "citacao_civil_pessoas": 0.0,
+      "deficit_civil": 0.9599898708533806
+    }
+  },
+  "citados_ausentes": [
+    "José Francisco Mansur"
+  ],
+  "falantes_silenciados": [
+    "Ayla Santana Soares",
+    "José Francisco Manssur",
+    "Udo Seckelmann"
+  ],
+  "falantes": [
+    {
+      "nome": "Mauricio do Vôlei",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 14,
+      "n_palavras": 1564,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        10,
+        15,
+        17,
+        19,
+        22,
+        24,
+        29,
+        31,
+        33
+      ]
+    },
+    {
+      "nome": "José Francisco Manssur",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 9,
+      "n_palavras": 6108,
+      "turnos": [
+        2,
+        6,
+        12,
+        14,
+        18,
+        20,
+        26,
+        28,
+        32
+      ]
+    },
+    {
+      "nome": "Ayla Santana Soares",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 428,
+      "turnos": [
+        4,
+        9
+      ]
+    },
+    {
+      "nome": "Udo Seckelmann",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 5,
+      "n_palavras": 1046,
+      "turnos": [
+        11,
+        13,
+        16,
+        21,
+        23
+      ]
+    },
+    {
+      "nome": "Bandeira de Mello",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 316,
+      "turnos": [
+        25,
+        27,
+        30
+      ]
+    }
+  ]
+}

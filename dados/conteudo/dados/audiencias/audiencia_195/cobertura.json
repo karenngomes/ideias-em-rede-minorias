@@ -1,0 +1,94 @@
+{
+  "sample_id": 195,
+  "n_falantes": 4,
+  "n_parlamentares": 1,
+  "n_convidados": 3,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 2,
+  "n_opinioes_gold": 11,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.7834783591366256,
+      "participacao_civil_turnos": 0.4782608695652174,
+      "citacao_civil_opinioes": 0.75,
+      "citacao_civil_pessoas": 0.5,
+      "deficit_civil": 0.03347835913662556
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [
+    "Assimakis Komminos",
+    "Giorgio Monti"
+  ],
+  "falantes_silenciados": [
+    "Assimakis Komninos",
+    "Jorge Padilla"
+  ],
+  "falantes": [
+    {
+      "nome": "Any Ortiz",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 12,
+      "n_palavras": 1916,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23
+      ]
+    },
+    {
+      "nome": "Assimakis Komninos",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 2571,
+      "turnos": [
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "nome": "Jorge Padilla",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 2074,
+      "turnos": [
+        10,
+        12,
+        14,
+        16
+      ]
+    },
+    {
+      "nome": "Krisztian Katona",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2288,
+      "turnos": [
+        18,
+        20,
+        22
+      ]
+    }
+  ]
+}

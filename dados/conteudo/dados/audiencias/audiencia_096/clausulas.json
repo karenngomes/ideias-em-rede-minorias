@@ -1,0 +1,114 @@
+{
+  "sample_id": 96,
+  "n_opinioes": 26,
+  "n_decompostas": 26,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 16,
+  "n_ancorados": 10,
+  "n_rejeitados": 6,
+  "n_incoerentes": 0,
+  "n_preservados": 6,
+  "n_perdidos": 4,
+  "por_tipo": {
+    "prazo": 1,
+    "condicao": 4,
+    "grau": 1,
+    "escopo": 4
+  },
+  "perdas": [
+    {
+      "falante": "Yuri Maia",
+      "turno_id": 2,
+      "opiniao": "defende cotas em empresas de grande porte para pessoas com TDAH na proporção de 7%, com alocação em funções adequadas às suas aptidões",
+      "nucleo": "Defendeu cotas em empresas de grande porte para pessoas com TDAH na proporção de 7% com alocação adequada",
+      "tipo": "condicao",
+      "trecho": "comprovadamente tiver TDAH",
+      "char_start": 13805,
+      "char_end": 13831
+    },
+    {
+      "falante": "Cybelle Fraga",
+      "turno_id": 26,
+      "opiniao": "discorda de classificar TDAH como deficiência, considerando-o uma variante genética que causa limitações, mas não incapacita",
+      "nucleo": "discorda de classificar TDAH como deficiência, considerando-o uma variante genética que causa limitações, mas não incapacita",
+      "tipo": "condicao",
+      "trecho": "Quando começa a prejudicar o indivíduo em várias esferas da vida",
+      "char_start": 65769,
+      "char_end": 65833
+    },
+    {
+      "falante": "Fábio Trad",
+      "turno_id": 52,
+      "opiniao": "propõe que perguntas não respondidas sejam encaminhadas aos expositores para resposta",
+      "nucleo": "propôs que perguntas não respondidas fossem encaminhadas aos expositores para resposta",
+      "tipo": "condicao",
+      "trecho": "se possível",
+      "char_start": 111499,
+      "char_end": 111510
+    },
+    {
+      "falante": "Fábio Trad",
+      "turno_id": 52,
+      "opiniao": "propõe que perguntas não respondidas sejam encaminhadas aos expositores para resposta",
+      "nucleo": "propôs que perguntas não respondidas fossem encaminhadas aos expositores para resposta",
+      "tipo": "grau",
+      "trecho": "na medida do possível",
+      "char_start": 111611,
+      "char_end": 111632
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Yuri Maia",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em empresas de grande porte",
+      "opiniao": "defende cotas em empresas de grande porte para pessoas com TDAH na proporção de 7%, com alocação em funções adequadas às suas aptidões"
+    },
+    {
+      "turno_id": 4,
+      "falante": "Cybelle Fraga",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente para populações de baixa renda",
+      "opiniao": "defende políticas públicas para TDAH com diagnóstico precoce, acesso a medicamentos, terapias e apoio escolar, especialmente para populações de baixa renda"
+    },
+    {
+      "turno_id": 20,
+      "falante": "Cely Matthiesen Granja",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "mesmo sem reconhecimento formal de deficiência",
+      "opiniao": "defende o direito ao auxílio em sala para alunos com TDAH, mesmo sem reconhecimento formal de deficiência"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Capitão Fábio Abreu",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente aquelas sem condições financeiras",
+      "opiniao": "defende garantir acesso a medicamentos especiais para pessoas com TDAH, especialmente aquelas sem condições financeiras"
+    },
+    {
+      "turno_id": 24,
+      "falante": "Eduardo Barbosa",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que haja políticas públicas específicas para seu atendimento",
+      "opiniao": "é favorável a não considerar o TDAH como deficiência, desde que haja políticas públicas específicas para seu atendimento"
+    },
+    {
+      "turno_id": 46,
+      "falante": "Eduardo Barbosa",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "para evitar estigmatização e promover inclusão social e laboral",
+      "opiniao": "defende que o TDAH não seja incluído no rol de deficiências, para evitar estigmatização e promover inclusão social e laboral"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.6,
+  "taxa_ancoragem": 0.625,
+  "taxa_opiniao_intacta": 0.8846
+}

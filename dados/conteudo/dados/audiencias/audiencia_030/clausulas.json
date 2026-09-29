@@ -1,0 +1,53 @@
+{
+  "sample_id": 30,
+  "n_opinioes": 12,
+  "n_decompostas": 12,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 5,
+  "n_ancorados": 4,
+  "n_rejeitados": 1,
+  "n_incoerentes": 0,
+  "n_preservados": 2,
+  "n_perdidos": 2,
+  "por_tipo": {
+    "grau": 1,
+    "escopo": 1,
+    "condicao": 2
+  },
+  "perdas": [
+    {
+      "falante": "Lucas José Ramos Lopes",
+      "turno_id": 2,
+      "opiniao": "defende a integração entre planejamento público, evidências e legislação orçamentária para fortalecer a prevenção à violência contra crianças e adolescentes",
+      "nucleo": "defendeu a integração entre planejamento público, evidências e legislação orçamentária para fortalecer a prevenção à violência contra crianças e adolescentes",
+      "tipo": "grau",
+      "trecho": "em alguma medida",
+      "char_start": 5997,
+      "char_end": 6013
+    },
+    {
+      "falante": "José Fernando da Silva",
+      "turno_id": 6,
+      "opiniao": "defende aumento substancial do orçamento público para garantir a prioridade absoluta de crianças e adolescentes, sem hierarquização de direitos",
+      "nucleo": "defendeu aumento substancial do orçamento público para garantir a prioridade absoluta de crianças e adolescentes",
+      "tipo": "condicao",
+      "trecho": "se nós queremos fortalecer o sistema de conselhos, equipando, dando formação, se queremos universalizar o PPCAAM — Programa de Proteção a Crianças e Adolescentes Ameaçados de Morte, se nós queremos tornar o Sistema Nacional de Atendimento Socioeducativo de acordo com as normas brasileiras",
+      "char_start": 18307,
+      "char_end": 18596
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 16,
+      "falante": "José Fernando da Silva",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em todos os níveis da Federação",
+      "opiniao": "defende que o orçamento público, em todos os níveis da Federação, seja o instrumento central para efetivação dos direitos de crianças e adolescentes"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5,
+  "taxa_ancoragem": 0.8,
+  "taxa_opiniao_intacta": 0.8333
+}

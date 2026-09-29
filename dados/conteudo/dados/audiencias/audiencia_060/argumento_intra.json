@@ -1,0 +1,712 @@
+{
+  "sample_id": 60,
+  "n_opinioes": 25,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 25,
+  "n_fundamentos_propostos": 55,
+  "n_fundamentos_ancorados": 54,
+  "n_fundamentos_com_numero": 26,
+  "por_tipo": {
+    "dado": 49,
+    "autoridade": 5
+  },
+  "n_contrapontos_propostos": 6,
+  "n_com_contraponto": 6,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "O envelhecimento populacional deve ser enfrentado com políticas públicas adequadas, sob pena de se tornar um problema social grave.",
+      "falante": "Alexandre Kalache",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós vamos dar um salto quântico de 15% na população com mais de 60 anos em menos de 30 anos.",
+          "char_start": 4817,
+          "char_end": 4909,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 2050, nós estaremos com 68 milhões de pessoas exatamente no grupo que tem mais risco de vir a apresentar essas doenças.",
+          "char_start": 4910,
+          "char_end": 5032,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a maioria delas se dá entre pessoas de 60 a 79 anos e, daí, para cima.",
+          "char_start": 2506,
+          "char_end": 2576,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Não se deve culpar a vítima pelas doenças crônicas quando as condições estruturais impedem o autocuidado.",
+      "falante": "Alexandre Kalache",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Seu Joaquim, não é culpa do senhor estar obeso, ser sedentário, estar com o colesterol alto, porque não pode fazer uma dieta adequada.",
+          "char_start": 9726,
+          "char_end": 9860,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Mas, meu doutor, se eu for comer brócolis na primeira semana do mês, não vou ter dinheiro para comer farinha e açúcar na última semana",
+          "char_start": 6755,
+          "char_end": 6889,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Mas, doutor, eu não posso caminhar. Não tem calçada, não tem eletricidade, não tem luz na rua. E como mulher, vou sofrer as consequências de uma sociedade machista que tem um dos mais altos índices de estupro, fora a violência",
+          "char_start": 6926,
+          "char_end": 7152,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não é culpa do senhor estar obeso, ser sedentário, estar com o colesterol alto",
+        "resposta": "porque não pode fazer uma dieta adequada",
+        "objecao_char_start": 9739,
+        "objecao_char_end": 9817,
+        "resposta_char_start": 9819,
+        "resposta_char_end": 9859,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "É necessário pressionar o novo Governo e o Legislativo para formar profissionais de saúde aptos a lidar com o envelhecimento populacional.",
+      "falante": "Alexandre Kalache",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nossos médicos, enfermeiros, nutricionistas, enfim, todos os profissionais da saúde estão sendo treinados para o passado, estão sendo treinados para o século XX.",
+          "char_start": 4406,
+          "char_end": 4567,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eles conhecem tudo sobre doenças infecciosas, desenvolvimento infantil e, talvez, mulheres grávidas; as mulheres estão cada vez menos ficando grávidas, existem menos crianças, adolescentes, jovens, adultos e cada vez mais aumenta a população idosa.",
+          "char_start": 4568,
+          "char_end": 4816,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende diálogo tripartite para políticas de remuneração no SUS",
+      "falante": "Fernando Silveira",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a ABIMED, já em 2021, publicou um documento relativo às alternativas de remuneração, denominadoCuidados em Saúde Baseados em Valor.Esse trabalho foi desenvolvido em colaboração com uma consultoria internacional, a IQVIA, e, em nosso entendimento, ele apresenta elementos relevantes para a nossa conversa de hoje.",
+          "char_start": 15516,
+          "char_end": 15828,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica o nivelamento pelo menor preço na Tabela SUS por comprometer qualidade",
+      "falante": "Fernando Silveira",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No contraste com os preços da Tabela SUS do Ministério da Saúde e o monitoramento dos preços da ANVISA, a ferramenta da ANVISA ainda permite obter a referência de preços mínimos, dois recortes em percentis médios de preço e o preço máximo encontrado em contas públicas de dispositivos médicos.",
+          "char_start": 17571,
+          "char_end": 17864,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Verifica-se claramente que, de acordo com a necessidade do paciente, produtos com características técnicas mais específicas podem ser adquiridos com preços bastante acima daqueles estabelecidos no SIGTAP, que é o sistema que gerencia a Tabela SUS.",
+          "char_start": 18067,
+          "char_end": 18314,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende autonomia de gestores locais na aquisição de dispositivos médicos",
+      "falante": "Fernando Silveira",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "consonante com um dos princípios básicos do SUS, que é a descentralização da gestão.",
+          "char_start": 19714,
+          "char_end": 19798,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende revisão do QualiSUS Cardio para assegurar eficácia, segurança e disponibilidade de dispositivos",
+      "falante": "Fernando Silveira",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "temos claro o entendimento de que a modelagem do QualiSUS Cardio, tal qual adotada, tende a limitar o tipo e a qualidade dos dispositivos considerados em função do preço, o que gera potenciais riscos de baixaperformance, eficácia e segurança.",
+          "char_start": 19247,
+          "char_end": 19489,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Já em fevereiro do corrente ano, a ABIMED manifestou-se formalmente, através de ofício, em relação ao assunto, apontando distorções na modelagem e discrepâncias nas bases de preços.",
+          "char_start": 19050,
+          "char_end": 19231,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atualização da Tabela SUS para garantir a viabilidade dos hospitais e reduzir a judicialização de tratamentos",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há 20 anos, essa tabela não é atualizada",
+          "char_start": 21671,
+          "char_end": 21711,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nenhuma unidade de saúde consegue sobreviver com os valores que são pagos hoje",
+          "char_start": 21720,
+          "char_end": 21798,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "essa judicialização para se conseguir tratamento e medicamentos é cada dia pior",
+          "char_start": 22371,
+          "char_end": 22450,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o investimento em tecnologias minimamente invasivas para idosos no SUS, dada a crescente prevalência dessa população e os benefícios clínicos e econômicos",
+      "falante": "José Mangione",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "atualmente temos 30 milhões de idosos,por volta de 30 milhões de pacientes com idade igual ou superior a 60 anos.",
+          "char_start": 23603,
+          "char_end": 23716,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "deve chegar a mais de 70 milhões no ano de 2060.",
+          "char_start": 23719,
+          "char_end": 23767,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "acomete até 2% da população com mais de 65 anos e chega a acometer até 5% quando nós falamos de população com mais de 75 anos.",
+          "char_start": 24085,
+          "char_end": 24211,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A mortalidade cirúrgica para troca dessa válvula, com cirurgia convencional, é alta, pode chegar até 15%.",
+          "char_start": 24213,
+          "char_end": 24318,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "um terço dessa população não tem indicação de tratamento cirúrgico.",
+          "char_start": 24418,
+          "char_end": 24485,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "99%, fez o tratamento percutâneo, e somente 1% dessa população foi submetida ao tratamento convencional.",
+          "char_start": 27793,
+          "char_end": 27897,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "também estamos chegando quase a 90% dessa população sendo tratada transcateter.",
+          "char_start": 27948,
+          "char_end": 28027,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "atinge até 10% da população acima de 75 anos.",
+          "char_start": 28338,
+          "char_end": 28383,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a 50% dessa população, devido às comorbidades, é negado o tratamento cirúrgico.",
+          "char_start": 28725,
+          "char_end": 28804,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "hoje 25% a mais de MitraClips são feitos em comparação com a cirurgia.",
+          "char_start": 31770,
+          "char_end": 31840,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a incorporação de cirurgias minimamente invasivas no SUS por seus benefícios clínicos e econômicos para pacientes idosos",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "diminui a internação",
+          "char_start": 32958,
+          "char_end": 32978,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "evita complicações no pós-operatório, infecção extracorpórea, osteomielite de esterno, enfim, uma série de coisas",
+          "char_start": 33116,
+          "char_end": 33229,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Os cirurgiões cardíacos não vão gostar muito, porque vai diminuir um pouco a quantidade de cirurgias cardíacas",
+        "resposta": "mas nós temos que pensar no paciente",
+        "objecao_char_start": 33230,
+        "objecao_char_end": 33340,
+        "resposta_char_start": 33342,
+        "resposta_char_end": 33378,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende ações imediatas para garantir diagnóstico precoce e tratamento cardiovascular a idosos, com ênfase na prevenção do sedentarismo",
+      "falante": "Fernanda de Carvalho",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Segundo a Pesquisa Nacional por Amostra de Domicílios de 2018, existem no Brasil 7,5 milhões de pessoas com 60 anos ou mais trabalhando e gerando riqueza para o País",
+          "char_start": 37791,
+          "char_end": 37956,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "as doenças cardiovasculares correspondem a um terço das mortes entre os idosos no Brasil",
+          "char_start": 38319,
+          "char_end": 38407,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Segundo a Sociedade Brasileira de Cardiologia, de 1990 a 2019, houve um aumento de mais de 50% das doenças das válvulas cardíacas não reumáticas no Brasil, principalmente entre homens com idade mais avançada",
+          "char_start": 39515,
+          "char_end": 39722,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a revisão urgente do Programa QualiSUS Cardio para enfrentar o envelhecimento populacional",
+      "falante": "Fernanda de Carvalho",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Segundo o IBGE, até 2060, como mostrou o gráfico do Dr. Mangione, aproximadamente um terço da população brasileira será composta por pessoas com mais de 60 anos",
+          "char_start": 36480,
+          "char_end": 36640,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "essa mesma carga demográfica deve ocorrer no Brasil entre 2011 e 2031",
+          "char_start": 36793,
+          "char_end": 36862,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de uma política pública integrada para doenças cardíacas com foco na prevenção e na jornada do paciente",
+      "falante": "Fernanda de Carvalho",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em 2021, a nossa instituição encaminhou ao Ministério da Saúde e demais atores do setor uma carta aberta para que fosse criado um plano de enfrentamento de doenças cardíacas",
+          "char_start": 36970,
+          "char_end": 37143,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nós também lançamos o documentoGuia para o Brasil: as valvopatias e o impacto no futuro das novas gerações",
+          "char_start": 39949,
+          "char_end": 40055,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende garantia de diagnóstico precoce e tratamento adequado para pacientes do SUS, especialmente idosos",
+      "falante": "Fernanda de Carvalho",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é mandatório que tenhamos essa oportunidade, principalmente para o paciente do SUS, do diagnóstico precoce e acesso a tratamentos adequados, para reduzir a mortalidade pelas doenças cardiovasculares",
+          "char_start": 41168,
+          "char_end": 41366,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o acesso universal à informação e à saúde de qualidade em todas as fases da vida",
+      "falante": "Fernanda de Carvalho",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Trabalhamos para que todos os brasileiros tenham informação— o Dr. Kalache falou muito da falta de informação —e acesso à saúde digna e de qualidade, em todas as fases da vida",
+          "char_start": 41444,
+          "char_end": 41619,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção de estratégias de prevenção cardiovascular em pacientes idosos",
+      "falante": "João Fernando Monteiro Ferreira",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a doença cardiovascular, a doença isquêmica e a doença cerebrovascular estão fortemente presentes e permanecem como a principal causa de morte",
+          "char_start": 44062,
+          "char_end": 44204,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Já a partir dos 35 anos de idade temos a doença isquêmica cardíaca entre as três principais causas de morte, e ela assume como principal causa de morte a partir dos 45 anos",
+          "char_start": 43609,
+          "char_end": 43781,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Agora que sou idoso, o que eu poderia fazer para evitar doença já deveria ter sido feito e passei do ponto de me preocupar com isso",
+        "resposta": "não",
+        "objecao_char_start": 45557,
+        "objecao_char_end": 45688,
+        "resposta_char_start": 45434,
+        "resposta_char_end": 45437,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a implementação de políticas de saúde cardiovascular com qualidade, baseadas em acesso, tecnologia e métricas de desempenho",
+      "falante": "João Fernando Monteiro Ferreira",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "o programa do QualiSUS, desenvolvido pelo Ministério da Saúde",
+          "char_start": 49512,
+          "char_end": 49573,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o Estatuto do Idoso, que determina que nós temos não só que prover ao idoso o acesso aos serviços, mas que nos lembrar também das condições para que ele tenha esse acesso",
+          "char_start": 48707,
+          "char_end": 48877,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende um modelo de remuneração que incentive a qualidade da assistência cardiovascular",
+      "falante": "João Fernando Monteiro Ferreira",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É preciso que a remuneração seja justa, mas que também promova a qualidade assistencial, que traga mérito à qualidade assistencial",
+          "char_start": 49697,
+          "char_end": 49827,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atuação conjunta do poder público, Poder Legislativo e sociedade para enfrentar doenças cardiovasculares",
+      "falante": "João Fernando Monteiro Ferreira",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "esse desafio só poderá ser vencido com o engajamento tanto do poder público, do Poder Legislativo, quanto da comunidade",
+          "char_start": 49858,
+          "char_end": 49977,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a regulação adequada no SUS para garantir acesso justo e prioridade conforme o Estatuto do Idoso, sem interferência indevida na fila",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A fila está gigante",
+          "char_start": 51380,
+          "char_end": 51399,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o Estatuto do Idoso existe exatamente para isso",
+          "char_start": 51838,
+          "char_end": 51885,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "muita gente acha que o Deputado Federal, o Deputado Estadual ou o Vereador está ali para servir como assistente social",
+        "resposta": "Nós estamos aqui para legislar, e não para conseguirmos vaga em UTI para o paciente ter acesso a determinados tratamentos",
+        "objecao_char_start": 50956,
+        "objecao_char_end": 51074,
+        "resposta_char_start": 51256,
+        "resposta_char_end": 51377,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a inclusão de outras associações da indústria nacional no debate sobre tecnologias em saúde cardiovascular",
+      "falante": "Maíra Batista Botelho",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a exemplo da circulação extracorpórea",
+          "char_start": 53778,
+          "char_end": 53815,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a Portaria nº 3.904/2022 por desconsiderar o financiamento tripartite do SUS",
+      "falante": "Maíra Batista Botelho",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "O financiamento do SUS continua sendo tripartite e regulamentado pela Constituição Federal de 1988; pela Emenda Constitucional nº 29, de 2000; pela Emenda Constitucional nº 86, de 2015; pela Emenda Constitucional nº 95, de 2016; e pela própria Lei Complementar nº 141, de 2012.",
+          "char_start": 54123,
+          "char_end": 54400,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Ela não pode ser utilizada para contrato de prestador de serviço.",
+        "resposta": "Então, por si só, ela já está em desconformidade com a legislação e com o próprio financiamento tripartite.",
+        "objecao_char_start": 55820,
+        "objecao_char_end": 55885,
+        "resposta_char_start": 55920,
+        "resposta_char_end": 56027,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "A sociedade civil deve manter vigilância e ativismo para proteger os direitos das pessoas idosas contra estigmatização.",
+      "falante": "Alexandre Kalache",
+      "turno_id": 46,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos exatamente a 1 ano de quando uma campanha vigorosa da sociedade civil combateu que a Organização Mundial da Saúde colocasse velhice como doença.",
+          "char_start": 59949,
+          "char_end": 60105,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não sei se os senhores tiveram notícia disso.",
+        "resposta": "Foi um risco muito grande, de repente, velhice ser colocada como doença.",
+        "objecao_char_start": 60106,
+        "objecao_char_end": 60151,
+        "resposta_char_start": 60152,
+        "resposta_char_end": 60224,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a implementação de novas tecnologias no âmbito do programa QualiSUS Cardio como avanço para a qualidade e equidade no acesso",
+      "falante": "Maíra Batista Botelho",
+      "turno_id": 52,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O aporte adicional incremental de recurso federal já superou 500 milhões exclusivamente para a criação do programa.",
+          "char_start": 66022,
+          "char_end": 66137,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós publicamos hoje o regulamento técnico com a seleção de todos os hospitais que já são pré-selecionados para a realização do implante percutâneo.",
+          "char_start": 66654,
+          "char_end": 66801,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Foram habilitados 191 centros.",
+          "char_start": 67643,
+          "char_end": 67673,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós pré-selecionamos 215 centros para adesão ao programa, e a adesão foi total.",
+          "char_start": 67674,
+          "char_end": 67753,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aprovação do PL 3.811/2019 e o atendimento integral de doenças valvares no SUS com foco em prevenção, diagnóstico e tratamento",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 53,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Projeto de Lei nº 3.811, de 2019, do qual fui Relator na Comissão de Seguridade Social e Família, que está aguardando pauta na CCJ",
+          "char_start": 69857,
+          "char_end": 69989,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 16,
+      "falante": "José Mangione",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "91% desses pacientes — foram mais de mil pacientes analisados nesse estudo — atingiram uma insuficiência mitral mínima ou somente traços de insuficiência mitral."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.24,
+  "taxa_ancoragem_fundamento": 0.9818
+}

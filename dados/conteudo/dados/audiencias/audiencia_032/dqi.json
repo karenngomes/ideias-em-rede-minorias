@@ -1,0 +1,2380 @@
+{
+  "sample_id": 32,
+  "n_turnos": 32,
+  "n_turnos_codificados": 25,
+  "n_codigos": 175,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 25,
+      "distribuicao": {
+        "interrompido": 0,
+        "normal": 25
+      },
+      "media": 1.0,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "nenhuma": 8,
+        "inferior": 4,
+        "qualificada": 13,
+        "sofisticada": 0
+      },
+      "media": 1.2,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "interesse_de_grupo": 1,
+        "neutro": 8,
+        "bem_comum_utilitario": 7,
+        "bem_comum_diferenca": 9
+      },
+      "media": 1.96,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 1,
+        "explicito_positivo": 24
+      },
+      "media": 1.96,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 25,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 25,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "posicional": 15,
+        "proposta_alternativa": 10,
+        "proposta_mediadora": 0
+      },
+      "media": 0.4,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Amanda Pilon Barsoumian": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Clarissa Teixeira Araujo do Carmo": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Erika Hilton": {
+        "participacao": {
+          "n": 8,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 8,
+          "media": 0.125
+        },
+        "respeito_contra": {
+          "n": 8,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 8,
+          "media": 0.625
+        },
+        "justificacao_conteudo": {
+          "n": 8,
+          "media": 1.75
+        },
+        "respeito_grupos": {
+          "n": 8,
+          "media": 1.875
+        },
+        "respeito_demandas": {
+          "n": 8,
+          "media": 1.0
+        }
+      },
+      "Erika Kokay": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Fabio Ando Filho": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Fedo Bacourt": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "João Priolli de Araújo": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Letícia Carvalho": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Marina Rongo Barbosa": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Matheus Alves do Nascimento": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Paulo Illes": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Professora Luciene Cavalcante": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "João Priolli de Araújo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Fedo Bacourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Amanda Pilon Barsoumian",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Letícia Carvalho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marina Rongo Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Professora Luciene Cavalcante",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Fedo Bacourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "esta audiência pública da Comissão de Direitos Humanos, Minorias e Igualdade Racial, que se destina a debater os desafios da regularização migratória e o acesso a direitos pela população migrante no Brasil.",
+      "char_start": 63,
+      "char_end": 269,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Paulo Illes",
+      "trecho": "os migrantes, que são os sujeitos principais da nossa política migratória",
+      "char_start": 9421,
+      "char_end": 9494,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "A lei, que vem desta Casa, do Legislativo nacional, foi uma luta dos migrantes refugiados, uma luta da sociedade civil para que rompêssemos com um normativo anterior que trazia a temática de migração sob a ótica de fronteira, de segurança, de proteção do território nacional com relação ao estrangeiro.",
+      "char_start": 11052,
+      "char_end": 11354,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "Em 2017, uma lei vem regulamentar, colocar em prática o que a Constituição Federal já fala, em seu art. 5º, que é a igualdade de direitos para todos, independentemente da origem.",
+      "char_start": 11421,
+      "char_end": 11599,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "trabalhar em prol de uma política com eles e para eles — nunca sem eles.",
+      "char_start": 16084,
+      "char_end": 16156,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "João Priolli de Araújo",
+      "trecho": "A proposta é bem simples: tentar facilitar esse procedimento de saque, permitindo o saque com o documento do país de origem dos imigrantes.",
+      "char_start": 19630,
+      "char_end": 19769,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "João Priolli de Araújo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "João Priolli de Araújo",
+      "trecho": "Ocorre que, para seguir alguns trâmites de regularização migratória, o imigrante ou refugiado tem que pagar taxas consulares, por exemplo, mas ele não tem renda, o que acaba travando esse processo de regularização. Em paralelo, o banco não aceita o documento do país de origem como documento de identidade — há muita reclamação sobre isso —, o que trava mais a concessão do benefício e que faz com que ele perca, depois de determinado tempo, o acesso a essa renda.",
+      "char_start": 19165,
+      "char_end": 19629,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 6,
+      "falante": "João Priolli de Araújo",
+      "trecho": "Ocorre que, para seguir alguns trâmites de regularização migratória, o imigrante ou refugiado tem que pagar taxas consulares, por exemplo, mas ele não tem renda, o que acaba travando esse processo de regularização. Em paralelo, o banco não aceita o documento do país de origem como documento de identidade — há muita reclamação sobre isso —, o que trava mais a concessão do benefício e que faz com que ele perca, depois de determinado tempo, o acesso a essa renda.",
+      "char_start": 19165,
+      "char_end": 19629,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "João Priolli de Araújo",
+      "trecho": "fortalecer e criar uma rede de proteção de direitos humanos da população migrante refugiada aqui no Município",
+      "char_start": 17454,
+      "char_end": 17563,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "João Priolli de Araújo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "Pode-se estabelecer como requisito um determinado marco temporal ou o uso do conceito, da terminologia do arraigo, que já foi utilizada na Argentina e no México, que é uma espécie também de cláusula aberta que considera a noção de pertencimento e integração daquele imigrante a uma comunidade, economicamente, culturalmente, firmando laços familiares.",
+      "char_start": 25813,
+      "char_end": 26164,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "Vejam que esse conceito é um conceito amplo. Quais são os interesses da política migratória nacional? Nós podemos, então, concluir que a regularização migratória ampla dessas pessoas é importante que aconteça e não seria algo inédito, Excelências.",
+      "char_start": 24694,
+      "char_end": 24941,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 8,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "o que gerou um impacto gigantesco.",
+      "char_start": 23706,
+      "char_end": 23740,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "o público imigrante vulnerável",
+      "char_start": 23674,
+      "char_end": 23704,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Fedo Bacourt",
+      "trecho": "nós imigrantes haitianos fazemos um apelo à CCJ para designar urgentemente um novo Relator para dar continuidade a essa PEC 119/11",
+      "char_start": 32620,
+      "char_end": 32750,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Fedo Bacourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Fedo Bacourt",
+      "trecho": "A falta de revalidação dos diplomas cria certa desigualdade na sociedade brasileira, que afeta especialmente os imigrantes.",
+      "char_start": 29414,
+      "char_end": 29537,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 10,
+      "falante": "Fedo Bacourt",
+      "trecho": "A falta de revalidação dos diplomas cria certa desigualdade na sociedade brasileira, que afeta especialmente os imigrantes.",
+      "char_start": 29414,
+      "char_end": 29537,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Fedo Bacourt",
+      "trecho": "Os imigrantes negros, em muitas instituições que frequentam, pela cor da pele, são maltratados, mal recebidos, mesmo que exista lei.",
+      "char_start": 32005,
+      "char_end": 32137,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Fedo Bacourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Amanda Pilon Barsoumian",
+      "trecho": "consideramos de suma importância que esta Câmara dos Deputados esteja atenta a essa questão e a essa população imigrante",
+      "char_start": 37694,
+      "char_end": 37814,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Amanda Pilon Barsoumian",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Amanda Pilon Barsoumian",
+      "trecho": "Nós entendemos que essas limitações legais constituem violação ao direito fundamental à isonomia e, mais especificamente, à Lei de Migração, Lei nº 13.445, de 2017, que prevê como diretrizes da política migratória brasileira a inclusão social, laboral e produtiva do migrante por meio de políticas públicas e o acesso igualitário e livre do imigrante ao trabalho. Ou seja, o imigrante deve ter igualdade de oportunidades e acesso ao trabalho digno de modo a permitir integração social e desenvolvimento com dignidade.",
+      "char_start": 35440,
+      "char_end": 35957,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Amanda Pilon Barsoumian",
+      "trecho": "Ainda, a legislação migratória brasileira prevê como diretriz o desenvolvimento econômico, turístico, social, cultural, esportivo, científico e tecnológico do Brasil, a fim de permitir que os imigrantes contribuam com o desenvolvimento nacional, o que também resta prejudicado diante dessa vedação de acesso aos cargos e empregos públicos.",
+      "char_start": 35959,
+      "char_end": 36298,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Amanda Pilon Barsoumian",
+      "trecho": "a população imigrante, que, como sabemos, é heterogênea, proveniente de localidades e fluxos migratórios diversos. Mas ela converge nesse anseio por encontrar um local de acolhimento e garantia de direitos.",
+      "char_start": 37793,
+      "char_end": 37999,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Amanda Pilon Barsoumian",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Letícia Carvalho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Letícia Carvalho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Letícia Carvalho",
+      "trecho": "Quanto menos informações os migrantes têm, mais eles ficam vulneráveis a serem extorquidos e explorados pelas redes que ficam em torno desse tema.",
+      "char_start": 43437,
+      "char_end": 43583,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 14,
+      "falante": "Letícia Carvalho",
+      "trecho": "Quanto menos informações os migrantes têm, mais eles ficam vulneráveis a serem extorquidos e explorados pelas redes que ficam em torno desse tema.",
+      "char_start": 43437,
+      "char_end": 43583,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Letícia Carvalho",
+      "trecho": "temos muito o que avançar como sociedade de acolhida para as pessoas que chegam aqui",
+      "char_start": 40334,
+      "char_end": 40418,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Letícia Carvalho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "Eu sugeriria, como encaminhamento a ser apreciado, primeiro levar essa pauta e suas conclusões a quem não pôde comparecer a esta audiência, que é o Ministério das Relações Exteriores.",
+      "char_start": 45201,
+      "char_end": 45384,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "pautas importantes para a dignidade dos migrantes e das migrantes aqui no Brasil",
+      "char_start": 45724,
+      "char_end": 45804,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Fabio Ando Filho",
+      "trecho": "a migração regular contém intrínseco o valor humanitário e é um motor para o desenvolvimento",
+      "char_start": 52395,
+      "char_end": 52487,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Fabio Ando Filho",
+      "trecho": "pois o benefício é de todos e de todas",
+      "char_start": 54069,
+      "char_end": 54107,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Fabio Ando Filho",
+      "trecho": "migrantes vulneráveis e refugiados têm, salvo em situações muito excepcionais, os mesmos direitos, e isso é uma peça fundamental na tradição humanitária brasileira",
+      "char_start": 49989,
+      "char_end": 50152,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Hilton",
+      "trecho": "Temos nos esforçado para garantir o bem viver, o bem-estar, a dignidade da população imigrante no nosso País, que muitas vezes é tratada com menosprezo, com preconceito, com discriminação.",
+      "char_start": 55338,
+      "char_end": 55526,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 18,
+      "falante": "Erika Hilton",
+      "trecho": "Temos nos esforçado para garantir o bem viver, o bem-estar, a dignidade da população imigrante no nosso País, que muitas vezes é tratada com menosprezo, com preconceito, com discriminação.",
+      "char_start": 55338,
+      "char_end": 55526,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Erika Hilton",
+      "trecho": "Temos nos esforçado para garantir o bem viver, o bem-estar, a dignidade da população imigrante no nosso País, que muitas vezes é tratada com menosprezo, com preconceito, com discriminação.",
+      "char_start": 55338,
+      "char_end": 55526,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marina Rongo Barbosa",
+      "trecho": "Um primeiro passo importante seria regularizar todas as pessoas migrantes que se encontram no País.",
+      "char_start": 60089,
+      "char_end": 60188,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marina Rongo Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Marina Rongo Barbosa",
+      "trecho": "Quando não têm documentos, essas pessoas ficam expostas a diversos tipos de violência, exploração, trabalho precário e desprotegido, dentre outras violações.",
+      "char_start": 58501,
+      "char_end": 58658,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 19,
+      "falante": "Marina Rongo Barbosa",
+      "trecho": "Quando não têm documentos, essas pessoas ficam expostas a diversos tipos de violência, exploração, trabalho precário e desprotegido, dentre outras violações.",
+      "char_start": 58501,
+      "char_end": 58658,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Marina Rongo Barbosa",
+      "trecho": "é preciso que os serviços públicos estejam cada vez mais adaptados às especificidades de cada população migrante. Eu cito os povos indígenas em deslocamento, que muitas vezes enfrentam processos mais longos de regularização migratória, uma vez que eles não possuem registro de identidade do país de origem, porque isso não faz parte da sua cultura. Então, seria necessário ter atenção especial a cada nacionalidade, a cada população.",
+      "char_start": 62554,
+      "char_end": 62987,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marina Rongo Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Erika Hilton",
+      "trecho": "Quero destacar a importante contribuição que o Centro Gaspar Garcia, a Missão Paz e o Centro do Imigrante trouxeram a esta audiência pública.",
+      "char_start": 63302,
+      "char_end": 63443,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Professora Luciene Cavalcante",
+      "trecho": "É preciso criar um corredor humanitário, para que as pessoas tenham acesso aos direitos fundamentais.",
+      "char_start": 65508,
+      "char_end": 65609,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Professora Luciene Cavalcante",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Professora Luciene Cavalcante",
+      "trecho": "O Brasil é signatário de tratados internacionais que lhe impõem garantir direitos fundamentais, como o direito à educação, que eu acompanho de forma mais próxima.",
+      "char_start": 64264,
+      "char_end": 64426,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Professora Luciene Cavalcante",
+      "trecho": "garantir e resguardar o direito à educação de todos",
+      "char_start": 64879,
+      "char_end": 64930,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Professora Luciene Cavalcante",
+      "trecho": "Todos que falaram nesta audiência pública trouxeram a necessidade urgente de uma política pública no Brasil para acompanhar essa questão.",
+      "char_start": 64078,
+      "char_end": 64215,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Professora Luciene Cavalcante",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Erika Hilton",
+      "trecho": "A população enfrenta desafios para ter acesso à educação.",
+      "char_start": 65851,
+      "char_end": 65908,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Fedo Bacourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Fedo Bacourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Fedo Bacourt",
+      "trecho": "O pessoal dos direitos humanos tem que tratar desse assunto, porque as mulheres imigrantes, especialmente as negras, têm um problema muito grande com a saúde.",
+      "char_start": 66979,
+      "char_end": 67137,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Fedo Bacourt",
+      "trecho": "O pessoal dos direitos humanos tem que tratar desse assunto, porque as mulheres imigrantes, especialmente as negras, têm um problema muito grande com a saúde.",
+      "char_start": 66979,
+      "char_end": 67137,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Fedo Bacourt",
+      "trecho": "É preciso ouvir as mulheres que estão à frente das comunidades. Isso teria uma importância enorme.",
+      "char_start": 67496,
+      "char_end": 67594,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Fedo Bacourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Erika Hilton",
+      "trecho": "Há uma série de desafios que a população imigrante enfrenta no nosso País ainda hoje, infelizmente.",
+      "char_start": 68784,
+      "char_end": 68883,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "O migrante é um patrimônio cultural, histórico, linguístico, e não um problema. Precisamos romper com essa ideia de calamidade, com a ideia de que as migrações são fluxos que se esgotarão. Temos que considerar que essas pessoas fazem parte da nossa história, seja a migração forçada, seja a migração voluntária para o nosso País.",
+      "char_start": 69737,
+      "char_end": 70066,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "O migrante é um patrimônio cultural, histórico, linguístico, e não um problema. Precisamos romper com essa ideia de calamidade, com a ideia de que as migrações são fluxos que se esgotarão. Temos que considerar que essas pessoas fazem parte da nossa história, seja a migração forçada, seja a migração voluntária para o nosso País.",
+      "char_start": 69737,
+      "char_end": 70066,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "O migrante é um patrimônio cultural, histórico, linguístico, e não um problema.",
+      "char_start": 69737,
+      "char_end": 69816,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Clarissa Teixeira Araujo do Carmo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Erika Hilton",
+      "trecho": "Sabemos que quanto maiores as camadas de abjeção, de desumanização e de preconceito, mais os acessos às permanências e às violências também aumentam, também se distanciam. E para falar da construção de políticas de dignidade, não tem como pensar isso se não for nas suas profundezas, se não for olhando e permeando e percorrendo todas essas existências. Essa não pode ser uma temática de que se trata na superficialidade, porque existem camadas mais profundas onde mora a raiz dos problemas que foram tratados aqui, e é só aprofundando nessas camadas que nós vamos encontrar respostas, saídas e soluções.",
+      "char_start": 71351,
+      "char_end": 71955,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 26,
+      "falante": "Erika Hilton",
+      "trecho": "olhando para todas essas vertentes, pensando qual é a realidade das mulheres imigrantes, da população LGBTQIA+migrantes, da população com deficiência migrante. Sabemos que quanto maiores as camadas de abjeção, de desumanização e de preconceito, mais os acessos às permanências e às violências também aumentam, também se distanciam.",
+      "char_start": 71191,
+      "char_end": 71522,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Erika Hilton",
+      "trecho": "olhando para todas essas vertentes, pensando qual é a realidade das mulheres imigrantes, da população LGBTQIA+migrantes, da população com deficiência migrante",
+      "char_start": 71191,
+      "char_end": 71349,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Illes",
+      "trecho": "Eu gostaria de sugerir à Comissão a inclusão de mais migrantes, refugiados e apátridas nessas audiências públicas, para que possam trazer aqui as suas dificuldades e a sua luta do dia a dia.",
+      "char_start": 73239,
+      "char_end": 73429,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Paulo Illes",
+      "trecho": "Temos que ter muita responsabilidade na construção da política migratória. Eu acho que não é questão retórica,estamos diante do desafio e temos a oportunidade de mudar um paradigma que é justamente passar de uma política muito voltada para o controle migratório para uma política de inclusão das pessoas migrantes, mas com protagonismo das pessoas migrantes. E nós recebemos mais de 1.400 propostas para essa política; mais de 300 documentos muito bem elaborados. Então, é muita responsabilidade para que possamos fazer um tratamento de toda essa documentação, para que produzamos um texto sem contradições, um texto que de fato seja exequível e que possa garantir os direitos das pessoas migrantes.",
+      "char_start": 73431,
+      "char_end": 74130,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 27,
+      "falante": "Paulo Illes",
+      "trecho": "para que possam trazer aqui as suas dificuldades e a sua luta do dia a dia",
+      "char_start": 73354,
+      "char_end": 73428,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Paulo Illes",
+      "trecho": "que é um grande exemplo de luta para todos nós",
+      "char_start": 76260,
+      "char_end": 76306,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Illes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "é impreterível que o Ministério da Justiça, nesse campo que o Governo Federal está buscando trazer mais servidores públicos para a administração federal, possa destinar vagas de concurso público para servidores que venham a ser lotados junto ao CONARE para justamente permitir que esses pedidos sejam analisados de uma forma mais rápida.",
+      "char_start": 79126,
+      "char_end": 79463,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "é impreterível que o Ministério da Justiça, nesse campo que o Governo Federal está buscando trazer mais servidores públicos para a administração federal, possa destinar vagas de concurso público para servidores que venham a ser lotados junto ao CONARE para justamente permitir que esses pedidos sejam analisados de uma forma mais rápida.",
+      "char_start": 79126,
+      "char_end": 79463,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "para justamente permitir que esses pedidos sejam analisados de uma forma mais rápida.",
+      "char_start": 79378,
+      "char_end": 79463,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "que as pessoas imigrantes da população LGBT possam ter o direito de ser identificadas como elas querem também no seu documento de Registro Nacional Migratório",
+      "char_start": 78176,
+      "char_end": 78334,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Matheus Alves do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Erika Hilton",
+      "trecho": "Então eu acho que é uma coisa que precisa ser olhada com mais cuidado, com mais atenção, para entender de fato como dar dignidade e acesso e respeito a essa parcela da população, em especial essa parcela mais vulnerável dentro da comunidade LGBT.",
+      "char_start": 80334,
+      "char_end": 80580,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 30,
+      "falante": "Erika Hilton",
+      "trecho": "para entender de fato como dar dignidade e acesso e respeito a essa parcela da população, em especial essa parcela mais vulnerável dentro da comunidade LGBT.",
+      "char_start": 80423,
+      "char_end": 80580,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Erika Hilton",
+      "trecho": "dar dignidade e acesso e respeito a essa parcela da população, em especial essa parcela mais vulnerável dentro da comunidade LGBT",
+      "char_start": 80450,
+      "char_end": 80579,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Fabio Ando Filho",
+      "trecho": "É interessante entender que colocando as pessoas no centro de uma agenda decooperação internacional e de desenvolvimento sustentável podemos inclusive contribuir para a reconstrução de países como o Haiti, que tem uma grande parcela do seu Produto Interno Bruto proveniente de remessas da diáspora haitiana nos outros países, e também os países agora afetados pelas mudanças climáticas e que dependem dessa cooperação internacional, do desenvolvimento com essa abordagem que estamos trazendo e que afeta a nossa Política Migratória Nacional.",
+      "char_start": 83016,
+      "char_end": 83557,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Fabio Ando Filho",
+      "trecho": "É interessante entender que colocando as pessoas no centro de uma agenda decooperação internacional e de desenvolvimento sustentável podemos inclusive contribuir para a reconstrução de países como o Haiti, que tem uma grande parcela do seu Produto Interno Bruto proveniente de remessas da diáspora haitiana nos outros países, e também os países agora afetados pelas mudanças climáticas e que dependem dessa cooperação internacional, do desenvolvimento com essa abordagem que estamos trazendo e que afeta a nossa Política Migratória Nacional.",
+      "char_start": 83016,
+      "char_end": 83557,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Fabio Ando Filho",
+      "trecho": "colocando as pessoas no centro de uma agenda decooperação internacional e de desenvolvimento sustentável",
+      "char_start": 83044,
+      "char_end": 83148,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Fabio Ando Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Erika Hilton",
+      "trecho": "Esta Comissão deve fazer gestão junto ao poder público destacando a necessidade de avançar na implementação de dispositivos normativos, por meio da promoção do acesso a direitos e serviços, principalmente mudando a lógica de ver a migração como crise e/ou evento passageiro.",
+      "char_start": 83817,
+      "char_end": 84091,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Erika Hilton",
+      "trecho": "caminhar em prol da dignidade e do bem viver da população migrante que vive no nosso País.",
+      "char_start": 88202,
+      "char_end": 88292,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Erika Hilton",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

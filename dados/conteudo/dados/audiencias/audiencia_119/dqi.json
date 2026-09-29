@@ -1,0 +1,1875 @@
+{
+  "sample_id": 119,
+  "n_turnos": 31,
+  "n_turnos_codificados": 20,
+  "n_codigos": 140,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 20,
+      "distribuicao": {
+        "interrompido": 0,
+        "normal": 20
+      },
+      "media": 1.0,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 20,
+      "distribuicao": {
+        "nenhuma": 8,
+        "inferior": 3,
+        "qualificada": 9,
+        "sofisticada": 0
+      },
+      "media": 1.05,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 20,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 9,
+        "bem_comum_utilitario": 9,
+        "bem_comum_diferenca": 2
+      },
+      "media": 1.65,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 20,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 9,
+        "explicito_positivo": 11
+      },
+      "media": 1.55,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 20,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 20,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 20,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 20,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 20,
+      "distribuicao": {
+        "posicional": 16,
+        "proposta_alternativa": 4,
+        "proposta_mediadora": 0
+      },
+      "media": 0.2,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Aline Yamamoto": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 0.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Beatriz Figueiredo": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Christhiane Pinto Cutrim": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Erika Kokay": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Liliane Pires": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Raoni Parreira Maciel": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Viviane Bonato": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Érica Brito Oliveira": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "A polícia científica é um elo importante para garantir a segurança e os direitos humanos da sociedade civil. O seu papel finalístico muitas vezes é esquecido nos programas e projetos sociais tanto do Governo Federal quanto dos governos estaduais. Uma mulher, vítima de violência doméstica, quando atendida, por muitas vezes, se não a maioria delas, não vai ao Instituto Médico Legal para fazer o exame de corpo de delito, peça fundamental para a produção da prova material.\n\nE ela não o faz, às vezes, por vergonha; muitas outras vezes por falta de recursos para o transporte, para se deslocar até o Instituto Médico Legal; e outras vezes por ambos os motivos.\n\nAlgumas vezes não há marcas físicas, externas e visíveis, e um exame de odontologia legal não é solicitado para as marcas que estão além da visão leiga humana. Mesmo um exame de vistoria em local onde sinais característicos de violência poderiam ser identificados pelos peritos criminais também não são solicitados.\n\nA quantidade de possibilidades de exames da Polícia Científica para a produção dessas provas já é hoje bem definida pelos Estados e pelo Distrito Federal.\n\nQueremos dar conhecimento do nosso trabalho. E por que não aumentar a possibilidade deles?\n\nO quão importante seria se a medicina legal e a odontologia legal conseguissem valorar o dano físico causado nas vítimas de violência doméstica, para que, se não demandada a reparação ao agressor pelo Poder Judiciário, ao menos nortearia o trabalho de saúde pública que hoje já vem sendo feito por meio de cirurgias reparadoras nessas mulheres vítimas de violência.\n\nO quão importante seria se os Ministérios da Saúde, da Mulher, dos Direitos Humanos e da Segurança Pública tivessem e desenvolvessem ações comuns de seus Ministérios. E a Polícia Científica é um tema comum deles. Não é a Justiça que está soltando quem a segurança pública prende, é a segurança pública que está prendendo sem provas materiais que sustentem a prisão. E o Judiciário precisa delas como garantia de exímia persecução penal.\n\nEnquanto não houver políticas públicas que enxerguem todo o ciclo de segurança e a perícia como uma de suas forças, o sistema terá suas falhas. E não falo somente do Ministério da Justiça e Segurança Pública, porque a perícia, em sua égide, envolve muitos outros Ministérios, como o Ministério da Mulher, da Saúde, dos Direitos Humanos, da Igualdade Racial.\n\nQuantas mulheres, negros e índios morrem sem que a cena do crime passe por uma análise pericial? Quantos estão presos sem terem cometido o crime que lhes imputam, em sua maioria pobres e negros?Quem deixa de resguardar o direito de verdade real advinda da prova material para essas pessoas?\n\nA participação ativa da polícia científica na construção de políticas, programas e projetos do Ministério da Saúde, do Ministério da Segurança Pública e de qualquer outro Ministério que debata a violência é de importância primordial. Se houve violência, ali ficou um rastro com elementos materiais capazes de serem fidelizados em prova material do delito cometido, e com base nela o responsável responderá pelo ocorrido.\n\nPara que possamos alcançar esses espaços, sermos ouvidos e levarmos nosso trabalho para que a sociedade alcance de forma plena a garantia dos direitos humanos e fundamentais, precisamos ter nossa imparcialidade e autonomia resguardados, e isso será plenamente estabelecido com a constitucionalização da polícia científica, que ocorrerá com a aprovação da PEC 76, de 2019.",
+      "char_start": 3428,
+      "char_end": 6904,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "A polícia científica é um elo importante para garantir a segurança e os direitos humanos da sociedade civil.",
+      "char_start": 3428,
+      "char_end": 3536,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "Quantas mulheres, negros e índios morrem sem que a cena do crime passe por uma análise pericial? Quantos estão presos sem terem cometido o crime que lhes imputam, em sua maioria pobres e negros?Quem deixa de resguardar o direito de verdade real advinda da prova material para essas pessoas?",
+      "char_start": 5819,
+      "char_end": 6109,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aline Yamamoto",
+      "trecho": "É urgente a revisão desse protocolo para incluir, de fato, uma perspectiva de gênero, um olhar adequado de todos os profissionais de investigação para compreender aquele fenômeno.",
+      "char_start": 15760,
+      "char_end": 15939,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Aline Yamamoto",
+      "trecho": "parabenizo esta Comissão pelo seu trabalho em defesa dos direitos das mulheres",
+      "char_start": 7712,
+      "char_end": 7790,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "A proposta que eu faria é que precisamos imaginar um jeito para que as mortes violentas e suspeitas de mulheres também acionem o protocolo de feminicídio.",
+      "char_start": 24669,
+      "char_end": 24823,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "A perícia se torna ainda mais fundamental quando se fala de feminicídios, por causa dessas circunstâncias documentadas de que 75% deles acontecem dentro de casa. Nesses casos, as testemunhas são poucas, talvez nenhuma, talvez só o agressor, que vai contar a versão dele. A perícia é que vai me permitir, como promotor de justiça, contraditar a versão dele dos fatos.",
+      "char_start": 18452,
+      "char_end": 18818,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "A perícia é que vai me permitir, como promotor de justiça, contraditar a versão dele dos fatos. Sem a perícia, eu teria que usar o senso comum e argumentar com a lógica. A perícia vai me mostrar uma história que, às vezes, não é aquela que o agressor estava querendo contar para os jurados.",
+      "char_start": 18723,
+      "char_end": 19013,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Viviane Bonato",
+      "trecho": "Por quê? Porque o tipo de perícia e o tipo de diligências que são feitos num feminicídio são diferentes dos que são feitos num homicídio que não seja feminicídio, tanto na perícia que é feita no corpo da vítima, quanto na que é feita no local do crime.",
+      "char_start": 27695,
+      "char_end": 27947,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Viviane Bonato",
+      "trecho": "Por quê? Porque o tipo de perícia e o tipo de diligências que são feitos num feminicídio são diferentes dos que são feitos num homicídio que não seja feminicídio, tanto na perícia que é feita no corpo da vítima, quanto na que é feita no local do crime.",
+      "char_start": 27695,
+      "char_end": 27947,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "Nós sabemos da importância do vestígio na materialidade dos crimes de feminicídio, que resultam de uma violência extrema para a mulher.",
+      "char_start": 37706,
+      "char_end": 37841,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 12,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "Nós sabemos da importância do vestígio na materialidade dos crimes de feminicídio, que resultam de uma violência extrema para a mulher.",
+      "char_start": 37706,
+      "char_end": 37841,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "Nós sabemos da importância do vestígio na materialidade dos crimes de feminicídio, que resultam de uma violência extrema para a mulher.",
+      "char_start": 37706,
+      "char_end": 37841,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "Por que eu coloquei isto aqui? É só para deixar claro que temos a fase policial, que está ali em cima, a fase judicial e a perícia, que circula nas duas fases. Então, é muito importante tirarmos a perícia do sistema acusatório. A perícia não acusa, a perícia não defende, a perícia produz prova material, prova técnica, prova científica.",
+      "char_start": 51462,
+      "char_end": 51799,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "Por que eu coloquei isto aqui? É só para deixar claro que temos a fase policial, que está ali em cima, a fase judicial e a perícia, que circula nas duas fases. Então, é muito importante tirarmos a perícia do sistema acusatório. A perícia não acusa, a perícia não defende, a perícia produz prova material, prova técnica, prova científica.",
+      "char_start": 51462,
+      "char_end": 51799,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "Quem são as vítimas de feminicídio? São mulheres, mas são mulheres pretas, mulheres indígenas, mulheres trans, mulheres lésbicas, mulheres do campo, mulheres quilombolas, mulheres em situação de rua, mulheres com deficiência física, mulheres praticantes de religiões de matriz africana.",
+      "char_start": 53509,
+      "char_end": 53795,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "Destina-se um carro para levar essa mulher da Casa da Mulher Brasileira até o Instituto Médico Legal.",
+      "char_start": 72821,
+      "char_end": 72922,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "Toda vez que uma mulher vai para uma Casa da Mulher Brasileira e é atendida de forma humanizada, muitas vezes ela não consegue chegar ao Instituto Médico Legal, mas o seu agressor consegue, porque ele é levado pela polícia àquela instituição. Para ser preso, para ser apresentado à Justiça, ele precisa de um laudoad cautelam. Senão, nem preso ele vai. Então ele consegue acesso à medicina legal, e aquela mulher não. Quando ele chega, está com o laudoad cautelam. O.k., mas o juiz o pergunta:\"Cadê a prova?\"E aí solta aquele agressor, que vai com ainda mais raiva para casa e vai agredir novamente. Ela vai novamente ser agredida até que se chega ao feminicídio.",
+      "char_start": 70360,
+      "char_end": 71023,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "Toda vez que uma mulher vai para uma Casa da Mulher Brasileira e é atendida de forma humanizada, muitas vezes ela não consegue chegar ao Instituto Médico Legal, mas o seu agressor consegue, porque ele é levado pela polícia àquela instituição. Para ser preso, para ser apresentado à Justiça, ele precisa de um laudoad cautelam. Senão, nem preso ele vai. Então ele consegue acesso à medicina legal, e aquela mulher não. Quando ele chega, está com o laudoad cautelam. O.k., mas o juiz o pergunta:\"Cadê a prova?\"E aí solta aquele agressor, que vai com ainda mais raiva para casa e vai agredir novamente. Ela vai novamente ser agredida até que se chega ao feminicídio.",
+      "char_start": 70360,
+      "char_end": 71023,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "Temos projetos brilhantes do Ministério da Justiça e Segurança Pública.",
+      "char_start": 71419,
+      "char_end": 71490,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "a violência de gênero tinha que ser a primeira",
+      "char_start": 73891,
+      "char_end": 73937,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "a violência de gênero tinha que ser a primeira",
+      "char_start": 73891,
+      "char_end": 73937,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Érica Brito Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Aline Yamamoto",
+      "trecho": "Quando trazemos o conceito de feminicídio, um dos conceitos vem muito claramente construído pela antropóloga mexicana Marcela Lagarde, reconhecendo que feminicídio também é um crime de Estado. É um crime de Estado quando o próprio Estado não dá condições para que as mulheres vivam suas vidas livres de violência e, quando uma violência acontece, o Estado e os funcionários públicos não estão preparados para observar, incidir, intervir da forma mais adequada possível, considerando justamente como essas violências atravessam a vida de todas nós mulheres.",
+      "char_start": 78169,
+      "char_end": 78725,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 21,
+      "falante": "Aline Yamamoto",
+      "trecho": "É um crime de Estado quando o próprio Estado não dá condições para que as mulheres vivam suas vidas livres de violência e, quando uma violência acontece, o Estado e os funcionários públicos não estão preparados para observar, incidir, intervir da forma mais adequada possível, considerando justamente como essas violências atravessam a vida de todas nós mulheres.",
+      "char_start": 78362,
+      "char_end": 78725,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Aline Yamamoto",
+      "trecho": "considerando justamente como essas violências atravessam a vida de todas nós mulheres",
+      "char_start": 78639,
+      "char_end": 78724,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Aline Yamamoto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "É importante percebermos o que nós ganhamos, para não perdermos isso e continuarmos avançando e promovendo ações de prevenção.",
+      "char_start": 82648,
+      "char_end": 82774,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "A sociedade quer do sistema de justiça criminal resposta para esses crimes.",
+      "char_start": 81849,
+      "char_end": 81924,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "a sociedade olha para nós e nos vê como uma coisa só. A sociedade quer do sistema de justiça criminal resposta para esses crimes.",
+      "char_start": 81795,
+      "char_end": 81924,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Raoni Parreira Maciel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Viviane Bonato",
+      "trecho": "Mas a prevenção pode salvar vidas. Não sabemos se amanhã vamos ligar a televisão e assistir a uma notícia sobre ocorrência de outro feminicídio. Nesse caso, não haverá mais o que fazer, essa é a grande verdade, porque já terá acontecido outra morte. Morre uma mulher, a mãe, a filha, a amiga, e não temos, a sociedade como um todo, como devolver o que foi perdido.",
+      "char_start": 83494,
+      "char_end": 83858,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Viviane Bonato",
+      "trecho": "e não temos, a sociedade como um todo, como devolver o que foi perdido.",
+      "char_start": 83787,
+      "char_end": 83858,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Viviane Bonato",
+      "trecho": "Morre uma mulher, a mãe, a filha, a amiga, e não temos, a sociedade como um todo, como devolver o que foi perdido.",
+      "char_start": 83744,
+      "char_end": 83858,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Viviane Bonato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Christhiane Pinto Cutrim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Liliane Pires",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "Seria interessante que essa fosse uma demanda institucional de forma ampla, que isso não partisse de ações isoladas, de alguém que entenda que isso é importante. Dra. Viviane, quando a Polícia Civil colocou como regra que, em caso de assassinato de mulher, o crime é inicialmente investigado como sendo de feminicídio, ela retirou a subjetividade de um delegado, de uma delegada, de qualquer pessoa que diria:\"Ah, acho que não. Acho que isso aqui não é tão importante\". Não se pode deixar isso à mercê de achismo pessoal, justamente porque o nosso recorte é um recorte de sociedade que ainda é extremamente machista.",
+      "char_start": 90256,
+      "char_end": 90872,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "Não se pode deixar isso à mercê de achismo pessoal, justamente porque o nosso recorte é um recorte de sociedade que ainda é extremamente machista.",
+      "char_start": 90726,
+      "char_end": 90872,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "quando falamos de servidores públicos, estamos falando de servidores que estão ali para servir ao público. Não é o contrário.",
+      "char_start": 89414,
+      "char_end": 89539,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Beatriz Figueiredo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Erika Kokay",
+      "trecho": "Penso que nós deveríamos discutir a adoção dessa padronização, da valorização da perícia, da formação em violência de gênero, uma formação para combater a violência de gênero, para que nós possamos ter uma proteção às mulheres. Podemos transformar em projeto de lei, ou seja, um protocolo a ser estabelecido de valorização da perícia no combate às violências contra as mulheres.",
+      "char_start": 100154,
+      "char_end": 100532,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Erika Kokay",
+      "trecho": "A perícia precisa ser empoderada e fortalecida. Ela significa ciência, que foi, nos últimos anos, açoitada. Tivemos alguns governantes que se sentiam ameaçados pela ciência e a negavam. Mergulhar na importância da perícia é entender a relevância da ciência para que possamos desvendar todos os crimes, particularmente os crimes de feminicídio, que tem alto nível de resolução.",
+      "char_start": 94725,
+      "char_end": 95101,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Erika Kokay",
+      "trecho": "para que possamos desvendar todos os crimes, particularmente os crimes de feminicídio",
+      "char_start": 94982,
+      "char_end": 95067,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Erika Kokay",
+      "trecho": "para que possamos construir um mundo onde não haja dor em ser mulher e onde a condição de sermos do gênero feminino não nos ameace, não se torne uma ameaça às nossas existências.",
+      "char_start": 101984,
+      "char_end": 102162,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

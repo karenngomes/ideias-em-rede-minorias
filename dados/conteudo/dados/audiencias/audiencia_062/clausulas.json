@@ -1,0 +1,115 @@
+{
+  "sample_id": 62,
+  "n_opinioes": 13,
+  "n_decompostas": 13,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 11,
+  "n_ancorados": 6,
+  "n_rejeitados": 5,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "escopo": 2,
+    "prazo": 2,
+    "condicao": 2
+  },
+  "perdas": [
+    {
+      "falante": "Marcia Cruz",
+      "turno_id": 19,
+      "opiniao": "defende a incorporação de inotersen e patisiran no SUS para tratar neuropatia em todos os estágios da doença",
+      "nucleo": "Defendeu a incorporação de inotersen e patisiran no SUS para tratar neuropatia em todos os estágios da doença",
+      "tipo": "escopo",
+      "trecho": "para o estágio 1 quanto para o estágio 2",
+      "char_start": 24956,
+      "char_end": 24996
+    },
+    {
+      "falante": "Liana Ferronato",
+      "turno_id": 23,
+      "opiniao": "defende o acesso imediato à inotersena pelo SUS como direito fundamental à saúde e à vida",
+      "nucleo": "defendeu o acesso imediato à inotersena pelo SUS",
+      "tipo": "prazo",
+      "trecho": "já não têm mais tempo para esperar",
+      "char_start": 30897,
+      "char_end": 30931
+    },
+    {
+      "falante": "Maria Amélia de Oliveira Costa",
+      "turno_id": 27,
+      "opiniao": "defende a criação de uma vigilância nacional para doenças raras como política pública de saúde",
+      "nucleo": "defendeu a criação de uma vigilância nacional para doenças raras como política pública de saúde",
+      "tipo": "condicao",
+      "trecho": "iniciando-se por este momento",
+      "char_start": 41717,
+      "char_end": 41746
+    },
+    {
+      "falante": "Maria Amélia de Oliveira Costa",
+      "turno_id": 27,
+      "opiniao": "defende a organização de uma estrutura de serviços para doenças raras com acompanhamento integral do paciente",
+      "nucleo": "defendeu a organização de uma estrutura de serviços para doenças raras com acompanhamento integral do paciente",
+      "tipo": "condicao",
+      "trecho": "iniciando-se por essa situação",
+      "char_start": 42202,
+      "char_end": 42232
+    },
+    {
+      "falante": "Maria Amélia de Oliveira Costa",
+      "turno_id": 27,
+      "opiniao": "defende que políticas públicas para doenças raras devem começar pela amiloidose hereditária",
+      "nucleo": "defendeu que políticas públicas para doenças raras devem começar pela amiloidose hereditária",
+      "tipo": "escopo",
+      "trecho": "começando pela amiloidose como doença rara",
+      "char_start": 43123,
+      "char_end": 43165
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Priscila Gebrim Louly",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "com base em custo-efetividade e impacto orçamentário",
+      "opiniao": "recomenda a não incorporação do inotersena no SUS, com base em custo-efetividade e impacto orçamentário"
+    },
+    {
+      "turno_id": 17,
+      "falante": "Marcia Cruz",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para pacientes em estágios avançados",
+      "opiniao": "defende a incorporação de inotersen e patisiran no SUS para pacientes em estágios avançados e com diferentes mutações"
+    },
+    {
+      "turno_id": 17,
+      "falante": "Marcia Cruz",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com diferentes mutações",
+      "opiniao": "defende a incorporação de inotersen e patisiran no SUS para pacientes em estágios avançados e com diferentes mutações"
+    },
+    {
+      "turno_id": 25,
+      "falante": "Fábio Almeida",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente com acesso pleno a medicamentos como a inotersena",
+      "opiniao": "defende que o diagnóstico precoce e início imediato do tratamento são essenciais para permitir vida próxima do normal, especialmente com acesso pleno a medicamentos como a inotersena"
+    },
+    {
+      "turno_id": 29,
+      "falante": "Monica Aderaldo",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "atribuicao",
+      "trecho": "apoiando-se em precedentes como a doença de Batten",
+      "opiniao": "defende a incorporação imediata do tratamento para PAF no SUS, com base na dignidade, valor humano e viabilidade financeira, apoiando-se em precedentes como a doença de Batten"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.1667,
+  "taxa_ancoragem": 0.5455,
+  "taxa_opiniao_intacta": 0.6154
+}

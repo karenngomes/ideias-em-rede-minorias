@@ -1,0 +1,440 @@
+{
+  "sample_id": 196,
+  "n_opinioes": 18,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 17,
+  "n_fundamentos_propostos": 32,
+  "n_fundamentos_ancorados": 29,
+  "n_fundamentos_com_numero": 17,
+  "por_tipo": {
+    "dado": 27,
+    "autoridade": 2
+  },
+  "n_contrapontos_propostos": 3,
+  "n_com_contraponto": 1,
+  "n_rejeitados": 5,
+  "itens": [
+    {
+      "opiniao": "Defende a criação de um programa de bolsas integrais e parciais para estudantes de baixa renda, com renda familiar de até 1,5 salário mínimo, para ampliar o acesso ao ensino superior.",
+      "falante": "Átila Lira",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "com até 1,5 salário mínimo",
+          "char_start": 7348,
+          "char_end": 7374,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o novo programa de apoio ao estudante permitirá que alunos carentes concluam os cursos, evitando inadimplência e gerando impacto social positivo.",
+      "falante": "Átila Lira",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, esse aluno termina entrando no FIES e ele não tem condição de cumpri-lo, o que gera inadimplência, um passivo",
+          "char_start": 7376,
+          "char_end": 7491,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o programa é uma forma de atingir metas do Plano Nacional de Educação, especialmente em regiões sem acesso a instituições públicas.",
+      "falante": "Átila Lira",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "veremos que é muito pouco para que possamos atingir as metas do Plano Nacional de Educação",
+          "char_start": 6256,
+          "char_end": 6346,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "é contrário à proposta do Deputado Átila Lira por impactos orçamentários e financeiros não mitigados",
+      "falante": "Rafael Rodrigues Tavares",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Houve uma emenda, a Proposta de Emenda nº 1, que teve modificação para beneficiar os estudantes do CadÚnico, mas nós não identificamos os impactos orçamentários e financeiros na proposta e a forma como isso poderia ser saneado.",
+          "char_start": 12065,
+          "char_end": 12292,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "temos que encaixar nessas propostas todas essas outras propostas",
+          "char_start": 12495,
+          "char_end": 12559,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Têm sido muito discutidas outras propostas de melhoria do programa, que vão ter impactos diretos no orçamento e no teto de gastos",
+          "char_start": 12357,
+          "char_end": 12486,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o PL 2.961 por ampliar o acesso à educação, reduzir evasão e viabilizar instituições privadas com economia orçamentária",
+      "falante": "Celso Niskier",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vejam o potencial de alcançar quase 1 milhão de jovens. Esse cálculo, que está no próprio projeto de lei, estima mais de 800 mil, quase 900 mil jovens alunos de baixa renda, que poderiam ser atendidos pelo programa.",
+          "char_start": 16555,
+          "char_end": 16770,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em síntese, segundo os cálculos do projeto, vejam, são 4 bilhões de reais de economia em 2024, frente ao atual modelo.",
+          "char_start": 21984,
+          "char_end": 22102,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "91% dos jovens que estudam no ensino superior —  e estes são dados do nosso Instituto SEMESP, que é uma referência para toda a educação superior — estão nas classes C, D e E, com renda familiar de até 3 salários mínimos.",
+          "char_start": 17310,
+          "char_end": 17530,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "76% das matrículas do ensino superior estão no ensino superior privado.",
+          "char_start": 17812,
+          "char_end": 17883,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Das instituições, 87% são privadas, espalhadas por todo o País.",
+          "char_start": 18050,
+          "char_end": 18113,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "hoje são menos de 100 mil vagas oferecidas. E cerca de 30 mil a 40 mil são as que, de fato, foram preenchidas, num total que já foi de 700 mil.",
+          "char_start": 18744,
+          "char_end": 18887,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Existem hoje nas instituições particulares quase 2,5 milhões de estudantes que são potenciais beneficiários de bolsa integral e mais de 4,5 milhões de estudantes com perfil para demandar investimento.",
+          "char_start": 19840,
+          "char_end": 20040,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "hoje, os programas do Governo envolvem apenas 15,5% desse total.",
+          "char_start": 20513,
+          "char_end": 20577,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a ampliação de investimentos em PROUNI e FIES por serem mais econômicos que vagas em universidades públicas",
+      "falante": "Lúcia Maria Teixeira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Cada jovem atendido pelo PROUNI ou pelo FIES custa para o Estado 80% menos que cada vaga em universidades públicas",
+          "char_start": 29186,
+          "char_end": 29300,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a criação de política pública de acesso ao ensino superior para evitar exclusão e estagnação do desenvolvimento nacional",
+      "falante": "Lúcia Maria Teixeira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "temos uma baixa taxa de escolarização líquida, apenas 17,8% dos nossos jovens, considerada aquela faixa de 18 anos a 24 anos, estão no ensino superior — e decresceu",
+          "char_start": 26635,
+          "char_end": 26799,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos muito longe dessa meta",
+          "char_start": 27217,
+          "char_end": 27251,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende uma concepção ampla de educação, voltada para cidadania, saúde e tolerância, além de empregabilidade",
+      "falante": "Lúcia Maria Teixeira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Os ODSs falam do tipo de educação que deve ser oferecida a todos",
+          "char_start": 30202,
+          "char_end": 30266,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Propõe programa de bolsas e auxílios financeiros para estudantes de baixa renda como solução para o acesso ao ensino superior",
+      "falante": "Lúcia Maria Teixeira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "90% dos estudantes de ensino superior possuem renda de até 3 salários mínimos, sendo que, desses 90%, a metade, 45%, recebem rendaper capitade apenas 1,5 salário mínimo e a maioria até 3 salários mínimos",
+          "char_start": 28125,
+          "char_end": 28328,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "O financiamento estudantil é fundamental, mas ele não vai conseguir atingir os mais pobres, e eles não podem se endividar para estudar",
+        "resposta": "Nós precisamos melhorar essa situação com um programa de apoio que dê bolsas para os alunos mais carentes, combinadas com auxílios financeiros",
+        "objecao_char_start": 30506,
+        "objecao_char_end": 30640,
+        "resposta_char_start": 30801,
+        "resposta_char_end": 30943,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Solicita que o FNDE não veja o projeto como impacto negativo, mas como investimento estratégico para atingir metas educacionais.",
+      "falante": "Átila Lira",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "uma despesa, um investimento do Governo da ordem de 7 bilhões, aproximadamente, de 6,5 bilhões a 7,5 bilhões, dependendo de como vai ser a regulamentação",
+          "char_start": 33527,
+          "char_end": 33680,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende focalizar o FIES nos estudantes de baixa renda, especialmente os do CadÚnico",
+      "falante": "Rafael Rodrigues Tavares",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "como está na proposta de V.Exa., de famílias incluídas no CadÚnico",
+          "char_start": 34933,
+          "char_end": 34999,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende estabelecer teto de aporte às mantenedoras para melhorar a atratividade do FIES",
+      "falante": "Rafael Rodrigues Tavares",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós sabemos que está muito pesado atualmente para as mantenedoras, porque não há um teto de aporte. Ele varia de acordo com a inadimplência dela",
+          "char_start": 36210,
+          "char_end": 36354,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Sem a oferta, o FIES não funciona. Nós dependemos de os estudantes buscarem financiamento e de as mantenedoras fazerem oferta, para atingirmos as metas do PNE",
+          "char_start": 36601,
+          "char_end": 36759,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende incentivos para permanência de estudantes de baixa renda no ensino superior",
+      "falante": "Rafael Rodrigues Tavares",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "estudantes de baixa renda procuram ingressar logo no mercado de trabalho e têm que compatibilizar trabalho com estudo. Isso prejudica o rendimento deles até o ingresso no ensino superior",
+          "char_start": 39400,
+          "char_end": 39586,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Uma vez que ele sai no meio do caminho, isso contribui também para a elevação da inadimplência",
+          "char_start": 37231,
+          "char_end": 37325,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Afirma que o FIES atual só beneficia o banco administrador, gerando inadimplência, falta de sustentabilidade para instituições e exclusão de alunos carentes.",
+      "falante": "Átila Lira",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em nenhum lugar no mundo, em nenhum financiamento do mundo existe um fundo garantidor que chega a 50%, a 60% do que se arrecada",
+          "char_start": 40189,
+          "char_end": 40316,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende bolsa integral como essencial para quem não pode pagar, para garantir acesso e permanência na educação",
+      "falante": "Celso Niskier",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje, um jovem que recebe o PROUNI custa 16% do valor de um jovem que estuda numa universidade pública",
+          "char_start": 43546,
+          "char_end": 43648,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o financiamento estudantil como caminho essencial para o desenvolvimento econômico e social do Brasil",
+      "falante": "Celso Niskier",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje, um jovem que recebe o PROUNI custa 16% do valor de um jovem que estuda numa universidade pública",
+          "char_start": 43546,
+          "char_end": 43648,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que a educação é o único caminho para mudar a vida de jovens e famílias, e que o Governo deve priorizar programas educacionais como este.",
+      "falante": "Átila Lira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O FIES, mesmo com esses problemas, é um programa importante, teve o seu papel e precisa de aperfeiçoamento",
+          "char_start": 46969,
+          "char_end": 47075,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 10,
+      "falante": "Rafael Rodrigues Tavares",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "três salários mínimos é muito amplo, atende praticamente toda a população brasileira"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Rafael Rodrigues Tavares",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o público com renda de até meio salário mínimo, que está no CadÚnico também, está mais distante do PNE, independentemente do gênero, da cor"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Rafael Rodrigues Tavares",
+      "campo": "contraponto",
+      "motivo": "resposta não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "é importante que ele consiga um contrato, que ele se mantenha até o final, conclua seus estudos e se gradue, consiga um emprego e, consequentemente, consiga pagar as parcelas do FIES"
+    },
+    {
+      "turno_id": 11,
+      "falante": "Átila Lira",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "o aluno não tem condições de pagar"
+    },
+    {
+      "turno_id": 17,
+      "falante": "Átila Lira",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "eu vejo os Governos Federais incentivarem a indústria de produtos da linha branca, a indústria automobilística, a mineração, o agronegócio, enfim, os demais setores, e não um programa como esse"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9444,
+  "taxa_contraponto": 0.0556,
+  "taxa_ancoragem_fundamento": 0.9062
+}

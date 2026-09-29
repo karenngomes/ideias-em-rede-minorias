@@ -1,0 +1,1536 @@
+{
+  "sample_id": 16,
+  "n_opinioes": 82,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 70,
+  "n_fundamentos_propostos": 104,
+  "n_fundamentos_ancorados": 101,
+  "n_fundamentos_com_numero": 16,
+  "por_tipo": {
+    "dado": 98,
+    "autoridade": 3
+  },
+  "n_contrapontos_propostos": 15,
+  "n_com_contraponto": 14,
+  "n_rejeitados": 4,
+  "itens": [
+    {
+      "opiniao": "defende que o Ministro deve manter neutralidade política e respeitar a pluralidade parlamentar, sem atacar grupos",
+      "falante": "Bia Kicis",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não é seu papel aqui atacar grupos de Deputados",
+          "char_start": 37500,
+          "char_end": 37547,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "afirma a necessidade de respeito ao decoro e à imparcialidade no exercício do cargo ministerial",
+      "falante": "Bia Kicis",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O senhor é Ministro do Brasil inteiro. O senhor é Ministro de todo o Brasil, de toda a população: direita, esquerda, centro...",
+          "char_start": 38141,
+          "char_end": 38267,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a postura defensiva e agressiva do Ministro e de aliados como forma de evitar respostas substantivas",
+      "falante": "Kim Kataguiri",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o chilique aqui do Ministro",
+          "char_start": 40354,
+          "char_end": 40381,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "desafia o Ministro a provar judicialmente eventuais difamações, sob alegação de que suas declarações são factualmente corretas",
+      "falante": "Kim Kataguiri",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vou processar todos aqueles que têm me difamado, que têm me atacado.",
+          "char_start": 43775,
+          "char_end": 43843,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "V.Exa. colocou que eu faço insinuações difamatórias, que eu poderia até estar prevaricando se não tomasse uma atitude contra o Ministério de V.Exa.",
+        "resposta": "Processe-me, então, também, faça uma representação ao Ministério Público por eu estar prevaricando, para eu ser preso por prevaricação. V.Exa. não vai fazer porque sabe que, aí, sim, será processado por denunciação caluniosa, porque sabe que não há crime algum, e isso está muito mais do que claro.",
+        "objecao_char_start": 43403,
+        "objecao_char_end": 43550,
+        "resposta_char_start": 44243,
+        "resposta_char_end": 44541,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica a limitação da participação no debate apenas aos requerentes, considerando que isso não é democrático",
+      "falante": "Jorge Solla",
+      "turno_id": 75,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Só os requerentes vão falar aqui.",
+          "char_start": 50460,
+          "char_end": 50493,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o MBL e o voto nulo contribuíram para a eleição de Lula, considerado o mal maior",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o MBL desestabilizou essa democracia quando pregou o voto nulo, permitindo a eleição de Lula na última eleição",
+          "char_start": 50679,
+          "char_end": 50789,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a instrumentalização da pauta identitária pela esquerda para silenciar o debate",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "isso daí é estratégia da esquerda identitária para bloquear o debate",
+          "char_start": 51958,
+          "char_end": 52026,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Se alguém é contra as cotas raciais, é racista. Se é contra o PLC 122 /06 ou qualquer pauta LGBT nas escolas, é homofóbico, e assim por diante.",
+        "resposta": "isso daí é estratégia da esquerda identitária para bloquear o debate",
+        "objecao_char_start": 52070,
+        "objecao_char_end": 52213,
+        "resposta_char_start": 51958,
+        "resposta_char_end": 52026,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "questiona a autenticidade da identidade racial de Flávio Dino e a possibilidade de 'negros trans' mudarem de autodeclaração racial",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Flávio Dino, em 2014, declarou-se branco para sua eleição a Governador do Maranhão. Em 2018, Flávio Dino se declarou pardo na sua reeleição. E, agora, aFolhadiz que Dino deve ser o quinto negro da história do STF",
+          "char_start": 53145,
+          "char_end": 53357,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Flávio Dino é um negrofakeou existem negros trans, que, conforme o dia que acordam, podem se declarar negros ou não?",
+        "resposta": "Flávio Dino, em 2014, declarou-se branco para sua eleição a Governador do Maranhão. Em 2018, Flávio Dino se declarou pardo na sua reeleição. E, agora, aFolhadiz que Dino deve ser o quinto negro da história do STF",
+        "objecao_char_start": 53411,
+        "objecao_char_end": 53527,
+        "resposta_char_start": 53145,
+        "resposta_char_end": 53357,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "condena a presença de pessoas condenadas por tráfico no Ministério dos Direitos Humanos com custas pagas pelo governo",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é proibido trazer pessoas condenadas a 10 anos por associação ao tráfico e que elas tenham as suas custas e diárias pagas pelo Ministério dos Direitos Humanos",
+          "char_start": 54945,
+          "char_end": 55103,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de regras explícitas de moralidade para impedir nomeações de condenados por tráfico",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nunca se imaginou que teria que existir ali um artigo dizendo que é proibido trazer pessoas condenadas a 10 anos por associação ao tráfico",
+          "char_start": 54879,
+          "char_end": 55017,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "afirma que movimentos identitários não representam verdadeiramente mulheres e negros, como no caso de sua assessora Sonaira",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Lula diz, segundo aFolha, que mudou o critério para a escolha do próximo Ministro do STF",
+          "char_start": 53055,
+          "char_end": 53143,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "elogia a condução da sessão pelo Presidente e defende o respeito ao Poder Legislativo frente a ministros",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "eu tenho que ressaltar aqui a postura do Ministro com V.Exa. O Ministro se irritou e chegou a se exaltar um pouco com V.Exa. por ter cortado a palavra dele para lhe chamar a atenção e retornar ao foco da matéria desta audiência pública de hoje",
+          "char_start": 51158,
+          "char_end": 51401,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita como irrelevantes as críticas do ministro por virem de um governo que apoia Maduro",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é de um Governo que aceita um narcoditador como Nicolás Maduro, que está esmagando a sua população, é o maior traficante de drogas da América Latina",
+          "char_start": 57579,
+          "char_end": 57727,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a contradição do ministro ao usar portaria do governo Bolsonaro e negar estrutura estatal anterior",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "utilizou uma portaria da Ministra Damares",
+          "char_start": 58030,
+          "char_end": 58071,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "condena o apoio do governo brasileiro a terroristas na guerra com Israel",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em qual estrutura de Estado o Governo Lula está pensando ao tomar partido dos terroristas na guerra contra Israel?",
+          "char_start": 58149,
+          "char_end": 58263,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "compara a postura do governo com 'tigrões' contra vítimas e 'tchutchucas' contra Hamas e Maduro",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "V.Exas. são \"tigrões\" quando as vítimas são bebês colocados em fornos na frente dos pais, são \"tigrões\" quando mulheres são incendiadas vivas, como na festa de música eletrônica lá em Israel, mas são \"tchutchucas\" para cima do Hamas, são \"tchutchucas\" para cima de Nicolás Maduro",
+          "char_start": 58362,
+          "char_end": 58641,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "denuncia a censura a Nikolas Ferreira como ataque à liberdade de expressão",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Deputado Nikolas postou umtweetpedindo uma investigação ao TSE, e a resposta foi censura",
+          "char_start": 59214,
+          "char_end": 59304,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o direito de ofender como parte da civilização democrática",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "E o Deputado Kim Kataguiri falou a mesma coisa para V.Exa. Isso daí é civilização",
+          "char_start": 59765,
+          "char_end": 59846,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sustenta que a liberdade de expressão deve ser defendida mesmo em casos graves",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Pode ser o pior possível o xingamento. Agora, isso daí é crime contra a honra. V.Exa. acabou de falar na discussão com o Deputado Kim Kataguiri de maneira correta:\"Se não gostou, que me processe\"",
+          "char_start": 59569,
+          "char_end": 59764,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a falta de defesa de direitos humanos em casos de parlamentares presos",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "E eu não vejo a comoção de V.Exas., do Ministério dos Direitos Humanos, para ressaltar os direitos humanos nesse caso",
+          "char_start": 59920,
+          "char_end": 60037,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reitera a pergunta sobre a autenticidade racial de Flávio Dino",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Ministro não respondeu a minha pergunta sobre Dino ser um negrofakeou se existem negros trans que podem, no passado, ter se declarado brancos e hoje em dia se autointitularem negros só para entrar no STF",
+          "char_start": 62775,
+          "char_end": 62980,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "denuncia hipocrisia de Lula ao se posicionar contra drogas e aborto em campanha e mudar depois",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Isso me lembra a carta de Lula aos evangélicos durante a eleição, dizendo-se contra o aborto, dizendo-se contra as drogas. Agora o seu Ministro está aqui falando em relativização",
+          "char_start": 62983,
+          "char_end": 63161,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a relativização do uso de drogas como caminho para legalização perigosa",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vão dizer que se trata de descriminalizar o uso de drogas. Mas, no final das contas, vão legalizar um comércio dominado por pessoas que não só traficam, mas também estupram, sequestram, matam",
+          "char_start": 63223,
+          "char_end": 63414,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o aumento do acesso a armas reduziu homicídios historicamente",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Qual foi o resultado? Não foi só uma queda no número de homicídios, foi a maior queda da história deste País em número de assassinatos, desde que a medição começou, em 1979",
+          "char_start": 64432,
+          "char_end": 64604,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "condena a política desarmamentista como responsável pelo aumento da criminalidade",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Mais uma vez, vão pagar com a vida brasileiros inocentes, por uma política que, no passado, já deu errado",
+          "char_start": 63690,
+          "char_end": 63795,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a indicação de Flávio Dino ao STF por seu caráter ideológico e militante",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Flávio Dino está sendo indicado agora para o STF e diz que o perigo do Brasil são os bolsonaristas. Ele diz que já julgou e condenou traficantes de drogas e assassinos enquanto juiz, mas que nada é pior do que os bolsonaristas",
+          "char_start": 65343,
+          "char_end": 65569,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o respeito ao Poder Legislativo e a sua dignidade institucional",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 81,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós não podemos ser tidos aqui como uma categoria de segunda classe por outros Poderes e, mais ainda, ver acontecer um esculacho desses, quando um Ministro vem aqui e quer esculachar Deputado em plena Câmara dos Deputados",
+          "char_start": 66297,
+          "char_end": 66518,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o Ministro tem responsabilidade por receber no Ministério alguém condenado por lavagem de dinheiro e tráfico, e critica sua postura como inadequada para um cargo de Estado.",
+      "falante": "Nikolas Ferreira",
+      "turno_id": 89,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Luciane foi condenada a 10 anos de prisão por lavagem de dinheiro, associação para o tráfico e organização criminosa.",
+          "char_start": 70803,
+          "char_end": 70922,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Criticou o Ministro por receber e sorrir para alguém que ridicularizou vítimas de ataque do Hamas, como evidência de sua hipocrisia e falta de compromisso com os direitos humanos.",
+      "falante": "Nikolas Ferreira",
+      "turno_id": 91,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Este aqui é o Sr. Sayid Marcos, que ridicularizou as vítimas mortas pelo Hamas, fazendo essas postagens antissemitas, inclusive de uma mulher que foi morta e estuprada.",
+          "char_start": 72077,
+          "char_end": 72245,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Simplesmente ele estava ali, tirando foto com o senhor, todo sorridente.",
+          "char_start": 72246,
+          "char_end": 72318,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o senhor demorou a se pronunciar com relação a todos os ataques que aconteceram em Israel — só o fez depois de 3 dias — e não condenou o Hamas.",
+          "char_start": 72482,
+          "char_end": 72625,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu perguntei para o senhor:\"O senhor condena as ações do Nicolás Maduro?\"O senhor não respondeu",
+          "char_start": 72775,
+          "char_end": 72870,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o Ministério dos Direitos Humanos pratica hipocrisia ao omitir condenações a grupos como o Hamas e ao tolerar apropriação identitária por aliados do governo.",
+      "falante": "Nikolas Ferreira",
+      "turno_id": 97,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não há nada nem na nota do Ministério, nem na sua nota do dia 10 de outubro de 2023, às 12h22min, sobre o Hamas ou condenando os ataques",
+          "char_start": 77941,
+          "char_end": 78077,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quando uma pessoa que claramente não é negra se diz negra, os senhores ficam calados",
+          "char_start": 80083,
+          "char_end": 80167,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se isso ocorre com uma pessoa que está do meu lado, tudo bem. Se é o Flávio Dino, para colar a narrativa de que é o quinto negro na história do STF, isso pode",
+          "char_start": 80221,
+          "char_end": 80379,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o devido processo legal como essencial ao Estado Democrático de Direito e critica o silêncio do ministro sobre violações graves, incluindo assassinatos pelo Estado e recebimento de pessoa ligada ao Comando Vermelho.",
+      "falante": "Marcos Pollon",
+      "turno_id": 161,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Sessenta pessoas morrem todos os dias, quantas delas sem saber do que estão sendo acusadas, quantas delas em processo cautelar, quantas delas fora do juiz natural?",
+          "char_start": 100940,
+          "char_end": 101103,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o caso do Clezão, que foi assassinado pelo regime ditatorial que se impõe neste País neste momento",
+          "char_start": 101191,
+          "char_end": 101289,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o fato de V.Exa. se recusar a receber uma pessoa que é suspeita de crime não o afeta",
+        "resposta": "Não o afeta de maneira nenhuma",
+        "objecao_char_start": 101350,
+        "objecao_char_end": 101434,
+        "resposta_char_start": 101436,
+        "resposta_char_end": 101466,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a imunidade parlamentar como garantia da representação popular e rejeita acusações de crime no exercício dessa prerrogativa.",
+      "falante": "Bia Kicis",
+      "turno_id": 164,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos imunidade parlamentar para perguntar. Nós temos imunidade parlamentar. Por isso, nós somos absolutamente imunes por quaisquer palavras, votos e opiniões.",
+          "char_start": 103101,
+          "char_end": 103264,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "aqueles que querem relativizar a nossa imunidade",
+        "resposta": "Nós iremos lutar contra isso, porque a nossa imunidade é o que garante que o povo que nós representamos seja bem representado aqui.",
+        "objecao_char_start": 103273,
+        "objecao_char_end": 103321,
+        "resposta_char_start": 103325,
+        "resposta_char_end": 103456,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a proteção das prerrogativas parlamentares de forma igualitária, sem distinção política.",
+      "falante": "Bia Kicis",
+      "turno_id": 168,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "de direita, de esquerda, de qualquer Deputado",
+          "char_start": 104163,
+          "char_end": 104208,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o direito de resposta contra insinuação de ligação com crime organizado",
+      "falante": "Rogério Correia",
+      "turno_id": 193,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "ele quis dizer que havia, por parte do Governo o qual eu defendo, e referiu-se a mim como Deputado, uma ligação com o crime organizado",
+          "char_start": 107566,
+          "char_end": 107700,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "nem ficou aqui, fez uma insinuação caluniosa e não nos escuta",
+        "resposta": "eu possa responder ao Deputado que, aliás, nem ficou aqui, fez uma insinuação caluniosa e não nos escuta",
+        "objecao_char_start": 107499,
+        "objecao_char_end": 107560,
+        "resposta_char_start": 107456,
+        "resposta_char_end": 107560,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Rejeita questão de ordem por fundamento incorreto e assegura a continuidade da fala do requerente.",
+      "falante": "Bia Kicis",
+      "turno_id": 194,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "esse não é o artigo correto",
+          "char_start": 107779,
+          "char_end": 107806,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica o Ministro por fazer discursos de conveniência e teatrais, apontando contradição entre sua defesa do saneamento e o voto contrário do Governo no novo marco",
+      "falante": "Evair Vieira de Melo",
+      "turno_id": 229,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "100 milhões de brasileiros",
+          "char_start": 125507,
+          "char_end": 125533,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Governo que ele defende foi o Governo que votou e trabalhou contra o novo marco do saneamento",
+          "char_start": 125343,
+          "char_end": 125438,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Defende a liberação da Cannabis —como vamos esvaziar os presídios, então? Libera aCannabisque acaba o problema —",
+        "resposta": "e vem falar em saneamento básico, contra o qual o Governo do PT e seus puxadinhos trabalharam e votaram aqui na Casa.",
+        "objecao_char_start": 125872,
+        "objecao_char_end": 125984,
+        "resposta_char_start": 125985,
+        "resposta_char_end": 126102,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a acusação de racismo nas ações policiais, argumentando que os policiais agem conforme a lei e não com base na cor da pele",
+      "falante": "Helio Lopes",
+      "turno_id": 233,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Ela não sai dizendo que vai matar um negro",
+          "char_start": 128991,
+          "char_end": 129033,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Infelizmente, existe marginal branco, existem marginais de várias cores",
+          "char_start": 129035,
+          "char_end": 129106,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o bandido não morre porque é negro",
+        "resposta": "Morrem bandidos de várias cores",
+        "objecao_char_start": 128578,
+        "objecao_char_end": 128612,
+        "resposta_char_start": 128614,
+        "resposta_char_end": 128645,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a recepção e o financiamento público de criminosa ligada ao Comando Vermelho por parte do governo",
+      "falante": "Delegado Paulo Bilynskyj",
+      "turno_id": 243,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Luciane e o marido foram condenados por lavagem de dinheiro, associação para o tráfico e organização criminosa.",
+          "char_start": 138369,
+          "char_end": 138480,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a mulher casada com o líder do Comando Vermelho foi recebida por integrantes do Governo Lula e, pior, teve suas passagens custeadas pelo seu Ministério, Ministro, custeadas com o dinheiro do imposto do contribuinte",
+          "char_start": 137073,
+          "char_end": 137287,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica o silêncio e o apoio velado do governo ao crime organizado",
+      "falante": "Delegado Paulo Bilynskyj",
+      "turno_id": 243,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O que vemos aqui é o crime organizado sendo cortejado por pessoas que deveriam zelar pela segurança da população e não por aquilo que a ameaça.",
+          "char_start": 137289,
+          "char_end": 137432,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Mas o que vemos do senhor, do Governo Lula é o silêncio, o apoio velado aos bandidos.",
+          "char_start": 137978,
+          "char_end": 138063,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a defesa de direitos humanos está sendo mal interpretada por privilegiar criminosos em detrimento das vítimas",
+      "falante": "Delegado Paulo Bilynskyj",
+      "turno_id": 243,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Direitos humanos, para o Governo Lula, valem apenas quando um grupo de sua ideologia está sendo atacado e não quando o cidadão comum está com a vida e os direitos individuais em risco.",
+          "char_start": 138064,
+          "char_end": 138248,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O que vemos do senhor é desdém para com os milhões de pessoas que sofrem com o crime organizado em todo o País.",
+          "char_start": 139074,
+          "char_end": 139185,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a proteção dos direitos humanos para vítimas e policiais, não apenas para criminosos",
+      "falante": "Delegado Paulo Bilynskyj",
+      "turno_id": 243,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os direitos humanos valem apenas para a sua patota ou para pessoas normais?",
+          "char_start": 138998,
+          "char_end": 139073,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu ouvi aqui o senhor mencionar o cuidado com os presos. Se esse cuidado tivesse sido executado de forma correta, talvez o Clezão estivesse vivo.",
+          "char_start": 139187,
+          "char_end": 139332,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que acusações contra o Governo Lula são hipócritas, diante de relações orgânicas e públicas entre a família Bolsonaro e o crime organizado",
+      "falante": "Pastor Henrique Vieira",
+      "turno_id": 263,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Familiares dele foram nomeados direta, voluntária e conscientemente por Flávio Bolsonaro na ALERJ — vejam só o caminho, mais curto, direto, transparente e objetivo.",
+          "char_start": 158320,
+          "char_end": 158484,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Flávio Bolsonaro homenageou publicamente Adriano da Nóbrega com uma medalha na ALERJ, um matador do Escritório do Crime, relacionado com a milícia.",
+          "char_start": 158890,
+          "char_end": 159037,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "no mesmo ano, seu pai, então Deputado Federal, o defendeu na Câmara — isso está registado na Taquigrafia —, com testemunha ocular na hora, Deputado Chico Alencar.",
+          "char_start": 159041,
+          "char_end": 159203,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A família Bolsonaro inclusive já se pronunciou publicamente várias vezes defendendo milícia, que é crime organizado, é máfia, mata, estupra, violenta, faz exploração ilegal de atividades econômicas.",
+          "char_start": 159339,
+          "char_end": 159537,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No ano passado, Sr. Ministro, sabe aonde foi ohackercom duas condenações criminais? Ele teve uma agenda com o Bolsonaro na casa presidencial.",
+          "char_start": 159994,
+          "char_end": 160135,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a extrema direita tem relações estruturais com o crime organizado e nega a democracia",
+      "falante": "Pastor Henrique Vieira",
+      "turno_id": 263,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A família Bolsonaro inclusive já se pronunciou publicamente várias vezes defendendo milícia, que é crime organizado, é máfia, mata, estupra, violenta, faz exploração ilegal de atividades econômicas.",
+          "char_start": 159339,
+          "char_end": 159537,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Flávio Bolsonaro homenageou publicamente Adriano da Nóbrega com uma medalha na ALERJ, um matador do Escritório do Crime, relacionado com a milícia.",
+          "char_start": 158890,
+          "char_end": 159037,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "no mesmo ano, seu pai, então Deputado Federal, o defendeu na Câmara — isso está registado na Taquigrafia —, com testemunha ocular na hora, Deputado Chico Alencar.",
+          "char_start": 159041,
+          "char_end": 159203,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o encarceramento em massa no Brasil estimula o crescimento do crime organizado",
+      "falante": "Pastor Henrique Vieira",
+      "turno_id": 263,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O presídio ajuda a organizar o crime e piora as pessoas.",
+          "char_start": 164763,
+          "char_end": 164819,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia a política do Ministério dos Direitos Humanos de respeito à dignidade humana no sistema prisional",
+      "falante": "Pastor Henrique Vieira",
+      "turno_id": 263,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu quero corroborar a política do Ministério dos Direitos Humanos, que tem uma preocupação geral com o sistema prisional, para que haja respeito ao devido processo legal e para que haja respeito à dignidade humana das pessoas que estão presas.",
+          "char_start": 164213,
+          "char_end": 164456,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que políticas de direitos humanos devem incluir e proteger profissionais de segurança pública com a mesma prioridade dada à população carcerária",
+      "falante": "Pedro Aihara",
+      "turno_id": 267,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O policial penal muitas vezes está em condições tão degradantes quanto aquela pessoa que está em situação de privação de liberdade",
+          "char_start": 169409,
+          "char_end": 169539,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a relativização de instituições internacionais de direitos humanos pelo Governo Federal, especialmente a negação ou desconhecimento do Tribunal Penal Internacional pelo Presidente Lula",
+      "falante": "Pedro Aihara",
+      "turno_id": 267,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a sistemática internacional de direitos humanos é questionada pelo nosso representante maior, que é o Presidente da República",
+          "char_start": 172924,
+          "char_end": 173049,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Presidente Lula afirmar desconhecer o Tribunal Penal Internacional, que é um mecanismo fundamental na consecução dos direitos humanos",
+          "char_start": 171293,
+          "char_end": 171428,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A incorporação de todo o processamento jurídico para que de fato fôssemos signatários do acordo que instaurou o TPI começou no Governo Fernando Henrique, mas foi finalizada, teve seu ato final de incorporação no primeiro Governo Lula",
+          "char_start": 172146,
+          "char_end": 172379,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "houve a indicação da Ministra Sylvia Steiner durante o Governo Lula. Ela própria, indicada pelo Presidente, disse, de forma muito clara:\n\nPor crimes contra a humanidade.",
+          "char_start": 172391,
+          "char_end": 172560,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que pessoas inocentes não devem ser presas e que penas de até 17 anos por atos do 8 de janeiro são desproporcionais em comparação com crimes violentos",
+      "falante": "Sargento Fahur",
+      "turno_id": 272,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "condenar uma pessoa a 17 anos de cadeia, por mais que tenha cometido erros, que tenha quebrado, que tenha danificado...",
+          "char_start": 176264,
+          "char_end": 176383,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ficou provado que ela era inocente, ou pelo menos não provaram que era culpada.",
+          "char_start": 175487,
+          "char_end": 175566,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Acho que é pouco para quem passa 1 ano preso sem merecer.",
+          "char_start": 175608,
+          "char_end": 175665,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Nós seríamos hipócritas, isso seria hipocrisia, porque somos contra os presos, mas estaríamos a favor desses presos.",
+        "resposta": "Se uma pessoa está presa sem merecer — eu não sou hipócrita —, eu acredito que aquela pessoa tem que ser justiçada.",
+        "objecao_char_start": 174898,
+        "objecao_char_end": 175014,
+        "resposta_char_start": 175286,
+        "resposta_char_end": 175401,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Rejeita a comparação do Ministro com Flávio Dino por entender que este teve atuação negativa no Maranhão, especialmente com a segurança pública",
+      "falante": "Mariana Carvalho",
+      "turno_id": 276,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Flávio Dino não atendeu os convites da nossa Comissão, desrespeitando a convocação, o Parlamento",
+          "char_start": 179511,
+          "char_end": 179607,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No Estado, se existe uma classe defasada, é a da segurança pública, e isso vem desde o Governo Flávio Dino",
+          "char_start": 179609,
+          "char_end": 179715,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Questiona a ausência de apoio do Ministério dos Direitos Humanos a profissionais de segurança pública e a priorização de pessoas ligadas ao crime em detrimento de vítimas como Clezão",
+      "falante": "Mariana Carvalho",
+      "turno_id": 276,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a morte de um pai de família, a morte de alguém que poderia ter tido o apoio, por exemplo, do Ministério dos Direitos Humanos, mas que foi desconsiderado",
+          "char_start": 180177,
+          "char_end": 180330,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Clezão e o Coronel Naime estão sendo condenados à pena de morte? O fato de não terem tido nenhum tipo de representação, nenhum tipo de apoio do Ministério dos Direitos Humanos, condena à pena de morte essas pessoas que, inocentes, estão sendo penalizadas",
+          "char_start": 180340,
+          "char_end": 180596,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Manifesta repúdio à presença de Luciane Barbosa Farias em Brasília com custo público, considerando seu envolvimento com o Comando Vermelho",
+      "falante": "Mariana Carvalho",
+      "turno_id": 276,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Sra. Luciane Barbosa Farias, que tem envolvimento comprovado com a facção criminosa Comando Vermelho, foi condenada a 10 anos por lavagem de dinheiro para a organização, mas responde em liberdade",
+          "char_start": 178711,
+          "char_end": 178908,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere que Deputados governistas façam falas mais breves para permitir que o Ministro cumpra o horário combinado",
+      "falante": "Sanderson",
+      "turno_id": 281,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Ministro pode sair às 18 horas",
+          "char_start": 182541,
+          "char_end": 182573,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o cumprimento da Lei de Execuções Penais como forma de reduzir a criminalidade e a superlotação prisional.",
+      "falante": "Tadeu Veneri",
+      "turno_id": 288,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se ela fosse cumprida, reduziria a criminalidade.",
+          "char_start": 186724,
+          "char_end": 186773,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Criticou a falta de menção aos atos do Estado de Israel, que considera crimes de guerra e terrorismo de Estado contra o povo palestino.",
+      "falante": "Tadeu Veneri",
+      "turno_id": 288,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "1.200 mortos em Israel e em 240 reféns do Hamas.",
+          "char_start": 187055,
+          "char_end": 187103,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o crime de Israel, estado que hoje comete crime de estado, terrorismo de estado, não só quer eliminar o Hamas, quer eliminar o povo palestino.",
+          "char_start": 187159,
+          "char_end": 187301,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Depois de explodir hospitais, escolas, bibliotecas, universidades, agora explodiu o prédio da Suprema Corte, que já está ocupado pelas forças invasoras.",
+          "char_start": 187302,
+          "char_end": 187454,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "isso foi dito hoje por Reinaldo Azevedo",
+          "char_start": 187116,
+          "char_end": 187155,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende uma noção integral e não seletiva de direitos humanos, que se aplique a todos sem distinção.",
+      "falante": "Tadeu Veneri",
+      "turno_id": 288,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quando se fala em direitos humanos, Ministro, não há meio-termo: ou se defendem direitos ou não se defendem direitos. Não há parcela de direitos. Não há este ou aquele tipo de direito para esta ou aquela pessoa.",
+          "char_start": 188047,
+          "char_end": 188258,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Rejeita a agressão verbal a convidados em comissões, defendendo o respeito institucional mesmo em desacordo.",
+      "falante": "Tadeu Veneri",
+      "turno_id": 288,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós também não podemos aceitar, Sr. Ministro, sendo Deputados ou não, que as pessoas venham aqui para agredir o nosso convidado.",
+          "char_start": 188573,
+          "char_end": 188701,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Fui oposição durante 16 anos. Em 16 anos, nunca ofendi nenhum Secretário que foi à Assembleia Legislativa.",
+          "char_start": 188734,
+          "char_end": 188840,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não é porque eu sou do Governo.",
+        "resposta": "Fui oposição durante 16 anos. Em 16 anos, nunca ofendi nenhum Secretário que foi à Assembleia Legislativa.",
+        "objecao_char_start": 188702,
+        "objecao_char_end": 188733,
+        "resposta_char_start": 188734,
+        "resposta_char_end": 188840,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Brasil deve se posicionar contra a agressão da Venezuela à Guiana e não ao lado do agressor",
+      "falante": "Luiz Lima",
+      "turno_id": 294,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Venezuela está querendo tomar grande parte do território da Guiana — uma agressão.",
+          "char_start": 193252,
+          "char_end": 193336,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos prestes a ter uma guerra na América do Sul, e o Estado de Roraima, praticamente, dividindo a Venezuela e a Guiana, e o Presidente Lula pede bom senso.",
+          "char_start": 193644,
+          "char_end": 193806,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a omissão do Ministério dos Direitos Humanos em se posicionar sobre conflitos internacionais como o entre Israel e Hamas",
+      "falante": "Luiz Lima",
+      "turno_id": 294,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Israel e Hamas: é um escândalo, e acho que o Ministério dos Direitos Humanos e da Cidadania poderia ter se posicionado de forma mais forte em relação ao caso.",
+          "char_start": 193485,
+          "char_end": 193643,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a proteção da população por meio de medidas mais enérgicas contra a violência e é a favor da redução da maioridade penal",
+      "falante": "Luiz Lima",
+      "turno_id": 294,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há 48 horas, a imagem que se tem do Brasil na Europa é a de um idoso sendo agredido em Copacabana.",
+          "char_start": 194767,
+          "char_end": 194865,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ontem, houve um episódio triste, em Copacabana, quando um idoso foi agredido e quase perdeu a vida por causa de um roubo de celular.",
+          "char_start": 194438,
+          "char_end": 194570,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Os guardas, no Rio de Janeiro, ao usarem câmeras, estão sendo impedidos de adotar uma atitude mais enérgica,",
+        "resposta": "mas o criminoso tem uma atitude enérgica com a vítima.",
+        "objecao_char_start": 194947,
+        "objecao_char_end": 195055,
+        "resposta_char_start": 195056,
+        "resposta_char_end": 195110,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "apoia a atuação do Ministro Dino e da Justiça no julgamento do golpe de 8 de janeiro",
+      "falante": "Rogério Correia",
+      "turno_id": 300,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A CPMI sugeriu o indiciamento e fez o cálculo de que a pena chegaria a 39 anos de cadeia",
+          "char_start": 201283,
+          "char_end": 201371,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Então, eles não gostam do Ministro Dino, porque sabem que o Ministro Dino conhece o que aconteceu naquela ocasião.",
+        "resposta": "Pode ficar tranquilo. Acho que a irritação deles é exatamente por causa da proximidade do indiciamento que vem da Polícia Federal, da PGR, e, depois, junto com o Ministro Alexandre de Moraes, o Ministro Dino dará a sentença merecida, porque tentaram dar um golpe no Brasil.",
+        "objecao_char_start": 201430,
+        "objecao_char_end": 201544,
+        "resposta_char_start": 201815,
+        "resposta_char_end": 202088,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a presidente da comissão e critica o desrespeito do governo ao parlamento e aos direitos humanos",
+      "falante": "Messias Donato",
+      "turno_id": 302,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O próprio chefe do Ministro disse que, quando ele olha para o Parlamento, é como se fosse uma raposa cuidando do galinheiro",
+          "char_start": 202894,
+          "char_end": 203017,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o respeito à autoridade da presidência da Comissão e a liberdade de fala de todos os deputados",
+      "falante": "Bia Kicis",
+      "turno_id": 305,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Cada um foi livre para falar o que quis.",
+          "char_start": 204295,
+          "char_end": 204335,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a atitude do Deputado Jorge Solla por considerá-la indigna de um parlamentar experiente",
+      "falante": "Bia Kicis",
+      "turno_id": 306,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um homem da sua idade",
+          "char_start": 204595,
+          "char_end": 204616,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que não descumpriu o acordo, por ter sido o encerramento decidido anteriormente pelo Presidente Sanderson",
+      "falante": "Bia Kicis",
+      "turno_id": 322,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Foi o Deputado Sanderson, quando estava presidindo, que colocou as condições de fala",
+          "char_start": 207647,
+          "char_end": 207731,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reafirma que não descumpriu o acordo, atribuindo a decisão ao Presidente anterior",
+      "falante": "Bia Kicis",
+      "turno_id": 324,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Presidente Sanderson...",
+          "char_start": 208305,
+          "char_end": 208330,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a confrontação direta entre homens, rejeitando críticas feitas pelas costas",
+      "falante": "Gilvan da Federal",
+      "turno_id": 335,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Meu pai me ensinou que com homem se fala olho no olho",
+          "char_start": 209320,
+          "char_end": 209373,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "foi chamado de meninote",
+        "resposta": "com homem se fala olho no olho, não se fala pelas costas de um homem",
+        "objecao_char_start": 209409,
+        "objecao_char_end": 209432,
+        "resposta_char_start": 209516,
+        "resposta_char_end": 209584,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita diálogo indireto, exigindo confronto pessoal e direto",
+      "falante": "Gilvan da Federal",
+      "turno_id": 339,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não vou falar pelas suas costas, não",
+          "char_start": 210089,
+          "char_end": 210125,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende investigação contra suposta ligação entre ministérios e Comando Vermelho",
+      "falante": "Gilvan da Federal",
+      "turno_id": 342,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu vou provar que os Ministérios de vocês têm ligação com o Comando Vermelho",
+          "char_start": 210789,
+          "char_end": 210865,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "distingue-se como defensor da polícia, acusando adversários de defenderem bandidos",
+      "falante": "Gilvan da Federal",
+      "turno_id": 343,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Criminosos são vocês que defendem bandido.",
+          "char_start": 211034,
+          "char_end": 211076,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não sou eu que defendo bandido.",
+        "resposta": "Criminosos são vocês que defendem bandido.",
+        "objecao_char_start": 211078,
+        "objecao_char_end": 211109,
+        "resposta_char_start": 211034,
+        "resposta_char_end": 211076,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reafirma que defende a polícia e não bandidos, em contraste com seus acusadores",
+      "falante": "Gilvan da Federal",
+      "turno_id": 352,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vocês defendem bandido. Eu defendo a polícia, não defendo bandido, não.",
+          "char_start": 211829,
+          "char_end": 211900,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 97,
+      "falante": "Nikolas Ferreira",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "quando um branco faz algo que é das raízes de matriz africana ou o que quer que seja da cultura negra, os senhores se indignam:'Como isso pode? Isso é apropriação cultural!'"
+    },
+    {
+      "turno_id": 263,
+      "falante": "Pastor Henrique Vieira",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que isso vai encarecer o produto"
+    },
+    {
+      "turno_id": 276,
+      "falante": "Mariana Carvalho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "eu fico imaginando agora o posicionamento do povo brasileiro, que bancou as passagens, Deputado Sargento Fahur, para a 'dama do tráfico' vir a Brasília. Isso saiu do nosso bolso, do bolso do cidadão"
+    },
+    {
+      "turno_id": 302,
+      "falante": "Messias Donato",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "78 mil reais, 330 reais, mais hospedagem, 1.0047 reais"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.8537,
+  "taxa_contraponto": 0.1707,
+  "taxa_ancoragem_fundamento": 0.9712
+}

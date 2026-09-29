@@ -1,0 +1,99 @@
+{
+  "sample_id": 70,
+  "n_opinioes": 23,
+  "n_decompostas": 23,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 10,
+  "n_ancorados": 7,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 2,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "condicao": 5,
+    "prazo": 1,
+    "escopo": 1
+  },
+  "perdas": [
+    {
+      "falante": "Talíria Petrone",
+      "turno_id": 5,
+      "opiniao": "sugere visita in loco para escuta de moradores como desdobramento da audiência",
+      "nucleo": "sugeriu visita in loco para escuta de moradores como desdobramento da audiência",
+      "tipo": "condicao",
+      "trecho": "se acharem por bem",
+      "char_start": 20289,
+      "char_end": 20307
+    },
+    {
+      "falante": "Talíria Petrone",
+      "turno_id": 5,
+      "opiniao": "sugere visita in loco para escuta de moradores como desdobramento da audiência",
+      "nucleo": "sugeriu visita in loco para escuta de moradores como desdobramento da audiência",
+      "tipo": "prazo",
+      "trecho": "o mais rápido possível",
+      "char_start": 20431,
+      "char_end": 20453
+    },
+    {
+      "falante": "Flavio Diniz Gaspar Lontro",
+      "turno_id": 11,
+      "opiniao": "rejeita o descumprimento de decisão judicial e alerta sobre o risco de normalização do desrespeito à autoridade da Justiça brasileira",
+      "nucleo": "rejeitou o descumprimento de decisão judicial e alertou sobre o risco de normalização do desrespeito à autoridade da Justiça brasileira",
+      "tipo": "condicao",
+      "trecho": "se a juíza mandou parar",
+      "char_start": 35417,
+      "char_end": 35440
+    },
+    {
+      "falante": "John Fernando de Farias Würdig",
+      "turno_id": 18,
+      "opiniao": "defende o tratamento do Acordo de Paris como acordo de direitos humanos e a adoção de encaminhamentos para impedir empreendimentos poluentes",
+      "nucleo": "Defendeu o tratamento do Acordo de Paris como acordo de direitos humanos e a adoção de encaminhamentos para impedir empreendimentos poluentes",
+      "tipo": "condicao",
+      "trecho": "principalmente porque hoje nós temos a ADPF 708, que trata o Acordo de Paris como um acordo de direitos humanos",
+      "char_start": 48863,
+      "char_end": 48974
+    },
+    {
+      "falante": "Rodrigo Agostinho",
+      "turno_id": 21,
+      "opiniao": "Defende investigação criminal por descumprimento de ordem judicial e atuação da Comissão de Direitos Humanos por violação à Convenção 169 da OIT",
+      "nucleo": "Defendeu a investigação criminal por descumprimento de ordem judicial e a atuação da Comissão de Direitos Humanos por violação à Convenção 169 da OIT",
+      "tipo": "condicao",
+      "trecho": "se já não o foi",
+      "char_start": 60669,
+      "char_end": 60684
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 20,
+      "falante": "Jaime Mitropoulos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "empreendimentos de altíssimo impacto ambiental",
+      "opiniao": "defende que empreendimentos de alto impacto ambiental exijam EIA/RIMA rigoroso, com participação social e estudo cumulativo"
+    },
+    {
+      "turno_id": 20,
+      "falante": "Jaime Mitropoulos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "para burlar exigências legais",
+      "opiniao": "rejeita o fracionamento do licenciamento ambiental para burlar exigências legais"
+    },
+    {
+      "turno_id": 20,
+      "falante": "Jaime Mitropoulos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "a decisão judicial estadual",
+      "opiniao": "defende o cumprimento integral da decisão judicial estadual que exige estudos ambientais"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.2857,
+  "taxa_ancoragem": 0.7,
+  "taxa_opiniao_intacta": 0.8261
+}

@@ -1,0 +1,133 @@
+{
+  "sample_id": 49,
+  "n_falantes": 8,
+  "n_parlamentares": 2,
+  "n_convidados": 6,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 1,
+  "n_opinioes_gold": 13,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.6636814951815438,
+      "participacao_civil_turnos": 0.5,
+      "citacao_civil_opinioes": 0.8181818181818182,
+      "citacao_civil_pessoas": 0.6666666666666666,
+      "deficit_civil": -0.1545003230002744
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [
+    "Egídio Martorano"
+  ],
+  "falantes_silenciados": [
+    "Ana Carolina Colombo",
+    "Carlos Humberto",
+    "Daniel Gevaerd Muller",
+    "Egídio Antônio Martorano",
+    "José Rocha"
+  ],
+  "falantes": [
+    {
+      "nome": "José Rocha",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 1,
+      "n_palavras": 339,
+      "turnos": [
+        1
+      ]
+    },
+    {
+      "nome": "Daniela Reinehr",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 11,
+      "n_palavras": 3116,
+      "turnos": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        18,
+        20,
+        22,
+        24
+      ]
+    },
+    {
+      "nome": "Egídio Antônio Martorano",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 903,
+      "turnos": [
+        3,
+        19
+      ]
+    },
+    {
+      "nome": "Rafael Vitale Rodrigues",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2525,
+      "turnos": [
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "nome": "Dagnor Schneider",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1972,
+      "turnos": [
+        11,
+        21
+      ]
+    },
+    {
+      "nome": "Daniel Gevaerd Muller",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 588,
+      "turnos": [
+        13,
+        15,
+        23
+      ]
+    },
+    {
+      "nome": "Ana Carolina Colombo",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 407,
+      "turnos": [
+        14
+      ]
+    },
+    {
+      "nome": "Carlos Humberto",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 423,
+      "turnos": [
+        17
+      ]
+    }
+  ]
+}

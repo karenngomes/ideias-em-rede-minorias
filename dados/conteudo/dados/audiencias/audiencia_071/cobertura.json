@@ -1,0 +1,122 @@
+{
+  "sample_id": 71,
+  "n_falantes": 6,
+  "n_parlamentares": 1,
+  "n_convidados": 5,
+  "n_citados_gold": 5,
+  "n_citados_ausentes": 2,
+  "n_opinioes_gold": 10,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.6729754886751473,
+      "participacao_civil_turnos": 0.5,
+      "citacao_civil_opinioes": 0.6,
+      "citacao_civil_pessoas": 0.6666666666666666,
+      "deficit_civil": 0.07297548867514736
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [
+    "Deyvid Bacelar",
+    "Eric Futino"
+  ],
+  "falantes_silenciados": [
+    "Deyvid Souza Bacelar da Silva",
+    "Eric Marcos Futino",
+    "Marcelo Idalízio Penna"
+  ],
+  "falantes": [
+    {
+      "nome": "Rogério Correia",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 16,
+      "n_palavras": 5270,
+      "turnos": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32
+      ]
+    },
+    {
+      "nome": "Eric Marcos Futino",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 5,
+      "n_palavras": 1788,
+      "turnos": [
+        2,
+        7,
+        17,
+        19,
+        31
+      ]
+    },
+    {
+      "nome": "Marcelo Idalízio Penna",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 36,
+      "turnos": [
+        4,
+        6
+      ]
+    },
+    {
+      "nome": "Deyvid Souza Bacelar da Silva",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 2801,
+      "turnos": [
+        9,
+        21
+      ]
+    },
+    {
+      "nome": "Alexandre Finamori França Baptista",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 3466,
+      "turnos": [
+        11,
+        13,
+        23
+      ]
+    },
+    {
+      "nome": "Eduardo Costa Pinto",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 2754,
+      "turnos": [
+        15,
+        25,
+        27,
+        29
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "sample_id": 124,
+  "n_opinioes": 12,
+  "n_decompostas": 12,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 12,
+  "n_ancorados": 9,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 8,
+  "por_tipo": {
+    "condicao": 5,
+    "escopo": 3,
+    "excecao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Bohn Gass",
+      "turno_id": 19,
+      "opiniao": "defende que a exposição inicial seja concluída antes de respostas para melhor qualidade do debate",
+      "nucleo": "defendeu que a exposição inicial fosse concluída antes de respostas para melhor qualidade do debate",
+      "tipo": "condicao",
+      "trecho": "se não seria melhor",
+      "char_start": 23001,
+      "char_end": 23020
+    },
+    {
+      "falante": "Bohn Gass",
+      "turno_id": 27,
+      "opiniao": "defende a exposição integral da oradora antes de respostas para melhor qualidade do debate",
+      "nucleo": "Defendeu que a oradora exponha integralmente antes das respostas para melhor qualidade do debate",
+      "tipo": "condicao",
+      "trecho": "Se o Presidente quer responder uma a uma",
+      "char_start": 24051,
+      "char_end": 24091
+    },
+    {
+      "falante": "Bohn Gass",
+      "turno_id": 31,
+      "opiniao": "sugere que o convidado defina o momento de seus comentários",
+      "nucleo": "sugeriu que o convidado defina o momento de seus comentários",
+      "tipo": "condicao",
+      "trecho": "Se o nosso convidado quiser",
+      "char_start": 25023,
+      "char_end": 25050
+    },
+    {
+      "falante": "Coronel Fernanda",
+      "turno_id": 93,
+      "opiniao": "Defende que o INCRA atenda todos os produtores de forma imparcial, sem vínculo partidário, e que seja apurada a exigência de filiação ao PT para atendimento",
+      "nucleo": "Defendeu que o INCRA atenda todos os produtores de forma imparcial e sem vínculo partidário",
+      "tipo": "condicao",
+      "trecho": "Se você quiser falar com o Superintendente de Mato Grosso, tem que pedir bênção para o Deputado Estadual do PT.",
+      "char_start": 39437,
+      "char_end": 39548
+    },
+    {
+      "falante": "Coronel Fernanda",
+      "turno_id": 93,
+      "opiniao": "Defende que o INCRA atenda todos os produtores de forma imparcial, sem vínculo partidário, e que seja apurada a exigência de filiação ao PT para atendimento",
+      "nucleo": "Defendeu que o INCRA atenda todos os produtores de forma imparcial e sem vínculo partidário",
+      "tipo": "escopo",
+      "trecho": "no Estado de Mato Grosso",
+      "char_start": 39220,
+      "char_end": 39244
+    },
+    {
+      "falante": "Coronel Fernanda",
+      "turno_id": 93,
+      "opiniao": "Defende que o INCRA atenda todos os produtores de forma imparcial, sem vínculo partidário, e que seja apurada a exigência de filiação ao PT para atendimento",
+      "nucleo": "Defendeu que o INCRA atenda todos os produtores de forma imparcial e sem vínculo partidário",
+      "tipo": "escopo",
+      "trecho": "no meu Estado",
+      "char_start": 40846,
+      "char_end": 40859
+    },
+    {
+      "falante": "Coronel Fernanda",
+      "turno_id": 93,
+      "opiniao": "Defende que o INCRA atenda todos os produtores de forma imparcial, sem vínculo partidário, e que seja apurada a exigência de filiação ao PT para atendimento",
+      "nucleo": "Defendeu que o INCRA atenda todos os produtores de forma imparcial e sem vínculo partidário",
+      "tipo": "excecao",
+      "trecho": "Só atende quem atende ao PT.",
+      "char_start": 42150,
+      "char_end": 42178
+    },
+    {
+      "falante": "Bohn Gass",
+      "turno_id": 113,
+      "opiniao": "defende a adequação do decreto à lei ao incluir embargos estaduais na análise de titulação",
+      "nucleo": "defendeu a adequação do decreto à lei ao incluir embargos estaduais na análise de titulação",
+      "tipo": "condicao",
+      "trecho": "Se o Governo passado estivesse atento a isso como o Governo atual está",
+      "char_start": 58486,
+      "char_end": 58556
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 25,
+      "falante": "Bohn Gass",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "atribuicao",
+      "trecho": "conforme o regimento",
+      "opiniao": "reafirma seu direito a fazer questão de ordem conforme o regimento"
+    },
+    {
+      "turno_id": 78,
+      "falante": "Shirley Anny Abreu do Nascimento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "sem prejuízo ambiental",
+      "opiniao": "defende a continuidade da regularização fundiária sem prejuízo ambiental e promove o projeto Florestas Produtivas como meio de produção sustentável na Amazônia"
+    },
+    {
+      "turno_id": 109,
+      "falante": "Henderson Pinto",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que não seja ideológico",
+      "opiniao": "Defende um plano de regularização fundiária abrangente e não ideológico para a Amazônia, com garantia de titulação e preservação ambiental."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.1111,
+  "taxa_ancoragem": 0.75,
+  "taxa_opiniao_intacta": 0.5833
+}

@@ -1,0 +1,816 @@
+{
+  "sample_id": 98,
+  "n_opinioes": 32,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 32,
+  "n_fundamentos_propostos": 58,
+  "n_fundamentos_ancorados": 57,
+  "n_fundamentos_com_numero": 14,
+  "por_tipo": {
+    "dado": 51,
+    "autoridade": 6
+  },
+  "n_contrapontos_propostos": 9,
+  "n_com_contraponto": 8,
+  "n_rejeitados": 2,
+  "itens": [
+    {
+      "opiniao": "defende a previsão legal de obrigação de notificação de crimes cibernéticos pelas plataformas digitais, especialmente em casos de pedofilia, para viabilizar a atuação dos órgãos de persecução",
+      "falante": "George Lodder",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós tivemos casos de plataformas brasileiras que tinham informações desse quilate e as negavam para os órgãos de persecução.",
+          "char_start": 12258,
+          "char_end": 12382,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, vários crimes, principalmente crimes de pedofilia e alguns outros especificados na legislação, são objeto de comunicação obrigatória nas principais plataformas da Internet em razão da lei americana.",
+          "char_start": 11273,
+          "char_end": 11477,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Elas simplesmente não os fornecem porque têm receio de que, pelo fato de o nosso marco legal não prever essa transferência, possam ser eventualmente responsabilizadas pela captura da informação e pela comunicação aos órgãos de persecução.",
+        "resposta": "seria bastante oportuno que a nossa legislação fizesse essa previsão.",
+        "objecao_char_start": 12834,
+        "objecao_char_end": 13072,
+        "resposta_char_start": 13080,
+        "resposta_char_end": 13149,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulamentação legislativa da preservação de provas digitais para evitar sua invalidação em processos",
+      "falante": "Regilene Siqueira Rozal",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje não existe uma regulamentação muito específica em relação a isso.",
+          "char_start": 17632,
+          "char_end": 17702,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Na polícia aqui, muitas coisas que nós documentamos, na verdade, nós inventamos formas de realizar as ações, porque a legislação não traz o mecanismo correto e que não poderia ser questionado no futuro.",
+          "char_start": 17719,
+          "char_end": 17921,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Por exemplo, hoje, nós usamos muito osprintsde tela de celular, mas isso é algo muito frágil.",
+          "char_start": 17922,
+          "char_end": 18015,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Por quê? Porque é passível de manipulação.",
+          "char_start": 18016,
+          "char_end": 18058,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Porque qualquer falha nesse sentido pode levar à invalidação das provas produzidas.",
+          "char_start": 18342,
+          "char_end": 18425,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Por quê? Porque é passível de manipulação.",
+        "resposta": "Porque qualquer falha nesse sentido pode levar à invalidação das provas produzidas.",
+        "objecao_char_start": 18016,
+        "objecao_char_end": 18058,
+        "resposta_char_start": 18342,
+        "resposta_char_end": 18425,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulação de provedores de conexão para assegurar critérios mínimos de cadastro e rastreabilidade de usuários",
+      "falante": "Regilene Siqueira Rozal",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os provedores de conexão não são apenas as maiores operadoras de telefonia que temos.",
+          "char_start": 19359,
+          "char_end": 19444,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Existem provedores de conexão pequenos, que não utilizam critérios na hora de cadastrar os usuários.",
+          "char_start": 19445,
+          "char_end": 19545,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Então, as pessoas usam as conexões, cometem crimes, mas não podem ser localizadas.",
+          "char_start": 19546,
+          "char_end": 19628,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Por quê? Porque os provedores não têm critério na hora de realizar o cadastro, na hora de fechar contratos.",
+          "char_start": 19629,
+          "char_end": 19736,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a autoridade policial possa obter o IP de suspeito por ofício, sem ordem judicial, para agilizar investigações",
+      "falante": "Dário Taciano de Freitas Junior",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em 2020, período em que vivemos o auge da pandemia, a nossa Polícia Civil registrou, durante o ano, 353 boletins de ocorrência, o que representa uma variação de aproximadamente 805%.",
+          "char_start": 22598,
+          "char_end": 22780,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os crimes de estelionato, por exemplo, tiveram um aumento de 1.080% pela Internet.",
+          "char_start": 24891,
+          "char_end": 24973,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "seria interessante uma grande mudança, lógico, a ser discutida, que foi um ponto colocado no Marco Civil da Internet, sobre a inviolabilidade no fluxo das comunicações da Internet.",
+        "resposta": "Então, deixamos aqui o primeiro ponto a ser debatido, sobre a viabilidade dessa ordem judicial, que fosse possível esse acesso ao IP, que é o principal para nossa investigação; que ele pudesse ser obtido com um ofício da autoridade policial, e não sob ordem judicial, porque estamos vendo um aumento exponencial do número de crimes.",
+        "objecao_char_start": 23729,
+        "objecao_char_end": 23909,
+        "resposta_char_start": 24557,
+        "resposta_char_end": 24889,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "sugere previsão legal de situações de emergência para acesso imediato a dados de provedores sem representação judicial",
+      "falante": "Dário Taciano de Freitas Junior",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Sabemos que, na legislação americana, por exemplo, há essa previsão legal.",
+          "char_start": 25910,
+          "char_end": 25984,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a contratação de especialistas em tecnologia para auxiliar investigações cibernéticas com respaldo legal",
+      "falante": "Dário Taciano de Freitas Junior",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos casos de ataques deransomwaree outros crimes.",
+          "char_start": 26779,
+          "char_end": 26834,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere a utilização de bens apreendidos de criminosos cibernéticos pelas polícias judiciárias para fortalecer o combate ao crime digital",
+      "falante": "Dário Taciano de Freitas Junior",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nas nossas operações, nós temos observado, sobretudo, com análises de outras delegacias — como, por exemplo, a CORD, coordenação de repressão ao tráfico de drogas, de entorpecentes, e o próprio Departamento de Combate à Corrupção e ao Crime Organizado —, a questão da previsão legislativa, assim como existe em relação ao tráfico de drogas, de possibilidade de utilização dos bens apreendidos dos criminosos pelas próprias polícias judiciárias que atuam no combate ao crime cibernético.",
+          "char_start": 27934,
+          "char_end": 28420,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende tratamento distinto entre disseminadores em massa de fake news e indivíduos que compartilham sem intenção de dano, com foco na estrutura organizada por trás da desinformação",
+      "falante": "Diogo Rais",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "desde 2009, temos a Lei nº 12.034, que alterou a lei eleitoral, incluindo um crime eleitoral digital, entre outras mudanças. O art. 57-H prevê como crime contratar grupo de pessoas para ofender candidato adversário na Internet, para ofender alguém. Embora esse dispositivo esteja na nossa legislação desde 2009, até o momento nós não tivemos um caso julgado com base nele.",
+          "char_start": 31684,
+          "char_end": 32056,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Por isso, como o direito faz na Lei de Drogas, que distingue o usuário que porta uma substância ilícita, desde que em pequena quantidade para o seu uso próprio, do traficante, que porta a mesma substância, só que em maior quantidade para a venda, por exemplo, o direito também pode fazer essa distinção entre aquele que, no varejo, individualmente, não tomou cuidado com a checagem e aquele que tem um escritório montado com milhões de perfis falsos, que disparafake news,destrói reputações, interfere em resultados de eleições ou ainda que prejudique uma marca, uma pessoa ou qualquer outro tipo de reputação que nós possamos imaginar.",
+          "char_start": 35827,
+          "char_end": 36463,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu acredito que buscar a punição da famosa \"tia do Zap\" ou \"tio do Zap\", daquela pessoa que enviafake news,porque não olhou direito ou gostaria de enviar e proteger você, não me parece o ideal.",
+        "resposta": "Não seria ideal para o direito buscar, por exemplo, a punição desse agente. Acredito que cabe ao direito olhar para esse fator em razão da dimensão do problema, ou seja, para a disseminação em massa desse conteúdo.",
+        "objecao_char_start": 35417,
+        "objecao_char_end": 35610,
+        "resposta_char_start": 35611,
+        "resposta_char_end": 35825,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende abordagem multidimensional contra a desinformação, pois o direito sozinho é insuficiente",
+      "falante": "Carlos Affonso Souza",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Desinformar em larga escala, especialmente, é algo que custa caro.",
+          "char_start": 39724,
+          "char_end": 39790,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a proteção da privacidade por meio da exigência de ordem judicial para acesso ao IP, mas alerta sobre riscos de abrangência excessiva",
+      "falante": "Carlos Affonso Souza",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É o caso, por exemplo, do assassinato da Vereadora Marielle Franco e do motorista Anderson, que gerou uma situação em que a decisão judicial entregou dados de usuários que pesquisaram determinados termos em chave de busca ou que adotaram determinado comportamento na Internet dentro de um certo espaço de tempo.",
+          "char_start": 41232,
+          "char_end": 41543,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a tipificação de 'notícia falsa' por ser redutora e inadequada ao combate à desinformação",
+      "falante": "Carlos Affonso Souza",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a desinformação nem sempre se faz passar por notícia. Ela quer parecer um conteúdo jornalístico.",
+          "char_start": 43012,
+          "char_end": 43108,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita o uso de linguagem subjetiva como 'corromper gravemente a verdade' em norma penal por risco à liberdade de expressão",
+      "falante": "Carlos Affonso Souza",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "criar ou divulgar notícia que sabe falsa para distorcer, alterar ou corromper gravemente a verdade",
+          "char_start": 43479,
+          "char_end": 43577,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reconhece o art. 36 do PL 2.630 como medida direta contra a desinformação, mas aponta necessidade de aperfeiçoamento",
+      "falante": "Carlos Affonso Souza",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o art. 36 traz um crime, o de promover ou financiar, pessoalmente ou por interposta pessoa, ação coordenada mediante uso de contas automatizadas e outros meios ou expedientes não fornecidos diretamente pelo provedor de aplicação de internet, disparo em massa de mensagens que contenham fatos comprovadamente inverídicos e passíveis de sanção criminal, que causem danos à integridade física das pessoas e sejam capazes de comprometer a higidez do processo eleitoral.",
+          "char_start": 44232,
+          "char_end": 44697,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que leis penais contra desinformação devem provar dolo e dano, e distinguir condutas amadoras de profissionais",
+      "falante": "Carlos Affonso Souza",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é importante para uma lei penal que consigamos ter uma demonstração clara de que existe dolo e de qual é o dano que se está procurando coibir com a criação desse tipo penal.",
+          "char_start": 45720,
+          "char_end": 45893,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atualização urgente da legislação brasileira após a acessão à Convenção de Budapeste para garantir segurança jurídica à iniciativa privada e às autoridades no combate a crimes cibernéticos",
+      "falante": "Aristides Moura",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a acessão do Brasil à Convenção de Budapeste vai fornecer ao nosso País a possibilidade de se integrar a esse ecossistema de combate aos crimes cibernéticos",
+          "char_start": 48338,
+          "char_end": 48494,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A legislação brasileira que aborda crimes cibernéticos — e penso aqui no nosso marco civil entre outras — são peças de legislação bastante avançadas, que cobrem uma boa quantidade de situações, só que estão desconectadas do resto do sistema jurídico internacional",
+          "char_start": 50989,
+          "char_end": 51252,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós precisamos conectar essa nossa legislação, que não é ruim, embora seja incompleta, ao arcabouço jurídico internacional, para que, assim, consigamos todos, trabalhando em cooperação, como apropriado",
+          "char_start": 51380,
+          "char_end": 51581,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a cooperação entre Governo e iniciativa privada no combate a crimes cibernéticos, com atuação coordenada e independente em benefício comum",
+      "falante": "Aristides Moura",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "sou um forte advogado da cooperação entre diferentes entes, Governo, iniciativa privada, cada um dentro das suas respectivas áreas de atuação, e, obviamente, digo sempre que o Governo não trabalha para a iniciativa privada e a iniciativa privada não trabalha para o Governo, mas ambos trabalhamos juntos para um bem maior",
+          "char_start": 51584,
+          "char_end": 51905,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o Governo não trabalha para a iniciativa privada e a iniciativa privada não trabalha para o Governo",
+        "resposta": "mas ambos trabalhamos juntos para um bem maior",
+        "objecao_char_start": 51758,
+        "objecao_char_end": 51857,
+        "resposta_char_start": 51859,
+        "resposta_char_end": 51905,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Parlamento tenha papel central na regulação de conflitos entre privacidade e segurança por meio de diretrizes legislativas",
+      "falante": "Ygor Valerio",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "cito um voto do Ministro Gilmar Mendes noHabeas Corpusnº 103.236, julgado em 14 de junho de 2010, que diz que a Lei nº 9.296, de 1996, justamente a lei de interceptação telefônica,\"nada mais fez que estabelecer as diretrizes para a resolução de conflitos entre a privacidade e o dever do Estado de aplicar as leis criminais\"",
+          "char_start": 55980,
+          "char_end": 56304,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Há uma falsa impressão de que, quando se opõem distintas garantias individuais no dia a dia das investigações, a única autoridade capaz de resolver aquela situação em concreto é o Poder Judiciário, na distribuição pontual e concreta de justiça.",
+        "resposta": "É importante dizer que o Parlamento também tem esse papel. E a lei das interceptações telefônicas é um exemplo disso.",
+        "objecao_char_start": 55592,
+        "objecao_char_end": 55836,
+        "resposta_char_start": 55837,
+        "resposta_char_end": 55954,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Parlamento atue proativamente para suprir o déficit regulatório em investigações criminais digitais",
+      "falante": "Ygor Valerio",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "há um déficit regulatório no País acerca do desenvolvimento de investigações criminais.",
+          "char_start": 57257,
+          "char_end": 57344,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia iniciativas legislativas que promovem debate sobre o equilíbrio entre segurança pública e direitos individuais em investigações digitais",
+      "falante": "Ygor Valerio",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "São muitos os casos que carecem de orientação legislativa, desde o mais simples caso de um telefone encontrado na cena do crime bloqueado por um código inacessível para a autoridade policial e que acaba sendo relegado unicamente à apreciação do Poder Judiciário a casos bastante mais complexos, como a possibilidade ou não de que arquivos e comunicações pertencentes a pessoas jurídicas, por exemplo, seja objeto de busca e apreensão determinada judicialmente.",
+          "char_start": 58135,
+          "char_end": 58595,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de o Parlamento conter a oferta ilegal de conteúdo audiovisual para proteger consumidores, indústria e arrecadação pública",
+      "falante": "Jonas Antunes Couto",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Estamos a falar de mais de 5,6 milhões de lares.",
+          "char_start": 64300,
+          "char_end": 64348,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "mais de 33 milhões de brasileiros, internautas com mais de 16 anos, têm algum tipo de comportamento ilegal.",
+          "char_start": 64376,
+          "char_end": 64483,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Essas perdas são da ordem de 10 bilhões para a indústria todos os anos.",
+          "char_start": 64484,
+          "char_end": 64555,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Estamos a falar de uma perda geral agregada, Deputado, de mais de 15 bilhões de reais por ano.",
+          "char_start": 64848,
+          "char_end": 64942,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "como esse FuteMax, na segunda linha, que tem quase 9 milhões de visitas mensais.",
+          "char_start": 61694,
+          "char_end": 61774,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Já houve apreensões por parte de autoridades brasileiras como a Receita Federal, o ANCINE, a ANATEL de montas de TVs boxes, quantidades enormes, milhões de reais apreendidos, porque financiariam o crime organizado.",
+          "char_start": 63805,
+          "char_end": 64019,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a contenção da oferta ilegal como condição para o desenvolvimento sustentável da indústria audiovisual no Brasil",
+      "falante": "Jonas Antunes Couto",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Estamos a falar de uma perda geral agregada, Deputado, de mais de 15 bilhões de reais por ano.",
+          "char_start": 64848,
+          "char_end": 64942,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se não corrigirmos esse problema grave, não teremos a oportunidade de seguir consumindo boa parte desses conteúdos.",
+          "char_start": 65829,
+          "char_end": 65944,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe que a ABTA colabore com o Parlamento no desenho de regras para desincentivar a pirataria e combater o financiamento de crimes organizados",
+      "falante": "Jonas Antunes Couto",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Já houve apreensões por parte de autoridades brasileiras como a Receita Federal, o ANCINE, a ANATEL de montas de TVs boxes, quantidades enormes, milhões de reais apreendidos, porque financiariam o crime organizado.",
+          "char_start": 63805,
+          "char_end": 64019,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "impedirão a remuneração e o financiamento de crimes muito mais graves, de uma criminalidade de que o Brasil não precisa.",
+          "char_start": 66439,
+          "char_end": 66559,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende abordagem preventiva e responsabilidade compartilhada na proteção digital de crianças e adolescentes",
+      "falante": "Evandro Mário Lorens",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "crianças e adolescentes são socialmente mais vulneráveis e influenciáveis, além de terem baixa capacidade para compreender as implicações da alta exposição digital",
+          "char_start": 70376,
+          "char_end": 70539,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Crianças e adolescentes também são menos cientes dos riscos e das consequências do compartilhamento dos seus dados",
+          "char_start": 71008,
+          "char_end": 71122,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere fortalecimento institucional e legal de todos os atores e rigor legislativo sobre plataformas digitais",
+      "falante": "Evandro Mário Lorens",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Existe um manual de legislação sobre os direitos da criança",
+          "char_start": 74748,
+          "char_end": 74807,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende campanhas educativas acessíveis e orçamento específico para iniciativas de sociedade civil",
+      "falante": "Evandro Mário Lorens",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Outra sugestão ao Parlamento consiste em assumir protagonismo em campanhas educativas de rádio, TV, mídia impressa e na própria Internet sobre a proteção de dados das crianças, privacidade, orientação às famílias e às escolas, definição de orçamento específico para o apoio a iniciativas da sociedade civil organizada com relação às campanhas educativas",
+          "char_start": 77014,
+          "char_end": 77367,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aprovação de uma lei de dados penais para investigações criminais, com base em padrões internacionais e proteção de direitos fundamentais",
+      "falante": "Rafael Zanatta",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Brasil, diferentemente de outros parceiros europeus, não possui lei específica para o tratamento e o fluxo de dados nas investigações criminais",
+          "char_start": 93820,
+          "char_end": 93965,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "A pauta de uma legislação deste porte tem sido feita também pelas unidades técnicas do MPF e pela sociedade civil",
+          "char_start": 95210,
+          "char_end": 95323,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a possibilidade de uso da Convenção de Budapeste para autorizar coleta massiva de dados sem suspeita específica ou amparo legal",
+      "falante": "Rafael Zanatta",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Esta situação pode fazer com que sejam implementados mecanismos comofishing expedition, ou seja, a varredura de dados em larga escala, sob o pretexto de identificação das condutas criminosas voltadas às crianças",
+          "char_start": 95950,
+          "char_end": 96161,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Este é um assunto prioritário no Departamento de Justiça dos Estados Unidos. É um assunto prioritário na unidade de Justiça da União Europeia, que tem feito um alerta sobre como adotar corretamente a Convenção de Budapeste",
+          "char_start": 96883,
+          "char_end": 97105,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "mesmo que seja uma temática sempre muito delicada, por envolver crimes moralmente repulsivos, como a exploração sexual de menores, o tráfico internacional de menores",
+        "resposta": "isso também não pode gerar um espaço de campo de exceção para aprovação",
+        "objecao_char_start": 95426,
+        "objecao_char_end": 95591,
+        "resposta_char_start": 95784,
+        "resposta_char_end": 95855,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "propõe uma agenda de segurança digital infantil que vá além da repressão penal, contemplando proteção psicológica, limitação de exposição a telas e combate à indução ao vício",
+      "falante": "Rafael Zanatta",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Dados recentes produzidos pelo Fernando Paiva, por exemplo, mostram que, no Brasil, 30% das crianças de 0 a 2 anos já estão diante de tela e que há uma explosão de consumo desmartphonespara crianças de até 6 anos",
+          "char_start": 98522,
+          "char_end": 98734,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós tivemos casos alarmantes, como o caso Antonella, que ficou famoso no começo deste ano, em que uma garota de 10 anos se suicidou depois de um jogo por meio de uma plataforma de Internet",
+          "char_start": 99378,
+          "char_end": 99566,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reafirma a necessidade de prevenção ampla, além do combate repressivo",
+      "falante": "Evandro Mário Lorens",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "além da repressão e do combate ao crime, nós precisamos trabalhar na prevenção, mas na prevenção em todos os aspectos, não somente no aspecto criminal, mas também na questão da saúde, da privacidade e da exploração de crianças",
+          "char_start": 102017,
+          "char_end": 102243,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "se compromete a colaborar com futuras ações de proteção digital",
+      "falante": "Evandro Mário Lorens",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu gostaria de agradecer e colocar a APCF, especialmente meu nome, à disposição para continuarmos estas colaborações em momentos futuros, para participarmos de outros debates e de outras conversas. Estamos à disposição.",
+          "char_start": 102688,
+          "char_end": 102907,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adesão do Brasil à Convenção de Budapeste como passo importante para a cooperação internacional em crimes cibernéticos",
+      "falante": "Thiago Tavares Nunes de Oliveira",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "mais de 50 países",
+          "char_start": 103965,
+          "char_end": 103982,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "países como Dinamarca, Estados Unidos, Reino Unido, Suíça, Noruega, Canadá, Colômbia e Argentina, na América Latina, nossos vizinhos— nuestros hermanos—, além da Itália e do Japão",
+          "char_start": 104076,
+          "char_end": 104255,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Estados Unidos, por exemplo, aderiram à Convenção de Budapeste com dez reservas, ou alguma coisa assim",
+          "char_start": 104805,
+          "char_end": 104907,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A SaferNet é a favor de que o Brasil faça a adesão e participe efetivamente dos debates, da construção dos protocolos facultativos, dos documentos e da negociação em torno destes documentos que resultam da Convenção de Budapeste.",
+        "resposta": "O Brasil não pode simplesmente se transformar numa ilha e dizer que não participa de uma ação internacional que tem mais de 50 democracias envolvidas.",
+        "objecao_char_start": 104999,
+        "objecao_char_end": 105228,
+        "resposta_char_start": 105229,
+        "resposta_char_end": 105379,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "opõe-se à inclusão na reforma do CPP de mecanismos de coleta massiva de dados ou invasão remota sem amparo constitucional, considerando-os prejudiciais ao Estado democrático",
+      "falante": "Rafael Zanatta",
+      "turno_id": 46,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a professora europeia Mireille Hildebrandt, no livro dela, disse que a convenção sobre cibercrimes de Budapeste não pode ser lida extrapolando o que ela é. Ela não impõe às partes contratantes uma obrigação de decretar um poder legal para a Polícia invadir remotamente o sistema de computação",
+          "char_start": 107276,
+          "char_end": 107568,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 26,
+      "falante": "Jonas Antunes Couto",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "O Erário público deixa de arrecadar um valor da ordem de 2 bilhões por ano só com os impostos que não são arrecadados."
+    },
+    {
+      "turno_id": 26,
+      "falante": "Jonas Antunes Couto",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "acreditando que, acessando esses conteúdos por essa forma, se dá bem"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.25,
+  "taxa_ancoragem_fundamento": 0.9828
+}

@@ -1,0 +1,81 @@
+{
+  "sample_id": 4,
+  "n_falantes": 3,
+  "n_parlamentares": 2,
+  "n_convidados": 1,
+  "n_citados_gold": 2,
+  "n_citados_ausentes": 0,
+  "n_opinioes_gold": 8,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.7309833024118738,
+      "participacao_civil_turnos": 0.4782608695652174,
+      "citacao_civil_opinioes": 0.875,
+      "citacao_civil_pessoas": 0.5,
+      "deficit_civil": -0.14401669758812619
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.980662454528049,
+      "participacao_civil_turnos": 0.8461538461538461,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": -0.01933754547195099
+    }
+  },
+  "citados_ausentes": [],
+  "falantes_silenciados": [
+    "Cezinha de Madureira"
+  ],
+  "falantes": [
+    {
+      "nome": "Amaro Neto",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 10,
+      "n_palavras": 1784,
+      "turnos": [
+        1,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23
+      ]
+    },
+    {
+      "nome": "Carlos Manuel Baigorri",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 11,
+      "n_palavras": 5122,
+      "turnos": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ]
+    },
+    {
+      "nome": "Cezinha de Madureira",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 101,
+      "turnos": [
+        3,
+        5
+      ]
+    }
+  ]
+}

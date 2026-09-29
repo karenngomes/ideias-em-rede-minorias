@@ -1,0 +1,120 @@
+{
+  "sample_id": 30,
+  "n_falantes": 7,
+  "n_parlamentares": 1,
+  "n_convidados": 6,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 0,
+  "n_opinioes_gold": 10,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.6924962549366744,
+      "participacao_civil_turnos": 0.5,
+      "citacao_civil_opinioes": 0.8,
+      "citacao_civil_pessoas": 0.75,
+      "deficit_civil": -0.1075037450633256
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [],
+  "falantes_silenciados": [
+    "José Fernando da Silva",
+    "Luiza Carvalho Fachin",
+    "Roberto Padilha Guimarães"
+  ],
+  "falantes": [
+    {
+      "nome": "Ana Paula Lima",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 12,
+      "n_palavras": 2258,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        24
+      ]
+    },
+    {
+      "nome": "Lucas José Ramos Lopes",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1263,
+      "turnos": [
+        2,
+        12
+      ]
+    },
+    {
+      "nome": "Santiago Falluh Varella",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 891,
+      "turnos": [
+        4,
+        14
+      ]
+    },
+    {
+      "nome": "José Fernando da Silva",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1113,
+      "turnos": [
+        6,
+        16
+      ]
+    },
+    {
+      "nome": "Clara Maria Guimarães Marinho Pereira",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 799,
+      "turnos": [
+        8,
+        18
+      ]
+    },
+    {
+      "nome": "Luiza Carvalho Fachin",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 806,
+      "turnos": [
+        10,
+        20,
+        22
+      ]
+    },
+    {
+      "nome": "Roberto Padilha Guimarães",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 213,
+      "turnos": [
+        23
+      ]
+    }
+  ]
+}

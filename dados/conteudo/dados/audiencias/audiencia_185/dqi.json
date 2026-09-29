@@ -1,0 +1,2782 @@
+{
+  "sample_id": 185,
+  "n_turnos": 43,
+  "n_turnos_codificados": 31,
+  "n_codigos": 217,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 31,
+      "distribuicao": {
+        "interrompido": 1,
+        "normal": 30
+      },
+      "media": 0.9677,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "nenhuma": 17,
+        "inferior": 7,
+        "qualificada": 7,
+        "sofisticada": 0
+      },
+      "media": 0.6774,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 17,
+        "bem_comum_utilitario": 14,
+        "bem_comum_diferenca": 0
+      },
+      "media": 1.4516,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 10,
+        "explicito_positivo": 21
+      },
+      "media": 1.6774,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 31,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 31,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "posicional": 29,
+        "proposta_alternativa": 2,
+        "proposta_mediadora": 0
+      },
+      "media": 0.0645,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Amira Awada": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Bruna Rafaela Dornelas Monteiro": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Carlos Gouvêa": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Daniela Machado Mendes": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Fernanda Pessoa": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Helena Maria dos Santos": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Iza Arruda": {
+        "participacao": {
+          "n": 11,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 11,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 11,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 11,
+          "media": 0.2727
+        },
+        "justificacao_conteudo": {
+          "n": 11,
+          "media": 1.2727
+        },
+        "respeito_grupos": {
+          "n": 11,
+          "media": 1.5455
+        },
+        "respeito_demandas": {
+          "n": 11,
+          "media": 1.0
+        }
+      },
+      "Pollyana Dias": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Roseana Faneco Amorim": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Suhellen Oliveira da Silva": {
+        "participacao": {
+          "n": 4,
+          "media": 0.75
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 0.5
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.25
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Fernanda Pessoa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Carlos Gouvêa",
+      "trecho": "A triagem neonatal para a fenilcetonúria, por exemplo, que é a mais conhecida, estabelecida há mais tempo, conseguiu oferecer para milhares de crianças nascidas no Brasil a possibilidade de uma vida normal. Caso não seja feita a tempo, o que acontece, no caso da fenil? A fenilalanina acaba se acumulando no sangue, o que pode causar uma série de danos cerebrais: hábitos de violência, mudanças de comportamento e até um problema de retardo mental. Isso pode ser evitado através dessa ferramenta que é o teste do pezinho.",
+      "char_start": 5701,
+      "char_end": 6222,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Carlos Gouvêa",
+      "trecho": "Acho que o tema principal da nossa discussão nesta audiência pública é como de fato propiciar a todas as crianças nascidas no Brasil uma triagem adequada, sustentável, que permita que se exerça cada vez mais o direito essencial, constitucional, à vida.",
+      "char_start": 5447,
+      "char_end": 5699,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Fernanda Pessoa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Fernanda Pessoa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Fernanda Pessoa",
+      "trecho": "nós temos que lutar por isso, porque, quanto mais cedo for detectado qualquer tipo de doença, nós sabemos o quanto isso impacta na qualidade de vida daquele paciente e da família.",
+      "char_start": 20482,
+      "char_end": 20661,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Fernanda Pessoa",
+      "trecho": "quanto mais cedo for detectado qualquer tipo de doença, nós sabemos o quanto isso impacta na qualidade de vida daquele paciente e da família.",
+      "char_start": 20520,
+      "char_end": 20661,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Fernanda Pessoa",
+      "trecho": "Nós estamos juntos nesta luta.",
+      "char_start": 20862,
+      "char_end": 20892,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Fernanda Pessoa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "Nós precisamos ajudar os Prefeitos. Os Prefeitos não têm estrutura para mandar esses testes no tempo hábil. E o que acontece?Muitas vezes, eles se perdem e não chegam ao resultado que deveria para salvar vidas. Então, aqui fica um apelo. Os Correios podem e devem entrar como política pública e fazer parte desse processo. Eles precisam participar, eles precisam agilizar.",
+      "char_start": 24817,
+      "char_end": 25189,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "Nós estamos dizendo que, além de salvar vidas, nós também vamos reduzir os custos do SUS, porque serão menos internações, menos demandas para tratamento de saúde, além de aliviar a carga dessas mães.",
+      "char_start": 25769,
+      "char_end": 25968,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "nós não somos contra os homens, somos apenas a favor das mulheres",
+      "char_start": 27276,
+      "char_end": 27341,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Iza Arruda",
+      "trecho": "Eu quero deixar registrado aqui, Dra. Roseana Faneco, que é bem verdade que o Grupo Mulheres do Brasil e o Grupo Unidos pela Vacina revolucionam a saúde pública do nosso País.",
+      "char_start": 31830,
+      "char_end": 32005,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "sem deixar ninguém pra trás",
+      "char_start": 41285,
+      "char_end": 41312,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Iza Arruda",
+      "trecho": "Nós entendemos que cada Estado tem uma realidade diferente. Por isso, é importante que construamos essas políticas públicas para alcançarmos esse objetivo.",
+      "char_start": 41882,
+      "char_end": 42037,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Iza Arruda",
+      "trecho": "Nós entendemos que cada Estado tem uma realidade diferente. Por isso, é importante que construamos essas políticas públicas para alcançarmos esse objetivo.",
+      "char_start": 41882,
+      "char_end": 42037,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Iza Arruda",
+      "trecho": "Fico muito feliz em saber que Pernambuco está no caminho certo.E ver aqui o teste do pezinho em cordel, sendo recitado por Toinho, que é um grande repentista, para mim, é motivo de muito orgulho.",
+      "char_start": 42167,
+      "char_end": 42362,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Amira Awada",
+      "trecho": "A saúde pública precisa pensar em prevenção e em tratamento no momento adequado, porque as crianças diagnosticadas fora do momento adequado não vão ter acesso a um tratamento efetivo.",
+      "char_start": 48374,
+      "char_end": 48557,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Amira Awada",
+      "trecho": "A saúde pública precisa pensar em prevenção e em tratamento no momento adequado, porque as crianças diagnosticadas fora do momento adequado não vão ter acesso a um tratamento efetivo.",
+      "char_start": 48374,
+      "char_end": 48557,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Amira Awada",
+      "trecho": "Nós precisamos garantir que essas pessoas tenham um futuro, que essas crianças sejam inseridas.",
+      "char_start": 50264,
+      "char_end": 50359,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Iza Arruda",
+      "trecho": "E a triagem neonatal, realmente, passa a ser esse primeiro passo para garantirmos qualidade de vida ao cidadão.",
+      "char_start": 50964,
+      "char_end": 51075,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Iza Arruda",
+      "trecho": "E a triagem neonatal, realmente, passa a ser esse primeiro passo para garantirmos qualidade de vida ao cidadão.",
+      "char_start": 50964,
+      "char_end": 51075,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Iza Arruda",
+      "trecho": "Como é importante nós vermos a sociedade civil unida nessa causa, nesse tema que é tão importante!",
+      "char_start": 50727,
+      "char_end": 50825,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Pollyana Dias",
+      "trecho": "porque de nada adianta fazermos audiências públicas, falarmos do progresso das ações, das políticas públicas, se elas não chegarem, de fato, à população.",
+      "char_start": 54610,
+      "char_end": 54763,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Pollyana Dias",
+      "trecho": "porque de nada adianta fazermos audiências públicas, falarmos do progresso das ações, das políticas públicas, se elas não chegarem, de fato, à população.",
+      "char_start": 54610,
+      "char_end": 54763,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Pollyana Dias",
+      "trecho": "pernambucanos que lutam pela inclusão, pela diversidade de conhecimento, de empoderamento das famílias do nosso Estado é muito importante",
+      "char_start": 51796,
+      "char_end": 51933,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Pollyana Dias",
+      "trecho": "vamos cuidar dessas crianças",
+      "char_start": 59168,
+      "char_end": 59196,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Iza Arruda",
+      "trecho": "por ser uma mãe atípica, voluntária, que ajuda tantas outras mães e pais atípicos",
+      "char_start": 60285,
+      "char_end": 60366,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "Portanto, eu sei exatamente o que o diagnóstico precoce faz na vida das pessoas. É impressionante como isso pode mudar.",
+      "char_start": 64221,
+      "char_end": 64340,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "é diminuir, como já foi falado, os custos do Estado, do nosso Brasil.",
+      "char_start": 64689,
+      "char_end": 64758,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "nós queremos viver com qualidade de vida, com dignidade, queremos ser respeitados como cidadãos",
+      "char_start": 67090,
+      "char_end": 67185,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Iza Arruda",
+      "trecho": "Por isso, acredito que seja tão importante ter esse processo de interiorizar a capacitação. Aí, sim, conseguimos ter um fluxo contínuo para a triagem neonatal.",
+      "char_start": 72361,
+      "char_end": 72520,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Iza Arruda",
+      "trecho": "Aí, sim, conseguimos ter um fluxo contínuo para a triagem neonatal.",
+      "char_start": 72453,
+      "char_end": 72520,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Iza Arruda",
+      "trecho": "Parabéns pelo seu trabalho!",
+      "char_start": 72522,
+      "char_end": 72549,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "Sugerimos o desenvolvimento de polos de execução dos exames de alto custo.",
+      "char_start": 83054,
+      "char_end": 83128,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "A triagem neonatal é vital para o diagnóstico precoce de doenças graves e raras, sendo que todas devem ser tratáveis — doenças genéticas, metabólicas, enzimáticas, infecciosas e da imunidade. Qual é a grande importância disso? Ela promove esse tratamento adequado em tempo oportuno, isto é, antes que algum sinal ou sintoma apareça, reduzindo e evitando deficiências, sequelas e até mesmo óbitos.",
+      "char_start": 75235,
+      "char_end": 75631,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "A triagem neonatal é vital para o diagnóstico precoce de doenças graves e raras, sendo que todas devem ser tratáveis — doenças genéticas, metabólicas, enzimáticas, infecciosas e da imunidade. Qual é a grande importância disso? Ela promove esse tratamento adequado em tempo oportuno, isto é, antes que algum sinal ou sintoma apareça, reduzindo e evitando deficiências, sequelas e até mesmo óbitos.",
+      "char_start": 75235,
+      "char_end": 75631,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "porque eu preciso de uma rede. A cada doença nova que entra, se não houver estrutura, está sendo jogado o dinheiro do brasileiro no lixo, pois não supre a necessidade, que é o papel do Ministério, de beneficiar o cidadão.",
+      "char_start": 96022,
+      "char_end": 96243,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "porque eu preciso de uma rede. A cada doença nova que entra, se não houver estrutura, está sendo jogado o dinheiro do brasileiro no lixo, pois não supre a necessidade, que é o papel do Ministério, de beneficiar o cidadão.",
+      "char_start": 96022,
+      "char_end": 96243,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "a sociedade civil é de extrema importância",
+      "char_start": 94436,
+      "char_end": 94478,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Iza Arruda",
+      "trecho": "Parabéns pelo trabalho! Parabéns pela condução no Ministério da Saúde!",
+      "char_start": 98079,
+      "char_end": 98149,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Carlos Gouvêa",
+      "trecho": "o diagnóstico precoce preciso é o que vai levar a uma terapia eficaz, com um menor custo, com uma melhor situação para o próprio paciente",
+      "char_start": 100477,
+      "char_end": 100614,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Carlos Gouvêa",
+      "trecho": "com um menor custo, com uma melhor situação para o próprio paciente",
+      "char_start": 100547,
+      "char_end": 100614,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Carlos Gouvêa",
+      "trecho": "Eu agradeço, nessa grande jornada, a todos o esforço: Dra Roseana Faneco, do Grupo de Mulheres, de Pernambuco; Bruna Dornelles; Suhellen da Silva; Amira, do Instituto Vidas Raras; Grupo AMAR — Aliança de Mães e Famílias Raras; e, obviamente, o Ministério.",
+      "char_start": 98676,
+      "char_end": 98931,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Carlos Gouvêa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "O Grupo Mulheres do Brasil tem consciência de que é preciso fazer pontes e conexões e unir, como um lema, inclusive não só o Grupo Mulheres do Brasil, mas todas essas pessoas que aqui estão, tenho certeza disso.",
+      "char_start": 103097,
+      "char_end": 103308,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Roseana Faneco Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Bruna Rafaela Dornelas Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Amira Awada",
+      "trecho": "Sabemos que a política pública só vai ser efetiva com a força e a cobrança da sociedade civil.",
+      "char_start": 105203,
+      "char_end": 105297,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Amira Awada",
+      "trecho": "para que essa expansão aconteça da melhor maneira para todos e de maneira sustentável.",
+      "char_start": 106456,
+      "char_end": 106542,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Amira Awada",
+      "trecho": "Sabemos que a política pública só vai ser efetiva com a força e a cobrança da sociedade civil. E eu sei que todos aqui presentes estão extremamente engajados e disponíveis para apoiar o Ministério da Saúde, cobrando Estados e Municípios, a fim de que o que já está disponível seja feito da maneira correta para que os gargalos, como disse o Dr. Carlos, sejam diminuídos.",
+      "char_start": 105203,
+      "char_end": 105573,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Amira Awada",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Pollyana Dias",
+      "trecho": "Eu acredito que há mulheres fortes e unidas — não me desfazendo dos homens presentes —, mulheres que pegaram os seus filhos com doenças raras, com algum tipo de deficiência, e foram à luta e têm batalhado para que outras mulheres não passem pelo que elas estão passando, mulheres que não têm nada a ver com a causa, diretamente, mas que se envolvem realmente no cuidado materno, de cuidar e olhar para outras mulheres.",
+      "char_start": 107456,
+      "char_end": 107874,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Pollyana Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "somos mulheres superemponderadas, mulheres que sabemos o que queremos, que sabemos para onde vamos",
+      "char_start": 110072,
+      "char_end": 110170,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Suhellen Oliveira da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "É importante também que o Ministério da Saúde, junto com os demais representantes da sociedade civil, dos especialistas das universidades, construa um efetivo plano de trabalho para que realmente consigamos avançar com a expansão e para que realmente tenhamos, sim, um cronograma, a fim de que as ações sejam implementadas e a triagem neonatal possa ser essa importante política pública com foco na prevenção e no diagnóstico precoce.",
+      "char_start": 111360,
+      "char_end": 111794,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "Precisamos lembrar que a triagem é um direito assegurado no Estatuto da Criança e do Adolescente — ECA. E, em todas as falas que tivemos aqui, principalmente na do Carlos, representando a SBTEIM, como na da própria Dra. Helena Pimentel, representando o Ministério da Saúde, ficou evidenciado que essa lei não está sendo cumprida.",
+      "char_start": 110876,
+      "char_end": 111205,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "para que realmente tenhamos, sim, um cronograma, a fim de que as ações sejam implementadas e a triagem neonatal possa ser essa importante política pública com foco na prevenção e no diagnóstico precoce.",
+      "char_start": 111592,
+      "char_end": 111794,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "a triagem neonatal possa ser essa importante política pública com foco na prevenção e no diagnóstico precoce",
+      "char_start": 111685,
+      "char_end": 111793,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Daniela Machado Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "o Nordeste está mostrando a força que tem, a capacidade que tem",
+      "char_start": 112553,
+      "char_end": 112616,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Helena Maria dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Iza Arruda",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

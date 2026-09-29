@@ -1,0 +1,3535 @@
+{
+  "sample_id": 40,
+  "n_turnos": 81,
+  "n_turnos_codificados": 40,
+  "n_codigos": 280,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 40,
+      "distribuicao": {
+        "interrompido": 2,
+        "normal": 38
+      },
+      "media": 0.95,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "nenhuma": 14,
+        "inferior": 6,
+        "qualificada": 20,
+        "sofisticada": 0
+      },
+      "media": 1.15,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 15,
+        "bem_comum_utilitario": 18,
+        "bem_comum_diferenca": 7
+      },
+      "media": 1.8,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 11,
+        "explicito_positivo": 29
+      },
+      "media": 1.725,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 39,
+        "explicito_positivo": 1
+      },
+      "media": 1.025,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 38,
+        "inclui": 2,
+        "valoriza": 0
+      },
+      "media": 1.05,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "posicional": 38,
+        "proposta_alternativa": 2,
+        "proposta_mediadora": 0
+      },
+      "media": 0.05,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Antonio da Silva Jesus": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Bernardino Teixeira Filho": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Carlos Magno Paiva Felicio da Silveira": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Cleiber Pinheiro Maia": {
+        "participacao": {
+          "n": 4,
+          "media": 0.75
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.25
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.75
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        }
+      },
+      "Danys Marques Maia Queiroz": {
+        "participacao": {
+          "n": 4,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.25
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 2.25
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        }
+      },
+      "Diogo Silva": {
+        "participacao": {
+          "n": 4,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.25
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 1.75
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.75
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.75
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.25
+        }
+      },
+      "José Guedes": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "João Paulo Borin": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Luiz Lima": {
+        "participacao": {
+          "n": 5,
+          "media": 0.8
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.2
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 0.6
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.0
+        }
+      },
+      "Márcio Marinho": {
+        "participacao": {
+          "n": 11,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 11,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 11,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 11,
+          "media": 0.7273
+        },
+        "justificacao_conteudo": {
+          "n": 11,
+          "media": 1.7273
+        },
+        "respeito_grupos": {
+          "n": 11,
+          "media": 1.7273
+        },
+        "respeito_demandas": {
+          "n": 11,
+          "media": 1.0
+        }
+      },
+      "Nicole Azevedo": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Weslley Eliezer": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Bernardino Teixeira Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Weslley Eliezer",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "João Paulo Borin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "José Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "Elas podem ser uma alternativa positiva para jovens em situação de vulnerabilidade, oferecendo-lhes oportunidades de desenvolvimento pessoal e profissional.",
+      "char_start": 1011,
+      "char_end": 1167,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "Elas podem ser uma alternativa positiva para jovens em situação de vulnerabilidade, oferecendo-lhes oportunidades de desenvolvimento pessoal e profissional.",
+      "char_start": 1011,
+      "char_end": 1167,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "As artes marciais têm uma longa história e tradição em diversas culturas ao redor do mundo. Elas não são apenas uma forma de luta, mas também filosofia de vida, que promove valores como disciplina, respeito, autocontrole e superação pessoal. Além disso, as artes marciais contribuem para o desenvolvimento físico, mental e emocional dos praticantes.",
+      "char_start": 569,
+      "char_end": 918,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Diogo Silva",
+      "trecho": "E eu acredito que, se houver o ensino de artes marciais dentro das escolas, com a possibilidade de todas as crianças terem essa experiência, vamos ter uma formação de cidadania muito mais qualificada.",
+      "char_start": 11667,
+      "char_end": 11867,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Diogo Silva",
+      "trecho": "vamos ter uma formação de cidadania muito mais qualificada",
+      "char_start": 11808,
+      "char_end": 11866,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Diogo Silva",
+      "trecho": "Nós somos aqui a grande liderança do jiu-jítsu no mundo. Também somos a grande liderança do judô no mundo.",
+      "char_start": 11482,
+      "char_end": 11588,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "principalmente para pretos como nós, é motivo de muita alegria",
+      "char_start": 12993,
+      "char_end": 13055,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "A arte marcial cria condições e oportunidades para as pessoas estarem, lado a lado, como disse o Deputado, com pessoas que já foram campeãs olímpicas, pessoas que representaram o Brasil.",
+      "char_start": 13837,
+      "char_end": 14023,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 6,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "crianças em vulnerabilidade social, crianças que não teriam condição nenhuma de praticar uma arte marcial",
+      "char_start": 15738,
+      "char_end": 15843,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "É isto que a arte marcial faz: inclusão. A arte marcial cria condições e oportunidades para as pessoas estarem, lado a lado, como disse o Deputado, com pessoas que já foram campeãs olímpicas, pessoas que representaram o Brasil.",
+      "char_start": 13796,
+      "char_end": 14023,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "Eu acho que as políticas públicas deveriam realmente olhar para o desporto competitivo, mas olhar também, muito mais, para a formação do cidadão.",
+      "char_start": 23893,
+      "char_end": 24038,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "Eu acho que as políticas públicas deveriam realmente olhar para o desporto competitivo, mas olhar também, muito mais, para a formação do cidadão.",
+      "char_start": 23893,
+      "char_end": 24038,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "todos podem ser campeões na vida",
+      "char_start": 23182,
+      "char_end": 23214,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "Tudo é questão de oportunidade. Algum tipo de material literário pode chegar a essas crianças que às vezes não têm uma academia, mas podem ser apreciadoras, ou praticantes. Mesmo que não tenham alguém para lhes ensinar de perto, presencialmente, essas crianças podem acabam gostando da prática e se apaixonar por essas artes.",
+      "char_start": 29375,
+      "char_end": 29700,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "essas crianças que às vezes não têm uma academia",
+      "char_start": 29454,
+      "char_end": 29502,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "Tudo é questão de oportunidade. Algum tipo de material literário pode chegar a essas crianças que às vezes não têm uma academia, mas podem ser apreciadoras, ou praticantes. Mesmo que não tenham alguém para lhes ensinar de perto, presencialmente, essas crianças podem acabam gostando da prática e se apaixonar por essas artes.",
+      "char_start": 29375,
+      "char_end": 29700,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Nicole Azevedo",
+      "trecho": "Temos em nosso grupo profissionais de educação física com extrema competência na área das artes marciais.",
+      "char_start": 30935,
+      "char_end": 31040,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Bernardino Teixeira Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Bernardino Teixeira Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Bernardino Teixeira Filho",
+      "trecho": "Porque veem a necessidade de contribuir com a sociedade.Portanto, as artes marciais estão aí para contribuir com a formação do cidadão, e, com essa contribuição, teremos, com certeza, uma sociedade mais justa.",
+      "char_start": 36778,
+      "char_end": 36987,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Bernardino Teixeira Filho",
+      "trecho": "Porque veem a necessidade de contribuir com a sociedade.Portanto, as artes marciais estão aí para contribuir com a formação do cidadão, e, com essa contribuição, teremos, com certeza, uma sociedade mais justa.",
+      "char_start": 36778,
+      "char_end": 36987,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Bernardino Teixeira Filho",
+      "trecho": "Somos professores de artes marciais, sim, mas, antes de tudo, somos formadores de cidadãos.",
+      "char_start": 35486,
+      "char_end": 35577,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Bernardino Teixeira Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Nicole Azevedo",
+      "trecho": "o esporte, o desporto, de forma geral, promove a inclusão, acolhe essas crianças, dá-lhes oportunidade de ter uma vida diferente, outra realidade, novas perspectivas.",
+      "char_start": 37415,
+      "char_end": 37581,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Nicole Azevedo",
+      "trecho": "para fazer da nossa população uma população mais saudável, mais ativa, mais viva, para vivemos melhor.",
+      "char_start": 37796,
+      "char_end": 37898,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Nicole Azevedo",
+      "trecho": "promove a inclusão, acolhe essas crianças, dá-lhes oportunidade de ter uma vida diferente, outra realidade, novas perspectivas.",
+      "char_start": 37454,
+      "char_end": 37581,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Márcio Marinho",
+      "trecho": "Gasta-se tanto com armas — armando a população, armando o cidadão ou até a própria Polícia — e tão pouco com uma arma muito mais poderosa, que é a inclusão em projetos sociais, a que todos os professores são dedicadíssimos, não só em relação à disciplina, todos os dias — do respeito ao pai, do respeito à mãe, do respeito ao próximo —, mas, acima de tudo, a fazer, a partir da prática de esporte, cidadãos melhores para o mundo.",
+      "char_start": 39005,
+      "char_end": 39434,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Márcio Marinho",
+      "trecho": "a fazer, a partir da prática de esporte, cidadãos melhores para o mundo.",
+      "char_start": 39362,
+      "char_end": 39434,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Márcio Marinho",
+      "trecho": "a inclusão em projetos sociais, a que todos os professores são dedicadíssimos, não só em relação à disciplina, todos os dias — do respeito ao pai, do respeito à mãe, do respeito ao próximo —, mas, acima de tudo, a fazer, a partir da prática de esporte, cidadãos melhores para o mundo.",
+      "char_start": 39150,
+      "char_end": 39434,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "Nenhuma arte marcial ou luta te ensina isso. Só quem vai te ensinar é a faculdade. A única área que eu vejo não querer conhecimento é o mundo dos esportes. Essa é a única área em que as pessoas acham que, se pode fazer, pode ensinar. É a única área em que eu vejo isso. Em todas as áreas, você tem que se qualificar. Por que alguns esportes, quem sabe fazer sabe ensinar? Eu sei ler, e não sei ensinar ninguém a ler. Eu leio quase todo dia — livro mesmo. Eu paro, leio, tento me qualificar todo dia, mas não sei ensinar ninguém a ler, porque eu não sou pedagogo; eu sou profissional de Educação Física. Então por que, para ensinar um esporte, eu não preciso me qualificar em Educação Física, que é área que me ensina a ensinar essa matéria?",
+      "char_start": 41971,
+      "char_end": 42711,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "Então, devemos ter políticas públicas que a oportunizem nossas crianças terem, primeiro, a ideia de cidadãs; depois, de atletas, se for possível.",
+      "char_start": 49068,
+      "char_end": 49213,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "Oportunizemos, porque temos muitos talentos em nossos Estados, em nossas periferias, em nossas escolas, e o que lhes falta é oportunidade.",
+      "char_start": 48928,
+      "char_end": 49066,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "Se houver um plano nacional de desenvolvimento esportivo, que sejam oferecidas, de forma realmente acessível, vagas em faculdades de educação física a estes profissionais.",
+      "char_start": 54570,
+      "char_end": 54741,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "E eu acho muito importante nós deixarmos claro que, quando se fala em inclusão, não se tem como fugir, pois deve ela se dar através da escola. Digo isso porque, de forma realmente prática, nós vamos conseguir incluir as pessoas educando-as desde criança. Depois, quando velhos, os conceitos e preconceitos começam a ficar muito enraizados, e nós vamos ter muito mais dificuldade.",
+      "char_start": 52296,
+      "char_end": 52675,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "E eu acho muito importante nós deixarmos claro que, quando se fala em inclusão, não se tem como fugir, pois deve ela se dar através da escola. Digo isso porque, de forma realmente prática, nós vamos conseguir incluir as pessoas educando-as desde criança. Depois, quando velhos, os conceitos e preconceitos começam a ficar muito enraizados, e nós vamos ter muito mais dificuldade.",
+      "char_start": 52296,
+      "char_end": 52675,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "Trabalhamos o jiu-jí\n\ntsu adaptado da seguinte forma: com o que chamamos parajiu-jitsu, no qual existe classificação funcional e disputa em alto rendimento, com pessoas com algum nível de deficiência física; com jiu-jítsu especial, que é a nomenclatura que nós utilizamos para configurar a inclusão de atletas que têm Síndrome de Down ou Transtorno do Espectro Autista, para os quais não convém oferecer competição, e sim lutas amistosas ou um ambiente amistoso, para que eles se sintam incluídos na nossa comunidade esportiva. E, por fim, temos o jiu-jítsu de surdos, já que a comunicação com os surdos realmente tem que ser diferenciada, para que possamos incluí-los na nossa comunidade.",
+      "char_start": 51048,
+      "char_end": 51737,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Luiz Lima",
+      "trecho": "Pode haver um excelente profissional não formado? Pode. Ele pode ser o melhor, só que a lei brasileira exige o diploma.",
+      "char_start": 64370,
+      "char_end": 64489,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Luiz Lima",
+      "trecho": "Há um conflito hoje entre o que diz a lei e o que propriamente até mesmo nós acreditamos. Você pode ser um bom arquiteto, um excelente arquiteto, e não ter uma educação formal? Pode. No entanto, segundo a lei do nosso País, você não pode exercer a profissão. Você pode ser um excelente médico? Pode. Você pode ser um autodidata, um estudioso? Pode. No entanto, se você não tiver o raio da faculdade e o raio do diploma, você não pode exercer a profissão.\n\nEntão, a partir do momento que a nossa profissão foi regulamentada, em 1998, e as leis brasileiras exigem que o professor tenha o raio do diploma. Eu sou um. Existem técnicos norte-americanos de natação que não são profissionais de educação física, são matemáticos, estatísticos, engenheiros. A lei americana não exige isso.\n\nSe queremos algo diferente, temos que mudar a lei, alterar a lei, revogar a lei, criar uma nova lei. Não dá para usar como justificativa isso — e eu peço mil perdões ao Cleiber. Há professores excelentes de jiu-jítsu, aos quais eu entregaria a minha filha para ter aula com eles. Eu a entregaria, numa boa, sem eles terem educação formal, sem problema. Ocorre que a lei é muito clara: você tem que ter o diploma, ou, então, muda-se a lei.\n\nNão dá para falar que professor de colégio tem que ter diploma, e o professor de academia não tem que ter diploma. A falta do diploma em ambos os casos oferece riscos. A educação formal é um facilitador, é mais um obstáculo para você afunilar a peneira dessas pessoas. Muitas vezes — o Diogo tendo sido campeão, e eu tendo sido campeão na natação —, nós encontramos na universidade um viés profissional diferente do que nós fomos. Isso pode acontecer. O Diogo poderia encontrar motivação em arte marcial para a terceira idade, reabilitação. Isso pode acontecer.\n\nNós temos que passar das nossas discussões a algo que seja real dentro daquilo que é exigido pela nossa Constituição. Fora disso, vai-se gerar um conflito, porque, se o professor de arte marcial não precisa ter diploma, o professor de natação também não precisa ter diploma, o professor de futebol também não precisa ter diploma, o de balé e o de dança também não precisam ter diploma. Então, não se precisa mais de diploma. Mas nós temos que mudar a nossa lei. A partir de 2024, por exemplo, não existe mais a profissão de educação física, ou, se quiser fazer faculdade, faça, se não... Nós não podemos ir contra as leis.",
+      "char_start": 61889,
+      "char_end": 64296,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Luiz Lima",
+      "trecho": "A falta do diploma em ambos os casos oferece riscos. A educação formal é um facilitador, é mais um obstáculo para você afunilar a peneira dessas pessoas.",
+      "char_start": 63226,
+      "char_end": 63379,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Luiz Lima",
+      "trecho": "Há professores excelentes de jiu-jítsu, aos quais eu entregaria a minha filha para ter aula com eles.",
+      "char_start": 62849,
+      "char_end": 62950,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "E eles estão ficando velhos, e a capoeira está diminuindo, porque quem poderia ensiná-la hoje tem dificuldade até para se alimentar.",
+      "char_start": 66994,
+      "char_end": 67126,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "E eles estão ficando velhos, e a capoeira está diminuindo, porque quem poderia ensiná-la hoje tem dificuldade até para se alimentar.",
+      "char_start": 66994,
+      "char_end": 67126,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "os mestres de capoeira, os mais antigos, às vezes, até para manterem a cultura acesa — e aqui já disse que a capoeira é brasileira —, estão morrendo com dificuldades, às vezes, passando necessidades. Passam uma vida toda ensinando e sempre, quando há eventos grandes, estão representando o Brasil, seja aqui, para as várias autoridades que vêm para cá, seja em outros países. E, às vezes, são até mais reconhecidos lá fora do que no próprio Brasil. E eles estão ficando velhos, e a capoeira está diminuindo, porque quem poderia ensiná-la hoje tem dificuldade até para se alimentar.",
+      "char_start": 66545,
+      "char_end": 67126,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Luiz Lima",
+      "trecho": "É mais fácil instalar um dojô do que construir uma piscina, uma pista de atletismo. Essa é uma oportunidade muito boa para futuros atletas terem uma iniciação esportiva.",
+      "char_start": 69975,
+      "char_end": 70144,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Luiz Lima",
+      "trecho": "Essa é uma oportunidade muito boa para futuros atletas terem uma iniciação esportiva.",
+      "char_start": 70059,
+      "char_end": 70144,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Luiz Lima",
+      "trecho": "Essa é uma oportunidade muito boa para futuros atletas terem uma iniciação esportiva.",
+      "char_start": 70059,
+      "char_end": 70144,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diogo Silva",
+      "trecho": "Nós estamos propondo, em todos os projetos de escola em período integral, que se tenha esporte e arte marcial.",
+      "char_start": 71465,
+      "char_end": 71575,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Diogo Silva",
+      "trecho": "Portanto, a prevenção da violência está, de fato, na abertura dos espaços esportivos.",
+      "char_start": 72914,
+      "char_end": 72999,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Diogo Silva",
+      "trecho": "porque isso vai ser benéfico para todos nós.",
+      "char_start": 75813,
+      "char_end": 75857,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Diogo Silva",
+      "trecho": "A arte marcial pertence a elas também.",
+      "char_start": 74125,
+      "char_end": 74163,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "Eu acho importante termos a mentalidade de que luta, na verdade, ocorre em prol de uma causa, diferentemente de combate. Você combate alguma coisa, algo que possa fazer mal a você ou a alguém. Agora, a luta tem que ser vista sempre de uma maneira positiva, no sentido de se lutar pelos seus direitos.",
+      "char_start": 76764,
+      "char_end": 77064,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "Temos de sair um pouco da caixinha quando pensamos em educar crianças e propor soluções para que possamos trazê-las para o nosso universo esportivo.",
+      "char_start": 77701,
+      "char_end": 77849,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Weslley Eliezer",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Weslley Eliezer",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Weslley Eliezer",
+      "trecho": "É muito mais fácil você ensinar a uma criança o caminho correto, as coisas boas da vida, as oportunidades que ela pode abraçar do que combater a violência lá na frente. Quem luta, quem treina, quem compete não briga na rua, não se mete em confusão. A mente está voltada para a concentração, para aprender e aplicar aquilo que se aprende não só no tatame, mas também na vida.",
+      "char_start": 81105,
+      "char_end": 81479,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Weslley Eliezer",
+      "trecho": "os esportes, na verdade, têm esse papel fundamental de incluir na sociedade o indivíduo que pode estar perdido.",
+      "char_start": 82608,
+      "char_end": 82719,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Weslley Eliezer",
+      "trecho": "para incluir os portadores de deficiência visual",
+      "char_start": 78621,
+      "char_end": 78669,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Weslley Eliezer",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "João Paulo Borin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "João Paulo Borin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "João Paulo Borin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "João Paulo Borin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "João Paulo Borin",
+      "trecho": "mostrar o quanto o esporte tem valor na inclusão não só sob o ponto de vista da formação de um campeão, mas também da formação de um cidadão, que na verdade se torna um campeão na vida",
+      "char_start": 83559,
+      "char_end": 83743,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "João Paulo Borin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "O custo não é alto, não. Se for falar em basquete, a quadra está lá. É só a bola e o profissional.",
+      "char_start": 91962,
+      "char_end": 92060,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "aí sim, vai-se desenvolver o esporte, aí sim, vai-se oportunizar no espaço existente dos próprios Municípios. Não há que se inventar mais nada.",
+      "char_start": 92655,
+      "char_end": 92798,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "José Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "José Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "José Guedes",
+      "trecho": "Então, é necessário, em todos os momentos, voltarmos a falar e ratificar que, quando se fala em esporte, temos que deixar claro que as pessoas com deficiência também necessitam da mesma oportunidade de equidade no acesso à sua prática. E nas lutas não há necessidade de adaptação nenhuma. É possível, dentro do mesmo tatame com o mesmo profissional, formar também campeões paralímpicos ou campeões de modalidades que não sejam paralímpicas, como, por exemplo, o parajiu-jitsu.",
+      "char_start": 95622,
+      "char_end": 96098,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 42,
+      "falante": "José Guedes",
+      "trecho": "as pessoas com deficiência também necessitam da mesma oportunidade de equidade no acesso à sua prática",
+      "char_start": 95754,
+      "char_end": 95856,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "José Guedes",
+      "trecho": "as pessoas com deficiência também necessitam da mesma oportunidade de equidade no acesso à sua prática",
+      "char_start": 95754,
+      "char_end": 95856,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "José Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 44,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "Nós profissionais que atuamos diretamente com o desporto temos que mudar a nossa forma de olhar para o mesmo a fim de trabalhar em prol do todo.",
+      "char_start": 98205,
+      "char_end": 98349,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "Nós profissionais que atuamos diretamente com o desporto temos que mudar a nossa forma de olhar para o mesmo a fim de trabalhar em prol do todo.",
+      "char_start": 98205,
+      "char_end": 98349,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "é muito bom que os professores sejam realmente mais bem vistos e assessorados",
+      "char_start": 99960,
+      "char_end": 100037,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 45,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 45,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Márcio Marinho",
+      "trecho": "jovens em situação de vulnerabilidade",
+      "char_start": 100554,
+      "char_end": 100591,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Diogo Silva",
+      "trecho": "Por isso que eu não defendo que a faculdade seja o único e exclusivo ponto de capacitação, porque em 5 mil Municípios eu não vou ter uma universidade de educação física. Não há universidade suficiente que possa satisfazer a demanda de 5 mil Municípios.",
+      "char_start": 104028,
+      "char_end": 104280,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Diogo Silva",
+      "trecho": "Por isso que eu não defendo que a faculdade seja o único e exclusivo ponto de capacitação, porque em 5 mil Municípios eu não vou ter uma universidade de educação física. Não há universidade suficiente que possa satisfazer a demanda de 5 mil Municípios.",
+      "char_start": 104028,
+      "char_end": 104280,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Diogo Silva",
+      "trecho": "Por isso que o nosso foco, nosso objetivo não é ter atletas, e, sim, capacitar e educar as pessoas.",
+      "char_start": 101685,
+      "char_end": 101784,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Diogo Silva",
+      "trecho": "O Ministério do Esporte recebeu uma demanda muito grande da União dos Estudantes — UNE, e depois nós recebemos a União Nacional dos Estudantes do Estado de São Paulo — e 60% das atléticas que existem no Brasil estão em São Paulo. E a grande demanda deles é a reforma do curso de educação física, porque o curso de educação física que a minha mãe fez, que eu fiz continua sendo ensinado em 2023; o mesmo modelo. Depois de 60 anos, o curso de educação física continua com o mesmo modelo. Os jovens de hoje não se adequam mais a esse modelo. Esse modelo está ultrapassado. O curso de educação física está ultrapassado. Ele precisa de uma reforma. Nós precisamos trazê-lo mais para a nossa realidade.",
+      "char_start": 104883,
+      "char_end": 105579,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Diogo Silva",
+      "trecho": "Eu defendo esse campo de estudo no processo integrado à escola. Este é o papel do Ministério do Esporte, convencer o Ministério da Educação, porque é o Ministério da Educação que contrata o profissional de educação física para a escola, juntamente com o Ministério da Saúde, porque é o Ministério da Saúde que contrata o educador físico em de projetos de reabilitação; juntamente a segurança pública, porque é ela que contrata profissionais de educação física que vão trabalhar com presidiários ou com jovens que estão nessas condições.",
+      "char_start": 106549,
+      "char_end": 107085,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Diogo Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "É isso o que o senhor falou, mas discordo quando cita alguns exemplos que são exceções, no caso de educação física.",
+      "char_start": 108763,
+      "char_end": 108878,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "Não é o curso de educação física que tem que se transformar, é toda a educação brasileira. Não é que Municípios estejam retrógrados, discordo disso, é a educação como um todo. São todos os cursos, assim como medicina, assim como odontologia, mas não vamos descartar. Exemplo: lá no Amazonas existem as sociedades das parteiras. Por acaso, vamos acabar com a obstetrícia ou com a parteira? Eu fui nascido por parteira, no Ceará. Vamos acabar com a medicina por que a medicina está ruim e vamos deixar só as parteiras? Vamos voltar a esse tempo? É essa a proposta? Ou vamos qualificar aquelas pessoas que estão lá?Vamos dar acesso a elas? Não vamos tomar a exceção como regra. Há, sim, locais nos quais não há espaço para a educação, nem educação física nem educação básica. Nem educação básica eles têm, imaginem curso superior. Quantos Municípios não têm ensino fundamental? Vão ter ensino superior, se não têm nem ensino fundamental? Quanto à educação básica, as crianças não têm acesso a creche.",
+      "char_start": 109111,
+      "char_end": 110108,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "Toda a educação brasileira tem que mudar, e não só a educação física.",
+      "char_start": 110341,
+      "char_end": 110410,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 50,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 50,
+      "falante": "Márcio Marinho",
+      "trecho": "para que os alunos, para que os jovens não fiquem com a parte da tarde ociosa e não sejam cooptados, como aqui já foi falado. Infelizmente, quando não há preenchimento na vida desses jovens — infelizmente é a realidade de todo o Brasil, não deveria ser assim, mas é a realidade —, o crime está à nossa porta cooptando a nossa juventude.",
+      "char_start": 110941,
+      "char_end": 111277,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 50,
+      "falante": "Márcio Marinho",
+      "trecho": "para que os alunos, para que os jovens não fiquem com a parte da tarde ociosa e não sejam cooptados, como aqui já foi falado. Infelizmente, quando não há preenchimento na vida desses jovens — infelizmente é a realidade de todo o Brasil, não deveria ser assim, mas é a realidade —, o crime está à nossa porta cooptando a nossa juventude.",
+      "char_start": 110941,
+      "char_end": 111277,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 50,
+      "falante": "Márcio Marinho",
+      "trecho": "para que os alunos, para que os jovens não fiquem com a parte da tarde ociosa e não sejam cooptados",
+      "char_start": 110941,
+      "char_end": 111040,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 51,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 51,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "Que o Ministério possa se debruçar sobre isso para que aquelas pessoas que não têm condição de pagar um curso, de fazer uma faculdade EAD possam também ser incluídas nesse processo de educação.",
+      "char_start": 112488,
+      "char_end": 112681,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 51,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "Que o Ministério possa se debruçar sobre isso para que aquelas pessoas que não têm condição de pagar um curso, de fazer uma faculdade EAD possam também ser incluídas nesse processo de educação.",
+      "char_start": 112488,
+      "char_end": 112681,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 51,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "para que os professores também tenham essa inclusão",
+      "char_start": 112051,
+      "char_end": 112102,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Antonio da Silva Jesus",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 55,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 55,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "E, quando passamos isso para as crianças, essa percepção de valor, elas vão querer praticar a capoeira, o jiu-jítsuou qualquer outra coisa em que ela perceba que é valorizada e empoderada.",
+      "char_start": 118005,
+      "char_end": 118193,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 55,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "A atividade não tem que ser vista somente como uma ocupação, não, mas tem que deixar a criança valorizada, o cidadão brasileiro valorizado.",
+      "char_start": 118244,
+      "char_end": 118383,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 55,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "tem que deixar a criança valorizada, o cidadão brasileiro valorizado",
+      "char_start": 118314,
+      "char_end": 118382,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Cleiber Pinheiro Maia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 57,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 57,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 57,
+      "falante": "Nicole Azevedo",
+      "trecho": "Quero deixar as portas do Conselho Regional de Educação Física do Distrito Federal abertas a todas as federações esportivas e federações de luta.",
+      "char_start": 118918,
+      "char_end": 119063,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Nicole Azevedo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 59,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "A qualificação profissional é que vai livrá-los dessa condição social em que hoje estão.\n\nEntão, ao não exigir qualificação profissional dessas pessoas que querem trabalhar com esporte, nós estamos matando o futuro delas como cidadãos.",
+      "char_start": 122600,
+      "char_end": 122835,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 59,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "A qualificação profissional é que vai livrá-los dessa condição social em que hoje estão.",
+      "char_start": 122600,
+      "char_end": 122688,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "Nós professores somos escorraçados no esporte. Todo mundo lembra o nome do atleta, mas o do professor, nunca. Mas as leis podem ajudar nisso. Vocês podem ajudar nisso.",
+      "char_start": 121859,
+      "char_end": 122026,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Danys Marques Maia Queiroz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 64,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 64,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 70,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 70,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Luiz Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 79,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 79,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 79,
+      "falante": "Márcio Marinho",
+      "trecho": "a população nos colocou aqui",
+      "char_start": 129609,
+      "char_end": 129637,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 80,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 80,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 80,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "E que todos nós, profissionais envolvidos, possamos, mais uma vez, deixar de lado nossas coisas particulares, egos, picuinhas e trabalhar em conjunto, em prol de todos, de bom grado, com bem-querer.",
+      "char_start": 130605,
+      "char_end": 130803,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Carlos Magno Paiva Felicio da Silveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

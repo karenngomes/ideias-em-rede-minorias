@@ -1,0 +1,113 @@
+{
+  "sample_id": 154,
+  "n_opinioes": 33,
+  "n_decompostas": 33,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 13,
+  "n_ancorados": 7,
+  "n_rejeitados": 6,
+  "n_incoerentes": 0,
+  "n_preservados": 3,
+  "n_perdidos": 4,
+  "por_tipo": {
+    "prazo": 2,
+    "condicao": 3,
+    "escopo": 2
+  },
+  "perdas": [
+    {
+      "falante": "Jaime Kulak Junior",
+      "turno_id": 10,
+      "opiniao": "defende a revisão da RENAME para incluir medicamentos mais eficazes para o tratamento do climatério",
+      "nucleo": "defendeu a revisão da RENAME para incluir medicamentos mais eficazes para o tratamento do climatério",
+      "tipo": "prazo",
+      "trecho": "daí a importância desse debate, que ocorra mais vezes para que possamos ter um resultado final adequado",
+      "char_start": 58975,
+      "char_end": 59078
+    },
+    {
+      "falante": "Iliana Alves Canoff",
+      "turno_id": 23,
+      "opiniao": "defende a criação de programas de pós-graduação ou mestrado sobre saúde da mulher na menopausa em parceria com FIOCRUZ e os ministérios da Saúde e das Mulheres",
+      "nucleo": "defendeu a criação de programas de pós-graduação ou mestrado sobre saúde da mulher na menopausa em parceria com FIOCRUZ e os ministérios da Saúde e das Mulheres",
+      "tipo": "condicao",
+      "trecho": "seria possível pensarmos em uma parceria",
+      "char_start": 95259,
+      "char_end": 95299
+    },
+    {
+      "falante": "Lavina Rodrigues",
+      "turno_id": 25,
+      "opiniao": "defende a coleta detalhada de dados sobre menopausa para orientar políticas públicas de saúde feminina",
+      "nucleo": "defendeu a coleta detalhada de dados sobre menopausa para orientar políticas públicas de saúde feminina",
+      "tipo": "escopo",
+      "trecho": "no Município de Lagoa Santa",
+      "char_start": 96837,
+      "char_end": 96864
+    },
+    {
+      "falante": "Lavina Rodrigues",
+      "turno_id": 25,
+      "opiniao": "compromete-se em defender políticas públicas para mulheres, com foco na saúde na menopausa",
+      "nucleo": "comprometeu-se em defender políticas públicas para mulheres, com foco na saúde na menopausa",
+      "tipo": "escopo",
+      "trecho": "no Município de Lagoa Santa",
+      "char_start": 96837,
+      "char_end": 96864
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 10,
+      "falante": "Jaime Kulak Junior",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para proteção contra doenças crônicas",
+      "opiniao": "defende a terapia hormonal baseada em evidência científica para proteção contra doenças crônicas em mulheres climatéricas"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Jaime Kulak Junior",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "sem padronização adequada",
+      "opiniao": "rejeita o uso de hormônios manipulados e implantes sem padronização por risco à segurança das pacientes"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Jaime Kulak Junior",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "não em informações não confiáveis da internet",
+      "opiniao": "defende que o tratamento para a menopausa deve ser baseado em ciência comprovada e não em informações não confiáveis da internet"
+    },
+    {
+      "turno_id": 21,
+      "falante": "Pérola Grinberg Plapler",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para essas pacientes",
+      "opiniao": "defende a promoção de atividade física com orientação profissional para mulheres na menopausa"
+    },
+    {
+      "turno_id": 23,
+      "falante": "Iliana Alves Canoff",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "junto com o Ministério das Mulheres, por exemplo, uma pós-graduação, ou uma especialização ou até um mestrado, quem sabe, voltada especificamente para a saúde da mulher no período da menopausa",
+      "opiniao": "defende a criação de programas de pós-graduação ou mestrado sobre saúde da mulher na menopausa em parceria com FIOCRUZ e os ministérios da Saúde e das Mulheres"
+    },
+    {
+      "turno_id": 27,
+      "falante": "Jane Rosa",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "apesar de reconhecer que ainda é uma pauta questionável",
+      "opiniao": "defende a criação de políticas públicas para atenção ao climatério e à menopausa, apesar de reconhecer que ainda é uma pauta questionável"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.4286,
+  "taxa_ancoragem": 0.5385,
+  "taxa_opiniao_intacta": 0.8788
+}

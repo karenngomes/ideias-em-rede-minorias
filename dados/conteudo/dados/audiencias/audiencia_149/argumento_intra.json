@@ -1,0 +1,560 @@
+{
+  "sample_id": 149,
+  "n_opinioes": 21,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 20,
+  "n_fundamentos_propostos": 43,
+  "n_fundamentos_ancorados": 42,
+  "n_fundamentos_com_numero": 20,
+  "por_tipo": {
+    "dado": 38,
+    "autoridade": 4
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 3,
+  "n_rejeitados": 2,
+  "itens": [
+    {
+      "opiniao": "defende que o Estado brasileiro se prepare para as mudanças demográficas para garantir qualidade de vida às pessoas idosas",
+      "falante": "Alexandre Lindenmeyer",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A natalidade tem diminuído cada vez mais. O topo da pirâmide tem aumentado. O número de pessoas idosas tem crescido em relação ao das pessoas mais jovens.",
+          "char_start": 3102,
+          "char_end": 3256,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "se projeta que, talvez, já em 2060, nós tenhamos, para cada pessoa com mais de 60 anos, 1,6 pessoas na faixa de 14 a 59 anos",
+          "char_start": 3338,
+          "char_end": 3462,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Combate ao idadismo como forma de garantir dignidade e plena cidadania às pessoas idosas",
+      "falante": "Alexandre da Silva",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em muitos locais é 2,5 ou alguma coisa assim. Em outros lugares, até menos.",
+          "char_start": 10068,
+          "char_end": 10143,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No Estado de São Paulo, por exemplo, são as mulheres idosas, pardas, que vivem mais sozinhas, algo em torno de 40%",
+          "char_start": 14240,
+          "char_end": 14354,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "as mulheres tinham uma expectativa de vida em 1980 de 65,7 anos; em 2019 a expectativa de vida já está na faixa de 80 anos",
+          "char_start": 6081,
+          "char_end": 6203,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os homens tinham uma expectativa de vida, em 1980, na faixa de 53,5 anos; e, em 2019, de 72 anos",
+          "char_start": 6792,
+          "char_end": 6888,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "cada vez mais nós estamos nessa inserção",
+          "char_start": 14789,
+          "char_end": 14829,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Recentemente, nós tivemos a retomada do Conselho Nacional de Direitos da Pessoa Idosa",
+          "char_start": 15636,
+          "char_end": 15721,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o dado é de Belo Horizonte",
+          "char_start": 17380,
+          "char_end": 17406,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a elaboração de um plano de longo prazo para lidar com a transição demográfica",
+      "falante": "Danyel Iório de Lima",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a transição demográfica e seus reflexos na sociedade, na economia e na demanda por serviços públicos é uma das dimensões que influenciaram a construção do plano",
+          "char_start": 23740,
+          "char_end": 23900,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o balanço entre as pessoas em idade potencialmente produtiva, entre 20 e 64 anos, e aquelas que em tese já deixaram o mercado de trabalho pode saltar de 45% para 60%, ou seja, pode haver potencial risco de déficit previdenciário",
+          "char_start": 24585,
+          "char_end": 24813,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o aumento da população ocupada com cobertura previdenciária, idealmente chegando a 75%, no máximo, partindo de 69,2%",
+          "char_start": 28372,
+          "char_end": 28488,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o aumento da proteção social de pessoas idosas, saindo de 82%, quase 83%, para 88%",
+          "char_start": 28643,
+          "char_end": 28725,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a necessidade de financiamento da Previdência Social como proporção do PIB, partindo de 2,63% e chegando idealmente a 2,47%",
+          "char_start": 28729,
+          "char_end": 28852,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a cobertura populacional estimada da Atenção Primária, que passaria de 64,5% da população, hoje, na linha de base do indicador, para 91% da população em 2027",
+          "char_start": 31184,
+          "char_end": 31341,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 2024, 189 pessoas idosas, em 2025, 390, em 2026, 585, e, em 2027, 1.260",
+          "char_start": 34134,
+          "char_end": 34208,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende políticas para idosos que considerem a realidade de áreas rurais, florestas e comunidades quilombolas",
+      "falante": "Matheus Guerra Cotta",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Existe uma população no campo. Existe uma população rural. Existe uma população na floresta.",
+          "char_start": 41555,
+          "char_end": 41647,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atuação articuladora da Secretaria Nacional dos Direitos da Pessoa Idosa e a transversalidade nas políticas",
+      "falante": "Matheus Guerra Cotta",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós pensamos que essa ação transversal favorece muito, porque já há um conselho no qual participam o Ministério do Planejamento, o Ministério das Cidades, o Ministério da Cultura e uma série de outros órgãos.",
+          "char_start": 41058,
+          "char_end": 41266,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe que espaços de convivência para idosos sejam planejados com base nas especificidades locais e na participação comunitária",
+      "falante": "Matheus Guerra Cotta",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Frente à diversidade regional que temos no País, as diversas condições locais, que possam surgir formas específicas e peculiares em cada local do País de se organizar esses espaços de convivência, de socialização, de cuidado.",
+          "char_start": 42485,
+          "char_end": 42710,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de instrumentos legais para garantir políticas públicas efetivas com foco na acessibilidade e autonomia da população idosa",
+      "falante": "Andréa dos Santos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Temos dados que nos mostram que, até 2050, nos próximos 20 anos ou 30 anos, a nossa população idosa vai duplicar, e o Brasil pode chegar a ser o sexto País com a população mais envelhecida do mundo.",
+          "char_start": 45654,
+          "char_end": 45852,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Sabemos que existe uma rede organizada através da Organização Mundial de Saúde. Essa rede trabalha e organiza as cidades amigas dos idosos",
+          "char_start": 46298,
+          "char_end": 46436,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a regulamentação do mercado imobiliário para garantir acessibilidade e inclusão da população idosa nas cidades",
+      "falante": "Andréa dos Santos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os nossos edifícios, nas grandes cidades, as empreiteiras os constroem, mas não sabem quem é que vai morar naquele condomínio. Aos poucos, vão descobrindo, conforme vão acontecendo as vendas. E muitos deles, se não a grande maioria, não são preparados para pessoa idosa.",
+          "char_start": 52232,
+          "char_end": 52502,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "temos leis que obrigam a questão da acessibilidade aos prédios públicos, que obrigam uma porcentagem nas obras de habitação de interesse social, de atendimento à acessibilidade, etc., mas precisamos pensar no nosso mercado imobiliário como um todo",
+          "char_start": 51937,
+          "char_end": 52184,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende tratamento diferenciado e igualitário para a população idosa em áreas urbanas centrais e periféricas",
+      "falante": "Andréa dos Santos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "qualquer investimento que a administração municipal for fazer, ela não vai fazer nesses bairros que estão estruturados, ela vai fazer em bairros que estão crescendo, que têm potencial de desenvolvimento. Vai fazer investimentos também para a pessoa idosa naqueles bairros, onde há uma população muito nova, por exemplo.",
+          "char_start": 53836,
+          "char_end": 54155,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "temos bairros como Cidade Baixa e Bom Fim, que são bairros antigos, com  uma população envelhecida, e esses bairros são estruturados",
+          "char_start": 53695,
+          "char_end": 53827,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o entorno das moradias seja saudável e acessível para garantir pertencimento e autonomia da população idosa",
+      "falante": "Andréa dos Santos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É muito comum termos uma casa paga com recurso público, com banheiro 100% acessível àquela população, mas, às vezes, aquela população não consegue nem sair de casa, nem chegar a casa, porque não existe uma estrada adequada, porque o lote não está tratado adequadamente.",
+          "char_start": 50254,
+          "char_end": 50523,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a construção de uma agenda 2024 com foco na população idosa, a ser levada ao Congresso e aos municípios",
+      "falante": "Andréa dos Santos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós temos oportunidade de levar aos nossos gestores, aos nossos Municípios uma proposta — é uma proposta que a FNA traz — de construção de uma agenda 2024 com esse olhar, seja dentro do Congresso Nacional, seja na agenda propositiva ao pleito de 2024 nos Municípios",
+          "char_start": 55509,
+          "char_end": 55774,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Governo Lula atue como divisor de águas na crise demográfica com planejamento até 2060 e estrutura ministerial dedicada",
+      "falante": "Vladimir Milton Pomar",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos que ter um planejamento para 2050, 2060, para ver como é que nós vamos lidar quando dobrar a população idosa no Brasil",
+          "char_start": 57997,
+          "char_end": 58125,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "hoje nós temos 33 milhões de pessoas idosas; e, nos próximos 15 anos, isso vai para 70 milhões",
+          "char_start": 58292,
+          "char_end": 58386,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Espanha tem o ministério do desafio demográfico",
+          "char_start": 61574,
+          "char_end": 61623,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Portugal também tem um ministério, o Ministério da Coesão Territorial, para cuidar dessa questão também",
+          "char_start": 61784,
+          "char_end": 61887,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o choque populacional já está ocorrendo e exige resposta imediata, não futura",
+      "falante": "Vladimir Milton Pomar",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "já faz 4 anos que temos mais pessoas idosas do que jovens",
+          "char_start": 62840,
+          "char_end": 62897,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu li, um dia desses, uma frase interessante, em que o cara disse:\"Olha, faz tempo que a gente está dizendo que o lobo estava chegando; agora o lobo está aqui\"",
+          "char_start": 63731,
+          "char_end": 63890,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu vejo as pessoas falando sobre esses temas de maneira muito tranquila, como se fosse assim, uma coisa:\"Olha, vai acontecer, está chegando lá\"",
+        "resposta": "Não, já aconteceu",
+        "objecao_char_start": 63568,
+        "objecao_char_end": 63711,
+        "resposta_char_start": 63712,
+        "resposta_char_end": 63729,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende políticas públicas urgentes para expandir o mercado de trabalho formal e adaptar o sistema previdenciário ao envelhecimento populacional, com foco na participação feminina.",
+      "falante": "Izabel Guimarães Marri",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a população de 15 a 64 anos aumentando, e a de 0 a 14 anos diminuindo",
+          "char_start": 80476,
+          "char_end": 80545,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a população vai ficar cada vez mais velha, mas ainda temos alguns grupos etários em tempo de trabalhar",
+          "char_start": 83552,
+          "char_end": 83654,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a adaptação urgente dos gastos com saúde para atender a população idosa, com maior longevidade e necessidades clínicas mais complexas e onerosas.",
+      "falante": "Izabel Guimarães Marri",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os tipos de tratamento de que a população idosa necessita são mais dispendiosos",
+          "char_start": 84123,
+          "char_end": 84202,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o investimento contínuo em crianças e adolescentes, mesmo com sua escassez relativa, por seu papel futuro como força de trabalho e suporte à população idosa.",
+      "falante": "Izabel Guimarães Marri",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "eles estão cada vez mais escassos, e eles vão ser os trabalhadores do futuro, vão apoiar ou vão produzir para os idosos do futuro",
+          "char_start": 82977,
+          "char_end": 83106,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende manter os direitos e a autonomia dos tecnólogos em gerontologia, rejeitando supressão de seus direitos profissionais",
+      "falante": "Michel Saad",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Existem aproximadamente mais de 725 mil idosos no País, e quase 1.500 geriatras apenas",
+          "char_start": 88532,
+          "char_end": 88618,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não podemos hoje, pelo cenário que temos e pelo futuro apresentado por várias pessoas que usaram a palavra, abrir mão de pessoas que são capacitadas e que cuidam dos nossos idosos",
+        "resposta": "O cenário é nítido, mostra que existe uma ausência de profissionais. Portanto, de maneira alguma podemos suprimir a autonomia e direitos de profissionais que hoje têm resguardado o seu direito de atuar pelos idosos",
+        "objecao_char_start": 89414,
+        "objecao_char_end": 89593,
+        "resposta_char_start": 89595,
+        "resposta_char_end": 89809,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende ampliação da divulgação de políticas públicas para idosos com apoio do Ministério das Comunicações",
+      "falante": "Michel Saad",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "difícil é levá-las até a ponta",
+          "char_start": 90387,
+          "char_end": 90417,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Rejeita aumentar a idade de referência para 65 anos por considerar que muitos não sobrevivem até lá, o que agravaria desigualdades",
+      "falante": "Alexandre da Silva",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "sabemos que muitos grupos não conseguem chegar aos 60 anos",
+          "char_start": 96564,
+          "char_end": 96622,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Foi perguntado por que não padronizar tudo para 65 anos",
+        "resposta": "Nós não estamos no momento de falar sobre isso ainda. Temos que entender os diversos problemas que afetam o nosso País. Não podemos nos esquecer de que estamos saindo de um período pandêmico muito importante, e esse período não foi tão democrático como esperávamos. A pandemia, infelizmente, afetou mais alguns grupos, se comparados a outros. Então, eu não estimulo que façamos hoje uma discussão sobre por que não aumentar tudo para 65 anos. Eu acho que temos que manter os 60 anos e observar tudo o que está acontecendo, até porque sabemos que muitos grupos não conseguem chegar aos 60 anos. Acho que aumentar a altura desse sarrafo, na minha perspectiva como Secretário, é outra violação de direitos humanos",
+        "objecao_char_start": 95973,
+        "objecao_char_end": 96028,
+        "resposta_char_start": 96030,
+        "resposta_char_end": 96740,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende o direito ao trabalho decente para pessoas idosas, com respeito, remuneração e valorização",
+      "falante": "Alexandre da Silva",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "muitas pessoas já começam a ficar preocupadas. Começam a perceber o final de um ciclo em um local de trabalho e não veem perspectiva nos outros",
+          "char_start": 97044,
+          "char_end": 97187,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Muitas pessoas são especialistas em sobreviver, mas não sabem viver, não puderam viver. Não é que não saibam, elas não tiveram a oportunidade de viver adequadamente os seus propósitos de vida",
+          "char_start": 97651,
+          "char_end": 97842,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Alexandre da Silva",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que isso vai encarecer o produto"
+    },
+    {
+      "turno_id": 8,
+      "falante": "Andréa dos Santos",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o idoso não vai [à academia na praça]. Por que ele não vai? Por que ela está sendo estragada? Porque, às vezes, ele tem que ficar em casa, porque ele não consegue sair"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9524,
+  "taxa_contraponto": 0.1429,
+  "taxa_ancoragem_fundamento": 0.9767
+}

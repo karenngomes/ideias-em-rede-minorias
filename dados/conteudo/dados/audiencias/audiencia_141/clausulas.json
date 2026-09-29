@@ -1,0 +1,126 @@
+{
+  "sample_id": 141,
+  "n_opinioes": 40,
+  "n_decompostas": 40,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 16,
+  "n_ancorados": 11,
+  "n_rejeitados": 5,
+  "n_incoerentes": 0,
+  "n_preservados": 5,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "condicao": 5,
+    "escopo": 4,
+    "grau": 1,
+    "atribuicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Professora Luciene Cavalcante",
+      "turno_id": 1,
+      "opiniao": "defende políticas públicas de enfrentamento à perseguição de professores, com observatório e coleta de dados para orientar ações",
+      "nucleo": "Defendeu políticas públicas de enfrentamento à perseguição de professores, com observatório e coleta de dados para orientar ações",
+      "tipo": "condicao",
+      "trecho": "Nós estamos trabalhando com os Ministérios para que haja um observatório para monitoramento dessas situações",
+      "char_start": 4790,
+      "char_end": 4898
+    },
+    {
+      "falante": "Talíria Petrone",
+      "turno_id": 10,
+      "opiniao": "defende enfrentamento contra forças que atacam a educação pública por serem uma ameaça à democracia",
+      "nucleo": "defendeu o enfrentamento contra forças que atacam a educação pública por serem uma ameaça à democracia",
+      "tipo": "grau",
+      "trecho": "de alguma maneira",
+      "char_start": 43954,
+      "char_end": 43971
+    },
+    {
+      "falante": "Letícia Cesarino",
+      "turno_id": 23,
+      "opiniao": "defende interromper o escalonamento do discurso de ódio contra professores desde as primeiras manifestações",
+      "nucleo": "defendeu interromper o escalonamento do discurso de ódio contra professores desde as primeiras manifestações",
+      "tipo": "condicao",
+      "trecho": "antes que escalem",
+      "char_start": 101843,
+      "char_end": 101860
+    },
+    {
+      "falante": "Letícia Cesarino",
+      "turno_id": 23,
+      "opiniao": "defende priorizar problemas concretos da educação, como infraestrutura, em vez de temas simbólicos",
+      "nucleo": "defendeu priorizar problemas concretos da educação, como infraestrutura, em vez de temas simbólicos",
+      "tipo": "escopo",
+      "trecho": "os problemas reais da escola",
+      "char_start": 106450,
+      "char_end": 106478
+    },
+    {
+      "falante": "Letícia Cesarino",
+      "turno_id": 23,
+      "opiniao": "defende ações de enfrentamento direto nos territórios, com abordagem horizontal e comunitária",
+      "nucleo": "defendeu ações de enfrentamento direto nos territórios, com abordagem horizontal e comunitária",
+      "tipo": "escopo",
+      "trecho": "diretamente nos territórios",
+      "char_start": 107785,
+      "char_end": 107812
+    },
+    {
+      "falante": "Professora Luciene Cavalcante",
+      "turno_id": 25,
+      "opiniao": "defende a criação de respostas imediatas e estruturadas, como o Observatório e o Disque 100, para proteger os profissionais da educação e a democracia nas escolas",
+      "nucleo": "defendeu a criação de respostas imediatas e estruturadas para proteger os profissionais da educação e a democracia nas escolas",
+      "tipo": "escopo",
+      "trecho": "no caso aqui",
+      "char_start": 114340,
+      "char_end": 114352
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 13,
+      "falante": "Pâmella Passos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "se julhar necessário verificar situações em instituições de ensino",
+      "opiniao": "propõe a elaboração de protocolos para fiscalização docente por deputados"
+    },
+    {
+      "turno_id": 21,
+      "falante": "Erasto Fortes Mendonça",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "especialmente quando promovida por autoridades públicas, como parlamentares",
+      "opiniao": "rejeita a perseguição a educadores, especialmente quando promovida por autoridades públicas, como parlamentares"
+    },
+    {
+      "turno_id": 21,
+      "falante": "Erasto Fortes Mendonça",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "por serem incompatíveis com os princípios da LDB",
+      "opiniao": "rejeita propostas legislativas que introduzam proibições no ensino, por serem incompatíveis com os princípios da LDB"
+    },
+    {
+      "turno_id": 21,
+      "falante": "Erasto Fortes Mendonça",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com base em dados e pesquisas do Observatório da Violência",
+      "opiniao": "apoia a criação de uma política nacional de proteção a educadores com base em dados e pesquisas do Observatório da Violência"
+    },
+    {
+      "turno_id": 31,
+      "falante": "Erasto Fortes Mendonça",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente diante de tentativas de ruptura",
+      "opiniao": "afirma que o compromisso do Brasil com a democracia é inegociável, especialmente diante de tentativas de ruptura"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.4545,
+  "taxa_ancoragem": 0.6875,
+  "taxa_opiniao_intacta": 0.85
+}

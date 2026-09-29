@@ -1,0 +1,536 @@
+{
+  "sample_id": 202,
+  "n_opinioes": 13,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 12,
+  "n_fundamentos_propostos": 44,
+  "n_fundamentos_ancorados": 41,
+  "n_fundamentos_com_numero": 22,
+  "por_tipo": {
+    "dado": 35,
+    "autoridade": 6
+  },
+  "n_contrapontos_propostos": 8,
+  "n_com_contraponto": 6,
+  "n_rejeitados": 5,
+  "itens": [
+    {
+      "opiniao": "defende que a quiropraxia é uma profissão distinta e regulamentada, não uma técnica, e que seu exercício deve ser restrito a formados",
+      "falante": "Daniel Facchini",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Todas estas coisas listadas aqui: atende pacientes, comunica-se, aplica testes, estabelece diagnóstico quiroprático — que não se confunde em nada com o diagnóstico nosológico ou fisioterapêutico —, trata, orienta e exerce atividades científicas.",
+          "char_start": 13615,
+          "char_end": 13860,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Tudo isso que é definido pelo Ministério do Trabalho como prerrogativas do quiropraxista, todas essas coisas demandam, aproximadamente, 4 mil horas de estudo, que são divididas, nas faculdades, entre 4 anos e 5 anos de estudo no País.",
+          "char_start": 13861,
+          "char_end": 14095,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quando nós procuramos, junto ao Ministério da Saúde, quem atende como quiropraxistas no SUS, nós vemos mais quiropraxistas bacharéis, que representam, como vocês podem ver, 45% dos atendimentos no Sistema Único de Saúde brasileiro, do que profissionais que, somados, atingem mais de 1 milhão, incluindo pessoas leigas",
+          "char_start": 11924,
+          "char_end": 12241,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Organização Mundial da Saúde, que diz que a quiropraxia é uma profissão.",
+          "char_start": 15283,
+          "char_end": 15357,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "A Federação Mundial de Quiropraxia, à qual a Associação Brasileira de Quiropraxia é filiada, também diz que a quiropraxia é uma profissão separada.",
+          "char_start": 15358,
+          "char_end": 15505,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O Conselho de Educação Internacional em Quiropraxia, que auxilia a manutenção de cursos de alta qualidade no mundo inteiro, diz que a quiropraxia é uma profissão separada.",
+          "char_start": 15506,
+          "char_end": 15677,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a antiga WCPT — World Confederation for Physical Therapy, a Confederação Mundial da Fisioterapia, que agora é World Physiotherapy, também diz a mesma coisa, que a fisioterapia e a quiropraxia são profissões distintas, com a sua própria história, filosofia de tratamento e escopo de prática.",
+          "char_start": 15761,
+          "char_end": 16051,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a regulamentação da profissão de quiropraxia como solução para garantir segurança, qualidade e acesso",
+      "falante": "Daniel Facchini",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Isso aconteceu — foi publicado em um periódico de que vocês podem ver a referência ali embaixo: Ramos e colaboradores, 2021 —, aqui em São Paulo, no Brasil.",
+          "char_start": 9527,
+          "char_end": 9683,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "uma fratura da coluna cervical, no pescoço, que resulta em tetraplegia.",
+          "char_start": 9455,
+          "char_end": 9526,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje — e isso é só para refrescar com números a memória de todos nós — há mais de 200 mil fisioterapeutas no País, há mais de 600 mil enfermeiros no País, há mais de 500 mil médicos no País.",
+          "char_start": 11728,
+          "char_end": 11918,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nós vemos mais quiropraxistas bacharéis, que representam, como vocês podem ver, 45% dos atendimentos no Sistema Único de Saúde brasileiro",
+          "char_start": 12017,
+          "char_end": 12154,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "pesquisas sempre mostram um índice de satisfação altíssimo. Quase 90% das pessoas atendidas dizem:\"Isso é excelente!\"",
+          "char_start": 12484,
+          "char_end": 12601,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje há profissionais bacharéis em quiropraxia, pessoas que foram para a faculdade, estudaram por 5 anos, tudo certinho, como tem que ser",
+          "char_start": 12761,
+          "char_end": 12898,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "hoje, no Brasil, existem cinco cursos de quiropraxia espalhados em diferentes Estados. Esses cursos todos são aprovados, têm portaria de reconhecimento do Ministério de Educação, e dois deles já trabalham há 23 anos, formando quiropraxistas espalhados por todos os cantos do Brasil.",
+          "char_start": 16160,
+          "char_end": 16442,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há, portanto, cursos espalhados por todo o Brasil.",
+          "char_start": 16905,
+          "char_end": 16955,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nós temos os cursos que agem certinho, como tem que ser, e, em 4 anos a 5 anos, com 4 mil horas-aula, formam um profissional da saúde,versuscursos sem regulamentação — esse é o cenário — de 3 dias, 100%on-line.",
+          "char_start": 17631,
+          "char_end": 17841,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Curso Livre de quiropraxia em 6 dias, ou seja, para qualquer pessoa, qualquer um aqui nesta sala. Se a sua formação é como advogado, amanhã você pode virar quiropraxista. E com 2 dias de curso já está ótimo!",
+          "char_start": 18130,
+          "char_end": 18337,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Curso de quiropraxia científica. Você vai ver aqui que são 100 horas-aula. Há curso aqui gratuito eon-line.",
+          "char_start": 18449,
+          "char_end": 18556,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os cursos de especialização em quiropraxia para fisioterapeutas têm setecentas e poucas horas, boa parte deles à distância. Há outros aqui de 360 horas, como foi mostrado anteriormente.",
+          "char_start": 18838,
+          "char_end": 19023,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quando, em 2001, o Conselho Federal de Fisioterapia editou a Resolução nº 220, que colocou a quiropraxia como uma das especialidades do fisioterapeuta, ele dizia que tinham que ser 1.500 horas.",
+          "char_start": 19165,
+          "char_end": 19358,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se olharmos, veremos que há cursos de 360 horas, 100 horas, 40 horas, 30 horas.",
+          "char_start": 19516,
+          "char_end": 19595,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aprofundamento do debate sobre a regulamentação da quiropraxia, com base na formação já existente em outras profissões e na segurança do paciente",
+      "falante": "Estevam Rivello",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em nosso caso, na medicina, temos 7.260 horas para nos tornarmos médicos no País, em 6 anos de formação.",
+          "char_start": 22745,
+          "char_end": 22849,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o neurocirurgião, que tem formação de mais 5 anos na sua graduação",
+          "char_start": 23012,
+          "char_end": 23078,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o ortopedista, que, diferentemente, tem 3 anos na formação de residência médica, mas pode se subespecializar ainda em coluna, com mais 2 anos de formação",
+          "char_start": 23082,
+          "char_end": 23235,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Foi bem dito aqui que, em 4 mil horas, ele vai adquirir essa capacidade.",
+          "char_start": 24125,
+          "char_end": 24197,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nós estamos falando de um profissional que possui mais de 10 mil horas de formação, sem sombra de dúvida.",
+          "char_start": 23374,
+          "char_end": 23479,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Foi bem dito aqui que, em 4 mil horas, ele vai adquirir essa capacidade.",
+        "resposta": "Eu estou com um profissional médico com mais de 10 mil horas, um neurocirurgião com mais de 12 mil horas de formação, e, ainda assim, ele tem certa limitação.",
+        "objecao_char_start": 24125,
+        "objecao_char_end": 24197,
+        "resposta_char_start": 24198,
+        "resposta_char_end": 24356,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "opõe-se à regulamentação da quiropraxia como profissão distinta, por considerá-la recurso já incluído na fisioterapia e por basear-se em pseudociência",
+      "falante": "Marcelo Renato Massahud Junior",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, no Brasil, não somos 200 mil, mas quase 400 mil fisioterapeutas que utilizam a manipulação articular, ou seja, os recursos da quiropraxia e da osteopatia.",
+          "char_start": 31123,
+          "char_end": 31283,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O nosso decreto-lei fala que é atividade privativa do fisioterapeuta executar métodos e técnicas fisioterápicos, com a finalidade de restaurar, desenvolver e conservar a capacidade física do cliente.",
+          "char_start": 27510,
+          "char_end": 27709,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Ainda assim, a nossa Resolução COFFITO nº 8 diz o que são esses recursos fisioterápicos, essas terapias físicas: são o ato privativo de prescrever, ministrar, supervisionar terapias físicas, objetivando preservar, manter, desenvolver, restaurar a integridade dos órgãos ou sistemas do corpo humano.",
+          "char_start": 27711,
+          "char_end": 28009,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O complexo subluxação é uma teoria de Palmer que diz que, se a inteligência inata — a energia vital — tiver alguma obstrução, irá causar doenças, devendo ser corrigida essa subluxação.",
+          "char_start": 30393,
+          "char_end": 30577,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não existe nenhum trabalho que mostre que exista realmente um bloqueio no fluxo de energia vital ou que exista realmente esse fluxo, nem que fazer esse tratamento vá tratar, reabilitar ou manter a saúde de alguma forma, a não ser nas condições de dor e movimento.",
+          "char_start": 30578,
+          "char_end": 30841,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Falou-se sobre a formação.",
+        "resposta": "Para ser um fisioterapeuta quiropraxista, o fisioterapeuta deve fazer 4 mil horas de formação, ou seja, 5 anos de uma graduação e diversos cursos. Como foi dito sobre cursos de 100 horas, 200 horas, utilizar o recurso é uma coisa, mas, para ser um especialista em quiropraxia, o fisioterapeuta precisa de 4 anos mais, no mínimo, 2 anos de experiência adquirida em cursos, pós-graduações, congressos e publicações que atinja, minimamente, 1.500 horas.",
+        "objecao_char_start": 31096,
+        "objecao_char_end": 31122,
+        "resposta_char_start": 31713,
+        "resposta_char_end": 32163,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o debate sobre quiropraxia é oportuno e benéfico para aprimorar a regulação da profissão",
+      "falante": "Evergisto Souto Maior",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Sim, nós podemos aparar arestas.",
+          "char_start": 35402,
+          "char_end": 35434,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não estamos aqui querendo polemizar.",
+        "resposta": "Na verdade, eu penso que este é o momento. Eu acho que é muito salutar, Deputada, é fantástica a iniciativa deste debate.",
+        "objecao_char_start": 35243,
+        "objecao_char_end": 35279,
+        "resposta_char_start": 35280,
+        "resposta_char_end": 35401,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende que a regulamentação de profissões de saúde deve considerar rigor técnico-científico, segurança ao paciente e integração na equipe multidisciplinar, não apenas a existência de formação profissional.",
+      "falante": "Alice Portugal",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A medicina veio formalmente para o Brasil com D. João VI, em 1808",
+          "char_start": 37937,
+          "char_end": 38002,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "há uma ou duas por vir",
+          "char_start": 37029,
+          "char_end": 37051,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "cinco graduações existentes no Brasil",
+          "char_start": 36987,
+          "char_end": 37024,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "É evidente que não se quer prejudicar quem estudou e quem tem um fazer especializado.",
+        "resposta": "Mas, dentro do escopo, do tronco de organização das profissões de saúde, nós não teríamos como transformar os atuais cursos em cursos que especializem fisioterapeutas?",
+        "objecao_char_start": 42274,
+        "objecao_char_end": 42359,
+        "resposta_char_start": 42360,
+        "resposta_char_end": 42527,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende que decisões sobre regulamentação profissional em saúde devem ser baseadas em evidência técnica e científica, não em pressão ou regionalismo.",
+      "falante": "Alice Portugal",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós precisamos ter um debate técnico-científico em respeito a quem tem uma técnica... Eu chamo de técnica, mas evidentemente respeito a denominação que vocês se autoproclamam.",
+          "char_start": 44099,
+          "char_end": 44274,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que manter a não regulamentação perpetua um estado caótico e prejudicial à saúde pública",
+      "falante": "Daniel Facchini",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A manutenção dostatus quo, que é a não regulamentação, não significa que nós não atuemos: os quiropraxistas continuam se formando, continuam atuando. Seria simplesmente a manutenção dostatus quoe desse estado caótico que eu demonstrei na apresentação.",
+          "char_start": 47316,
+          "char_end": 47567,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se à regulamentação de novas profissões com base em reconhecimento internacional ou abertura de cursos não regulamentados",
+      "falante": "Estevam Rivello",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o MEC já abriu, de que organizações internacionais já reconhecem",
+          "char_start": 49432,
+          "char_end": 49496,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o MEC já abriu, de que organizações internacionais já reconhecem",
+        "resposta": "não temos por que instituir no Brasil dentro da medicina",
+        "objecao_char_start": 49432,
+        "objecao_char_end": 49496,
+        "resposta_char_start": 50303,
+        "resposta_char_end": 50359,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que não se deve aprovar lei que inclua termo sem comprovação científica, como o complexo de subluxação",
+      "falante": "Paulo Mayall Guilayn",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "o representante do Conselho de Fisioterapia na qual ele declarou que o complexo de subluxação, que é a base da quiropraxia, não tem base científica",
+          "char_start": 53464,
+          "char_end": 53611,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Acredito que outros especialistas possam dar provas de base científica para o complexo de subluxação",
+        "resposta": "Porém, como esse termo está sendo usado na redação do projeto de lei, acredito que precisamos nos aprofundar nele, afinal, não gostaria que o Congresso aprovasse uma lei em que consta um termo que não é exatamente comprovado cientificamente",
+        "objecao_char_start": 53833,
+        "objecao_char_end": 53933,
+        "resposta_char_start": 53935,
+        "resposta_char_end": 54175,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "é contrário à criação de novas profissões como solução para regulamentação",
+      "falante": "Paulo Mayall Guilayn",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje há uma fila muito grande para se regulamentar",
+          "char_start": 54342,
+          "char_end": 54392,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a realização de nova audiência pública antes da votação do projeto, para garantir ampla discussão técnica e participação equilibrada.",
+      "falante": "Alice Portugal",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "para que possamos dar oportunidade de fala a todos e todas",
+          "char_start": 55728,
+          "char_end": 55786,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "A OMS tem publicacoes sobre o assunto bastante extensivas e recomenda o uso da quiropraxia"
+    },
+    {
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "nos entendemos que a quiropraxia nao necessitaria de uma lei propria. Na verdade, ela poderia ser incluida como uma especialidade da fisioterapia ou da medicina"
+    },
+    {
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "na ultima vez em que eu pesquisei, 27 profissoes demandaram sua regulamentacao, e muito poucas realmente foram regulamentadas"
+    },
+    {
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "a quiropraxia e uma tecnica bastante evoluída atualmente e bastante importante em termos de saude"
+    },
+    {
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que a regulamentação não é necessária porque já existem profissionais atuando."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9231,
+  "taxa_contraponto": 0.4615,
+  "taxa_ancoragem_fundamento": 0.9318
+}

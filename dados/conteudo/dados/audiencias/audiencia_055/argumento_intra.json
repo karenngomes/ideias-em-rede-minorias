@@ -1,0 +1,585 @@
+{
+  "sample_id": 55,
+  "n_opinioes": 51,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 18,
+  "n_fundamentos_propostos": 38,
+  "n_fundamentos_ancorados": 38,
+  "n_fundamentos_com_numero": 19,
+  "por_tipo": {
+    "dado": 35,
+    "autoridade": 3
+  },
+  "n_contrapontos_propostos": 5,
+  "n_com_contraponto": 4,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "Defende a revogação da Emenda Constitucional nº 103, que permite o confisco de aposentadorias de servidores e pensionistas abaixo do teto do INSS.",
+      "falante": "Professora Luciene Cavalcante",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "servidores públicos que recebem abaixo do teto do INSS possam ter confiscados, retirados, até 14% dos seus vencimentos",
+          "char_start": 2485,
+          "char_end": 2603,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Corte Interamericana de Direitos Humanos já tem posicionamento sobre esse assunto e condena essa prática",
+          "char_start": 2872,
+          "char_end": 2978,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "temos ações em julgamento",
+          "char_start": 3040,
+          "char_end": 3065,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a revogação da EC 103 por ser ilegal, inconstitucional e machista, por penalizar desproporcionalmente as mulheres servidoras.",
+      "falante": "Professora Luciene Cavalcante",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Lembro que a EC 103 penaliza sobretudo as mulheres do serviço público, que tiveram aumento maior da idade mínima para se aposentar.",
+          "char_start": 19072,
+          "char_end": 19203,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Somos nós mulheres o maior contingente de servidores públicos, porque nós somos a maioria nos serviços de massa da educação, da saúde, da assistência social.",
+          "char_start": 19204,
+          "char_end": 19361,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a votação da PEC 555 para acabar com a cobrança de contribuições de aposentados e pensionistas",
+      "falante": "José Gozze",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não é que ocorreu confisco somente com essa retirada do salário para o SPPREV",
+          "char_start": 21550,
+          "char_end": 21627,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "não é feita reposição salarial",
+          "char_start": 21645,
+          "char_end": 21675,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "2 milhões que o Judiciário recebeu a mais",
+          "char_start": 21996,
+          "char_end": 22037,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "desconto de quem ganha pouco mais de um salário mínimo",
+          "char_start": 22393,
+          "char_end": 22447,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não diga que é por falta de verba",
+        "resposta": "isso não é verdadeiro, basta ver como anda São Paulo",
+        "objecao_char_start": 21872,
+        "objecao_char_end": 21905,
+        "resposta_char_start": 21907,
+        "resposta_char_end": 21959,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende mudanças na reforma da Previdência para corrigir desvalorização do serviço público",
+      "falante": "José Gozze",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Tudo vem dessa última reforma da Previdência, que tem nas entrelinhas várias questões ainda não resolvidas",
+          "char_start": 23598,
+          "char_end": 23704,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "houve a oportunidade de o Presidente Bolsonaro baixar um decreto em que os aposentados e pensionistas seriam administrados pelo INSS",
+          "char_start": 23764,
+          "char_end": 23896,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "exige a devolução do dinheiro retirado de aposentados e pensionistas e a reposição da inflação não paga",
+      "falante": "José Gozze",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "devolvam o dinheiro que roubaram do aposentado e do pensionista",
+          "char_start": 24191,
+          "char_end": 24254,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "repor a inflação que não foi reposta até hoje",
+          "char_start": 24760,
+          "char_end": 24805,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "SPPREV, que não comprovou que está deficitário, já tomou dinheiro dos aposentados",
+          "char_start": 21119,
+          "char_end": 21200,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "dizem que não têm dinheiro para a reposição do servidor do Judiciário",
+        "resposta": "isso não é verdadeiro, basta ver como anda São Paulo",
+        "objecao_char_start": 22041,
+        "objecao_char_end": 22110,
+        "resposta_char_start": 21907,
+        "resposta_char_end": 21959,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a revogação da Emenda nº 103 de 2019 para impedir confisco previdenciário sobre aposentados e pensionistas em qualquer Estado",
+      "falante": "Maria Walneide Ribeiro de Oliveira Romano",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Passados mais de 2 anos, o Governador Rodrigo Garcia sancionou, no dia 4 de novembro de 2022, a lei aprovada por unanimidade pela Assembleia Legislativa de São Paulo, que revogou a contribuição previdenciária de servidores aposentados e pensionistas do Estado, que ganham até o teto salarial do INSS, hoje 7 mil, 507 reais e 49 centavos.",
+          "char_start": 29833,
+          "char_end": 30170,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No dia 20 de junho de 2020, oDiário Oficialde São Paulo trouxe o Decreto nº 65.021, de autoria do então Governador João Doria.",
+          "char_start": 26097,
+          "char_end": 26223,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "estabeleceu a cobrança de contribuição previdenciária para os aposentados que recebiam acima de um salário mínimo e abaixo do teto do INSS, de que até então nós éramos isentos, e com índices escalonados de 12%, 14% e 16%.",
+          "char_start": 26321,
+          "char_end": 26542,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reafirma o compromisso da APAMPESP em atuar continuamente contra ameaças aos direitos previdenciários",
+      "falante": "Maria Walneide Ribeiro de Oliveira Romano",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A APAMPESP, sozinha, pelo interior, visitou 330 Câmaras Municipais.",
+          "char_start": 28663,
+          "char_end": 28730,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Firmamos aqui o nosso compromisso, como entidade de classe, com mais de 20 mil associados, de estar presentes e combativos em todas as ocasiões que se fizerem necessárias, Deputada.",
+          "char_start": 30767,
+          "char_end": 30948,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a Emenda nº 103 de 2019 por aprofundar desigualdades e prejudicar servidores, mulheres e pessoas com deficiência",
+      "falante": "Norma Lúcia Andrade dos Santos",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No Município de São Paulo, há em média, pelo cálculo que uma colega de outro sindicato trouxe, 4 mil pessoas com doença incapacitante aposentadas",
+          "char_start": 34323,
+          "char_end": 34468,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quando pagávamos acima do teto do INSS já era ruim, agora atinge os servidores que ganham menos, portanto pagam muito",
+          "char_start": 33948,
+          "char_end": 34065,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Aqui em São Paulo estamos pagando a partir de um salário mínimo",
+          "char_start": 33883,
+          "char_end": 33946,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o discurso neoliberal contra o serviço público é uma demonização que não corresponde à realidade da maioria dos servidores",
+      "falante": "Guilherme Boulos",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não é a realidade de mais de 90% dos servidores",
+          "char_start": 36927,
+          "char_end": 36974,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a valorização dos servidores é condição para a existência de um serviço público de qualidade, em todas as áreas essenciais",
+      "falante": "Guilherme Boulos",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "sem servidor valorizado, não existe serviço público de qualidade na ponta, em qualquer área, na educação, na saúde, na assistência social e mesmo nas áreas meio, que são essenciais para o funcionamento da máquina pública",
+          "char_start": 37379,
+          "char_end": 37599,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia a PEC da Deputada Luciene para revogar ou impedir o confisco de aposentadorias por Estados e Municípios",
+      "falante": "Guilherme Boulos",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "vamos seguir a PEC que a Deputada Luciene apresentou,para que possamos revogar ou impedir inclusive a possibilidade de que Estados e Municípios façam o confisco",
+          "char_start": 38069,
+          "char_end": 38229,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a pauta nacional contra o confisco de aposentadorias, com destaque para o caso da Capital de São Paulo",
+      "falante": "Guilherme Boulos",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Agora nós temos esse desafio na Capital de São Paulo e temos o desafio de pautá-lo nacionalmente para todo o País",
+          "char_start": 38450,
+          "char_end": 38563,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a revogação da Emenda Constitucional nº 103/2019 como condição para proteger os direitos dos aposentados",
+      "falante": "Malu Leite Persiani",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No ano de 2019, no Governo Bolsonaro, através da Emenda Constitucional nº 103, de 2019, houve a reforma da Previdência que defende que, caso haja déficit na contribuição do regime previdenciário, os aposentados poderiam ter parte do salário confiscado, o que abriu precedente para que Municípios e Estados fizessem também a própria reforma da Previdência.",
+          "char_start": 41187,
+          "char_end": 41542,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a união nacional dos aposentados para combater a reforma previdenciária e revogar a Emenda 103/2019",
+      "falante": "Malu Leite Persiani",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Somos mais de 550 mil aposentados no nosso Estado.Então, segundo o Deputado, 600 mil.",
+          "char_start": 40807,
+          "char_end": 40892,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a revogação da Emenda Constitucional nº 103 por ferir direitos e promover confisco de proventos",
+      "falante": "Margarida Prado Genofre",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Município de São Paulo tem em caixa cerca de 34 bilhões e teve um incremento na sua arrecadação de cerca de 16,36% só este ano",
+          "char_start": 52826,
+          "char_end": 52954,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "desde 2002, 0,01% serve como revisão geral anual",
+          "char_start": 53350,
+          "char_end": 53398,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o nosso Supremo Tribunal Federal ainda não acabou de julgá-las",
+          "char_start": 51924,
+          "char_end": 51986,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "alegando que havia déficit previdenciário, que não sabemos se existe",
+        "resposta": "o Município de São Paulo não tem problema de arrecadação. Ele tem sobra, tem superávit, sim",
+        "objecao_char_start": 52695,
+        "objecao_char_end": 52763,
+        "resposta_char_start": 52963,
+        "resposta_char_end": 53054,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "apoia a Proposta de Emenda à Constituição nº 555 como meio para revogar a Emenda nº 103",
+      "falante": "Margarida Prado Genofre",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "na rede direta de educação infantil, nós temos menos de 400 escolas; já na rede conveniada são quase 4 mil",
+          "char_start": 55849,
+          "char_end": 55955,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a valorização do serviço público como questão de honra, dignidade e desenvolvimento nacional, vinculando-a à proteção de vidas e à manutenção de serviços essenciais.",
+      "falante": "Paulo Dimas",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O servidor público serve vidas. Ele educa, ele protege, ele cuida.",
+          "char_start": 58757,
+          "char_end": 58823,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "São vidas que estão em jogo não só dos servidores aposentados, mas também dos da ativa, que estão sem perspectiva de vida, estão sem projetos, e das pessoas que necessitam das escolas, da proteção, da saúde, que também não vão ter.",
+          "char_start": 59186,
+          "char_end": 59417,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a cobrança previdenciária de aposentados deveria incidir apenas sobre valores acima do teto do Regime Geral, ou ser totalmente revogada",
+      "falante": "Walkiria Olegário Mazeto",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "40.170 recebem abaixo de três salários mínimos",
+          "char_start": 62844,
+          "char_end": 62890,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há 40 mil que nem têm a cobrança hoje, porque os seus salários não chegam a três salários mínimos",
+          "char_start": 63187,
+          "char_end": 63284,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "um salário de até 3.900 reais",
+          "char_start": 63373,
+          "char_end": 63402,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "31 mil aposentados de todas as categorias",
+          "char_start": 63822,
+          "char_end": 63863,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Aqui a proposta era ser acima de um salário mínimo.",
+        "resposta": "Depois de muita briga na Assembleia Legislativa, nós conseguimos que ficasse em três.",
+        "objecao_char_start": 64357,
+        "objecao_char_end": 64408,
+        "resposta_char_start": 64409,
+        "resposta_char_end": 64494,
+        "ancorado": true
+      }
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Maria Walneide Ribeiro de Oliveira Romano",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns podem argumentar que a manutenção da Emenda nº 103 de 2019 é necessária para equilibrar as contas previdenciárias dos Estados."
+    }
+  ],
+  "turnos_perdidos": [
+    {
+      "turno_id": 4,
+      "falante": "Carlos Giannazi",
+      "opinioes": 4,
+      "erro": "JSONDecodeError: Expecting ',' delimiter: line 9 column 175 (char 853)"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Francisco Antônio Poli",
+      "opinioes": 5,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 24,
+      "falante": "Celso Giannazi",
+      "opinioes": 1,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 26,
+      "falante": "Erika Kokay",
+      "opinioes": 5,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 28,
+      "falante": "João Domingos Gomes dos Santos",
+      "opinioes": 4,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 30,
+      "falante": "Marco Antonio Pereira",
+      "opinioes": 2,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 32,
+      "falante": "Camilla Louise Galdino Cândido",
+      "opinioes": 3,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 34,
+      "falante": "Sérgio Antônio Kumpfer",
+      "opinioes": 5,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 36,
+      "falante": "Thaíse Antunes",
+      "opinioes": 1,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 38,
+      "falante": "Thaíse Antunes",
+      "opinioes": 1,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 40,
+      "falante": "Marcilon Duarte",
+      "opinioes": 1,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    },
+    {
+      "turno_id": 43,
+      "falante": "Professora Luciene Cavalcante",
+      "opinioes": 1,
+      "erro": "RuntimeError: falha após 5 tentativas: Error code: 429 - {'error': {'message': 'Model busy, retry later', 'type': 'invalid_request_err"
+    }
+  ],
+  "taxa_fundamentacao": 0.3529,
+  "taxa_contraponto": 0.0784,
+  "taxa_ancoragem_fundamento": 1.0
+}

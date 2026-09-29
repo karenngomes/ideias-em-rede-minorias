@@ -1,0 +1,63 @@
+{
+  "sample_id": 28,
+  "n_opinioes": 14,
+  "n_decompostas": 14,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 11,
+  "n_ancorados": 10,
+  "n_rejeitados": 1,
+  "n_incoerentes": 0,
+  "n_preservados": 7,
+  "n_perdidos": 3,
+  "por_tipo": {
+    "condicao": 8,
+    "grau": 1,
+    "atribuicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Gilberto Martins",
+      "turno_id": 14,
+      "opiniao": "defende a padronização entre concessionárias e oficinas independentes por meio de credenciamento e acesso controlado ao software",
+      "nucleo": "defendeu a padronização entre concessionárias e oficinas independentes por meio de credenciamento e acesso controlado ao software",
+      "tipo": "condicao",
+      "trecho": "para que consigamos atingir o mínimo possível de erro no reparo",
+      "char_start": 36685,
+      "char_end": 36748
+    },
+    {
+      "falante": "Marcelo Luiz Dias da Silva Gabriel",
+      "turno_id": 22,
+      "opiniao": "critica a proposta da ANFAVEA por manter vínculos obrigatórios, defendendo modelo europeu que assegura liberdade plena ao consumidor na escolha da oficina",
+      "nucleo": "criticou a proposta da ANFAVEA por manter vínculos obrigatórios e defendeu o modelo europeu de liberdade plena ao consumidor na escolha da oficina",
+      "tipo": "grau",
+      "trecho": "em parte",
+      "char_start": 40229,
+      "char_end": 40237
+    },
+    {
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 32,
+      "opiniao": "reafirma o direito do consumidor de escolher livremente onde realizar reparos em seu veículo, com responsabilidade atribuída à oficina",
+      "nucleo": "reafirmou o direito do consumidor de escolher livremente onde realizar reparos em seu veículo",
+      "tipo": "condicao",
+      "trecho": "desde que as informações sejam claras",
+      "char_start": 47388,
+      "char_end": 47425
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 17,
+      "falante": "Gilberto Martins",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com base em modelos legais existentes",
+      "opiniao": "defende que o aprofundamento da discussão deve estabelecer limites claros para oficinas independentes, com base em modelos legais existentes"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.7,
+  "taxa_ancoragem": 0.9091,
+  "taxa_opiniao_intacta": 0.7857
+}

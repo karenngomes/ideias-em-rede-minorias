@@ -1,0 +1,3404 @@
+{
+  "sample_id": 108,
+  "n_turnos": 64,
+  "n_turnos_codificados": 35,
+  "n_codigos": 242,
+  "n_rejeitados": 3,
+  "taxa_rejeicao": 0.0435,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 35,
+      "distribuicao": {
+        "interrompido": 0,
+        "normal": 35
+      },
+      "media": 1.0,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 34,
+      "distribuicao": {
+        "nenhuma": 13,
+        "inferior": 2,
+        "qualificada": 19,
+        "sofisticada": 0
+      },
+      "media": 1.1765,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 34,
+      "distribuicao": {
+        "interesse_de_grupo": 2,
+        "neutro": 14,
+        "bem_comum_utilitario": 18,
+        "bem_comum_diferenca": 0
+      },
+      "media": 1.4706,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 34,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 13,
+        "explicito_positivo": 21
+      },
+      "media": 1.6176,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 35,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 34,
+        "explicito_positivo": 1
+      },
+      "media": 1.0286,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 35,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 33,
+        "inclui": 2,
+        "valoriza": 0
+      },
+      "media": 1.0571,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 35,
+      "distribuicao": {
+        "posicional": 34,
+        "proposta_alternativa": 1,
+        "proposta_mediadora": 0
+      },
+      "media": 0.0286,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Alexandre Sampaio de Abreu": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Ana Carolina Dias Medeiros de Souza": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Bibo Nunes": {
+        "participacao": {
+          "n": 5,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 0.8
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.0
+        }
+      },
+      "Carolina Negri": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Daniel Trzeciak": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Doreni Caramori Junior": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Enid Câmara de Vasconcellos": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Fabiano Turini de Camargo": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Fabio Godinho": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Flávio Peruzzi": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Jorge Goetten": {
+        "participacao": {
+          "n": 6,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 6,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 6,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 6,
+          "media": 1.1667
+        },
+        "respeito_grupos": {
+          "n": 6,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 6,
+          "media": 1.1667
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 0.0
+        }
+      },
+      "João Alberto Ribeiro Pinheiro": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Magda Mofatto": {
+        "participacao": {
+          "n": 5,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 0.4
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.2
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.0
+        }
+      },
+      "Manoel Linhares": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Milton Sérgio Silveira Zuanazzi": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Orlando de Souza": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Paulo Litro": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Robinson Faria": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Rodrigo Dias": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Thiago Borges": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Thiago Xavier": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Paulo Litro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Thiago Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Manoel Linhares",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Daniel Trzeciak",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Alexandre Sampaio de Abreu",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Fabiano Turini de Camargo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Flávio Peruzzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Rodrigo Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Orlando de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Carolina Negri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Thiago Borges",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Doreni Caramori Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Ana Carolina Dias Medeiros de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Enid Câmara de Vasconcellos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "João Alberto Ribeiro Pinheiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Fabio Godinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Milton Sérgio Silveira Zuanazzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Paulo Litro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Paulo Litro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Paulo Litro",
+      "trecho": "não achamos cabível mudar a regra do jogo enquanto o jogo está em andamento",
+      "char_start": 3745,
+      "char_end": 3820,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Paulo Litro",
+      "trecho": "Todos vocês sabem da importância do segmento do setor de eventos e turismo — setor de eventos representa 4,5%, o setor do turismo 8% do PIB do País —, que geram, juntos, quase 11 milhões de empregos diretos. O PERSE é importantíssimo para a retomada desses dois segmentos, que sofreram muito nos últimos anos, principalmente no momento da pandemia, já que foram os primeiros a parar e os últimos a retomar os trabalhos.",
+      "char_start": 3164,
+      "char_end": 3583,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Paulo Litro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Bibo Nunes",
+      "trecho": "Se for aprovada essa mudança, os setores beneficiados serão reduzidos em quase 70%, passando de 44 para 12 atividades. O PERSE custou ao Governo algo em torno de 17 a 32 bilhões, no período de 2021 a 2023. No entanto, o fim desse programa representará uma retirada entre 120 bilhões e 244 bilhões de reais na economia. Vejam o que pode acontecer.",
+      "char_start": 6118,
+      "char_end": 6464,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Bibo Nunes",
+      "trecho": "No entanto, o fim desse programa representará uma retirada entre 120 bilhões e 244 bilhões de reais na economia.",
+      "char_start": 6324,
+      "char_end": 6436,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Bibo Nunes",
+      "trecho": "O turismo, no Brasil, não tem até hoje o seu valor reconhecido.",
+      "char_start": 4616,
+      "char_end": 4679,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Thiago Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Thiago Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Thiago Xavier",
+      "trecho": "O PL faz um rápido enxugamento do programa. O alcance do programa fica completamente comprometido. No último ano, 90% do valor do programa seria reduzido.",
+      "char_start": 16125,
+      "char_end": 16279,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Thiago Xavier",
+      "trecho": "O PL faz um rápido enxugamento do programa. O alcance do programa fica completamente comprometido. No último ano, 90% do valor do programa seria reduzido.",
+      "char_start": 16125,
+      "char_end": 16279,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Thiago Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Thiago Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Manoel Linhares",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Manoel Linhares",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Manoel Linhares",
+      "trecho": "A continuidade do apoio governamental, por meio do PERSE adaptado para o turismo, é vital para que possamos não apenas recuperar o que foi perdido, mas também investir no imenso potencial turístico do Brasil. Esse não é apenas um investimento em empresa ou destino, mas um investimento no povo brasileiro, na nossa capacidade de acolher, de encantar e de criar memórias indeléveis para quem escolhe explorar nossas terras. É investimento na imagem do Brasil no cenário mundial, destacando nossa riqueza natural, cultural e humana.",
+      "char_start": 22916,
+      "char_end": 23446,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Manoel Linhares",
+      "trecho": "Esse não é apenas um investimento em empresa ou destino, mas um investimento no povo brasileiro, na nossa capacidade de acolher, de encantar e de criar memórias indeléveis para quem escolhe explorar nossas terras. É investimento na imagem do Brasil no cenário mundial, destacando nossa riqueza natural, cultural e humana.",
+      "char_start": 23125,
+      "char_end": 23446,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Manoel Linhares",
+      "trecho": "Saúdo todas as mulheres representantes de entidades, como minha amiga Ana Carolina Medeiros, Presidente da ABAV.",
+      "char_start": 20638,
+      "char_end": 20750,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Manoel Linhares",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Daniel Trzeciak",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Daniel Trzeciak",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Daniel Trzeciak",
+      "trecho": "O que o setor, que gera emprego, que gera renda, está pedindo é previsibilidade e segurança jurídica e o cumprimento do que foi feito no momento de pandemia, para que possamos manter essas atividades, com esse programa, até 2027.",
+      "char_start": 26926,
+      "char_end": 27155,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Daniel Trzeciak",
+      "trecho": "O que o setor, que gera emprego, que gera renda, está pedindo é previsibilidade e segurança jurídica e o cumprimento do que foi feito no momento de pandemia, para que possamos manter essas atividades, com esse programa, até 2027.",
+      "char_start": 26926,
+      "char_end": 27155,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Daniel Trzeciak",
+      "trecho": "Cumprimento todas as senhoras e todos senhores empreendedores que acreditam no potencial turístico do nosso País, que geram emprego, que colocam um patrimônio lá para poder investir, com um risco muito grande.",
+      "char_start": 25369,
+      "char_end": 25578,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Daniel Trzeciak",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Jorge Goetten",
+      "trecho": "O que está em jogo são os valores do País, os princípios do País, e não só a parte econômica!",
+      "char_start": 30937,
+      "char_end": 31030,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Jorge Goetten",
+      "trecho": "Eu quero saudar todos vocês e, ao mesmo tempo, saudar os representantes de todos os setores, de todas as entidades que aqui estão.",
+      "char_start": 29010,
+      "char_end": 29140,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Jorge Goetten",
+      "trecho": "Nós deveríamos discutir o que vocês precisam! Que nós criemos políticas públicas para incentivá-los e motivá-los e, de fato, ocupar esse espaço, que é nosso de direito pelas belezas naturais que nós possuímos.",
+      "char_start": 29858,
+      "char_end": 30067,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Alexandre Sampaio de Abreu",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Alexandre Sampaio de Abreu",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Alexandre Sampaio de Abreu",
+      "trecho": "se o PERSE cair, cerca de 244 bilhões deixarão de ser injetados na economia do turismo. É uma coisa impressionante como nós vamos prejudicar o setor de eventos, o turismo integrado e todos os setores correlatos, se o PERSE retornar aos parâmetros que estão sendo colocados na medida provisória",
+      "char_start": 34225,
+      "char_end": 34518,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Alexandre Sampaio de Abreu",
+      "trecho": "a cada 10 mil de faturamento a mais no turismo, o salário do trabalhador brasileiro pode aumentar em R$18,80",
+      "char_start": 34817,
+      "char_end": 34925,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Alexandre Sampaio de Abreu",
+      "trecho": "nós nos solidarizamos a todos os que desejam a manutenção do PERSE",
+      "char_start": 36089,
+      "char_end": 36155,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Alexandre Sampaio de Abreu",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Bibo Nunes",
+      "trecho": "porque gerando consumo e empregos, os impostos vêm ao natural",
+      "char_start": 38021,
+      "char_end": 38082,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Bibo Nunes",
+      "trecho": "porque gerando consumo e empregos, os impostos vêm ao natural",
+      "char_start": 38021,
+      "char_end": 38082,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Bibo Nunes",
+      "trecho": "Quero manifestar a minha solidariedade ao setor.",
+      "char_start": 37460,
+      "char_end": 37508,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Bibo Nunes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Robinson Faria",
+      "trecho": "O que alimenta o emprego do Rio Grande do Norte é o setor de comércio e serviços. E quem impulsiona o serviço, de acordo com um estudo mundial — um estudo científico, um estudo real, que não é achismo —, são mais de 60 atividades do planeta alimentadas pelo turismo.\n\nEntão, o turismo é fundamental para a existência de empregos em um Estado chamado Rio Grande do Norte",
+      "char_start": 39022,
+      "char_end": 39391,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Robinson Faria",
+      "trecho": "O PERSE é emprego para quem mais precisa.",
+      "char_start": 40705,
+      "char_end": 40746,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Robinson Faria",
+      "trecho": "Boa tarde a todos os empresários aqui presentes.",
+      "char_start": 38280,
+      "char_end": 38328,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Fabiano Turini de Camargo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Fabiano Turini de Camargo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Fabiano Turini de Camargo",
+      "trecho": "A permanência do PERSE é fundamental para que os efeitos nefastos da pandemia possam ser superados.",
+      "char_start": 43039,
+      "char_end": 43138,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Fabiano Turini de Camargo",
+      "trecho": "A permanência do PERSE é fundamental para que os efeitos nefastos da pandemia possam ser superados.",
+      "char_start": 43039,
+      "char_end": 43138,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Fabiano Turini de Camargo",
+      "trecho": "Somos os responsáveis por tornar produtos turísticos mais acessíveis. Permitimos financiamento em 10 vezes ou mais, seja em cartão de crédito, seja em boleto bancário. Não fossem as operadoras, muitas famílias jamais poderiam ter acesso ao turismo: 70% dos consumidores são das classes C, D e E, que necessitam desse financiamento.",
+      "char_start": 45040,
+      "char_end": 45371,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Fabiano Turini de Camargo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 37,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 37,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Flávio Peruzzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Flávio Peruzzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Flávio Peruzzi",
+      "trecho": "com isso, como tem dito o Deputado Felipe Carreras, machuca o setor do turismo.No fim, o Governo machuca o consumidor, o turista, que terá mais dificuldades em realizar o que todos nós aqui comercializamos: sonhos e experiências.",
+      "char_start": 49244,
+      "char_end": 49473,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Flávio Peruzzi",
+      "trecho": "o Governo machuca o consumidor, o turista, que terá mais dificuldades em realizar o que todos nós aqui comercializamos: sonhos e experiências.",
+      "char_start": 49331,
+      "char_end": 49473,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Flávio Peruzzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Flávio Peruzzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Rodrigo Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Rodrigo Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Rodrigo Dias",
+      "trecho": "Ao tirarmos o PERSE do turismo, nós vamos fazer com que esse prejuízo continue sendo amargado durante anos — eu explico por quê —, especialmente levando-se em consideração as grandes empresas. O lucro real foi excluído do PL que foi apresentado atualmente. No lucro real, nós temos uma trava de utilização de prejuízo. Portanto, se, por um lado, não se puder aproveitar esse prejuízo para abater do lucro das empresas e, por outro lado, houver a suspensão da aplicação do PERSE, as empresas serão penalizadas duas vezes.",
+      "char_start": 51860,
+      "char_end": 52380,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Rodrigo Dias",
+      "trecho": "Então, pensando no País, pensando em diminuição de litigiosidade, pensando em uma pauta propositiva, evidentemente nós temos que manter o PERSE para todas as atividades, para as 44 atividades, especialmente aquelas correlacionadas ao turismo, que já foram debatidas nesta Casa quando da última discussão aqui.",
+      "char_start": 58821,
+      "char_end": 59130,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Rodrigo Dias",
+      "trecho": "o pequeno empresário, Deputado Robinson, aquele a que o senhor se referiu, que está lá sofrendo na ponta, que fechou as portas para poder atender uma necessidade do Brasil inteiro quando convivemos com a pandemia. Esse pequeno empresário, de certa forma, foi sustentado por essa grande empresa que conseguiu buscar no endividamento recursos para oxigenar esse setor como um todo.",
+      "char_start": 53505,
+      "char_end": 53884,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Rodrigo Dias",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Orlando de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Orlando de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Orlando de Souza",
+      "trecho": "O que está acontecendo com a hotelaria neste momento é que ela está voltando às suas atividades, sim, é verdade, mas ainda está em uma fase de retomada. Faço uma metáfora péssima: o que se está fazendo com a hotelaria é mais ou menos como tirar o respirador do doente quando ele está em fase de recuperação. Então, o PERSE é como um respirador neste momento para a hotelaria.",
+      "char_start": 61261,
+      "char_end": 61636,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Orlando de Souza",
+      "trecho": "Mas acho que seria interessante acrescentar dois números, que concernem muito mais ao setor que eu defendo, que é a hotelaria, só para ilustrar.",
+      "char_start": 60213,
+      "char_end": 60357,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Orlando de Souza",
+      "trecho": "a importância da manutenção do PERSE nessa quadra atual.",
+      "char_start": 62403,
+      "char_end": 62459,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Orlando de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 45,
+      "falante": "Carolina Negri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Carolina Negri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Carolina Negri",
+      "trecho": "Parques e atrações são, dos segmentos do turismo, uma grande cadeia produtiva que inclui dezenas de atividades econômicas, totalmente interdependentes e que funcionam com o trabalho das grandes, médias e pequenas, além de autônomos, todos juntos e conectados. Como já dito aqui, é importante que as empresas grandes também sejam consideradas e que não sejam excluídas, porque são elas que giram toda essa roda que faz o turismo acontecer.",
+      "char_start": 65040,
+      "char_end": 65478,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Carolina Negri",
+      "trecho": "Ao fazê-lo, podem ter certeza de que estarão optando pelo futuro do turismo e eventos, e, certamente, pelo futuro do Brasil.",
+      "char_start": 66774,
+      "char_end": 66898,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Carolina Negri",
+      "trecho": "importante segmento da indústria do turismo: o de parques e atrações turísticas",
+      "char_start": 62908,
+      "char_end": 62987,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Carolina Negri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 47,
+      "falante": "Thiago Borges",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Thiago Borges",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 47,
+      "falante": "Thiago Borges",
+      "trecho": "é importante que o PERSE seja mantido em sua integralidade, porque isso não é um favor, um presente, mas é uma necessidade de um setor que ajuda muito toda a cadeia produtiva do nosso País.",
+      "char_start": 68068,
+      "char_end": 68257,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 47,
+      "falante": "Thiago Borges",
+      "trecho": "é uma necessidade de um setor que ajuda muito toda a cadeia produtiva do nosso País.",
+      "char_start": 68173,
+      "char_end": 68257,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 47,
+      "falante": "Thiago Borges",
+      "trecho": "é importante que o PERSE seja mantido em sua integralidade, porque isso não é um favor, um presente, mas é uma necessidade de um setor que ajuda muito toda a cadeia produtiva do nosso País.",
+      "char_start": 68068,
+      "char_end": 68257,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Thiago Borges",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Doreni Caramori Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Doreni Caramori Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Doreni Caramori Junior",
+      "trecho": "O primeiro deles é que o PERSE é um grande acordo social, em que a sociedade brasileira exigiu que um setor econômico paralisasse as suas atividades em nome da saúde de todos. Não devemos nos esquecer daquela discussão:\"Vamos olhar a saúde e na economia, lá na frente, nós vamos dar um jeito\".\n\nO jeito na economia precisava ser dado. Começou a ser dado com o PERSE e ele, na integralidade, será necessário. No momento desse grande acordo, a sociedade brasileira chama o setor produtivo e diz:\"Parem suas atividades. Endividem-se para não demitir os empregados. Mantenham suas empresas. E, em nome disso, vocês poderão repactuar suas dívidas e, eventualmente, ter um alívio fiscal no futuro que permitirá o pagamento dessas dívidas\". E foi construído o PERSE, e a expectativa do setor é que esse compromisso seja honrado e cumprido.",
+      "char_start": 72472,
+      "char_end": 73304,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Doreni Caramori Junior",
+      "trecho": "em nome da saúde de todos",
+      "char_start": 72621,
+      "char_end": 72646,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Doreni Caramori Junior",
+      "trecho": "Quero saudar o querido amigo Zuanazzi, do Ministério do Turismo. Na pessoa dele, quero saudar o meu querido amigo Celso Sabino, Ministro do Turismo, e também os demais membros do Poder Executivo.",
+      "char_start": 71605,
+      "char_end": 71800,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Doreni Caramori Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 50,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 50,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Robinson Faria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 51,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 51,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 51,
+      "falante": "Jorge Goetten",
+      "trecho": "que honra muito o nosso Estado, e o Doreni não é diferente. Os familiares dele já fizeram muito por Santa Catarina.",
+      "char_start": 80165,
+      "char_end": 80280,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Ana Carolina Dias Medeiros de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Ana Carolina Dias Medeiros de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 52,
+      "falante": "Ana Carolina Dias Medeiros de Souza",
+      "trecho": "A pequena agência compra da grande. A pequena agência não consegue negociar sozinha com o mercado internacional, por exemplo. Ela precisa comprar da grande. E, se a grande agência passar por dificuldades, a pequena também passará, será um efeito dominó. Por isso, é vital para o setor que as empresas do lucro real sejam incluídas no PL, ou, a permanência do PERSE.",
+      "char_start": 85037,
+      "char_end": 85402,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Ana Carolina Dias Medeiros de Souza",
+      "trecho": "Por isso, é vital para o setor que as empresas do lucro real sejam incluídas no PL, ou, a permanência do PERSE.",
+      "char_start": 85291,
+      "char_end": 85402,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 52,
+      "falante": "Ana Carolina Dias Medeiros de Souza",
+      "trecho": "O Sistema ABAV reúne todo o segmento do agenciamento: agência de lazer, emissivas, receptivas, agências corporativas, operadoras de turismo, consolidadoras. Enfim, há uma gama enorme e muito abrangente de agenciamento, empresas de todos os portes, da microempresa individual a empresas de capital aberto.",
+      "char_start": 81638,
+      "char_end": 81942,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Ana Carolina Dias Medeiros de Souza",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 54,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 54,
+      "falante": "Magda Mofatto",
+      "trecho": "se, porventura, o PL do PERSE, como está, for aprovado, haverá uma judicialização gigantesca no País. Digo isso porque todos aqueles que fizeram programação para até 2027 de endividamento, de comprometimento com finanças, de comprometimento com contratações, de comprometimento com aumento de folha de pagamento, tomaram uma infinidade de ações dentro das empresas, acreditando em uma lei.",
+      "char_start": 87561,
+      "char_end": 87950,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 54,
+      "falante": "Magda Mofatto",
+      "trecho": "haverá uma judicialização gigantesca no País",
+      "char_start": 87617,
+      "char_end": 87661,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 54,
+      "falante": "Magda Mofatto",
+      "trecho": "E a representatividade de vocês foi extremamente importante.",
+      "char_start": 87100,
+      "char_end": 87160,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 55,
+      "falante": "Enid Câmara de Vasconcellos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Enid Câmara de Vasconcellos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 55,
+      "falante": "Enid Câmara de Vasconcellos",
+      "trecho": "O Governo se senta permanentemente, negocia e lança produtos estratégicos para vários segmentos, a exemplo da indústria. Por que não se sentar com um segmento tão importante na geração de emprego e renda como o turismo de eventos?",
+      "char_start": 91108,
+      "char_end": 91338,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 55,
+      "falante": "Enid Câmara de Vasconcellos",
+      "trecho": "Por que não se sentar com um segmento tão importante na geração de emprego e renda como o turismo de eventos?",
+      "char_start": 91229,
+      "char_end": 91338,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Enid Câmara de Vasconcellos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 56,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 56,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 57,
+      "falante": "João Alberto Ribeiro Pinheiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 57,
+      "falante": "João Alberto Ribeiro Pinheiro",
+      "trecho": "muito se falou em fraude.\"Ah, é que no PERSE houve fraude!\"Eu quero concluir dizendo o seguinte: já foram vistas algumas falhas no Bolsa Família também. Por causa disso acabaram com o Bolsa Família ou foram atrás das fraudes? Já foram vistos também alguns casos de fraude no Programa Minha Casa, Minha Vida. Quer dizer que porque há fraude vão acabar com o programa que beneficia bastante gente com habitação? Então, se existe fraude, conforme dito por todas as pessoas que falaram aqui nesses microfones, nós somos totalmente a favor da investigação e da devida penalidade para quem está fazendo coisa errada, mas não que se acabe o programa que está realmente fazendo diferença para a recuperação do nosso setor.",
+      "char_start": 99815,
+      "char_end": 100529,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 57,
+      "falante": "João Alberto Ribeiro Pinheiro",
+      "trecho": "Como o empresário vai fazer o seu planejamento e vai fazer as suas tomadas de decisões de fluxo de caixa e de endividamento? Ele se baseia em uma lei. E, agora, para a nossa surpresa, para a surpresa de todos aqui presentes, no final de dezembro, quando achávamos que naquele ano já poderíamos descansar e pensar um pouquinho no nosso Réveillon, no dia 29, se eu não me engano, chegou essa bomba, essa notícia para nós.",
+      "char_start": 96891,
+      "char_end": 97310,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 57,
+      "falante": "João Alberto Ribeiro Pinheiro",
+      "trecho": "era para nós estarmos conversando aqui sobre assuntos novos e assuntos mais produtivos para todo o setor e para a nossa Nação, para a geração de empregos e, realmente, para o aquecimento e o fortalecimento da economia.",
+      "char_start": 96100,
+      "char_end": 96318,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 57,
+      "falante": "João Alberto Ribeiro Pinheiro",
+      "trecho": "todos os colegas do trabalho associativo do nosso País. Estamos sempre juntos nas lutas.",
+      "char_start": 95630,
+      "char_end": 95718,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "João Alberto Ribeiro Pinheiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 58,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 58,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 59,
+      "falante": "Fabio Godinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Fabio Godinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Fabio Godinho",
+      "trecho": "De que adianta colocar no PERSE, por exemplo, a hotelaria — e o setor de hotelaria é um grande parceiro nosso e certamente, assim como outros setores, e deve continuar fazendo parte do PERSE —, se quem vende a ocupação hoteleira, quem faz a venda desse produto ao cliente final, ao turista, são as agências de viagens, e elas estão excluídas do PL?",
+      "char_start": 103515,
+      "char_end": 103863,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Fabio Godinho",
+      "trecho": "Acreditamos que isso vai ser mantido da forma como está, para preservar toda a economia desses Estados e desses destinos que dependem tanto do turismo no Brasil.",
+      "char_start": 108081,
+      "char_end": 108242,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Fabio Godinho",
+      "trecho": "um grande guerreiro que honra muito o nosso setor",
+      "char_start": 101495,
+      "char_end": 101544,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Fabio Godinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 60,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 60,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Milton Sérgio Silveira Zuanazzi",
+      "trecho": "Na minha opinião, o melhor seria retirarmos o projeto de lei da forma como ele foi encaminhado",
+      "char_start": 121125,
+      "char_end": 121219,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 61,
+      "falante": "Milton Sérgio Silveira Zuanazzi",
+      "trecho": "O Ministério da Fazenda alega que os números apresentados mostram que nós estamos chegando a uma renúncia de 7 bilhões de reais.",
+      "char_start": 118156,
+      "char_end": 118284,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 61,
+      "falante": "Milton Sérgio Silveira Zuanazzi",
+      "trecho": "Primeiro, ele vai provocar um conjunto de judicialização. Por todas as manifestações aqui, é evidente que todos aqueles que, a partir de um benefício legal, fizeram um conjunto de ações, de estratégias empresariais, ao verem-nas frustradas, vão judicializar a questão, o que pode se tornar um problema muito maior do que o que nós temos hoje, e um problema complexo.",
+      "char_start": 110154,
+      "char_end": 110520,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Milton Sérgio Silveira Zuanazzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 61,
+      "falante": "Milton Sérgio Silveira Zuanazzi",
+      "trecho": "o turismo é um setor absolutamente estratégico no século XXI",
+      "char_start": 112100,
+      "char_end": 112160,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Milton Sérgio Silveira Zuanazzi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 62,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 62,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 62,
+      "falante": "Magda Mofatto",
+      "trecho": "É bastante alentadora a posição do Ministério do Turismo, que mostrou ser parceiro do segmento e entender o que hoje está apavorando o setor.",
+      "char_start": 122728,
+      "char_end": 122869,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Magda Mofatto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "justificacao_conteudo",
+      "turno_id": 1,
+      "falante": "Paulo Litro",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "bem_comum_utilitario",
+      "trecho": "setor de eventos representa 4,5%, o setor do turismo 8% do PIB do País, que geram, juntos, quase 11 milhões de empregos diretos"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 30,
+      "falante": "Jorge Goetten",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "inferior",
+      "trecho": "Isso lhes tira a previsibilidade, interrompe o planejamento de vocês e, principalmente, passa para o mercado, para os players internacionais e nacionais, a seguinte mensagem: 'Não vale a pena investir no Brasil, porque lá há insegurança. Lá nós tínhamos o PERSE e, agora, não temos mais. Lá nós tínhamos uma política pública dessa forma e não temos mais'."
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "turno_id": 55,
+      "falante": "Enid Câmara de Vasconcellos",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "explicito_positivo",
+      "trecho": "um setor tão importante na geração de emprego e renda como o turismo de eventos"
+    }
+  ],
+  "turnos_falhos": []
+}

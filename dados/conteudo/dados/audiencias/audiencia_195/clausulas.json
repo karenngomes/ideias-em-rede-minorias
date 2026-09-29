@@ -1,0 +1,87 @@
+{
+  "sample_id": 195,
+  "n_opinioes": 8,
+  "n_decompostas": 8,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 10,
+  "n_ancorados": 6,
+  "n_rejeitados": 4,
+  "n_incoerentes": 0,
+  "n_preservados": 3,
+  "n_perdidos": 3,
+  "por_tipo": {
+    "condicao": 2,
+    "escopo": 3,
+    "prazo": 1
+  },
+  "perdas": [
+    {
+      "falante": "Assimakis Komninos",
+      "turno_id": 2,
+      "opiniao": "defende que a regulação de plataformas digitais no Brasil deve ser baseada em interesses nacionais claros, alinhada internacionalmente, flexível e aplicada pela autoridade concorrencial",
+      "nucleo": "defendeu que a regulação de plataformas digitais no Brasil deve ser baseada em interesses nacionais claros, alinhada internacionalmente, flexível e aplicada pela autoridade concorrencial",
+      "tipo": "condicao",
+      "trecho": "depois de decidir fazer isso",
+      "char_start": 13268,
+      "char_end": 13296
+    },
+    {
+      "falante": "Assimakis Komninos",
+      "turno_id": 2,
+      "opiniao": "defende que a regulação de plataformas digitais no Brasil deve ser baseada em interesses nacionais claros, alinhada internacionalmente, flexível e aplicada pela autoridade concorrencial",
+      "nucleo": "defendeu que a regulação de plataformas digitais no Brasil deve ser baseada em interesses nacionais claros, alinhada internacionalmente, flexível e aplicada pela autoridade concorrencial",
+      "tipo": "escopo",
+      "trecho": "para os legisladores brasileiros",
+      "char_start": 12567,
+      "char_end": 12599
+    },
+    {
+      "falante": "Jorge Padilla",
+      "turno_id": 10,
+      "opiniao": "defende a entrada de big techs em mercados concentrados como forma de promover disrupção e competição",
+      "nucleo": "defendeu a entrada de big techs em mercados concentrados como forma de promover disrupção e competição",
+      "tipo": "escopo",
+      "trecho": "em mercados que já estão muito concentrados e dominados há muito tempo",
+      "char_start": 32824,
+      "char_end": 32894
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Assimakis Komninos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "contanto que esteja alinhado com, pelo menos, a maioria dos sistemas já existentes ou em vigor",
+      "opiniao": "defende que a regulação de plataformas digitais no Brasil deve ser baseada em interesses nacionais claros, alinhada internacionalmente, flexível e aplicada pela autoridade concorrencial"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Jorge Padilla",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "porque os fatores institucionais são diferentes",
+      "opiniao": "defende que o Brasil adote uma regulação mais flexível e adaptada à sua realidade institucional, em vez de seguir rigidamente o modelo europeu ex ante"
+    },
+    {
+      "turno_id": 12,
+      "falante": "Jorge Padilla",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "até que haja evidências concretas de seu impacto em outros países",
+      "opiniao": "defende adiar a regulação até que haja evidências concretas de seu impacto em outros países"
+    },
+    {
+      "turno_id": 16,
+      "falante": "Jorge Padilla",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "que são muito pequenas",
+      "opiniao": "alerta contra regulamentações que possam sufocar o crescimento de fintechs e plataformas emergentes no Brasil por exigirem escala"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5,
+  "taxa_ancoragem": 0.6,
+  "taxa_opiniao_intacta": 0.75
+}

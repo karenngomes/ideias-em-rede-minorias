@@ -1,0 +1,86 @@
+{
+  "sample_id": 196,
+  "n_falantes": 4,
+  "n_parlamentares": 1,
+  "n_convidados": 3,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 1,
+  "n_opinioes_gold": 12,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.5910661717650071,
+      "participacao_civil_turnos": 0.47058823529411764,
+      "citacao_civil_opinioes": 0.4444444444444444,
+      "citacao_civil_pessoas": 0.6666666666666666,
+      "deficit_civil": 0.14662172732056267
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [
+    "Rafael Tavares"
+  ],
+  "falantes_silenciados": [
+    "Rafael Rodrigues Tavares"
+  ],
+  "falantes": [
+    {
+      "nome": "Átila Lira",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 9,
+      "n_palavras": 3195,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17
+      ]
+    },
+    {
+      "nome": "Lúcia Maria Teixeira",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1395,
+      "turnos": [
+        2,
+        8,
+        12
+      ]
+    },
+    {
+      "nome": "Rafael Rodrigues Tavares",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1355,
+      "turnos": [
+        4,
+        10,
+        14
+      ]
+    },
+    {
+      "nome": "Celso Niskier",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1868,
+      "turnos": [
+        6,
+        16
+      ]
+    }
+  ]
+}

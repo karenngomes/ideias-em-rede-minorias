@@ -1,0 +1,664 @@
+{
+  "sample_id": 193,
+  "n_opinioes": 37,
+  "n_sem_ancora": 12,
+  "n_com_fundamento": 24,
+  "n_fundamentos_propostos": 47,
+  "n_fundamentos_ancorados": 45,
+  "n_fundamentos_com_numero": 26,
+  "por_tipo": {
+    "dado": 42,
+    "autoridade": 3
+  },
+  "n_contrapontos_propostos": 9,
+  "n_com_contraponto": 8,
+  "n_rejeitados": 3,
+  "itens": [
+    {
+      "opiniao": "defende a criação de um programa de renegociação de dívidas para microempresas com eliminação de juros e multas e parcelamento do principal",
+      "falante": "José Tarcísio da Silva",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, em torno de 40% dos MEIs no Brasil estão endividados e não podem pagar.",
+          "char_start": 20401,
+          "char_end": 20478,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "é o dia a dia, é o real. O cara chega, acredita, investe, trabalha e, de repente, se atrapalha e, como eu já falei, por fatores alheios à vontade dele, fica lá empacado, estagnado, sem poder crescer.",
+          "char_start": 23119,
+          "char_end": 23318,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quando você atrasa o SIMPLES Nacional em um dia, no dia seguinte você tem uma grata surpresa: 10% de juros.",
+          "char_start": 24546,
+          "char_end": 24653,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Poxa! Mas não é tão pequeno o valor que você paga por mês, uma média de 60 reais?",
+        "resposta": "É, é pequeno. A taxa é de 5% do salário mais 1 real, se for indústria ou comércio, e 5 reais, se for serviço. É um valor pequeno, mas, quando o cara não paga no primeiro mês, já vem uma multa de 10%. Aí vêm juros.",
+        "objecao_char_start": 20489,
+        "objecao_char_end": 20570,
+        "resposta_char_start": 20571,
+        "resposta_char_end": 20784,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que os microempresários devem ser apoiados para superar dificuldades externas e continuar gerando emprego e renda",
+      "falante": "José Tarcísio da Silva",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A micro empresa hoje é o sustentáculo do Brasil",
+          "char_start": 19706,
+          "char_end": 19753,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ela é quem gera emprego, quem gera renda.",
+          "char_start": 19778,
+          "char_end": 19819,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "mais de 25 milhões de CNPJs de micro e pequenos e de empreendedores individuais no Brasil, com um grande número de inadimplentes, que têm o maior desejo de ficar adimplente.",
+          "char_start": 24940,
+          "char_end": 25113,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a renegociação de dívidas fiscais com prazos mais longos para viabilizar a recuperação dos microempresários",
+      "falante": "José Tarcísio da Silva",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vamos parcelar com um prazo mais longo para sobrevivermos",
+          "char_start": 25484,
+          "char_end": 25541,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Vamos dar tempo para esse cidadão pagar o que deve e começar novamente contratando, se reerguendo, crescendo.",
+          "char_start": 22276,
+          "char_end": 22385,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o BNDES deve atuar como banco de desenvolvimento social com foco nas micro e pequenas empresas",
+      "falante": "Carlito Merss",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Salvou uma empresa com 8 mil empregados diretos, fora aquilo que se acumula — era a maior fundição da América Latina.",
+          "char_start": 29616,
+          "char_end": 29733,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Sempre o debate que eu fazia, ainda na UNICAMP, com o Prof. Lessa, quando o BNDES... Na época, a sigla não tinha o “s”. Ele foi incorporado depois. E sempre discutíamos que queríamos um banco de desenvolvimento social que também utilize o tal do “s” de verdade para o pequeno.",
+          "char_start": 29735,
+          "char_end": 30011,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção da legislação que protege micro e pequenas empresas na reforma tributária e a cobrança do ICMS no destino",
+      "falante": "Carlito Merss",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje estávamos de manhã lá na CAE, no Senado, não é, Deputado Lippi?",
+          "char_start": 37166,
+          "char_end": 37234,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não que esse texto aprovado na Câmara, que é o meu e provavelmente não é o seu...",
+          "char_start": 37236,
+          "char_end": 37317,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Mas, poxa, para quem há 30 anos acompanha esse debate e vê um IVA, mesmo sendo dual — eu preferia que fosse um só...",
+        "resposta": "A cobrança do ICMS no destino para mim é a grande revolução.",
+        "objecao_char_start": 37318,
+        "objecao_char_end": 37434,
+        "resposta_char_start": 37435,
+        "resposta_char_end": 37495,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "compromete-se a atuar como representante do SEBRAE para proteger os interesses das micro e pequenas empresas na reforma tributária",
+      "falante": "Carlito Merss",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, nestes dois meses já, a minha pauta é o SEBRAE e a nossa luta é para que nenhuma modificação possível na reforma tributária tire, vamos dizer, não garantias ou direitos, mas essa legislação que garantiu esse modelo único no mundo.",
+          "char_start": 36565,
+          "char_end": 36801,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a redução das taxas de juros deve ocorrer por meio de competição, não por limitação artificial, e que restringir o parcelamento não é solução para o alto custo do crédito",
+      "falante": "Vinicius do Nascimento Carrasco",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Um pequeno varejista precisa estimular suas vendas",
+          "char_start": 51730,
+          "char_end": 51780,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Um pequeno consumidor vai precisar parcelar o seu iPhone, vai precisar parcelar o seu Samsung",
+          "char_start": 51782,
+          "char_end": 51875,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu acho que uma tentativa de se limitar a taxa de juros em vez de tentar reduzi-la por meio de competição pode ser muito ruim",
+        "resposta": "acho que nós deveríamos considerar, como sociedade, o impacto de se fazer uma tentativa de redução de taxas de maneira açodada",
+        "objecao_char_start": 51359,
+        "objecao_char_end": 51484,
+        "resposta_char_start": 51493,
+        "resposta_char_end": 51619,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende condições macroeconômicas favoráveis com inflação controlada e queda da taxa de juros para viabilizar o crédito",
+      "falante": "Hélio Dagnoni",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a inflação; número 2, a perda do poder de compra dos consumidores; a ausência da reforma estruturante do sistema tributário e na administração pública; a taxa de câmbio; o mercado informal; o custo de crédito; os procedimentos da capacitação de crédito e das linhas de créditos disponíveis.",
+          "char_start": 55740,
+          "char_end": 56030,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "ressalta o impacto social e familiar da quebra de pequenos negócios e o papel central do pequeno empreendedor na geração de emprego",
+      "falante": "Hélio Dagnoni",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, o que mais gera emprego e renda no comércio é o pequeno, conforme os números aqui citados.",
+          "char_start": 58827,
+          "char_end": 58923,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "entre 23 milhões de empresas ativas no País, mais de 20 milhões são enquadradas como micro e pequenas empresas. Dentro do universo da representação do Sistema Comércio há mais de 16 milhões de firmas. Elas experimentam 70% do total das micro e pequenas empresas do Brasil, e 82% das empresas representadas pelo Sistema Comércio, números grandes.",
+          "char_start": 54846,
+          "char_end": 55191,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Quando se fala que um microempreendedor, que um pequeno empresário quebra me dói no coração, Deputado Tarcísio, porque não é a empresa que quebra, é a família.",
+        "resposta": "É trágico, realmente é uma tragédia.",
+        "objecao_char_start": 58437,
+        "objecao_char_end": 58596,
+        "resposta_char_start": 58789,
+        "resposta_char_end": 58825,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende ampliação das responsabilidades do Banco Central além da inflação, incluindo emprego, renda e desenvolvimento regional",
+      "falante": "Zé Neto",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "precisamos produzir, precisamos de emprego, renda, desenvolvimento regional, principalmente, e precisamos distribuir renda e avançar com o País",
+          "char_start": 63230,
+          "char_end": 63373,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende manter política monetária contracionista até consolidação da desinflação e ancoragem das expectativas.",
+      "falante": "Maurício Costa de Moura",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a média dos núcleos ainda está em 5,6%, num acumulado de 12 meses",
+          "char_start": 94413,
+          "char_end": 94478,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Para 2025 e 2026, elas estão, digamos assim, teimosamente e parcialmente desancoradas em 3,5%",
+          "char_start": 95588,
+          "char_end": 95681,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Poxa! Mas a inflação já está baixa aqui. Por que não baixamos a taxa SELIC rapidamente e frontalmente agora?",
+        "resposta": "Nós estamos vendo a inflação baixa agora não é por causa dos 13,75%, como estava até 2 semanas atrás. Nós estamos vendo isso por causa da SELIC de 18 meses atrás. A SELIC de hoje vai apresentar potência máxima no seu resultado daqui a 18 meses.",
+        "objecao_char_start": 92920,
+        "objecao_char_end": 93028,
+        "resposta_char_start": 93156,
+        "resposta_char_end": 93400,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Reconhece o papel do Congresso e do Governo na aprovação de reformas institucionais.",
+      "falante": "Maurício Costa de Moura",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Nosso objetivo principal — e esse objetivo foi dado por este Congresso Nacional, ao aprovar a Lei Complementar nº 179, de 2021 — é perseguir e assegurar a estabilidade de preço.",
+          "char_start": 87148,
+          "char_end": 87325,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a atuação do Banco Central na pandemia, evitando aumento excessivo da SELIC para proteger a atividade econômica.",
+      "falante": "Maurício Costa de Moura",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "eu também estava no COPOM há 3 anos, em agosto de 2020, quando colocamos a taxa SELIC em 2%, justamente porque era a taxa necessária à época para convergir a inflação para a meta que nos tinha sido dada e para evitar justamente uma depressão causada pela pandemia, preocupação com a atividade.",
+          "char_start": 97065,
+          "char_end": 97358,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Ah, o Banco Central só está olhando a inflação, e isso tem cobrado seu preço em termos de atividade e de emprego",
+        "resposta": "Hoje, trazendo tudo isso a valores presentes e reais, o PIB está no nível mais alto da história e sendo revisado para cima. Então, de fato, a atividade continua crescendo. A atividade não entrou em depressão.",
+        "objecao_char_start": 96132,
+        "objecao_char_end": 96244,
+        "resposta_char_start": 96630,
+        "resposta_char_end": 96838,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a redução do custo do crédito para micro e pequenas empresas, considerando desproporcional a taxa na ponta em relação à SELIC",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "qualquer microempresa que vai a um banco pegar uma linha de crédito e vai pagar 40%, 50% ao ano, os 13% da SELIC é um terço",
+          "char_start": 106659,
+          "char_end": 106782,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a redução gradual da SELIC e a pressão sobre os bancos, especialmente os públicos, para diminuir as taxas de juros ao pequeno empresário",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o banco não precisa ter 50 bilhões, 60 bilhões de lucro no ano",
+          "char_start": 108650,
+          "char_end": 108712,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o próprio capital do banco não precisa ser remunerado com valores tão altos",
+          "char_start": 108755,
+          "char_end": 108830,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a justificativa de inadimplência para altos juros, considerando 4% um patamar razoável e historicamente sustentável",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "4% de inadimplência da microempresa não é um absurdo",
+          "char_start": 108269,
+          "char_end": 108321,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós já tivemos nesse patamar mais alto que isso praticamente a vida toda",
+          "char_start": 108323,
+          "char_end": 108395,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que bancos públicos reduzam taxas de juros, argumentando que seus lucros e remuneração do capital são excessivos",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o banco não precisa ter 50 bilhões, 60 bilhões de lucro no ano",
+          "char_start": 108650,
+          "char_end": 108712,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o próprio capital do banco não precisa ser remunerado com valores tão altos",
+          "char_start": 108755,
+          "char_end": 108830,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende manter a inflação em patamar máximo de 4% para garantir previsibilidade financeira ao pequeno empresário",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós defendemos e vamos brigar para que a inflação continue nos patamares que está, no máximo 4%",
+          "char_start": 108832,
+          "char_end": 108927,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende negociação com a FEBRABAN para reduzir a diferença abusiva de juros entre grandes empresas e microempresas",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se o grande pode pegar dinheiro a 17%, 20% ao ano, por que a microempresa — até o consignado, quando o juro baixou para 1,7% ao mês, o banco disse que não podia emprestar",
+          "char_start": 109564,
+          "char_end": 109734,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "denuncia o spread bancário desproporcional, com custo de 1% para o banco e cobrança de 4% ao mês ao pequeno empresário",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "estão cobrando 4% de cada mês para o custo de dinheiro, que custa 1% e pouco para o banco, com seus custos todos",
+          "char_start": 110058,
+          "char_end": 110170,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a SELIC não seja usada como justificativa única para altos juros e que o spread bancário seja discutido",
+      "falante": "Ercílio Santinoni",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não só a SELIC, mas também ospread",
+          "char_start": 110924,
+          "char_end": 110958,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a redução urgente do custo de capital para pequenos negócios no Brasil, sob risco de colapso do setor e retomada econômica lenta",
+      "falante": "Joaquim Donizete de Almeida",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em maio de 2020, falávamos no caso do PRONAMPE, por exemplo, que é um empréstimo mais acessível aos pequenos, somando ali juros real, taxa SELIC de 13,25%, não foram 12 meses em julho de 2021? Isso está na ordem de 15,15%, ou seja, 466%.",
+          "char_start": 112647,
+          "char_end": 112884,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O PRONAMPE começou com 85% de garantia do Governo no Fundo de Garantia de Operações — FGO, mas mesmo assim os juros subiram 460%.",
+          "char_start": 115202,
+          "char_end": 115331,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "é o risco mesmo ou é a conveniência?",
+        "resposta": "mesmo assim os juros subiram 460%.",
+        "objecao_char_start": 115339,
+        "objecao_char_end": 115375,
+        "resposta_char_start": 115297,
+        "resposta_char_end": 115331,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende enfrentar os juros altos e o sistema tributário como condições inviáveis que precisam ser resolvidas para o desenvolvimento do País",
+      "falante": "Vitor Lippi",
+      "turno_id": 45,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Segundo dados da ABIMAQ, apenas 20% das empresas no Brasil vão ao mercado financeiro.",
+          "char_start": 118528,
+          "char_end": 118613,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O nosso sistema tributário é o 184º pior do mundo, é o mais caro, é o mais judicializado, é o que traz maior custo para a empresa",
+          "char_start": 117590,
+          "char_end": 117719,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a inadimplência é de apenas 5%",
+          "char_start": 118889,
+          "char_end": 118919,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não é possível imaginar que alguém, para conseguir tocar o seu negócio, vai ter que pegar recurso com 30% ao ano de custo final",
+          "char_start": 119253,
+          "char_end": 119380,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu achava que a inadimplência era de 90%.",
+        "resposta": "Eu fiquei impressionado ao saber que a inadimplência é de apenas 5%. Isso significa que os outros conseguiram mais de 30% de margem de lucro para conseguir pagar. É inacreditável, eu fico surpreso.",
+        "objecao_char_start": 119051,
+        "objecao_char_end": 119092,
+        "resposta_char_start": 118852,
+        "resposta_char_end": 119049,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende enfrentar os juros altos, a concentração bancária e a inviabilidade do crédito no Brasil como obstáculos ao crescimento e à geração de empregos",
+      "falante": "Vitor Lippi",
+      "turno_id": 50,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os juros altos no Brasil, algo absolutamente incompatível com os outros países, segundo analistas internacionais",
+          "char_start": 134589,
+          "char_end": 134701,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quando eu fui fazer um estudo sobre crédito rotativo, Deputado Jorge, por exemplo, eu me assustei muito quando era de 460% — hoje não mudou muito",
+          "char_start": 136163,
+          "char_end": 136308,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o segundo país do mundo era um país aqui da América Latina e era de 50% ao ano, dez vezes menos",
+          "char_start": 136412,
+          "char_end": 136507,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "você vai pagar 450% de juros?",
+          "char_start": 136896,
+          "char_end": 136925,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "segundo analistas internacionais",
+          "char_start": 134669,
+          "char_end": 134701,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "E pensamos: 'Mas isso é pouco'. Ele vai fazer o quê? Se ele não conseguir formalmente, vai cair na área da agiotagem pura e simples."
+    },
+    {
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o índice de confiança do empresário do setor vem caindo mês a mês e alcançou os pontos percentuais de 107,5% em julho, resultado considerado de baixo otimismo, bastante próximo do número de corte, que é de 100 pontos."
+    },
+    {
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Quando eu vi muitas explicações de que era necessário ter uma taxa SELIC alta, para diminuir, vamos dizer assim, o consumo das pessoas, para consumirem menos, exatamente para não aumentar o consumo."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.6486,
+  "taxa_contraponto": 0.2162,
+  "taxa_ancoragem_fundamento": 0.9574
+}

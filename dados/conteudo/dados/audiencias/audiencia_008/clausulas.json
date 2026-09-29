@@ -1,0 +1,100 @@
+{
+  "sample_id": 8,
+  "n_opinioes": 6,
+  "n_decompostas": 6,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 11,
+  "n_ancorados": 8,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 3,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "condicao": 5,
+    "atribuicao": 1,
+    "escopo": 1,
+    "excecao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Otávio Ribeiro Damaso",
+      "turno_id": 2,
+      "opiniao": "apoia a retomada da discussão sobre segregação patrimonial no Congresso",
+      "nucleo": "apoiou a retomada da discussão sobre segregação patrimonial no Congresso",
+      "tipo": "condicao",
+      "trecho": "Se o Congresso tiver o interesse de retomar essa discussão",
+      "char_start": 14357,
+      "char_end": 14415
+    },
+    {
+      "falante": "Thiago Bueno",
+      "turno_id": 4,
+      "opiniao": "Defende a criação do crime de gestão fraudulenta de exchange para proteger o sistema financeiro de forma mais abrangente do que o estelionato.",
+      "nucleo": "Defendeu a criação do crime de gestão fraudulenta de exchange para proteger o sistema financeiro de forma mais abrangente do que o estelionato.",
+      "tipo": "condicao",
+      "trecho": "quando houvesse um esquema de pirâmide financeira",
+      "char_start": 22883,
+      "char_end": 22932
+    },
+    {
+      "falante": "Otávio Ribeiro Damaso",
+      "turno_id": 14,
+      "opiniao": "autoriza a operação de bancos e corretoras com criptomoedas sob supervisão prudencial",
+      "nucleo": "autoriza a operação de bancos e corretoras com criptomoedas sob supervisão prudencial",
+      "tipo": "condicao",
+      "trecho": "Uma vez que entre no perímetro do olhar do Banco Central",
+      "char_start": 57780,
+      "char_end": 57836
+    },
+    {
+      "falante": "Otávio Ribeiro Damaso",
+      "turno_id": 14,
+      "opiniao": "autoriza a operação de bancos e corretoras com criptomoedas sob supervisão prudencial",
+      "nucleo": "autoriza a operação de bancos e corretoras com criptomoedas sob supervisão prudencial",
+      "tipo": "excecao",
+      "trecho": "Para alguns outros tipos, como as IPs, as instituições de pagamento, que têm um propósito muito específico, muito delimitado, talvez não seja o caso de autorizar essa nova carteira",
+      "char_start": 58229,
+      "char_end": 58409
+    },
+    {
+      "falante": "Thiago Bueno",
+      "turno_id": 18,
+      "opiniao": "Defende que a extensão das obrigações de registro, identificação de clientes e repasse de informações às exchanges é essencial para o combate a crimes com criptoativos.",
+      "nucleo": "Defendeu que a extensão das obrigações de registro, identificação de clientes e repasse de informações às exchanges é essencial para o combate a crimes com criptoativos",
+      "tipo": "condicao",
+      "trecho": "a partir da edição da lei de dezembro do ano passado",
+      "char_start": 61229,
+      "char_end": 61281
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Otávio Ribeiro Damaso",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "mesmo sem previsão legal",
+      "opiniao": "defende a segregação patrimonial de recursos de clientes e instituições, mesmo sem previsão legal"
+    },
+    {
+      "turno_id": 14,
+      "falante": "Otávio Ribeiro Damaso",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "mesmo sem a qualidade que existiria se houvesse a definição no arcabouço legal",
+      "opiniao": "defende a implementação de mecanismos de segregação patrimonial, mesmo sem base legal"
+    },
+    {
+      "turno_id": 14,
+      "falante": "Otávio Ribeiro Damaso",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "com exceção de algumas instituições mais simples, mais focadas em um ou em outro produto",
+      "opiniao": "autoriza a operação de bancos e corretoras com criptomoedas sob supervisão prudencial"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.375,
+  "taxa_ancoragem": 0.7273,
+  "taxa_opiniao_intacta": 0.3333
+}

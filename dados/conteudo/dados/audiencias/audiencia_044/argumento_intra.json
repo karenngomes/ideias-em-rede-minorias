@@ -1,0 +1,1255 @@
+{
+  "sample_id": 44,
+  "n_opinioes": 54,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 51,
+  "n_fundamentos_propostos": 90,
+  "n_fundamentos_ancorados": 83,
+  "n_fundamentos_com_numero": 36,
+  "por_tipo": {
+    "dado": 69,
+    "autoridade": 14
+  },
+  "n_contrapontos_propostos": 12,
+  "n_com_contraponto": 9,
+  "n_rejeitados": 10,
+  "itens": [
+    {
+      "opiniao": "Defende a transição energética como necessária para cumprir os compromissos climáticos e proteger a biodiversidade, especialmente na foz do Amazonas.",
+      "falante": "Mauro Pires",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Acordo de Paris, assinado em 2015, no qual o Brasil e outras nações se posicionaram no sentido de reduzir suas emissões e, ao mesmo tempo, encontrar alternativas de produção energética",
+          "char_start": 4111,
+          "char_end": 4297,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O País também assinou a Convenção sobre Diversidade Biológica, que é estratégica para o Brasil, na qual o compromisso também é de preservação dos recursos naturais, em particular, da nossa biodiversidade",
+          "char_start": 4299,
+          "char_end": 4502,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a exploração de petróleo e gás na Margem Equatorial como essencial para segurança energética, geração de emprego e desenvolvimento regional",
+      "falante": "Carlos Agenor Onofre Cabral",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Investimento na ordem de 56 bilhões de dólares, arrecadação estatal na ordem de 200 bilhões de dólares, ou seja, 1 trilhão de reais, com geração de centenas de milhares de empregos.",
+          "char_start": 13802,
+          "char_end": 13983,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A nossa relação reserva-produção, ou seja, em quanto tempo nós esgotaremos nossa reserva conhecida, equivale a 12 anos e meio, 13 anos.",
+          "char_start": 14332,
+          "char_end": 14467,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos cerca de 1 trilhão de reais com a geração do que é importante: centenas de milhares de emprego.",
+          "char_start": 21190,
+          "char_end": 21295,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O PIB do Estado do Amapá foi de 18 bilhões em 2020, é o terceiro menor entre os Estados brasileiros.",
+          "char_start": 20548,
+          "char_end": 20648,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em relação à participação governamental do Rio de Janeiro em 2023, a previsão é de 25 bilhões.",
+          "char_start": 20649,
+          "char_end": 20743,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Você não tem AAAS; então, você não pode ofertar esse bloco",
+        "resposta": "A decisão do STF é, primeiro, a viabilidade ambiental de certo empreendimento atestado não pela AAAS, mas pelo licenciamento ambiental.",
+        "objecao_char_start": 17065,
+        "objecao_char_end": 17123,
+        "resposta_char_start": 17126,
+        "resposta_char_end": 17261,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a integração de práticas ESG na exploração de petróleo e gás, com equilíbrio entre meio ambiente e desenvolvimento socioeconômico",
+      "falante": "Carlos Agenor Onofre Cabral",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós temos a visão de que cada vez mais o ESG — Environmental, Social and Governance tem que ser praticado no País.",
+          "char_start": 21321,
+          "char_end": 21435,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós precisamos, sim, desenvolver a parte socioeconômica da exploração de petróleo e de gás natural na Margem Equatorial, na certeza de que vai ser produzida dentro das melhores práticas de licenciamento ambiental e de segurança operacional.",
+          "char_start": 21523,
+          "char_end": 21763,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a viabilidade ambiental seja demonstrada antes de qualquer licenciamento na Margem Equatorial",
+      "falante": "Rodrigo Agostinho",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos uma área sensível, uma área que tem pesca, uma área com grande biodiversidade, uma área com três unidades de conservação, uma área com terras indígenas.",
+          "char_start": 25268,
+          "char_end": 25430,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "É uma região sobre a qual há uma série de estudos mais recentes que falam sobre corais.",
+          "char_start": 25043,
+          "char_end": 25130,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "80% dos manguezais do Brasil",
+          "char_start": 24793,
+          "char_end": 24821,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "uma região onde nós temos 80% dos manguezais do Brasil, uma região que tem muitos mamíferos aquáticos, como o peixe-boi, o boto-cor-de-rosa, o boto-cinza. Há, ainda, a presença de baleia-fin e baleia-cachalote na região.",
+          "char_start": 24767,
+          "char_end": 24987,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Portaria Interministerial MME — MMA nº 198, de 5 de abril de 2012",
+          "char_start": 27060,
+          "char_end": 27127,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Rejeita a invalidação da Portaria nº 198 por aumentar riscos jurídicos e técnicos na oferta de blocos de petróleo",
+      "falante": "Suely Araújo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Com a Avaliação Ambiental de Área Sedimentar — e eu estou indo para o outro foco, mais regionalizado —, você daria muito mais segurança jurídica e técnica aos blocos que são ofertados.",
+          "char_start": 41502,
+          "char_end": 41686,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu obtive a manifestação prévia.",
+        "resposta": "O fato de se ter uma manifestação prévia não significa que não se precisa cumprir a Avaliação Ambiental de Área Sedimentar.",
+        "objecao_char_start": 42977,
+        "objecao_char_end": 43009,
+        "resposta_char_start": 43309,
+        "resposta_char_end": 43432,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende que a crise climática exija mudança imediata na política energética do Brasil",
+      "falante": "Suely Araújo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Segundo todos os dados do Painel Intergovernamental sobre Mudanças Climáticas, o IPCC, da ONU, que reúne os maiores cientistas do mundo desde 1988 para debater a questão climática, em 7 anos, em 2030, nós teremos que cortar as emissões de gases de efeito estufa em 43%.",
+          "char_start": 44251,
+          "char_end": 44520,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende maior destinação de investimentos da PETROBRAS para energias renováveis",
+      "falante": "Suely Araújo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "83% dos investimentos estão direcionados a exploração e produção de petróleo e gás.São bilhões e bilhões de reais. Será que a parcela destinada à energia renovável não teria que ser mais significativa?",
+          "char_start": 46191,
+          "char_end": 46392,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o Brasil pode atingir status de carbono negativo até 2045",
+      "falante": "Suely Araújo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Observatório do Clima defende que o Brasil tem condições de se tornar carbono negativo até 2045.",
+          "char_start": 47030,
+          "char_end": 47128,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a transformação da PETROBRAS em empresa de energia com foco na transição energética",
+      "falante": "Suely Araújo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A PETROBRAS tem que virar uma empresa de energia e não apenas uma empresa petroleira.",
+          "char_start": 46016,
+          "char_end": 46101,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende investimento substancial nas ciências do mar para garantir licenciamento adequado e soberania sobre a biodiversidade marinha",
+      "falante": "Carlos Eduardo Rezende",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O investimento nas ciências do mar no Brasil, quando comparado com alguns países, inclusive da América do Sul, é 50 vezes inferior.",
+          "char_start": 67041,
+          "char_end": 67172,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção do modelo de pior hipótese em projetos de exploração de petróleo para prevenir danos transfronteiriços e ambientais",
+      "falante": "Carlos Eduardo Rezende",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Eu venho da área de energia nuclear, na qual trabalhamos com o que chamamos de modelo de pior hipótese.",
+          "char_start": 62359,
+          "char_end": 62462,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita o licenciamento sem avaliação rigorosa de impactos sobre o Grande Sistema Recifal da Amazônia e comunidades costeiras",
+      "falante": "Carlos Eduardo Rezende",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "praticamente 90% dessas regiões são extremamente sensíveis e poderiam causar um problema de ordem econômica e social também de grande relevância.",
+          "char_start": 64591,
+          "char_end": 64736,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a criação de um parque nacional e ampliação de infraestrutura científica para proteger e estudar a Amazônia Azul",
+      "falante": "Carlos Eduardo Rezende",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Gostaria muito de estar hoje aqui discutindo a criação do Parque Nacional do Grande Sistema Recifal da Amazônia como uma área prioritária de preservação.",
+          "char_start": 71988,
+          "char_end": 72141,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Gostaria muito de estar aqui nesta Comissão discutindo sobre o apoio e a aquisição de embarcações para aumentarmos o conhecimento científico na nossa Amazônia Azul.",
+          "char_start": 72142,
+          "char_end": 72306,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a melhoria contínua das fontes energéticas e a descarbonização progressiva em vez da substituição imediata",
+      "falante": "Roberto Ardenghy",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Acordo de Paris pede redução das emissões. Ele não pedenet zero. Ninguém está pedindo que o mundo sejanet zero. O que o mundo tem que fazer é reduzir as emissões de CO2, de gases de efeito estufa, de modo que possamos sobreviver e manter a economia e a sociedade como imaginamos.",
+          "char_start": 78113,
+          "char_end": 78394,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O Brasil tem que se orgulhar da sua indústria de petróleo e gás, tem que se orgulhar do que fazemos hoje no dia a dia, da importância, do ponto de vista do PIB, da geração de empregos",
+          "char_start": 84958,
+          "char_end": 85141,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Manifesta preocupação com exigências ambientais adicionais a áreas já outorgadas",
+      "falante": "Roberto Ardenghy",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "preocupa-nos, como empresas que atuam nesse setor, o nível de exigências muitas vezes adicionais à outorga. Foi mencionado que as empresas vão a um leilão público da ANP, adquirem uma área para explorar petróleo, pagam caro por essa atividade, e a expectativa delas é que isso possa ser realizado conforme previsto no contrato de concessão",
+          "char_start": 80478,
+          "char_end": 80817,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a continuidade da exploração de petróleo com segurança, eficiência e responsabilidade ambiental",
+      "falante": "Roberto Ardenghy",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, o Brasil produz 3,5 milhões de barris de petróleo, e nós já estamos exportando 1 milhão de barris. Além disso, esse petróleo tem baixo teor de carbono. Nós conseguimos hoje, graças à tecnologia, graças aos investimentos que as empresas fazem no setor, com o apoio do Governo e das entidades reguladoras, produzir um barril de petróleo que emite um terço da média mundial.",
+          "char_start": 76858,
+          "char_end": 77235,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a PETROBRAS recebeu vários prêmios internacionais nos últimos 10 anos por ser uma empresa de referência internacional",
+          "char_start": 79494,
+          "char_end": 79611,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "84% da energia de Manaus vêm do gás natural. Manaus não depende mais do óleodiesel, depende do gás natural, por causa desse projeto que a PETROBRAS iniciou nos anos 80, com enorme responsabilidade ambiental",
+          "char_start": 79766,
+          "char_end": 79972,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o setor de óleo e gás se sente muito confortável, porque nós já fazemos essa atividade no dia a dia, e o Brasil é um líder mundial",
+          "char_start": 79356,
+          "char_end": 79486,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Fala-se muito aqui do Amazonas.",
+        "resposta": "Desde os anos 80, produz-se gás na região da Bacia Sedimentar do Solimões, no chamado projeto do Urucu. Hoje 84% da energia de Manaus vêm do gás natural. Manaus não depende mais do óleodiesel, depende do gás natural, por causa desse projeto que a PETROBRAS iniciou nos anos 80, com enorme responsabilidade ambiental, produzindo gás natural, distribuindo por um gasoduto de mais de centenas de quilômetros, levando a Manaus e a outras cidades do Amazonas e gerando uma energia com redução da emissão de carbono. Imaginem se Manaus estivesse hoje dependendo do óleodieselpara produzir petróleo.",
+        "objecao_char_start": 79625,
+        "objecao_char_end": 79656,
+        "resposta_char_start": 79657,
+        "resposta_char_end": 80249,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "o debate sobre a Margem Equatorial deve integrar soberania energética, segurança climática e justiça social como questão estratégica nacional",
+      "falante": "Ticiana de Oliveira Alvares",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "As experiências na Guiana e no Suriname mostram isso. Lá operam mais de 20 empresas petrolíferas.",
+          "char_start": 88081,
+          "char_end": 88178,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não é possível que a autoridade máxima de licenciamento ambiental do Brasil e a maior empresa brasileira não sejam grandes aliados nesse projeto nacional de desenvolvimento.",
+        "resposta": "Para nós, trata-se de uma questão estratégica que envolve, a um só tempo, as agendas de segurança energética, de soberania nacional, de segurança climática e a transição energética e do mundo do trabalho, que são aspectos essenciais para pensarmos o desenvolvimento nacional.",
+        "objecao_char_start": 87747,
+        "objecao_char_end": 87920,
+        "resposta_char_start": 87471,
+        "resposta_char_end": 87746,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "deve haver um diálogo amplo e transparente para definir parâmetros de desenvolvimento sustentável no setor energético",
+      "falante": "Ticiana de Oliveira Alvares",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "defendemos, primeiro, a promoção de um espaço de diálogo amplo, participativo e transparente, para a construção de parâmetros ambientais, sociais e econômicos que orientem um novo plano de desenvolvimento estratégico para o setor energético que opera no Brasil, em especial a cadeia de óleo e gás, em novas fronteiras",
+          "char_start": 91653,
+          "char_end": 91970,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "o Brasil deve liderar a transição energética justa, respeitando a ciência e a autoridade técnica do IBAMA",
+      "falante": "Ticiana de Oliveira Alvares",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "respeitar a autoridade competente na avaliação técnica do licenciamento ambiental, o IBAMA e seus quadros técnicos",
+          "char_start": 92472,
+          "char_end": 92586,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a Margem Leste deve ser estudada e a Margem Equatorial pode impulsionar desenvolvimento regional sustentável e transição justa",
+      "falante": "Ticiana de Oliveira Alvares",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Gente, vale ressaltar que a Margem Equatorial não é a última ou a única fronteira para a indústria de óleo e gás no Brasil. Há também a Margem Leste brasileira, que se estende da região do sul da Bahia até o Rio Grande do Norte, e que precisa ser melhor estudada e ter avaliado o seu potencial.",
+          "char_start": 93682,
+          "char_end": 93976,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a Margem Equatorial deve ser explorada com PETROBRAS como operadora única e criação de fundo social sustentável, se o potencial for confirmado",
+      "falante": "Ticiana de Oliveira Alvares",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se confirmado o potencial exploratório da Margem Equatorial — lembrando que estamos falando aqui apenas de perfuração para verificar o potencial — dentro desse novo marco sustentável, será preciso garantir que essa área seja considerada estratégica para o País, retomando-se o modelo jurídico e fiscal de partilha da exploração e produção de petróleo com a PETROBRAS, como operadora única, além da construção de um fundo social e sustentável específico",
+          "char_start": 94657,
+          "char_end": 95109,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "deve-se aumentar o valor retido no Brasil na cadeia de óleo e gás para evitar o modelo primário exportador",
+      "falante": "Ticiana de Oliveira Alvares",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Temos que ampliar a parcela do valor adicionado da cadeia de óleo e gás retida no País para evitar repetir os malefícios do tradicional modelo primário exportador que marcou a nossa história.",
+          "char_start": 95411,
+          "char_end": 95602,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a fortaleza da PETROBRAS desde 2003 evitou acidentes ambientais",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "desde 2003, quando tivemos um governo popular, democrático, desenvolvimentista, e quando a PETROBRAS deixou de ser atacada, deixou de ser privatizada — e, em vez disso, foi sendo fortalecida —, nós não mais tivemos eventos de acidentes ambientais como esses",
+          "char_start": 97479,
+          "char_end": 97736,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "distingue atividade de prospecção de exploração e produção, apoiando a primeira com ressalvas",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "temos técnicos e técnicas da PETROBRAS admirados mundialmente. A PETROBRAS detém a melhor tecnologia para a atividade petrolífera em águas profundas e ultraprofundas do mundo. A PETROBRAS, em poços pioneiros, nunca teve acidentes que geraram vazamentos. Isso nunca ocorreu na história da PETROBRAS.",
+        "resposta": "Estamos falando, como disse a companheira Ticiana, de um poço pioneiro para identificar se há ou não petróleo naquela região. Não estamos falando ainda da atividade de exploração e produção de petróleo naquela região.",
+        "objecao_char_start": 98203,
+        "objecao_char_end": 98501,
+        "resposta_char_start": 98503,
+        "resposta_char_end": 98720,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica o governo anterior por negligenciar o meio ambiente e pressionar instituições técnicas",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nos últimos 4 anos, a PETROBRAS e o IBAMA foram coordenados por um governo que não era preocupado com o meio ambiente, que não tinha preocupação alguma com o meio ambiente",
+          "char_start": 99581,
+          "char_end": 99752,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Lembramos do ex-Ministro do Meio Ambiente, que dizia que se deveria facilitar, sim, para passar a boiada",
+          "char_start": 99754,
+          "char_end": 99858,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia o licenciamento atual com base na mudança de gestão e no diálogo técnico e político",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "As preocupações que foram listadas pelo IBAMA neste momento demonstram, explicitamente, que o IBAMA mudou — e mudou para melhor. Da mesma maneira a PETROBRAS, que tem atendido as várias requisições, os vários critérios que estão sendo estabelecidos, também mudou para melhor",
+          "char_start": 100959,
+          "char_end": 101233,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a PETROBRAS como instrumento público para desenvolvimento e transição energética",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Somente a PETROBRAS é capaz, sim, de utilizar essa riqueza vultosa para fazer a transição energética justa aqui no Brasil",
+          "char_start": 101486,
+          "char_end": 101607,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a política de altos dividendos da PETROBRAS no governo anterior como prejudicial ao interesse nacional",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "388 bilhões de reais foram pagos via dividendos a acionistas",
+          "char_start": 101707,
+          "char_end": 101767,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A PETROBRAS foi a maior pagadora de dividendos do mundo!",
+          "char_start": 101842,
+          "char_end": 101898,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que os recursos do petróleo devem financiar transição energética com inclusão social",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os projetos de pesquisa, desenvolvimento e inovação relativos a novas tecnologias na Região Norte representam somente 7% do que a PETROBRAS, Deputado Ivan Valente, poderia fazer nessa região, comparada com todo o Brasil",
+          "char_start": 103363,
+          "char_end": 103582,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a proteção da tecnologia da PETROBRAS para uso estratégico nacional",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "outras empresas têm interesse de pegar essa tecnologia, outras empresas têm interesse de acessar o que temos no Brasil",
+          "char_start": 102609,
+          "char_end": 102727,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que os benefícios da exploração petrolífera devem ser direcionados ao desenvolvimento regional do Norte e Nordeste",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os índices de desenvolvimento econômico que aqui foram citados serem baixíssimos",
+          "char_start": 103281,
+          "char_end": 103361,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os projetos de pesquisa, desenvolvimento e inovação relativos a novas tecnologias na Região Norte representam somente 7% do que a PETROBRAS, Deputado Ivan Valente, poderia fazer nessa região, comparada com todo o Brasil",
+          "char_start": 103363,
+          "char_end": 103582,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reconhece a liderança ambiental de Marina Silva e o compromisso da categoria com a transição energética",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Respeitamos, e muito, a nossa Ministra e grande companheira Marina Silva, que é um dos maiores ícones no mundo na defesa do meio ambiente",
+          "char_start": 104336,
+          "char_end": 104473,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a continuidade da produção de petróleo com baixo carbono como estratégia energética e geopolítica",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a atividade petrolífera que está sendo feita hoje pela PETROBRAS, principalmente no pré-sal, é, sim, uma atividade petrolífera com baixa pegada de carbono, a atividade petrolífera com a menor emissão de CO2no mundo!",
+          "char_start": 102391,
+          "char_end": 102606,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "até 2050 ainda teremos uma produção mundial de petróleo de 57 milhões de barris por dia, aproximadamente, e o Brasil vai ser essencial para atender a sua demanda interna, que vai crescer, como aqui foi colocado, mas também para ajudar o mundo",
+          "char_start": 104898,
+          "char_end": 105140,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o diálogo institucional como base para desenvolvimento sustentável nas regiões periféricas",
+      "falante": "Deyvid Bacelar",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os índices de desenvolvimento econômico que aqui foram citados serem baixíssimos",
+          "char_start": 103281,
+          "char_end": 103361,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os empregos que são gerados ali hoje, ainda na atividade petrolífera, muito menores do que poderiam ser",
+          "char_start": 103792,
+          "char_end": 103895,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a exigência da AAAS para blocos já outorgados por não ser de competência da empresa nem prevista inicialmente",
+      "falante": "Daniele Zaneti Puelker",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "A própria portaria reconhece que as conclusões de uma AAAS incidirão apenas sobre áreas a serem outorgadas.",
+          "char_start": 117271,
+          "char_end": 117378,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O IBAMA também já reconheceu, em parecer, que não há instrumento jurídico que possa justificar a não recomendação da licença pela falta da AAAS.",
+          "char_start": 117652,
+          "char_end": 117796,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O STF também já disse que o que atesta a viabilidade ambiental do empreendimento é o licenciamento, não é a AAAS.",
+          "char_start": 117877,
+          "char_end": 117990,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe que a AAAS seja exigida apenas na fase de produção, não na exploração",
+      "falante": "Daniele Zaneti Puelker",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Na Guiana, foram 3 anos. Identificaram as jazidas e, em 3 anos, a primeira plataforma já estava operando.",
+          "char_start": 118331,
+          "char_end": 118436,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "solicita a liberação da APO para avaliação de campo do plano de emergência",
+      "falante": "Daniele Zaneti Puelker",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Neste momento, o que estamos pedindo é autorização para fazermos esse simulado de campo, já que os recursos estão lá mobilizados, a fim de a PETROBRAS demonstrar a efetividade do seu plano de emergência.",
+          "char_start": 113737,
+          "char_end": 113940,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atuação da PETROBRAS com foco em diálogo, segurança e desenvolvimento sustentável",
+      "falante": "Daniele Zaneti Puelker",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a PETROBRAS perfurou mais de 3 mil poços em águas profundas no Brasil ao longo da sua história e nunca teve nenhum acidente de grande porte relacionado a vazamento de óleo.",
+          "char_start": 120755,
+          "char_end": 120927,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o IBAMA reconheceu a qualidade do plano de resposta a emergências e proteção à fauna da PETROBRAS.",
+          "char_start": 126836,
+          "char_end": 126934,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que a exploração de petróleo na Foz do Amazonas exija planejamento estratégico, estudos ambientais rigorosos e respeito à biodiversidade, sem açodamento político.",
+      "falante": "Ivan Valente",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "70 quilômetros.",
+          "char_start": 139574,
+          "char_end": 139589,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a pauta de desenvolvimento do Nordeste e do Norte é de interesse nacional e deve ser tratada com foco em consenso e justiça social",
+      "falante": "Jorge Goetten",
+      "turno_id": 45,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "se melhora a vida das pessoas no Nordeste e melhora a vida das pessoas no Norte, é bom também para todo o País",
+          "char_start": 149262,
+          "char_end": 149372,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção de cuidados ambientais rigorosos em projetos estratégicos para proteger a reputação do País",
+      "falante": "Jorge Goetten",
+      "turno_id": 45,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o mundo quer comprar o Brasil",
+          "char_start": 150648,
+          "char_end": 150677,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "está em questão também a reputação do Brasil",
+          "char_start": 150977,
+          "char_end": 151021,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não aconteceu, mas pode acontecer.",
+        "resposta": "Isto cria — e já concluo, Presidente Priante — um problema. O lucro econômico e social poderá ser perdido se acontecer um acidente, porque está em questão também a reputação do Brasil.",
+        "objecao_char_start": 150803,
+        "objecao_char_end": 150837,
+        "resposta_char_start": 150838,
+        "resposta_char_end": 151022,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "sugere que os benefícios sociais dos projetos sejam direcionados diretamente às pessoas mais necessitadas, para reduzir desigualdades",
+      "falante": "Jorge Goetten",
+      "turno_id": 45,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "esse benefício social chegue principalmente às pessoas que mais necessitam, para diminuirmos a desigualdade e tornarmos o País mais justo",
+          "char_start": 151938,
+          "char_end": 152075,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Porém, algumas vezes, esse benefício não vai chegar.",
+        "resposta": "Eu acho que é superimportante que esses benefícios sociais, de que nós falamos aqui, que esses Estados e a Região Norte e Nordeste vão ter vão direto na veia, vão direto para a população, senão, acontecem muitos desvios.",
+        "objecao_char_start": 151836,
+        "objecao_char_end": 151888,
+        "resposta_char_start": 151511,
+        "resposta_char_end": 151731,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que decisões do IBAMA devem ser tecnicamente embasadas e sem vazamentos midiáticos",
+      "falante": "Acácio Favacho",
+      "turno_id": 56,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós tivemos conhecimento disso pelas redes sociais. Eu vou lhe apresentar que o parecer dos técnicos do IBAMA já estava na grande mídia, nas redes sociais, antes mesmo de este protocolo chegar à sua mão.",
+          "char_start": 160499,
+          "char_end": 160702,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a cooperação institucional entre PETROBRAS, IBAMA e ministérios para decisões estratégicas",
+      "falante": "Acácio Favacho",
+      "turno_id": 56,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "como na Portaria de 2012, Deputado Ivan Valente, em que está estabelecido que as decisões são tomadas em conjunto com o Ministério do Meio Ambiente, com o Ministério de Minas e Energia.",
+          "char_start": 161096,
+          "char_end": 161281,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a criação de uma comissão permanente com Câmara, Senado e outros Poderes para decisões ambientais e energéticas",
+      "falante": "Acácio Favacho",
+      "turno_id": 56,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Esta Comissão tem que ter uma obrigação ao término desta audiência. Espero que V.Exa. convide a Comissão de Meio Ambiente ou a Comissão de Constituição e Justiça do Senado para construir uma Comissão, em conjunto com a Câmara dos Deputados e com o Senado",
+          "char_start": 162672,
+          "char_end": 162926,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a redistribuição de royalties para desenvolver o Amapá, em reconhecimento à sua preservação ambiental",
+      "falante": "Acácio Favacho",
+      "turno_id": 56,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Amapá tem o menor PIB do País",
+          "char_start": 165533,
+          "char_end": 165564,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "63% desta população no CadÚnico",
+          "char_start": 164076,
+          "char_end": 164107,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende visibilidade internacional para as necessidades sociais da população da Amazônia na COP 30",
+      "falante": "Acácio Favacho",
+      "turno_id": 56,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Que venha a COP 30! Que venha em 2025 o mundo para ver a Amazônia, o verde, mas também para ver o povo sofrido que vive nela, o povo que está sangrando, com necessidades e com fome!",
+          "char_start": 164777,
+          "char_end": 164958,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reconhece crimes ambientais como consequência da pobreza e da falta de alternativas no Amapá",
+      "falante": "Acácio Favacho",
+      "turno_id": 56,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Muitas vezes, comete um crime ambiental — pegam essa motosserra de que o Deputado Ivan fica falando — porque não tem o que levar para casa.",
+          "char_start": 165135,
+          "char_end": 165274,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita decisões centralizadas que ignoram a realidade das comunidades locais e geram desemprego no Oiapoque",
+      "falante": "Marcelo Martins",
+      "turno_id": 58,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "já temos mais de 350 funcionários trabalhando",
+          "char_start": 168550,
+          "char_end": 168595,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "muitas pessoas já estão desempregadas",
+          "char_start": 168970,
+          "char_end": 169007,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há pessoas que voltaram a passar necessidade",
+          "char_start": 169009,
+          "char_end": 169053,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Quando eu vejo muitas pessoas falar em preservação",
+        "resposta": "nós temos um Município mais preservado. No Oiapoque, não se pode pescar. No Oiapoque, não se pode derrubar uma madeira",
+        "objecao_char_start": 168083,
+        "objecao_char_end": 168133,
+        "resposta_char_start": 168135,
+        "resposta_char_end": 168253,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a perfuração imediata de poço na bacia equatorial como política de Estado para impulsionar a economia e melhorar índices sociais",
+      "falante": "Cleber Verde",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Amapá tem pressa, que o Norte do nosso País tem pressa e que o Nordeste tem pressa",
+          "char_start": 170605,
+          "char_end": 170689,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O Maranhão já está na expectativa desta oportunidade",
+          "char_start": 171434,
+          "char_end": 171486,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "há todo um aparato técnico, e as condições de infraestrutura já apresentadas pela PETROBRAS nos garantem, sim, que podemos fazer a perfuração deste poço",
+          "char_start": 171786,
+          "char_end": 171938,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "como disse Deyvid Bacelar, a quem cumprimento pela fala, esta é uma política de Estado, isso interessa ao País e ao povo brasileiro",
+          "char_start": 172021,
+          "char_end": 172152,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção do rigor técnico no licenciamento, com possibilidade de nova análise se houver comprovação de viabilidade",
+      "falante": "Rodrigo Agostinho",
+      "turno_id": 64,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "entre o parecer da equipe técnica e o meu parecer, nós demoramos quase 1 mês para a tomada da decisão final",
+          "char_start": 178578,
+          "char_end": 178685,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "houve oito tentativas de solicitação de complementações, as quais foram atendidas pela PETROBRAS, porém, não resolveram os problemas que haviam sido considerados pela equipe",
+          "char_start": 179231,
+          "char_end": 179404,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Por que na Guiana é de um jeito e no Brasil é de outro?",
+        "resposta": "Porque cada país tem a sua legislação, cada país tem suas regras, cada país exerce a sua soberania de forma diferente.",
+        "objecao_char_start": 178348,
+        "objecao_char_end": 178403,
+        "resposta_char_start": 178404,
+        "resposta_char_end": 178522,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reitera o compromisso de conciliação e solicita reconsideração do indeferimento do licenciamento",
+      "falante": "Daniele Zaneti Puelker",
+      "turno_id": 66,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em 2022, fizemos mais de 20 reuniões públicas informativas com a comunidade do entorno",
+          "char_start": 182129,
+          "char_end": 182215,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "desde o início, em 2021, quando assumiu esse processo de licenciamento, buscou atender todas as premissas do IBAMA, dos órgãos fiscalizadores",
+          "char_start": 181589,
+          "char_end": 181730,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 9,
+      "falante": "Rodrigo Agostinho",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que isso vai encarecer o produto"
+    },
+    {
+      "turno_id": 11,
+      "falante": "Suely Araújo",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "A Portaria nº 198 realmente dá oportunidade de substituir a Avaliação Ambiental de Área Sedimentar por uma manifestação dos órgãos ambientais — ninguém nega isso —, mas essa disposição é transitória. Na portaria, está como 'disposições transitórias'."
+    },
+    {
+      "turno_id": 31,
+      "falante": "Ticiana de Oliveira Alvares",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Caso contrário, vamos mais uma vez ficar para trás e perpetuar a condição em que fomos colocados pela chamada 'Divisão Internacional do Trabalho', a de grandes exportadores de commodities."
+    },
+    {
+      "turno_id": 35,
+      "falante": "Daniele Zaneti Puelker",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Esse bloco foi ofertado, na época, pela BP, empresa inglesa de petróleo e gás. Nessa manifestação conjunta, nenhuma restrição ambiental foi apontada quanto à ida desse bloco a leilão."
+    },
+    {
+      "turno_id": 35,
+      "falante": "Daniele Zaneti Puelker",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "É na etapa da produção que a empresa vai se instalar e operar por 30 anos, 40 anos, 50 anos na região."
+    },
+    {
+      "turno_id": 35,
+      "falante": "Daniele Zaneti Puelker",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que isso vai encarecer o produto"
+    },
+    {
+      "turno_id": 39,
+      "falante": "Ivan Valente",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "há vários acidentes mecânicos com sondas, de deslocamento."
+    },
+    {
+      "turno_id": 39,
+      "falante": "Ivan Valente",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que o problema não chega à costa."
+    },
+    {
+      "turno_id": 56,
+      "falante": "Acácio Favacho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Nós precisamos, sim, de prazos, de um calendário, de um cronograma de trabalho. Nós precisamos saber quando vão ser tomadas as decisões, pelo menos para dizer:'Você conversou, você dialogou'."
+    },
+    {
+      "turno_id": 64,
+      "falante": "Rodrigo Agostinho",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o parecer da equipe técnica foi emitido no dia 20 de abril... e o meu parecer foi emitido somente no dia 17 de maio"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9444,
+  "taxa_contraponto": 0.1667,
+  "taxa_ancoragem_fundamento": 0.9222
+}

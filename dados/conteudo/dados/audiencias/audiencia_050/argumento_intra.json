@@ -1,0 +1,440 @@
+{
+  "sample_id": 50,
+  "n_opinioes": 17,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 17,
+  "n_fundamentos_propostos": 31,
+  "n_fundamentos_ancorados": 30,
+  "n_fundamentos_com_numero": 9,
+  "por_tipo": {
+    "dado": 26,
+    "autoridade": 4
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 4,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "rejeita a inclusão do FUNDEB no arcabouço fiscal por representar retrocesso educacional e desigualdade",
+      "falante": "Soraya Santos",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O FUNDEB foi uma conquista do Parlamento brasileiro, que minimizou a desigualdade educacional em todo o Brasil desde 1994",
+          "char_start": 13908,
+          "char_end": 14029,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "não dava para inserir no arcabouço fiscal o FUNDEB, não dava",
+        "resposta": "Colocar o FUNDEB dentro do arcabouço fiscal foi uma punhalada, e nenhum partido pôde fazer requerimento de destaque para defender a retirada",
+        "objecao_char_start": 13846,
+        "objecao_char_end": 13906,
+        "resposta_char_start": 14031,
+        "resposta_char_end": 14171,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a integração de tecnologia na medicina para ampliar o acesso a serviços de saúde em regiões remotas",
+      "falante": "Soraya Santos",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vejam o que a telemedicina está fazendo",
+          "char_start": 16068,
+          "char_end": 16107,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "imaginem uma pessoa que não tem acesso à reabilitação poder fazer a reabilitação à distância",
+          "char_start": 16636,
+          "char_end": 16728,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se a cortes ou contingenciamentos que comprometam o avanço em educação, ciência e tecnologia",
+      "falante": "Soraya Santos",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Pasme: dos 64% de pesquisas feitas no Brasil, só 14% viraram tecnologias e inovações em benefício do próprio País",
+          "char_start": 15095,
+          "char_end": 15208,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "não é contingenciando, limitando aquilo que é o mínimo, o básico, que começou pelo FUNDEB ou pelo fundo da ciência, que vamos conseguir avançar",
+          "char_start": 15261,
+          "char_end": 15404,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o licenciamento compulsório do dolutegravir por patente indevida e risco de desabastecimento",
+      "falante": "Veriano de Souza Terto Junior",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Atualmente, mais de 460 mil pessoas fazem uso desse medicamento, que é o mais utilizado atualmente na política de HIV/AIDS.",
+          "char_start": 30255,
+          "char_end": 30378,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não tem sido infrequente a ameaça de desabastecimento por questões de capacidade de produção da lamivudina, o que deixa sempre as pessoas soropositivas que dependem dessa combinação com uma espada na cabeça.",
+          "char_start": 28894,
+          "char_end": 29101,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Nos nossos estudos, nós constatamos que a patente é indevida, não atende aos critérios da lei brasileira para a concessão de patentes, e vemos a sua concessão como uma violação ao direito à saúde e à própria Lei de Propriedade Industrial brasileira.",
+          "char_start": 30973,
+          "char_end": 31222,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A patente relacionada ao dolutegravir foi indevidamente concedida, apesar das nossas iniciativas de oposição à patente desse medicamento junto ao INPI.",
+        "resposta": "Nos nossos estudos, nós constatamos que a patente é indevida, não atende aos critérios da lei brasileira para a concessão de patentes, e vemos a sua concessão como uma violação ao direito à saúde e à própria Lei de Propriedade Industrial brasileira.",
+        "objecao_char_start": 30821,
+        "objecao_char_end": 30972,
+        "resposta_char_start": 30973,
+        "resposta_char_end": 31222,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende fortalecer o processo de avaliação de tecnologias em saúde com base em evidências, participação social e análise econômica para incorporação célere e justa no SUS",
+      "falante": "Ronaldo Hallal",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos um sistema de informações que nos permite olhar o percentual da população que usa: 7%, ou seja, 54 mil pessoas estão utilizando essa combinação de terapia dupla.",
+          "char_start": 44053,
+          "char_end": 44224,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Este percurso é importante que se fortaleça: a partir da evidência científica, dos estudos clínicos, do registro na ANVISA, do preço CMED, de uma forma ágil, de uma forma que garanta um processo célere de análise dessas tecnologias, que se faça uma proposta de incorporação, quando pertinente, com o apoio de comitês de especialistas, elaboração de estudos de avaliação das tecnologias, estudos econômicos.",
+          "char_start": 49256,
+          "char_end": 49662,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a combinação de lamivudina e dolutegravir em dose fixa é reutilização estratégica de medicamentos antigos, não nova tecnologia, e não deve ser protegida por patentes",
+      "falante": "Ronaldo Hallal",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos acompanhado também o fato de que elas se mantêm com o vírus suprimido.",
+          "char_start": 44225,
+          "char_end": 44305,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Vale destacar que 250 mil pessoas em tratamento têm idade superior a 50 anos.",
+          "char_start": 42910,
+          "char_end": 42987,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "há a possibilidade de utilização de antirretrovirais injetáveis de longa duração para a Profilaxia Pré-Exposição.",
+        "resposta": "Mas, como eu falei, é preciso que os medicamentos tenham um preço justo, um custo justo que permita a sua incorporação.",
+        "objecao_char_start": 47337,
+        "objecao_char_end": 47450,
+        "resposta_char_start": 49003,
+        "resposta_char_end": 49122,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende um preço justo de comercialização de medicamentos, negociado com o Ministério da Saúde.",
+      "falante": "Rodrigo Pinheiro",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a da negociação de preço",
+          "char_start": 55351,
+          "char_end": 55375,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a apresentação de emendas à LDO e ao Orçamento para ampliar produção e distribuição de medicamentos, garantindo acesso universal",
+      "falante": "Lucas Ramos",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "no próximo momento de discussão da Lei de Diretrizes Orçamentárias e do Orçamento da União para o próximo ano de 2024, esta Comissão tem o dever de apresentar emendas, tanto para a LDO como para o Orçamento, para garantir a ampliação da produção e da distribuição, para que o medicamento chegue a quem mais precisa, evidentemente.",
+          "char_start": 58137,
+          "char_end": 58467,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o orçamento para saúde deve ser profundamente debatido para viabilizar avanços",
+      "falante": "Daiana Santos",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "porque sem um investimento, sem priorização no orçamento, em definitivo, nada vai acontecer",
+          "char_start": 59947,
+          "char_end": 60038,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o licenciamento compulsório como instrumento de interesse público frente a patentes fracas",
+      "falante": "Veriano de Souza Terto Junior",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um medicamento que é usado por mais de 500 mil pessoas",
+          "char_start": 62416,
+          "char_end": 62470,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há 16 anos, o Brasil decretou o licenciamento compulsório do efavirenz, justamente em maio de 2007",
+          "char_start": 63014,
+          "char_end": 63112,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "os medicamentos são caros",
+        "resposta": "Os medicamentos se tornam caros por causa de um sistema de regulação de propriedade intelectual e de comércio, o que faz com que eles se coloquem caros, muitas vezes, de forma indevida",
+        "objecao_char_start": 62800,
+        "objecao_char_end": 62825,
+        "resposta_char_start": 62827,
+        "resposta_char_end": 63011,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica o sistema de patentes que encarece medicamentos e defende o licenciamento compulsório como resposta",
+      "falante": "Veriano de Souza Terto Junior",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "trazendo o risco, a possibilidade de desabastecimento para a população",
+          "char_start": 62277,
+          "char_end": 62347,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a reabertura do debate sobre licenciamento compulsório no Congresso para medicamentos essenciais",
+      "falante": "Veriano de Souza Terto Junior",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos até agora esperando a resposta da Ministra, mas achamos que é muito importante, no movimento social, colocar de novo em pauta no Congresso, na Comissão de Ciência e Tecnologia, essa questão do licenciamento compulsório",
+          "char_start": 63301,
+          "char_end": 63531,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a resposta ao HIV/AIDS exija políticas sociais, combate ao estigma e respeito aos direitos humanos, além da abordagem medicalizada",
+      "falante": "Ronaldo Hallal",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos olhado não somente para medicamentos antirretrovirais, mas também para o tratamento das infecções oportunistas. Muitas pessoas morrem por AIDS. Mesmo que tenhamos uma série de medicamentos incorporados ou introduzidos, perspectivas de introduzir novas intervenções, ainda temos milhares de brasileiros que morrem com AIDS, com a doença, por diagnóstico tardio.",
+          "char_start": 66243,
+          "char_end": 66613,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "as barreiras que dizem respeito ao estigma, ao preconceito, à renda, ao acesso, à discriminação que algumas populações sofrem na rede de serviços e, de uma maneira geral, nos sistemas formais da sociedade, isso também precisa ser debatido, porque é uma barreira, um obstáculo muito importante para haver esse acesso.",
+          "char_start": 66617,
+          "char_end": 66933,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós temos o pano de fundo para essa discussão, que é o acesso universal. É a Lei nº 9.313, de 1996, que, de alguma forma, estabelece a importância de olhar para novas intervenções, para novos medicamentos.",
+          "char_start": 65941,
+          "char_end": 66146,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a perda do processo estruturado de avaliação de tecnologias e defende sua retomada com base em evidências e interesse público",
+      "falante": "Ronaldo Hallal",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Esse processo de avaliação de tecnologias que foi estabelecido ao longo do tempo acabou se perdendo.",
+          "char_start": 66935,
+          "char_end": 67035,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós estamos num momento de retomar esse trabalho a partir das melhores evidências disponíveis para começar a reestruturar o que, em algum momento, já se começou a fazer.",
+          "char_start": 67035,
+          "char_end": 67204,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que decisões regulatórias, como registro de medicamentos, devem seguir o interesse público e não interesses de mercado",
+      "falante": "Ronaldo Hallal",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Outras estratégias acabam afetando o interesse da população. O Veriano comentou sobre o TAF, que está registrado somente para a hepatite B. Ele não está registrado no Brasil para uso como medicamento para o HIV, ou seja, não há nesse sentido garantia para ser utilizado pela população que vive com HIV/AIDS, porque não foi registrado.",
+          "char_start": 67818,
+          "char_end": 68152,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Essa decisão de registrar ou não registrar não está alinhada com o interesse público.",
+          "char_start": 68153,
+          "char_end": 68238,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a produção de genéricos e similares e o uso de licenciamento compulsório como estratégias essenciais para garantir acesso universal a preços justos",
+      "falante": "Ronaldo Hallal",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Por fim, eu vivi um momento que foi único na história do acesso universal à terapia antiviral no Brasil, quando se estabeleceu o licenciamento compulsório do efavirenz.",
+          "char_start": 69081,
+          "char_end": 69249,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "lembro que, além de economia, não houve retirada do País do laboratório que produzia o efavirenz — era esse o receio que existia.",
+          "char_start": 69265,
+          "char_end": 69394,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Existe o registro no imaginário de que o Brasil trabalhava nessa direção antes do efavirenz, trabalhava na negociação de preços, como hoje trabalha, e na produção de similares ou genéricos, que também é algo que interessa atualmente no sentido de garantir o acesso da população ao medicamento a preços justos e a um custo que se justifica do ponto de vista da introdução e da utilização.",
+          "char_start": 69395,
+          "char_end": 69782,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende investimento contínuo em pesquisa e tecnologia como condição para o acesso universal à saúde",
+      "falante": "Daiana Santos",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós tivemos um período totalmente obscuro diante do investimento na tecnologia e na pesquisa e sabemos o quanto isso impacta no cuidado em saúde",
+          "char_start": 70560,
+          "char_end": 70704,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 14,
+      "falante": "Ronaldo Hallal",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "É bom lembrar que 250 mil pessoas em tratamento têm idade superior a 50 anos."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.2353,
+  "taxa_ancoragem_fundamento": 0.9677
+}

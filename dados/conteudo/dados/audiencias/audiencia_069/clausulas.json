@@ -1,0 +1,92 @@
+{
+  "sample_id": 69,
+  "n_opinioes": 17,
+  "n_decompostas": 17,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 11,
+  "n_ancorados": 9,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 4,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "escopo": 4,
+    "prazo": 1,
+    "excecao": 3,
+    "condicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "José Ricardo Moreno Pinho",
+      "turno_id": 6,
+      "opiniao": "apoia a ampliação da participação da juventude no processo eleitoral e coloca a universidade à disposição para essa causa",
+      "nucleo": "apoiou a ampliação da participação da juventude no processo eleitoral e colocou a universidade à disposição para essa causa",
+      "tipo": "escopo",
+      "trecho": "Enquanto universidade",
+      "char_start": 23561,
+      "char_end": 23582
+    },
+    {
+      "falante": "Carlos Eduardo Miguel Sobral",
+      "turno_id": 8,
+      "opiniao": "Defende que a democracia deve respeitar as diferenças, mas rejeitar a intolerância, o ódio e a discriminação.",
+      "nucleo": "Defendeu que a democracia deve respeitar as diferenças e rejeitar a intolerância, o ódio e a discriminação.",
+      "tipo": "excecao",
+      "trecho": "não podemos ter tolerância com a discriminação de gênero, de raça, de origem, política, qualquer que seja a intolerância violenta",
+      "char_start": 29472,
+      "char_end": 29601
+    },
+    {
+      "falante": "Carlos Eduardo Miguel Sobral",
+      "turno_id": 8,
+      "opiniao": "Defende a educação cívica para formar jovens capazes de produzir e consumir informação com responsabilidade, preservando o debate democrático.",
+      "nucleo": "Defendeu a educação cívica para formar jovens capazes de produzir e consumir informação com responsabilidade.",
+      "tipo": "escopo",
+      "trecho": "conscientizá-los",
+      "char_start": 30629,
+      "char_end": 30645
+    },
+    {
+      "falante": "Carlos Eduardo Miguel Sobral",
+      "turno_id": 8,
+      "opiniao": "Defende a educação cívica para formar jovens capazes de produzir e consumir informação com responsabilidade, preservando o debate democrático.",
+      "nucleo": "Defendeu a educação cívica para formar jovens capazes de produzir e consumir informação com responsabilidade.",
+      "tipo": "escopo",
+      "trecho": "a todos",
+      "char_start": 24360,
+      "char_end": 24367
+    },
+    {
+      "falante": "Lídice da Mata",
+      "turno_id": 11,
+      "opiniao": "Defende a realização periódica de audiências públicas sobre engajamento juvenil em todas as eleições para fortalecer a cidadania.",
+      "nucleo": "Defendeu a realização periódica de audiências públicas sobre engajamento juvenil para fortalecer a cidadania.",
+      "tipo": "escopo",
+      "trecho": "Toda vez que nós tivermos eleições gerais no País, eleições municipais, regionais e nacionais, como a que estamos tendo agora",
+      "char_start": 45859,
+      "char_end": 45984
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 19,
+      "falante": "Lídice da Mata",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em tempos de polarização",
+      "opiniao": "Defende o respeito como pilar da democracia e o debate racional em vez de ofensas, especialmente em tempos de polarização."
+    },
+    {
+      "turno_id": 19,
+      "falante": "Lídice da Mata",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "independentemente da orientação política",
+      "opiniao": "Reafirma o compromisso com as urnas eletrônicas e o respeito aos resultados eleitorais, independentemente da orientação política."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.4444,
+  "taxa_ancoragem": 0.8182,
+  "taxa_opiniao_intacta": 0.7647
+}

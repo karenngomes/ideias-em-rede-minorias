@@ -1,0 +1,2367 @@
+{
+  "sample_id": 193,
+  "n_turnos": 52,
+  "n_turnos_codificados": 25,
+  "n_codigos": 173,
+  "n_rejeitados": 2,
+  "taxa_rejeicao": 0.04,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 25,
+      "distribuicao": {
+        "interrompido": 1,
+        "normal": 24
+      },
+      "media": 0.96,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "nenhuma": 10,
+        "inferior": 1,
+        "qualificada": 14,
+        "sofisticada": 0
+      },
+      "media": 1.16,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 24,
+      "distribuicao": {
+        "interesse_de_grupo": 1,
+        "neutro": 11,
+        "bem_comum_utilitario": 11,
+        "bem_comum_diferenca": 1
+      },
+      "media": 1.5,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 24,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 10,
+        "explicito_positivo": 14
+      },
+      "media": 1.5833,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 25,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 24,
+        "inclui": 1,
+        "valoriza": 0
+      },
+      "media": 1.04,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "posicional": 21,
+        "proposta_alternativa": 4,
+        "proposta_mediadora": 0
+      },
+      "media": 0.16,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Carlito Merss": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Ercílio Santinoni": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Gilberto Rodrigues Borça Junior": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Hélio Dagnoni": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Joaquim Donizete de Almeida": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Jorge Goetten": {
+        "participacao": {
+          "n": 8,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 8,
+          "media": 0.125
+        },
+        "respeito_contra": {
+          "n": 8,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 8,
+          "media": 0.5
+        },
+        "justificacao_conteudo": {
+          "n": 8,
+          "media": 1.125
+        },
+        "respeito_grupos": {
+          "n": 8,
+          "media": 1.375
+        },
+        "respeito_demandas": {
+          "n": 8,
+          "media": 1.0
+        }
+      },
+      "José Tarcísio da Silva": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Maurício Costa de Moura": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Rubens Sardenberg": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Vinicius do Nascimento Carrasco": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Vitor Lippi": {
+        "participacao": {
+          "n": 5,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.2
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.6
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.6
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.0
+        }
+      },
+      "Zé Neto": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilberto Rodrigues Borça Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "José Tarcísio da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Zé Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Rubens Sardenberg",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Maurício Costa de Moura",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ercílio Santinoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Joaquim Donizete de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Jorge Goetten",
+      "trecho": "Eu sinto na carne a dor que todos nós sentimos, mas principalmente o nosso comerciante, o nosso lojista, o nosso dono de bar, o micro, o pequeno empresário.",
+      "char_start": 3998,
+      "char_end": 4154,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Gilberto Rodrigues Borça Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilberto Rodrigues Borça Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Gilberto Rodrigues Borça Junior",
+      "trecho": "Basicamente, trazemos aqui um conjunto de quatro justificativas maislato sensu.\n\nA primeira delas é que, tipicamente — a literatura macroeconômica mostra isso —, essas empresas de menor porte são, financeiramente, mais restritas a crédito, têm menos acesso a fontes formais de financiamento. Quando elas têm esse tipo de acesso, elas o fazem a taxas de juros bastante elevadas,vis-à-visempresas de maior porte. Então, acho que esse é um dos motivos de termos um tratamento diferenciado para esse conjunto de empresas.\n\nO segundo ponto é que, como essas empresas têm o fator de produção capital mais escasso, o retorno do capital investido nas pequenas empresas é maior, mais elevado. Então, isso é, potencialmente, mais impactante para o desenvolvimento econômico.\n\nO terceiro ponto é que elas exercem um papel especial na dinâmica da economia por serem basicamente as grandes geradoras de empregos formais, serem fontes de inovação, enfim, de competição de mercado.\n\nPor fim, as pequenas e médias empresas são muito mais sensíveis ao ciclo econômico. Quando a economia vai mal, elas vão realmente muito mal e sofrem bastante.",
+      "char_start": 6730,
+      "char_end": 7856,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Gilberto Rodrigues Borça Junior",
+      "trecho": "Então, isso é, potencialmente, mais impactante para o desenvolvimento econômico.",
+      "char_start": 7414,
+      "char_end": 7494,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Gilberto Rodrigues Borça Junior",
+      "trecho": "devemos apoiar as micro, pequenas e médias empresas — MPMEs de forma geral",
+      "char_start": 6653,
+      "char_end": 6727,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilberto Rodrigues Borça Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "José Tarcísio da Silva",
+      "trecho": "Vamos criar o Desenrola da microempresa. Vamos tirar os juros, as multas, principalmente do Fisco, daqueles que estão devendo ao Governo. Vamos tirar as multas! Vamos tirar os juros! Vamos parcelar o principal. Vamos dar tempo para esse cidadão pagar o que deve e começar novamente contratando, se reerguendo, crescendo.",
+      "char_start": 22065,
+      "char_end": 22385,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "José Tarcísio da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "José Tarcísio da Silva",
+      "trecho": "Vamos tirar as multas! Vamos tirar os juros! Vamos parcelar o principal. Vamos dar tempo para esse cidadão pagar o que deve e começar novamente contratando, se reerguendo, crescendo.",
+      "char_start": 22203,
+      "char_end": 22385,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "José Tarcísio da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "trecho": "A economia prova que, quando no capitalismo o rentismo é mais importante que a produção, dá nisso.",
+      "char_start": 30243,
+      "char_end": 30341,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "trecho": "Pensem o que significa isso em termos de atender emendas, colocar no PAC algum projeto.",
+      "char_start": 34342,
+      "char_end": 34429,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "trecho": "a micro e pequena empresa",
+      "char_start": 27121,
+      "char_end": 27146,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Carlito Merss",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "a inflação é o mais regressivo dos impostos. Poucas coisas são tão regressivas e tão prejudiciais àqueles que não conseguem se proteger de um processo inflacionário quanto o aumento sistemático de preços.",
+      "char_start": 41775,
+      "char_end": 41979,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 16,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "tão prejudiciais àqueles que não conseguem se proteger de um processo inflacionário",
+      "char_start": 41856,
+      "char_end": 41939,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "Estamos falando aqui de empreendedores. Hoje, como apontou o José Tarcísio e como mencionou o Dr. Carlito, grande parte dos empreendedores brasileiros são MEI, são autônomos. Então, há uma confusão grande entre esses empreendedores e a camada mais vulnerável da população que sofre desse imposto regressivo que tanto nos afetou durante muito tempo.",
+      "char_start": 41981,
+      "char_end": 42329,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Vinicius do Nascimento Carrasco",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "trecho": "defendemos condições macroeconômicas mais favoráveis à realização de negócios, sendo que a inflação controlada não apenas possibilita, como também impõe a queda da taxa de juros, permitindo que esse crédito cumpra o seu papel fundamental numa economia capitalista como a nossa.",
+      "char_start": 57688,
+      "char_end": 57965,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "trecho": "defendemos condições macroeconômicas mais favoráveis à realização de negócios, sendo que a inflação controlada não apenas possibilita, como também impõe a queda da taxa de juros, permitindo que esse crédito cumpra o seu papel fundamental numa economia capitalista como a nossa.",
+      "char_start": 57688,
+      "char_end": 57965,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "trecho": "Quando se fala que um microempreendedor, que um pequeno empresário quebra me dói no coração, Deputado Tarcísio, porque não é a empresa que quebra, é a família. Eu até me emociono. Quebra o cara, quebra a mulher, quebram os filhos, a família fica quebrada, é separação, é filho abandonado, é mulher abandonada. É um negócio que é extremamente profundo. É trágico, realmente é uma tragédia.",
+      "char_start": 58437,
+      "char_end": 58825,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Vitor Lippi",
+      "trecho": "É importante discutir aqui questões relevantes para viabilizar as nossas empresas e defender o Brasil, defender o interesse do nosso País, defender a geração de riqueza, de emprego.",
+      "char_start": 60404,
+      "char_end": 60585,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Vitor Lippi",
+      "trecho": "defender o Brasil, defender o interesse do nosso País, defender a geração de riqueza, de emprego.",
+      "char_start": 60488,
+      "char_end": 60585,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Vitor Lippi",
+      "trecho": "para os empreendedores brasileiros, para o povo brasileiro",
+      "char_start": 60001,
+      "char_end": 60059,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Zé Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Zé Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Zé Neto",
+      "trecho": "Se abaixar ou aumentar juros tiver apenas como reflexo a inflação, é preciso que coloquemos, com mais clareza, na própria lei, quais seriam as outras responsabilidades do próprio Banco Central. Nós não podemos conviver — não é com esse ou com outro Banco Central — com o fato de que, com essa política que o Banco Central tem adotado, infelizmente, está ficando muito claro que o mercado financeiro passa a ser mais importante. Hélio, você veio de Santa Catarina, tem tanto conhecimento para nos trazer aqui. O Banco Central fica mais importante do que o mercado consumidor e o setor produtivo.",
+      "char_start": 61441,
+      "char_end": 62035,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Zé Neto",
+      "trecho": "precisamos produzir, precisamos de emprego, renda, desenvolvimento regional, principalmente, e precisamos distribuir renda e avançar com o País.",
+      "char_start": 63230,
+      "char_end": 63374,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Zé Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Zé Neto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Hélio Dagnoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Rubens Sardenberg",
+      "trecho": "Nós colocamos aqui como uma das sugestões esse acesso à base de dados da Receita. Essa é uma proposta que inclusive nós apresentamos para o Ministério da Fazenda, e o Ministro a incluiu nas medidas que ele apresentou.",
+      "char_start": 78812,
+      "char_end": 79029,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Rubens Sardenberg",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Rubens Sardenberg",
+      "trecho": "uma taxa baixa de recuperação de garantias implica uma taxa de juros, umspreadmaior, porque o risco da operação é maior",
+      "char_start": 76874,
+      "char_end": 76993,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Rubens Sardenberg",
+      "trecho": "ao ter esse processo fortalecido, você faz com que toda a economia possa trabalhar com taxas de juros muito menores",
+      "char_start": 82236,
+      "char_end": 82351,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Rubens Sardenberg",
+      "trecho": "Queria exaltar esta iniciativa",
+      "char_start": 84008,
+      "char_end": 84038,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Rubens Sardenberg",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Maurício Costa de Moura",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Maurício Costa de Moura",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Maurício Costa de Moura",
+      "trecho": "A inflação cobra seu preço com a desorganização da economia, o que se reflete na redução do investimento, da criação de emprego e da geração de renda.",
+      "char_start": 87554,
+      "char_end": 87704,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Maurício Costa de Moura",
+      "trecho": "A inflação cobra seu preço com a desorganização da economia, o que se reflete na redução do investimento, da criação de emprego e da geração de renda.",
+      "char_start": 87554,
+      "char_end": 87704,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Maurício Costa de Moura",
+      "trecho": "O cenário para pequenas e microempresas tem melhorado de forma lenta, mas decisiva no decorrer dos anos.",
+      "char_start": 86849,
+      "char_end": 86953,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Maurício Costa de Moura",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ercílio Santinoni",
+      "trecho": "Nós defendemos e vamos brigar para que a inflação continue nos patamares que está, no máximo 4%, porque isso daí dá para o empresário da micro e da pequena empresa controlar os seus custos, suas finanças",
+      "char_start": 108832,
+      "char_end": 109035,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ercílio Santinoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Ercílio Santinoni",
+      "trecho": "eu acho que tem alguma coisa que nós temos que mexer, que é o custo do dinheiro para o pequeno, criando condições para que o banco deixe de pagar os 30%, como disse a FEBRABAN sobre ospread, ou criando outro mecanismo que realmente facilite o pagamento.",
+      "char_start": 106796,
+      "char_end": 107049,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Ercílio Santinoni",
+      "trecho": "eu acho que tem alguma coisa que nós temos que mexer, que é o custo do dinheiro para o pequeno, criando condições para que o banco deixe de pagar os 30%, como disse a FEBRABAN sobre ospread, ou criando outro mecanismo que realmente facilite o pagamento.",
+      "char_start": 106796,
+      "char_end": 107049,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Ercílio Santinoni",
+      "trecho": "um assunto de suma importância para a micro e pequena empresa",
+      "char_start": 105227,
+      "char_end": 105288,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ercílio Santinoni",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 44,
+      "falante": "Joaquim Donizete de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Joaquim Donizete de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Joaquim Donizete de Almeida",
+      "trecho": "se o custo de capital para os pequenos negócios continuar desse jeito, nós vamos continuar de joelhos",
+      "char_start": 115016,
+      "char_end": 115117,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Joaquim Donizete de Almeida",
+      "trecho": "Queremos recorde de atividade econômica, de produção e de exportação, mas dispensamos o recorde dos juros. É hora de repensar o custo de capital para o pequeno empresário no Brasil, sob o risco de não haver pequenos empresários no futuro, mesmo com a potencial pujança brasileira.",
+      "char_start": 115600,
+      "char_end": 115880,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Joaquim Donizete de Almeida",
+      "trecho": "o SEBRAE tem sido um parceiro de todos os momentos dos pequenos negócios. Isso é algo que precisa ser reconhecido.",
+      "char_start": 111574,
+      "char_end": 111688,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Joaquim Donizete de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 45,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Vitor Lippi",
+      "trecho": "Temos o pior sistema tributário do mundo, que prejudicou muito o País, muito mesmo. O segundo monstro é a taxa de juros, que é a maior do mundo e que prejudica muito o Brasil.",
+      "char_start": 116989,
+      "char_end": 117164,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Vitor Lippi",
+      "trecho": "Temos o pior sistema tributário do mundo, que prejudicou muito o País, muito mesmo. O segundo monstro é a taxa de juros, que é a maior do mundo e que prejudica muito o Brasil.",
+      "char_start": 116989,
+      "char_end": 117164,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Vitor Lippi",
+      "trecho": "o povo brasileiro evita trabalhar, mas porque as condições impostas fazem com que essa atividade seja inviável",
+      "char_start": 120720,
+      "char_end": 120830,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Jorge Goetten",
+      "trecho": "O problema é que a maioria dos empreendedores não estudou. Tu estudaste e foste fazer medicina, não precisaste empreender. O empresário, principalmente o pequeno empresário, não tem opção na vida.",
+      "char_start": 121411,
+      "char_end": 121607,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Jorge Goetten",
+      "trecho": "O lucro de banco público, o lucro de empresa pública é o social. Ele tem esse papel social. Ele não pode auferir um lucro igual ao lucro dos bancos privados.",
+      "char_start": 126012,
+      "char_end": 126169,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Jorge Goetten",
+      "trecho": "O nosso povo sofre muito. Algumas vezes, pecamos porque não vivemos lá na ponta, não temos empatia, não conseguimos nos colocar no lugar das pessoas, não vamos lá ver o sofrimento das pessoas que estão na fila do INSS para liberar a perícia, não vamos lá ver o comerciante que está usando toda a família para conseguir crédito e tocar o seu negócio.",
+      "char_start": 126418,
+      "char_end": 126767,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Jorge Goetten",
+      "trecho": "Então, eu acho que nós podemos avançar em caminhos parecidos.",
+      "char_start": 133066,
+      "char_end": 133127,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Jorge Goetten",
+      "trecho": "Então, eu acho que nós podemos avançar em caminhos parecidos.",
+      "char_start": 133066,
+      "char_end": 133127,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Jorge Goetten",
+      "trecho": "Esta Casa tem consultores fantásticos.",
+      "char_start": 132441,
+      "char_end": 132479,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "trecho": "Pode ser que haja uma explicação: um não paga, o custo não sei do quê, há o IOF, mas a verdade é que, para brasileiro, isso não está dando certo.",
+      "char_start": 137304,
+      "char_end": 137449,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "trecho": "Eu acho que a geração de emprego é o melhor programa social que existe.",
+      "char_start": 133608,
+      "char_end": 133679,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "trecho": "Eu acho que a geração de emprego é o melhor programa social que existe.",
+      "char_start": 133608,
+      "char_end": 133679,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "trecho": "os empreendedores brasileiros, que são os nossos heróis",
+      "char_start": 142069,
+      "char_end": 142124,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Jorge Goetten",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "justificacao_conteudo",
+      "turno_id": 10,
+      "falante": "José Tarcísio da Silva",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "bem_comum_utilitario",
+      "trecho": "Vamos trabalhar para ajudar esses milhões de brasileiros, aproximadamente 15 milhões de CNPJs de empreendedor individual. No total, são mais de 25 milhões de CNPJs de micro e pequenos e de empreendedores individuais no Brasil, com um grande número de inadimplentes, que têm o maior desejo de ficar adimplente."
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "turno_id": 10,
+      "falante": "José Tarcísio da Silva",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "explicito_positivo",
+      "trecho": "A micro empresa hoje é o sustentáculo do Brasil. E, de verdade, ela é. Ela é quem gera emprego, quem gera renda."
+    }
+  ],
+  "turnos_falhos": []
+}

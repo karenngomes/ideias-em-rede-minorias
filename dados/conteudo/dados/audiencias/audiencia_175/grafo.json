@@ -1,0 +1,278 @@
+{
+  "sample_id": 175,
+  "assunto": "Revisão da alíquota de taxação das operadoras de apostas esportivas no Brasil",
+  "nos": [
+    {
+      "id": "p::Mauricio do Vôlei",
+      "tipo": "participante",
+      "rotulo": "Mauricio do Vôlei",
+      "dados": {
+        "cargo": "deputado e autor do Requerimento nº 52, de 2023",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "p::José Francisco Manssur",
+      "tipo": "participante",
+      "rotulo": "José Francisco Manssur",
+      "dados": {
+        "cargo": "representante do Ministério da Fazenda",
+        "n_opinioes": 4
+      }
+    },
+    {
+      "id": "p::Udo Seckelmann",
+      "tipo": "participante",
+      "rotulo": "Udo Seckelmann",
+      "dados": {
+        "cargo": "advogado e proveniente do esporte",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende a regulamentação e taxação das casas de apostas esportivas para proteger o esporte brasileiro e gerar receita para o Estado",
+      "dados": {
+        "falante": "Mauricio do Vôlei",
+        "cargo": "deputado e autor do Requerimento nº 52, de 2023",
+        "turno_id": 17,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "defende a destinação de 3% da arrecadação com apostas para o fomento do esporte de base em todas as modalidades",
+      "dados": {
+        "falante": "José Francisco Manssur",
+        "cargo": "representante do Ministério da Fazenda",
+        "turno_id": 6,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "opõe-se à interpretação de que licenças estaduais permitem operar em todo o território nacional, defendendo a exclusividade da credenciação federal",
+      "dados": {
+        "falante": "José Francisco Manssur",
+        "cargo": "representante do Ministério da Fazenda",
+        "turno_id": 14,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "enquanto estivermos cuidando disso",
+            "preservado": false,
+            "char_start": 30202,
+            "char_end": 30236
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "defende a regulamentação das apostas como medida de justiça tributária e de controle social, não como incentivo ao jogo",
+      "dados": {
+        "falante": "José Francisco Manssur",
+        "cargo": "representante do Ministério da Fazenda",
+        "turno_id": 20,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "apoia a destinação perene de 3% da arrecadação para o fomento do esporte de base",
+      "dados": {
+        "falante": "José Francisco Manssur",
+        "cargo": "representante do Ministério da Fazenda",
+        "turno_id": 26,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "escopo",
+            "trecho": "perene",
+            "preservado": true,
+            "char_start": 51332,
+            "char_end": 51338
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "defende um sistema de regulamentação de apostas esportivas não excessivamente oneroso para evitar a migração de operadores para licenças estaduais",
+      "dados": {
+        "falante": "Udo Seckelmann",
+        "cargo": "advogado e proveniente do esporte",
+        "turno_id": 13,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Mauricio do Vôlei",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::José Francisco Manssur",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::José Francisco Manssur",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::José Francisco Manssur",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::José Francisco Manssur",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Udo Seckelmann",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Mauricio do Vôlei",
+      "destino": "p::José Francisco Manssur",
+      "tipo": "fala_apos",
+      "peso": 6.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::José Francisco Manssur",
+      "destino": "p::Mauricio do Vôlei",
+      "tipo": "fala_apos",
+      "peso": 6.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Mauricio do Vôlei",
+      "destino": "p::Udo Seckelmann",
+      "tipo": "fala_apos",
+      "peso": 3.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Udo Seckelmann",
+      "destino": "p::José Francisco Manssur",
+      "tipo": "fala_apos",
+      "peso": 2.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::José Francisco Manssur",
+      "destino": "p::Udo Seckelmann",
+      "tipo": "fala_apos",
+      "peso": 2.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Udo Seckelmann",
+      "destino": "p::Mauricio do Vôlei",
+      "tipo": "fala_apos",
+      "peso": 3.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Mauricio do Vôlei",
+      "destino": "p::José Francisco Manssur",
+      "tipo": "concede_palavra",
+      "peso": 6.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Mauricio do Vôlei",
+      "destino": "p::Udo Seckelmann",
+      "tipo": "concede_palavra",
+      "peso": 3.0,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0001",
+      "tipo": "mesmo_tema",
+      "peso": 0.5678,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0003",
+      "tipo": "mesmo_tema",
+      "peso": 0.6579,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.7442,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0004",
+      "tipo": "mesmo_tema",
+      "peso": 0.9243,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.7253,
+      "dados": {}
+    }
+  ],
+  "resumo": {
+    "sample_id": 175,
+    "n_participantes": 3,
+    "n_opinioes": 6,
+    "arestas": {
+      "emitiu": 6,
+      "fala_apos": 6,
+      "concede_palavra": 2,
+      "mesmo_tema": 5
+    },
+    "camadas_exatas": [
+      "emitiu",
+      "fala_apos",
+      "concede_palavra"
+    ]
+  }
+}

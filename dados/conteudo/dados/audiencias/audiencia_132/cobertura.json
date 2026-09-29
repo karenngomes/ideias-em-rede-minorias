@@ -1,0 +1,128 @@
+{
+  "sample_id": 132,
+  "n_falantes": 7,
+  "n_parlamentares": 2,
+  "n_convidados": 5,
+  "n_citados_gold": 7,
+  "n_citados_ausentes": 3,
+  "n_opinioes_gold": 11,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.8516875297100301,
+      "participacao_civil_turnos": 0.4642857142857143,
+      "citacao_civil_opinioes": 0.5,
+      "citacao_civil_pessoas": 0.5,
+      "deficit_civil": 0.35168752971003014
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.967858107499775,
+      "participacao_civil_turnos": 0.9285714285714286,
+      "citacao_civil_opinioes": 0.75,
+      "citacao_civil_pessoas": 0.6666666666666666,
+      "deficit_civil": 0.21785810749977497
+    }
+  },
+  "citados_ausentes": [
+    "Daniela Schettino",
+    "Higino Germani",
+    "Renato Aguiar"
+  ],
+  "falantes_silenciados": [
+    "Daniela Naufel Schettino",
+    "Higino Ítalo Germani",
+    "Renato Sales Bizerra Aguiar"
+  ],
+  "falantes": [
+    {
+      "nome": "Jadyel Alencar",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 14,
+      "n_palavras": 1515,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        26,
+        28
+      ]
+    },
+    {
+      "nome": "Luiza Erundina",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 357,
+      "turnos": [
+        2
+      ]
+    },
+    {
+      "nome": "Geremias dos Santos",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2905,
+      "turnos": [
+        4,
+        6,
+        18
+      ]
+    },
+    {
+      "nome": "Taís Ladeira",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 2038,
+      "turnos": [
+        8,
+        20
+      ]
+    },
+    {
+      "nome": "Higino Ítalo Germani",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1977,
+      "turnos": [
+        10,
+        12,
+        22
+      ]
+    },
+    {
+      "nome": "Renato Sales Bizerra Aguiar",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2196,
+      "turnos": [
+        14,
+        24,
+        25
+      ]
+    },
+    {
+      "nome": "Daniela Naufel Schettino",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1634,
+      "turnos": [
+        16,
+        27
+      ]
+    }
+  ]
+}

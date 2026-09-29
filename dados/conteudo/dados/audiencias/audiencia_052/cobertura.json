@@ -1,0 +1,153 @@
+{
+  "sample_id": 52,
+  "n_falantes": 9,
+  "n_parlamentares": 3,
+  "n_convidados": 6,
+  "n_citados_gold": 5,
+  "n_citados_ausentes": 1,
+  "n_opinioes_gold": 12,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.8216675588865097,
+      "participacao_civil_turnos": 0.45714285714285713,
+      "citacao_civil_opinioes": 0.8,
+      "citacao_civil_pessoas": 0.75,
+      "deficit_civil": 0.02166755888650962
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.9109050445103858,
+      "participacao_civil_turnos": 0.8888888888888888,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": -0.08909495548961421
+    }
+  },
+  "citados_ausentes": [
+    "Patricia Linares"
+  ],
+  "falantes_silenciados": [
+    "Alexandre Lindenmeyer",
+    "Aliel Machado",
+    "Juliana Seidl",
+    "Maria Dulce Silva",
+    "Patrícia Linhares"
+  ],
+  "falantes": [
+    {
+      "nome": "Castro Neto",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 17,
+      "n_palavras": 1464,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34
+      ]
+    },
+    {
+      "nome": "Alexandre da Silva",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 5,
+      "n_palavras": 3473,
+      "turnos": [
+        2,
+        4,
+        25,
+        27,
+        33
+      ]
+    },
+    {
+      "nome": "Maria Cristina Hoffmann",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2721,
+      "turnos": [
+        6,
+        8,
+        21
+      ]
+    },
+    {
+      "nome": "Mirian Goldenberg",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1286,
+      "turnos": [
+        10,
+        31
+      ]
+    },
+    {
+      "nome": "Aliel Machado",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 536,
+      "turnos": [
+        12
+      ]
+    },
+    {
+      "nome": "Maria Dulce Silva",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 3139,
+      "turnos": [
+        14,
+        17,
+        29,
+        35
+      ]
+    },
+    {
+      "nome": "Alexandre Lindenmeyer",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 665,
+      "turnos": [
+        16
+      ]
+    },
+    {
+      "nome": "Patrícia Linhares",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1290,
+      "turnos": [
+        19
+      ]
+    },
+    {
+      "nome": "Juliana Seidl",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 370,
+      "turnos": [
+        23
+      ]
+    }
+  ]
+}

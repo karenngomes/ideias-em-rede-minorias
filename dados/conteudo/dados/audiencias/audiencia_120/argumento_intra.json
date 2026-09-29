@@ -1,0 +1,614 @@
+{
+  "sample_id": 120,
+  "n_opinioes": 28,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 26,
+  "n_fundamentos_propostos": 38,
+  "n_fundamentos_ancorados": 36,
+  "n_fundamentos_com_numero": 16,
+  "por_tipo": {
+    "dado": 31,
+    "autoridade": 5
+  },
+  "n_contrapontos_propostos": 8,
+  "n_com_contraponto": 8,
+  "n_rejeitados": 2,
+  "itens": [
+    {
+      "opiniao": "defende a modernização da legislação trabalhista para o setor mineral com foco no controle de riscos",
+      "falante": "Mário Parreiras de Faria",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em 2021, nós tivemos para cada 100 mil trabalhadores com carteira de trabalho assinada seis mortes, e no setor mineral tivemos 17 mortes.",
+          "char_start": 21430,
+          "char_end": 21567,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o setor mineral mata quase três vezes mais do que os demais setores",
+          "char_start": 21575,
+          "char_end": 21642,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 2019 houve esse pico, por causa de Brumadinho: 126 trabalhadores para cada 100 mil empregados diretamente no setor mineral.",
+          "char_start": 21119,
+          "char_end": 21245,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o direito à aposentadoria especial para trabalhadores de minas devido às condições extremas e riscos à saúde",
+      "falante": "Álvaro Luiz da Silva Alves",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Pessoas trabalhavam por 15 anos e se aposentavam, trabalhavam por 20 anos e se aposentavam, mas tiraram o meu direito.",
+          "char_start": 28174,
+          "char_end": 28292,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "eu tenho três hérnias de disco",
+          "char_start": 26907,
+          "char_end": 26937,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a supressão do direito à aposentadoria especial por desconhecimento da realidade mineira e desrespeito à ciência",
+      "falante": "Álvaro Luiz da Silva Alves",
+      "turno_id": 8,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "é muito bom você se aposentar aos 15 anos, 20 anos, 25 anos?",
+        "resposta": "Mas, se quer isso, eu acho que você deveria ir lá embaixo, trabalhar sob um calor extremo, com macacão, máscara, todos os EPIs obrigatórios, ruído desse jeito, poeira ao extremo, abaixo do nível do mar, para depois poder julgar e dizer que nós não temos esse direito.",
+        "objecao_char_start": 30141,
+        "objecao_char_end": 30201,
+        "resposta_char_start": 30202,
+        "resposta_char_end": 30469,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a aposentadoria especial é respaldada pela ciência e deve ser mantida contra mudanças ignorantes",
+      "falante": "Álvaro Luiz da Silva Alves",
+      "turno_id": 8,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "Acham que podem e que têm respaldo para defender a retirada de benefícios",
+        "resposta": "apesar de a ciência ter provado por estudo que temos direito a eles porque estamos em ambiente diferenciado.",
+        "objecao_char_start": 32769,
+        "objecao_char_end": 32842,
+        "resposta_char_start": 32844,
+        "resposta_char_end": 32952,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que decisões sobre direitos de mineiros devem ser tomadas por quem conhece a realidade do trabalho subterrâneo",
+      "falante": "Álvaro Luiz da Silva Alves",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "será que 5% dos que criaram e votaram sabem o que é isso? Eu acredito que não, que não foram a uma mina.",
+          "char_start": 30648,
+          "char_end": 30752,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a integridade da NR 22 como essencial para a saúde e segurança dos trabalhadores de minas",
+      "falante": "Álvaro Luiz da Silva Alves",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "precisamos de recuperação térmica, e em muitas minas as regras não são respeitadas.",
+          "char_start": 34684,
+          "char_end": 34767,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "exige respeito aos trabalhadores de minas como pessoas, não como estatísticas, na luta por direitos previdenciários",
+      "falante": "Álvaro Luiz da Silva Alves",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós não somos números. Temos CPF e RG, mas temos vida, temos família, objetivo e sonhos, e não cabe a ninguém destruí-los.",
+          "char_start": 35875,
+          "char_end": 35997,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende maior fiscalização no setor com auditores especializados e incentivos para empresas que cumprem normas de segurança.",
+      "falante": "Cíntia Nazaré Pantoja Leão",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em pequenas e em médias empresas, quase não existe investimento na gestão dos riscos, não há gestão adequada dos riscos, condições de trabalho, não existem EPIs, treinamento, capacitação.",
+          "char_start": 38988,
+          "char_end": 39175,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Propõe redução de tributos para empresas que garantem segurança efetiva no trabalho.",
+      "falante": "Cíntia Nazaré Pantoja Leão",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Poderia haver, por exemplo, redução de tributos para as empresas que tiverem realmente um controle do ambiente laboral que promova segurança do trabalho de maneira efetiva.",
+          "char_start": 40314,
+          "char_end": 40486,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende responsabilização das empresas contratantes pelas condições de trabalho dos terceirizados.",
+      "falante": "Cíntia Nazaré Pantoja Leão",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "já que, pela Lei da Terceirização, as contratantes respondem em matéria de segurança do trabalho.",
+          "char_start": 45137,
+          "char_end": 45234,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende notificação obrigatória de doenças ocupacionais para monitoramento e prevenção.",
+      "falante": "Cíntia Nazaré Pantoja Leão",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Exige-se que essas empresas façam os registos das doenças, mesmo aquelas que tenham o nexo técnico epidemiológico, diretamente reconheçam esses adoecimentos, para que possa haver um monitoramento, porque, só quando entrarem na estatística esses adoecimentos, poderá ser feito um diagnóstico real, poderão ser adotadas medidas de fato preventivas e mais eficazes no combate a essas doenças.",
+          "char_start": 46178,
+          "char_end": 46567,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende cadastro de primeiro adquirente e responsabilização legal sobre danos na cadeia produtiva do garimpo.",
+      "falante": "Cíntia Nazaré Pantoja Leão",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "opções legislativas, como a criação de um cadastro de primeiro adquirente que pudesse, por exemplo, facilitar o mapeamento da cadeia de produção, e também a fixação legal da responsabilidade pelos danos na cadeia produtiva do primeiro adquirente ali.",
+          "char_start": 48270,
+          "char_end": 48520,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aplicação plena da NR-22 a todos os trabalhadores da mineração, sem distinção entre diretos e terceirizados",
+      "falante": "Genoir José dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o índice de acidente do trabalhador terceirizado é 30% maior do que o dos trabalhadores contratados pela empresa-mãe",
+          "char_start": 71692,
+          "char_end": 71808,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "As empresas contratantes fazem diferente, elas contratam esses trabalhadores para prestar o mesmo tipo de serviço, mas com salário diferenciado",
+        "resposta": "Não dá para haver dois tipos de trabalhadores expostos ao risco. A NR-22 tem que ser cumprida na sua íntegra para quem está lá embaixo. Para nós, todos são trabalhadores iguais. Não há diferença.",
+        "objecao_char_start": 71530,
+        "objecao_char_end": 71673,
+        "resposta_char_start": 71334,
+        "resposta_char_end": 71529,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica a terceirização no setor mineral por gerar maior risco aos trabalhadores",
+      "falante": "Genoir José dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o índice de acidente do trabalhador terceirizado é 30% maior do que o dos trabalhadores contratados pela empresa-mãe",
+          "char_start": 71692,
+          "char_end": 71808,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a revisão das regras de aposentadoria para mineiros, com base no risco e na alta contribuição previdenciária",
+      "falante": "Genoir José dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a contribuição previdenciária do trabalhador do subsolo chega a 47,5%, porque são 12% dos trabalhadores, 20% das empresas, que têm que contribuir com mais 12%, porque é uma atividade de risco, e têm que contribuir também com mais 3,47%, que é o FAP — Fator de Acidente Previdenciário",
+          "char_start": 70363,
+          "char_end": 70646,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os trabalhadores mineiros que trabalhavam por 15 anos tinham e tinham o direito de se aposentar com 80% das maiores contribuições, agora eles não precisam mais de 15 anos. Agora são necessários 22 anos e meio, e esses trabalhadores vão se aposentar com pouco mais de 70% de todo o período da sua vida contributiva",
+          "char_start": 69731,
+          "char_end": 70044,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a aplicação da NR 22, Convenções 174 e 184 da OIT, com participação de trabalhadores e comunidades",
+      "falante": "Marta de Freitas",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos que ter o cumprimento da Convenção 174. A mineração causa acidentes industriais maiores. A Convenção 184, que o Brasil assinou há tempo, garante o direito ao acesso à informação dos trabalhadores, da população. Nós precisamos fazer com que ela seja cumprida.",
+          "char_start": 85256,
+          "char_end": 85524,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós temos que ter aplicação efetiva de toda a legislação do Ministério do Trabalho, em especial a Norma Regulamentadora 22",
+          "char_start": 84993,
+          "char_end": 85115,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o reconhecimento do direito ao trabalho seguro e saudável como princípio fundamental",
+      "falante": "Marta de Freitas",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Reconhecimento, como princípio de direito fundamental, do trabalho seguro e saudável.O Brasil foi o único país membro da ONU que não reconheceu isso.",
+          "char_start": 85526,
+          "char_end": 85675,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Propõe a reestruturação do Ministério do Trabalho e da Fundacentro",
+      "falante": "Marta de Freitas",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Reestruturação do Ministério do Trabalho, da Fundacentro, que é uma fundação técnica do Ministério do Trabalho, é outra questão importante.",
+          "char_start": 85677,
+          "char_end": 85816,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a democratização da elaboração da legislação da Agência Nacional de Mineração",
+      "falante": "Marta de Freitas",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Agência Nacional de Mineração é fechada. Ela não fala, não trata do negócio.",
+          "char_start": 86186,
+          "char_end": 86264,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o direito de comunidades tradicionais, quilombolas e indígenas de dizer não à mineração em seus territórios",
+      "falante": "Marta de Freitas",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Existe uma convenção da OIT — Organização Internacional do Trabalho que garante a consulta",
+          "char_start": 86947,
+          "char_end": 87037,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende outro modelo de mineração, que respeite as pessoas, o meio ambiente e a vida",
+      "falante": "Marta de Freitas",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O MAM não é contra a mineração. Nós queremos outro modelo de mineração, um modelo que respeite as pessoas, que respeite o meio ambiente, que respeite a vida.",
+          "char_start": 87940,
+          "char_end": 88097,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "O MAM não é contra a mineração.",
+        "resposta": "Nós queremos outro modelo de mineração, um modelo que respeite as pessoas, que respeite o meio ambiente, que respeite a vida.",
+        "objecao_char_start": 87940,
+        "objecao_char_end": 87971,
+        "resposta_char_start": 87972,
+        "resposta_char_end": 88097,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a revisão da reforma que acabou com as aposentadorias especiais para trabalhadores da mineração",
+      "falante": "Leonor José Rampinelli",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "este ano no nosso setor já aconteceram duas mortes fatais",
+          "char_start": 90051,
+          "char_end": 90108,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje uma pessoa vai ter que ficar por 55 anos debaixo de uma mina",
+          "char_start": 90922,
+          "char_end": 90987,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "O atrativo da aposentadoria — como foi falado, não era um privilégio, mas era um atrativo —, hoje não existe mais",
+        "resposta": "Isso está levando a categoria, nós aqui, principalmente, a uma grande rotatividade de pessoas. As pessoas estão vindo para a mineração e estão saindo",
+        "objecao_char_start": 90807,
+        "objecao_char_end": 90920,
+        "resposta_char_start": 90656,
+        "resposta_char_end": 90805,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a manutenção e fortalecimento da NR-22, sem mudanças, para proteger os direitos e a saúde dos trabalhadores",
+      "falante": "Leonor José Rampinelli",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos discutido a NR 22. Querem que seja mudada a NR 22",
+          "char_start": 91914,
+          "char_end": 91973,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há empresas que nem cumprem a NR 22, feita em 1999. Com 20 anos de NR 22, elas ainda não a cumprem",
+          "char_start": 92062,
+          "char_end": 92160,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Querem que seja mudada a NR 22",
+        "resposta": "Gente, se tirar uma vírgula da NR 22, nós estaremos retirando direitos do trabalhador",
+        "objecao_char_start": 91943,
+        "objecao_char_end": 91973,
+        "resposta_char_start": 91975,
+        "resposta_char_end": 92060,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a mudança do modelo de mineração brasileiro, que considera predatório e insustentável, e rejeita a narrativa de sustentabilidade promovida por empresas e investidores",
+      "falante": "Lourival Andrade",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há 70 projetos de megaminas. Além das 190 que existem, há 70 projetos no BNDES, em órgãos ambientais.",
+          "char_start": 95697,
+          "char_end": 95798,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "4 bilhões enviados pelos dividendos da Vale",
+          "char_start": 98738,
+          "char_end": 98781,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "4 bilhões enviados pela Kinross",
+          "char_start": 98785,
+          "char_end": 98816,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "AngloGold agora está pagando o melhor investimento",
+          "char_start": 98820,
+          "char_end": 98870,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eles estão dizendo que o Brasil é maravilhoso, que nós somos tudo isso no mundo.\"Queremos voltar a ser a sexta potência da economia e, se possível, até a terceira.\"",
+        "resposta": "Quando eu vejo os discursos que estão sendo feitos em relação ao ESG, às mineradoras — virou uma febre —, que eles vão implantar os 17 Objetivos de Desenvolvimento Sustentável na mineração brasileira, ligados à ONU, eu fico olhando, para lá e para cá, depois que escuto essas pessoas falarem, e penso se isso é verdade mesmo.",
+        "objecao_char_start": 94471,
+        "objecao_char_end": 94635,
+        "resposta_char_start": 94699,
+        "resposta_char_end": 95024,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica a priorização de debates sobre armamento em vez de condições de trabalho na mineração, que envolvem perda de vidas",
+      "falante": "Alexandre Lindenmeyer",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Inúmeras vidas, no entanto, estão sendo perdidas, talvez na invisibilidade",
+          "char_start": 102253,
+          "char_end": 102327,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "São considerados muito mais importantes temas que dizem respeito a armar o povo para que faça sua \"defesa\" — entre aspas",
+        "resposta": "Inúmeras vidas, no entanto, estão sendo perdidas, talvez na invisibilidade",
+        "objecao_char_start": 102131,
+        "objecao_char_end": 102251,
+        "resposta_char_start": 102253,
+        "resposta_char_end": 102327,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que os impactos da mineração levam à perda de vidas em situação de invisibilidade",
+      "falante": "Alexandre Lindenmeyer",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Inúmeras vidas, no entanto, estão sendo perdidas, talvez na invisibilidade",
+          "char_start": 102253,
+          "char_end": 102327,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Reafirma o compromisso com a luta dos atingidos pela mineração e a resistência simbólica expressa na frase 'somos sementes'",
+      "falante": "Marta de Freitas",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Combinaram de nos enterrar, mas esqueceram que nós somos sementes, e sementes brotam, mesmo na lama",
+          "char_start": 104574,
+          "char_end": 104673,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a unificação dos trabalhadores e atingidos pela mineração para desafiar o modelo atual e exigir a participação do governo e das empresas em um debate profundo de reformulação",
+      "falante": "Lourival Andrade",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "temos representantes aqui hoje do mundo do garimpo",
+          "char_start": 105034,
+          "char_end": 105084,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Álvaro Luiz da Silva Alves",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "Foi essa tal da ciência que afirmou que, devido à exposição a altas temperaturas, ruído irritante e repetitivo, poeira em abundância, devido a estar abaixo do nível do mar, devido à exposição a essa pressão, baixa umidade, nível de oxigênio baixo em comparação com a superfície, meu corpo sofre todas"
+    },
+    {
+      "turno_id": 8,
+      "falante": "Álvaro Luiz da Silva Alves",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "Foi essa tal da ciência que afirmou que, devido à exposição a altas temperaturas, ruído irritante e repetitivo, poeira em abundância, devido a estar abaixo do nível do mar, devido à exposição a essa pressão, baixa umidade, nível de oxigênio baixo em comparação com a superfície, meu corpo sofre todas"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9286,
+  "taxa_contraponto": 0.2857,
+  "taxa_ancoragem_fundamento": 0.9474
+}

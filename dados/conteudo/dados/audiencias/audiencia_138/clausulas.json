@@ -1,0 +1,58 @@
+{
+  "sample_id": 138,
+  "n_opinioes": 6,
+  "n_decompostas": 6,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 5,
+  "n_ancorados": 2,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 1,
+  "por_tipo": {
+    "prazo": 1,
+    "atribuicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Waldemar Gonçalves Ortunho Júnior",
+      "turno_id": 34,
+      "opiniao": "é contrário à monetização de dados pessoais, pois considera ilícita a prática no ordenamento brasileiro",
+      "nucleo": "Foi contrário à monetização de dados pessoais",
+      "tipo": "prazo",
+      "trecho": "até o momento",
+      "char_start": 32263,
+      "char_end": 32276
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 13,
+      "falante": "Caio Vianna",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "mesmo em caso de invasão externa",
+      "opiniao": "defende que a empresa é sempre responsável pelo vazamento de dados, mesmo em caso de invasão externa, por falha na proteção adequada"
+    },
+    {
+      "turno_id": 13,
+      "falante": "Caio Vianna",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "por falha na proteção adequada",
+      "opiniao": "defende que a empresa é sempre responsável pelo vazamento de dados, mesmo em caso de invasão externa, por falha na proteção adequada"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Caio Vianna",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente em vazamentos de órgãos públicos como o Ministério da Saúde",
+      "opiniao": "defende que a ANPD deve agir com mais celeridade e eficácia, especialmente em vazamentos de órgãos públicos como o Ministério da Saúde"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5,
+  "taxa_ancoragem": 0.4,
+  "taxa_opiniao_intacta": 0.8333
+}

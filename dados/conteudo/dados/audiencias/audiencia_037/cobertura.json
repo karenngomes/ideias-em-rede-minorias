@@ -1,0 +1,98 @@
+{
+  "sample_id": 37,
+  "n_falantes": 5,
+  "n_parlamentares": 3,
+  "n_convidados": 2,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 2,
+  "n_opinioes_gold": 8,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.64792008757526,
+      "participacao_civil_turnos": 0.35294117647058826,
+      "citacao_civil_opinioes": 0.0,
+      "citacao_civil_pessoas": 0.0,
+      "deficit_civil": 0.64792008757526
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.8099555251453986,
+      "participacao_civil_turnos": 0.75,
+      "citacao_civil_opinioes": 0.0,
+      "citacao_civil_pessoas": 0.0,
+      "deficit_civil": 0.8099555251453986
+    }
+  },
+  "citados_ausentes": [
+    "Fábio de Araújo",
+    "Nayara Falcão"
+  ],
+  "falantes_silenciados": [
+    "Augusto Puppio",
+    "Fábio Augusto Lima de Araujo",
+    "Nayara Karin Falcão de Oliveira"
+  ],
+  "falantes": [
+    {
+      "nome": "Dr. Zacharias Calil",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 9,
+      "n_palavras": 1462,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17
+      ]
+    },
+    {
+      "nome": "Fábio Augusto Lima de Araujo",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 5,
+      "n_palavras": 3532,
+      "turnos": [
+        2,
+        10,
+        12,
+        14,
+        16
+      ]
+    },
+    {
+      "nome": "Nayara Karin Falcão de Oliveira",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1203,
+      "turnos": [
+        4
+      ]
+    },
+    {
+      "nome": "Augusto Puppio",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 412,
+      "turnos": [
+        6
+      ]
+    },
+    {
+      "nome": "Luiz Lima",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 699,
+      "turnos": [
+        8
+      ]
+    }
+  ]
+}

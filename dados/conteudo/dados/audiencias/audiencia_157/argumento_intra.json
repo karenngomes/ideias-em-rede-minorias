@@ -1,0 +1,744 @@
+{
+  "sample_id": 157,
+  "n_opinioes": 35,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 34,
+  "n_fundamentos_propostos": 51,
+  "n_fundamentos_ancorados": 50,
+  "n_fundamentos_com_numero": 18,
+  "por_tipo": {
+    "dado": 45,
+    "autoridade": 5
+  },
+  "n_contrapontos_propostos": 5,
+  "n_com_contraponto": 3,
+  "n_rejeitados": 3,
+  "itens": [
+    {
+      "opiniao": "defende que barreiras para redução de preço não devem inviabilizar registro de terapias inovadoras no País",
+      "falante": "Antoine Daher",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Criar regras ou barreiras para redução do preço pode impactar e inviabilizar o registro de produtos inovadores no País",
+          "char_start": 33544,
+          "char_end": 33662,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O preço CMED é comparador para outros países. Isso pode impactar o registro do produto no Brasil, se forem criadas barreiras para reduzir o preço a ser registrado perante a CMED",
+          "char_start": 35061,
+          "char_end": 35238,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o sistema deve ser proativo para evitar judicialização e garantir acesso sustentável a terapias avançadas",
+      "falante": "Antoine Daher",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "As terapias gênicas serão cada vez mais frequentes e terão maior impacto na judicialização, com valor muito mais alto do que a incorporação. Então, nós temos o dever de ser proativos para evitar judicialização, para achar solução sustentável e que não feche a porta para essa inovação",
+          "char_start": 34011,
+          "char_end": 34295,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende avaliação de preço com base no valor clínico e econômico de longo prazo, não apenas no custo da dose",
+      "falante": "Antoine Daher",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O preço das terapias gênicas não é considerado alto, se levarmos em consideração outras terapias que acabam sendo muito mais caras quando administradas por toda a vida. Essa deve ser a nossa perspectiva. Não devemos apenas considerar o valor de uma única administração",
+          "char_start": 34346,
+          "char_end": 34614,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende modelos de financiamento baseados em valor e não em preço, com monitoramento contínuo",
+      "falante": "Antoine Daher",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Temos que ter modelos inovadores de financiamento, e esses modelos devem ser baseados em valor, e não em preço",
+          "char_start": 34745,
+          "char_end": 34855,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende revisão urgente da carga tributária sobre medicamentos, especialmente para terapias avançadas",
+      "falante": "Antoine Daher",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É inacreditável que a carga tributária para medicamentos seja a maior do mundo. Ela representa hoje mais de 30% do custo de cada medicamento",
+          "char_start": 35294,
+          "char_end": 35434,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "É um absurdo cobrar mais de 30% do valor do medicamento! Precisamos rever isso urgentemente",
+          "char_start": 35729,
+          "char_end": 35820,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a realização de workshop com todos os interessados para discutir terapias avançadas",
+      "falante": "Antoine Daher",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Antes de encerrar, eu gostaria de propor, assim com a Dra. Daniela fez, umworkshopreferente às terapias avançadas, para discutir não apenas preço e sustentabilidade, mas também protocolos depré-aplicação e pós-aplicação",
+          "char_start": 35823,
+          "char_end": 36042,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção do Brasil como país da primeira onda de registro de medicamentos inovadores para garantir acesso rápido",
+      "falante": "Renato Alencar Porto",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há um passo que é importante esclarecermos à sociedade. Por que nós estamos discutindo isso hoje? Por que é importante esse esclarecimento, inclusive na Comissão de Defesa do Consumidor? Não existia isso antes. Por quê? Porque a diferença entre o que havia no Brasil à disposição da população e o que era feito em outros países era muito grande. O Brasil não era a primeira onda de registro, como nós chamamos. Ou seja, o medicamento era desenvolvido e não chegava aqui rápido; chegava muito tempo depois.",
+          "char_start": 41654,
+          "char_end": 42159,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje esta discussão está acontecendo aqui por quê? Porque nós estamos incluídos na primeira onda de registro. Então, quando surge um produto inovador e a população pode ter à disposição a cura de uma doença, ele chega aqui, Deputada.",
+          "char_start": 42365,
+          "char_end": 42598,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Isso foi um longo processo. O Brasil levou décadas, talvez, para ser a primeira onda de registro.",
+          "char_start": 42916,
+          "char_end": 43013,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a revisão da carga tributária sobre medicamentos para garantir sustentabilidade do sistema de saúde",
+      "falante": "Renato Alencar Porto",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos a carga tributária sobre medicamentos mais alta do mundo.",
+          "char_start": 45734,
+          "char_end": 45801,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos impondo a esse sistema um custo para esse produto da ordem de 46,5% em impostos.",
+          "char_start": 45603,
+          "char_end": 45695,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a avaliação do valor de terapias gênicas com base no benefício de longo prazo e na cura, e não apenas no custo imediato",
+      "falante": "Renato Alencar Porto",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Significa menor uso do recurso do sistema, ou seja, nós temos menos carga dentro do sistema de saúde porque é uma aplicação única.",
+          "char_start": 47209,
+          "char_end": 47339,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a incorporação de terapias gênicas com precificação justa para garantir acesso a pacientes com doenças raras",
+      "falante": "Salmo Raskin",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "milhões de brasileiros têm doenças raras — estimamos em torno de 13 milhões",
+          "char_start": 52678,
+          "char_end": 52753,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere incluir países socioeconomicamente semelhantes ao Brasil na cesta de comparação de preços e exigir transparência nas políticas de desconto",
+      "falante": "Salmo Raskin",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "essa cesta de países são de países eminentemente de Primeiro Mundo, não são países compatíveis socioeconomicamente com o Brasil",
+          "char_start": 54029,
+          "char_end": 54156,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende maior transparência das indústrias sobre custos envolvidos na produção de terapias gênicas",
+      "falante": "Salmo Raskin",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não há, na regulação da CMED, a possibilidade de um ajuste negativo do preço",
+          "char_start": 57203,
+          "char_end": 57279,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "recomenda ampliar a representatividade do CMED com membros de entidades regulatórias e da sociedade civil",
+      "falante": "Salmo Raskin",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a CMED deveria ampliar a sua representatividade na população admitindo membros da sociedade de especialidade, da sociedade civil, da ANS, da ANVISA, do CADE, do CONASEMS, da própria ANS",
+          "char_start": 57718,
+          "char_end": 57903,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "argumenta que discrepâncias grandes entre preços inicial e final prejudicam negociações e o acesso a terapias",
+      "falante": "Salmo Raskin",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "112 mil reais foi o precificado pela CMED; preço final, 36 mil reais",
+          "char_start": 59954,
+          "char_end": 60022,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere aprimorar o projeto de lei com critérios claros para precificação de terapias gênicas",
+      "falante": "Salmo Raskin",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o conteúdo do texto do Projeto de Lei nº 349, de 2021 está um pouco superficial, se é que me permitem o uso desta palavra, pois ele não detalha como a CMED usaria critérios para precificar as terapias gênicas",
+          "char_start": 61602,
+          "char_end": 61810,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o caso omisso na precificação fere os princípios da legalidade e da transparência por ausência de regra",
+      "falante": "Bruno Cesar Almeida de Abreu",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não existe um regramento, não existe uma regra",
+          "char_start": 66083,
+          "char_end": 66129,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a cesta de países da CMED é apropriada por incluir nações com regulação econômica e negociação ativa de preços",
+      "falante": "Bruno Cesar Almeida de Abreu",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "São países europeus, na maioria dos casos, onde há o reembolso, e o reembolso é uma negociação ativa de preço que joga os preços efetivamente para baixo",
+          "char_start": 66522,
+          "char_end": 66674,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção de terapias avançadas com alto custo inicial por seu valor em saúde, que reduz despesas futuras e salva vidas",
+      "falante": "Bruno Cesar Almeida de Abreu",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em 4 anos, a outra terapia incorporada já consumiu desse paciente mais de 6 milhões de reais",
+          "char_start": 68319,
+          "char_end": 68411,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "alerta que precificação restritiva leva à judicialização, que força compras a preços mais altos e é mais onerosa para o sistema",
+      "falante": "Bruno Cesar Almeida de Abreu",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a judicialização obriga o Estado ou um plano de saúde a comprar o medicamento ao preço lá de fora, que não foi analisado pela CMED e que é muito mais caro",
+          "char_start": 72279,
+          "char_end": 72433,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A judicialização, antes de essa primeira terapia gênica ter preço, trazia esse medicamento a 12 milhões de reais, e hoje o medicamento custa 6 milhões de reais",
+          "char_start": 72435,
+          "char_end": 72594,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a separação da precificação de medicamentos para doenças raras e ultrarraras daquelas prevalentes, com critérios técnicos diferenciados na CMED",
+      "falante": "Valtenir Pereira",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quando, por exemplo, você vai pegar esse custo e dividir entre, digamos, os beneficiados, o preço fica lá em cima.",
+          "char_start": 74202,
+          "char_end": 74316,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "É o caso da atrofia muscular espinhal, em que veio a terapia gênica com o Zolgensma, que custa 2 milhões 125 mil dólares, aprovado pelo FDA para a compra nos Estados Unidos; depois o Japão aprovou por 1 milhão 550 mil dólares; e aqui, acho, ficou em 6 milhões e 800 mil reais, algo em torno de 1 milhão e 200 mil dólares, quase a metade do preço americano.",
+          "char_start": 74317,
+          "char_end": 74673,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "A ANVISA aprovou uma resolução que,quando entra como terapia avançada — chamam-se terapias avançadas aquelas em que entram células CAR-T, terapia gênica e outras tecnologias —, eles separam das doenças prevalentes e fazem uma análise rápida, até pela necessidade.",
+          "char_start": 80327,
+          "char_end": 80590,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a autorregulamentação da indústria farmacêutica por meio de convenção coletiva de consumo, em vez do tabelamento de preços",
+      "falante": "Celso Russomanno",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "O Código de Defesa do Consumidor, quando nós fizemos a lei, estabeleceu a convenção coletiva de consumo.",
+          "char_start": 91078,
+          "char_end": 91182,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós podemos chamar uma convenção coletiva de consumo para discutir preços de medicamentos com toda a indústria farmacêutica.",
+          "char_start": 91183,
+          "char_end": 91307,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu não acredito que o tabelamento seja uma coisa boa",
+        "resposta": "mas eu acredito que a autorregulamentação seja uma coisa bacana",
+        "objecao_char_start": 90958,
+        "objecao_char_end": 91010,
+        "resposta_char_start": 91012,
+        "resposta_char_end": 91075,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a revisão da Resolução nº 2, de 2004, para atualizar os critérios de precificação, incluindo a cesta de países de referência",
+      "falante": "Daniela Marreco Cerqueira",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A proposta já passou por consulta pública e foram mais de mil contribuições recebidas",
+          "char_start": 96417,
+          "char_end": 96502,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Resolução nº 2, de 2004",
+          "char_start": 97401,
+          "char_end": 97426,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe usar seu programa de televisão para apoiar a fiscalização da CMED e informar a população sobre direitos",
+      "falante": "Celso Russomanno",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "que tem uma grande audiência",
+          "char_start": 98424,
+          "char_end": 98452,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "denuncia como crime invisível a espera excessiva por atendimento no SUS para pacientes com doenças raras",
+      "falante": "Antoine Daher",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o paciente leva em torno de 10 anos e 30% morrem sem tratamento antes dos 5 anos de idade",
+          "char_start": 99457,
+          "char_end": 99546,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o prazo médio para ter um diagnóstico no Sistema Único de Saúde é de 5 anos e 4 meses",
+          "char_start": 100508,
+          "char_end": 100593,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "concorda que o atraso no diagnóstico de doenças raras é um crime histórico do Estado brasileiro",
+      "falante": "Salmo Raskin",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é um crime histórico do Estado brasileiro o negligenciamento dos cuidados dos pacientes com doenças raras",
+          "char_start": 101589,
+          "char_end": 101694,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere incluir no projeto de lei a agilidade na avaliação de precificação pela CMED",
+      "falante": "Salmo Raskin",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a CONITEC e a ANVISA hoje já são muito mais ágeis do que no passado",
+          "char_start": 103300,
+          "char_end": 103367,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a transparência no processo de precificação é essencial para verificar a justiça do preço",
+      "falante": "Salmo Raskin",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o preço médio da cesta dos países",
+          "char_start": 105869,
+          "char_end": 105902,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Talvez haja uma explicação mesmo.",
+        "resposta": "E como saber se esse é o preço, se não há transparência no processo demonstrando por que esse é o preço e simplesmente foi colocado o preço médio da cesta dos países?",
+        "objecao_char_start": 105490,
+        "objecao_char_end": 105523,
+        "resposta_char_start": 105737,
+        "resposta_char_end": 105903,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o alto preço de medicamentos inovadores é justificado pelo custo do processo científico e pela intenção terapêutica",
+      "falante": "Renato Alencar Porto",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós estamos falando de uma pesquisa, Deputado, de 10 mil moléculas para se ter uma molécula comercialmente viável",
+          "char_start": 107665,
+          "char_end": 107778,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Às vezes, dizemos:\"Uma pesquisa custa 2,5 bilhões de dólares\". Não, ela não custa 2,5 bilhões de dólares, mas ela carrega sobre ela um custo de muitas moléculas que foram estudadas, foram gastos muitos recursos, e que não viraram uma molécula comercial",
+          "char_start": 107818,
+          "char_end": 108070,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a realocação de recursos no sistema de saúde, reduzindo desperdício, para financiar terapias inovadoras",
+      "falante": "Renato Alencar Porto",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o medicamento representa, Deputado, cerca de 10% do custo de saúde num hospital, especialmente, na saúde suplementar, que está focalizando muito esse custo dos medicamentos de terapia gênica",
+          "char_start": 109210,
+          "char_end": 109400,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos estudos mostrando que há um desperdício no sistema — como o senhor também demonstrou aqui — de 30%",
+          "char_start": 109419,
+          "char_end": 109527,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o valor de terapias inovadoras deve incluir o impacto na qualidade de vida e na dignidade do paciente",
+      "falante": "Renato Alencar Porto",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu nunca joguei bola com meu pai, porque ele não tinha condições. Como ele dizia, é se afogar no seco. Não é fácil",
+          "char_start": 110420,
+          "char_end": 110534,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "dar satisfação para uma vida ou uma melhor conveniência para uma vida é muito, muito valoroso",
+          "char_start": 110599,
+          "char_end": 110692,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere desregulamentar classes terapêuticas concorrenciais, pois a concorrência natural já reduz preços, como ocorre com os MIPs",
+      "falante": "Bruno Cesar Almeida de Abreu",
+      "turno_id": 46,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eles foram liberados em 2019 e eles têm um comportamento muito abaixo da inflação, porque há concorrência.",
+          "char_start": 113512,
+          "char_end": 113618,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se eu subo o meu preço, eu não consigo vender.",
+          "char_start": 113619,
+          "char_end": 113665,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Será que nós precisamos regular classes terapêuticas concorrenciais?",
+        "resposta": "Será que, se nós liberarmos, esses preços não vão cair naturalmente, como aconteceu com os Medicamentos Isentos de Prescrição — MIP?",
+        "objecao_char_start": 113310,
+        "objecao_char_end": 113378,
+        "resposta_char_start": 113379,
+        "resposta_char_end": 113511,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a adoção de negociações ativas de preços, como em outros países, para viabilizar a entrada de inovações no Brasil",
+      "falante": "Bruno Cesar Almeida de Abreu",
+      "turno_id": 47,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "como acontece em todos os mercados do mundo",
+          "char_start": 114843,
+          "char_end": 114886,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "alerta que preços regulados abaixo do custo levam à escassez e inviabilizam o acesso, como ocorre em países com controle excessivo",
+      "falante": "Bruno Cesar Almeida de Abreu",
+      "turno_id": 47,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vemos o que acontece hoje na Argentina e na Venezuela com os produtos gerais da economia",
+          "char_start": 115210,
+          "char_end": 115298,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a demora na concessão judicial de tratamentos para doenças raras, mesmo com respaldo no Tema 500 do STF",
+      "falante": "Valtenir Pereira",
+      "turno_id": 51,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Tema 500, do Supremo Tribunal Federal, foi aprovado no dia 22 de maio de 2019, e 2 dias depois Maria Lúcia nasceu.",
+          "char_start": 116842,
+          "char_end": 116958,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Demoraram demais para dar a decisão, que estava muito clara.",
+          "char_start": 116781,
+          "char_end": 116841,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 12,
+      "falante": "Renato Alencar Porto",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Esse valor é diluído ao longo do tempo, ou seja, há o benefício de longa duração. Você deixa de dar um tratamento ao longo de muitos anos — como a Daniela também demonstrou, um tratamento de hemofilia, por 5 anos — e aplica uma dose e esse paciente já tem o benefício do tratamento."
+    },
+    {
+      "turno_id": 12,
+      "falante": "Renato Alencar Porto",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que esses medicamentos são experimentais."
+    },
+    {
+      "turno_id": 15,
+      "falante": "Salmo Raskin",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns podem pensar que não é bom que o preço tenha caído para 36 mil reais?"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9714,
+  "taxa_contraponto": 0.0857,
+  "taxa_ancoragem_fundamento": 0.9804
+}

@@ -1,0 +1,224 @@
+{
+  "sample_id": 175,
+  "n_opinioes": 6,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 6,
+  "n_fundamentos_propostos": 15,
+  "n_fundamentos_ancorados": 15,
+  "n_fundamentos_com_numero": 8,
+  "por_tipo": {
+    "dado": 12,
+    "autoridade": 3
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 2,
+  "n_rejeitados": 2,
+  "itens": [
+    {
+      "opiniao": "defende a destinação de 3% da arrecadação com apostas para o fomento do esporte de base em todas as modalidades",
+      "falante": "José Francisco Manssur",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vale dizer que, pela MP, também há um repasse de 3% ao Ministério do Esporte para fomento do esporte de base em todas as modalidades.",
+          "char_start": 17894,
+          "char_end": 18027,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Esse repasse, de 3%, representa um aumento exponencial do orçamento do nosso Ministério do Esporte.",
+          "char_start": 18028,
+          "char_end": 18127,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quem olhar o orçamento do Ministério do Esporte hoje e o que ele é capaz de receber por meio dessa destinação de 3% vai ver que isso faz uma diferença muito grande.",
+          "char_start": 18141,
+          "char_end": 18305,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende um sistema de regulamentação de apostas esportivas não excessivamente oneroso para evitar a migração de operadores para licenças estaduais",
+      "falante": "Udo Seckelmann",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Recentemente, a LOTERJ, do Rio de Janeiro, abriu um edital para que operadores de apostas peguem uma licença no Rio de Janeiro, mas as apostas que serão oferecidason-linenão serão oferecidas apenas no Rio de Janeiro, mas no Brasil inteiro.",
+          "char_start": 27545,
+          "char_end": 27784,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se lermos o edital da LOTERJ, veremos que há uma tributação de 5% sobre GGR e uma taxa de licenciamento de 5 milhões de reais.",
+          "char_start": 27785,
+          "char_end": 27911,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em comparação, vemos o que está sendo feito na regulamentação federal, em que a tributação é de 18% sobre GGR e, talvez, a taxa para pegar a licença federal seja de 30 milhões de reais.",
+          "char_start": 27912,
+          "char_end": 28097,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se à interpretação de que licenças estaduais permitem operar em todo o território nacional, defendendo a exclusividade da credenciação federal",
+      "falante": "José Francisco Manssur",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "O acórdão do Supremo é muito claro",
+          "char_start": 31617,
+          "char_end": 31651,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Isso não é o que diz a lei; isso não é o que diz o acórdão do Supremo Tribunal Federal",
+          "char_start": 35271,
+          "char_end": 35357,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quem credencia no Brasil é o Ministério da Fazenda, até segunda ordem, é o Governo Federal",
+          "char_start": 31721,
+          "char_end": 31811,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "achar que vocês vão comprar uma licença estadual e vão operar no Brasil inteiro, não respeitando os limites geográficos",
+        "resposta": "isso não é o que está no acórdão do Supremo e não é algo que o Governo Federal, pelo menos enquanto estivermos cuidando disso, vai permitir, não sem reagir",
+        "objecao_char_start": 29990,
+        "objecao_char_end": 30109,
+        "resposta_char_start": 30111,
+        "resposta_char_end": 30266,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulamentação e taxação das casas de apostas esportivas para proteger o esporte brasileiro e gerar receita para o Estado",
+      "falante": "Mauricio do Vôlei",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "desses bilhões de reais que estão saindo do Brasil seriam 3% para o Ministério do Esporte, que hoje tem um investimento pífio",
+          "char_start": 38311,
+          "char_end": 38436,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "eu estou membro da CPI das apostas esportivas, e lá nós recebemos atletas que foram pegos por manipulação de resultado, atletas que perderam suas carreiras",
+          "char_start": 40772,
+          "char_end": 40927,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Mas você é a favor da taxação, de mais taxação no Brasil",
+        "resposta": "Não, gente. Eu não sou a favor de taxação. Eu sou a favor dessa regulamentação, para captar recursos para o nosso País",
+        "objecao_char_start": 40248,
+        "objecao_char_end": 40304,
+        "resposta_char_start": 40318,
+        "resposta_char_end": 40436,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulamentação das apostas como medida de justiça tributária e de controle social, não como incentivo ao jogo",
+      "falante": "José Francisco Manssur",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No Orçamento de 2024, de forma muito responsável, nós estimamos uma arrecadação de 2 bilhões de reais com esse segmento, entre outorgas e tributos.",
+          "char_start": 45157,
+          "char_end": 45304,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não se pode achar certo que o segmento que produz alimento seja tributado e o segmento de apostas não seja tributado",
+          "char_start": 45597,
+          "char_end": 45713,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "E, por justiça tributária, que taxemos, que se arrecade, sim, para reinvestir em educação, em saúde, naquilo que é obrigação do Estado brasileiro, prevista na Constituição.",
+          "char_start": 47353,
+          "char_end": 47525,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia a destinação perene de 3% da arrecadação para o fomento do esporte de base",
+      "falante": "José Francisco Manssur",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Para formar um atleta, você modificou a vida de 400 crianças",
+          "char_start": 52041,
+          "char_end": 52101,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 13,
+      "falante": "Udo Seckelmann",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Eu já tenho cliente me ligando e falando: 'Udo, de repente vale a pena pegar uma licença num Estado qualquer e começar a oferecer aposta on-line no Brasil inteiro, e não pegar uma licença federal'."
+    },
+    {
+      "turno_id": 20,
+      "falante": "José Francisco Manssur",
+      "campo": "contraponto",
+      "motivo": "resposta não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Nós só estamos regulamentando-as. As pessoas estão apostando."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.3333,
+  "taxa_ancoragem_fundamento": 1.0
+}

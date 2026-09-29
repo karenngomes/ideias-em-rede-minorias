@@ -1,0 +1,105 @@
+{
+  "sample_id": 106,
+  "n_opinioes": 25,
+  "n_decompostas": 25,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 16,
+  "n_ancorados": 11,
+  "n_rejeitados": 5,
+  "n_incoerentes": 0,
+  "n_preservados": 7,
+  "n_perdidos": 4,
+  "por_tipo": {
+    "condicao": 7,
+    "escopo": 3,
+    "prazo": 1
+  },
+  "perdas": [
+    {
+      "falante": "Célio Porto",
+      "turno_id": 8,
+      "opiniao": "defende adaptação do seguro rural e do PROAGRO para atender melhor as características do Centro-Oeste",
+      "nucleo": "defendeu adaptação do seguro rural e do PROAGRO para atender melhor as características do Centro-Oeste",
+      "tipo": "escopo",
+      "trecho": "no Centro-Oeste",
+      "char_start": 43184,
+      "char_end": 43199
+    },
+    {
+      "falante": "Bohn Gass",
+      "turno_id": 26,
+      "opiniao": "defende sistema unificado e tolerante para identificação de propriedades com base no CAR",
+      "nucleo": "Defendeu a adoção de um sistema unificado e tolerante para a identificação de propriedades com base no CAR.",
+      "tipo": "condicao",
+      "trecho": "Já que isso está em formação",
+      "char_start": 73604,
+      "char_end": 73632
+    },
+    {
+      "falante": "Bohn Gass",
+      "turno_id": 34,
+      "opiniao": "rejeita teto de R$ 9 mil no PROAGRO e defende manter média de R$ 12 mil",
+      "nucleo": "rejeitou o teto de R$ 9 mil no PROAGRO e defendeu manter a média de R$ 12 mil",
+      "tipo": "condicao",
+      "trecho": "se a média era 12 mil reais",
+      "char_start": 91636,
+      "char_end": 91663
+    },
+    {
+      "falante": "Jelson Gesser",
+      "turno_id": 39,
+      "opiniao": "reitera a sugestão de perdoar o último acionamento do PROAGRO para produtores em áreas de calamidade pública como medida emergencial",
+      "nucleo": "reiterou a sugestão de perdoar o último acionamento do PROAGRO para produtores em áreas de calamidade pública como medida emergencial",
+      "tipo": "prazo",
+      "trecho": "da última safra",
+      "char_start": 94724,
+      "char_end": 94739
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "de municípios em situação de calamidade pública",
+      "opiniao": "sugere que o último acionamento do PROAGRO não seja contabilizado para produtores de municípios em situação de calamidade pública"
+    },
+    {
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "dadas as obrigações financeiras e os riscos climáticos",
+      "opiniao": "defende que o amparo do PROAGRO é essencial para viabilizar a continuidade do agricultor na atividade, dadas as obrigações financeiras e os riscos climáticos"
+    },
+    {
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "por ser uma distorção institucional",
+      "opiniao": "defende que a gestão do PROAGRO não deveria caber ao Banco Central por ser uma distorção institucional"
+    },
+    {
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que não penalize coletivamente os produtores honestos",
+      "opiniao": "apoia a fiscalização contra fraudes no PROAGRO, desde que não penalize coletivamente os produtores honestos"
+    },
+    {
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "para os Municípios que decretaram situação de calamidade pública",
+      "opiniao": "reitera a sugestão de perdoar o último acionamento do PROAGRO para produtores em áreas de calamidade pública como medida emergencial"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.6364,
+  "taxa_ancoragem": 0.6875,
+  "taxa_opiniao_intacta": 0.84
+}

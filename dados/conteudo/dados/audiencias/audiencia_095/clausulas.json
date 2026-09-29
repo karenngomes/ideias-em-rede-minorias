@@ -1,0 +1,103 @@
+{
+  "sample_id": 95,
+  "n_opinioes": 17,
+  "n_decompostas": 17,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 11,
+  "n_ancorados": 9,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 3,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "atribuicao": 1,
+    "escopo": 2,
+    "prazo": 1,
+    "grau": 1,
+    "condicao": 4
+  },
+  "perdas": [
+    {
+      "falante": "Zé Silva",
+      "turno_id": 1,
+      "opiniao": "Defende que países desenvolvidos devem pagar por danos ambientais históricos e ajudar na preservação de florestas em países como o Brasil.",
+      "nucleo": "Defendeu que países desenvolvidos devem pagar por danos ambientais históricos e ajudar na preservação de florestas em países como o Brasil.",
+      "tipo": "atribuicao",
+      "trecho": "Nós temos 62% das nossas florestas nativas ainda intactas, e eles precisam nos ajudar a preservá-las. É o que eu falei da produção e da conservação.",
+      "char_start": 3481,
+      "char_end": 3629
+    },
+    {
+      "falante": "Zé Silva",
+      "turno_id": 5,
+      "opiniao": "Propõe semana de esforço concentrado na Câmara para aprovação de projetos de sustentabilidade.",
+      "nucleo": "Propôs semana de esforço concentrado na Câmara para aprovação de projetos de sustentabilidade.",
+      "tipo": "prazo",
+      "trecho": "no início do segundo semestre",
+      "char_start": 14949,
+      "char_end": 14978
+    },
+    {
+      "falante": "Zé Silva",
+      "turno_id": 5,
+      "opiniao": "Propõe semana de esforço concentrado na Câmara para aprovação de projetos de sustentabilidade.",
+      "nucleo": "Propôs semana de esforço concentrado na Câmara para aprovação de projetos de sustentabilidade.",
+      "tipo": "grau",
+      "trecho": "1 semana, pelo menos",
+      "char_start": 14980,
+      "char_end": 15000
+    },
+    {
+      "falante": "Zé Silva",
+      "turno_id": 5,
+      "opiniao": "Propõe semana de esforço concentrado na Câmara para aprovação de projetos de sustentabilidade.",
+      "nucleo": "Propôs semana de esforço concentrado na Câmara para aprovação de projetos de sustentabilidade.",
+      "tipo": "condicao",
+      "trecho": "é claro que todos os projetos são importantes, mas precisamos escolher os prioritários",
+      "char_start": 15003,
+      "char_end": 15089
+    },
+    {
+      "falante": "Cynthia Schuck",
+      "turno_id": 6,
+      "opiniao": "defende que a biossegurança nas granjas é insuficiente para prevenir a disseminação de patógenos em sistemas intensivos",
+      "nucleo": "Defendeu que a biossegurança nas granjas é insuficiente para prevenir a disseminação de patógenos em sistemas intensivos",
+      "tipo": "condicao",
+      "trecho": "mesmo que a biossegurança fosse seguida em absolutamente todas as granjas e em todas as etapas da cadeia de produção — o que não acontece —",
+      "char_start": 23470,
+      "char_end": 23609
+    },
+    {
+      "falante": "Zé Silva",
+      "turno_id": 25,
+      "opiniao": "Defende aumento de recursos para assistência técnica e extensão rural por meio da ANATER.",
+      "nucleo": "Defendeu aumento de recursos para assistência técnica e extensão rural por meio da ANATER.",
+      "tipo": "condicao",
+      "trecho": "ainda não saiu",
+      "char_start": 65767,
+      "char_end": 65781
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Patrycia Sato",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com alternativas como a eliminação de gaiolas e o fim da alimentação forçada",
+      "opiniao": "defende a melhoria dos sistemas de produção animal com alternativas como a eliminação de gaiolas e o fim da alimentação forçada, apoiando o PL 90/2020"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Rafael Rioja Arantes",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "com base no Acordo de Escazú",
+      "opiniao": "defende a construção de uma regulamentação federal detalhada contra greenwashing, incluindo rotulagem ambiental, monitoramento e acesso à informação, com base no Acordo de Escazú"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.3333,
+  "taxa_ancoragem": 0.8182,
+  "taxa_opiniao_intacta": 0.7647
+}

@@ -1,0 +1,3469 @@
+{
+  "sample_id": 94,
+  "n_turnos": 59,
+  "n_turnos_codificados": 38,
+  "n_codigos": 265,
+  "n_rejeitados": 1,
+  "taxa_rejeicao": 0.012,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 38,
+      "distribuicao": {
+        "interrompido": 2,
+        "normal": 36
+      },
+      "media": 0.9474,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 38,
+      "distribuicao": {
+        "nenhuma": 15,
+        "inferior": 9,
+        "qualificada": 14,
+        "sofisticada": 0
+      },
+      "media": 0.9737,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 38,
+      "distribuicao": {
+        "interesse_de_grupo": 1,
+        "neutro": 17,
+        "bem_comum_utilitario": 11,
+        "bem_comum_diferenca": 9
+      },
+      "media": 1.7368,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 37,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 9,
+        "explicito_positivo": 28
+      },
+      "media": 1.7568,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 38,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 36,
+        "explicito_positivo": 2
+      },
+      "media": 1.0526,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 38,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 38,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 38,
+      "distribuicao": {
+        "posicional": 32,
+        "proposta_alternativa": 6,
+        "proposta_mediadora": 0
+      },
+      "media": 0.1579,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Abilio Brunini": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Cléo Bohn de Lima": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Erika Kokay": {
+        "participacao": {
+          "n": 15,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 15,
+          "media": 0.1333
+        },
+        "respeito_contra": {
+          "n": 15,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 15,
+          "media": 0.6
+        },
+        "justificacao_conteudo": {
+          "n": 15,
+          "media": 1.4
+        },
+        "respeito_grupos": {
+          "n": 15,
+          "media": 1.5333
+        },
+        "respeito_demandas": {
+          "n": 15,
+          "media": 1.0667
+        }
+      },
+      "Fernanda Santana": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Fernando Cotta": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Glauber": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Karina Sena": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Larissa Argenta Ferreira de Melo": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Nicolas Ribeiro": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Paula de Luca Barros Barbosa": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Phellip Ponce": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Roselene Candida Alves": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Samara Rocha": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Telma Sá Nascimento": {
+        "participacao": {
+          "n": 5,
+          "media": 0.6
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.2
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.6
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.6
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.2
+        }
+      },
+      "Érica Curado": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Paula de Luca Barros Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Roselene Candida Alves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Nicolas Ribeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Phellip Ponce",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Samara Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Cléo Bohn de Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Karina Sena",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "o Maranhão é um Estado onde existe uma população enorme de pessoas autistas sem assistência nenhuma. Por conta disso, o terceiro setor vem se fortalecendo ao longo desses anos. O primeiro setor, que é o Governo, não tem dado conta de suprir a enorme demanda por conta não só dos diagnósticos que vêm surgindo agora em crianças, mas também de diagnósticos tardios de adolescentes e adultos. E o segundo setor, que é o pessoal que vende a força de trabalho em clínicas — terapeutas, psicólogos, fisioterapeutas, fonoaudiólogos —,também não dão conta de suprir essa demanda. Então, por conta disso, o terceiro setor tem se fortalecido muito aqui no Maranhão.",
+      "char_start": 3574,
+      "char_end": 4229,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 4,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "O Maranhão é o Estado mais pobre da Federação. Todas as pessoas que necessitam lá de atendimento adequado se deslocam então para a Capital. O nosso trabalho tem sido, através dessa federação, conseguir alocar recursos para as pessoas em seus Municípios, evitando esse deslocamento até São Luís.",
+      "char_start": 5804,
+      "char_end": 6098,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "o Maranhão é um Estado onde existe uma população enorme de pessoas autistas sem assistência nenhuma.",
+      "char_start": 3574,
+      "char_end": 3674,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Paula de Luca Barros Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Paula de Luca Barros Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Paula de Luca Barros Barbosa",
+      "trecho": "Quando os pais ou responsáveis são treinados para lidar com essas pessoas autistas, elas conseguem evoluir muito mais.",
+      "char_start": 12558,
+      "char_end": 12676,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Paula de Luca Barros Barbosa",
+      "trecho": "Quando os pais ou responsáveis são treinados para lidar com essas pessoas autistas, elas conseguem evoluir muito mais.",
+      "char_start": 12558,
+      "char_end": 12676,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Paula de Luca Barros Barbosa",
+      "trecho": "Vejo que a AMA faz aqui um trabalho importantíssimo. Só ela faz. Só ela tem coragem de, no terceiro setor, que substitui o setor público, pegar pessoas com autismo de suporte nível 3 e fazer, junto com a AMA, esse trabalho em todo o Maranhão.",
+      "char_start": 13605,
+      "char_end": 13847,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Paula de Luca Barros Barbosa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Érica Curado",
+      "trecho": "Acho que isso alimenta a ideia de que a nossa existência é negativa, que a nossa existência remete, na sociedade, a uma negatividade que deve ser anulada. Nós não queremos ser anulados. Nós existimos e queremos respeito à nossa existência.",
+      "char_start": 15434,
+      "char_end": 15673,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 12,
+      "falante": "Érica Curado",
+      "trecho": "Nós não queremos ser anulados. Nós existimos e queremos respeito à nossa existência.",
+      "char_start": 15589,
+      "char_end": 15673,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Érica Curado",
+      "trecho": "Nós existimos e queremos respeito à nossa existência.",
+      "char_start": 15620,
+      "char_end": 15673,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Erika Kokay",
+      "trecho": "Autistar é resistir.",
+      "char_start": 17541,
+      "char_end": 17561,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Fernanda Santana",
+      "trecho": "Focar barreiras também é importante como forma de desenvolver políticas públicas mais efetivas, mais eficientes e mais transformadoras da nossa sociedade no médio e no longo prazo. Focar as limitações e o entendimento médico do que seja autismo acaba reforçando estereótipos, sujeita mais pessoas à discriminação, cria outras barreiras atitudinais e reforça aquelas barreiras atitudinais que já existiam.",
+      "char_start": 23782,
+      "char_end": 24186,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Fernanda Santana",
+      "trecho": "Focar barreiras também é importante como forma de desenvolver políticas públicas mais efetivas, mais eficientes e mais transformadoras da nossa sociedade no médio e no longo prazo.",
+      "char_start": 23782,
+      "char_end": 23962,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Fernanda Santana",
+      "trecho": "Nós pessoas autistas somos parte da diversidade humana e da humanidade.",
+      "char_start": 25210,
+      "char_end": 25281,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "Porque resgata a autoestima, resgata a liberdade de ser, resgata a liberdade de existência, e isso transforma a sociedade e enfrenta o capacitismo.",
+      "char_start": 27091,
+      "char_end": 27238,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "e isso transforma a sociedade e enfrenta o capacitismo.",
+      "char_start": 27183,
+      "char_end": 27238,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "A sociedade é deficiente quando não permite que as pessoas se expressem com as suas singularidades.",
+      "char_start": 25870,
+      "char_end": 25969,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "O que acontece com a pessoa autista é que ela é subutilizada. A partir do momento em que ela assume o diagnóstico, como a Érica falou, a principal coisa que escuta quando revela o diagnóstico é:\"E aí? Você tem coragem de assumir?\".Porque existe um peso social.",
+      "char_start": 35024,
+      "char_end": 35284,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "O nosso objetivo, ao trazer essas questões — e estou trazendo a minha questão como ilustrativa, assim como questões de outras mães e famílias —, é mostrar que as mães não conseguem se inserir no mercado de trabalho, que os pais não conseguem trabalhar, que as crianças não têm terapia e que há esse caos social no universo autista, o que precisa ser visto com um pouco mais de calma e de cuidado.",
+      "char_start": 35685,
+      "char_end": 36081,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "Nós precisamos ocupar o nosso lugar na sociedade, nós precisamos garantir que o capacitismo não impeça que estejamos onde queremos estar, com as condições adequadas para sermos quem somos.",
+      "char_start": 28303,
+      "char_end": 28491,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Fernando Cotta",
+      "trecho": "Nós precisamos, sim, dos centros de referência para atendimento dessas pessoas. Precisamos, sim, de espaços que atendam essas pessoas na área da saúde e na área da educação, lugares onde o pai e a mãe possam deixar o filho, onde ele passe o dia, para que eles possam trabalhar com tranquilidade, sabendo que ele vai fazer as terapias de que precisa, sabendo que ele vai ter, enfim, todo o suporte de que precisa para ter a chance de um desenvolvimento melhor.",
+      "char_start": 46797,
+      "char_end": 47256,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Fernando Cotta",
+      "trecho": "para que eles possam trabalhar com tranquilidade, sabendo que ele vai fazer as terapias de que precisa, sabendo que ele vai ter, enfim, todo o suporte de que precisa para ter a chance de um desenvolvimento melhor.",
+      "char_start": 47043,
+      "char_end": 47256,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Fernando Cotta",
+      "trecho": "Afinal, nós entendemos que todos têm o direito de ter orgulho dos seus filhos, de ter orgulho de serem da forma como são",
+      "char_start": 42059,
+      "char_end": 42179,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Roselene Candida Alves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Roselene Candida Alves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Roselene Candida Alves",
+      "trecho": "quando a pessoa com deficiência, principalmente a pessoa autista, tem um suporte mínimo, ela vai longe, ela pode, ela voa. E quando o suporte de acessibilidade é concedido a qualquer pessoa com deficiência, sobretudo à pessoa autista,oralizada ou não oralizada, ela vai longe.",
+      "char_start": 51819,
+      "char_end": 52095,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 21,
+      "falante": "Roselene Candida Alves",
+      "trecho": "quando a pessoa com deficiência, principalmente a pessoa autista, tem um suporte mínimo, ela vai longe, ela pode, ela voa. E quando o suporte de acessibilidade é concedido a qualquer pessoa com deficiência, sobretudo à pessoa autista,oralizada ou não oralizada, ela vai longe.",
+      "char_start": 51819,
+      "char_end": 52095,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Roselene Candida Alves",
+      "trecho": "Nós pessoas autistas somos pessoas detentoras de direitos e somos pessoas plenas de cidadania e plenas de dignidade.",
+      "char_start": 52154,
+      "char_end": 52270,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Roselene Candida Alves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Nicolas Ribeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Nicolas Ribeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Nicolas Ribeiro",
+      "trecho": "Eu acredito que uma pessoa autista tem plena capacidade quando ela tem um incentivo, quando ela tem um apoio, um suporte adequado.",
+      "char_start": 53540,
+      "char_end": 53670,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Nicolas Ribeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Nicolas Ribeiro",
+      "trecho": "Eu acredito que uma pessoa autista tem plena capacidade quando ela tem um incentivo, quando ela tem um apoio, um suporte adequado. Pessoas com autismo leve, como é o meu caso, têm a plena capacidade, sim, de atuar numa organização em nível estratégico.",
+      "char_start": 53540,
+      "char_end": 53792,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Nicolas Ribeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Phellip Ponce",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Phellip Ponce",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Phellip Ponce",
+      "trecho": "Agora, é entender e a sociedade perceber: nós estamos aqui e nós temos que ter, sim, todas as adaptações, terapias. É necessário dar suporte ao autismo, seja o de nível 1, 2 ou 3, no mercado de trabalho, nas escolas, em todos os aspectos. Isso é o direito da pessoa com deficiência, que também está elencado na Constituição Federal.",
+      "char_start": 57405,
+      "char_end": 57737,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 25,
+      "falante": "Phellip Ponce",
+      "trecho": "Agora, é entender e a sociedade perceber: nós estamos aqui e nós temos que ter, sim, todas as adaptações, terapias. É necessário dar suporte ao autismo, seja o de nível 1, 2 ou 3, no mercado de trabalho, nas escolas, em todos os aspectos. Isso é o direito da pessoa com deficiência, que também está elencado na Constituição Federal.",
+      "char_start": 57405,
+      "char_end": 57737,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Phellip Ponce",
+      "trecho": "nós temos que ter, sim, todas as adaptações, terapias. É necessário dar suporte ao autismo, seja o de nível 1, 2 ou 3, no mercado de trabalho, nas escolas, em todos os aspectos. Isso é o direito da pessoa com deficiência, que também está elencado na Constituição Federal.",
+      "char_start": 57466,
+      "char_end": 57737,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Phellip Ponce",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Samara Rocha",
+      "trecho": "Eles poderiam fazer um governo itinerante, um gabinete itinerante, e ir à Ceilândia, ao Gama, a Sobradinho, que são lugares distantes, conhecer essas famílias de perto e ver a realidade que vivemos.",
+      "char_start": 60447,
+      "char_end": 60645,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Samara Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Samara Rocha",
+      "trecho": "A distância é longa para chegarmos até o plano. E, quando uma família consegue colocar o filho no posto de saúde para esperar uma consulta, espera de 2 a 5 anos por uma consulta com o neuropediatra, com o psiquiatra infantil.",
+      "char_start": 58814,
+      "char_end": 59039,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 27,
+      "falante": "Samara Rocha",
+      "trecho": "Uns podem pagar plano de saúde, mas quem não pode, quem depende do SUS vai manter seu filho trancado dentro de casa, sem ter um acompanhamento especializado?",
+      "char_start": 59984,
+      "char_end": 60141,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Samara Rocha",
+      "trecho": "A Associação Tudo Azul não tem nenhum apoio do poder público, nem do Governo, nem de Parlamentar, nem emenda, nada. A nossa força somos nós mesmos, as famílias, e somos quase 1.100 famílias.",
+      "char_start": 59513,
+      "char_end": 59703,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Samara Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Erika Kokay",
+      "trecho": "a Érica tem nos ajudado com essa proposta de respeito ao grupo dos autistas",
+      "char_start": 61237,
+      "char_end": 61312,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Cléo Bohn de Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Cléo Bohn de Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Cléo Bohn de Lima",
+      "trecho": "Nós não temos como avançar se não tivermos dinheiro, que é a principal ferramenta para promover os avanços.",
+      "char_start": 66157,
+      "char_end": 66264,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Cléo Bohn de Lima",
+      "trecho": "Nós não temos como avançar se não tivermos dinheiro, que é a principal ferramenta para promover os avanços.",
+      "char_start": 66157,
+      "char_end": 66264,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Cléo Bohn de Lima",
+      "trecho": "É preciso respeito, solidariedade com aquela família e com aquele ser humano.",
+      "char_start": 66676,
+      "char_end": 66753,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Cléo Bohn de Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "Nós queremos provar para os Governos, para o poder público, que é possível, sim, uma empregabilidade assistida para pessoas com autismo nível de suporte 3. É possível, sim, que essas pessoas não fiquem dependendo do Estado, dependendo da família. É possível, sim, que elas aprendam uma profissão, exerçam essa profissão, ainda que de forma assistida, e tenham o seu direito de cidadão e cidadã garantido.",
+      "char_start": 68531,
+      "char_end": 68935,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 32,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "É possível, sim, que essas pessoas não fiquem dependendo do Estado, dependendo da família. É possível, sim, que elas aprendam uma profissão, exerçam essa profissão, ainda que de forma assistida, e tenham o seu direito de cidadão e cidadã garantido.",
+      "char_start": 68687,
+      "char_end": 68935,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 32,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "Muitos autistas hoje que não oralizam, mas também têm o seu lugar de fala, também se sentem representados por pessoas como elas.",
+      "char_start": 67928,
+      "char_end": 68056,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Érica Curado",
+      "trecho": "porque há outras formas de expressão que vão além da fala",
+      "char_start": 70041,
+      "char_end": 70098,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 34,
+      "falante": "Érica Curado",
+      "trecho": "que haja rede de apoio para as famílias e também para as pessoas com deficiência, as pessoas autistas",
+      "char_start": 70167,
+      "char_end": 70268,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Érica Curado",
+      "trecho": "Eu desejo muito que essas políticas realmente sejam implementadas, que haja rede de apoio para as famílias e também para as pessoas com deficiência, as pessoas autistas.",
+      "char_start": 70100,
+      "char_end": 70269,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Érica Curado",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Fernanda Santana",
+      "trecho": "Eu acredito demais nisto: todos nós temos muito para contribuir. Se tivermos oportunidade em igualdade com as outras pessoas, se tivermos acessibilidade, o devido apoio, podemos muito.",
+      "char_start": 71314,
+      "char_end": 71498,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Fernanda Santana",
+      "trecho": "todos nós temos muito para contribuir",
+      "char_start": 71340,
+      "char_end": 71377,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Fernanda Santana",
+      "trecho": "todos nós temos muito para contribuir. Se tivermos oportunidade em igualdade com as outras pessoas, se tivermos acessibilidade, o devido apoio, podemos muito.",
+      "char_start": 71340,
+      "char_end": 71498,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Fernanda Santana",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Abilio Brunini",
+      "trecho": "Também sugiro que nos unamos para mais uma coisa: nós precisamos ver a questão dos planos de saúde.",
+      "char_start": 76254,
+      "char_end": 76353,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Abilio Brunini",
+      "trecho": "investir nessa primeira fase é fundamental para a redução de custos no serviço púbico de saúde",
+      "char_start": 74242,
+      "char_end": 74336,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Abilio Brunini",
+      "trecho": "investir nessa primeira fase é fundamental para a redução de custos no serviço púbico de saúde",
+      "char_start": 74242,
+      "char_end": 74336,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Abilio Brunini",
+      "trecho": "O autista é um cidadão. O autista tem que ter os mesmos direitos de qualquer cidadão.",
+      "char_start": 78440,
+      "char_end": 78525,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Erika Kokay",
+      "trecho": "Penso que nós deveríamos criar nesta Comissão uma Subcomissão para discutir políticas para as pessoas com transtorno do espectro autista",
+      "char_start": 78915,
+      "char_end": 79051,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 39,
+      "falante": "Erika Kokay",
+      "trecho": "Penso que nós deveríamos criar nesta Comissão uma Subcomissão para discutir políticas para as pessoas com transtorno do espectro autista, porque, criando-se a Subcomissão, poderemos fazer a intersetorialidade. As políticas têm que ser intersetoriais.",
+      "char_start": 78915,
+      "char_end": 79165,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 39,
+      "falante": "Erika Kokay",
+      "trecho": "As políticas têm que ser intersetoriais. Nós queremos falar de política de cultura, mas também queremos falar de política de educação, de saúde, de esporte, de todas as políticas.",
+      "char_start": 79125,
+      "char_end": 79304,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 39,
+      "falante": "Erika Kokay",
+      "trecho": "Os direitos das pessoas com deficiência são a referência desta Comissão. A função precípua desta Comissão é a defesa dos direitos das pessoas com deficiência.",
+      "char_start": 86130,
+      "char_end": 86288,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "Não tem como eu protagonizar algo que eu não faço",
+      "char_start": 88329,
+      "char_end": 88378,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "Cada um, do seu lugar, do seu espaço, pode contribuir para diminuir o capacitismo, para diminuir o preconceito, para diminuir o desconhecimento acerca das necessidades das pessoas com deficiência.",
+      "char_start": 89146,
+      "char_end": 89342,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Larissa Argenta Ferreira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 45,
+      "falante": "Glauber",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber",
+      "trecho": "Uma das coisas que mais acalma uma pessoa autista e neurodivergente é a música.",
+      "char_start": 90126,
+      "char_end": 90205,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 45,
+      "falante": "Glauber",
+      "trecho": "Uma das coisas que mais acalma uma pessoa autista e neurodivergente é a música.",
+      "char_start": 90126,
+      "char_end": 90205,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Glauber",
+      "trecho": "Uma das coisas que mais acalma uma pessoa autista e neurodivergente é a música.",
+      "char_start": 90126,
+      "char_end": 90205,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Erika Kokay",
+      "trecho": "As mães precisam também desse espaço junto com os seus filhos e as suas filhas.",
+      "char_start": 90650,
+      "char_end": 90729,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Fernando Cotta",
+      "trecho": "Deputada, eu queria pedir à senhora a possibilidade de nós podermos falar da questão deste projeto aqui com mais tempo, do PRF Amiga do Autista. Quem sabe, numa audiência pública, nós poderíamos falar e esmiuçar o assunto.",
+      "char_start": 92921,
+      "char_end": 93143,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 47,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Fernando Cotta",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Abilio Brunini",
+      "trecho": "O autista pode fazer tudo o que ele quiser",
+      "char_start": 95861,
+      "char_end": 95903,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Abilio Brunini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 51,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Erika Kokay",
+      "trecho": "porque, em muitos momentos, a própria organização do trabalho está eivada de um processo de exclusão dos corpos dissidentes das pessoas que são neurodivergentes nas estruturas do trabalho",
+      "char_start": 97808,
+      "char_end": 97995,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 51,
+      "falante": "Erika Kokay",
+      "trecho": "porque, em muitos momentos, a própria organização do trabalho está eivada de um processo de exclusão dos corpos dissidentes das pessoas que são neurodivergentes nas estruturas do trabalho",
+      "char_start": 97808,
+      "char_end": 97995,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 51,
+      "falante": "Erika Kokay",
+      "trecho": "o orgulho autista é a cor azul",
+      "char_start": 96605,
+      "char_end": 96635,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 51,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Karina Sena",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Karina Sena",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Karina Sena",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Karina Sena",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 52,
+      "falante": "Karina Sena",
+      "trecho": "o autismo é colorido, o espectro é muito grande, não há prevalência em meninos. O machismo faz com que as mulheres tenham outros diagnósticos",
+      "char_start": 98552,
+      "char_end": 98693,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Karina Sena",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 53,
+      "falante": "Erika Kokay",
+      "trecho": "é preciso que os diagnósticos — vou repetir — sejam acompanhados dos encaminhamentos e das adaptações que a sociedade tem que fazer para podermos ter todas as pessoas vivenciando e desenvolvendo todas as suas potencialidades.",
+      "char_start": 100013,
+      "char_end": 100238,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 53,
+      "falante": "Erika Kokay",
+      "trecho": "para podermos ter todas as pessoas vivenciando e desenvolvendo todas as suas potencialidades.",
+      "char_start": 100145,
+      "char_end": 100238,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 53,
+      "falante": "Erika Kokay",
+      "trecho": "é preciso que os diagnósticos — vou repetir — sejam acompanhados dos encaminhamentos e das adaptações que a sociedade tem que fazer para podermos ter todas as pessoas vivenciando e desenvolvendo todas as suas potencialidades.",
+      "char_start": 100013,
+      "char_end": 100238,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "Vamos trabalhar para que esta palavrinha — \"transtorno\" — saia do contexto das pessoas autistas?",
+      "char_start": 101401,
+      "char_end": 101497,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "Meu filho não é um transtorno, as pessoas autistas não são um transtorno.",
+      "char_start": 101013,
+      "char_end": 101086,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 56,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "Quando nós fizemos o primeiro encontro regional, eles me pediram muito:\"Tirem essa palavra, por favor. Refiram-se a nós como pessoas no espectro do autismo — EA\". E nós tiramos o \"T\" em respeito a essas pessoas, que nos pediram isso.",
+      "char_start": 101088,
+      "char_end": 101321,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 56,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "Meu filho não é um transtorno, as pessoas autistas não são um transtorno.",
+      "char_start": 101013,
+      "char_end": 101086,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 56,
+      "falante": "Telma Sá Nascimento",
+      "trecho": "E nós tiramos o \"T\" em respeito a essas pessoas, que nos pediram isso. Aqui eu estendo esse pedido que me fizeram no ano passado para esta Comissão.",
+      "char_start": 101251,
+      "char_end": 101399,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Erika Kokay",
+      "trecho": "Acho que podemos marcar uma reunião no Ministério dos Direitos Humanos e da Cidadania e levar essa proposição em especial, para que se mude a nomenclatura.",
+      "char_start": 102950,
+      "char_end": 103105,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 59,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Erika Kokay",
+      "trecho": "Todas as pessoas têm que ser encaradas enquanto pessoas, porque nenhuma condição é maior do que a pessoa. Nenhuma deficiência, nenhuma doença, nada, nada, nada é maior do que a pessoa.",
+      "char_start": 102619,
+      "char_end": 102803,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Erika Kokay",
+      "trecho": "Todas as pessoas têm que ser encaradas enquanto pessoas, porque nenhuma condição é maior do que a pessoa. Nenhuma deficiência, nenhuma doença, nada, nada, nada é maior do que a pessoa.",
+      "char_start": 102619,
+      "char_end": 102803,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Erika Kokay",
+      "trecho": "Todas as pessoas têm que ser encaradas enquanto pessoas, porque nenhuma condição é maior do que a pessoa. Nenhuma deficiência, nenhuma doença, nada, nada, nada é maior do que a pessoa.",
+      "char_start": 102619,
+      "char_end": 102803,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 59,
+      "falante": "Erika Kokay",
+      "trecho": "Acho que é uma boa proposta.",
+      "char_start": 102524,
+      "char_end": 102552,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "respeito_grupos",
+      "turno_id": 47,
+      "falante": "Fernando Cotta",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "explicito_positivo",
+      "trecho": "Tantas mães que estão nos vendo agora e que vão assistir ao vídeo desta audiência pública vão ter essa felicidade: 'Puxa, eu quero que o meu filho tenha oportunidade, tenha a chance de conseguir o que o Glauber traz aqui hoje!'"
+    }
+  ],
+  "turnos_falhos": []
+}

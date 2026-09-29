@@ -1,0 +1,117 @@
+{
+  "sample_id": 47,
+  "n_opinioes": 20,
+  "n_decompostas": 20,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 14,
+  "n_ancorados": 10,
+  "n_rejeitados": 4,
+  "n_incoerentes": 0,
+  "n_preservados": 4,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "escopo": 5,
+    "condicao": 4,
+    "prazo": 1
+  },
+  "perdas": [
+    {
+      "falante": "Max Maciel",
+      "turno_id": 15,
+      "opiniao": "defende a Lei Paulo Gustavo como política de Estado para valorizar a cultura como fator econômico e geradora de empregos",
+      "nucleo": "defendeu a Lei Paulo Gustavo como política de Estado para valorizar a cultura como fator econômico e geradora de empregos",
+      "tipo": "condicao",
+      "trecho": "se antes — eu reforço — isso ficava concentrado em grandes produtoras",
+      "char_start": 31457,
+      "char_end": 31526
+    },
+    {
+      "falante": "Fernanda Morgani",
+      "turno_id": 27,
+      "opiniao": "defende a regulamentação e aprimoramento das instâncias de participação social na fiscalização e aplicação de políticas culturais, para assegurar continuidade e efetividade independentemente de mudanças governamentais",
+      "nucleo": "Defendeu a regulamentação e o aprimoramento das instâncias de participação social na fiscalização e aplicação de políticas culturais",
+      "tipo": "escopo",
+      "trecho": "dentro do contexto do sistema de arte e cultura",
+      "char_start": 37458,
+      "char_end": 37505
+    },
+    {
+      "falante": "Eneida Soller",
+      "turno_id": 33,
+      "opiniao": "defende editais com valores acessíveis para garantir protagonismo democrático nas artes e inclusão de pequenas produtoras e artistas independentes",
+      "nucleo": "Defendeu editais com valores acessíveis para garantir protagonismo democrático nas artes e inclusão de pequenas produtoras e artistas independentes",
+      "tipo": "escopo",
+      "trecho": "nos 26 Estados e nos 5.500 Municípios",
+      "char_start": 40243,
+      "char_end": 40280
+    },
+    {
+      "falante": "Eneida Soller",
+      "turno_id": 33,
+      "opiniao": "defende editais com valores acessíveis para garantir protagonismo democrático nas artes e inclusão de pequenas produtoras e artistas independentes",
+      "nucleo": "Defendeu editais com valores acessíveis para garantir protagonismo democrático nas artes e inclusão de pequenas produtoras e artistas independentes",
+      "tipo": "condicao",
+      "trecho": "se forem de valor muito alto, o acesso ficaria muito difícil",
+      "char_start": 41098,
+      "char_end": 41158
+    },
+    {
+      "falante": "Alfredinho",
+      "turno_id": 38,
+      "opiniao": "Rejeita a privatização dos CEUs, considerando-a um retrocesso para a cultura nas periferias.",
+      "nucleo": "Rejeitou a privatização dos CEUs.",
+      "tipo": "escopo",
+      "trecho": "dos CEUs",
+      "char_start": 45264,
+      "char_end": 45272
+    },
+    {
+      "falante": "Thiago Rocha Leandro",
+      "turno_id": 39,
+      "opiniao": "defende a cultura como política permanente de Estado com participação social",
+      "nucleo": "defendeu a cultura como política permanente de Estado com participação social",
+      "tipo": "condicao",
+      "trecho": "com a Lei Paulo Gustavo, com a Política Nacional Aldir Blanc, com a aprovação do marco do fomento e a garantia de que a sociedade entenda a cultura como direito",
+      "char_start": 50589,
+      "char_end": 50749
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 11,
+      "falante": "Thiago Rocha Leandro",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "não produtor",
+      "opiniao": "defende o papel do Estado como fomentador, não produtor, da cultura"
+    },
+    {
+      "turno_id": 13,
+      "falante": "Max Maciel",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em territórios periféricos",
+      "opiniao": "defende a destinação de recursos da Lei Paulo Gustavo para equipar espaços culturais e salas de cinema em territórios periféricos"
+    },
+    {
+      "turno_id": 15,
+      "falante": "Max Maciel",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em periferias",
+      "opiniao": "defende a democratização do acesso ao cinema por meio de equipamentos e espaços culturais em periferias"
+    },
+    {
+      "turno_id": 38,
+      "falante": "Alfredinho",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para comunidades periféricas",
+      "opiniao": "Defende a simplificação do acesso a recursos culturais para comunidades periféricas devido à dificuldade com procedimentos burocráticos."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.4,
+  "taxa_ancoragem": 0.7143,
+  "taxa_opiniao_intacta": 0.75
+}

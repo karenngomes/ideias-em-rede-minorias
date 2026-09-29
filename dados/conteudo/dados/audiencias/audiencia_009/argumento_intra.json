@@ -1,0 +1,543 @@
+{
+  "sample_id": 9,
+  "n_opinioes": 20,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 19,
+  "n_fundamentos_propostos": 37,
+  "n_fundamentos_ancorados": 36,
+  "n_fundamentos_com_numero": 9,
+  "por_tipo": {
+    "dado": 31,
+    "autoridade": 5
+  },
+  "n_contrapontos_propostos": 8,
+  "n_com_contraponto": 8,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "defende a regulamentação específica da profissão de cuidador formal para permitir exigências diferenciadas",
+      "falante": "Monize da Silva Freitas Marques",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "37 mil acolhimentos na Central Judicial da Pessoa Idosa",
+          "char_start": 2901,
+          "char_end": 2956,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "trabalhadores domésticos, não poderíamos fazer uma distinção dos demais trabalhadores domésticos, cuja certidão negativa não seria obrigatória",
+          "char_start": 4151,
+          "char_end": 4293,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o processo de cuidar é 24 horas, 7 dias por semana",
+          "char_start": 4960,
+          "char_end": 5010,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Nesse caso, por óbvio, não vamos ter condições de exigir uma certidão criminal, porque os vínculos que são formados não o são por opção, mas dizem respeito a questões familiares mesmo.",
+        "resposta": "Para os cuidadores formais, ou seja, aqueles que estão prestando uma atividade profissional, parece-me que não há dúvida a respeito da possibilidade de ser exigida essa certidão negativa.",
+        "objecao_char_start": 3539,
+        "objecao_char_end": 3723,
+        "resposta_char_start": 3725,
+        "resposta_char_end": 3912,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o cuidado seja reconhecido como direito, e não apenas como necessidade ou trabalho",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje, no Brasil, o último dado que temos é relacionado, por exemplo, a pessoas idosas que estiveram acamadas nas duas últimas semanas.Temos um dado que é em torno de 4,3%. Isso significa 1,4 milhão de pessoas idosas que estiveram acamadas nas últimas duas semanas.",
+          "char_start": 8562,
+          "char_end": 8826,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, o Brasil tem 15,8% de população idosa.",
+          "char_start": 12722,
+          "char_end": 12766,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O índice de envelhecimento do Brasil é 80, ou seja, o Brasil tem 80 pessoas acima de 60 anos para cada 100 pessoas com menos de 15 anos.",
+          "char_start": 12834,
+          "char_end": 12970,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a exigência de certificado de antecedentes criminais para cuidadores domésticos por ser potencialmente discriminatória e sem fundamento legal",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "temos um contingente de pessoas idosas que são cuidadas por cuidadores informais, não remunerados, que obviamente podem praticar violência, da mesma maneira, e a essas pessoas não é exigido nenhum tipo de certificado de antecedentes criminais.",
+          "char_start": 9280,
+          "char_end": 9523,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os dados mais recentes sobre a América Latina trazem que 50% dos trabalhadores que estão na população economicamente ativa, que está na força de trabalho, é verdadeiramente trabalho informal.",
+          "char_start": 11077,
+          "char_end": 11268,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "fazer essa solicitação, na verdade, não tem uma fundamentação legal clara",
+          "char_start": 10053,
+          "char_end": 10126,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "a solicitação, por exemplo, de um certificado de antecedentes criminais pode, de nenhuma maneira, resolver o problema",
+        "resposta": "temos um contingente de pessoas que estão na informalidade",
+        "objecao_char_start": 10890,
+        "objecao_char_end": 11007,
+        "resposta_char_start": 11016,
+        "resposta_char_end": 11074,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulamentação da profissão de cuidador de pessoas idosas como condição para enfrentar a demanda de cuidado",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "dois pontos são fundamentais neste debate: um, a questão da profissionalização do trabalho de cuidador; dois, esse grande contingente que temos de pessoas idosas que vão necessitar de cuidado.",
+          "char_start": 11981,
+          "char_end": 12173,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o apoio aos cuidadores, em vez da criminalização, e a construção de um sistema de cuidados sustentável",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Precisamos apoiar as pessoas que cuidam, e não necessariamente criminalizar essas pessoas.",
+          "char_start": 13210,
+          "char_end": 13300,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "a solicitação, por exemplo, de um certificado de antecedentes criminais pode, de nenhuma maneira, resolver o problema",
+        "resposta": "temos um contingente de pessoas que estão na informalidade",
+        "objecao_char_start": 10890,
+        "objecao_char_end": 11007,
+        "resposta_char_start": 11016,
+        "resposta_char_end": 11074,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulamentação da profissão de cuidador como condição para a efetiva proteção dos idosos",
+      "falante": "Patricia Moreira",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "37 milhões e meio com mais de 60 anos",
+          "char_start": 15030,
+          "char_end": 15067,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "não deveria haver preconceito com as pessoas que estão querendo trabalhar nessa área",
+        "resposta": "Isso deveria ser uma exigência natural, sem que houvessebullying",
+        "objecao_char_start": 16839,
+        "objecao_char_end": 16923,
+        "resposta_char_start": 16748,
+        "resposta_char_end": 16812,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a normalização da exigência de antecedentes criminais sem preconceito contra os cuidadores",
+      "falante": "Patricia Moreira",
+      "turno_id": 6,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "não deveria haver preconceito com as pessoas que estão querendo trabalhar nessa área",
+        "resposta": "Isso deveria ser uma exigência natural, sem que houvessebullying",
+        "objecao_char_start": 16839,
+        "objecao_char_end": 16923,
+        "resposta_char_start": 16748,
+        "resposta_char_end": 16812,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a adoção de políticas públicas preventivas e compromissos institucionais para enfrentar o envelhecimento com dignidade",
+      "falante": "Monize da Silva Freitas Marques",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não somente 15% da população hoje é idosa",
+          "char_start": 20893,
+          "char_end": 20934,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os tribunais apontam aproximadamente 15% dos processos relativos a pessoas com 60 anos ou mais",
+          "char_start": 21000,
+          "char_end": 21094,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nós somos, em números absolutos, o segundo país do mundo em número de pessoas com demência",
+          "char_start": 23228,
+          "char_end": 23318,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "segundo a Sociedade Brasileira de Alzheimer",
+          "char_start": 23183,
+          "char_end": 23226,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a análise ponderada da exigência de certidão de antecedentes criminais para cuidadores de idosos, considerando a ressocialização e a proteção de mulheres em situação de vulnerabilidade",
+      "falante": "Olinda Vicente Moreira",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a profissão de cuidador de pessoa idosa é desempenhada principalmente por mulheres, especialmente mulheres com menor qualificação e instrução, mulheres com uma renda não tão alta, e que muitas vezes são o arrimo de suas famílias",
+          "char_start": 29248,
+          "char_end": 29476,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Esse público é composto majoritariamente por mulheres de baixa renda e de baixa instrução, que muito possivelmente, de acordo com as estatísticas, não terá cometido crimes graves",
+          "char_start": 30192,
+          "char_end": 30370,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Segundo o entendimento consolidado no Tribunal Superior do Trabalho, a exigência de certidão de antecedentes criminais não caracteriza dano moral nem ilegalidade quando a legislação permite fazer isso — é o caso de vigilantes — ou quando a natureza do trabalho exige uma confiança de tamanha grandeza que é importante esse conhecimento",
+          "char_start": 27622,
+          "char_end": 27957,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Um princípio caríssimo reconhecido pelo Supremo Tribunal Federal é a garantia da presunção do estado de inocência",
+          "char_start": 29112,
+          "char_end": 29225,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Podemos ou não fazer a exigência de certidão? Seria certidão negativa ou certidão de antecedentes, para que se saiba o que consta nesses antecedentes? Caso a certidão venha positiva e haja indicação de crimes, qualquer crime seria um impeditivo para contratação?",
+        "resposta": "Ou haveria uma pertinência temática, por assim dizer?Determinados crimes... (Falha na transmissão)  ... crimes contra a liberdade sexual.",
+        "objecao_char_start": 28610,
+        "objecao_char_end": 28872,
+        "resposta_char_start": 28873,
+        "resposta_char_end": 29010,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a constituição de uma rede de proteção à vida da pessoa idosa nos territórios para prevenir violações de direitos",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Desde o ano passado, constituímos dois programas importantes",
+          "char_start": 32200,
+          "char_end": 32260,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O programa denominado Envelhecer nos Territórios trabalha com a formação de agentes de direitos humanos da pessoa idosa nos territórios de vários Municípios brasileiros",
+          "char_start": 32320,
+          "char_end": 32488,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o cuidado que cerceia autonomia constitui violação de direitos e deve ser prevenido",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O cuidado pode ser violento. A partir do momento em que a autonomia e a independência de alguém são cerceados, há violação de direitos",
+          "char_start": 33381,
+          "char_end": 33515,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o combate ao idadismo exige medidas longitudinais, e não apenas transversais",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "com evidências científicas",
+          "char_start": 34124,
+          "char_end": 34150,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "idadismo não é combatido com medidas transversais",
+        "resposta": "Ele é combatido com medidas longitudinais",
+        "objecao_char_start": 33892,
+        "objecao_char_end": 33941,
+        "resposta_char_start": 33943,
+        "resposta_char_end": 33984,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a educação para o envelhecimento e práticas intergeracionais como estratégias essenciais para prevenir violência contra idosos",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "de acordo com a literatura e com evidências científicas",
+          "char_start": 34095,
+          "char_end": 34150,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O primeiro ponto é a educação para o envelhecimento nos diversos níveis, que não existe. O segundo diz respeito a práticas intergeracionais presenciais com as pessoas",
+          "char_start": 34177,
+          "char_end": 34343,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que todos os grupos populacionais devem ter o direito de envelhecer com dignidade, especialmente os historicamente excluídos",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Destaco a população quilombola, a população indígena, a população ribeirinha, as pessoas em situação de rua, as pessoas LGBTQIA+, vários grupos populacionais",
+          "char_start": 35478,
+          "char_end": 35635,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o objetivo central das políticas deve ser melhorar a vida e garantir dignidade às pessoas em processo de envelhecimento",
+      "falante": "Kenio Costa de Lima",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos, essencialmente, só um objetivo, que é melhorar a vida das pessoas que estão no processo de envelhecimento e que já envelheceram e dar dignidade a elas",
+          "char_start": 36664,
+          "char_end": 36825,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de rede de proteção aos idosos por meio de ações legislativas e educação familiar",
+      "falante": "Patricia Moreira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu vivo muito essa situação hoje. Nós não estamos preparados para ter idosos dentro de casa.",
+          "char_start": 37472,
+          "char_end": 37564,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu já sou avó, tenho uma mãe doente em casa, tenho quatro filhos, os quais já são casados e têm vida própria.",
+          "char_start": 37929,
+          "char_end": 38038,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A vida está muito corrida, as pessoas só pensam em trabalhar, em sair, em constituir família, e o idoso vai ficando para trás.",
+          "char_start": 37565,
+          "char_end": 37691,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia a atuação de parlamentares mais novos na promoção de políticas para idosos",
+      "falante": "Patricia Moreira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "são principalmente os Parlamentares mais novos que trazem coisas novas.",
+          "char_start": 39063,
+          "char_end": 39134,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "vocês trazem uma visão totalmente diferente dos políticos anteriores.",
+          "char_start": 39184,
+          "char_end": 39253,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe substituir a certidão negativa por certidão de antecedentes com avaliação de pertinência temática do delito",
+      "falante": "Monize da Silva Freitas Marques",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "se a pessoa foi presa por estelionato, já existe um risco maior de que haja algum tipo de comprometimento da autonomia da pessoa",
+          "char_start": 42331,
+          "char_end": 42459,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "se a pessoa foi presa por embriaguez no trânsito, não vejo como um impedimento para o exercício da atividade de cuidado",
+        "resposta": "se a pessoa foi presa por estelionato, já existe um risco maior de que haja algum tipo de comprometimento da autonomia da pessoa",
+        "objecao_char_start": 42205,
+        "objecao_char_end": 42324,
+        "resposta_char_start": 42331,
+        "resposta_char_end": 42459,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a implementação de políticas de educação em direitos como meio fundamental para a proteção de pessoas idosas, especialmente as em situação de invisibilidade e vulnerabilidade",
+      "falante": "Olinda Vicente Moreira",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "As nossas pessoas idosas em situação de rua, como disse o Dr. Kenio, em quilombos, em comunidades indígenas, em situações de total invisibilidade",
+          "char_start": 45107,
+          "char_end": 45252,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a exigência de certidão negativa de antecedentes criminais para cuidadores de idosos seja facultativa, cabendo ao contratante decidir se a exige",
+      "falante": "Pinheirinho",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O PL que ora nos oportunizou o debate desta audiência permite que o contratante faça a exigência da certidão",
+          "char_start": 45899,
+          "char_end": 46007,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Kenio Costa de Lima",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "precisamos pensar nessa regulamentação da profissão de cuidador de pessoas idosas"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.95,
+  "taxa_contraponto": 0.4,
+  "taxa_ancoragem_fundamento": 0.973
+}

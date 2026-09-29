@@ -1,0 +1,346 @@
+{
+  "sample_id": 195,
+  "assunto": "Regulamentação dos mercados digitais no Brasil",
+  "nos": [
+    {
+      "id": "p::Assimakis Komninos",
+      "tipo": "participante",
+      "rotulo": "Assimakis Komninos",
+      "dados": {
+        "cargo": "especialista em regulação de mercados digitais, com experiência no sistema europeu DMA",
+        "n_opinioes": 2
+      }
+    },
+    {
+      "id": "p::Jorge Padilla",
+      "tipo": "participante",
+      "rotulo": "Jorge Padilla",
+      "dados": {
+        "cargo": "economista",
+        "n_opinioes": 6
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende que a regulação de plataformas digitais no Brasil deve ser baseada em interesses nacionais claros, alinhada internacionalmente, flexível e aplicada pela autoridade concorrencial",
+      "dados": {
+        "falante": "Assimakis Komninos",
+        "cargo": "especialista em regulação de mercados digitais, com experiência no sistema europeu DMA",
+        "turno_id": 2,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "depois de decidir fazer isso",
+            "preservado": false,
+            "char_start": 13268,
+            "char_end": 13296
+          },
+          {
+            "tipo": "escopo",
+            "trecho": "para os legisladores brasileiros",
+            "preservado": false,
+            "char_start": 12567,
+            "char_end": 12599
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "defende a inclusão de cláusulas de flexibilidade nas regras de plataformas digitais para evitar danos à experiência do consumidor",
+      "dados": {
+        "falante": "Assimakis Komninos",
+        "cargo": "especialista em regulação de mercados digitais, com experiência no sistema europeu DMA",
+        "turno_id": 8,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "em situações particulares em que se pode dizer que essas regras causariam dano à experiência do usuário",
+            "preservado": true,
+            "char_start": 23167,
+            "char_end": 23270
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "defende que o Brasil adote uma regulação mais flexível e adaptada à sua realidade institucional, em vez de seguir rigidamente o modelo europeu ex ante",
+      "dados": {
+        "falante": "Jorge Padilla",
+        "cargo": "economista",
+        "turno_id": 10,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "considera que a autorregulação pode ser suficiente em certos contextos, sem necessidade de regulação severa",
+      "dados": {
+        "falante": "Jorge Padilla",
+        "cargo": "economista",
+        "turno_id": 10,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "escopo",
+            "trecho": "em outras jurisdições",
+            "preservado": true,
+            "char_start": 31339,
+            "char_end": 31360
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "defende a entrada de big techs em mercados concentrados como forma de promover disrupção e competição",
+      "dados": {
+        "falante": "Jorge Padilla",
+        "cargo": "economista",
+        "turno_id": 10,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "escopo",
+            "trecho": "em mercados que já estão muito concentrados e dominados há muito tempo",
+            "preservado": false,
+            "char_start": 32824,
+            "char_end": 32894
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "defende a adoção de um arcabouço regulatório flexível para enfrentar mudanças dinâmicas nos mercados digitais",
+      "dados": {
+        "falante": "Jorge Padilla",
+        "cargo": "economista",
+        "turno_id": 10,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "prazo",
+            "trecho": "porque os problemas que você vai enfrentar vão mudar com o tempo de forma significativa",
+            "preservado": true,
+            "char_start": 33888,
+            "char_end": 33975
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0006",
+      "tipo": "opiniao",
+      "rotulo": "defende adiar a regulação até que haja evidências concretas de seu impacto em outros países",
+      "dados": {
+        "falante": "Jorge Padilla",
+        "cargo": "economista",
+        "turno_id": 12,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0007",
+      "tipo": "opiniao",
+      "rotulo": "alerta contra regulamentações que possam sufocar o crescimento de fintechs e plataformas emergentes no Brasil por exigirem escala",
+      "dados": {
+        "falante": "Jorge Padilla",
+        "cargo": "economista",
+        "turno_id": 16,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Assimakis Komninos",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Assimakis Komninos",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Jorge Padilla",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Jorge Padilla",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Jorge Padilla",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Jorge Padilla",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Jorge Padilla",
+      "destino": "o::0006",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Jorge Padilla",
+      "destino": "o::0007",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Assimakis Komninos",
+      "destino": "p::Jorge Padilla",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0001",
+      "tipo": "mesmo_tema",
+      "peso": 0.5797,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0002",
+      "tipo": "mesmo_tema",
+      "peso": 0.6941,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.666,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.5673,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0007",
+      "tipo": "mesmo_tema",
+      "peso": 0.6846,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.7675,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6571,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.5899,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0007",
+      "tipo": "mesmo_tema",
+      "peso": 0.6345,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6224,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0007",
+      "tipo": "mesmo_tema",
+      "peso": 0.5957,
+      "dados": {}
+    },
+    {
+      "origem": "o::0005",
+      "destino": "o::0007",
+      "tipo": "mesmo_tema",
+      "peso": 0.6119,
+      "dados": {}
+    },
+    {
+      "origem": "o::0006",
+      "destino": "o::0007",
+      "tipo": "mesmo_tema",
+      "peso": 0.5698,
+      "dados": {}
+    }
+  ],
+  "resumo": {
+    "sample_id": 195,
+    "n_participantes": 2,
+    "n_opinioes": 8,
+    "arestas": {
+      "emitiu": 8,
+      "fala_apos": 1,
+      "mesmo_tema": 13
+    },
+    "camadas_exatas": [
+      "emitiu",
+      "fala_apos",
+      "concede_palavra"
+    ]
+  }
+}

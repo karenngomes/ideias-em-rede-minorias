@@ -1,0 +1,2421 @@
+{
+  "sample_id": 107,
+  "n_turnos": 28,
+  "n_turnos_codificados": 26,
+  "n_codigos": 181,
+  "n_rejeitados": 1,
+  "taxa_rejeicao": 0.0175,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 26,
+      "distribuicao": {
+        "interrompido": 1,
+        "normal": 25
+      },
+      "media": 0.9615,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 26,
+      "distribuicao": {
+        "nenhuma": 11,
+        "inferior": 3,
+        "qualificada": 12,
+        "sofisticada": 0
+      },
+      "media": 1.0385,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 26,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 12,
+        "bem_comum_utilitario": 13,
+        "bem_comum_diferenca": 1
+      },
+      "media": 1.5769,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 26,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 10,
+        "explicito_positivo": 16
+      },
+      "media": 1.6154,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 26,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 23,
+        "explicito_positivo": 3
+      },
+      "media": 1.1154,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 26,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 26,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 25,
+      "distribuicao": {
+        "posicional": 18,
+        "proposta_alternativa": 7,
+        "proposta_mediadora": 0
+      },
+      "media": 0.28,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Carlos Frederico Otoni Garcia": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Fernando Raimundo Schunig": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Gilson Daniel": {
+        "participacao": {
+          "n": 12,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 12,
+          "media": 0.1667
+        },
+        "respeito_contra": {
+          "n": 12,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 12,
+          "media": 0.5
+        },
+        "justificacao_conteudo": {
+          "n": 12,
+          "media": 1.25
+        },
+        "respeito_grupos": {
+          "n": 12,
+          "media": 1.4167
+        },
+        "respeito_demandas": {
+          "n": 12,
+          "media": 1.1667
+        }
+      },
+      "Henguel Ricardo Pereira": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Leo Prates": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Luciano Chaves Boeira": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Marcio Romano Corrêa Custodio": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Marlison Soares Cunha": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Moisés Pereira de Melo": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.5
+        }
+      },
+      "Pedro Henrique Corrêa Teixeira": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Sosthenes Macêdo": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Henguel Ricardo Pereira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Carlos Frederico Otoni Garcia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pedro Henrique Corrêa Teixeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Marlison Soares Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Sosthenes Macêdo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Leo Prates",
+      "trecho": "o nosso amado povo da Bahia",
+      "char_start": 2898,
+      "char_end": 2925,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Henguel Ricardo Pereira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Henguel Ricardo Pereira",
+      "trecho": "Precisamos de radares eficientes e modernos. Esse é o primeiro momento para conseguirmos enxergar com mais precisão o que se aproxima de cada região e, a partir daí, sim, operacionalizarmos todo o sistema.",
+      "char_start": 13626,
+      "char_end": 13831,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Henguel Ricardo Pereira",
+      "trecho": "para evitarmos que haja perda de vidas, para evitarmos que as pessoas sofram tanto",
+      "char_start": 12113,
+      "char_end": 12195,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Henguel Ricardo Pereira",
+      "trecho": "Todo mundo unido deve pensar no que pode fazer para nos anteciparmos, para evitarmos que haja perda de vidas, para evitarmos que as pessoas sofram tanto.",
+      "char_start": 12043,
+      "char_end": 12196,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Henguel Ricardo Pereira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Carlos Frederico Otoni Garcia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Carlos Frederico Otoni Garcia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 5,
+      "falante": "Carlos Frederico Otoni Garcia",
+      "trecho": "Eu entendo que não adianta haver emissão de alerta se a pessoa não está socializada com a cultura do risco, ela precisa entender que aquele alerta é justamente uma medida autoprotetiva e ter a compreensão e a sensibilidade de não se colocar numa situação de risco.",
+      "char_start": 26435,
+      "char_end": 26699,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 5,
+      "falante": "Carlos Frederico Otoni Garcia",
+      "trecho": "E obras estruturantes, muitas vezes, são importantes para que essa prevenção efetivamente aconteça e reflita na comunidade e na sociedade de forma geral.",
+      "char_start": 25063,
+      "char_end": 25216,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Carlos Frederico Otoni Garcia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Carlos Frederico Otoni Garcia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pedro Henrique Corrêa Teixeira",
+      "trecho": "por que não haver algum mecanismo legal que diga\"Em Estados onde o evento é recorrente todos os anos, é possível preparar o sistema de defesa civil para só ser acionado no momento em que o evento acontece\".",
+      "char_start": 40625,
+      "char_end": 40831,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pedro Henrique Corrêa Teixeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Pedro Henrique Corrêa Teixeira",
+      "trecho": "Porque, no momento em que as chuvas começam no rio, nós já sabemos que vai haver cheia ao longo dele. Mas muitas dessas ações de prevenção, como os colegas falaram, são burocratizadas. Então, antes que o rio encha, eu não consigo muitas vezes acionar essa ajuda para que ela chegue a tempo hábil.",
+      "char_start": 36509,
+      "char_end": 36805,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Pedro Henrique Corrêa Teixeira",
+      "trecho": "Nós temos como missão evitar que desastres aconteçam para que bens não sejam destruídos, mas nossa missão principal é ajudar para que vidas não sejam perdidas.",
+      "char_start": 43258,
+      "char_end": 43417,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Pedro Henrique Corrêa Teixeira",
+      "trecho": "Nós temos comunidades indígenas, por exemplo. Como eu vou fazer um alerta de uma chuva forte em uma comunidade onde não há Internet, onde não se usa celular, em uma comunidade à qual, durante a cheia, eu demoro 2, 3, 5, 8 dias para chegar e, durante a estiagem, só chego de helicóptero?",
+      "char_start": 37873,
+      "char_end": 38159,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pedro Henrique Corrêa Teixeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilson Daniel",
+      "trecho": "Eu quero aproveitar e fazer uma sugestão ao Coronel Henguel, que é do conselho de coordenadores, para que nós pudéssemos, através do conselho, buscar os projetos de iniciativa aqui da Casa ou do próprio Executivo e criar uma pauta prioritária das Defesas Civis aqui na Casa",
+      "char_start": 44528,
+      "char_end": 44801,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Gilson Daniel",
+      "trecho": "porque todos os coordenadores de Defesa Civil têm um relacionamento muito bom com os Deputados Federais, com os Senadores. Então, nós definiríamos uma pauta prioritária de projetos, que são importantes para a Defesa Civil",
+      "char_start": 44803,
+      "char_end": 45024,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Gilson Daniel",
+      "trecho": "para evitarmos que o desastre aconteça novamente",
+      "char_start": 45784,
+      "char_end": 45832,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "eu gostaria, Deputado Gilson Daniel, que, além do Fundo Nacional de Defesa Civil, algumas demandas fossem acrescentadas ao PAC, a exemplo das barragens, das contenções dos rios que causam tantas enchentes.",
+      "char_start": 47769,
+      "char_end": 47974,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "Nós temos a Lei nº 12.608, de 2012, que foi agora atualizada pela Lei nº 14.750, de 2023, que traz para as Defesas Civis mais responsabilidades. Talvez alguns colegas ainda não tenham percebido, mas todas as licenças ambientais dos órgãos ambientais estaduais ficam atreladas à análise e à aprovação do Plano de Contingência pela Defesa Civil do Estado. Então, há mais uma gama de responsabilidades que temos de enfrentar pela frente e, muitas vezes, nem o Estado está preparado ainda para isso. E o que eu quero dizer com isso? Eu quero dizer que são necessários, cada vez mais, o debate, a interação das leis que foram propostas por esta Casa, a participação efetiva do Conselho Estadual de Defesa Civil, dos representantes da Defesa Civil dos Estados, para que possamos juntos discutir essas melhorias na legislação como um todo.",
+      "char_start": 46870,
+      "char_end": 47702,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "O Brasil inteiro precisa ter uma nova leitura disso. Precisamos começar a atuar antes mesmo que esses eventos aconteçam.",
+      "char_start": 48112,
+      "char_end": 48232,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "É muito importante a participação do Maranhão. Nós nos encontramos pouquíssimas vezes nos encontros nacionais e seria muito importante termos cada vez mais a sua presença, já que representamos aqui o Nordeste e temos praticamente o mesmo relevo e a mesma dificuldade.",
+      "char_start": 46416,
+      "char_end": 46683,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Marlison Soares Cunha",
+      "trecho": "uma sugestão seria que se aumentasse, nas leis orçamentárias, o valor para o Ministério da Integração e Desenvolvimento Regional, e esse recurso fosse destinado exclusivamente para obras estruturantes, dando prioridade para o interior.",
+      "char_start": 51244,
+      "char_end": 51479,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Marlison Soares Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Marlison Soares Cunha",
+      "trecho": "E por que para o interior? Porque há pouca capacidade de resposta lá.",
+      "char_start": 51480,
+      "char_end": 51549,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Marlison Soares Cunha",
+      "trecho": "E a família que perdeu a casa, que está agora num ginásio e está recebendo comida por um programa do Governo, necessita de ajuda de maneira mais imediata.",
+      "char_start": 53132,
+      "char_end": 53286,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Marlison Soares Cunha",
+      "trecho": "Eles estão concentrando esforços, neste momento, para ajudar essas famílias.",
+      "char_start": 50610,
+      "char_end": 50686,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Marlison Soares Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "não podemos ter um sistema de alerta, como o que está sendo programado agora pelo Governo Federal, sem que as pessoas saibam o que fazer.",
+      "char_start": 58276,
+      "char_end": 58413,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "não podemos ter um sistema de alerta, como o que está sendo programado agora pelo Governo Federal, sem que as pessoas saibam o que fazer.",
+      "char_start": 58276,
+      "char_end": 58413,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "É preciso fortalecer, mas não podemos esquecer, infelizmente, a realidade e o que é a regra: os Municípios estão mal estruturados e sem capacidade de resposta. Obviamente, quem sofre é a população que está na ponta. Por eles nós precisamos trabalhar e atuar, fortalecendo realmente os Municípios, para que nós, enquanto Estado, possamos apoiar na gestão e em todo esse processo, fortalecendo os Municípios para as ações da defesa civil.",
+      "char_start": 65216,
+      "char_end": 65652,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "Nós precisamos trabalhar de forma integrada, Deputado. Eu sempre valorizo essas oportunidades, porque nós precisamos estar próximos do Parlamento federal. Precisamos estar integrados, como estamos com as Defesas Civis dos nossos Estados e dos nossos Municípios. Tanto o Governo Federal quanto o Estado e o Município precisam fazer a sua parte para enfrentar esses eventos.",
+      "char_start": 71105,
+      "char_end": 71477,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "Nós precisamos trabalhar de forma integrada, Deputado. Eu sempre valorizo essas oportunidades, porque nós precisamos estar próximos do Parlamento federal. Precisamos estar integrados, como estamos com as Defesas Civis dos nossos Estados e dos nossos Municípios. Tanto o Governo Federal quanto o Estado e o Município precisam fazer a sua parte para enfrentar esses eventos.",
+      "char_start": 71105,
+      "char_end": 71477,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Gilson Daniel",
+      "trecho": "Eu já vou pedir à equipe que faça um requerimento para convidarmos todos os Coordenadores de Defesa Civil do nosso País, dos Estados, para vir novamente a esta Casa, talvez um pouco mais à frente, para podermos discutir sobre o sistema de alerta.",
+      "char_start": 76633,
+      "char_end": 76879,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Gilson Daniel",
+      "trecho": "Acredito que o Governo esteja fazendo esse diálogo com as Coordenações de Defesa Civil, mas eu acho importante fazermos um debate maior nesta Casa, até para nos prepararmos, porque o Governo pode lançar o sistema de alerta(palmas)e não ter a resposta da população. Assim, talvez o sistema de alerta possa cair em discreto, o que é perigoso também, porque a população, quando recebe um alerta, tem que saber para onde vai, como vai fazer.",
+      "char_start": 76093,
+      "char_end": 76530,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Gilson Daniel",
+      "trecho": "Acredito que o Governo esteja fazendo esse diálogo com as Coordenações de Defesa Civil, mas eu acho importante fazermos um debate maior nesta Casa, até para nos prepararmos, porque o Governo pode lançar o sistema de alerta(palmas)e não ter a resposta da população. Assim, talvez o sistema de alerta possa cair em discreto, o que é perigoso também, porque a população, quando recebe um alerta, tem que saber para onde vai, como vai fazer.",
+      "char_start": 76093,
+      "char_end": 76530,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Gilson Daniel",
+      "trecho": "Ouvimos isso do Coronel Luciano agora, como também do Coronel Moisés, do Coronel Frederico, do nosso Coordenador Henguel, com relação ao sistema de alerta.",
+      "char_start": 75564,
+      "char_end": 75719,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Gilson Daniel",
+      "trecho": "Percebi que uma fala muito forte dos Coordenadores é com relação à desburocratização. Acho que, além dos radares, a desburocratização é um tema muito forte.",
+      "char_start": 75407,
+      "char_end": 75563,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "nós temos, sim, que encontrar alguma forma de desburocratizar, porque só quem está lá na ponta sabe o que é ficar morando de aluguel social, morando em abrigo público, e todos os transtornos que esses eventos trazem para aquelas localidades.",
+      "char_start": 78803,
+      "char_end": 79044,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 17,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "só quem está lá na ponta sabe o que é ficar morando de aluguel social, morando em abrigo público, e todos os transtornos que esses eventos trazem para aquelas localidades.",
+      "char_start": 78873,
+      "char_end": 79044,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "só quem está lá na ponta sabe o que é ficar morando de aluguel social, morando em abrigo público, e todos os transtornos que esses eventos trazem para aquelas localidades.",
+      "char_start": 78873,
+      "char_end": 79044,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Luciano Chaves Boeira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "todos os nossos Coordenadores Estaduais de Defesa Civil que se ombreiam conosco nessa luta junto à sociedade para minimizar todos os desastres",
+      "char_start": 79963,
+      "char_end": 80105,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "Eu acho importante nós compartilharmos as nossas ações, porque podemos ajudar outras defesas civis com o compartilhamento de boas práticas, como já vi lá no nosso Estado. Às vezes, a ação é simples, mas, para aquele Município que está lá ao lado, é extremamente importante. Isso também serve para colocar à prova aquilo que estamos fazendo; para divulgar nossas ações — por que não? —; para provocar certas discussões, reflexões. É dessa forma que evoluímos. É dessa forma que aprendemos. Por isso, é importante compartilhar as nossas ações.",
+      "char_start": 82844,
+      "char_end": 83385,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "Eu acho importante nós compartilharmos as nossas ações, porque podemos ajudar outras defesas civis com o compartilhamento de boas práticas, como já vi lá no nosso Estado. Às vezes, a ação é simples, mas, para aquele Município que está lá ao lado, é extremamente importante. Isso também serve para colocar à prova aquilo que estamos fazendo; para divulgar nossas ações — por que não? —; para provocar certas discussões, reflexões. É dessa forma que evoluímos. É dessa forma que aprendemos. Por isso, é importante compartilhar as nossas ações.",
+      "char_start": 82844,
+      "char_end": 83385,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "Ninguém aqui é melhor do que ninguém.",
+      "char_start": 83387,
+      "char_end": 83424,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Marcio Romano Corrêa Custodio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Gilson Daniel",
+      "trecho": "O Coronel Marcio é um professor — se deixássemos, ele daria aula aqui o restante da tarde e durante a noite.",
+      "char_start": 91776,
+      "char_end": 91884,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Sosthenes Macêdo",
+      "trecho": "É uma proposta que eu quero deixar aqui para V.Exa.",
+      "char_start": 105648,
+      "char_end": 105699,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Sosthenes Macêdo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Sosthenes Macêdo",
+      "trecho": "Nós precisamos que o bolo tributário brasileiro seja mais bem distribuído, a fim de que cheguem à ponta os recursos para que os auxílios aconteçam.",
+      "char_start": 95720,
+      "char_end": 95867,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Sosthenes Macêdo",
+      "trecho": "Nós precisamos que o bolo tributário brasileiro seja mais bem distribuído, a fim de que cheguem à ponta os recursos para que os auxílios aconteçam.",
+      "char_start": 95720,
+      "char_end": 95867,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Sosthenes Macêdo",
+      "trecho": "Defesa Civil, somos todos nós.",
+      "char_start": 110668,
+      "char_end": 110698,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Sosthenes Macêdo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Gilson Daniel",
+      "trecho": "porque a vida acontece nos Municípios. Então, é lá que as pessoas precisam dessa atenção do poder público.",
+      "char_start": 111068,
+      "char_end": 111174,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Gilson Daniel",
+      "trecho": "porque a vida acontece nos Municípios. Então, é lá que as pessoas precisam dessa atenção do poder público.",
+      "char_start": 111068,
+      "char_end": 111174,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Gilson Daniel",
+      "trecho": "Nós também seguimos na pauta municipalista. Sabemos que muitos Municípios têm deficiência técnica, não têm equipamentos. A Defesa Civil, às vezes, atua com apenas um profissional. Uma das pautas de que nós falamos sempre é a necessidade de haver uma carreira para a Defesa Civil, principalmente nos Municípios.",
+      "char_start": 111176,
+      "char_end": 111486,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "Peço que seja colocada na lei, se possível, essa observação de que o recurso deve chegar em um prazo \"x\".",
+      "char_start": 113864,
+      "char_end": 113969,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "porque não adianta mandar o recurso depois que o evento já foi corrigido pelo Estado ou pelo Município.",
+      "char_start": 113577,
+      "char_end": 113680,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "Queremos dar pronta resposta, de imediato.",
+      "char_start": 113820,
+      "char_end": 113862,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Moisés Pereira de Melo",
+      "trecho": "Eu queria acrescentar algo à fala desse grande sábio, que é o Fernando, do Paraná. Ele citou muito bem que, quando estiverem em situação de emergência, os Municípios não devem realizar grandes festas e devem resolver os problemas de drenagem que já existem. Eu gostaria de parabenizar o Fernando por essa fala e dizer que esses recursos têm que ser empregados.",
+      "char_start": 113109,
+      "char_end": 113469,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Gilson Daniel",
+      "trecho": "para construirmos nesta Comissão um relatório em que todas as demandas sejam atendidas, principalmente as demandas de cada Estado. Nós ouvimos as particularidades de cada Estado.",
+      "char_start": 115086,
+      "char_end": 115264,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Gilson Daniel",
+      "trecho": "para construirmos nesta Comissão um relatório em que todas as demandas sejam atendidas, principalmente as demandas de cada Estado. Nós ouvimos as particularidades de cada Estado.",
+      "char_start": 115086,
+      "char_end": 115264,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "Seria extremamente interessante que todos os coordenadores estaduais e municipais participassem do processo.",
+      "char_start": 115550,
+      "char_end": 115658,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "É extremamente importante que chegue o convite a todos os coordenadores, independentemente de suas realidades, da quantidade de ocorrências ou das emergências que aconteceram.",
+      "char_start": 115762,
+      "char_end": 115937,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Fernando Raimundo Schunig",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Gilson Daniel",
+      "trecho": "Eu disponibilizei o meu telefone para todos e estou à disposição das Defesas Civis dos Estados, como Parlamentar que defende essa causa, assim como o nosso Presidente Leo Prates. As proposições legislativas que os senhores acharem importantes que se proponha aqui na Casa, eu me coloco à disposição para defender, assim como para fazer a apresentação daquilo que for necessário para o fortalecimento das Defesas Civis do nosso País, dos nossos Estados e dos nossos Municípios.",
+      "char_start": 116389,
+      "char_end": 116865,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Gilson Daniel",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "politica_construtiva",
+      "turno_id": 3,
+      "falante": "Henguel Ricardo Pereira",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "proposta_alternativa",
+      "trecho": "Então, vimos a grande necessidade de reestruturarmos algumas coisas, e começamos a ter um raio-x do nosso Brasil. Um dos problemas prioritários que nós temos é a necessidade de um sistema de radar distribuído em todo o território nacional"
+    }
+  ],
+  "turnos_falhos": []
+}

@@ -1,0 +1,391 @@
+{
+  "sample_id": 28,
+  "n_opinioes": 14,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 14,
+  "n_fundamentos_propostos": 28,
+  "n_fundamentos_ancorados": 28,
+  "n_fundamentos_com_numero": 10,
+  "por_tipo": {
+    "dado": 17,
+    "autoridade": 11
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 4,
+  "n_rejeitados": 0,
+  "itens": [
+    {
+      "opiniao": "defende o direito do consumidor de escolher onde reparar seu veículo e o acesso facilitado a informações técnicas para oficinas independentes",
+      "falante": "Celso Mattos",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É de conhecimento de todos que as concessionárias não conseguem reparar os veículos que existem hoje.",
+          "char_start": 11805,
+          "char_end": 11906,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, nem isso estão conseguindo fazer mais, seja por falta de peças, seja por falta de concessionária, seja falta de mão de obra no mercado.",
+          "char_start": 12002,
+          "char_end": 12143,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Por causa disso, são criadas oficinas independentes, que empregam milhares de pessoas.",
+          "char_start": 12144,
+          "char_end": 12230,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a liberdade de escolha do consumidor na manutenção de veículos como direito fundamental e constitucional",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "o art. 5º, inciso XXXII, fala desse direito e dessa garantia fundamental",
+          "char_start": 15854,
+          "char_end": 15926,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O art. 170, inciso V, considera a defesa do consumidor como um dos princípios constitucionais da ordem econômica",
+          "char_start": 16088,
+          "char_end": 16200,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o direito do consumidor de escolher onde reparar seu carro, vinculando essa escolha à economia circular e à preservação ambiental",
+      "falante": "Marcelo Luiz Dias da Silva Gabriel",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Brasil é o quarto maior mercado de reposição automotiva do mundo, ficando atrás apenas dos Estados Unidos, da China e do Japão.",
+          "char_start": 18804,
+          "char_end": 18933,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O País tem 5.570 Municípios, como é sabido por todos.",
+          "char_start": 19758,
+          "char_end": 19811,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 2010, quando era Presidente da FENABRAVE, Sérgio Reze disse que a rede instalada era capaz de atender, no máximo, 20% da frota circulante.",
+          "char_start": 20007,
+          "char_end": 20148,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "hoje há carros que esperam até 6 meses por peças, justamente por essa hipossuficiência da rede.",
+          "char_start": 20254,
+          "char_end": 20349,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Lembro que a economia circular se baseia na redução, na reciclagem, na reutilização e na reparação de produtos.",
+          "char_start": 20531,
+          "char_end": 20642,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Lembro que, por força da Lei nº 6.729, de 1979, que é mais conhecida como Lei Renato Ferrari, as montadoras já têm a prerrogativa de delegar para oficinas independentes e para comerciantes independentes a manutenção e a venda de peças.",
+          "char_start": 20856,
+          "char_end": 21091,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o acesso aos códigos de falha por oficinas independentes deve estar condicionado a treinamento, ferramentas adequadas, confidencialidade, controle e responsabilidade",
+      "falante": "Gilberto Martins",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quando você acessa essa porta OBD, acessa esses códigos programáveis, por algum motivo, pode fazer uma atualização de códigos. O que seria uma atualização de código? Mudar alguma coisa no seu computador de bordo do veículo para melhorar uma performance, talvezaumentar a potência, aumentar a velocidade, e ocasionar a piora dos limites de emissões.",
+          "char_start": 28342,
+          "char_end": 28690,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu levo o veículo para fazer um reparo, e, por algum motivo, deletam um código que não era para ser deletado, e esse código é de acionamento doairbag. O consumidor pega esse carro, vai para a rua e, por algum motivo, sofre um acidente, e aqueleairbagnão é acionado porque o código de acionamento foi deletado.",
+          "char_start": 29007,
+          "char_end": 29316,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "há a inclusão de códigos. Quando se tem acesso a essa porta, pode-se incluir códigos, por exemplo, o código de uma chave pirata. Com uma chave que não é a original do veículo, pode-se ter acesso a um veículo qualquer e conseguir levar aquele bem da pessoa por terem sido feitas uma programação e uma inclusão de código.",
+          "char_start": 29327,
+          "char_end": 29646,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere a criação de sistema de credenciamento para oficinas independentes, com base na Lei Ferrari, para garantir diagnóstico seguro do veículo",
+      "falante": "Gilberto Martins",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Como uma sugestão, como um ponto que foi até levantado pela Lei Ferrari, as montadoras já podem fazer isso. Talvez seria o caso de haver algum tipo de credenciamento, para que as oficinas independentes pudessem fazer esse tipo de reparo, com um diagnóstico seguro do veículo, de forma segura, para não ocasionar aqueles pontos que eu comentei de possíveis exclusão e modificação de códigos.",
+          "char_start": 31026,
+          "char_end": 31416,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o acesso de oficinas credenciadas aos softwares de reparo para garantir os direitos do consumidor e a livre concorrência, conforme a Lei 8.078/90 e a Constituição",
+      "falante": "Gisela Simona",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a Lei 8.078, de 1990",
+          "char_start": 34329,
+          "char_end": 34349,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a livre concorrência, que está na nossa Constituição Federal",
+          "char_start": 34369,
+          "char_end": 34429,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu entendo quando o Sr. Gilberto, que representa as montadoras deste País, fala da necessidade da confidencialidade.",
+        "resposta": "Mas nós jamais podemos nos esquecer de que nós estamos dentro do território brasileiro, e o Brasil tem um Código de Proteção e Defesa do Consumidor que estabelece alguns direitos para o consumidor, aos quais as montadoras e as concessionárias têm que se submeter.",
+        "objecao_char_start": 33623,
+        "objecao_char_end": 33739,
+        "resposta_char_start": 33899,
+        "resposta_char_end": 34162,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a padronização entre concessionárias e oficinas independentes por meio de credenciamento e acesso controlado ao software",
+      "falante": "Gilberto Martins",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os grandes mercados estão fazendo com oright to repairnos Estados Unidos, por exemplo, em que há sistemáticas do fornecimento desoftware, através de compra desoftware, como é feito nas concessionárias",
+          "char_start": 36990,
+          "char_end": 37190,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "A ANFAVEA está trazendo nada mais do que isso",
+          "char_start": 36405,
+          "char_end": 36450,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "quando V.Exa. diz que uma concessionária pode fazer algum tipo de codificação errada — e isso pode acontecer",
+        "resposta": "ela tem responsabilidade porque tem o credenciamento da montadora que diz que ela tem que fazer de determinada forma",
+        "objecao_char_start": 36136,
+        "objecao_char_end": 36244,
+        "resposta_char_start": 36248,
+        "resposta_char_end": 36364,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o aprofundamento da discussão deve estabelecer limites claros para oficinas independentes, com base em modelos legais existentes",
+      "falante": "Gilberto Martins",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a Lei Ferrari já permite que uma montadora autorize uma concessionária a vender e a ter tambémuma assistência técnica credenciada",
+          "char_start": 38069,
+          "char_end": 38198,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "acredita que ANFAVEA, SINDIREPA e defensores do consumidor podem chegar a consenso sobre credenciamento para reparos",
+      "falante": "Gilberto Martins",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "vamos chegar a esse dominador comum, juntando SINDIREPA, que é a parte do sindicato de reparadores, a ANFAVEA, do lado dos fabricantes, e o representante da Defesa do Consumidor, o consumidor em si",
+          "char_start": 38311,
+          "char_end": 38508,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a proposta da ANFAVEA por manter vínculos obrigatórios, defendendo modelo europeu que assegura liberdade plena ao consumidor na escolha da oficina",
+      "falante": "Marcelo Luiz Dias da Silva Gabriel",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "na Europa existe a Lei Monti, aprovada em 2003 — é uma lei que tem 20 anos —, que autorizava o acesso à reparação",
+          "char_start": 39119,
+          "char_end": 39232,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Enquanto na Europa nós já temos uma jurisprudência que mostra que não é vinculante",
+          "char_start": 40264,
+          "char_end": 40346,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Essa proposta da ANFAVEA já existe na Europa desde 2003, em que as montadoras credenciam as oficinas",
+        "resposta": "mas, como existe esse direito à reparação, ela não é vinculante",
+        "objecao_char_start": 39543,
+        "objecao_char_end": 39643,
+        "resposta_char_start": 39695,
+        "resposta_char_end": 39758,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a liberação de acesso a códigos, peças e treinamento para oficinas independentes como forma de aumentar a concorrência, reduzir custos e garantir justiça aos consumidores, mesmo com riscos técnicos.",
+      "falante": "Jorge Braz",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A peça custava 18 mil reais há um bom tempo.",
+          "char_start": 44771,
+          "char_end": 44815,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Na época, era o preço de um carro popular, normal, dependendo do modelo.",
+          "char_start": 44816,
+          "char_end": 44888,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "É lógico que não vai ser para qualquer um, mas precisamos abrir, efetivamente, esse espaço, esse leque de opções para os consumidores.",
+        "resposta": "E o risco vamos ter de correr.",
+        "objecao_char_start": 45519,
+        "objecao_char_end": 45653,
+        "resposta_char_start": 45381,
+        "resposta_char_end": 45411,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reafirma o direito do consumidor de escolher livremente onde realizar reparos em seu veículo, com responsabilidade atribuída à oficina",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 32,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "se ele levar o veículo para manutenção em uma oficina que, porventura, delete um comando que aciona oairbag, essa empresa vai ser responsabilizada",
+          "char_start": 47683,
+          "char_end": 47829,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a abertura imediata de acesso a informações técnicas para oficinas independentes para garantir segurança e direitos do consumidor",
+      "falante": "Celso Mattos",
+      "turno_id": 36,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "uma informação foi realizada de forma errada, num freio que não funcionou, ocasionando uma morte",
+          "char_start": 51898,
+          "char_end": 51994,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o consumidor deve ter acesso a oficinas seguras para reparo de veículos, com garantias técnicas e de responsabilidade",
+      "falante": "Gilberto Martins",
+      "turno_id": 38,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Europa tem implementado isso. Alguns pequenos países têm começado agora em 2023 a falar sobresoftware.",
+          "char_start": 52857,
+          "char_end": 52961,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.2857,
+  "taxa_ancoragem_fundamento": 1.0
+}

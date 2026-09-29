@@ -1,0 +1,504 @@
+{
+  "sample_id": 33,
+  "n_opinioes": 19,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 19,
+  "n_fundamentos_propostos": 33,
+  "n_fundamentos_ancorados": 33,
+  "n_fundamentos_com_numero": 17,
+  "por_tipo": {
+    "dado": 27,
+    "autoridade": 6
+  },
+  "n_contrapontos_propostos": 8,
+  "n_com_contraponto": 7,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "defende a obrigatoriedade do diploma de jornalismo como condição para o exercício da profissão",
+      "falante": "Amaro Neto",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em 2009, o STF proferiu decisão no sentido de que qualquer pessoa, independentemente de formação, poderia assumir as funções de jornalista, alegando que o diploma não é exigido na Constituição.",
+          "char_start": 5252,
+          "char_end": 5445,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "tramita atualmente na Casa a PEC 386/09, proposta de emenda à Constituição que restitui a obrigatoriedade do diploma de nível superior específico em Jornalismo para que se exerça essa profissão no Brasil",
+          "char_start": 4936,
+          "char_end": 5139,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "o STF proferiu decisão no sentido de que qualquer pessoa, independentemente de formação, poderia assumir as funções de jornalista, alegando que o diploma não é exigido na Constituição",
+        "resposta": "Em reação a tal decisão, foi proposta a PEC, que foi aprovada no Senado e aguarda deliberação na nossa Casa",
+        "objecao_char_start": 5261,
+        "objecao_char_end": 5444,
+        "resposta_char_start": 5446,
+        "resposta_char_end": 5553,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a exigência de diploma de Jornalismo para o exercício da profissão como forma de valorizar a profissão, combater a desinformação e assegurar padrões éticos e técnicos",
+      "falante": "Marluce Evangelista Carvalho Zacariotti",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A recente pandemia de COVID-19 foi um marco muito claro em todo o mundo a respeito de quanto a informação profissionalmente orientada salva vidas e de quanto a desinformação mata.",
+          "char_start": 10358,
+          "char_end": 10537,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Por que o jornalista deveria ser diferente de qualquer outro profissional? Por que os médicos, advogados, engenheiros, todos têm a profissão devidamente regulamentada, com exigência de diploma para o exercício profissional, e a situação do jornalista é diferente?",
+        "resposta": "É bom que tenhamos em mente a quem interessa esse tipo de questão, a quem interessa que não seja exigido diploma de Jornalismo e, portanto, de certa maneira, seja descredibilizada a nossa profissão.",
+        "objecao_char_start": 7347,
+        "objecao_char_end": 7610,
+        "resposta_char_start": 7611,
+        "resposta_char_end": 7809,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a obrigatoriedade do diploma em jornalismo como condição para o exercício da profissão",
+      "falante": "Daniel Trzeciak",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Formei-me na Universidade Católica de Pelotas.",
+          "char_start": 14088,
+          "char_end": 14134,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Perguntem aos diretores de lá qual é a procura pelo curso de jornalismo. Ninguém mais quer cursar jornalismo.",
+          "char_start": 15854,
+          "char_end": 15963,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Ah, mas há uma confusão muito grande de quem é jornalista, porque emite opinião",
+        "resposta": "Narrador narra, comentarista comenta, jornalista conta histórias",
+        "objecao_char_start": 17407,
+        "objecao_char_end": 17486,
+        "resposta_char_start": 17539,
+        "resposta_char_end": 17603,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a decisão do STF que extinguiu a exigência do diploma em jornalismo por considerá-la arbitrária e prejudicial à sociedade",
+      "falante": "Daniel Trzeciak",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu me formei em 2008, 1 ano antes de o Supremo Tribunal Federal rasgar o diploma dos jornalistas.",
+          "char_start": 13991,
+          "char_end": 14088,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Supremo disse:\"Não precisa mais do diploma\"",
+          "char_start": 14513,
+          "char_end": 14558,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia a PEC que restabelece a exigência do diploma para o exercício do jornalismo",
+      "falante": "Daniel Trzeciak",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É para restabelecer no Brasil, justamente, o que não era nem para ter sido discutido.",
+          "char_start": 16766,
+          "char_end": 16851,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a mobilização dos sindicatos e da sociedade em defesa da valorização do diploma em jornalismo",
+      "falante": "Daniel Trzeciak",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Precisamos também ter essa sensibilidade, esse olhar nos nossos Estados — e o meu lá no Rio Grande do Sul. Está aqui o Vilson Antonio Romero, que é Diretor de Direitos Sociais da Imprensa Livre, que representa também o nosso Estado.",
+          "char_start": 18100,
+          "char_end": 18332,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aprovação da PEC 206/12 para restabelecer a exigência do diploma em Jornalismo como forma de garantir a qualidade da informação e o direito humano à comunicação",
+      "falante": "Samira de Castro Cunha",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "40 anos, se contarmos de 1969 até 2009",
+          "char_start": 21845,
+          "char_end": 21883,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "26,7 milhões de pessoas morando em cidades onde não existe um veículo de comunicação sequer",
+          "char_start": 26380,
+          "char_end": 26471,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "como muito bem disse a Profa. Marluce, têm o objetivo de baratear o custo da produção jornalística",
+          "char_start": 24256,
+          "char_end": 24354,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "A Profa. Marluce nos lembrou muito bem de que o diploma de nível superior específico em jornalismo foi exigido no Brasil por 40 anos",
+          "char_start": 21720,
+          "char_end": 21852,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Muitas pessoas desconhecem, perguntam por que não o PL e por que não voltar a carga ao STF",
+        "resposta": "mas a matéria no STF é transitada em julgado, então, nós precisamos emendar a Constituição",
+        "objecao_char_start": 23785,
+        "objecao_char_end": 23875,
+        "resposta_char_start": 23877,
+        "resposta_char_end": 23967,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a exigência do diploma para o exercício do jornalismo como forma de combater a desinformação e proteger a democracia.",
+      "falante": "Armando Sobral Rollemberg",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há 30 anos ou 40 anos, quem imaginaria que essa rapidez e essa amplitude seriam alcançadas já nestes anos que nós estamos vivendo?",
+          "char_start": 29527,
+          "char_end": 29657,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A mentira interesseira, a mentira odienta, a mentira articulada, em pouco mais de 24 horas, pode trazer prejuízos enormes para a sociedade.",
+          "char_start": 30057,
+          "char_end": 30196,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aprovação da PEC do Diploma para restabelecer a regulamentação da profissão de jornalista e fortalecer sua legitimidade democrática",
+      "falante": "Samuel Pantoja Lima",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Dessas 3.100 pessoas que atuam hoje e compuseram esse plano amostral nacional, 94,1% têm como área de formação jornalismo ou comunicação com habilitação em jornalismo.",
+          "char_start": 43874,
+          "char_end": 44041,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aprovação da PEC 206/2012 como condição para o exercício legítimo da profissão de jornalista",
+      "falante": "Prof. Paulo Fernando",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "pasme, Sr. Presidente, já entrou 90 vezes na pauta",
+          "char_start": 48164,
+          "char_end": 48214,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Uma vez aprovada essa PEC, aí, sim, eu vou me sentir mais confortável de poder exercer a atividade de jornalista efetivamente",
+          "char_start": 48646,
+          "char_end": 48771,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a PEC 206/12 não prejudica comunicadores populares nem quem já tem registro, ao estabelecer critério de acesso apenas para o exercício profissional remunerado de jornalismo",
+      "falante": "Samira de Castro Cunha",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Jovens, menores de idade, têm registro profissional de jornalista.",
+          "char_start": 51164,
+          "char_end": 51230,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Pessoas não alfabetizadas hoje conseguem o registro profissional de jornalista, porque pagam a empresas e a entidades picaretas, que cobram cerca de 500 reais, 800 reais, mil reais, para preencher os dados no computador.",
+          "char_start": 51586,
+          "char_end": 51806,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "a proposta de emenda à Constituição, quando aprovada, não retroage para prejudicar quem obteve o registro na janela em que estava valendo essa regra de não ter diploma",
+        "resposta": "a PEC não prejudica em nada as comunicadoras e os comunicadores populares, que sempre existiram, sempre desempenharam um papel fundamental nas suas regiões, nos seus territórios, e vão continuar desempenhando, porque a comunicação é muito mais ampla do que o jornalismo.",
+        "objecao_char_start": 52371,
+        "objecao_char_end": 52538,
+        "resposta_char_start": 52594,
+        "resposta_char_end": 52864,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a ideia de que o diploma de jornalismo fere a liberdade de expressão, defendendo que a profissão exige formação técnica e ética",
+      "falante": "Samuel Pantoja Lima",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "60% dos jornalistas brasileiros ganham entre 1.100 reais e 5.500 reais por mês",
+          "char_start": 58535,
+          "char_end": 58613,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O nosso defensor, João Roberto Egydio, advogado da FENAJ nessa sessão, argumentou que a exigência não impediria ninguém de escrever em jornal",
+          "char_start": 59819,
+          "char_end": 59960,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Haviam sido publicados 16 artigos nos principais jornais do País: 12 escritos por não jornalistas e apenas quatro escritos por jornalistas",
+          "char_start": 60333,
+          "char_end": 60471,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "A principal alegação era que a exigência da formação superior impediria a livre expressão, a liberdade de expressão e o livre pensamento.",
+        "resposta": "O nosso defensor, João Roberto Egydio, advogado da FENAJ nessa sessão, argumentou que a exigência não impediria ninguém de escrever em jornal.",
+        "objecao_char_start": 58885,
+        "objecao_char_end": 59022,
+        "resposta_char_start": 59819,
+        "resposta_char_end": 59961,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica a comparação entre jornalismo e chefe de cozinha, afirmando que o jornalismo é conhecimento social indispensável à democracia",
+      "falante": "Samuel Pantoja Lima",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos falando de jornalismo, um conhecimento social indispensável à vida em democracia, à vida em sociedade.",
+          "char_start": 61072,
+          "char_end": 61186,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o Relator comparou o exercício profissional do jornalismo com o de chefe de cozinha.",
+        "resposta": "As duas profissões exigem conhecimento. Nós estamos falando de jornalismo, um conhecimento social indispensável à vida em democracia, à vida em sociedade.",
+        "objecao_char_start": 60779,
+        "objecao_char_end": 60863,
+        "resposta_char_start": 61032,
+        "resposta_char_end": 61186,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a mobilização ampla em torno da aprovação da PEC 386/09 como forma de combater a precarização do jornalismo",
+      "falante": "Amaro Neto",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "no Espírito Santo restam apenas dois cursos de jornalismo, um na Universidade Federal do Espírito Santo e outro na FAESA, onde eu me formei. Os outros foram fechados. Existiam mais cinco cursos no Estado do Espírito Santo",
+          "char_start": 61487,
+          "char_end": 61708,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a aprovação da PEC que restabelece a exigência do diploma para jornalistas, por considerá-la essencial para a integridade do jornalismo e da democracia.",
+      "falante": "Armando Sobral Rollemberg",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós achamos que este é um momento tão crucial como aqueles outros momentos históricos em que os jornalistas brasileiros resistiram à ditadura militar, resistiram à censura, sofreram perseguições, muitos foram mesmo presos, torturados...",
+          "char_start": 63776,
+          "char_end": 64012,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Somos totalmente solidários. Temos que aprovar essa PEC.",
+          "char_start": 65054,
+          "char_end": 65110,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a revogação da exigência do diploma contribuiu para a precarização do jornalismo e para a queda na qualidade da informação ofertada à sociedade",
+      "falante": "Samira de Castro Cunha",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O número de matrículas nos cursos de jornalismo caiu de 34.210, em 2017, para 27.629, em 2021, ou seja, nós perdemos 6.581 possíveis futuros jornalistas em 4 anos",
+          "char_start": 69229,
+          "char_end": 69391,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "60% dos jornalistas brasileiros ganham entre 1.100 e 5.500 reais mensais",
+          "char_start": 69780,
+          "char_end": 69852,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a Câmara dos Deputados deve votar a PEC 206/12 para corrigir o erro do STF de 2009 e restabelecer o diploma como critério de acesso à profissão de jornalista",
+      "falante": "Samira de Castro Cunha",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Esta Casa tem nas suas mãos a oportunidade histórica de corrigir o erro cometido pelo Supremo Tribunal Federal em 2009",
+          "char_start": 70344,
+          "char_end": 70462,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Supremo Tribunal Federal",
+          "char_start": 70430,
+          "char_end": 70454,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reafirma a esperança na profissão e no futuro do jornalismo, simbolizada pelo apoio à PEC do Diploma",
+      "falante": "Samuel Pantoja Lima",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Então, esses dados são alarmantes, o que não nos impede, num ambiente, num espaço democrático como esta audiência pública, de reafirmar a nossa esperança na profissão, a esperança no futuro da profissão e no acolhimento da PEC do Diploma.",
+          "char_start": 73520,
+          "char_end": 73758,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a obrigatoriedade do diploma como medida complementar ao combate às fake news e propõe diálogo com o Presidente da Câmara para pautar a PEC",
+      "falante": "Amaro Neto",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se o Presidente Arthur Lira é um grande defensor do PL dasfake news",
+          "char_start": 75225,
+          "char_end": 75292,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Armando Sobral Rollemberg",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Quem é jornalista hoje? Quem se autointitula. Há influencers que dizem:'Eu sou jornalista. Eu passei a ser jornalista'."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.3684,
+  "taxa_ancoragem_fundamento": 1.0
+}

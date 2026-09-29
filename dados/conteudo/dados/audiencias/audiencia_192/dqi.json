@@ -1,0 +1,2728 @@
+{
+  "sample_id": 192,
+  "n_turnos": 39,
+  "n_turnos_codificados": 32,
+  "n_codigos": 220,
+  "n_rejeitados": 4,
+  "taxa_rejeicao": 0.08,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 32,
+      "distribuicao": {
+        "interrompido": 1,
+        "normal": 31
+      },
+      "media": 0.9688,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 30,
+      "distribuicao": {
+        "nenhuma": 16,
+        "inferior": 4,
+        "qualificada": 10,
+        "sofisticada": 0
+      },
+      "media": 0.8,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 18,
+        "bem_comum_utilitario": 10,
+        "bem_comum_diferenca": 3
+      },
+      "media": 1.5161,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 31,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 16,
+        "explicito_positivo": 15
+      },
+      "media": 1.4839,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 32,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 32,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 32,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 31,
+        "inclui": 1,
+        "valoriza": 0
+      },
+      "media": 1.0312,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 32,
+      "distribuicao": {
+        "posicional": 30,
+        "proposta_alternativa": 2,
+        "proposta_mediadora": 0
+      },
+      "media": 0.0625,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Davison Gonzaga da Silva": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Humberto Barbato": {
+        "participacao": {
+          "n": 5,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 1.2
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.2
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.0
+        }
+      },
+      "Igor Rodrigues Britto": {
+        "participacao": {
+          "n": 4,
+          "media": 0.75
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 2.3333
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.75
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        }
+      },
+      "Marcelo de Souza do Nascimento": {
+        "participacao": {
+          "n": 4,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 1.25
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.75
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        }
+      },
+      "Márcio Marinho": {
+        "participacao": {
+          "n": 14,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 14,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 14,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 14,
+          "media": 0.4286
+        },
+        "justificacao_conteudo": {
+          "n": 14,
+          "media": 1.4286
+        },
+        "respeito_grupos": {
+          "n": 13,
+          "media": 1.5385
+        },
+        "respeito_demandas": {
+          "n": 14,
+          "media": 1.0
+        }
+      },
+      "Vitor Lippi": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "E nós, como representantes dessa sociedade, temos que fazer o nosso papel de trazer as empresas aqui para poder discutir e ver o que podemos construir de maneira que a sociedade — os consumidores — e também as empresas não sejam prejudicadas.",
+      "char_start": 5025,
+      "char_end": 5267,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "E nós, como representantes dessa sociedade, temos que fazer o nosso papel de trazer as empresas aqui para poder discutir e ver o que podemos construir de maneira que a sociedade — os consumidores — e também as empresas não sejam prejudicadas.",
+      "char_start": 5025,
+      "char_end": 5267,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "o direito daquele que é hipossuficiente, que às vezes não tem um advogado para fazer a sua defesa lá na ponta e também não tem condições de atualizar os seus equipamentos",
+      "char_start": 5422,
+      "char_end": 5592,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "O PROCON tem por missão equilibrar as relações de consumo, orientando, atendendo e fiscalizando as relações de consumo. No tocante ao contexto da obsolescência programada, o PROCON faz aquele papel de intermediação entre os avanços tecnológicos e o direito do consumidor, para que o consumidor possa ter uma relação justa, transparente, além da finalidade de coibir eventuais práticas abusivas em desfavor dos consumidores. Por isso, o PROCON tem um importantíssimo papel nessa seara.",
+      "char_start": 13262,
+      "char_end": 13746,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "para que o consumidor possa ter uma relação justa, transparente, além da finalidade de coibir eventuais práticas abusivas em desfavor dos consumidores",
+      "char_start": 13534,
+      "char_end": 13684,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "O PROCON tem por missão equilibrar as relações de consumo, orientando, atendendo e fiscalizando as relações de consumo.",
+      "char_start": 13262,
+      "char_end": 13381,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Márcio Marinho",
+      "trecho": "faço o registro de que nós respeitamos a presença aqui do representante da ABINEE",
+      "char_start": 18477,
+      "char_end": 18558,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Humberto Barbato",
+      "trecho": "Não é que a indústria fique atualizando os produtos, no sentido de forçar que o consumidor seja obrigado a comprar um novo produto, até porque — e é muito interessante se mostrar este dado que vem aqui — a média de utilização de um telefone celular hoje é de 2 anos e 9 meses. Era menor. Na América Latina, para se ter uma ideia, o crescimento de vendas de telefones celulares usados é de 29%; nos Estados Unidos, de 15%; na Índia, de 25%; na China, de 10%. Se o telefone tivesse essa tal obsolescência programada, como se quer dizer que tem, por que uma pessoa iria comprar um telefone usado? O telefone usado não serviria mais. Então, essa tal obsolescência programada é algo que precisamos avaliar. Não existe uma obsolescência programada. Existem necessidades que o consumidor tem, e nós fabricantes temos que atender o que o consumidor deseja.",
+      "char_start": 27805,
+      "char_end": 28653,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "Nós precisamos de uma proposição legislativa — e temos algumas propostas nesse sentido para apresentar para o senhor e para os seus colegas aqui da Comissão de Defesa do Consumidor — que pode ser capaz de dar um fim na problemática da alta descartabilidade dos produtos eletroeletrônicos no Brasil.",
+      "char_start": 34245,
+      "char_end": 34543,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "E o outro interesse, o interesse mais amplo e mais coletivo, é o interesse climático e o interesse ambiental, como V.Exa. bem mencionou.",
+      "char_start": 35694,
+      "char_end": 35830,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "Nós temos pessoas, em regiões bastante remotas no Brasil, que têm acesso ao básico, ao mínimo de informação por meio de telefone celular quando ele funciona, quando a Internet alcança determinadas regiões.",
+      "char_start": 36460,
+      "char_end": 36665,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "Nós temos a expectativa e a sugestão de que este problema pode ser resolvido com uma nova regra, uma regra adequada, que estabeleça a obrigação de durabilidade desoftwarese de aparelhos no mercado brasileiro.",
+      "char_start": 43970,
+      "char_end": 44178,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "Nós só conseguimos exercer este direito se entrarmos com uma ação na Justiça, mas apenas a minoria dos brasileiros entra com alguma ação na Justiça. Não dá para reclamar isso no Juizado Especial, embora ele seja gratuito e não precise de advogado, porque se trata de caso de prova pericial. É preciso, portanto, recorrer à Justiça Comum e contratar um advogado ou uma advogada. O que o povo brasileiro faz? Joga fora esse raio de telefone celular, descarta-o, troca-o por outro, endivida-se para comprar outro, ou vai reclamar no Procon.",
+      "char_start": 41922,
+      "char_end": 42459,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "O que o povo brasileiro faz? Joga fora esse raio de telefone celular, descarta-o, troca-o por outro, endivida-se para comprar outro, ou vai reclamar no Procon.",
+      "char_start": 42300,
+      "char_end": 42459,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "O que o povo brasileiro faz? Joga fora esse raio de telefone celular, descarta-o, troca-o por outro, endivida-se para comprar outro, ou vai reclamar no Procon.",
+      "char_start": 42300,
+      "char_end": 42459,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Márcio Marinho",
+      "trecho": "dê mais segurança aos consumidores, para realmente lutarem por aquele que é seu direito: ter garantia da durabilidade dos seus aparelhos.",
+      "char_start": 44548,
+      "char_end": 44685,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Humberto Barbato",
+      "trecho": "O objetivo de as empresas retirarem os carregadores foi justamente para diminuir a quantidade, teoricamente, de lixo eletrônico.",
+      "char_start": 50925,
+      "char_end": 51053,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Humberto Barbato",
+      "trecho": "O objetivo de as empresas retirarem os carregadores foi justamente para diminuir a quantidade, teoricamente, de lixo eletrônico.",
+      "char_start": 50925,
+      "char_end": 51053,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "Centenas de milhares de brasileiros compraram estes dois modelos de TVs da Samsung nos últimos anos",
+      "char_start": 54046,
+      "char_end": 54145,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "estes guerreiros valentes do Brasil",
+      "char_start": 57018,
+      "char_end": 57053,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "nós não precisamos de uma perícia técnica de determinado produto para saber se algo está errado quando um aparelho celular, que é feito para durar, no mínimo, 5 anos ou até 10 anos, começa a apresentar problemas de funcionalidade com 1 ano, 1 ano e meio de uso. Nós sabemos que a vida útil do aparelho é muito maior, que ele não deve ter essa vida útil tão abreviada.",
+      "char_start": 58316,
+      "char_end": 58683,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "nós não precisamos de uma perícia técnica de determinado produto para saber se algo está errado quando um aparelho celular, que é feito para durar, no mínimo, 5 anos ou até 10 anos, começa a apresentar problemas de funcionalidade com 1 ano, 1 ano e meio de uso. Nós sabemos que a vida útil do aparelho é muito maior, que ele não deve ter essa vida útil tão abreviada.",
+      "char_start": 58316,
+      "char_end": 58683,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Vitor Lippi",
+      "trecho": "Poderíamos pensar — esta é uma tese que está sendo levantada aqui — que os equipamentos foram feitos para parar de funcionar.",
+      "char_start": 64451,
+      "char_end": 64576,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Vitor Lippi",
+      "trecho": "Em primeiro lugar, ela não consegue ser demonstrada, porque teria que acontecer com todos os equipamentos ou, pelo menos, com 90% deles. Se isso acontece com 5%, então não é programado para acontecer, porque os aparelhos são absolutamente iguais.",
+      "char_start": 65546,
+      "char_end": 65792,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Vitor Lippi",
+      "trecho": "Nós não podemos criar regras que não existem lá fora, porque isso aumentaria o custo dos nossos produtos e prejudicaria a competitividade das nossas empresas. Isso significa que nós acabamos tendo que importar mais coisas, que vamos gerar emprego lá fora em vez de gerar aqui.",
+      "char_start": 69943,
+      "char_end": 70219,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Vitor Lippi",
+      "trecho": "as indústrias têm aqui todo o nosso respeito nos debates que precisam ser enfrentados.",
+      "char_start": 63520,
+      "char_end": 63606,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Márcio Marinho",
+      "trecho": "Aqui as pessoas realmente têm dificuldade na compra dos seus aparelhos, gastam, dividem o pagamento em várias parcelas e, mal terminam de pagar essas parcelas, já têm que trocar os aparelhos.",
+      "char_start": 73413,
+      "char_end": 73604,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 25,
+      "falante": "Márcio Marinho",
+      "trecho": "Aqui as pessoas realmente têm dificuldade na compra dos seus aparelhos, gastam, dividem o pagamento em várias parcelas e, mal terminam de pagar essas parcelas, já têm que trocar os aparelhos.",
+      "char_start": 73413,
+      "char_end": 73604,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Márcio Marinho",
+      "trecho": "até por conta do papel social que elas têm, principalmente na geração de emprego e de renda para nossos cidadãos",
+      "char_start": 72329,
+      "char_end": 72441,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Humberto Barbato",
+      "trecho": "Eu acredito que, se a garantia de 1 ano não é suficiente, uma mudança na legislação vai fazer com que as empresas venham a se adequar exatamente àquilo que a lei vai estabelecer.",
+      "char_start": 74143,
+      "char_end": 74321,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "Nós realmente estaremos sempre do lado da parte mais frágil, que são os consumidores, que muitas vezes não têm condições de pagar a um advogado para defendê-los.",
+      "char_start": 77149,
+      "char_end": 77310,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "Nós realmente estaremos sempre do lado da parte mais frágil, que são os consumidores, que muitas vezes não têm condições de pagar a um advogado para defendê-los.",
+      "char_start": 77149,
+      "char_end": 77310,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "Nós realmente estaremos sempre do lado da parte mais frágil, que são os consumidores, que muitas vezes não têm condições de pagar a um advogado para defendê-los.",
+      "char_start": 77149,
+      "char_end": 77310,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "Neste sentido, é muito difícil uma pessoa argumentar com o fabricante para conseguir alguma explicação. Obviamente, não acredito nesta questão de intencionalidade, nem seria possível prová-la, mas a verdade dos fatos é que a dificuldade técnica para um consumidor leigo conseguir entender por que o produto dele parou de funcionar o impede completamente de exercer o direito de reclamar dos vícios ocultos.",
+      "char_start": 78126,
+      "char_end": 78532,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 30,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "Nós estamos falando de uma situação, como o senhor bem lembrou, de desigualdade muito grande. As pessoas, como o colega consumidor ali, em face de uma fabricante como a Samsung, estão diante de uma disparidade enorme de informação e de conhecimento.",
+      "char_start": 77876,
+      "char_end": 78125,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Rodrigues Britto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Márcio Marinho",
+      "trecho": "Esta Casa tem que debater isso, porque há realmente um desrespeito ao direito do consumidor.",
+      "char_start": 80619,
+      "char_end": 80711,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Márcio Marinho",
+      "trecho": "Esta Casa tem que debater isso, porque há realmente um desrespeito ao direito do consumidor.",
+      "char_start": 80619,
+      "char_end": 80711,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Márcio Marinho",
+      "trecho": "para pensarmos de forma conjunta em uma proposição que dê mais proteção aos nossos consumidores",
+      "char_start": 80029,
+      "char_end": 80124,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Humberto Barbato",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "o consumidor precisa ter em mente que estes 90 dias não se esgotam com a garantia contratual que é oferecida pelo fabricante, mas, sim, são somados a ela",
+      "char_start": 83050,
+      "char_end": 83203,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "o consumidor precisa ter em mente que estes 90 dias não se esgotam com a garantia contratual que é oferecida pelo fabricante, mas, sim, são somados a ela",
+      "char_start": 83050,
+      "char_end": 83203,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "Nós que trabalhamos e defendemos arduamente o direito do consumidor, aqui representando, com o IDEC, o Sistema Nacional de Defesa do Consumidor, ficamos muito felizes e gratos por este debate chegar a esta Casa.",
+      "char_start": 81893,
+      "char_end": 82104,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Marcelo de Souza do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "sempre está focada no consumidor",
+      "char_start": 84603,
+      "char_end": 84635,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Davison Gonzaga da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Vitor Lippi",
+      "trecho": "Existem falhas, portanto é preciso melhorar o atendimento ao consumidor e garantir clareza das informações que se recebem.",
+      "char_start": 85642,
+      "char_end": 85764,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Vitor Lippi",
+      "trecho": "defendendo a sociedade e entendendo o contexto geral, vamos conseguir evoluir sempre",
+      "char_start": 86675,
+      "char_end": 86759,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Vitor Lippi",
+      "trecho": "Quero cumprimentá-lo por defender o consumidor.",
+      "char_start": 85417,
+      "char_end": 85464,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Vitor Lippi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 39,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 39,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Márcio Marinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 10,
+      "falante": "Igor Rodrigues Britto",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "qualificada",
+      "trecho": "Nós precisamos de uma proposição legislativa — e temos algumas propostas nesse sentido para apresentar para o senhor e para os seus colegas aqui da Comissão de Defesa do Consumidor — que pode ser capaz de dar um fim na problemática da alta descartabilidade dos produtos eletroeletrônicos no Brasil. ... Esse é um problema que afeta dois interesses urgentíssimos. O primeiro — e para nós aqui do IDEC, talvez, o mais importante, pelo nosso lugar de fala, dos interesses dos consumidores, dos indivíduos, das famílias — é o interesse econômico, no sentido de que as coisas adquiridas tenham uma durabilidade e as pessoas não precisem se endividar comprando outros produtos. E o outro interesse, o interesse mais amplo e mais coletivo, é o interesse climático e o interesse ambiental, como V.Exa. bem mencionou."
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 20,
+      "falante": "Igor Rodrigues Britto",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "qualificada",
+      "trecho": "A Europa já está estabelecendo regras do direito à reparação: o direito do cidadão de ter consertado o seu produto, ou seja, de ele poder escolher algum lugar que cobre um preço acessível, para que seja possível o conserto. Isso é bom para a concorrência, porque quebra o monopólio do setor produtivo sobre os reparos, as redes de assistências."
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "turno_id": 20,
+      "falante": "Igor Rodrigues Britto",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "bem_comum_utilitario",
+      "trecho": "Isso é bom para a concorrência, porque quebra o monopólio do setor produtivo sobre os reparos, as redes de assistências."
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "turno_id": 35,
+      "falante": "Márcio Marinho",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "explicito_positivo",
+      "trecho": "Muitos consumidores não têm conhecimento do direito a estes 90 dias, chamados no Código de Defesa do Consumidor de 'garantia legal'."
+    }
+  ],
+  "turnos_falhos": []
+}

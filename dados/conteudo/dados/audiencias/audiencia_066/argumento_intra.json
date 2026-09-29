@@ -1,0 +1,504 @@
+{
+  "sample_id": 66,
+  "n_opinioes": 23,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 21,
+  "n_fundamentos_propostos": 32,
+  "n_fundamentos_ancorados": 31,
+  "n_fundamentos_com_numero": 15,
+  "por_tipo": {
+    "dado": 30,
+    "autoridade": 1
+  },
+  "n_contrapontos_propostos": 7,
+  "n_com_contraponto": 7,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "opõe-se à consignação de auxílio emergencial como garantia de empréstimos",
+      "falante": "Paulo Ramos",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "possibilitar a consignação de um auxílio de 600 reais para fazer empréstimos",
+          "char_start": 23958,
+          "char_end": 24034,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Alegam que, com a consignação, os juros podem ser menores.",
+        "resposta": "Mas nós sabemos como as coisas estão acontecendo.",
+        "objecao_char_start": 24109,
+        "objecao_char_end": 24167,
+        "resposta_char_start": 24168,
+        "resposta_char_end": 24217,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita propostas de alteração na destinação dos recursos do FGTS, afirmando que não há discussão oficial sobre o tema",
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "essa proposta não está sendo discutida",
+          "char_start": 26841,
+          "char_end": 26879,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o próprio Ministro da Economia desmentiu a notícia que foi veiculada em março",
+          "char_start": 26523,
+          "char_end": 26600,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o saque-aniversário como medida que ajuda a manter a sustentabilidade do FGTS",
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O saque-aniversário acaba garantindo essa sustentabilidade do fundo",
+          "char_start": 27365,
+          "char_end": 27432,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "todas essas propostas de saques e novas motivações de saque",
+        "resposta": "O saque-aniversário acaba garantindo essa sustentabilidade do fundo, e isso foi observado pelo Governo, mitiga um pouco essas ações ou essas propostas de novas modalidades de saque, porque permite ao trabalhador anualmente fazer uma retirada do fundo e que ele utilize esse recurso",
+        "objecao_char_start": 27304,
+        "objecao_char_end": 27363,
+        "resposta_char_start": 27365,
+        "resposta_char_end": 27646,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "opõe-se a projetos que permitam uso do FGTS para segundo imóvel, por desrespeitarem sua finalidade social",
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Esse saque para segundo imóvel, por exemplo, beneficia os trabalhadores de maior renda, que já possuem imóveis e já têm essa capacidade de até adquirir novos imóveis sem a utilização dos recursos do fundo",
+          "char_start": 28733,
+          "char_end": 28937,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende equilíbrio na rentabilidade do FGTS para não onerar mutuários de casa própria",
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se aumentarmos essa remuneração, certamente os juros cobrados do(falha na transmissão)serão aumentados também",
+          "char_start": 30612,
+          "char_end": 30721,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Ah, realmente a rentabilidade está baixa. É só TR, 3% mais TR",
+        "resposta": "Se essa taxa tiver que aumentar para os detentores de contas, certamente os juros para os empréstimos da casa própria teriam que aumentar",
+        "objecao_char_start": 30795,
+        "objecao_char_end": 30856,
+        "resposta_char_start": 30993,
+        "resposta_char_end": 31130,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a preservação da sustentabilidade do FGTS diante de propostas que ampliem saques sem considerar o impacto financeiro",
+      "falante": "Cintia Teixeira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o patrimônio líquido do FGTS é de 118 bilhões",
+          "char_start": 35295,
+          "char_end": 35340,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "12 projetos têm impacto financeiro severo sobre o Fundo de Garantia; 33 têm grande impacto financeiro; e 124 têm impacto financeiro significativo",
+          "char_start": 39988,
+          "char_end": 40133,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Somados todos esses projetos de lei, o impacto pode chegar próximo de 5 trilhões de reais, valor quase nove vezes maior do que o patrimônio atual do fundo, dos ativos",
+          "char_start": 40135,
+          "char_end": 40301,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Hoje nós temos projetos que dizem respeito ao custeio de inseminação artificial, casamento, pagamento de plano de saúde, quitação de dívida, violência doméstica, abertura de empregos, entre outros",
+        "resposta": "Não obstante o objetivo das propostas, o que se busca demonstrar aqui é a capacidade do fundo de fazer frente aos seus compromissos financeiros e de atender ao seu principal objetivo, que é o financiamento das políticas públicas e o socorro ao trabalhador em momento de grande necessidade",
+        "objecao_char_start": 41054,
+        "objecao_char_end": 41250,
+        "resposta_char_start": 41252,
+        "resposta_char_end": 41540,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "alerta sobre as consequências sistêmicas do esvaziamento do FGTS para Estados e Municípios",
+      "falante": "Cintia Teixeira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a maioria dos Estados e Municípios não tem condições orçamentárias ou de endividamento para substituir o FGTS como fonte defunding, como fonte de recurso dos seus investimentos",
+          "char_start": 42170,
+          "char_end": 42346,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o FGTS como motor do desenvolvimento social e econômico e considera crime interromper seu ciclo de investimentos",
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Entre 1995 e junho de 2022, nós entregamos 81.525.261 unidades habitacionais.",
+          "char_start": 46077,
+          "char_end": 46154,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós geramos 320.240.325 empregos formais, com carteira assinada.",
+          "char_start": 46256,
+          "char_end": 46320,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós colocamos na economia, nesse mesmo período de 1995 a junho de 2022, 549.558.820.116 reais em valores nominais — não está corrigido.",
+          "char_start": 46546,
+          "char_end": 46681,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se somarmos estes números aqui, ultrapassaremos 2,6 trilhões de reais.",
+          "char_start": 46799,
+          "char_end": 46869,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "O FGTS do trabalhador é um pecúlio. Ele vai atender o trabalhador no momento em que ele sacar aquele dinheiro. Naquele momento, o dinheiro é dele.",
+        "resposta": "Mas, enquanto o dinheiro está sob a tutela do Governo, e hoje sob a governança do Conselho Curador, o desafio é este: enfrentar e romper esse déficit habitacional, enfrentar a condição de acesso à água.",
+        "objecao_char_start": 48438,
+        "objecao_char_end": 48584,
+        "resposta_char_start": 49018,
+        "resposta_char_end": 49220,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "opõe-se ao saque do FGTS para compra de outros imóveis enquanto houver déficit habitacional significativo",
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós tínhamos, em 2021, 5.876.699 famílias a atender.",
+          "char_start": 47985,
+          "char_end": 48037,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ainda existem 34 milhões de pessoas — 16% da população — que precisam ser atendidas com o acesso à água e 50% da população precisa ser atendida com coleta de esgoto.",
+          "char_start": 49221,
+          "char_end": 49386,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que parlamentares avaliem projetos sobre o FGTS com base no interesse coletivo, não individual",
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Sabemos que cada projeto desse tem uma origem, tem uma necessidade que foi levada ao Parlamentar, mas acho que existe a responsabilidade do Parlamentar, diferente da de quem leva o problema para ele, de avaliar, do ponto de vista da sociedade, o que é melhor para a sociedade e não o que é melhor para aquele que levou a proposta do projeto.",
+          "char_start": 50451,
+          "char_end": 50792,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a preservação do FGTS como essencial para o crescimento sustentável do país",
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se não houver FGTS, não teremos mais entregas futuras, não teremos mais os 2 trilhões de reais de recurso colocado na economia.",
+          "char_start": 51420,
+          "char_end": 51547,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "manifesta preocupação com o PL 3.934 por seu alto impacto financeiro e potencial de esgotamento dos recursos do FGTS",
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos muito preocupados com o impacto desse projeto sobre o FGTS. O impacto é imediato e corresponde a 68 bilhões de reais.",
+          "char_start": 52708,
+          "char_end": 52837,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a estabilidade no emprego e rejeita a PEC 32 como deforma administrativa",
+      "falante": "Paulo Ramos",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Proposta de Emenda à Constituição nº 32, de 2020, está tomando esse rumo.",
+          "char_start": 55556,
+          "char_end": 55631,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ela acaba não só com a estabilidade, mas com o concurso público.",
+          "char_start": 55689,
+          "char_end": 55753,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o aumento do estoque de habitação, mesmo com rotatividade de proprietários, é um resultado positivo do FGTS",
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O nosso tempo médio de amortização de contrato no FGTS é de 15 anos a 16 anos.",
+          "char_start": 58587,
+          "char_end": 58665,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Essas unidades que foram construídas, muitas vezes, foram substituídas por outras construções e estão sendo ocupadas por alguma família, que pode não ser a proprietária.",
+          "char_start": 58761,
+          "char_end": 58930,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Geraram empregos essas unidades todas, alguém está morando nessas unidades",
+          "char_start": 59971,
+          "char_end": 60045,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "eu não posso ter como pressuposto do sucesso do FGTS que cada unidade produzida tenha o seu proprietário dentro dela",
+        "resposta": "Eu acho que isso aí levaria a um cerceamento do mercado imobiliário",
+        "objecao_char_start": 60049,
+        "objecao_char_end": 60165,
+        "resposta_char_start": 60167,
+        "resposta_char_end": 60234,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende ampliação da proteção social para trabalhadores informais",
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o seguro-desemprego, que só atende hoje aos trabalhadores formais, ficando os informais totalmente desprotegidos",
+          "char_start": 65949,
+          "char_end": 66061,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a preservação da viabilidade e sustentabilidade do FGTS",
+      "falante": "Paulo Ramos",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o seu alcance social passou a ser algo imprescindível",
+          "char_start": 70122,
+          "char_end": 70175,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "solicita atenção urgente do deputado para o PL 3.934 devido ao seu potencial impacto no FGTS",
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "ele foi aprovado como urgência e pode ser pautado na semana que vem",
+          "char_start": 71165,
+          "char_end": 71232,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende restrição ao saque do FGTS, exceto em casos excepcionais",
+      "falante": "Paulo Ramos",
+      "turno_id": 45,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quando oferecem novas oportunidades, há um estímulo para a retirada, como a do dia do aniversário e várias outras.",
+          "char_start": 77056,
+          "char_end": 77170,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a preservação da Caixa Econômica como banco público",
+      "falante": "Paulo Ramos",
+      "turno_id": 45,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A própria Caixa Econômica enfrenta isso. Quando a habitação é ocupada, após 3 meses, 4 meses, 1 ano, começam a aparecer vazamentos, infiltrações, etc.",
+          "char_start": 77882,
+          "char_end": 78032,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Tivemos a questão do penhor. Responsabilidades inerentes hoje à Caixa Econômica estão sendo motivo de debates para a transferência para o sistema bancário, ou seja, estão esvaziando um pouco o papel da Caixa.",
+        "resposta": "Isso ainda não alcançou um limite insuportável, mas as propostas também estão aí.",
+        "objecao_char_start": 78284,
+        "objecao_char_end": 78492,
+        "resposta_char_start": 78493,
+        "resposta_char_end": 78574,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reafirma o papel da Caixa como parceira na execução de políticas públicas com responsabilidade técnica",
+      "falante": "Cintia Teixeira",
+      "turno_id": 48,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "pessoas — posso dizer isto — que estão aqui trabalhando há muitos anos para conseguir constituir esse repositório de conhecimento técnico",
+          "char_start": 79203,
+          "char_end": 79340,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atuação da Comissão para orientar decisões legislativas sobre o FGTS",
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 52,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje os Parlamentares recebem uma lista de projetos e às vezes não têm essa oportunidade de debatê-los em profundidade",
+          "char_start": 81835,
+          "char_end": 81953,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 13,
+      "falante": "Paulo Ramos",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "está sendo vitorioso o modelo liberal de Estado mínimo, mas nunca imaginei a ousadia de colocar numa emenda constitucional um texto tão completo para desmontar completamente o serviço público, tanto é que o chamamos de 'deforma administrativa' e não de reforma administrativa."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.913,
+  "taxa_contraponto": 0.3043,
+  "taxa_ancoragem_fundamento": 0.9688
+}

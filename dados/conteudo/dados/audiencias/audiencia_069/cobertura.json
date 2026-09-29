@@ -1,0 +1,123 @@
+{
+  "sample_id": 69,
+  "n_falantes": 7,
+  "n_parlamentares": 1,
+  "n_convidados": 6,
+  "n_citados_gold": 5,
+  "n_citados_ausentes": 3,
+  "n_opinioes_gold": 5,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.685942592787299,
+      "participacao_civil_turnos": 0.47619047619047616,
+      "citacao_civil_opinioes": 0.5,
+      "citacao_civil_pessoas": 0.5,
+      "deficit_civil": 0.18594259278729897
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [
+    "Carlos Eduardo Sobral",
+    "Lucas Hoogerbrugge",
+    "Thais Bernardes"
+  ],
+  "falantes_silenciados": [
+    "Carlos Eduardo Miguel Sobral",
+    "José Ricardo Moreno Pinho",
+    "Lucas Fernandes Hoogerbrugge",
+    "Thaís Falone Bernardes",
+    "Yaminah Nala"
+  ],
+  "falantes": [
+    {
+      "nome": "Lídice da Mata",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 11,
+      "n_palavras": 2987,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21
+      ]
+    },
+    {
+      "nome": "Ministra Maria Claudia Bucchianeri Pinheiro",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1255,
+      "turnos": [
+        2
+      ]
+    },
+    {
+      "nome": "Lucas Fernandes Hoogerbrugge",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 756,
+      "turnos": [
+        4
+      ]
+    },
+    {
+      "nome": "José Ricardo Moreno Pinho",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1529,
+      "turnos": [
+        6,
+        12,
+        20
+      ]
+    },
+    {
+      "nome": "Carlos Eduardo Miguel Sobral",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1705,
+      "turnos": [
+        8,
+        14
+      ]
+    },
+    {
+      "nome": "Thaís Falone Bernardes",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 816,
+      "turnos": [
+        10
+      ]
+    },
+    {
+      "nome": "Yaminah Nala",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 463,
+      "turnos": [
+        16,
+        18
+      ]
+    }
+  ]
+}

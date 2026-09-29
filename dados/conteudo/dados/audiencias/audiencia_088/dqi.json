@@ -1,0 +1,1584 @@
+{
+  "sample_id": 88,
+  "n_turnos": 31,
+  "n_turnos_codificados": 17,
+  "n_codigos": 119,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 17,
+      "distribuicao": {
+        "interrompido": 5,
+        "normal": 12
+      },
+      "media": 0.7059,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 17,
+      "distribuicao": {
+        "nenhuma": 6,
+        "inferior": 3,
+        "qualificada": 8,
+        "sofisticada": 0
+      },
+      "media": 1.1176,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 17,
+      "distribuicao": {
+        "interesse_de_grupo": 1,
+        "neutro": 6,
+        "bem_comum_utilitario": 10,
+        "bem_comum_diferenca": 0
+      },
+      "media": 1.5294,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 17,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 7,
+        "explicito_positivo": 10
+      },
+      "media": 1.5882,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 17,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 17,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 17,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 17,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 17,
+      "distribuicao": {
+        "posicional": 15,
+        "proposta_alternativa": 2,
+        "proposta_mediadora": 0
+      },
+      "media": 0.1176,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Alvaro Toubes Prata": {
+        "participacao": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Angela Amin": {
+        "participacao": {
+          "n": 4,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 0.5
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.25
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        }
+      },
+      "Fernando Peregrino": {
+        "participacao": {
+          "n": 5,
+          "media": 0.4
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.2
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 0.8
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.2
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.0
+        }
+      },
+      "Fábio Guedes Gomes": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Roberto Muniz": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Valder Steffen": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Fernando Peregrino",
+      "trecho": "Vamos suprimir o art. 12. Deixem tudo lá e busquem uma alternativa ao art. 12. Vão ao BNDES, peguem um dinheiro, vão ali pegar outro, mas não pode esse art. 12 perdurar.",
+      "char_start": 13187,
+      "char_end": 13356,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Fernando Peregrino",
+      "trecho": "O Brasil não pode perder esses investimentos, porque já foram feitos muitos. Foram quase 20 bilhões de reais ao longo dessa série histórica. O País não pode quebrar contratos. Eu não vejo como se quebram contratos num país desse! Não se quebra um sem ameaçar os outros! Isso trará, certamente, insegurança jurídica aos investidores.",
+      "char_start": 8527,
+      "char_end": 8859,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Fernando Peregrino",
+      "trecho": "O Brasil não pode perder esses investimentos, porque já foram feitos muitos. Foram quase 20 bilhões de reais ao longo dessa série histórica. O País não pode quebrar contratos. Eu não vejo como se quebram contratos num país desse! Não se quebra um sem ameaçar os outros! Isso trará, certamente, insegurança jurídica aos investidores.",
+      "char_start": 8527,
+      "char_end": 8859,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Fernando Peregrino",
+      "trecho": "Nós temos 60 mil mestres e 25 mil doutores sendo formados por ano. É uma população razoável de pessoas altamente qualificadas, que qualquer país almejaria ter.",
+      "char_start": 4330,
+      "char_end": 4489,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "trecho": "Ao comprometermos o financiamento da ciência e da tecnologia, teremos muitas dificuldades dentro do projeto de país que todos nós desejamos.",
+      "char_start": 18237,
+      "char_end": 18377,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "trecho": "Ao comprometermos o financiamento da ciência e da tecnologia, teremos muitas dificuldades dentro do projeto de país que todos nós desejamos.",
+      "char_start": 18237,
+      "char_end": 18377,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "trecho": "As universidades federais, como eu disse, em número de 69, têm grande capilaridade no território nacional. Esse patrimônio foi construído ao longo de décadas. É um patrimônio público a serviço da sociedade brasileira.",
+      "char_start": 15733,
+      "char_end": 15950,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "conclamar a supressão dos artigos 7º e 12, sobretudo do art. 12, de forma a preservar o setor de óleo e gás",
+      "char_start": 27778,
+      "char_end": 27885,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "Essa medida provisória possibilita à empresa exploradora de petróleo aplicar, sem limites — o que está em negrito e em itálico foi tirado da medida provisória. Não é meu esse itálico —, na atividade de desmonte ou de destruição como sucata dos veículos pesados em fim de vida útil. Por isso, estamos dizendo que estamos transformando conhecimento em sucata.",
+      "char_start": 27329,
+      "char_end": 27686,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "Então, recursos que deveriam financiar projetos de pesquisa e desenvolvimento, propiciando avanço da produtividade econômica, estão sendo desviados.",
+      "char_start": 26975,
+      "char_end": 27123,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "trecho": "O problema é que nem sempre basta localizar aquilo que precisa ser feito. Precisamos atacar um determinado problema, mas nós temos que pensar em como resolver esse problema, a fim de que não prejudiquemos outras áreas ou de que a solução, de fato, contribua para a solução daquele problema aparentemente encontrado.",
+      "char_start": 32006,
+      "char_end": 32321,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "trecho": "Nós estamos aqui para implementar as políticas de Estado. Nós temos essa responsabilidade. Ao fazê-lo, olhamos sempre qual é o ganho, o benefício que o Estado e, portanto, a população brasileira vão receber com a implementação dessas políticas.",
+      "char_start": 31356,
+      "char_end": 31600,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "trecho": "Nós servidores dessas áreas que estou aqui representando, por meio do Fórum das Entidades de C&T — também conhecido como Fórum de C&T —, atuamos 24 horas nas políticas públicas em favor da ciência e tecnologia, não só para implementar essas políticas, como também para concretizá-las através das unidades de pesquisa que são mantidas pelo Governo.",
+      "char_start": 29416,
+      "char_end": 29763,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "A questão central, como já foi colocada pelo Muniz e pelo Peregrino, não está nos seus objetivos, mas, na fonte para sua viabilidade. Ela promoverá, como dito também pelo Peregrino, um movimento de judicialização em dois sentidos: por quebra de contratos da ANP com as empresas concessionárias, e por quebra de contratos das empresas com as instituições de pesquisas, desenvolvimento e inovação, até 2027, quando esses contratos ainda serão válidos.",
+      "char_start": 47814,
+      "char_end": 48263,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "O Brasil perderá uma espetacular rede de financiamento à PD&I, com potenciais gigantescos de inserir o País na nova era do século XXI, com a economia de baixo carbono na produção de riquezas",
+      "char_start": 48958,
+      "char_end": 49148,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Angela Amin",
+      "trecho": "o quanto nós temos de carinho por essa universidade, pela ciência, tecnologia e sua importância para o desenvolvimento do País",
+      "char_start": 50352,
+      "char_end": 50478,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Fernando Peregrino",
+      "trecho": "o ICMS do petróleo que é pago nesse caso no destino é cruel com o Rio de Janeiro",
+      "char_start": 52909,
+      "char_end": 52989,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Fernando Peregrino",
+      "trecho": "o ICMS do petróleo que é pago nesse caso no destino é cruel com o Rio de Janeiro",
+      "char_start": 52909,
+      "char_end": 52989,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Fernando Peregrino",
+      "trecho": "É preciso ganhar um seguro de vida especial para cuidar da ciência",
+      "char_start": 55439,
+      "char_end": 55505,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Fernando Peregrino",
+      "trecho": "Dar garantia à vida, porque o Cancellier foi um episódio realmente bastante...",
+      "char_start": 55623,
+      "char_end": 55701,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Fernando Peregrino",
+      "trecho": "Dar garantia à vida, porque o Cancellier foi um episódio realmente bastante...",
+      "char_start": 55623,
+      "char_end": 55701,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Fernando Peregrino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Valder Steffen",
+      "trecho": "Mas eu tenho certeza de que a educação, a ciência, a tecnologia e, por via de consequência, a inovação são capazes de trazer também justiça social, melhores condições de trabalho, emprego, e de renda.",
+      "char_start": 58147,
+      "char_end": 58347,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Valder Steffen",
+      "trecho": "são capazes de trazer também justiça social, melhores condições de trabalho, emprego, e de renda.",
+      "char_start": 58250,
+      "char_end": 58347,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Valder Steffen",
+      "trecho": "a educação, a ciência, a tecnologia e, por via de consequência, a inovação são capazes de trazer também justiça social, melhores condições de trabalho, emprego, e de renda. Elas chamam para a carreira científica, para a carreira de pesquisa jovens talentosos",
+      "char_start": 58175,
+      "char_end": 58433,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Valder Steffen",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "Quero deixar uma palavra muito elogiosa à nossa querida Deputada Angela Amin, pessoa extremamente bem formada, bem qualificada.",
+      "char_start": 59500,
+      "char_end": 59627,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "Então, o Brasil está numa direção muito promissora e precisa de recursos para que cada vez mais a ciência e a tecnologia possam ser transformadas em desenvolvimento econômico e social, desenvolvimento com sustentabilidade, que traga riqueza para o nosso País. Não podemos pensar, não podemos admitir, não podemos aceitar que esses recursos sejam remanejados, sobretudo aqueles que já demonstraram — estamos falando de mais de 30 anos de história — a sua eficiência num setor tão específico, que fez com que o Brasil se tornasse uma das referências mundiais no setor de petróleo e gás.",
+      "char_start": 60862,
+      "char_end": 61446,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "Então, o Brasil está numa direção muito promissora e precisa de recursos para que cada vez mais a ciência e a tecnologia possam ser transformadas em desenvolvimento econômico e social, desenvolvimento com sustentabilidade, que traga riqueza para o nosso País.",
+      "char_start": 60862,
+      "char_end": 61121,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "É uma pessoa que tem muita sensibilidade e é grande defensora das nossas causas.",
+      "char_start": 59749,
+      "char_end": 59829,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "porque ela vai completamente de encontro à política de ciências, tecnologia e inovação.",
+      "char_start": 65588,
+      "char_end": 65675,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "se o Brasil quiser dar realmente uma contribuição ao mundo naquilo em que ele tem competência e capacidade",
+      "char_start": 65851,
+      "char_end": 65957,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "pela resiliência e pela defesa da ciência brasileira",
+      "char_start": 64844,
+      "char_end": 64896,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Angela Amin",
+      "trecho": "Nós só vamos avançar na área de ciência, inclusive, se as nossas crianças, os nossos estudantes estiverem preparados para esse novo mundo.",
+      "char_start": 67979,
+      "char_end": 68117,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Angela Amin",
+      "trecho": "Nós só vamos avançar na área de ciência, inclusive, se as nossas crianças, os nossos estudantes estiverem preparados para esse novo mundo.",
+      "char_start": 67979,
+      "char_end": 68117,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Angela Amin",
+      "trecho": "a área que vocês tão bem defendem e que é tão importante para o País",
+      "char_start": 68987,
+      "char_end": 69055,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Angela Amin",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

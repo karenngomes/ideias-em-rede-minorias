@@ -1,0 +1,52 @@
+{
+  "sample_id": 97,
+  "n_opinioes": 22,
+  "n_decompostas": 22,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 5,
+  "n_ancorados": 4,
+  "n_rejeitados": 1,
+  "n_incoerentes": 0,
+  "n_preservados": 2,
+  "n_perdidos": 2,
+  "por_tipo": {
+    "escopo": 1,
+    "condicao": 3
+  },
+  "perdas": [
+    {
+      "falante": "Ronaldo Lima dos Santos",
+      "turno_id": 22,
+      "opiniao": "defende que empresas que usam dinheiro público devem ter responsabilidade social e indenizar a sociedade ao sair do País",
+      "nucleo": "defendeu que empresas que usam dinheiro público devem ter responsabilidade social ao sair do País",
+      "tipo": "condicao",
+      "trecho": "Se uma empresa se instala utilizando dinheiro público",
+      "char_start": 65547,
+      "char_end": 65600
+    },
+    {
+      "falante": "Ronaldo Lima dos Santos",
+      "turno_id": 33,
+      "opiniao": "defende que a cadeia produtiva automotiva no Brasil deve ser 100% nacional para gerar benefícios reais ao País",
+      "nucleo": "defendeu que a cadeia produtiva automotiva no Brasil deve ser 100% nacional para gerar benefícios reais ao País",
+      "tipo": "condicao",
+      "trecho": "Só se pode exportar aquilo que se produz",
+      "char_start": 109043,
+      "char_end": 109083
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 35,
+      "falante": "Aroaldo Oliveira da Silva",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "destacando a ausência do Ministério da Indústria",
+      "opiniao": "reforça a necessidade de articular atores sociais em torno da indústria e do desenvolvimento econômico, com interlocução efetiva, destacando a ausência do Ministério da Indústria"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5,
+  "taxa_ancoragem": 0.8,
+  "taxa_opiniao_intacta": 0.9091
+}

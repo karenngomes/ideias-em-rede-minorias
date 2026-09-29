@@ -1,0 +1,3773 @@
+{
+  "sample_id": 35,
+  "n_turnos": 53,
+  "n_turnos_codificados": 42,
+  "n_codigos": 293,
+  "n_rejeitados": 1,
+  "taxa_rejeicao": 0.012,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 42,
+      "distribuicao": {
+        "interrompido": 4,
+        "normal": 38
+      },
+      "media": 0.9048,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 41,
+      "distribuicao": {
+        "nenhuma": 18,
+        "inferior": 5,
+        "qualificada": 18,
+        "sofisticada": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 42,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 24,
+        "bem_comum_utilitario": 16,
+        "bem_comum_diferenca": 2
+      },
+      "media": 1.4762,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 42,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 23,
+        "explicito_positivo": 19
+      },
+      "media": 1.4524,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 42,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 40,
+        "explicito_positivo": 2
+      },
+      "media": 1.0476,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 42,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 39,
+        "inclui": 3,
+        "valoriza": 0
+      },
+      "media": 1.0714,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 42,
+      "distribuicao": {
+        "posicional": 29,
+        "proposta_alternativa": 13,
+        "proposta_mediadora": 0
+      },
+      "media": 0.3095,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Anne Cabral": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Dani Cunha": {
+        "participacao": {
+          "n": 15,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 15,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 15,
+          "media": 1.0667
+        },
+        "justificacao_nivel": {
+          "n": 15,
+          "media": 0.4667
+        },
+        "justificacao_conteudo": {
+          "n": 15,
+          "media": 1.2
+        },
+        "respeito_grupos": {
+          "n": 15,
+          "media": 1.2667
+        },
+        "respeito_demandas": {
+          "n": 15,
+          "media": 1.0
+        }
+      },
+      "Gustavo Severo": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Isnaldo Bulhões Jr": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 0.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Melillo Dinis do Nascimento": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Paulo Guimarães": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Prof. Paulo Fernando": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Raquel Branquinho": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 2.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Renildo Calheiros": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Rodrigo Lopes Zilio": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Rubens Pereira Júnior": {
+        "participacao": {
+          "n": 4,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 0.75
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.25
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.5
+        }
+      },
+      "Samara Castro": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Thiago Boverio": {
+        "participacao": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Victor Durigan": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Walber Agra": {
+        "participacao": {
+          "n": 2,
+          "media": 0.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Walber Agra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Walber Agra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Samara Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Rodrigo Lopes Zilio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Anne Cabral",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Gustavo Severo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Prof. Paulo Fernando",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Renildo Calheiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Gustavo Severo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Walber Agra",
+      "trecho": "Que as convenções sejam feitas do dia 1º até o dia 20 de junho — haveria 10 dias, então, depois do dia 20 de junho, para o registro — e que o prazo do registro seja ultimado no dia 1º de julho do ano da eleição.",
+      "char_start": 14193,
+      "char_end": 14404,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Walber Agra",
+      "trecho": "Aí os senhores podem dizer:\"Walber, mas isso vai antecipar a pré-campanha\".",
+      "char_start": 14820,
+      "char_end": 14895,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Walber Agra",
+      "trecho": "Se essa norma é feita sem um lapso com a realidade, ela tende, obviamente, a aparecer na ineficácia.",
+      "char_start": 12997,
+      "char_end": 13097,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Walber Agra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Walber Agra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Walber Agra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Walber Agra",
+      "trecho": "Então, sugeriria que, em relação a esse mesmo material de campanha, se exigissem apenas o pagamento, a nota fiscal e a comprovação de que esse material fora conjunto.",
+      "char_start": 20019,
+      "char_end": 20185,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Walber Agra",
+      "trecho": "Existe uma ADI em que se diz que na segunda fase a regra dos 80-20 é inconstitucional porque fera a proporcionalidade de minorias. Tudo bem.",
+      "char_start": 23259,
+      "char_end": 23399,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Walber Agra",
+      "trecho": "Para garantir a paridade de armas, é preciso impedir os 10% inominados que o doador pode fazer da sua renda bruta. Aqueles milhardários — infelizmente, são poucos no Brasil — ficam com um poder econômico enorme, alguns podendo doar mais de 50 milhões na campanha. Igualmente, Excelências, é preciso impedir os 10% que podem ser gastos na campanha daquele candidato. Isso é um acinte claro. Isso é umgap. Isso é uma falha da nossa legislação, que vai entronizar e vai ratificar o abuso de poder econômico.",
+      "char_start": 20638,
+      "char_end": 21142,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Walber Agra",
+      "trecho": "Para garantir a paridade de armas, é preciso impedir os 10% inominados que o doador pode fazer da sua renda bruta. Aqueles milhardários — infelizmente, são poucos no Brasil — ficam com um poder econômico enorme, alguns podendo doar mais de 50 milhões na campanha. Igualmente, Excelências, é preciso impedir os 10% que podem ser gastos na campanha daquele candidato. Isso é um acinte claro. Isso é umgap. Isso é uma falha da nossa legislação, que vai entronizar e vai ratificar o abuso de poder econômico.",
+      "char_start": 20638,
+      "char_end": 21142,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Walber Agra",
+      "trecho": "Vejam quanto candidatas mulheres e candidatos negros, que, pela legislação eleitoral, deveriam ser beneficiados com maior recurso, têm que devolver!",
+      "char_start": 20187,
+      "char_end": 20335,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Walber Agra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "Agradeço-lhe pelas sugestões. Algumas já foram debatidas no grupo, como, por exemplo, a de candidaturas coletivas, que eu não mencionei. Mas foram feitas outras provocações de fato interessantes, como é o caso da alteração do cômputo de votos só para a próxima legislatura.",
+      "char_start": 24609,
+      "char_end": 24882,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Samara Castro",
+      "trecho": "É preciso que tenhamos uma obrigatoriedade para que as plataformas que permitem esse impulsionamento mantenham um repositório público em tempo real desses anúncios que permita a identificação dos financiadores por trás deles, os quais muitas vezes não estão registrados.",
+      "char_start": 27677,
+      "char_end": 27947,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Samara Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Samara Castro",
+      "trecho": "Isso contribuirá não só para mitigar a influência de qualquer tipo de financiamento oculto, mas também para promover a confiança dos eleitores nesse processo e para viabilizar, inclusive, qualquer tipo de investigação ou análise em relação às prestações de contas feitas perante os próprios TREs.",
+      "char_start": 27949,
+      "char_end": 28245,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Samara Castro",
+      "trecho": "proteger as mulheres da violência política",
+      "char_start": 26303,
+      "char_end": 26345,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Samara Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "Sabemos que oprejuízo do ataque é sempre maior que o benefício da defesa posterior.",
+      "char_start": 34009,
+      "char_end": 34092,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "Nós é que agradecemos, Samara, pelos temas importantes trazidos, que vão desde a transparência ativa até a guarda de dados.",
+      "char_start": 33368,
+      "char_end": 33491,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Rodrigo Lopes Zilio",
+      "trecho": "a sugestão é que, em se antecipando o registro, o candidato já obtenha o CNPJ, abra conta bancária e se submeta à fiscalização da Justiça Eleitoral a partir desse momento.",
+      "char_start": 39802,
+      "char_end": 39973,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Rodrigo Lopes Zilio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Rodrigo Lopes Zilio",
+      "trecho": "A propaganda eleitoral está sempre sendo visualizada na busca de um equilíbrio, de uma compatibilidade entre a liberdade de expressão, de um lado, e a isonomia entre os competidores eleitorais, de outro.",
+      "char_start": 35447,
+      "char_end": 35650,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Rodrigo Lopes Zilio",
+      "trecho": "A propaganda eleitoral está sempre sendo visualizada na busca de um equilíbrio, de uma compatibilidade entre a liberdade de expressão, de um lado, e a isonomia entre os competidores eleitorais, de outro.",
+      "char_start": 35447,
+      "char_end": 35650,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Rodrigo Lopes Zilio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Rodrigo Lopes Zilio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "Ampliar, que seja 10% ou 15% do prazo atual, é algo indispensável, por mais que todos concordemos.",
+      "char_start": 45304,
+      "char_end": 45402,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "que sejam respeitadas a autonomia e a liberdade dos partidos",
+      "char_start": 47268,
+      "char_end": 47328,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Rubens Pereira Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Raquel Branquinho",
+      "trecho": "Eu já encaminhei à relatoria a sugestão de alteração pontual do art. 326-B do Código Eleitoral.",
+      "char_start": 50781,
+      "char_end": 50876,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Raquel Branquinho",
+      "trecho": "O direito penal convive muito com esta realidade. Quando há uma situação mais grave, inicia-se a investigação pela mais grave. Se não ficar caracterizada aquela situação, desclassifica-se para o mais simples. Um homicídio começa como homicídio. Não houve a pronúncia, vai para lesão corporal seguida de morte, com outra competência jurisdicional, o que é trabalhado de uma forma muito natural pela Justiça. Não é preciso revogar um tipo penal para se trabalhar melhor o outro.",
+      "char_start": 51788,
+      "char_end": 52264,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Raquel Branquinho",
+      "trecho": "Neste artigo, não se tutelam apenas os direitos femininos, mas também os direitos de todos os cidadãos.",
+      "char_start": 51234,
+      "char_end": 51337,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Raquel Branquinho",
+      "trecho": "Esta é uma realidade nossa.",
+      "char_start": 48361,
+      "char_end": 48388,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Raquel Branquinho",
+      "trecho": "nós sugerimos a alteração do art. 326-B, utilizando a mesma redação que ele tem hoje, com a mesma sanção.",
+      "char_start": 56765,
+      "char_end": 56870,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Raquel Branquinho",
+      "trecho": "Nós propusemos isso justamente com uma exposição dos motivos de sua necessidade, com um debate amplo — é o que eu acho que está acontecendo aqui —, chamando a atenção para a necessidade de criar mecanismos pontuais de maior facilidade de participação feminina, principalmente no pleito de 2024.",
+      "char_start": 58050,
+      "char_end": 58344,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 15,
+      "falante": "Raquel Branquinho",
+      "trecho": "vêm acolher um espectro de pessoas que são vítimas e que não têm essa tutela específica.",
+      "char_start": 57838,
+      "char_end": 57926,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Raquel Branquinho",
+      "trecho": "É um prazer ter mais uma mulher à Mesa. Isso mostra que a representatividade está aumentando nesta Casa.",
+      "char_start": 55558,
+      "char_end": 55662,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Dani Cunha",
+      "trecho": "Eu fico muito orgulhosa de ter um Relator que entende disso, que tem essa sensibilidade, que, já desde o início de sua trajetória aqui, muito antes da minha, milita e sempre ajudou a militar em prol das mulheres aqui no Parlamento também.",
+      "char_start": 60307,
+      "char_end": 60545,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "A nossa sugestão é que haja uma legislação, fruto desse trabalho de V.Exas., em que haja um combate à desinformação por meio da aplicação de multa para eleitores que publicaremfake newsagindo dolosamente.",
+      "char_start": 62733,
+      "char_end": 62937,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "Essa questão se dá por quatro razões: desse modo, preserva-se a equidade, responsabilizando todos os envolvidos na propagação da desinformação; cria-se um incentivo para a verificação rigorosa dos fatos, promovendo uma cultura de informação precisa; reduz-se o impacto negativo dasfake news, promovendo uma cultura da informação; e influenciadores digitais, com sua audiência vasta, também devem ser responsáveis e responsabilizados por esse fenômeno, a fim de evitar manipulações.",
+      "char_start": 62938,
+      "char_end": 63419,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "Em última análise, a ideia é criar um ambiente eleitoral mais justo.",
+      "char_start": 63421,
+      "char_end": 63489,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "não vamos aceitar qualquer risco de mudança da questão das candidaturas de negros e mulheres. Sobre isso, queremos deixar registrado que, se, por alguma razão, enveredarem por esse campo, haverá luta e resistência. Nós não vamos aceitar qualquer tipo de retrocesso. Direitos são para serem conquistados, para serem avançados.",
+      "char_start": 67106,
+      "char_end": 67431,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Dani Cunha",
+      "trecho": "O processo eleitoral é muito curto. Muitas vezes, não podemos deixar pequenos — não são tão pequenos assim — retrocessos acontecerem, porque podem eventualmente impedir algum candidato de responder, para que, se não estiver cumprindo a lei, passe também a cumpri-la.",
+      "char_start": 69209,
+      "char_end": 69475,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Dani Cunha",
+      "trecho": "O processo eleitoral é muito curto. Muitas vezes, não podemos deixar pequenos — não são tão pequenos assim — retrocessos acontecerem, porque podem eventualmente impedir algum candidato de responder, para que, se não estiver cumprindo a lei, passe também a cumpri-la.",
+      "char_start": 69209,
+      "char_end": 69475,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Anne Cabral",
+      "trecho": "É necessário permissão de gastos, tanto do Fundo Eleitoral quanto do Fundo Especial de Financiamento de Campanha — FEFC, com despesas relacionadas à economia do cuidado.",
+      "char_start": 74138,
+      "char_end": 74307,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Anne Cabral",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Anne Cabral",
+      "trecho": "Para respeitarmos o princípio da anualidade, para isso estar vigente para as eleições municipais de 2024, nós só temos 1 mês para fazer todo o trâmite necessário para a aprovação. Em que pese haver muitas sugestões apresentadas aqui — entendo que são muito necessárias e consensuais, Deputada Dani Cunha, Deputado Rubens Pereira Júnior —, creio que não é factível que muita coisa seja aprovada dentro de 1 mês nas duas Casas do Congresso Nacional.",
+      "char_start": 70707,
+      "char_end": 71154,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Anne Cabral",
+      "trecho": "O sentido da legislação é ampliar a participação política, é ampliar os direitos políticos.",
+      "char_start": 80261,
+      "char_end": 80352,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Anne Cabral",
+      "trecho": "Eu sou entusiasta de uma reforma política e eleitoral que traga a reserva de vagas de gênero, começando com 30% e avançando na paridade.",
+      "char_start": 71209,
+      "char_end": 71345,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Anne Cabral",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Dani Cunha",
+      "trecho": "entendendo a preocupação das mulheres e realmente colocando que, de forma alguma, ninguém aqui aceitará retrocesso",
+      "char_start": 81249,
+      "char_end": 81363,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Dani Cunha",
+      "trecho": "Nós trabalhamos sempre com a ampla maioria, mas entendemos que é necessária uma minirreforma urgente para que possamos aprimorar o sistema para as eleições do ano que vem, não só no que nós entendemos aqui, mas também em decisões que foram tomadas desde a eleição de 2 anos atrás até a atualidade. Esses entendimentos são adotados pelos tribunais e, muitas vezes, agora, sim, precisam virar lei. O nosso objetivo é justamente esse.",
+      "char_start": 82117,
+      "char_end": 82548,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Dani Cunha",
+      "trecho": "para que possamos aprimorar o sistema para as eleições do ano que vem",
+      "char_start": 82218,
+      "char_end": 82287,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Paulo Guimarães",
+      "trecho": "A consequência, inevitavelmente, é a judicialização, seja nos registros das candidaturas, seja na disputa sobre as campanhas eleitorais, seja nas prestações de contas.",
+      "char_start": 85590,
+      "char_end": 85757,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Gustavo Severo",
+      "trecho": "Basta substituir a referência errônea ao inciso I pelo § 2º.",
+      "char_start": 103072,
+      "char_end": 103132,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Gustavo Severo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Gustavo Severo",
+      "trecho": "Eu acho que toda discussão no Parlamento e no Judiciário que é salutar, que visa reduzir o emaranhado de partidos que há no Brasil, não pode nunca desconsiderar as legendas históricas que participaram com muita luta do processo de reconstrução democrática. Então, a solução da federação me agrada muito, porque consegue resolver esses dois problemas, preservando representações históricas, das quais acho que o Brasil sentiria muita falta, caso fossem dragadas pela cláusula de barreira.",
+      "char_start": 96572,
+      "char_end": 97059,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Gustavo Severo",
+      "trecho": "Eu acho que toda discussão no Parlamento e no Judiciário que é salutar, que visa reduzir o emaranhado de partidos que há no Brasil, não pode nunca desconsiderar as legendas históricas que participaram com muita luta do processo de reconstrução democrática. Então, a solução da federação me agrada muito, porque consegue resolver esses dois problemas, preservando representações históricas, das quais acho que o Brasil sentiria muita falta, caso fossem dragadas pela cláusula de barreira.",
+      "char_start": 96572,
+      "char_end": 97059,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Gustavo Severo",
+      "trecho": "as legendas históricas que participaram com muita luta do processo de reconstrução democrática",
+      "char_start": 96733,
+      "char_end": 96827,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Gustavo Severo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Dani Cunha",
+      "trecho": "A questão de não haver tempo hábil para o julgamento e também a questão da responsabilidade, porque não se pode penalizar o candidato não transferindo recursos do fundo para ele por isso. Ao mesmo tempo, se o candidato depois não tem a oportunidade, não tem seu registro validado, o que se vai fazer, se ele já gastou o dinheiro?",
+      "char_start": 110411,
+      "char_end": 110740,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Victor Durigan",
+      "trecho": "Nós publicamos uma nota pública com sugestões e já encaminhamos a todos os Parlamentares deste GT. Também enviaremos propostas de texto para colaborar com os trabalhos.",
+      "char_start": 127229,
+      "char_end": 127397,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Victor Durigan",
+      "trecho": "A transparência deve ser considerada uma regra, com exceções específicas, explícitas e justificadas, e tem que ser considerada de forma transversal em toda a proposta de minirreforma. Ao mesmo tempo, o diálogo e a cooperação com a Justiça Eleitoral devem ser considerados requisitos básicos para as empresas de tecnologia que se propõem a intermediar o debate eleitoral no Brasil.",
+      "char_start": 119454,
+      "char_end": 119834,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Victor Durigan",
+      "trecho": "Garantir o acesso a essas informações de publicidade, aos seus conteúdos, na nossa missão, é basilar para a promoção do ambiente digital como espaço de disputa política saudável, que permite, por exemplo, a rápida identificação de conteúdos desinformativos, de violência política e de discursos de ódio.",
+      "char_start": 121098,
+      "char_end": 121401,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Victor Durigan",
+      "trecho": "É fundamental que a reforma amplie o escopo de tipificação da violência, para que estejam cobertas pessoas que, a despeito de não terem intenções de ingressar na política institucional, também estão expostas a agressões durante as campanhas.",
+      "char_start": 115886,
+      "char_end": 116127,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Dani Cunha",
+      "trecho": "Nós temos duas opções: abordar o tema e sacrificar a minirreforma toda, porque não vai haver consenso nem o tempo para a discussão que este tema requer, ou trazer à tona a discussão e elencar os pontos importantes, mas, não havendo consenso...",
+      "char_start": 129290,
+      "char_end": 129533,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Dani Cunha",
+      "trecho": "Por uma questão muito simples: nós temos umtimingpara aprovar uma minirreforma. Para que esta aprovação valha para a eleição do ano que vem, há umtiming — salvo engano, em 5 de outubro. Ela precisa estar aprovada na Câmara e no Senado, e sancionada. E este tema não está em consenso no Plenário.\n\nNós temos duas opções: abordar o tema e sacrificar a minirreforma toda, porque não vai haver consenso nem o tempo para a discussão que este tema requer, ou trazer à tona a discussão e elencar os pontos importantes, mas, não havendo consenso...",
+      "char_start": 128993,
+      "char_end": 129533,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Dani Cunha",
+      "trecho": "para termos, no tempo hábil, algo efetivamente aprovado para o ano que vem",
+      "char_start": 129987,
+      "char_end": 130061,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Dani Cunha",
+      "trecho": "não podemos esquecer que existe uma pré-candidatura prevista. Provavelmente, ela até se inicia nisso, porque, muitas vezes, a violência contra a mulher se incita no momento em que existe a manifestação, seja de pré-candidatura, seja de candidatura formal. Então, é muito importante também que abordemos a pré-candidatura nesse sentido.",
+      "char_start": 127922,
+      "char_end": 128257,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Thiago Boverio",
+      "trecho": "que revela a beleza da diversidade do Brasil",
+      "char_start": 130453,
+      "char_end": 130497,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Thiago Boverio",
+      "trecho": "fica, a título de sugestão ao eminente Relator, a possibilidade de se fazer a prestação de contas eleitoral dentro da anual",
+      "char_start": 133422,
+      "char_end": 133545,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Thiago Boverio",
+      "trecho": "A lógica sistemática constitucional hoje é a diminuição de partido político. Essa é a premissa, tanto é que, na Emenda 101, salvo engano, há o fim das coligações, a cláusula de desempenho. E também o Deputado Rubens comentou, em sua primeira manifestação, no início dos trabalhos, sobre a fragmentação partidária. A federação ajudaria, nesse sentido de consolidar.\n\nEntão, partindo dessa premissa, se não se preencherem esses pequenos detalhes desse fenômeno da federação, ela não é válida dentro dessa lógica constitucional, ela vira uma fraude às coligações.",
+      "char_start": 131374,
+      "char_end": 131934,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Thiago Boverio",
+      "trecho": "A lógica sistemática constitucional hoje é a diminuição de partido político. Essa é a premissa, tanto é que, na Emenda 101, salvo engano, há o fim das coligações, a cláusula de desempenho. E também o Deputado Rubens comentou, em sua primeira manifestação, no início dos trabalhos, sobre a fragmentação partidária. A federação ajudaria, nesse sentido de consolidar.\n\nEntão, partindo dessa premissa, se não se preencherem esses pequenos detalhes desse fenômeno da federação, ela não é válida dentro dessa lógica constitucional, ela vira uma fraude às coligações.",
+      "char_start": 131374,
+      "char_end": 131934,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Prof. Paulo Fernando",
+      "trecho": "eu defendo a tese de que o voto da cédula deveria ser primeiro o majoritário e depois o proporcional.",
+      "char_start": 143337,
+      "char_end": 143438,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Prof. Paulo Fernando",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Prof. Paulo Fernando",
+      "trecho": "O eleitor comum vai votar com o número majoritário na cabeça: 22 é do Bolsonaro, 13 é do Lula, 12 é do Ciro. Mas, quando ele vai votar, ele aperta o 22, e a votação é para Deputado Federal. Em uma fração de milésimos de segundos, aparece na tela: “Confirma o voto de legenda?” Ele fica agoniado e confirma. Por isso, eu defendo a tese de que o voto da cédula deveria ser primeiro o majoritário e depois o proporcional.",
+      "char_start": 143020,
+      "char_end": 143438,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Prof. Paulo Fernando",
+      "trecho": "O eleitor comum vai votar com o número majoritário na cabeça: 22 é do Bolsonaro, 13 é do Lula, 12 é do Ciro. Mas, quando ele vai votar, ele aperta o 22, e a votação é para Deputado Federal. Em uma fração de milésimos de segundos, aparece na tela: “Confirma o voto de legenda?” Ele fica agoniado e confirma. Por isso, eu defendo a tese de que o voto da cédula deveria ser primeiro o majoritário e depois o proporcional.",
+      "char_start": 143020,
+      "char_end": 143438,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Prof. Paulo Fernando",
+      "trecho": "elas, na executiva nacional, poderão defender os interesses das candidatas mulheres",
+      "char_start": 142775,
+      "char_end": 142858,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Prof. Paulo Fernando",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Renildo Calheiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Renildo Calheiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Renildo Calheiros",
+      "trecho": "É inevitável que, com essa legislação, todos enveredem para a figura jurídica da federação partidária, não há outra alternativa, porque esse é o caminho para onde a democracia brasileira vai afunilando.",
+      "char_start": 149906,
+      "char_end": 150108,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Renildo Calheiros",
+      "trecho": "porque esse é o caminho para onde a democracia brasileira vai afunilando.",
+      "char_start": 150035,
+      "char_end": 150108,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Renildo Calheiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Renildo Calheiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 37,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 37,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "Cada vez que a legislação evolui para introduzir a cultura da importância da agremiação e da força dos partidos, eu acho que a política em qualquer nação do mundo fica mais forte.",
+      "char_start": 152824,
+      "char_end": 153003,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "a política em qualquer nação do mundo fica mais forte",
+      "char_start": 152949,
+      "char_end": 153002,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "grandes nomes",
+      "char_start": 151260,
+      "char_end": 151273,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Isnaldo Bulhões Jr",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 41,
+      "falante": "Dani Cunha",
+      "trecho": "Nós sempre apreciamos os Parlamentares que se dedicam e representam realmente as suas causas.",
+      "char_start": 155644,
+      "char_end": 155737,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Melillo Dinis do Nascimento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 44,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Raquel Branquinho",
+      "trecho": "A questão do encaminhamento do financiamento é um grande problema, porque sempre é concentrado no Diretório Nacional para candidaturas de Prefeitura. É muito difícil essa redistribuição de recursos. Eu acho que já estava até originariamente na proposta que haveria destinação para as proporcionais. Isso é até algo interessante de se pensar, para evitar essa burla do sistema — isso é feito dentro das regras do sistema, então, acontece — de se concentrar em candidaturas majoritárias, principalmente com mulheres candidatas a vice. Então, isso evita, impede, que mulheres sejam eleitas em outras situações, concentra-se em uma candidatura majoritária que, ao fim ao cabo, acaba sendo de um homem, se ele for líder ali, sendo que a mulher vai ser a vice, e impede que esses recursos, que já não são tantos, possam financiar as candidaturas de vários segmentos da sociedade, de mulheres que também querem participar do pleito eleitoral e ficam totalmente alijadas.",
+      "char_start": 161403,
+      "char_end": 162366,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 44,
+      "falante": "Raquel Branquinho",
+      "trecho": "impede que esses recursos, que já não são tantos, possam financiar as candidaturas de vários segmentos da sociedade, de mulheres que também querem participar do pleito eleitoral e ficam totalmente alijadas.",
+      "char_start": 162160,
+      "char_end": 162366,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Raquel Branquinho",
+      "trecho": "impede que esses recursos, que já não são tantos, possam financiar as candidaturas de vários segmentos da sociedade, de mulheres que também querem participar do pleito eleitoral e ficam totalmente alijadas.",
+      "char_start": 162160,
+      "char_end": 162366,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Raquel Branquinho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Gustavo Severo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Gustavo Severo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Gustavo Severo",
+      "trecho": "Estão atirando onde não se resolve o problema. Não é o Deputado, ou a Deputada, o culpado por ter havido uma fraude na cota de gênero da bancada. Quer dizer, a pessoa é uma vítima disso. Acabaram de falar a expressão correta: é vítima. Então hoje a vítima é cassada.",
+      "char_start": 165461,
+      "char_end": 165727,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Gustavo Severo",
+      "trecho": "Eu acho muito razoável que grupos como este se debrucem, sobretudo com especialistas como a senhora, e achem uma solução adequada para resolver esse problema.",
+      "char_start": 165729,
+      "char_end": 165887,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Gustavo Severo",
+      "trecho": "Quero dar um abraço no meu querido irmão que Brasília me deu, o Isnaldo, pessoa que eu admiro muito, craque da política e um ser humano maravilhoso.",
+      "char_start": 164837,
+      "char_end": 164985,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Gustavo Severo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 47,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 47,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 47,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Victor Durigan",
+      "trecho": "nós sugerimos — vamos mandar essas recomendações à Comissão — que a cooperação entre plataforma e Justiça Eleitoral seja algo obrigatório.",
+      "char_start": 169177,
+      "char_end": 169315,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 48,
+      "falante": "Victor Durigan",
+      "trecho": "regras que protejam direitos fundamentais, como a expressão, e que limitem a violência política e protejam o exercício de direitos políticos de grupos representados",
+      "char_start": 168355,
+      "char_end": 168519,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Victor Durigan",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 50,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 50,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 50,
+      "falante": "Paulo Guimarães",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Thiago Boverio",
+      "trecho": "Para o candidato ser conhecido, ele precisa de propaganda.",
+      "char_start": 171582,
+      "char_end": 171640,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Thiago Boverio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Dani Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 8,
+      "falante": "Samara Castro",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "qualificada",
+      "trecho": "Essa crescente influência das redes sociais nas eleições demanda maior transparência, maior responsabilidade. ... Isso contribuirá não só para mitigar a influência de qualquer tipo de financiamento oculto, mas também para promover a confiança dos eleitores nesse processo e para viabilizar, inclusive, qualquer tipo de investigação ou análise em relação às prestações de contas feitas perante os próprios TREs."
+    }
+  ],
+  "turnos_falhos": []
+}

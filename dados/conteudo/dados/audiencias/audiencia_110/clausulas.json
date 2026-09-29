@@ -1,0 +1,105 @@
+{
+  "sample_id": 110,
+  "n_opinioes": 35,
+  "n_decompostas": 35,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 10,
+  "n_ancorados": 5,
+  "n_rejeitados": 5,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 4,
+  "por_tipo": {
+    "escopo": 3,
+    "prazo": 1,
+    "condicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Alexandre Lindenmeyer",
+      "turno_id": 32,
+      "opiniao": "Defende que a promoção da saúde para idosos deve começar cedo, com políticas de alimentação, esporte e cultura, e não apenas a partir da velhice.",
+      "nucleo": "Defendeu que a promoção da saúde para idosos deve começar cedo, com políticas de alimentação, esporte e cultura.",
+      "tipo": "escopo",
+      "trecho": "não acontecerá aos 60 anos, a partir dos 65 anos",
+      "char_start": 62098,
+      "char_end": 62146
+    },
+    {
+      "falante": "Alexandre Lindenmeyer",
+      "turno_id": 32,
+      "opiniao": "Defende a ampliação da Secretaria Nacional da Pessoa Idosa para todos os municípios e o fortalecimento dos conselhos municipais.",
+      "nucleo": "Defendeu a ampliação da Secretaria Nacional da Pessoa Idosa para todos os municípios e o fortalecimento dos conselhos municipais.",
+      "tipo": "escopo",
+      "trecho": "além dos 13 projetos, dos 13 Municípios-piloto",
+      "char_start": 63938,
+      "char_end": 63984
+    },
+    {
+      "falante": "Luiz Couto",
+      "turno_id": 33,
+      "opiniao": "Defende que o envelhecimento ativo e saudável seja agenda prioritária no G20 por promover equidade, sustentabilidade do sistema de saúde, desenvolvimento econômico, inovação, resiliência a crises e liderança global.",
+      "nucleo": "Defendeu que o envelhecimento ativo e saudável seja agenda prioritária no G20.",
+      "tipo": "escopo",
+      "trecho": "especialmente como uma estratégia de promoção de equidade na saúde",
+      "char_start": 65349,
+      "char_end": 65415
+    },
+    {
+      "falante": "Marcos Wagner de Sousa Porto",
+      "turno_id": 38,
+      "opiniao": "defende a criação de uma trilha nacional do N-20 com apoio do Ministério da Saúde e reunião com a Ministra Nísia",
+      "nucleo": "Defendeu a criação de uma trilha nacional do N-20 com apoio do Ministério da Saúde e reunião com a Ministra Nísia",
+      "tipo": "condicao",
+      "trecho": "Se houver abertura",
+      "char_start": 72044,
+      "char_end": 72062
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Lígia Iasmine Pereira dos Santos Gualberto",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com base em condições territoriais e sociais",
+      "opiniao": "defende garantir equidade no envelhecimento saudável com base em condições territoriais e sociais"
+    },
+    {
+      "turno_id": 4,
+      "falante": "Lígia Iasmine Pereira dos Santos Gualberto",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com foco em cidades amigas e proteção social",
+      "opiniao": "defende ação intersetorial para envelhecimento saudável com foco em cidades amigas e proteção social"
+    },
+    {
+      "turno_id": 8,
+      "falante": "Alexandre da Silva",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para povos quilombolas, povos indígenas, povos tradicionais, povos ciganos, povos de terreiros",
+      "opiniao": "defende linhas de cuidado diferenciadas para grupos específicos como quilombolas, indígenas e povos tradicionais"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Sandra Regina Capana Michellim",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente os que não podem sair de casa",
+      "opiniao": "defende políticas públicas que garantam protagonismo, acesso à informação e proteção aos idosos em situação de vulnerabilidade, especialmente os que não podem sair de casa"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Sandra Regina Capana Michellim",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "identificados nas visitas",
+      "opiniao": "defende que políticas públicas efetivas sejam implementadas para concretizar os direitos dos idosos identificados nas visitas"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.2,
+  "taxa_ancoragem": 0.5,
+  "taxa_opiniao_intacta": 0.8857
+}

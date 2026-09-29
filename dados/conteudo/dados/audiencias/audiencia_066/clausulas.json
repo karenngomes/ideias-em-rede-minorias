@@ -1,0 +1,91 @@
+{
+  "sample_id": 66,
+  "n_opinioes": 23,
+  "n_decompostas": 23,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 10,
+  "n_ancorados": 8,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 3,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "condicao": 4,
+    "excecao": 2,
+    "escopo": 2
+  },
+  "perdas": [
+    {
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 6,
+      "opiniao": "rejeita propostas de alteração na destinação dos recursos do FGTS, afirmando que não há discussão oficial sobre o tema",
+      "nucleo": "rejeitou propostas de alteração na destinação dos recursos do FGTS",
+      "tipo": "condicao",
+      "trecho": "Não haveria nenhuma proposta nesse sentido para este momento",
+      "char_start": 26602,
+      "char_end": 26662
+    },
+    {
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 6,
+      "opiniao": "opõe-se a projetos que permitam uso do FGTS para segundo imóvel, por desrespeitarem sua finalidade social",
+      "nucleo": "opôs-se a projetos que permitam uso do FGTS para segundo imóvel",
+      "tipo": "excecao",
+      "trecho": "por exemplo, beneficia os trabalhadores de maior renda, que já possuem imóveis",
+      "char_start": 28765,
+      "char_end": 28843
+    },
+    {
+      "falante": "Maria Henriqueta Arantes Ferreira Alves",
+      "turno_id": 12,
+      "opiniao": "manifesta preocupação com o PL 3.934 por seu alto impacto financeiro e potencial de esgotamento dos recursos do FGTS",
+      "nucleo": "manifestou preocupação com o PL 3.934 por seu alto impacto financeiro e potencial de esgotamento dos recursos do FGTS",
+      "tipo": "escopo",
+      "trecho": "sobre o FGTS",
+      "char_start": 52766,
+      "char_end": 52778
+    },
+    {
+      "falante": "Paulo Ramos",
+      "turno_id": 35,
+      "opiniao": "defende a preservação da viabilidade e sustentabilidade do FGTS",
+      "nucleo": "Defendeu a preservação da viabilidade e sustentabilidade do FGTS",
+      "tipo": "condicao",
+      "trecho": "que não seja uma iniciativa que possa comprometer a sua viabilidade e a sua sustentabilidade",
+      "char_start": 70250,
+      "char_end": 70342
+    },
+    {
+      "falante": "Márcio Leão Coelho",
+      "turno_id": 52,
+      "opiniao": "defende a atuação da Comissão para orientar decisões legislativas sobre o FGTS",
+      "nucleo": "Defendeu a atuação da Comissão para orientar decisões legislativas sobre o FGTS",
+      "tipo": "escopo",
+      "trecho": "esses projetos no Parlamento",
+      "char_start": 81716,
+      "char_end": 81744
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Cintia Teixeira",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "sem considerar o impacto financeiro",
+      "opiniao": "defende a preservação da sustentabilidade do FGTS diante de propostas que ampliem saques sem considerar o impacto financeiro"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Márcio Leão Coelho",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "trabalhadores informais",
+      "opiniao": "defende ampliação da proteção social para trabalhadores informais"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.375,
+  "taxa_ancoragem": 0.8,
+  "taxa_opiniao_intacta": 0.7826
+}

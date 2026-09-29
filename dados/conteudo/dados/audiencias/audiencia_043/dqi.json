@@ -1,0 +1,3445 @@
+{
+  "sample_id": 43,
+  "n_turnos": 67,
+  "n_turnos_codificados": 40,
+  "n_codigos": 280,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 40,
+      "distribuicao": {
+        "interrompido": 4,
+        "normal": 36
+      },
+      "media": 0.9,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "nenhuma": 17,
+        "inferior": 8,
+        "qualificada": 15,
+        "sofisticada": 0
+      },
+      "media": 0.95,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "interesse_de_grupo": 5,
+        "neutro": 21,
+        "bem_comum_utilitario": 5,
+        "bem_comum_diferenca": 9
+      },
+      "media": 1.45,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "negativo": 1,
+        "neutro": 14,
+        "explicito_positivo": 25
+      },
+      "media": 1.6,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 37,
+        "explicito_positivo": 3
+      },
+      "media": 1.075,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 35,
+        "inclui": 5,
+        "valoriza": 0
+      },
+      "media": 1.125,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 40,
+      "distribuicao": {
+        "posicional": 32,
+        "proposta_alternativa": 7,
+        "proposta_mediadora": 1
+      },
+      "media": 0.225,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Albuquerque": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 0.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.5
+        }
+      },
+      "Claudio Lino": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Fernanda Melchionna": {
+        "participacao": {
+          "n": 9,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 9,
+          "media": 0.1111
+        },
+        "respeito_contra": {
+          "n": 9,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 9,
+          "media": 0.6667
+        },
+        "justificacao_conteudo": {
+          "n": 9,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 9,
+          "media": 1.5556
+        },
+        "respeito_demandas": {
+          "n": 9,
+          "media": 1.1111
+        }
+      },
+      "George Brito": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Glauber Braga": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Heraldo Luiz Rodrigues": {
+        "participacao": {
+          "n": 5,
+          "media": 0.6
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.2
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 1.2
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.6
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.2
+        }
+      },
+      "Jéssica Rocha": {
+        "participacao": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Sargento Portugal": {
+        "participacao": {
+          "n": 4,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 0.75
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        }
+      },
+      "Vanderley Carlos Gonçalves": {
+        "participacao": {
+          "n": 10,
+          "media": 0.9
+        },
+        "politica_construtiva": {
+          "n": 10,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 10,
+          "media": 1.2
+        },
+        "justificacao_nivel": {
+          "n": 10,
+          "media": 0.6
+        },
+        "justificacao_conteudo": {
+          "n": 10,
+          "media": 0.7
+        },
+        "respeito_grupos": {
+          "n": 10,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 10,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "George Brito",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "George Brito",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Fernanda Melchionna",
+      "trecho": "Nós temos aqui vários convidados que vão falar sobre isso.",
+      "char_start": 1547,
+      "char_end": 1605,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "Evidentemente, vão dizer que quem estava na reserva não pode fazer o curso, mas isso, no meu entender, é bastante claro, porque eu não posso pegar alguém que esteja aposentado, um inativo, trazê-lo para fazer um curso para ele ganhar um adicional maior e depois voltá-lo para a inatividade.",
+      "char_start": 14788,
+      "char_end": 15078,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "Nós preservamos todo o direito adquirido, é claro, para quem tem mais de 30 anos de serviço. Foi estabelecida a regra de transição do tempo que falta: tempo restante para completar 30 anos será acrescido em 17%.",
+      "char_start": 12434,
+      "char_end": 12645,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "Nós procuramos realmente valorizar o futuro da estrutura militar e um Estado melhor.",
+      "char_start": 20879,
+      "char_end": 20963,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "Nós procuramos realmente valorizar o futuro da estrutura militar e um Estado melhor.",
+      "char_start": 20879,
+      "char_end": 20963,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "A lei prestigia somente os militares da ativa? Ela reduziu as diferenças entre ativos e inativos. Como eu disse, alguém aposentado em 2001 poderia receber até 35% a mais do que quem se aposentasse agora. Então, nós tentamos comparar isso e trazer uma realidade próxima uma da outra.",
+      "char_start": 21753,
+      "char_end": 22035,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "Ela valoriza a meritocracia e a experiência profissional, contribui para a atração e a retenção de talentos, valoriza a carreira militar como uma carreira de Estado e é adequada às peculiaridades da carreira.",
+      "char_start": 22619,
+      "char_end": 22827,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "Ela valoriza a meritocracia e a experiência profissional, contribui para a atração e a retenção de talentos, valoriza a carreira militar como uma carreira de Estado e é adequada às peculiaridades da carreira.",
+      "char_start": 22619,
+      "char_end": 22827,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "trecho": "os trabalhadores e os sargentos do Quadro Especial têm estabilidade 10 anos depois de uma lei que a garantiu. Então, há essa desigualdade e essa diferença nos salários, porque há uma defasagem salarial grande na carreira do pessoal do Quadro Especial; mas essa diferença que é verbalizada aqui pelo Ministério da Defesa reproduz preconceito e, na prática, não reconhece esses trabalhadores tão importantes que foram incorporados pelo Estado brasileiro pela necessidade que o Estado tinha em determinado momento.",
+      "char_start": 23558,
+      "char_end": 24069,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "trecho": "os trabalhadores e os sargentos do Quadro Especial têm estabilidade 10 anos depois de uma lei que a garantiu. Então, há essa desigualdade e essa diferença nos salários, porque há uma defasagem salarial grande na carreira do pessoal do Quadro Especial; mas essa diferença que é verbalizada aqui pelo Ministério da Defesa reproduz preconceito e, na prática, não reconhece esses trabalhadores tão importantes que foram incorporados pelo Estado brasileiro pela necessidade que o Estado tinha em determinado momento.",
+      "char_start": 23558,
+      "char_end": 24069,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "trecho": "não reconhece esses trabalhadores tão importantes que foram incorporados pelo Estado brasileiro pela necessidade que o Estado tinha em determinado momento.",
+      "char_start": 23914,
+      "char_end": 24069,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "George Brito",
+      "trecho": "Nós temos que nos movimentar. Estamos organizando um grupo de quatro ou cinco militares para ir até San José, Costa Rica, Sr. Heraldo, e vamos nos acorrentar no portão da Corte Interamericana. Eu serei preso e expulso do País, mas nós vamos tornar pública essa situação, porque a Corte Interamericana tem competência de determinar ao Estado brasileiro que anule qualquer lei que se confronte com a Convenção Americana sobre Direitos Humanos — CADH. Em seguida, se não surgir efeito, nós vamos pegar um avião e vamos a Paris colocar um cartaz na porta da OCDE:\"Estamos passando fome\".",
+      "char_start": 38847,
+      "char_end": 39430,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "George Brito",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "George Brito",
+      "trecho": "A Portaria nº 1.443 reconhece curso feito dentro do Estado-Maior, dentro das organizações militares, que são os quartéis. A portaria do MEC é taxativa: os cursos militares só podem ser reconhecidos se feitos em unidade de ensino militar. E não há mais jeito, é aquilo ali. Então como é que se pode pagar Altos Estudos para um sargento da ativa se não é uma pós-graduação e se nós somos nível médio? Então, estão pagando ao arrepio da lei.",
+      "char_start": 28109,
+      "char_end": 28547,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 12,
+      "falante": "George Brito",
+      "trecho": "Foram retirados desse irmão aqui 170 reais, que fazem falta na manteiga, no pão, na vida dele, no remédio.",
+      "char_start": 26297,
+      "char_end": 26403,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "George Brito",
+      "trecho": "nós somos membros das Forças Armadas com orgulho",
+      "char_start": 27055,
+      "char_end": 27103,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "George Brito",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernanda Melchionna",
+      "trecho": "Isso é importante porque se visualiza essa injustiça que foi gerada com a Lei nº 13.954.",
+      "char_start": 41467,
+      "char_end": 41555,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Jéssica Rocha",
+      "trecho": "Há pessoas que defendem:\"Não, mas começou com 9,5%. Foi depois de 1 ano que começou o desconto, mesmo, total, de 10,5%\".Mesmo assim, esse princípio nonagesimal foi desrespeitado, um princípio constitucional.",
+      "char_start": 44067,
+      "char_end": 44274,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Jéssica Rocha",
+      "trecho": "Essa mudança, ocasionou, então, uma redução de rendimento nas pensões. E isso também desrespeitou um princípio constitucional previsto no art. 37, inciso XV da Constituição, que prevê a irredutibilidade dos proventos e rendimentos de aposentados e pensionistas.",
+      "char_start": 44435,
+      "char_end": 44696,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 14,
+      "falante": "Jéssica Rocha",
+      "trecho": "Na vida prática, no dia a dia da advocacia, eu sou procurada constantemente com essas queixas das pensionistas, principalmente as mais idosas, que não conseguem se inserir no mercado de trabalho e já contavam com essa remuneração mês a mês, que, de forma brusca, foi reduzida.",
+      "char_start": 44766,
+      "char_end": 45042,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Jéssica Rocha",
+      "trecho": "A classe das pensionistas poderia ter sido ouvida antes dessa alteração legal.",
+      "char_start": 45909,
+      "char_end": 45987,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "trecho": "Ou seja, esse percentual de 43,22% arrecadado das pensionistas está sendo usado para custear o aumento da alta patente das carreiras das Forças Armadas.",
+      "char_start": 53022,
+      "char_end": 53174,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "trecho": "as pensionistas há cerca de 3 anos e meio vêm sofrendo com esse tratamento desigual",
+      "char_start": 54927,
+      "char_end": 55010,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "trecho": "É preciso um olhar atento a todas essas inconstitucionalidades, uma vez que as pensionistas há cerca de 3 anos e meio vêm sofrendo com esse tratamento desigual",
+      "char_start": 54851,
+      "char_end": 55010,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "trecho": "Há algumas soluções para fazer retornar o adicional por tempo de serviço, porque ele é um direito adquirido. É preciso ver a questão da viabilidade. Devemos ter essa preocupação, conforme eu disse, de, num grupo de trabalho, analisar a viabilidade disso, a fim de não falarmos algo que não possa ser feito e que venha a ser refutado pela Força. Como possíveis soluções, temos a lei regulamentar militar, a questão da LRM, ou a questão da medida provisória anterior, podendo haver uma modificação aqui ou por meio do Governo, se for de iniciativa dele. Já existem propostas elaboradas e já foram entregues para os Parlamentares. E veteranos poderem contribuir com isso.",
+      "char_start": 68506,
+      "char_end": 69174,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "trecho": "Por isso que tem que haver viabilidade política, se é de iniciativa do Presidente. Precisamos dos Parlamentares que abraçaram a causa para poder levar essa situação para que saiamos da mão dos oficiais-generais, porque não basta só ser chefe, precisa ser líder, e isso é coisa que não está havendo na atualidade.",
+      "char_start": 66023,
+      "char_end": 66335,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "trecho": "Precisamos dos Parlamentares que abraçaram a causa para poder levar essa situação para que saiamos da mão dos oficiais-generais, porque não basta só ser chefe, precisa ser líder, e isso é coisa que não está havendo na atualidade.",
+      "char_start": 66106,
+      "char_end": 66335,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "trecho": "os oficiais-generais, que já vimos que só pensam neles. Eles só pensam neles!",
+      "char_start": 65881,
+      "char_end": 65958,
+      "fonte": "modelo",
+      "rotulo": "negativo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Sargento Portugal",
+      "trecho": "Nunca há participação da parte mais prejudicada.",
+      "char_start": 70999,
+      "char_end": 71047,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 19,
+      "falante": "Sargento Portugal",
+      "trecho": "Nunca há participação da parte mais prejudicada.",
+      "char_start": 70999,
+      "char_end": 71047,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Sargento Portugal",
+      "trecho": "Nunca há participação da parte mais prejudicada.",
+      "char_start": 70999,
+      "char_end": 71047,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Nós militares dos quadros especiais, ótimos militares, não temos mérito.",
+      "char_start": 72191,
+      "char_end": 72263,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Na verdade, o Decreto nº 86.289, de 11 de agosto de 1981, estabeleceu, em seu art. 1º, o aproveitamento de cabos e soldados, com estabilidade, assegurada a efetivação por promoção à graduação de terceiro-sargento, na época.",
+      "char_start": 74149,
+      "char_end": 74372,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Eu sou segundo-sargento do Quadro Especial de Sargentos do Exército. Eu tiro serviço com todos os outros sargentos, participo de instrução com todos outros sargentos, faço tudo igual a eles.",
+      "char_start": 75102,
+      "char_end": 75292,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "\"Não fizeram concurso público, então não têm mérito\"",
+      "char_start": 79852,
+      "char_end": 79904,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Mesmo sem ter realizado o Curso de Aperfeiçoamento de Sargentos — CAS, os sargentos do quadro especial têm desempenhado funções exclusivas de subtenentes e sargentos oriundos de escolas, conforme publicado no documento que vemos na tela.",
+      "char_start": 79929,
+      "char_end": 80166,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Mesmo sem ter realizado o Curso de Aperfeiçoamento de Sargentos — CAS, os sargentos do quadro especial têm desempenhado funções exclusivas de subtenentes e sargentos oriundos de escolas, conforme publicado no documento que vemos na tela.",
+      "char_start": 79929,
+      "char_end": 80166,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "os sargentos do quadro especial têm desempenhado funções exclusivas de subtenentes e sargentos oriundos de escolas",
+      "char_start": 80000,
+      "char_end": 80114,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Só que ele se esqueceu de dizer que todos esses sargentos, quando chegarem à metade do meu tempo de serviço, vão receber a gratificação de 32% de disponibilidade, e nós, não.",
+      "char_start": 81925,
+      "char_end": 82099,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Só que ele se esqueceu de dizer que todos esses sargentos, quando chegarem à metade do meu tempo de serviço, vão receber a gratificação de 32% de disponibilidade, e nós, não.",
+      "char_start": 81925,
+      "char_end": 82099,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "nós assumimos funções de graduações acima, e ainda dizem que nós não temos mérito, não temos capacidade.",
+      "char_start": 80652,
+      "char_end": 80756,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "Na audiência pública, o Deputado Vinicius Carvalho alegou que não houve acordo entre nós e o Governo. Mas estavam presentes o Senador Marcos do Val, o finado Senador Major Olimpio e o Senador Izalci Lucas, quando houve o acordo. Vejam o vídeo.",
+      "char_start": 83467,
+      "char_end": 83710,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "eles recuperaram as perdas, mas nós, não. Eu perdi lá e perdi aqui, mas eles ainda dizem que perderam.",
+      "char_start": 83363,
+      "char_end": 83465,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "eles recuperaram as perdas, mas nós, não. Eu perdi lá e perdi aqui, mas eles ainda dizem que perderam.",
+      "char_start": 83363,
+      "char_end": 83465,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "nós praças das Forças Armadas também fazemos parte do povo. Nós somos um povo armado para proteger a Nação.",
+      "char_start": 84833,
+      "char_end": 84940,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Fernanda Melchionna",
+      "trecho": "E tudo isso reforçou as desigualdades de salários extremamente diferenciados, com a base ganhando muito pouco, e a cúpula ganhando bem mais, se comparada com a base, não com outras carreiras do serviço público. Aqui se aumentou essa defasagem.",
+      "char_start": 86539,
+      "char_end": 86782,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 34,
+      "falante": "Fernanda Melchionna",
+      "trecho": "E tudo isso reforçou as desigualdades de salários extremamente diferenciados, com a base ganhando muito pouco, e a cúpula ganhando bem mais, se comparada com a base, não com outras carreiras do serviço público. Aqui se aumentou essa defasagem.",
+      "char_start": 86539,
+      "char_end": 86782,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Fernanda Melchionna",
+      "trecho": "E eles vêm sendo usados, como naquela fala lamentável do Mourão, para discriminar e massacrar salarialmente esses trabalhadores.",
+      "char_start": 88269,
+      "char_end": 88397,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "Tem que haver a formação desse grupo de trabalho para que, a essas questões que estão sendo aqui levantadas, possam ser definitivamente propostas soluções.",
+      "char_start": 95274,
+      "char_end": 95429,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "O que justifica um percentual de ampliação dos rendimentos de fato para um general de 41%, pela disponibilidade, e, para um soldado, de 5%? Essa diferença — essa discrepância — não pode ser avaliada por nós como natural, até porque já existe uma diferença substantiva no soldo.",
+      "char_start": 92807,
+      "char_end": 93084,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "E falo como quem está procurando uma negociação a ser estabelecida com o Ministério da Defesa. Mas negociação não pressupõe legitimar e defender tudo aquilo que foi aprovado e deixou pelo caminho tantas e tantas famílias no Brasil, muitas delas, no dia de hoje, dependendo da região do País em que residem, passando por severas dificuldades materiais, financeiras e de sobrevivência.",
+      "char_start": 97087,
+      "char_end": 97470,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "todos os militares, quando entram nas Forças Armadas, prestam um juramento",
+      "char_start": 96463,
+      "char_end": 96537,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Albuquerque",
+      "trecho": "vamos sim, Glauber, provocar que essa data, para se fazer esse reparo, tenha início e tenha fim.",
+      "char_start": 101545,
+      "char_end": 101641,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Albuquerque",
+      "trecho": "porque nós contribuímos com o País. Nós tivemos a coragem de enfrentar os rincões do Brasil e fazer a Pátria ser vibrada.",
+      "char_start": 101786,
+      "char_end": 101907,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Albuquerque",
+      "trecho": "porque nós contribuímos com o País. Nós tivemos a coragem de enfrentar os rincões do Brasil e fazer a Pátria ser vibrada.",
+      "char_start": 101786,
+      "char_end": 101907,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Albuquerque",
+      "trecho": "Vamos respeitar o ser humano.",
+      "char_start": 101433,
+      "char_end": 101462,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 39,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Sargento Portugal",
+      "trecho": "Quem sente mais isso são os praças. Isso não tem nem que se discutir, até porque no meu telefone, eu acho que também no de todos os Parlamentares, não parou de chegar mensagens, mas só de praças. Não recebi nenhuma de oficiais. Então, é sinal de que realmente a Lei nº 13.954 ficou muito boa para eles.",
+      "char_start": 102368,
+      "char_end": 102670,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 39,
+      "falante": "Sargento Portugal",
+      "trecho": "Quem sente mais isso são os praças. Isso não tem nem que se discutir, até porque no meu telefone, eu acho que também no de todos os Parlamentares, não parou de chegar mensagens, mas só de praças. Não recebi nenhuma de oficiais. Então, é sinal de que realmente a Lei nº 13.954 ficou muito boa para eles.",
+      "char_start": 102368,
+      "char_end": 102670,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 39,
+      "falante": "Sargento Portugal",
+      "trecho": "Mas o praça não é limitado, e a prova está aqui, na frente de todo mundo.",
+      "char_start": 103743,
+      "char_end": 103816,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 41,
+      "falante": "Sargento Portugal",
+      "trecho": "Nós como Parlamentares temos essa responsabilidade com o Rio de Janeiro porque o cenário é terrível: há pensionistas de combatentes que perderam a vida no Rio de Janeiro e em todo o Brasil e veteranos que contribuíram a vida toda e esperavam ter o mínimo dignidade. Ambos estão passando necessidades.",
+      "char_start": 108443,
+      "char_end": 108743,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "Quando se fala em habilitação, que não lhes foi dado acesso a realizar algum curso, como o CAS, que foi mencionado, é porque se trata de um curso que tem como objetivo capacitar o graduado para ser um suboficial, um subtenente. Ele tem um objetivo específico, e naquele objetivo específico não se enquadra um plano de carreira do Quadro Especial. Então, não haveria como incluir esse quadro nesse tipo de curso. É por isso, é esse o motivo.",
+      "char_start": 111699,
+      "char_end": 112139,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "São pessoas importantes, que entraram porque as Forças precisavam, que têm seu mérito, que trabalham muito bem e que foram escolhidas por isso.",
+      "char_start": 111529,
+      "char_end": 111672,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Fernanda Melchionna",
+      "trecho": "Eu queria lhe perguntar, então, se nós podemos encaminhar ou se o senhor vai trabalhar dentro do Ministério da Defesa para que tenhamos um grupo de trabalho, aí sim, com representação de todos — pensionistas, veteranos, graduados, quadro especial e, é óbvio, cargos e representações técnicas de cada uma das Forças Armadas.",
+      "char_start": 121950,
+      "char_end": 122273,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Fernanda Melchionna",
+      "trecho": "Nós ouvimos aqui — e vimos até contracheque — como essa legislação aprofundou a disparidade.",
+      "char_start": 121261,
+      "char_end": 121353,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 44,
+      "falante": "Fernanda Melchionna",
+      "trecho": "Nós ouvimos aqui — e vimos até contracheque — como essa legislação aprofundou a disparidade.",
+      "char_start": 121261,
+      "char_end": 121353,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Fernanda Melchionna",
+      "trecho": "uma ampla representação de trabalhadores",
+      "char_start": 120831,
+      "char_end": 120871,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Fernanda Melchionna",
+      "trecho": "há essa reivindicação justa, legítima da Mesa",
+      "char_start": 121903,
+      "char_end": 121948,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "A minha proposta é que o Tenente-Brigadeiro leve essa proposta de constituição do grupo de trabalho ao Ministro da Defesa e, em 10 dias, se essa resposta não chegar à Comissão de Relações Exteriores e de Defesa Nacional, mais especificamente a quem fez o encaminhamento dessa solicitação de audiência, nós apresentaremos como Parlamentares uma nova convocação do Ministro da Defesa para que esse tema não fique parado e sem uma resposta concreta por parte do Ministério. Se até lá, nessa articulação do Tenente-Brigadeiro, vier uma resposta de constituição do grupo de trabalho ou alguma outra proposta de natureza concreta, o.k., ótimo, avançaremos. No entanto, se não vier, nós seremos obrigados a manter essa pauta ativa e de antemão já apresentaremos em conjunto com os diversos Parlamentares de forças políticas diferentes que estão aqui uma convocação do Ministro, mais uma vez, para tratar especificamente desse tema.",
+      "char_start": 123356,
+      "char_end": 124280,
+      "fonte": "modelo",
+      "rotulo": "proposta_mediadora"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "porque não podemos ficar, como muito bem foi dito por V.Exa., sem um retorno de natureza objetiva.",
+      "char_start": 122526,
+      "char_end": 122624,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Fernanda Melchionna",
+      "trecho": "vamos vocalizar uma luta como defensores dos trabalhadores que somos",
+      "char_start": 124718,
+      "char_end": 124786,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 49,
+      "falante": "Heraldo Luiz Rodrigues",
+      "trecho": "essa sugestão, que acho bastante válida",
+      "char_start": 125225,
+      "char_end": 125264,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Glauber Braga",
+      "trecho": "Se, em 10 dias, essa resposta não vier, a posição será nossa, dos Parlamentares, de buscar incrementar um processo de convocação e todos os instrumentos institucionais que temos para não deixar esse tema morrer.",
+      "char_start": 126798,
+      "char_end": 127009,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Fernanda Melchionna",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 54,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 54,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Vanderley Carlos Gonçalves",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 56,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 56,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 56,
+      "falante": "Claudio Lino",
+      "trecho": "a todos os Parlamentares que estão envolvidos nessa causa tão importante",
+      "char_start": 129570,
+      "char_end": 129642,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Claudio Lino",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 58,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 58,
+      "falante": "Jéssica Rocha",
+      "trecho": "O Tenente-Brigadeiro Heraldo registrou que nenhuma pensionista e nenhum militar tiveram os seus tratamentos interrompidos. Isso não é verdade.",
+      "char_start": 130020,
+      "char_end": 130162,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 58,
+      "falante": "Jéssica Rocha",
+      "trecho": "A necessidade de alteração dessa lei é evidente.",
+      "char_start": 131489,
+      "char_end": 131537,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 58,
+      "falante": "Jéssica Rocha",
+      "trecho": "Porém, a Lei nº 13.954, de 2019, não pensou no direito dos praças veteranos e pensionistas que se encontram em desvantagem.",
+      "char_start": 131365,
+      "char_end": 131488,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 58,
+      "falante": "Jéssica Rocha",
+      "trecho": "A intenção de obedecer às leis é contribuirmos para um mundo mais justo para todos.",
+      "char_start": 131281,
+      "char_end": 131364,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 58,
+      "falante": "Jéssica Rocha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 60,
+      "falante": "George Brito",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "George Brito",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 60,
+      "falante": "George Brito",
+      "trecho": "Eles tinham o direito à época de ser readaptados, e as Forças Armadas não aplicam a readaptação com progressão a nós praças, tendo em vista que já existe uma jurisprudência pacificada.",
+      "char_start": 132755,
+      "char_end": 132939,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 60,
+      "falante": "George Brito",
+      "trecho": "As pessoas têm suas aposentadorias cassadas, Sr. Brigadeiro, e estão na sarjeta, passando fome.",
+      "char_start": 133391,
+      "char_end": 133486,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 60,
+      "falante": "George Brito",
+      "trecho": "Os senhores são as nossas vozes. Sem os senhores, nós estaríamos esquecidos.",
+      "char_start": 134245,
+      "char_end": 134321,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "George Brito",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Albuquerque",
+      "trecho": "para podermos avançar nesse tema, é tão fácil montarmos um grupo de trabalho!",
+      "char_start": 135178,
+      "char_end": 135255,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 62,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Albuquerque",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 62,
+      "falante": "Albuquerque",
+      "trecho": "que não haverá mal nenhum em reconhecer aquilo que é pretendido pelos nobres colegas, através de suas representatividades.",
+      "char_start": 135373,
+      "char_end": 135495,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 64,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Sargento Portugal",
+      "trecho": "Estamos discutindo o direito de pessoas que escolheram servir a um país, que dedicaram a vida a isso e agora estão pedindo o mínimo de dignidade.",
+      "char_start": 135858,
+      "char_end": 136003,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 64,
+      "falante": "Sargento Portugal",
+      "trecho": "Estamos discutindo o direito de pessoas que escolheram servir a um país, que dedicaram a vida a isso e agora estão pedindo o mínimo de dignidade.",
+      "char_start": 135858,
+      "char_end": 136003,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 64,
+      "falante": "Sargento Portugal",
+      "trecho": "Estamos discutindo o direito de pessoas que escolheram servir a um país, que dedicaram a vida a isso e agora estão pedindo o mínimo de dignidade.",
+      "char_start": 135858,
+      "char_end": 136003,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 64,
+      "falante": "Sargento Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

@@ -1,0 +1,1447 @@
+{
+  "sample_id": 77,
+  "n_turnos": 26,
+  "n_turnos_codificados": 16,
+  "n_codigos": 112,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 16,
+      "distribuicao": {
+        "interrompido": 0,
+        "normal": 16
+      },
+      "media": 1.0,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 16,
+      "distribuicao": {
+        "nenhuma": 4,
+        "inferior": 1,
+        "qualificada": 11,
+        "sofisticada": 0
+      },
+      "media": 1.4375,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 16,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 4,
+        "bem_comum_utilitario": 11,
+        "bem_comum_diferenca": 1
+      },
+      "media": 1.8125,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 16,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 6,
+        "explicito_positivo": 10
+      },
+      "media": 1.625,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 16,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 16,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 16,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 15,
+        "inclui": 1,
+        "valoriza": 0
+      },
+      "media": 1.0625,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 16,
+      "distribuicao": {
+        "posicional": 10,
+        "proposta_alternativa": 6,
+        "proposta_mediadora": 0
+      },
+      "media": 0.375,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Elias Vaz": {
+        "participacao": {
+          "n": 8,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 8,
+          "media": 0.125
+        },
+        "respeito_contra": {
+          "n": 8,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 8,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 8,
+          "media": 1.625
+        },
+        "respeito_grupos": {
+          "n": 8,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 8,
+          "media": 1.0
+        }
+      },
+      "Marcos Bicalho dos Santos": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Rafael Calabria": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Sebastião Melo": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Sebastião Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Elias Vaz",
+      "trecho": "Por isso, nós apresentamos aqui o Projeto de Lei nº 4.489, que cria o chamado Vale-Transporte Social.",
+      "char_start": 5712,
+      "char_end": 5813,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Elias Vaz",
+      "trecho": "Nós tomamos essa iniciativa porque entendemos que há um problema muito sério no País com relação à questão da mobilidade urbana, que é justamente o transporte público. Nós precisamos compreender, dentro de um contexto histórico, que o problema do transporte público não se inicia com a pandemia. Na verdade, ele se agrava com a pandemia.",
+      "char_start": 2712,
+      "char_end": 3049,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 2,
+      "falante": "Elias Vaz",
+      "trecho": "porque aí nós estamos colocando a parte mais lascada da sociedade, a parte que tem maior dificuldade financeira, que é quem usa o transporte público, para, na verdade, subsidiar quem merece ser subsidiado, que é o idoso.",
+      "char_start": 7051,
+      "char_end": 7271,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Elias Vaz",
+      "trecho": "as camadas mais humildes, as que têm menor renda",
+      "char_start": 5019,
+      "char_end": 5067,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "trecho": "O custeio precisa estar vinculado ao custo real que ela tem, e não à gratuidade, porque, desta forma, estimulam-se os empresários ou o sistema a atender a linha que recebe mais subsídio.",
+      "char_start": 22579,
+      "char_end": 22765,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "trecho": "O financiamento vai garantir, de forma real, a modicidade tarifária, e não apenas um termo burocrático na lei, e vai reduzir, com frequência, a lotação dos veículos.",
+      "char_start": 19080,
+      "char_end": 19245,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "trecho": "os usuários do transporte coletivo, de fato, não são tão atendidos pelo poder público quanto, por exemplo, os da aviação, etc.",
+      "char_start": 10182,
+      "char_end": 10308,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Elias Vaz",
+      "trecho": "o IDEC tem sido um importante parceiro em nossas audiências públicas, sempre contribuindo bastante, até mesmo do ponto de vista técnico. É uma discussão do direito consumidor muito bem embasada",
+      "char_start": 29495,
+      "char_end": 29688,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "nós entendemos que, por ser um serviço público essencial, esse benefício, que hoje é dirigido à pesca e também à navegação de cabotagem, possa ser também estendido ao transporte público coletivo, por ser um serviço público de natureza essencial.",
+      "char_start": 41728,
+      "char_end": 41973,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 5,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "Na medida em que nós temos uma queda de demanda desta ordem que foi verificada e a oferta não cai na mesma proporção, existe um diferencial entre o custo e a receita do sistema que se acumulou ao longo desse período e trouxe graves consequências para o setor.",
+      "char_start": 32316,
+      "char_end": 32575,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 5,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "Eu gostaria de agradecer a oportunidade e o convite desta Comissão de Viação e Transportes para participar desta audiência pública, que trata de um assunto de suma importância tanto para a população, como para as empresas operadoras e a sociedade em geral.",
+      "char_start": 30158,
+      "char_end": 30414,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Sebastião Melo",
+      "trecho": "Nós precisamos ter uma política pública de modais, de integração das regiões metropolitanas",
+      "char_start": 55783,
+      "char_end": 55874,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Sebastião Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Sebastião Melo",
+      "trecho": "Uma cidade boa para se viver, do ponto de vista de acesso a ela em termos de mobilidade humana, tem que ter vários modais, interoperabilidade e uma passagem que caiba no bolso do cidadão.",
+      "char_start": 45082,
+      "char_end": 45269,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Sebastião Melo",
+      "trecho": "Uma cidade boa para se viver, do ponto de vista de acesso a ela em termos de mobilidade humana, tem que ter vários modais, interoperabilidade e uma passagem que caiba no bolso do cidadão.",
+      "char_start": 45082,
+      "char_end": 45269,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Sebastião Melo",
+      "trecho": "Tem que haver o SUS do transporte coletivo, Deputado.",
+      "char_start": 54835,
+      "char_end": 54888,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Sebastião Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Elias Vaz",
+      "trecho": "Nós estamos discutindo aqui colocar recursos para que a tarifa não fique tão elevada. Assim garantimos uma qualidade mínima, uma boa qualidade do transporte, e a tarifa não fica muito elevada.",
+      "char_start": 61062,
+      "char_end": 61254,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Elias Vaz",
+      "trecho": "Nós estamos discutindo aqui colocar recursos para que a tarifa não fique tão elevada. Assim garantimos uma qualidade mínima, uma boa qualidade do transporte, e a tarifa não fica muito elevada.",
+      "char_start": 61062,
+      "char_end": 61254,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Elias Vaz",
+      "trecho": "estamos falando de outra parte da sociedade que parece, na lógica do Governo Federal, não merecer o mesmo tratamento",
+      "char_start": 58298,
+      "char_end": 58414,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "trecho": "Então, respondendo a sua pergunta, acho que o Governo Federal tem duas maneiras muito concretamente.Primeiro, é preciso que haja uma política perene de financiamento dos modais de transporte e da infraestrutura das cidades, em 30 anos, 40 anos, 50 anos, seja a fundo perdido, seja por empréstimo internacional com o aval do Governo Federal, seja com dinheiro o BNDES.",
+      "char_start": 65100,
+      "char_end": 65467,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "trecho": "Se eu colocar pedágio no centro da cidade, eu vou matar... Não dá.",
+      "char_start": 64354,
+      "char_end": 64420,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "trecho": "a União dá dinheiro para as empresas de avião, e não dá para o povão que vem da vila",
+      "char_start": 67858,
+      "char_end": 67942,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "trecho": "os Municípios, porque os Estado custeiam o alambrado, e a União dá dinheiro para as empresas de avião, e não dá para o povão que vem da vila",
+      "char_start": 67802,
+      "char_end": 67942,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "trecho": "O Governo Federal poderia promover essas boas práticas, promover debates, regulamentar e facilitar também essas boas práticas.",
+      "char_start": 70247,
+      "char_end": 70373,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "trecho": "O Governo Federal tem uma capacidade muito maior de custeio. Como eu disse, e o Prefeito citou também, os principais problemas do sistema são infraestrutura e operação.",
+      "char_start": 70586,
+      "char_end": 70754,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "trecho": "O Governo Federal tem uma capacidade muito maior de custeio.",
+      "char_start": 70586,
+      "char_end": 70646,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "trecho": "Trata-se de um direito social, então não tem que ter variação, tem que ter frequência estabelecida.",
+      "char_start": 76976,
+      "char_end": 77075,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "Nós estamos discutindo essa questão no âmbito da atualização do marco legal, inclusive com a sugestão de criação de uma agência nacional de transporte urbano, uma entidade que tenha por finalidade promover a fiscalização da execução dessa política, em âmbito nacional, e estabelecer referências de qualidade, de produtividade, etc.",
+      "char_start": 81291,
+      "char_end": 81622,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "À medida que temos uma tarifa pública, que tem que ser módica, porque a população usuária tem capacidade de pagamento limitada, essa tarifa acaba condicionando toda a qualidade da prestação do serviço público.",
+      "char_start": 81975,
+      "char_end": 82184,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "porque a população usuária tem capacidade de pagamento limitada",
+      "char_start": 82038,
+      "char_end": 82101,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Elias Vaz",
+      "trecho": "Penso que a solução, como bem disse o Prefeito, não pode partir só dos Prefeitos, nem só dos Governos Estaduais, que o Governo Federal tem que dar a sua contribuição.",
+      "char_start": 89040,
+      "char_end": 89206,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Elias Vaz",
+      "trecho": "Penso que a solução, como bem disse o Prefeito, não pode partir só dos Prefeitos, nem só dos Governos Estaduais, que o Governo Federal tem que dar a sua contribuição.",
+      "char_start": 89040,
+      "char_end": 89206,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Rafael Calabria",
+      "trecho": "há sempre o debate sobre economia de custos, contra a defesa corporativa do setor, dos trabalhadores, que, é claro, estão defendendo o seu ganha-pão.",
+      "char_start": 90031,
+      "char_end": 90180,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Rafael Calabria",
+      "trecho": "Primeiro ponto: o cobrador nunca, em nenhum momento, faz só o trabalho de cobrança.Ele faz trabalho de atendimento a idoso, a pessoa com deficiência, tira dúvidas de pessoas vulneráveis, simples e tal, assessora o motorista. Nós temos defendido um debate sobre a reformulação da categoria. Defendemos que o cobrador não fique sentado, preso àquela cadeira, mas que seja, por exemplo, em corredores de BRT, em vias principais, um auxiliar do sistema, nas estações. Ele pode descer, sair, subir, resolver um problema, ser o cara que assessora, que dá qualidade ao sistema. Estou fazendo um paralelo com o sistema de metrô e trens. Existe a bilheteria, a pessoa que cobra — e ela está sendo mais facilmente superada —, mas há o atendente de plataforma, que fica lá na plataforma e ajuda o idoso, enfim, resolve problemas de operação. Os sistemas envolvem dezenas de milhares de pessoas. Vai haver conflitos e problemas. Então, a função de atendente de bordo ou de plataforma é mais ágil. Não é preciso que haja em todos os veículos. Pode ser reduzido bastante, mas isso pode dar qualidade ao serviço.",
+      "char_start": 90227,
+      "char_end": 91324,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Rafael Calabria",
+      "trecho": "mas isso pode dar qualidade ao serviço.",
+      "char_start": 91285,
+      "char_end": 91324,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Rafael Calabria",
+      "trecho": "os trabalhadores, que, é claro, estão defendendo o seu ganha-pão",
+      "char_start": 90115,
+      "char_end": 90179,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Rafael Calabria",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "os recursos que o Estado de Goiás gasta hoje subsidiando o IPVA dos automóveis novos seriam bastante significativos para esse subsídio ao transporte coletivo",
+      "char_start": 94351,
+      "char_end": 94508,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "os recursos que o Estado de Goiás gasta hoje subsidiando o IPVA dos automóveis novos seriam bastante significativos para esse subsídio ao transporte coletivo",
+      "char_start": 94351,
+      "char_end": 94508,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "A NTU — Associação Nacional das Empresas de Transportes Urbanos agradece por esta oportunidade e se coloca totalmente à disposição desta Casa para contribuir para esses debates e para tentar recuperar a atividade do transporte público coletivo urbano no Brasil, que realmente está muito sofrida nos dias de hoje.",
+      "char_start": 94819,
+      "char_end": 95131,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Marcos Bicalho dos Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Elias Vaz",
+      "trecho": "porque, objetivamente, o que é arrecadado fica muito concentrado na União, e pouco é distribuído para os Municípios. Então, os Municípios estão numa situação de pouca margem, do ponto de vista orçamentário, para efetivamente fazer o investimento necessário hoje no sistema.",
+      "char_start": 96290,
+      "char_end": 96563,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Elias Vaz",
+      "trecho": "para que possamos ter uma resposta mais efetiva da esfera federal.",
+      "char_start": 98208,
+      "char_end": 98274,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Elias Vaz",
+      "trecho": "Acho que foi muito importante essa abordagem. Notamos que todo mundo está procurando o mesmo caminho.",
+      "char_start": 95641,
+      "char_end": 95742,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Elias Vaz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

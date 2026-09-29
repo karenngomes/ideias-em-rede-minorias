@@ -1,0 +1,104 @@
+{
+  "sample_id": 43,
+  "n_opinioes": 31,
+  "n_decompostas": 31,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 18,
+  "n_ancorados": 12,
+  "n_rejeitados": 6,
+  "n_incoerentes": 0,
+  "n_preservados": 9,
+  "n_perdidos": 3,
+  "por_tipo": {
+    "atribuicao": 2,
+    "escopo": 3,
+    "condicao": 5,
+    "prazo": 2
+  },
+  "perdas": [
+    {
+      "falante": "Jéssica Rocha",
+      "turno_id": 16,
+      "opiniao": "critica a Lei nº 13.954/2019 por beneficiar oficiais de alta patente às custas das pensionistas",
+      "nucleo": "criticou a Lei nº 13.954/2019 por beneficiar oficiais de alta patente em detrimento das pensionistas",
+      "tipo": "escopo",
+      "trecho": "em detrimento dos de baixa patente, os graduados praças",
+      "char_start": 51087,
+      "char_end": 51142
+    },
+    {
+      "falante": "Claudio Lino",
+      "turno_id": 18,
+      "opiniao": "a situação atual é uma bomba-relógio que comprometerá a estabilidade futura das Forças",
+      "nucleo": "afirmou que a situação atual é uma bomba-relógio que comprometerá a estabilidade futura das Forças",
+      "tipo": "prazo",
+      "trecho": "Daqui a pouco",
+      "char_start": 67169,
+      "char_end": 67182
+    },
+    {
+      "falante": "Glauber Braga",
+      "turno_id": 35,
+      "opiniao": "defende a criação imediata de um grupo de trabalho com participação de pensionistas e praças para resolver distorções na remuneração militar",
+      "nucleo": "defendeu a criação de um grupo de trabalho com participação de pensionistas e praças para resolver distorções na remuneração militar",
+      "tipo": "prazo",
+      "trecho": "com hora para começar e com tempo para terminar",
+      "char_start": 95818,
+      "char_end": 95865
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 11,
+      "falante": "Fernanda Melchionna",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente para os trabalhadores do Quadro Especial",
+      "opiniao": "defende a reparação das injustiças geradas pela Lei 13.954, especialmente para os trabalhadores do Quadro Especial"
+    },
+    {
+      "turno_id": 16,
+      "falante": "Jéssica Rocha",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "por atingir o valor líquido",
+      "opiniao": "defende que a alteração da remuneração das pensionistas, por atingir o valor líquido, afasta a aplicação da VPNI"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "quando usada para excluir veteranos",
+      "opiniao": "a alegação de meritocracia é inverídica quando usada para excluir veteranos"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "não favorecer desproporcionalmente oficiais-generais",
+      "opiniao": "os percentuais de adicionais devem ser justos e não favorecer desproporcionalmente oficiais-generais"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com participação de veteranos e especialistas",
+      "opiniao": "deve ser criado um grupo de trabalho com participação de veteranos e especialistas"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Claudio Lino",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "considerar instrumentos legais adequados",
+      "opiniao": "soluções para restabelecer direitos devem ser viáveis e considerar instrumentos legais adequados"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.75,
+  "taxa_ancoragem": 0.6667,
+  "taxa_opiniao_intacta": 0.9032
+}

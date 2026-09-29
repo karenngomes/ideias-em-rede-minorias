@@ -1,0 +1,104 @@
+{
+  "sample_id": 9,
+  "n_falantes": 5,
+  "n_parlamentares": 1,
+  "n_convidados": 4,
+  "n_citados_gold": 3,
+  "n_citados_ausentes": 2,
+  "n_opinioes_gold": 9,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.8348993288590604,
+      "participacao_civil_turnos": 0.45454545454545453,
+      "citacao_civil_opinioes": 0.0,
+      "citacao_civil_pessoas": 0.0,
+      "deficit_civil": 0.8348993288590604
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": null,
+      "citacao_civil_pessoas": null,
+      "deficit_civil": null
+    }
+  },
+  "citados_ausentes": [
+    "Kenio Lima",
+    "Monize Marques"
+  ],
+  "falantes_silenciados": [
+    "Kenio Costa de Lima",
+    "Monize da Silva Freitas Marques",
+    "Olinda Vicente Moreira",
+    "Patricia Moreira"
+  ],
+  "falantes": [
+    {
+      "nome": "Pinheirinho",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 12,
+      "n_palavras": 1230,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ]
+    },
+    {
+      "nome": "Monize da Silva Freitas Marques",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2152,
+      "turnos": [
+        2,
+        11,
+        19
+      ]
+    },
+    {
+      "nome": "Kenio Costa de Lima",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1855,
+      "turnos": [
+        4,
+        15
+      ]
+    },
+    {
+      "nome": "Patricia Moreira",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1046,
+      "turnos": [
+        6,
+        9,
+        17
+      ]
+    },
+    {
+      "nome": "Olinda Vicente Moreira",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1167,
+      "turnos": [
+        13,
+        21
+      ]
+    }
+  ]
+}

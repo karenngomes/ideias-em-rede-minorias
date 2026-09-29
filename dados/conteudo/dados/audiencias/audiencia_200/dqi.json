@@ -1,0 +1,2628 @@
+{
+  "sample_id": 200,
+  "n_turnos": 40,
+  "n_turnos_codificados": 29,
+  "n_codigos": 203,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 29,
+      "distribuicao": {
+        "interrompido": 1,
+        "normal": 28
+      },
+      "media": 0.9655,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 29,
+      "distribuicao": {
+        "nenhuma": 9,
+        "inferior": 7,
+        "qualificada": 13,
+        "sofisticada": 0
+      },
+      "media": 1.1379,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 29,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 10,
+        "bem_comum_utilitario": 15,
+        "bem_comum_diferenca": 4
+      },
+      "media": 1.7931,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 29,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 8,
+        "explicito_positivo": 21
+      },
+      "media": 1.7241,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 29,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 27,
+        "explicito_positivo": 2
+      },
+      "media": 1.069,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 29,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 29,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 29,
+      "distribuicao": {
+        "posicional": 25,
+        "proposta_alternativa": 4,
+        "proposta_mediadora": 0
+      },
+      "media": 0.1379,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Arthur de Almeida Medeiros": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Carlos Gropen Júnior": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Djane da Silva Bento": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Eduardo Santana Cordeiro": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Erika Kokay": {
+        "participacao": {
+          "n": 12,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 12,
+          "media": 0.25
+        },
+        "respeito_contra": {
+          "n": 12,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 12,
+          "media": 0.6667
+        },
+        "justificacao_conteudo": {
+          "n": 12,
+          "media": 1.5833
+        },
+        "respeito_grupos": {
+          "n": 12,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 12,
+          "media": 1.0833
+        }
+      },
+      "Genilza Valente": {
+        "participacao": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Nadja Waléria Vilela Camara": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Professora Goreth": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Roberto Rodrigues Filho": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 2.0
+        }
+      },
+      "Wolnei Caumo": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Roberto Rodrigues Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Professora Goreth",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "Com um instrumento de avaliação da funcionalidade que tem a CIF como pressuposto, entendemos que vamos avançar na qualidade de vida e na qualidade de saúde dessas pessoas.",
+      "char_start": 5147,
+      "char_end": 5318,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "Com um instrumento de avaliação da funcionalidade que tem a CIF como pressuposto, entendemos que vamos avançar na qualidade de vida e na qualidade de saúde dessas pessoas.",
+      "char_start": 5147,
+      "char_end": 5318,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "que as pessoas são seres holísticos na sua completude, que as questões biológicas interferem nas questões ambientais e nas questões sociais e que tudo isso realmente impacta a vida dessas pessoas, de forma negativa ou positiva.",
+      "char_start": 4918,
+      "char_end": 5145,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Wolnei Caumo",
+      "trecho": "A maneira como oferecemos o tratamento hoje é extremamente fragmentada, sem a perspectiva de uma equipe multidisciplinar com planejamento de escalonamento por gravidade, e isso pode ser estabelecido desde que o paciente chega ao sistema de saúde. Eu digo para os senhores que é muito mais uma questão de organização e treinamento de equipe do que gasto com tecnologias caras, porque o diagnóstico dessa doença, falo especificamente da fibromialgia, é clínico.",
+      "char_start": 8734,
+      "char_end": 9193,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Wolnei Caumo",
+      "trecho": "A maneira como oferecemos o tratamento hoje é extremamente fragmentada, sem a perspectiva de uma equipe multidisciplinar com planejamento de escalonamento por gravidade, e isso pode ser estabelecido desde que o paciente chega ao sistema de saúde. Eu digo para os senhores que é muito mais uma questão de organização e treinamento de equipe do que gasto com tecnologias caras, porque o diagnóstico dessa doença, falo especificamente da fibromialgia, é clínico.",
+      "char_start": 8734,
+      "char_end": 9193,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Wolnei Caumo",
+      "trecho": "os pacientes têm elevado nível de sofrimento",
+      "char_start": 8326,
+      "char_end": 8370,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Erika Kokay",
+      "trecho": "porque o diagnóstico também é multidisciplinar",
+      "char_start": 12220,
+      "char_end": 12266,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Genilza Valente",
+      "trecho": "O crescimento significativo da expectativa de vida, da longevidade no País trouxe consigo o aumento das doenças crônicas não transmissíveis, que trazem considerável grau de incapacidade e piora na qualidade de vida, além de provocar o aumento também da demanda dos serviços de saúde. Isso foi demonstrado e ficou bem claro na Pesquisa Nacional por Amostra de Domicílios, realizada de 1998 a 2003, com a distribuição das doenças crônicas e os impactos na funcionalidade humana. Assim sendo, a necessidade de acompanhar cada vez mais pessoas que estão convivendo com limitações às atividades e restrições da participação social torna-se vital à prevenção e à manutenção da funcionalidade da população brasileira.",
+      "char_start": 13372,
+      "char_end": 14082,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Genilza Valente",
+      "trecho": "torna-se vital à prevenção e à manutenção da funcionalidade da população brasileira.",
+      "char_start": 13998,
+      "char_end": 14082,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Genilza Valente",
+      "trecho": "Buscamos abraçar, dentro desse contexto, dentro dessa política, não só a fibromialgia, mas o lúpus, a artrite reumatoide, enfim, todas as doenças crônicas que podem ser incluídas nessa política.",
+      "char_start": 18451,
+      "char_end": 18645,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Erika Kokay",
+      "trecho": "Parabéns pelo trabalho da ANFIBRO, de olhar a pessoa além da dor.",
+      "char_start": 18748,
+      "char_end": 18813,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "Por isso, Deputada, é importante a aprovação desse projeto de lei, porque quando nós realmente transformarmos esse projeto em lei, nós vamos dar protagonismo à CIF, e a CIF vai ser utilizada de fato por todos os profissionais de saúde. A CIF já existe no Brasil desde 2011, em língua portuguesa, mas, mesmo assim, há resistência de todos os profissionais para fazer uso dela.",
+      "char_start": 20928,
+      "char_end": 21303,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "Por isso, Deputada, é importante a aprovação desse projeto de lei, porque quando nós realmente transformarmos esse projeto em lei, nós vamos dar protagonismo à CIF, e a CIF vai ser utilizada de fato por todos os profissionais de saúde. A CIF já existe no Brasil desde 2011, em língua portuguesa, mas, mesmo assim, há resistência de todos os profissionais para fazer uso dela.",
+      "char_start": 20928,
+      "char_end": 21303,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "as mulheres, além de trabalharem fora, também têm todo o trabalho dentro de casa, com os filhos, com o marido, os afazeres de casa. Muitas mulheres passam por isso em Brasília.",
+      "char_start": 23548,
+      "char_end": 23724,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Roberto Rodrigues Filho",
+      "trecho": "o que esperamos é apoio no sentido de que, como Capital Federal, tenhamos um centro de tratamento mesmo, onde nós possamos integrar essas especialidades — fisiatria, acupuntura, reumato, ortopedia, neuro, psiquiatria e outras —, para dar uma assistência não plena, porque isso nós sabemos que é muito difícil, mas pelo menos uma assistência qualificada para aqueles que chegarem, via regulação, a esse serviço.",
+      "char_start": 36315,
+      "char_end": 36725,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Roberto Rodrigues Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Roberto Rodrigues Filho",
+      "trecho": "Para conseguirmos fazer com que esse tratamento seja efetivo mesmo, em termos de funcionalidade — primeiro, felicidade plena, pois felicidade para mim é a ausência de dor ou uma dor controlada, quando a pessoa consegue fazer as coisas e ter outros tipos de satisfação que vão compensar aquilo —, precisamos ter uma política que sincronize essas especialidades ao mesmo tempo, num tempo pequeno.",
+      "char_start": 34021,
+      "char_end": 34415,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Roberto Rodrigues Filho",
+      "trecho": "para dar uma assistência não plena, porque isso nós sabemos que é muito difícil, mas pelo menos uma assistência qualificada para aqueles que chegarem, via regulação, a esse serviço.",
+      "char_start": 36544,
+      "char_end": 36725,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Roberto Rodrigues Filho",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Roberto Rodrigues Filho",
+      "trecho": "eu concordo plenamente que temos que ter um projeto para melhorar essa assistência",
+      "char_start": 30970,
+      "char_end": 31052,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "porque o uso da CIF causa um equilíbrio entre a necessidade das pessoas e a disponibilidade de recursos. Se ela for bem utilizada, trará um equilíbrio financeiro para o Governo, para distribuir esses benefícios de uma forma mais justa, eficiente e eficaz.",
+      "char_start": 43926,
+      "char_end": 44181,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "porque o uso da CIF causa um equilíbrio entre a necessidade das pessoas e a disponibilidade de recursos. Se ela for bem utilizada, trará um equilíbrio financeiro para o Governo, para distribuir esses benefícios de uma forma mais justa, eficiente e eficaz.",
+      "char_start": 43926,
+      "char_end": 44181,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "Isso vai beneficiar as pessoas, tanto do ponto de vista assistencial quanto do direito social.",
+      "char_start": 43649,
+      "char_end": 43743,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "sempre com palavras muito sábias e muito comprometidas com o povo brasileiro",
+      "char_start": 44761,
+      "char_end": 44837,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "A entidade chamada Human Rights Watch, que cuida dos direitos humanos, fala uma coisa muito interessante que \"deixar de fornecer ou deixar de tratar um paciente com dor é análogo à tortura, porque é uma tortura por omissão\". Então, apesar de não haver intenção, eu acho que isso nos faz pensar que talvez devamos olhar de maneira mais carinhosa para o paciente de dor e juntar esforços para que esse paciente melhore.",
+      "char_start": 48453,
+      "char_end": 48870,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "Isso interfere no PIB e na qualidade de vida também das outras pessoas que não têm fibromialgia.",
+      "char_start": 46670,
+      "char_end": 46766,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "O trabalho dá dignidade às pessoas. Uma pessoa que exerce uma atividade se sente mais digna, mais capaz e tem mais condição financeira.",
+      "char_start": 51466,
+      "char_end": 51601,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 18,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Djane da Silva Bento",
+      "trecho": "Eu tenho certeza de que, a partir do momento em que forem colocadas a CID e a CIF em mão única, o INSS não vai ter tantos pedidos de aposentadoria, as pessoas não vão ficar sem trabalhar ou apresentar atestado médico. Isso vai ser tão útil para a administração pública quanto para a administração privada.",
+      "char_start": 60912,
+      "char_end": 61217,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Djane da Silva Bento",
+      "trecho": "Isso vai ser tão útil para a administração pública quanto para a administração privada.",
+      "char_start": 61130,
+      "char_end": 61217,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 18,
+      "falante": "Djane da Silva Bento",
+      "trecho": "Nós pessoas com lúpus acreditamos no País em que vivemos, acreditamos nos legisladores que nós colocamos nesta Casa",
+      "char_start": 57894,
+      "char_end": 58009,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 18,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 20,
+      "falante": "Professora Goreth",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Professora Goreth",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Professora Goreth",
+      "trecho": "As pessoas querem produzir, para este País ser melhor, e não estamos garantindo esse direito às pessoas, que muitas vezes são vistas com muito preconceito.",
+      "char_start": 62554,
+      "char_end": 62709,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Professora Goreth",
+      "trecho": "As pessoas querem produzir, para este País ser melhor, e não estamos garantindo esse direito às pessoas, que muitas vezes são vistas com muito preconceito.",
+      "char_start": 62554,
+      "char_end": 62709,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 20,
+      "falante": "Professora Goreth",
+      "trecho": "As pessoas querem produzir, as pessoas querem viver bem e têm o direito de viver bem. As pessoas querem produzir, para este País ser melhor, e não estamos garantindo esse direito às pessoas, que muitas vezes são vistas com muito preconceito. Eu conheço isso. Sou professora e tive alunos com doenças crônicas e que muitas vezes eram discriminados pela escola, porque os profissionais da educação não conheciam essas doenças. As pessoas doentes sofrem preconceito, e não têm o atendimento multidisciplinar que merecem.",
+      "char_start": 62468,
+      "char_end": 62985,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 20,
+      "falante": "Professora Goreth",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "as pessoas que têm um agravo e que necessitam realmente da incorporação da avaliação biopsicossocial",
+      "char_start": 65578,
+      "char_end": 65678,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Arthur de Almeida Medeiros",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Erika Kokay",
+      "trecho": "Eu penso que um dos encaminhamentos desta audiência poderia ser a solicitação de uma pauta nesse grupo de trabalho, para que pudéssemos falar sobre CIF, sobre a adoção da CIF.",
+      "char_start": 66031,
+      "char_end": 66206,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Erika Kokay",
+      "trecho": "Quando se colocou o diagnóstico biopsicossocial, foi porque nós partimos do pressuposto de que somos seres que temos nossas expressões somáticas. Temos expressões no corpo da nossa forma de ser, mas também temos no psicológico e também temos socialmente. É por isso que é um diagnóstico biopsicossocial, porque vai encarar todas as dimensões da nossa própria existência.",
+      "char_start": 67009,
+      "char_end": 67379,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 23,
+      "falante": "Erika Kokay",
+      "trecho": "Isso provoca revitimização. Por isso é importante o diagnóstico biopsicossocial e um olhar sobre o mundo laboral. Porque muitas vezes, quando uma pessoa chega com um diagnóstico de fibromialgia, os colegas de trabalho dizem:\"Mas você me parece tão bem\". É como se ela estivesse falseando a própria verdade. Isso é revitimização, porque a sua fala não é considerada, a sua dor não é entendida, a sua dor não é considerada, não tem visibilidade.",
+      "char_start": 70296,
+      "char_end": 70739,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Erika Kokay",
+      "trecho": "Nós somos mais do que a CID. Qualquer que seja a CID, nós somos maiores do que ela. Nós somos maiores do qualquer CID. Estabelecer a CID não pode significar a invisibilização da existência humana que ali está.",
+      "char_start": 68889,
+      "char_end": 69098,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Wolnei Caumo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Erika Kokay",
+      "trecho": "Por exemplo, o pânico e outras psicopatologias acometem muitas mulheres, mulheres guerreiras, pessoas guerreiras, em geral, homens e mulheres, e a família não reconhece o problema. A pessoa que era tão guerreira e tão proativa passa a não ser reconhecida quando é acometida pela síndrome da fadiga crônica, pela fibromialgia, pelo lúpus, entre outras condições. Portanto, quando falamos do tratamento biopsicossocial, é muito bom termos esse olhar.",
+      "char_start": 73845,
+      "char_end": 74293,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 25,
+      "falante": "Erika Kokay",
+      "trecho": "A pessoa que era tão guerreira e tão proativa passa a não ser reconhecida quando é acometida pela síndrome da fadiga crônica, pela fibromialgia, pelo lúpus, entre outras condições.",
+      "char_start": 74026,
+      "char_end": 74206,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Erika Kokay",
+      "trecho": "mulheres guerreiras, pessoas guerreiras, em geral, homens e mulheres",
+      "char_start": 73918,
+      "char_end": 73986,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 26,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Genilza Valente",
+      "trecho": "Creio ser de extrema importância discutirmos essa questão de uma avaliação biopsicossocial que seja para todas as pessoas com condições crônicas, ou seja, grande parcela da sociedade. Falta ainda o reconhecimento dessas incapacidades, do comprometimento de funcionalidade de pessoas. No caso da fibromialgia, pessoas se tornam incapacitantes, muitas das vezes, e precisam de algum auxílio.",
+      "char_start": 74998,
+      "char_end": 75387,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Genilza Valente",
+      "trecho": "grande parcela da sociedade",
+      "char_start": 75153,
+      "char_end": 75180,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Genilza Valente",
+      "trecho": "grande parcela da sociedade",
+      "char_start": 75153,
+      "char_end": 75180,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 31,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Genilza Valente",
+      "trecho": "Grande parte da população fica desassistida.",
+      "char_start": 76270,
+      "char_end": 76314,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Genilza Valente",
+      "trecho": "Grande parte da população fica desassistida.",
+      "char_start": 76270,
+      "char_end": 76314,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 31,
+      "falante": "Genilza Valente",
+      "trecho": "as pessoas com doenças crônicas precisam ser também assistidas a partir de uma avaliação biopsicossocial",
+      "char_start": 76383,
+      "char_end": 76487,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 31,
+      "falante": "Genilza Valente",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "Eu acho que isso faz parte de algo em que nós precisamos crescer e avançar para equilibrar os direitos, inclusive dando mais subsídios para a própria Previdência, para que tenha esse equilíbrio por meio da avaliação biopsicossocial e da aplicação da CIF.",
+      "char_start": 77125,
+      "char_end": 77379,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "para equilibrar os direitos, inclusive dando mais subsídios para a própria Previdência, para que tenha esse equilíbrio",
+      "char_start": 77200,
+      "char_end": 77318,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "a avaliação biopsicossocial é importante para todas as pessoas, em especial para as que têm problemas crônicos, e não apenas para as pessoas com deficiência",
+      "char_start": 76966,
+      "char_end": 77122,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Eduardo Santana Cordeiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Erika Kokay",
+      "trecho": "vamos solicitar para quem coordena o grupo, que é a Secretaria Nacional de Promoção dos Direitos da Pessoa com Deficiência, que nós possamos falar sobre essas doenças crônicas e a dor crônica, para que também possam ser consideradas estas condições neste diagnóstico biopsicossocial.",
+      "char_start": 78966,
+      "char_end": 79249,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Erika Kokay",
+      "trecho": "entendendo que, se você analisar do ponto de vista da funcionalidade e da qualidade de vida, quem exulta quando consegue pisar no chão sem dor tem um nível de limitação no exercício da sua própria existência.",
+      "char_start": 78617,
+      "char_end": 78825,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Erika Kokay",
+      "trecho": "para que também possam ser consideradas estas condições neste diagnóstico biopsicossocial.",
+      "char_start": 79159,
+      "char_end": 79249,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Erika Kokay",
+      "trecho": "direitos que foram conquistados pelas pessoas com deficiência estendidos às pessoas com fibromialgia",
+      "char_start": 78252,
+      "char_end": 78352,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Erika Kokay",
+      "trecho": "Eu penso que a sugestão da Sra. Genilza é uma sugestão importante",
+      "char_start": 77453,
+      "char_end": 77518,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 35,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "Não existe a possibilidade de compararmos o dia a dia da Djane, que enfrenta, por exemplo, essa necessidade de pisar sem dor, com o dia a dia de uma mulher que não enfrenta essa mesma condição de conviver com o lúpus.\n\nA CIF nos convida exatamente a isto: a não ficar simplesmente no foco da doença, mas a entender como essa condição de saúde se reflete em cada indivíduo. Somos diferentes, e esse reflexo se apresenta de formas diferentes.",
+      "char_start": 80151,
+      "char_end": 80591,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 35,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "atender o direito de tratamento igual aos iguais, e diferente aos diferentes",
+      "char_start": 80073,
+      "char_end": 80149,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 35,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "o direito de tratamento igual aos iguais, e diferente aos diferentes",
+      "char_start": 80081,
+      "char_end": 80149,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Nadja Waléria Vilela Camara",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "Para promover a equidade, é bastante importante, em relação à CIF — é o melhor instrumento que temos hoje —, colocar no mesmo grupo pessoas tão diferentes com doenças tão diferentes.",
+      "char_start": 81781,
+      "char_end": 81963,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "Para promover a equidade, é bastante importante, em relação à CIF — é o melhor instrumento que temos hoje —, colocar no mesmo grupo pessoas tão diferentes com doenças tão diferentes.",
+      "char_start": 81781,
+      "char_end": 81963,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "pessoas que estão interessadas e engajadas na melhora da qualidade de vida das pessoas",
+      "char_start": 81387,
+      "char_end": 81473,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 39,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Djane da Silva Bento",
+      "trecho": "Unir o CIF ao CID é uma questão de bem-estar e de vida saudável.",
+      "char_start": 83615,
+      "char_end": 83679,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 39,
+      "falante": "Djane da Silva Bento",
+      "trecho": "Unir o CIF ao CID é uma questão de bem-estar e de vida saudável.",
+      "char_start": 83615,
+      "char_end": 83679,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 39,
+      "falante": "Djane da Silva Bento",
+      "trecho": "as pessoas com lúpus quanto para as pessoas com fibromialgia, as pessoas com dor crônica, as pessoas com artrite reumatoide crônica",
+      "char_start": 83726,
+      "char_end": 83857,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Djane da Silva Bento",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Erika Kokay",
+      "trecho": "vamos solicitar — este foi um dos encaminhamentos desta audiência — uma reunião no GT para a inclusão também das pessoas com dor crônica no diagnóstico biopsicossocial",
+      "char_start": 86558,
+      "char_end": 86725,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Erika Kokay",
+      "trecho": "É preciso construir um código de relacionamento laboral com as pessoas com dores crônicas, eu penso. Não há como achar que se pode invisibilizar a própria pessoa e ela ficar envolvida apenas na sua dor.",
+      "char_start": 88562,
+      "char_end": 88764,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 40,
+      "falante": "Erika Kokay",
+      "trecho": "É preciso construir um código de relacionamento laboral com as pessoas com dores crônicas, eu penso. Não há como achar que se pode invisibilizar a própria pessoa e ela ficar envolvida apenas na sua dor.",
+      "char_start": 88562,
+      "char_end": 88764,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Erika Kokay",
+      "trecho": "É fundamental que elas tenham também o diagnóstico biopsicossocial, como prevê a nossa própria legislação.",
+      "char_start": 87156,
+      "char_end": 87262,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Erika Kokay",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

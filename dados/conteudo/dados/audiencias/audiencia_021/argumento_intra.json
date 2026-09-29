@@ -1,0 +1,718 @@
+{
+  "sample_id": 21,
+  "n_opinioes": 30,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 27,
+  "n_fundamentos_propostos": 45,
+  "n_fundamentos_ancorados": 43,
+  "n_fundamentos_com_numero": 11,
+  "por_tipo": {
+    "dado": 42,
+    "autoridade": 1
+  },
+  "n_contrapontos_propostos": 13,
+  "n_com_contraponto": 12,
+  "n_rejeitados": 3,
+  "itens": [
+    {
+      "opiniao": "opõe-se à transferência das loterias da Caixa para uma subsidiária sem debate público e sem garantia de controle público",
+      "falante": "Erika Kokay",
+      "turno_id": 2,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "Nós não sabemos qual é a proposta da Caixa com essa transferência das loterias para a subsidiária.",
+        "resposta": "Nossa ideia seria que a Caixa retirasse essa proposta, que está para ser discutida no Conselho de Administração, e que se faça uma discussão.",
+        "objecao_char_start": 4293,
+        "objecao_char_end": 4391,
+        "resposta_char_start": 4433,
+        "resposta_char_end": 4574,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a manutenção das loterias na Caixa e rejeita sua transferência para subsidiária sem garantias ou debate público",
+      "falante": "Juvandia Moreira Leite",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em 2023, ano passado, a arrecadação das loterias chegou a 23 bilhões e 400 milhões de reais, o maior valor da história das loterias.",
+          "char_start": 11293,
+          "char_end": 11425,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Do total arrecadado, em torno de 39%, ou de 40% tiveram destinação social, definida na legislação, para programas importantes das áreas da seguridade social, da cultura, do esporte, da educação, da saúde.",
+          "char_start": 11426,
+          "char_end": 11630,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Foram destinados para programas sociais 9 bilhões de reais, dos quais 4 bilhões foram para a seguridade; 2,3 bilhões foram para a segurança; 1,7 bilhão foi para o esporte; 486 milhões foram para a educação, onde entra o FIES; e 667 milhões foram para a cultura.",
+          "char_start": 12490,
+          "char_end": 12751,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A destinação das loterias chega a 39%, a 40%; a dasbetsestá em torno de 12%.",
+          "char_start": 11871,
+          "char_end": 11947,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós conseguimos, num primeiro momento, uma liminar, porque o Temer queria entregar as empresas públicas todas, sem passar por discussão pública. Nós conseguimos essa liminar no Supremo, que virou depois uma decisão. Para privatizar uma empresa pública, é necessário que o tema passe por debate do Parlamento, para que o povo brasileiro possa dizer se ele concorda ou não.",
+          "char_start": 13547,
+          "char_end": 13918,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Pode-se privatizar uma subsidiária sem ter debate no Congresso, sem debater com ninguém.",
+        "resposta": "Isso é algo que nos preocupa bastante, diante da decisão de tirar as loterias da Caixa e passá-las para uma subsidiária.",
+        "objecao_char_start": 13966,
+        "objecao_char_end": 14054,
+        "resposta_char_start": 14055,
+        "resposta_char_end": 14175,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reivindica a suspensão da transferência das loterias e a abertura de um processo de diálogo com a sociedade e representantes",
+      "falante": "Juvandia Moreira Leite",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós temos a preocupação de que a Caixa se mantenha como uma empresa importante nessa questão das loterias, dos jogos.",
+          "char_start": 15464,
+          "char_end": 15581,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O que garante que uma subsidiária da Caixa não vai deixar de investir nessa área e passar a investir em outras que sejam menos importantes para o Brasil?",
+          "char_start": 16789,
+          "char_end": 16942,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A transferência dessas operações poderia facilitar, agora ou no futuro — principalmente no futuro —, o processo de privatização?",
+        "resposta": "O que nós faremos para não existir esse risco?",
+        "objecao_char_start": 17273,
+        "objecao_char_end": 17401,
+        "resposta_char_start": 17402,
+        "resposta_char_end": 17448,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a inserção da rede lotérica no mercado online em nome da Caixa para aumentar a arrecadação e a competitividade",
+      "falante": "Ricardo Amado Costa",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se nós estivermos inseridos no mercadoon-lineem nome da Caixa, eu não tenho dúvida de que nós dobramos ou triplicamos a arrecadação.",
+          "char_start": 28290,
+          "char_end": 28422,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 2022, as loterias da União faturaram 23 bilhões de reais. Em 2023, nós faturamos os mesmos 23 bilhões de reais — na verdade, faturamos um pouco mais, 0,9% a mais",
+          "char_start": 29566,
+          "char_end": 29730,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a modernização e fortalecimento do negócio das loterias como condição para a sobrevivência da rede lotérica",
+      "falante": "Ricardo Amado Costa",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se a rede lotérica parasse de trabalhar por 24 horas hoje, se as menos de 3.500 lotéricas parassem de trabalhar por 24 horas hoje, 90% da rede lotérica ficaria devendo dinheiro para a Caixa.",
+          "char_start": 26398,
+          "char_end": 26588,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há 10 dias, por uma questão sistêmica, o resultado da Lotomania nos terminais da Caixa saiu errado. Isso não foi corrigido até hoje.",
+          "char_start": 27247,
+          "char_end": 27379,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Fala-se de privatização.",
+        "resposta": "A privatização não vai acontecer, sem esta Casa se envolver, sem o Governo se interessar. Isso não é pauta. Se isso não é pauta, não é necessário.",
+        "objecao_char_start": 27631,
+        "objecao_char_end": 27655,
+        "resposta_char_start": 27656,
+        "resposta_char_end": 27802,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a Caixa se prepare para o mercado de loterias para evitar a falência dos lotéricos",
+      "falante": "Antonio Simoneto",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "se a Caixa não se preparar para esse mercado, nós, lotéricos, estamos fadados à falência",
+          "char_start": 33619,
+          "char_end": 33707,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o papel dos lotéricos seja discutido amplamente para evitar prejuízos futuros",
+      "falante": "Antonio Simoneto",
+      "turno_id": 10,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "me parece que ainda não fomos citados, o lotérico não foi citado no contexto",
+        "resposta": "nós precisamos de esclarecimento e que se abra uma discussão bastante ampla nesse sentido, para que no futuro não sejamos prejudicados",
+        "objecao_char_start": 33914,
+        "objecao_char_end": 33990,
+        "resposta_char_start": 33998,
+        "resposta_char_end": 34132,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a suspensão da transferência das loterias e a realização de um debate público aberto com todos os envolvidos.",
+      "falante": "Sergio Takemoto",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós não sabemos absolutamente nada sobre o porquê desse interesse da Caixa em transferir as loterias para uma subsidiária",
+          "char_start": 35391,
+          "char_end": 35512,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o próprio Ministério da Fazenda solicita explicação para a Caixa Econômica sobre os dados",
+          "char_start": 35732,
+          "char_end": 35821,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "um dos argumentos que estão sendo utilizados é que a Caixa está defasada tecnologicamente",
+        "resposta": "Por que não se investe na Caixa, não se fortalece a Caixa, para que a Caixa tenha condições de atender bem à população, inclusive na questão das loterias?",
+        "objecao_char_start": 36425,
+        "objecao_char_end": 36514,
+        "resposta_char_start": 37457,
+        "resposta_char_end": 37611,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende que o debate sobre a gestão da Caixa e as loterias seja aberto com os empregados, com garantia de emprego e transparência, e rejeita a transferência para subsidiárias por risco de privatização",
+      "falante": "Fabiana Uehara Proscholdt",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós temos exemplo de outra subsidiária da Caixa que mostra claramente que não é isso o que acontece. Eu estou falando da Caixa Seguridade.",
+          "char_start": 40967,
+          "char_end": 41105,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a Caixa Seguridade mostra que não é exatamente isso o que acontece.",
+          "char_start": 41272,
+          "char_end": 41339,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "dizem que colocar as loterias da Caixa na subsidiária vai melhorar o processo",
+        "resposta": "nós temos exemplo de outra subsidiária da Caixa que mostra claramente que não é isso o que acontece. Eu estou falando da Caixa Seguridade.",
+        "objecao_char_start": 40884,
+        "objecao_char_end": 40961,
+        "resposta_char_start": 40967,
+        "resposta_char_end": 41105,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a publicização dos debates sobre a Caixa por ser um espaço de disputa política sem consenso",
+      "falante": "Tadeu Veneri",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não há, dentro da Câmara Federal, um consenso quanto a determinados temas, inclusive pela plataforma pela qual o atual Presidente Lula foi eleito.",
+          "char_start": 44219,
+          "char_end": 44365,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "nem sempre tomam o rumo que nós entendemos que deveriam tomar pelo que foi proposto no período eleitoral.",
+        "resposta": "Por isso, publicizar essa disputa, trazer luz a esse tipo de debate, acho que é absolutamente necessário.",
+        "objecao_char_start": 44660,
+        "objecao_char_end": 44765,
+        "resposta_char_start": 44873,
+        "resposta_char_end": 44978,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a resistência contra a privatização da área de loteria da Caixa, considerando-a uma manobra ardilosa ligada ao crime organizado",
+      "falante": "Emanoel Souza de Jesus",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós — que lá atrás, Erika Kokay, enfrentamos Carlinhos Cachoeira e GTech e internalizamos todas as loterias com a companheira Clarice à frente",
+          "char_start": 46567,
+          "char_end": 46709,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós sabemos que o jogo do bicho não é uma contravenção, mas faz parte do crime organizado em todo o nosso País, em especial no Rio de Janeiro",
+          "char_start": 46911,
+          "char_end": 47052,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "É preciso, inclusive, que já nos preparemos para, se necessário, judicializar.",
+        "resposta": "Nós temos que trabalhar isso.",
+        "objecao_char_start": 47715,
+        "objecao_char_end": 47793,
+        "resposta_char_start": 47794,
+        "resposta_char_end": 47823,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que os lotéricos devem ser diretamente ouvidos e representados em decisões que os afetam, e rejeita a representação exclusiva da FEBRALOT sem comprovação documental",
+      "falante": "Othon Rodrigues Gonçalves",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu saí do meu sindicato há 1 ano porque apresentei, durante 5 anos, documentadamente, pedido de assembleia para tratar de assuntos lotéricos.",
+          "char_start": 49212,
+          "char_end": 49353,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Dizem que a FEBRALOT nos representa.",
+        "resposta": "Há algum documento oficial da FEBRALOT protocolado na CAIXA ou no Ministério da Fazenda de atas de reuniões de assembleia geral em que os lotéricos foram consultados sobre isso? Acredito que não.",
+        "objecao_char_start": 48835,
+        "objecao_char_end": 48871,
+        "resposta_char_start": 48872,
+        "resposta_char_end": 49067,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "exige comprovação documental da representação da FEBRALOT perante a CAIXA ou órgãos federais",
+      "falante": "Othon Rodrigues Gonçalves",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há algum documento oficial da FEBRALOT protocolado na CAIXA ou no Ministério da Fazenda de atas de reuniões de assembleia geral em que os lotéricos foram consultados sobre isso?",
+          "char_start": 48872,
+          "char_end": 49049,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a Caixa 100% pública como essencial para o desenvolvimento social e combate à desigualdade, e rejeita autonomia da direção que desobedeça ao interesse público.",
+      "falante": "Rita de Cássia Santos Lima",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "como é o caso do FIES e de tantos outros exemplos, como disse aqui a companheira Juvandia",
+          "char_start": 51831,
+          "char_end": 51920,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "que tantos benefícios trazem para o desenvolvimento social do Brasil",
+          "char_start": 51699,
+          "char_end": 51767,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a migração das loterias para subsidiária representa risco de privatização indireta e deve ser impedida",
+      "falante": "Marconi Apolo Dutra Araújo",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A gestão da Caixa, no Governo anterior, tinha ummodus operandique era justamente um processo de privatização através das subsidiárias",
+          "char_start": 54112,
+          "char_end": 54245,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não sei se houve convite ou se não houve convite, mas sua presença seria muito importante, seria uma oportunidade de a Caixa esclarecer o porquê desse projeto de migração das atividades de loterias para a subsidiária.",
+        "resposta": "Infelizmente, até hoje nós não recebemos essa resposta.",
+        "objecao_char_start": 53782,
+        "objecao_char_end": 53999,
+        "resposta_char_start": 53649,
+        "resposta_char_end": 53704,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reafirma o compromisso com a manutenção da Caixa como empresa pública integral",
+      "falante": "Marconi Apolo Dutra Araújo",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "desde 2015 nós estamos nessa luta, quando começou a discussão da Lei das Estatais, e as entidades se uniram, não só as entidades da Caixa, mas também as de todas as empresas públicas, no sentido de defesa da condição de empresas 100% públicas",
+          "char_start": 54662,
+          "char_end": 54904,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se à migração das loterias para a LOTEX por considerá-la um caminho para a privatização, que compromete empregos, transparência e eficiência",
+      "falante": "Rafaella Gomes Freitas de Oliveira",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a terceirização, uma privatização, faz com que os empregos sejam precarizados",
+          "char_start": 56100,
+          "char_end": 56177,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A subsidiária não consegue oferecer nenhum diferencial, a não ser uma flexibilidade de ações, pois ela está livre de algumas travas e fiscalizações que a Caixa tem que cumprir; ou seja, a transparência dos recursos estaria sendo perdida com essa possível privatização",
+          "char_start": 56265,
+          "char_end": 56532,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há uma perda de identidade e a falta dessa fiscalização na flexibilização, inclusive de coisas como licitação, algo tão importante para garantirmos que os recursos estão sendo utilizados da forma correta, na compra correta, impedindo que se perca a transparência do uso desses recursos e da arrecadação",
+          "char_start": 57743,
+          "char_end": 58045,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende investimento em tecnologia na Caixa como alternativa à privatização das loterias",
+      "falante": "Maria de Jesus Demetrio Gaia",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O parque tecnológico da Caixa é o mesmo desde 2014.",
+          "char_start": 59990,
+          "char_end": 60041,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No Governo do PT, na gestão de Dilma, foi feito o último investimento em tecnologia.",
+          "char_start": 60042,
+          "char_end": 60126,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende debate amplo e negocial sobre o futuro das loterias da Caixa",
+      "falante": "Maria de Jesus Demetrio Gaia",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "precisamos abrir esse debate com a população, com o povo, mas também com os empregados, com as suas representações.",
+          "char_start": 59751,
+          "char_end": 59866,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reafirma compromisso de resistência contra mudanças nas loterias sem negociação",
+      "falante": "Maria de Jesus Demetrio Gaia",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Como empregada da Caixa — eu atuo no Sindicato de Bancários de Brasília e sou dirigente da Federação dos Bancários do Centro-Norte, que está representada aqui pelo companheiro e Presidente Cleiton dos Santos — e diretora dessa federação, em nome dessa nossa base gigantesca, que abrange as Regiões Centro-Oeste e Norte, digo que não vamos abrir mão de lutar contra o que está sendo feito com a loteria.",
+          "char_start": 60554,
+          "char_end": 60956,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Como já disse, nós temos uma galera muito boa para lutar, e vai ter luta, se não abrirmos esse processo negocial e de diálogo.",
+          "char_start": 60957,
+          "char_end": 61083,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a suspensão imediata do processo de transferência de ativos da Caixa por falta de transparência e alinhamento com o acionista único",
+      "falante": "Leonardo dos Santos Quadros",
+      "turno_id": 32,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O fato de a representante do Ministério da Fazenda dizer que a Pasta não sabia dessa intenção da direção da Caixa chama a atenção e causa extrema preocupação.",
+          "char_start": 61482,
+          "char_end": 61640,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Governo Federal, como acionista único da Caixa, deve ter transparência nas decisões",
+      "falante": "Tadeu Veneri",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Caixa Econômica não é sociedade anônima. O acionista majoritário não é majoritário, mas único.",
+          "char_start": 63659,
+          "char_end": 63755,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a ampliação do debate sobre loterias e a participação dos lotéricos em instâncias de decisão",
+      "falante": "Ricardo Amado Costa",
+      "turno_id": 34,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os lotéricos precisam — e vão lutar por isso — ter uma cadeira de opinião. Em algum nível de decisão, gostaríamos, sim, de participar, e nós vamos tentar atuar dessa forma.",
+          "char_start": 65513,
+          "char_end": 65685,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a exclusão da Caixa e da rede lotérica do mercado de apostas esportivas",
+      "falante": "Ricardo Amado Costa",
+      "turno_id": 34,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é inimaginável a Caixa Econômica e a rede lotérica fora do mercadobet, que faturou 150 bilhões de reais, mesmo estando todo mundo hospedado fora do País.",
+          "char_start": 65935,
+          "char_end": 66088,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a justificativa de sucateamento tecnológico para justificar a transferência das loterias",
+      "falante": "Juvandia Moreira Leite",
+      "turno_id": 36,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a Caixa está com a parte de tecnologia sucateada",
+          "char_start": 68730,
+          "char_end": 68778,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "uma operação não pode ficar na Caixa porque a Caixa não tem condição, porque a Caixa está com a parte de tecnologia sucateada",
+        "resposta": "O nosso esforço, a nossa luta é para que a Caixa se fortaleça e tenha condição de investir, mesmo que o Tesouro tenha que fazer investimento na empresa, capitalizá-la, para que ela, de verdade, cumpra com seu papel",
+        "objecao_char_start": 68653,
+        "objecao_char_end": 68778,
+        "resposta_char_start": 68780,
+        "resposta_char_end": 68994,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende um debate amplo para definir o lugar das lotéricas no futuro",
+      "falante": "Antonio Simoneto",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Para isso, é preciso fazer um debate mais amplo, para sabermos realmente onde nós estamos e onde as lotéricas se encaixam.",
+          "char_start": 70481,
+          "char_end": 70603,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende uma Caixa Econômica cada vez mais forte e contra sua fragmentação ou enfraquecimento.",
+      "falante": "Sergio Takemoto",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Estão aqui pessoas do País inteiro, representando todos os Estados.",
+          "char_start": 71137,
+          "char_end": 71204,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a suspensão imediata da proposta de transferência das loterias e a realização de um debate público com participação dos lotéricos e empregados",
+      "falante": "Erika Kokay",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós tivemos reajuste no preço dos jogos que não se refletiram no reajuste da própria remuneração ou no próprio lucro",
+          "char_start": 77023,
+          "char_end": 77139,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós tivemos um acréscimo e um lucro que não correspondem ao tamanho da rede lotérica e às necessidades que estão postas",
+          "char_start": 76902,
+          "char_end": 77021,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a falta de transparência no processo de transferência das loterias da Caixa, por ter sido divulgado pela imprensa antes de canais oficiais",
+      "falante": "Tadeu Veneri",
+      "turno_id": 45,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a primeira informação a respeito da possibilidade — ainda é uma possibilidade — de transferência das loterias para uma subsidiária não veio de um órgão oficial. A Fabiana me dizia que veio através do jornalBSB Capitale, posteriormente, através doICL Notícias.",
+          "char_start": 83843,
+          "char_end": 84102,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Erika Kokay",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Tem-se a exata noção de que as subsidiárias podem ser privatizadas sem que haja necessidade de essa privatização ser discutida ou aprovada pelo Congresso, ou seja, de que as subsidiárias podem ser privatizadas sem o aval do Parlamento."
+    },
+    {
+      "turno_id": 19,
+      "falante": "Tadeu Veneri",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Nós somos em torno de 120 votos."
+    },
+    {
+      "turno_id": 44,
+      "falante": "Erika Kokay",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Não, mas os repasses que são feitos para as políticas públicas podem ser burlados"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9,
+  "taxa_contraponto": 0.4,
+  "taxa_ancoragem_fundamento": 0.9556
+}

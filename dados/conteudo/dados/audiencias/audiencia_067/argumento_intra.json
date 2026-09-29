@@ -1,0 +1,255 @@
+{
+  "sample_id": 67,
+  "n_opinioes": 12,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 11,
+  "n_fundamentos_propostos": 16,
+  "n_fundamentos_ancorados": 15,
+  "n_fundamentos_com_numero": 5,
+  "por_tipo": {
+    "dado": 15
+  },
+  "n_contrapontos_propostos": 2,
+  "n_com_contraponto": 2,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "defende a realização de debate sobre trabalhadores lesionados no Brasil",
+      "falante": "Orlando Silva",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A cada 40 minutos, nós temos um trabalhador que é vítima de acidente do trabalho.",
+          "char_start": 5693,
+          "char_end": 5774,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a cada 4 horas, acontecem acidentes do trabalho que trazem como consequência, ao longo do tempo, a morte de trabalhadores.",
+          "char_start": 5778,
+          "char_end": 5900,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os dados são escandalosos! Acidente do trabalho no Brasil é uma epidemia.",
+          "char_start": 5619,
+          "char_end": 5692,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a precarização do trabalho e a ausência de diálogo com centrais sindicais",
+      "falante": "Orlando Silva",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a precarização das relações de trabalho, no último período, agravou enormemente as lesões aos trabalhadores.",
+          "char_start": 5962,
+          "char_end": 6070,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No último período, o Governo impôs normas regulamentares praticamente sem ouvir as centrais sindicais, porque os prazos eram muito curtos, o que significou uma piora no ambiente de trabalho.",
+          "char_start": 6307,
+          "char_end": 6497,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a retomada da fiscalização do Ministério do Trabalho e atuação do Ministério Público do Trabalho",
+      "falante": "Orlando Silva",
+      "turno_id": 1,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É preciso romper com a precarização do trabalho, com a insegurança do trabalho.",
+          "char_start": 6227,
+          "char_end": 6306,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a estabilidade no emprego para trabalhadores com lesão permanente até a aposentadoria",
+      "falante": "Luís Fabiano Costa",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Muitos pais de família estão sendo demitidos com doença do trabalho. E esses não conseguem mais se recolocar no mercado de trabalho por conta de suas lesões, já que as empresas não se interessam por mão de obra lesionada.",
+          "char_start": 9413,
+          "char_end": 9634,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A empresa quer retirar os direitos dos trabalhadores.",
+        "resposta": "Por isso, enfatizamos a importância de leis que realmente visem à segurança e à proteção dos trabalhadores que se lesionam dentro da empresa, porque é responsabilidade da empresa o funcionário que ela mesma lesiona.",
+        "objecao_char_start": 12488,
+        "objecao_char_end": 12541,
+        "resposta_char_start": 12543,
+        "resposta_char_end": 12758,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a empresa é responsável pela lesão do trabalhador causada por más condições de trabalho",
+      "falante": "Luís Fabiano Costa",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se ele está lesionado foi por conta das péssimas condições de trabalho.",
+          "char_start": 12845,
+          "char_end": 12916,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção do benefício de trabalhadores lesionados sem risco de corte arbitrário por nova perícia",
+      "falante": "Antônio Benedito Gonçalves",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Com a Lei nº 1.113, de 2022, que o nosso Presidente promulgou, a qualquer momento, eu poderei ser chamado para uma nova perícia. E, se não forem com a minha cara e dizerem que eu estou apto a trabalhar, o meu benefício será cortado.",
+          "char_start": 19219,
+          "char_end": 19451,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "As empresas falam que vão nos colocar num serviço compatível",
+        "resposta": "infelizmente, desde que fui lesionado até hoje, não houve serviço compatível, doutor.",
+        "objecao_char_start": 20347,
+        "objecao_char_end": 20407,
+        "resposta_char_start": 20414,
+        "resposta_char_end": 20499,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende o reconhecimento da dignidade dos trabalhadores lesionados perante o Estado e as empresas",
+      "falante": "Antônio Benedito Gonçalves",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Cheguei ao ponto de não conseguir pegar a minha filha, que hoje tem 7 anos, no colo por tantos problemas que tenho.",
+          "char_start": 19561,
+          "char_end": 19676,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o tema dos acidentes de trabalho deve ser debatido por seu impacto econômico e humanitário.",
+      "falante": "Gustavo de Paula Oliveira",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "houve quase 2.500 mortes",
+          "char_start": 24882,
+          "char_end": 24906,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "impactar também os cofres públicos, porque, a partir do momento em que um trabalhador se lesiona e se afasta, quem vai arcar com essa despesa? É a Previdência Social",
+          "char_start": 24491,
+          "char_end": 24656,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que a reunião deve gerar ideias para amenizar os impactos dos acidentes de trabalho.",
+      "falante": "Gustavo de Paula Oliveira",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o objetivo desta reunião é propor ideias para amenizar a tragédia que acontece na vida do trabalhador",
+          "char_start": 24979,
+          "char_end": 25080,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "denuncia o impacto dos acidentes de trabalho na saúde mental e o assédio moral",
+      "falante": "Orlando Silva",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Houve períodos, inclusive, com uma série de suicídios até mesmo dentro de fábricas",
+          "char_start": 25898,
+          "char_end": 25980,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a restauração e proteção dos direitos dos trabalhadores para garantir vida digna e sustento familiar",
+      "falante": "Luís Fabiano Costa",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O trabalhador lesionado, quando é demitido, não consegue nem emprego de varrer rua",
+          "char_start": 26443,
+          "char_end": 26525,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 18,
+      "falante": "Gustavo de Paula Oliveira",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "há 571 mil acidentes"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9167,
+  "taxa_contraponto": 0.1667,
+  "taxa_ancoragem_fundamento": 0.9375
+}

@@ -1,0 +1,99 @@
+{
+  "sample_id": 88,
+  "n_opinioes": 26,
+  "n_decompostas": 21,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 10,
+  "n_ancorados": 7,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 3,
+  "n_perdidos": 4,
+  "por_tipo": {
+    "excecao": 1,
+    "atribuicao": 1,
+    "escopo": 2,
+    "prazo": 1,
+    "outro": 1,
+    "condicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Alvaro Toubes Prata",
+      "turno_id": 6,
+      "opiniao": "defende a supressão dos artigos 7º e 12 da medida provisória para proteger o financiamento da pesquisa científica",
+      "nucleo": "defendeu a supressão dos artigos 7º e 12 da medida provisória para proteger o financiamento da pesquisa científica",
+      "tipo": "escopo",
+      "trecho": "sobretudo do art. 12",
+      "char_start": 27821,
+      "char_end": 27841
+    },
+    {
+      "falante": "Fábio Guedes Gomes",
+      "turno_id": 10,
+      "opiniao": "defende que a MP causará ações judiciais por descumprimento de contratos de PD&I",
+      "nucleo": "defendeu que a MP causará ações judiciais por descumprimento de contratos de PD&I",
+      "tipo": "prazo",
+      "trecho": "até 2027",
+      "char_start": 48210,
+      "char_end": 48218
+    },
+    {
+      "falante": "Valder Steffen",
+      "turno_id": 24,
+      "opiniao": "defende a manutenção de recursos para a ciência como condição essencial para o desenvolvimento nacional",
+      "nucleo": "Defendeu a manutenção de recursos para a ciência como condição essencial para o desenvolvimento nacional.",
+      "tipo": "atribuicao",
+      "trecho": "tenho certeza de que",
+      "char_start": 58154,
+      "char_end": 58174
+    },
+    {
+      "falante": "Fábio Guedes Gomes",
+      "turno_id": 30,
+      "opiniao": "critica a ausência do Governo na defesa da MP como sinal de sua fragilidade",
+      "nucleo": "criticou a ausência do Governo na defesa da MP como sinal de sua fragilidade",
+      "tipo": "outro",
+      "trecho": "essa MP é tão indefensável que até o Governo não mandou seu representante",
+      "char_start": 64917,
+      "char_end": 64990
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Valder Steffen",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente por meio do art. 12",
+      "opiniao": "opõe-se ao desvio de recursos da ciência e da tecnologia, especialmente por meio do art. 12"
+    },
+    {
+      "turno_id": 28,
+      "falante": "Alvaro Toubes Prata",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "no setor de óleo e gás",
+      "opiniao": "defende a manutenção e ampliação dos recursos para pesquisa e desenvolvimento, com foco no setor de óleo e gás"
+    },
+    {
+      "turno_id": 30,
+      "falante": "Fábio Guedes Gomes",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em áreas estratégicas",
+      "opiniao": "defende a preservação da capacidade científica brasileira em áreas estratégicas"
+    }
+  ],
+  "turnos_perdidos": [
+    {
+      "turno_id": 8,
+      "falante": "Roberto Muniz",
+      "opinioes": 5,
+      "erro": "JSONDecodeError: Expecting ',' delimiter: line 12 column 6 (char 435)"
+    }
+  ],
+  "taxa_preservacao": 0.4286,
+  "taxa_ancoragem": 0.7,
+  "taxa_opiniao_intacta": 0.8095
+}

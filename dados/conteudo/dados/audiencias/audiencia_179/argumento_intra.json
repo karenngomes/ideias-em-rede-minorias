@@ -1,0 +1,711 @@
+{
+  "sample_id": 179,
+  "n_opinioes": 36,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 35,
+  "n_fundamentos_propostos": 43,
+  "n_fundamentos_ancorados": 42,
+  "n_fundamentos_com_numero": 8,
+  "por_tipo": {
+    "dado": 36,
+    "autoridade": 6
+  },
+  "n_contrapontos_propostos": 7,
+  "n_com_contraponto": 6,
+  "n_rejeitados": 2,
+  "itens": [
+    {
+      "opiniao": "As lojas de aplicativos da Apple e do Google abusam de sua posição dominante, prejudicando a concorrência e os consumidores brasileiros.",
+      "falante": "Mark Buse",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Apple e Google detêm posições de dominância nos mercados mais relevantes do mundo para esse fornecimento de sistemas operacionais móveis e de distribuição de aplicativos no Brasil",
+          "char_start": 4435,
+          "char_end": 4614,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "vocês vão ouvir indubitavelmente dessas duas empresas que isso certamente envolve muito mais do que só uma disputa de contratos",
+        "resposta": "O monopólio das lojas de aplicativos da Apple e do Google prejudica a concorrência livre e justa e acaba fazendo com que os consumidores e desenvolvedores brasileiros tenham que pagar custos artificialmente intencionados",
+        "objecao_char_start": 5700,
+        "objecao_char_end": 5827,
+        "resposta_char_start": 5458,
+        "resposta_char_end": 5678,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "A taxa de 30% imposta por Apple e Google prejudica a inovação e o crescimento de startups no Brasil.",
+      "falante": "Mark Buse",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "30% da capacidade de desenvolvimento acabam sendo prejudicados",
+          "char_start": 6396,
+          "char_end": 6458,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "As práticas das grandes plataformas comprometem a segurança dos usuários e dificultam a cooperação com autoridades brasileiras.",
+      "falante": "Mark Buse",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a segurança do utilizador vai sendo preterida",
+          "char_start": 6480,
+          "char_end": 6525,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Utilizamos essa informação para nos proteger de atos indesejados e esperamos poder compartilhar as informações com as autoridades brasileiras, no sentido de ajudar esses esforços investigativos",
+          "char_start": 6527,
+          "char_end": 6720,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "O Brasil deve adotar medidas urgentes para combater os danos causados pelo poder de gatekeepers digitais em seus mercados.",
+      "falante": "Mark Buse",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Outras jurisdições já estão avançando na abordagem desses assuntos que são relativos a questões concorrenciais no domínio dessas lojas de aplicativos",
+          "char_start": 7636,
+          "char_end": 7785,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que não há evidências de falha de mercado no Brasil que justifiquem regulação prescritiva como o DMA europeu",
+      "falante": "Paula Farani",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Esses casos ou não vieram para o Brasil, porque os fatos nunca ocorreram aqui, ou vieram para o Brasil, foram abertos e arquivados por ausência deindícios ou de efeitos anticompetitivos no Brasil.",
+          "char_start": 16666,
+          "char_end": 16862,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o representante do CADE estava aqui. O Dr. Ricardo falou com muita propriedade sobre os casos que o CADE tem endereçado no mercado digital e sobre o fato de que o CADE tem entendido que o direito antitruste brasileiro, nosso arcabouço jurídico, é suficiente para endereçar os problemas concorrenciais que têm surgido no Brasil.",
+          "char_start": 15444,
+          "char_end": 15771,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a regulação ex ante prescritiva por ser incompatível com a dinâmica da inovação tecnológica",
+      "falante": "Paula Farani",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a tecnologia é um campo dinâmico, em constante inovação, e caracterizada por disrupções sequenciais e não lineares.",
+          "char_start": 17148,
+          "char_end": 17263,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os modelos de negócios de hoje não existiam e não eram nem sequer pensados quando a Lei nº 12.529, de 2011, que é a lei atual de concorrência do CADE, foi passada.",
+          "char_start": 17897,
+          "char_end": 18060,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende abordagem regulatória flexível baseada em princípios, não em regras prescritivas",
+      "falante": "Paula Farani",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a Lei nº 12.529, de 2011, que é a lei atual de concorrência do CADE, foi passada. O ano de 2011 nem é tanto tempo atrás, e essa lei continua aplicável. Por que ela continua atual? Porque ela é baseada em princípios, e não em uma lista de regras prescritivas.",
+          "char_start": 17979,
+          "char_end": 18237,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere aproveitar a experiência do CADE em mercados digitais",
+      "falante": "Paula Farani",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "o representante do CADE estava aqui. O Dr. Ricardo falou com muita propriedade sobre os casos que o CADE tem endereçado no mercado digital e sobre o fato de que o CADE tem entendido que o direito antitruste brasileiro, nosso arcabouço jurídico, é suficiente para endereçar os problemas concorrenciais que têm surgido no Brasil.",
+          "char_start": 15444,
+          "char_end": 15771,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende preservar espaço para inovação e novos modelos de negócios",
+      "falante": "Paula Farani",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os modelos de negócios de hoje não existiam e não eram nem sequer pensados quando a Lei nº 12.529, de 2011, que é a lei atual de concorrência do CADE, foi passada.",
+          "char_start": 17897,
+          "char_end": 18060,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "recomenda focar em estudos de mercado e análises ex post baseadas em eficiências",
+      "falante": "Paula Farani",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Isso vai permitir que as condutas sejam avaliadas com base em seus efeitos, e não com base no objeto da conduta, porque uma mesma conduta realizada por duas empresas diferentes, em momentos diferentes, em mercados diferentes pode ter efeitos absolutamente distintos. Uma pode ser avassaladora para o mercado, a outra pode ter efeito zero.",
+          "char_start": 18350,
+          "char_end": 18688,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se ao tratamento da publicidade digital como mero apêndice das plataformas digitais no PL 2.768",
+      "falante": "Beatriz Falcão",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O projeto não considera nenhum destes elos na cadeia, tratando a publicidade como um apêndice das plataformas digitais, o que para nós do IAB não é razoável.",
+          "char_start": 25105,
+          "char_end": 25262,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a publicidade digital não deve ser regulada pela ANATEL por não se enquadrar no escopo de telecomunicações",
+      "falante": "Beatriz Falcão",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Além disso, a publicidade digital não deve ser confundida com os serviços de telefonia, escopo principal de atuação da ANATEL.",
+          "char_start": 24629,
+          "char_end": 24755,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "questiona a existência de benefícios sociais ou mercadológicos na regulação proposta",
+      "falante": "Beatriz Falcão",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "E, finalmente, para nós do IAB, ainda não é possível identificar um benefício social ou mercadológico para a regulação.",
+          "char_start": 27529,
+          "char_end": 27648,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a regulamentação de plataformas por coibir práticas abusivas e garantir segurança jurídica a pequenos negócios e à sociedade",
+      "falante": "Janaina Camilo Vendramini",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "71% dos consumidores brasileiros consomem por Internet, preferem fazer compras por Internet",
+          "char_start": 33151,
+          "char_end": 33242,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "oe-commerceno Brasil cresceu cerca de 40% apenas em 2020, e desse crescimento temos 52% de crescimento dosmarketplaces, no mesmo ano",
+          "char_start": 33561,
+          "char_end": 33693,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reconhece como ponto de atenção a alíquota de 2% do PL e o risco de seu repasse ao cliente, em detrimento do prestador de serviço",
+      "falante": "Janaina Camilo Vendramini",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a possibilidade de isso ser repassado ao cliente, ao usuário da plataforma, nosso cliente SEBRAE",
+          "char_start": 34511,
+          "char_end": 34607,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende melhorias nas condições de trabalho dos prestadores de serviço em plataformas, especialmente em descanso, segurança e distribuição de recursos",
+      "falante": "Janaina Camilo Vendramini",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A questão de segurança é bem delicada. Não há um olhar para o bem-estar do prestador de serviço das plataformas",
+          "char_start": 34895,
+          "char_end": 35006,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a questão do recurso, que é destinado mais para a plataforma e menos para o prestador",
+          "char_start": 35021,
+          "char_end": 35106,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita regime regulatório one-size-fits-all para plataformas digitais por causa da diversidade de modelos de negócios",
+      "falante": "Gabriella Dorlhiac",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O regimeone-size-fits-alldentro do ambiente digital não funciona, porque ele tem pluralidade de modelos de negócios e setores diferentes.",
+          "char_start": 38779,
+          "char_end": 38916,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "uma abordagem que vá estabelecer uma regra para todos pode ter consequências indesejáveis, que vão impactar os consumidores e os pequenos empreendedores de maneira muito significativa.",
+        "resposta": "O ponto aqui é que o que está sendo regulado tem que deixar muito claro o problema e a atividade econômica específica. O ambiente digital das plataformas não pode ser visto como um ambiente único.",
+        "objecao_char_start": 38924,
+        "objecao_char_end": 39108,
+        "resposta_char_start": 39109,
+        "resposta_char_end": 39305,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "opõe-se à mera importação de modelos regulatórios internacionais sem adaptação ao mercado brasileiro",
+      "falante": "Gabriella Dorlhiac",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Meramente importar o que foi feito em outros lugares nem sempre funciona e pode ter efeitos contrários aos objetivos.",
+          "char_start": 40131,
+          "char_end": 40248,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Como já foi colocado, sabemos que obenchmarkinternacional — aqui olhamos especificamente o que está sendo feito na Europa com o DMA — é importantíssimo",
+        "resposta": "Acho que o que precisa ser olhado é se o ecossistema digital do Brasil é específico, quais especificidades essa regulação quer endereçar e se o que tem sido feito em outros países funciona ou não dentro do mercado brasileiro.",
+        "objecao_char_start": 39307,
+        "objecao_char_end": 39458,
+        "resposta_char_start": 39801,
+        "resposta_char_end": 40026,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende avaliação crítica da atribuição de regulação de plataformas à ANATEL, considerando a atuação do CADE",
+      "falante": "Gabriella Dorlhiac",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Um ponto que opaperda ICC já continha é como vai ser definida a autoridade regulatória. A proposta menciona a ANATEL, e acho que neste ponto existe uma reflexão a ser feita: se o CADE, por exemplo, já não está fazendo um trabalho que abarca todos os desafios que se impõem",
+          "char_start": 40250,
+          "char_end": 40522,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "questiona a adequação do critério de receita de 70 milhões para definir acesso essencial em plataformas digitais",
+      "falante": "Gabriella Dorlhiac",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O texto coloca uma receita operacional na ordem de pelo menos 70 milhões. Isso reflete efetivamente acesso essencial, considerada a pluralidade de mercados e de atividades diferentes?",
+          "char_start": 40771,
+          "char_end": 40954,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende regulação equilibrada de plataformas digitais que proteja a concorrência sem inibir inovação ou prejudicar pequenos empreendedores",
+      "falante": "Gabriella Dorlhiac",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Digo de novo que o desafio da regulação econômica das plataformas é como equilibrar a necessidade de proteger a livre concorrência de práticas abusivas — isso tem que ser endereçada de maneira muito incisiva — sem passar uma régua que tente colocar todos dentro de uma mesma lógica, porque as atividades econômicas são muito diferentes, e sem atrasar ou impedir inovações e benefícios aos consumidores.",
+          "char_start": 40955,
+          "char_end": 41357,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "A regulação bem desenhada das plataformas digitais atrai inovação e investimento, em vez de afastá-los.",
+      "falante": "Mark Buse",
+      "turno_id": 14,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "é possível que isso deixe o Brasil ligeiramente menos atraente",
+        "resposta": "nós discordamos de quem quer que tenha afirmado isso",
+        "objecao_char_start": 54234,
+        "objecao_char_end": 54296,
+        "resposta_char_start": 54300,
+        "resposta_char_end": 54352,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "O modelo regulatório brasileiro para plataformas digitais deve ser dinâmico, flexível e construído com cooperação setorial.",
+      "falante": "Mark Buse",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "na Austrália, existe o que eles chamam de código",
+          "char_start": 54953,
+          "char_end": 55001,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nos Estados Unidos e no Reino Unido, provavelmente haveria uma forma de codificação um pouco diferente por conta do sistema",
+          "char_start": 55003,
+          "char_end": 55126,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia modelo de atualização da lei de concorrência com base em princípios, como o alemão",
+      "falante": "Paula Farani",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Existe o modelo alemão, que é simplesmente uma atualização da Lei de Defesa da Concorrência.",
+          "char_start": 56049,
+          "char_end": 56141,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere que o Brasil adote sistema ex post com base em eficiências, inspirado na Austrália e na Inglaterra",
+      "falante": "Paula Farani",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Por meio de estudos de mercado, como faz a Austrália, por meio de códigos de conduta, como faz a Inglaterra, talvez devamos trazer essas atualizações para dentro do nosso arcabouço jurídico e aí ter um sistemaex post, com base em eficiências, que traga essas atualizações.",
+          "char_start": 56597,
+          "char_end": 56869,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a dupla competência entre ANATEL e CADE por gerar sobreposição e ineficiência",
+      "falante": "Paula Farani",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a história do CADE é cheia desses conflitos",
+          "char_start": 58780,
+          "char_end": 58823,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende concentrar as competências regulatórias em uma única agência para evitar duplicidade",
+      "falante": "Paula Farani",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Houve décadas de conflitos do CADE com o Banco Central e, depois, do CADE com a ANATEL",
+          "char_start": 58825,
+          "char_end": 58911,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adaptação de modelos regulatórios internacionais ao contexto brasileiro, em vez de cópia direta",
+      "falante": "Beatriz Falcão",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A vantagem de o Brasil estar um pouco atrás nessa discussão é justamente que podemos aprender com os modelos que estão sendo discutidos e entender o que tem ou não funcionado.",
+          "char_start": 60270,
+          "char_end": 60445,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "a mera cópia de um modelo regulatório de outro país, não considerando as especificidades do mercado brasileiro, não é uma boa maneira de se resolver qualquer problema regulatório que nós tenhamos.",
+        "resposta": "a mera cópia de um modelo regulatório de outro país, não considerando as especificidades do mercado brasileiro, não é uma boa maneira de se resolver qualquer problema regulatório que nós tenhamos.",
+        "objecao_char_start": 60479,
+        "objecao_char_end": 60675,
+        "resposta_char_start": 60479,
+        "resposta_char_end": 60675,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a publicidade digital já opera com autorregulação eficaz e que o papel da ANATEL não está claro",
+      "falante": "Beatriz Falcão",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a publicidade digital é um dos mercados que se autorregula no Brasil.",
+          "char_start": 60916,
+          "char_end": 60985,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não está claro, para nós, qual seria o papel da ANATEL na parte de publicidade digital.",
+        "resposta": "não está claro, para nós, qual seria o papel da ANATEL na parte de publicidade digital.",
+        "objecao_char_start": 60770,
+        "objecao_char_end": 60857,
+        "resposta_char_start": 60770,
+        "resposta_char_end": 60857,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a adoção de boas práticas internacionais no encaminhamento do PL",
+      "falante": "Janaina Camilo Vendramini",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "11 milhões de possíveis empreendedores",
+          "char_start": 61776,
+          "char_end": 61814,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a clarificação dos papéis da ANATEL e de outros órgãos para evitar sobreposições e assegurar eficácia regulatória",
+      "falante": "Janaina Camilo Vendramini",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "é importante considerarmos o aprendizado já obtido do modelo internacional",
+          "char_start": 62332,
+          "char_end": 62406,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a regulação de plataformas no Brasil deve ser baseada em desafios específicos do mercado nacional",
+      "falante": "Gabriella Dorlhiac",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "cada país, quando foi criar sua legislação, sua regulação, tinha preocupações específicas sobre o funcionamento da sua economia, do seu mercado",
+          "char_start": 63339,
+          "char_end": 63482,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se à criação de dupla responsabilidade regulatória entre ANATEL e CADE por risco de insegurança jurídica",
+      "falante": "Gabriella Dorlhiac",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Um ponto importante é não serem criadas duplas responsabilidades que gerem mais insegurança jurídica e falta de clareza sobre como isso vai ser feito",
+          "char_start": 64385,
+          "char_end": 64534,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a regulação do ambiente digital não imponha custos ou barreiras que reduzam a competitividade das empresas brasileiras no mercado internacional",
+      "falante": "Clarissa Furtado",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "as empresas brasileiras que atuam no comércio internacional não percam competitividade",
+          "char_start": 64801,
+          "char_end": 64887,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende regulação clara e segmentada para o ecossistema digital, com distinção de atuação entre diferentes órgãos reguladores",
+      "falante": "Clarissa Furtado",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "São muitos osplayers, e as muitas situações diferentes não podem ser tratadas, do meu ponto de vista, com um remédio único, com uma só solução",
+          "char_start": 65741,
+          "char_end": 65883,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aprofundamento do debate legislativo sobre mercados digitais com base em impactos reais e diversidade de vozes",
+      "falante": "Any Ortiz",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os números que o SEBRAE traz aqui são muito impressionantes e mostram como nós temos um povo empreendedor, embora muitas vezes esses empreendimentos acabem não avançando.",
+          "char_start": 67882,
+          "char_end": 68052,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "recebemos uma série de pedidos para ampliar o debate para outras empresas e também para a própria sociedade civil, que quer se manifestar, quer colocar sua opinião e apresentar sugestões, quer ter também um espaço para poder falar e ser ouvida aqui nesta Casa.",
+          "char_start": 67168,
+          "char_end": 67428,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Janaina Camilo Vendramini",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que isso vai encarecer o produto"
+    },
+    {
+      "turno_id": 14,
+      "falante": "Mark Buse",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "há um consenso de que, se esse mercado for mais aberto, isso na verdade vai atrair inovação, vai atrair maisstartups, vai buscar essas inovações"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9722,
+  "taxa_contraponto": 0.1667,
+  "taxa_ancoragem_fundamento": 0.9767
+}

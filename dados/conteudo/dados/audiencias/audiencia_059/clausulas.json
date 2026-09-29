@@ -1,0 +1,89 @@
+{
+  "sample_id": 59,
+  "n_opinioes": 26,
+  "n_decompostas": 26,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 13,
+  "n_ancorados": 9,
+  "n_rejeitados": 4,
+  "n_incoerentes": 0,
+  "n_preservados": 6,
+  "n_perdidos": 3,
+  "por_tipo": {
+    "escopo": 2,
+    "atribuicao": 1,
+    "prazo": 3,
+    "condicao": 2,
+    "excecao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "opiniao": "considera que exigir documento inexistente na legislação revitima os pescadores",
+      "nucleo": "considerou que exigir documento inexistente na legislação revitima os pescadores",
+      "tipo": "atribuicao",
+      "trecho": "segundo a legislação",
+      "char_start": 10689,
+      "char_end": 10709
+    },
+    {
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "opiniao": "sugere que superintendências emitam declarações com base em pastas físicas e corrijam dados no sistema",
+      "nucleo": "sugeriu que superintendências emitam declarações com base em pastas físicas e corrijam dados no sistema",
+      "tipo": "escopo",
+      "trecho": "nos Estados",
+      "char_start": 12065,
+      "char_end": 12076
+    },
+    {
+      "falante": "Jeanne Gomes da Silva",
+      "turno_id": 10,
+      "opiniao": "defende a estabilidade da Pasta da Pesca para assegurar continuidade nas políticas e proteção aos pescadores artesanais",
+      "nucleo": "defendeu a estabilidade da Pasta da Pesca para assegurar continuidade nas políticas e proteção aos pescadores artesanais",
+      "tipo": "condicao",
+      "trecho": "esperamos que, no decorrer desse Governo, não ocorram tantas mudanças na Pasta da Pesca",
+      "char_start": 32973,
+      "char_end": 33060
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Benilde Madeira",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "com vínculos documentais mínimos",
+      "opiniao": "defende que pescadores tradicionais com vínculos documentais mínimos sejam priorizados no reconhecimento de direitos, sem prejuízo para outros"
+    },
+    {
+      "turno_id": 2,
+      "falante": "Benilde Madeira",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "quando o documento não era exigido anteriormente e é hoje inacessível",
+      "opiniao": "rejeita o fechamento de processos indenizatórios por falta de declaração do MAPA, quando o documento não era exigido anteriormente e é hoje inacessível"
+    },
+    {
+      "turno_id": 8,
+      "falante": "Diógenes Lemainski",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "sem comprovação da qualidade do pescado",
+      "opiniao": "considera temerária a retomada da pesca sem comprovação da qualidade do pescado"
+    },
+    {
+      "turno_id": 12,
+      "falante": "Lelis Barreiros",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em cidades atingidas",
+      "opiniao": "defende a retomada da metodologia de reconhecimento de pescadores em cidades atingidas, para incluir trabalhadores sem documentação"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.6667,
+  "taxa_ancoragem": 0.6923,
+  "taxa_opiniao_intacta": 0.8846
+}

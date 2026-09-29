@@ -1,0 +1,82 @@
+{
+  "sample_id": 78,
+  "n_opinioes": 20,
+  "n_decompostas": 20,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 7,
+  "n_ancorados": 5,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 4,
+  "por_tipo": {
+    "escopo": 1,
+    "atribuicao": 1,
+    "condicao": 2,
+    "prazo": 1
+  },
+  "perdas": [
+    {
+      "falante": "Enio Verri",
+      "turno_id": 1,
+      "opiniao": "opõe-se à privatização de refinarias e unidades como a SIX, por considerar que prejudica a população e reduz a arrecadação estadual e municipal",
+      "nucleo": "opôs-se à privatização de refinarias e unidades como a SIX",
+      "tipo": "escopo",
+      "trecho": "no caso da REPAR, no caso da SIX e principalmente agora com as notícias de que já está aberto o processo de privatização também das refinarias do Estado do Paraná",
+      "char_start": 1471,
+      "char_end": 1633
+    },
+    {
+      "falante": "Henrique Jager",
+      "turno_id": 27,
+      "opiniao": "critica a falta de transparência na venda da SIX para empresa com histórico polêmico",
+      "nucleo": "criticou a falta de transparência na venda da SIX para empresa com histórico polêmico",
+      "tipo": "atribuicao",
+      "trecho": "Investigações internas da PETROBRAS no passado, pelo que se conseguiu apurar, apontam que essa empresa tem problema",
+      "char_start": 34714,
+      "char_end": 34829
+    },
+    {
+      "falante": "Deyvid Souza Bacelar da Silva",
+      "turno_id": 39,
+      "opiniao": "rejeita a privatização por manter política de preços que beneficia o setor privado e prejudica economias locais",
+      "nucleo": "rejeita a privatização por manter política de preços que beneficia o setor privado e prejudica economias locais",
+      "tipo": "condicao",
+      "trecho": "Se essas refinarias são privatizadas",
+      "char_start": 54385,
+      "char_end": 54421
+    },
+    {
+      "falante": "Deyvid Souza Bacelar da Silva",
+      "turno_id": 49,
+      "opiniao": "defende a criação de uma CPI para investigar privatizações da PETROBRAS por indícios de corrupção e favorecimento",
+      "nucleo": "defendeu a criação de uma CPI para investigar privatizações da PETROBRAS por indícios de corrupção e favorecimento",
+      "tipo": "prazo",
+      "trecho": "não nesta legislatura",
+      "char_start": 77724,
+      "char_end": 77745
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 31,
+      "falante": "Deyvid Souza Bacelar da Silva",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "por risco de desabastecimento",
+      "opiniao": "opõe-se à privatização de refinarias da PETROBRAS por risco de desabastecimento e prejuízo ao abastecimento nacional"
+    },
+    {
+      "turno_id": 31,
+      "falante": "Deyvid Souza Bacelar da Silva",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "e prejuízo ao abastecimento nacional",
+      "opiniao": "opõe-se à privatização de refinarias da PETROBRAS por risco de desabastecimento e prejuízo ao abastecimento nacional"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.2,
+  "taxa_ancoragem": 0.7143,
+  "taxa_opiniao_intacta": 0.8
+}

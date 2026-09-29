@@ -1,0 +1,130 @@
+{
+  "sample_id": 60,
+  "n_opinioes": 25,
+  "n_decompostas": 25,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 15,
+  "n_ancorados": 8,
+  "n_rejeitados": 7,
+  "n_incoerentes": 0,
+  "n_preservados": 3,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "condicao": 3,
+    "escopo": 5
+  },
+  "perdas": [
+    {
+      "falante": "Fernando Silveira",
+      "turno_id": 14,
+      "opiniao": "defende diálogo tripartite para políticas de remuneração no SUS",
+      "nucleo": "defendeu diálogo tripartite para políticas de remuneração no SUS",
+      "tipo": "condicao",
+      "trecho": "na medida em que exista diálogo continuado entre os setores interessados",
+      "char_start": 16670,
+      "char_end": 16742
+    },
+    {
+      "falante": "Fernando Silveira",
+      "turno_id": 14,
+      "opiniao": "defende autonomia de gestores locais na aquisição de dispositivos médicos",
+      "nucleo": "defendeu autonomia de gestores locais na aquisição de dispositivos médicos",
+      "tipo": "escopo",
+      "trecho": "para dispositivos",
+      "char_start": 18762,
+      "char_end": 18779
+    },
+    {
+      "falante": "Fernando Silveira",
+      "turno_id": 14,
+      "opiniao": "defende revisão do QualiSUS Cardio para assegurar eficácia, segurança e disponibilidade de dispositivos",
+      "nucleo": "defendeu revisão do QualiSUS Cardio para assegurar eficácia, segurança e disponibilidade de dispositivos",
+      "tipo": "escopo",
+      "trecho": "para dispositivos cardiovasculares",
+      "char_start": 19544,
+      "char_end": 19578
+    },
+    {
+      "falante": "João Fernando Monteiro Ferreira",
+      "turno_id": 20,
+      "opiniao": "defende a manutenção de estratégias de prevenção cardiovascular em pacientes idosos",
+      "nucleo": "defende a manutenção de estratégias de prevenção cardiovascular em pacientes idosos",
+      "tipo": "escopo",
+      "trecho": "inclusive no paciente idoso",
+      "char_start": 47738,
+      "char_end": 47765
+    },
+    {
+      "falante": "Maíra Batista Botelho",
+      "turno_id": 22,
+      "opiniao": "defende a inclusão de outras associações da indústria nacional no debate sobre tecnologias em saúde cardiovascular",
+      "nucleo": "defendeu a inclusão de outras associações da indústria nacional no debate sobre tecnologias em saúde cardiovascular",
+      "tipo": "escopo",
+      "trecho": "principalmente da indústria nacional",
+      "char_start": 53504,
+      "char_end": 53540
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Alexandre Kalache",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "sob pena de se tornar um problema social grave",
+      "opiniao": "O envelhecimento populacional deve ser enfrentado com políticas públicas adequadas, sob pena de se tornar um problema social grave."
+    },
+    {
+      "turno_id": 4,
+      "falante": "Alexandre Kalache",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "quando as condições estruturais impedem o autocuidado",
+      "opiniao": "Não se deve culpar a vítima pelas doenças crônicas quando as condições estruturais impedem o autocuidado."
+    },
+    {
+      "turno_id": 14,
+      "falante": "Fernando Silveira",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para dispositivos médicos",
+      "opiniao": "critica o nivelamento pelo menor preço na Tabela SUS por comprometer qualidade"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Fernanda de Carvalho",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "a idosos",
+      "opiniao": "defende ações imediatas para garantir diagnóstico precoce e tratamento cardiovascular a idosos, com ênfase na prevenção do sedentarismo"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Fernanda de Carvalho",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para enfrentar o envelhecimento populacional",
+      "opiniao": "defende a revisão urgente do Programa QualiSUS Cardio para enfrentar o envelhecimento populacional"
+    },
+    {
+      "turno_id": 18,
+      "falante": "Fernanda de Carvalho",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "especialmente idosos",
+      "opiniao": "defende garantia de diagnóstico precoce e tratamento adequado para pacientes do SUS, especialmente idosos"
+    },
+    {
+      "turno_id": 21,
+      "falante": "Dr. Zacharias Calil",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que não haja interferência indevida na fila",
+      "opiniao": "defende a regulação adequada no SUS para garantir acesso justo e prioridade conforme o Estatuto do Idoso, sem interferência indevida na fila"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.375,
+  "taxa_ancoragem": 0.5333,
+  "taxa_opiniao_intacta": 0.8
+}

@@ -1,0 +1,91 @@
+{
+  "sample_id": 77,
+  "n_falantes": 4,
+  "n_parlamentares": 1,
+  "n_convidados": 3,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 0,
+  "n_opinioes_gold": 10,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.7499085031108942,
+      "participacao_civil_turnos": 0.46153846153846156,
+      "citacao_civil_opinioes": 0.8,
+      "citacao_civil_pessoas": 0.75,
+      "deficit_civil": -0.05009149688910586
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [],
+  "falantes_silenciados": [],
+  "falantes": [
+    {
+      "nome": "Elias Vaz",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 14,
+      "n_palavras": 4100,
+      "turnos": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26
+      ]
+    },
+    {
+      "nome": "Rafael Calabria",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 6,
+      "n_palavras": 5766,
+      "turnos": [
+        3,
+        13,
+        17,
+        21,
+        23,
+        25
+      ]
+    },
+    {
+      "nome": "Marcos Bicalho dos Santos",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 3270,
+      "turnos": [
+        5,
+        15,
+        19
+      ]
+    },
+    {
+      "nome": "Sebastião Melo",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 3258,
+      "turnos": [
+        7,
+        9,
+        11
+      ]
+    }
+  ]
+}

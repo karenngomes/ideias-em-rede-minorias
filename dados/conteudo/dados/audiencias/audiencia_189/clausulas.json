@@ -1,0 +1,101 @@
+{
+  "sample_id": 189,
+  "n_opinioes": 24,
+  "n_decompostas": 24,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 15,
+  "n_ancorados": 13,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 7,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "escopo": 6,
+    "condicao": 6,
+    "atribuicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Luizio Felipe Rocha",
+      "turno_id": 2,
+      "opiniao": "defende aumento do limite de faturamento para enquadramento como gatekeeper para evitar regulação excessiva",
+      "nucleo": "defendeu aumento do limite de faturamento para enquadramento como gatekeeper para evitar regulação excessiva",
+      "tipo": "escopo",
+      "trecho": "no volume de negócios global",
+      "char_start": 11426,
+      "char_end": 11454
+    },
+    {
+      "falante": "Luizio Felipe Rocha",
+      "turno_id": 2,
+      "opiniao": "defende proibição específica de práticas como anti-steering, self-preferencing e controle sobre pagamentos em lojas de aplicativos",
+      "nucleo": "defendeu proibição específica de práticas como anti-steering, self-preferencing e controle sobre pagamentos em lojas de aplicativos",
+      "tipo": "escopo",
+      "trecho": "Com relação às lojas de aplicativos dos sistemas operacionais móveis",
+      "char_start": 12923,
+      "char_end": 12991
+    },
+    {
+      "falante": "Adriana Laporta Cardinali Straube",
+      "turno_id": 6,
+      "opiniao": "defende mecanismo de exceção com ônus da prova invertido para plataformas",
+      "nucleo": "defende mecanismo de exceção com ônus da prova invertido para plataformas",
+      "tipo": "condicao",
+      "trecho": "para provar à autoridade que a prática em questão é pró-competitiva, eficiente e benéfica para os consumidores",
+      "char_start": 26618,
+      "char_end": 26728
+    },
+    {
+      "falante": "Adriana Laporta Cardinali Straube",
+      "turno_id": 10,
+      "opiniao": "rejeita regulação no comércio eletrônico brasileiro por ser contraproducente",
+      "nucleo": "rejeitou a regulação no comércio eletrônico brasileiro por ser contraproducente",
+      "tipo": "condicao",
+      "trecho": "não só injustificada, como também passível de trazer muito mais custos do que benefícios",
+      "char_start": 30559,
+      "char_end": 30647
+    },
+    {
+      "falante": "Ricardo Medeiros de Castro",
+      "turno_id": 16,
+      "opiniao": "defende abordagem moderada no antitruste com foco no bem-estar do consumidor e impacto sobre preços, em vez de fairness sem evidência de dano concorrencial",
+      "nucleo": "defendeu uma abordagem moderada no antitruste com foco no bem-estar do consumidor e no impacto sobre preços",
+      "tipo": "condicao",
+      "trecho": "a depender de como for aplicado",
+      "char_start": 48790,
+      "char_end": 48821
+    },
+    {
+      "falante": "Adriana Laporta Cardinali Straube",
+      "turno_id": 24,
+      "opiniao": "defende cautela na importação de modelos regulatórios estrangeiros",
+      "nucleo": "Defendeu cautela na importação de modelos regulatórios estrangeiros",
+      "tipo": "condicao",
+      "trecho": "eventualmente, na importação do que está sendo feito lá fora",
+      "char_start": 56601,
+      "char_end": 56661
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 2,
+      "falante": "Luizio Felipe Rocha",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que seja sensata",
+      "opiniao": "apoia regulação específica e equilibrada para gatekeepers digitais para conter práticas abusivas e promover inovação"
+    },
+    {
+      "turno_id": 2,
+      "falante": "Luizio Felipe Rocha",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "outro",
+      "trecho": "porque pode haver distorção em relação aos modelos de negócios específicos",
+      "opiniao": "rejeita uso de receita bruta como base para taxas ou definição de gatekeepers por desequilibrar impacto entre modelos de negócio"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5385,
+  "taxa_ancoragem": 0.8667,
+  "taxa_opiniao_intacta": 0.75
+}

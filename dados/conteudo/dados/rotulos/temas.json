@@ -1,0 +1,106 @@
+{
+  "versao": "1.0",
+  "data": "2026-09-28",
+  "procedencia": "Agrupamento manual por Thalia Almeida sobre o campo `metadados.assunto` das 206 amostras do PublicHearingBR_LDS.",
+  "criterio": "Partição EXCLUSIVA por assunto convocado: cada audiência pertence a exatamente um tema. Diferente de `data/rotulos_minorias.json`, onde as categorias são não exclusivas e uma audiência pode estar em várias.",
+  "relacao_com_minorias": "Os dois arquivos são independentes e não devem ser derivados um do outro. Um tema como `pessoa_idosa` aqui reúne 8 audiências; a categoria de mesmo nome na rotulagem de minorias reúne 10, porque lá o critério admite sobreposição (a 41 e a 60 entram em minorias por outro eixo). Colapsar os dois faria o contraste M vs C ser testado contra a sua própria definição.",
+  "revisao_humana": "PENDENTE. Agrupamento feito à mão por uma pessoa só, sem segunda opinião. Ver ANOTACAO.md, tarefa T4.",
+  "temas": {
+    "saude_sus": {
+      "rotulo": "Saúde pública e SUS",
+      "ids": [6, 15, 28, 50, 56, 60, 62, 68, 76, 91, 105, 114, 123, 129, 140, 146, 157, 159, 164, 171, 181, 182, 185, 190, 199, 202, 204]
+    },
+    "educacao": {
+      "rotulo": "Educação, universidades e formação profissional",
+      "ids": [18, 24, 31, 51, 92, 93, 111, 125, 137, 141, 151, 156, 160, 163, 168, 174, 184, 196]
+    },
+    "pessoa_idosa": {
+      "rotulo": "Direitos das pessoas idosas",
+      "ids": [9, 52, 63, 73, 110, 127, 149, 155]
+    },
+    "deficiencia_inclusao": {
+      "rotulo": "Pessoas com deficiência, autismo e inclusão",
+      "ids": [5, 12, 37, 53, 94, 96, 176, 200]
+    },
+    "mulheres_genero": {
+      "rotulo": "Mulheres e igualdade de gênero",
+      "ids": [58, 89, 119, 121, 154, 165, 188, 203]
+    },
+    "criancas_juventude": {
+      "rotulo": "Crianças, adolescentes e juventude",
+      "ids": [29, 30, 69, 74, 75, 84, 90, 100, 147]
+    },
+    "povos_tradicionais": {
+      "rotulo": "Povos indígenas, quilombolas e tradicionais",
+      "ids": [20, 82, 136, 139, 172]
+    },
+    "racismo_direitos_humanos": {
+      "rotulo": "Racismo, diversidade e direitos humanos",
+      "ids": [16, 41, 48, 85, 170, 180, 187, 206]
+    },
+    "trabalho_previdencia": {
+      "rotulo": "Trabalho, previdência e FGTS",
+      "ids": [3, 10, 19, 43, 55, 65, 66, 67, 72, 87, 112, 120, 128, 135, 142, 162]
+    },
+    "economia_tributacao": {
+      "rotulo": "Economia, tributação, crédito e seguros",
+      "ids": [7, 8, 21, 26, 38, 79, 86, 117, 143, 144, 152, 153, 175, 193]
+    },
+    "energia": {
+      "rotulo": "Energia e transição energética",
+      "ids": [2, 23, 70, 71, 78, 104, 133, 134, 173, 178]
+    },
+    "meio_ambiente_clima": {
+      "rotulo": "Meio ambiente e mudanças climáticas",
+      "ids": [11, 14, 44, 115, 118, 158, 169, 183, 186]
+    },
+    "desastres_calamidades": {
+      "rotulo": "Desastres ambientais e calamidades",
+      "ids": [13, 49, 59, 107, 109, 113]
+    },
+    "transporte_mobilidade": {
+      "rotulo": "Transporte, rodovias e mobilidade",
+      "ids": [36, 42, 77, 102, 131, 161, 177, 194]
+    },
+    "tecnologia_ia_dados": {
+      "rotulo": "Tecnologia, IA e proteção de dados",
+      "ids": [27, 54, 88, 138, 166, 192, 197]
+    },
+    "internet_desinformacao": {
+      "rotulo": "Internet, redes sociais e desinformação",
+      "ids": [22, 33, 34, 46, 179, 189, 195]
+    },
+    "seguranca_publica": {
+      "rotulo": "Segurança pública, sistema prisional e crimes digitais",
+      "ids": [57, 98, 103, 145, 201, 205]
+    },
+    "democracia_judiciario": {
+      "rotulo": "Democracia, eleições e Judiciário",
+      "ids": [1, 17, 35, 39, 80]
+    },
+    "cultura_esporte_turismo": {
+      "rotulo": "Cultura, esporte e turismo",
+      "ids": [40, 47, 64, 101, 108, 130, 150]
+    },
+    "moradia_fundiario": {
+      "rotulo": "Moradia, reforma agrária e regularização fundiária",
+      "ids": [45, 83, 124]
+    },
+    "agricultura_mineracao": {
+      "rotulo": "Agricultura, mineração e indústria",
+      "ids": [25, 61, 95, 97, 106, 122, 126]
+    },
+    "telecomunicacoes": {
+      "rotulo": "Telecomunicações e radiodifusão",
+      "ids": [4, 132]
+    },
+    "relacoes_internacionais": {
+      "rotulo": "Relações internacionais, guerras e refugiados",
+      "ids": [32, 81, 99, 116, 198]
+    },
+    "bem_estar_animal": {
+      "rotulo": "Proteção e bem-estar animal",
+      "ids": [148, 167, 191]
+    }
+  }
+}

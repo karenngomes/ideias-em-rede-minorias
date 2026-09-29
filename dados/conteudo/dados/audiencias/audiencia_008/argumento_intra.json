@@ -1,0 +1,143 @@
+{
+  "sample_id": 8,
+  "n_opinioes": 6,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 6,
+  "n_fundamentos_propostos": 7,
+  "n_fundamentos_ancorados": 7,
+  "n_fundamentos_com_numero": 2,
+  "por_tipo": {
+    "dado": 5,
+    "autoridade": 2
+  },
+  "n_contrapontos_propostos": 2,
+  "n_com_contraponto": 2,
+  "n_rejeitados": 0,
+  "itens": [
+    {
+      "opiniao": "defende a segregação patrimonial de recursos de clientes e instituições, mesmo sem previsão legal",
+      "falante": "Otávio Ribeiro Damaso",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "há mecanismos de não fazer o papel que o dispositivo legal iria cumprir, mas criar mecanismos que tentam segregar um pouco essa questão dos recursos vis-à-vis entre cliente e instituição",
+          "char_start": 11778,
+          "char_end": 11964,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Isso não saiu no relatório final",
+        "resposta": "Na ausência do dispositivo legal, há mecanismos de não fazer o papel que o dispositivo legal iria cumprir, mas criar mecanismos que tentam segregar um pouco essa questão dos recursos vis-à-vis entre cliente e instituição",
+        "objecao_char_start": 11668,
+        "objecao_char_end": 11700,
+        "resposta_char_start": 11744,
+        "resposta_char_end": 11964,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "apoia a retomada da discussão sobre segregação patrimonial no Congresso",
+      "falante": "Otávio Ribeiro Damaso",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Se o Congresso tiver o interesse de retomar essa discussão, o Banco Central e outros órgãos do Governo, acredito que a própria CVM, teriam interesse em contribuir com essa discussão aqui",
+          "char_start": 14357,
+          "char_end": 14543,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a criação do crime de gestão fraudulenta de exchange para proteger o sistema financeiro de forma mais abrangente do que o estelionato.",
+      "falante": "Thiago Bueno",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a criação do art. 171-A, que é uma modalidade de estelionato envolvendo criptoativos, ao passo que havia outra proposta de alteração da lei de crimes contra o sistema financeiro que incluiu o art. 4º-A, que previa a criação do crime de gestão fraudulenta deexchange",
+          "char_start": 22406,
+          "char_end": 22671,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Associação Nacional dos Procuradores da República apresentou um documento em que era feita essa comparação e defendida a aprovação desse art. 4º-A",
+          "char_start": 23401,
+          "char_end": 23549,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a implementação de mecanismos de segregação patrimonial, mesmo sem base legal",
+      "falante": "Otávio Ribeiro Damaso",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "isso é extremamente importante, porque você não mistura os recursos da entidade com o recurso do investidor",
+          "char_start": 56113,
+          "char_end": 56220,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A única coisa que daria uma proteção legal plena seria naturalmente o dispositivo legal.",
+        "resposta": "Nós estamos estudando como podemos fazer — naturalmente, sem a qualidade que existiria se houvesse a definição no arcabouço legal —, como podemos trabalhar algum tipo de segregação para evitar que o recurso da entidade se misture com o recurso do investidor.",
+        "objecao_char_start": 55944,
+        "objecao_char_end": 56032,
+        "resposta_char_start": 55595,
+        "resposta_char_end": 55853,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "autoriza a operação de bancos e corretoras com criptomoedas sob supervisão prudencial",
+      "falante": "Otávio Ribeiro Damaso",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Uma vez que entre no perímetro do olhar do Banco Central, não vemos problema em a grande maioria das instituições financeiras também operarem com isso, naturalmente seguindo as regras prudenciais.",
+          "char_start": 57780,
+          "char_end": 57976,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que a extensão das obrigações de registro, identificação de clientes e repasse de informações às exchanges é essencial para o combate a crimes com criptoativos.",
+      "falante": "Thiago Bueno",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a partir da edição da lei de dezembro do ano passado, com a regulamentação a ser feita pelo Banco Central, também terão como obrigação",
+          "char_start": 61229,
+          "char_end": 61363,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.3333,
+  "taxa_ancoragem_fundamento": 1.0
+}

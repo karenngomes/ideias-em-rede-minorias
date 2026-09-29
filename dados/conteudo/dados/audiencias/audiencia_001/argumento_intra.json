@@ -1,0 +1,1071 @@
+{
+  "sample_id": 1,
+  "n_opinioes": 41,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 38,
+  "n_fundamentos_propostos": 77,
+  "n_fundamentos_ancorados": 70,
+  "n_fundamentos_com_numero": 9,
+  "por_tipo": {
+    "dado": 61,
+    "autoridade": 9
+  },
+  "n_contrapontos_propostos": 15,
+  "n_com_contraponto": 14,
+  "n_rejeitados": 8,
+  "itens": [
+    {
+      "opiniao": "defende a liberdade de expressão plena, sem censura baseada em termos como 'fake news' ou 'discurso de ódio', e critica o uso político desses conceitos para restringir direitos",
+      "falante": "Eli Vieira Araujo Júnior",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em nenhum lugar da lei brasileira está escrito que é crime produzir ou propagarfake news, desinformação ou discurso de ódio",
+          "char_start": 5408,
+          "char_end": 5531,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o Marco Civil da Internet",
+          "char_start": 6543,
+          "char_end": 6568,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "discurso de ódio incluiria a injúria racial, que é crime;fake newsincluiria calúnia e difamação, que são crimes",
+          "char_start": 6079,
+          "char_end": 6190,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "mentir, por si só, não é um crime no Brasil nem deve ser",
+          "char_start": 9684,
+          "char_end": 9740,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Ao contrário do que disse o então Ministro da Justiça Flávio Dino, no Twitter — declaração pela qual ele foi corrigido pelo sistema de notas da comunidade, repetida agora como esperança pelo Presidente Lula de que mentira deve ser crime",
+        "resposta": "mentir, por si só, não é um crime no Brasil nem deve ser",
+        "objecao_char_start": 9444,
+        "objecao_char_end": 9680,
+        "resposta_char_start": 9684,
+        "resposta_char_end": 9740,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende o direito de expressão para todas as ideias, inclusive as consideradas ruins, como forma de fortalecer a democracia por meio do debate",
+      "falante": "Michael Shellenberger",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Existe um autor muito famoso, um linguista, que se chama Noam Chomsky. Eu acho que saiu um artigo sobre Noam Chomsky naFolha de S.Paulona semana passada. Ele era um intelectual judeu que defendeu os direitos de os nazistas falarem.",
+          "char_start": 36180,
+          "char_end": 36411,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A ideia de defender os direitos de os nazistas, racistas e fascistas falarem, é que eles, sim, têm direitos que precisamos respeitar, mas queremos debater e vencer as ideias ruins deles",
+          "char_start": 36565,
+          "char_end": 36750,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A ideia de defender a democracia com censura é a forma de desinformação mais grave do mundo.",
+        "resposta": "É horrível a ideia de proteger a democracia com censura. É incrível!",
+        "objecao_char_start": 37271,
+        "objecao_char_end": 37363,
+        "resposta_char_start": 37363,
+        "resposta_char_end": 37431,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a justificativa de censura para proteger a democracia, argumentando que isso inviabiliza a liberdade de expressão sobre eleições",
+      "falante": "Michael Shellenberger",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "como vão saber, se houver um problema com a eleição, se não houver liberdade de expressão sobre assuntos das eleições? Se pensarem por um momento, não pode haver. Então, não pode haver democracia e essa forma de censura.",
+          "char_start": 37581,
+          "char_end": 37801,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de desmontar o sistema de censura para manter a compatibilidade com a democracia brasileira",
+      "falante": "Michael Shellenberger",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "esse sistema de censura ainda existe. E eu acho que ele não é compatível com o sistema democrático brasileiro.",
+          "char_start": 38536,
+          "char_end": 38646,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a censura sem identificação clara do conteúdo e sem direito de defesa é inconstitucional",
+      "falante": "Marcel van Hattem",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não foi apresentada URL, ou seja, o link postado por essa conta verificada e que fosse retirada dentro de 1 hora, sob ameaça de uma multa de 150 mil reais",
+          "char_start": 42167,
+          "char_end": 42321,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a Corte mesmo indicou que o conteúdo não foi compartilhado pelo usuário no Twitter",
+          "char_start": 46101,
+          "char_end": 46183,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a liberdade de expressão para todos, inclusive para quem o critica, e rejeita o uso do Estado para perseguição",
+      "falante": "Marcel van Hattem",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "muitos dos que hoje estão censurados me criticaram no passado, muitos de forma injusta, muitos inclusive de forma ofensiva. Não obstante isso, eu defendo o direito deles de continuarem a falar o que pensam",
+          "char_start": 49220,
+          "char_end": 49425,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "muitos dos que hoje estão censurados me criticaram no passado, muitos de forma injusta, muitos inclusive de forma ofensiva",
+        "resposta": "Não obstante isso, eu defendo o direito deles de continuarem a falar o que pensam",
+        "objecao_char_start": 49220,
+        "objecao_char_end": 49342,
+        "resposta_char_start": 49344,
+        "resposta_char_end": 49425,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Brasil pode liderar globalmente a defesa da liberdade de expressão com o apoio de atores internacionais",
+      "falante": "Marcel van Hattem",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os problemas que estamos enfrentando no Brasil são problemas enfrentados na União Europeia, em países específicos — Michael Schellenberg, que, na semana passada, eu tive o privilégio de acompanhar, tem falado do exemplo da Escócia, da Irlanda —, são problemas enfrentados no Canadá, na Austrália, nos Estados Unidos — claro, no Brasil também",
+          "char_start": 51434,
+          "char_end": 51775,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Elon Musk tem muito, mas muito mais a divulgar por aí, ainda mais agora com a ajuda do Congresso americano",
+          "char_start": 53012,
+          "char_end": 53118,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a realização de uma futura audiência com contraditório e critica a ausência dele nesta, considerando-a desequilibrada",
+      "falante": "Arlindo Chinaglia",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Com quatro oradores falando 15 minutos, mais o autor do requerimento, para nós é impossível responder a tudo aquilo que gostaríamos.",
+          "char_start": 55505,
+          "char_end": 55637,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "condena a ameaça de estupro e morte contra familiares de ministros como ataque grave à democracia e à dignidade",
+      "falante": "Arlindo Chinaglia",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Que estuprem e matem as filhas dos ordinários Ministros",
+          "char_start": 55913,
+          "char_end": 55968,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a Comissão faça uma moção de repúdio contra Elon Musk por antissemitismo e promoção de conteúdo nazista",
+      "falante": "Arlindo Chinaglia",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Repercussão. Na sexta, a Walt Disney Co., a Warner Bros. Discovery, a Apple, a Lions Gate anunciaram a suspensão dos anúncios no X. No dia anterior, a IBM seguiu pelo mesmo caminho e cancelou toda a publicidade na plataforma, depois que um relatório constatou que seus anúncios foram colocados ao lado de conteúdo que promovia Adolf Hitler e o Partido Nazista.",
+          "char_start": 57610,
+          "char_end": 57970,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a postura de Elon Musk de se colocar acima das leis democráticas e de atacar autoridades eleitas, como a presidente da Comissão Europeia e o primeiro-ministro do Canadá",
+      "falante": "Arlindo Chinaglia",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Ele atacou e criticou essa presidente alemã, atacou o Primeiro-Ministro do Canadá atribuindo-lhe semelhança a Hitler. Ele atacou também a Austrália.",
+          "char_start": 58633,
+          "char_end": 58781,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Simplesmente, norankingde democracias doThe Economist, a Alemanha ocupa o 12º lugar, Canadá, 13º, Austrália, 14º.",
+          "char_start": 58782,
+          "char_end": 58895,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o Ministro Alexandre de Moraes como resistência legítima à tentativa de golpe e rejeita ataques baseados em mentiras",
+      "falante": "Arlindo Chinaglia",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "colocar-se no direito de, mentindo, tentar desmoralizar aquele que faz —  no caso do Ministro Alexandre de Moraes — resistência em defesa da democracia...",
+          "char_start": 60413,
+          "char_end": 60567,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "entende que as falas e ações aqui discutidas fazem parte de uma tentativa de golpe contra a democracia brasileira",
+      "falante": "Arlindo Chinaglia",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu quero terminar dizendo: hoje, o que está sendo falado aqui tem tudo a ver com a tentativa de golpe.",
+          "char_start": 60569,
+          "char_end": 60671,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a regulação de plataformas digitais com proteção à liberdade de expressão, desde que as decisões judiciais sejam discutidas no âmbito processual e sem censura prévia",
+      "falante": "Florentino Neto",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós temos o Regimento do Supremo Tribunal Federal, nós temos a legislação processual. Acredito que é no âmbito do processo que efetivamente se deve discutir as decisões judiciais.",
+          "char_start": 61906,
+          "char_end": 62085,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu não vejo em nenhuma decisão de nenhum magistrado, principalmente do Ministro Alexandre de Moraes, um desejo, um direcionamento para buscar implantar censura neste País.",
+        "resposta": "Tudo o que efetivamente ele decide pode ser discutido no âmbito do processo e pode ser discutido via recurso no próprio Supremo Tribunal Federal.",
+        "objecao_char_start": 62087,
+        "objecao_char_end": 62258,
+        "resposta_char_start": 62259,
+        "resposta_char_end": 62404,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a atuação de ministros do STF configura censura inconstitucional e representa um ataque aos princípios democráticos",
+      "falante": "General Girão",
+      "turno_id": 32,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um jornalista português que foi impedido de entrar no Brasil, quase totalmente. Depois da grita das redes sociais, ele acabou sendo liberado",
+          "char_start": 64678,
+          "char_end": 64818,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "opõe-se a censura sem amparo legal explícito, por considerá-la arbitrária e perigosa para a liberdade de expressão",
+      "falante": "Mario Frias",
+      "turno_id": 36,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "Há uma turma aí entende muito bem de mentira e ignora o fato de hoje haver jornalistas cerceados do seu direito, assim como Senadores e Deputados.",
+        "resposta": "O Brasil vive hoje à sombra de não saber onde pisar. O Brasil não sabe os limites da democracia. Quando não há limites na lei muito específicos, acontece exatamente o que estamos vendo.",
+        "objecao_char_start": 67071,
+        "objecao_char_end": 67217,
+        "resposta_char_start": 67274,
+        "resposta_char_end": 67459,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a censura determinada por Alexandre de Moraes fere a soberania nacional por obrigar empresas estrangeiras a violar a legislação brasileira",
+      "falante": "Filipe Barros",
+      "turno_id": 42,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "O Marco Civil da Internet é muito claro, salvo engano, no art.19, quando diz que, se houver uma afronta à legislação, Deputado Marcel, censura-se aquela publicação específica mediante uma decisão judicial motivada, alegando os motivos pelos quais aquela publicação afrontou a legislação brasileira.",
+          "char_start": 73784,
+          "char_end": 74082,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "São decisões genéricas, como: \"Retire do ar, por tempo indeterminado, o perfil de sicrano, beltrano...\"",
+          "char_start": 74203,
+          "char_end": 74306,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Logo que o Michael veio a público, junto com o Eli, o David e agora o Glenn, logo que esses arquivos dos chamados Twitter Files vieram a público, a Esquerda inteira, junto com uma parcela considerável da imprensa, disse que era uma afronta à soberania nacional, porque dois jornalistas americanos estavam tentando interferir na política interna brasileira.",
+        "resposta": "Eu não vi essas críticas, Deputado Arlindo, quando o Glenn, no seu papel de jornalista, falou da chamada \"vaza-jato\". Na época, a Esquerda toda aplaudia. Agora, a Esquerda está aqui, unida, junto com uma parcela da imprensa, o consórcio da censura, dizendo que é uma afronta à soberania nacional, quando, na verdade, Sr. Presidente, é o contrário.",
+        "objecao_char_start": 72811,
+        "objecao_char_end": 73167,
+        "resposta_char_start": 73169,
+        "resposta_char_end": 73516,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a atuação de Elon Musk ao expor supostas interferências do STF na política e questiona a inação do Congresso frente ao poder de Alexandre de Moraes",
+      "falante": "Marcelo Moraes",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Elon Musk diz que membros do STF tiraram Lula da cadeia para que ele pudesse concorrer nas eleições. É evidente que ele está falando sobre o fato de Fachin, indicado pela Dilma para o cargo, ter encontrado apenas um erro no processo; toda a roubalheira ele deixou de lado. Ele encontrou um erro de CEP, um erro de endereço, para viabilizar a eleição do Lula.",
+          "char_start": 75514,
+          "char_end": 75872,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o material de campanha, por exemplo, do Presidente Bolsonaro não ter chegado a grande parte da mídia do Nordeste",
+          "char_start": 76080,
+          "char_end": 76192,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "éramos proibidos de chamar o Lula de ex-presidiário, ele que tinha passado 500 dias na cadeia",
+          "char_start": 76274,
+          "char_end": 76367,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "éramos proibidos de fazer uma ligação de Lula com Maduro, amizade que se confirmou após o Lula chegar à Presidência da República",
+          "char_start": 76371,
+          "char_end": 76499,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "considera Alexandre de Moraes um ditador por perseguir opositores e ordenar prisões sem devido processo legal",
+      "falante": "Marcelo Moraes",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vamos falar aqui de Roberto Jefferson, vamos falar aqui de Daniel Silveira, vamos falar aqui de milhares de pessoas que foram presas à frente do quartel por estarem cantando o Hino Nacional.",
+          "char_start": 76690,
+          "char_end": 76880,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "acusa o Presidente do Senado de omissão por não agir contra Alexandre de Moraes",
+      "falante": "Marcelo Moraes",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Congresso Nacional hoje não toma providências porque nós temos um covarde sentado à Presidência do Senado Federal, e esse covarde está a serviço... é um fantoche do sistema aqui no Brasil.",
+          "char_start": 77078,
+          "char_end": 77268,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de impeachment de Alexandre de Moraes por suposto abuso de poder",
+      "falante": "Marcelo Moraes",
+      "turno_id": 44,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Bolsonaro perdeu seus direitos políticos por abuso do poder político, por ter conversado com embaixadores. Será que por isso também não cabe oimpeachmentdo Ministro Alexandre de Moraes?",
+          "char_start": 77561,
+          "char_end": 77746,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que há censura sistemática por decisão judicial oculta contra conservadores nas redes sociais, impulsionada por ordens do Ministro Alexandre de Moraes",
+      "falante": "Bia Kicis",
+      "turno_id": 46,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Qualquer pessoa hoje que seja de direita, que seja conservadora, que seja apoiadora do Presidente Bolsonaro sofre esse tipo de censura das redes sociais, com banimentos, retiradas de publicações, páginas suspensas, tudo sem explicação",
+          "char_start": 79285,
+          "char_end": 79519,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "ordens que partem do Judiciário — aqui vamos nominar —, de um determinado Ministro, o Ministro Alexandre de Moraes, Relator do inquérito do fim do mundo, que já dura 5 anos e não tem perspectiva de acabar, do inquérito das milícias digitais e todos esses inquéritos ilegais, abusivos",
+          "char_start": 79845,
+          "char_end": 80128,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "as plataformas deveriam dizer que esse banimento seria em razão de violações à política da plataforma, escondendo, ocultando o que seria por uma decisão, um despacho, um decreto de autoridade judiciária",
+          "char_start": 80565,
+          "char_end": 80767,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de transparência e liberdade de expressão contra censura e decisões centralizadas no Supremo",
+      "falante": "Afonso Hamm",
+      "turno_id": 48,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há uma preocupação com as liberdades. Há uma preocupação com a verdadeira democracia.",
+          "char_start": 82591,
+          "char_end": 82676,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Está todo mundo abafado. Está todo mundo sufocado. Tiraram o ímpeto das pessoas. Ninguém se anima a postar.",
+          "char_start": 82677,
+          "char_end": 82784,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Um caminhoneiro não se anima a fazer um movimento. Há quanto tempo nós tivemos greves, liberdades? Todo mundo tem medo hoje de falar, de se expressar.",
+          "char_start": 83717,
+          "char_end": 83867,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não se trata de enfrentamento do Supremo ou de um Ministro",
+        "resposta": "mas de defender a vida, de defender a dignidade. Nós estamos aqui defendendo o nosso País, porque está todo mundo amordaçado, absolutamente amordaçado, e temeroso.",
+        "objecao_char_start": 83493,
+        "objecao_char_end": 83551,
+        "resposta_char_start": 83553,
+        "resposta_char_end": 83716,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a democracia depende da liberdade e da crítica, e rejeita a censura promovida por decisões monocráticas, omissões do STF e iniciativas governamentais como a Procuradoria da Democracia",
+      "falante": "Adriana Ventura",
+      "turno_id": 50,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Supremo Tribunal, que deveria ser o guardião da Constituição, adota inúmeras medidas lamentáveis e não segue o devido processo legal",
+          "char_start": 85113,
+          "char_end": 85247,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "criar uma Procuradoria Nacional da União de Defesa da Democracia, o Gabinete do Amor e outras coisas mais",
+          "char_start": 85718,
+          "char_end": 85823,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Vemos o PL da Fake News crescer, a Lei da Mordaça ser criada e a censura ser feita",
+          "char_start": 85877,
+          "char_end": 85959,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "que sofreu com a ditadura",
+        "resposta": "ao jogar os outros na fogueira e se calar diante desses absurdos",
+        "objecao_char_start": 85564,
+        "objecao_char_end": 85589,
+        "resposta_char_start": 85594,
+        "resposta_char_end": 85658,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a imunidade parlamentar como proteção a opiniões políticas e critica a seletividade na aplicação da justiça conforme o espectro político",
+      "falante": "Gilvan da Federal",
+      "turno_id": 52,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Presidente Lula foi condenado em três instâncias por corrupção e lavagem de dinheiro",
+          "char_start": 89011,
+          "char_end": 89097,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O art. 53 é bem claro: \"Os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões (...)\"",
+          "char_start": 88885,
+          "char_end": 89008,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Se você for de partidos como o PT e o PSOL, você pode tudo! Pode tudo! Inclusive, andar com dinheiro na cueca.",
+        "resposta": "Agora, se você estiver no espectro da Direita, pelo que falar, vai virar réu, vai ser ameaçado de busca e apreensão, de processo do qual não pode ter acesso aos autos.",
+        "objecao_char_start": 89307,
+        "objecao_char_end": 89417,
+        "resposta_char_start": 89418,
+        "resposta_char_end": 89585,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende o debate público e a liberdade de imprensa como meios para corrigir alegadas distorções, rejeitando a criminalização de críticas",
+      "falante": "Eli Vieira Araujo Júnior",
+      "turno_id": 54,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Esse é o princípio da publicidade dos processos judiciais. A Constituição reitera isso no art. 93.",
+          "char_start": 93683,
+          "char_end": 93781,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Há também a Lei de Abuso de Autoridade, a Lei nº 13.869, de 2019. Diz a lei, no art. 25:",
+          "char_start": 93783,
+          "char_end": 93871,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "O Sr. Chinaglia também nos trouxe uma fala — ele não disse quem apresentou essa fala — de que era uma clara incitação à violência contra filhas e famílias de certas pessoas.",
+        "resposta": "Ora, com todo o respeito ao Sr. Deputado, nenhum dos pais da ideia da liberdade de expressão, de John Milton e John Stuart Mill a George Orwell — que também considero um pai —, acharia que essa expressão é livre, a chamar diretamente pela violência.",
+        "objecao_char_start": 91706,
+        "objecao_char_end": 91879,
+        "resposta_char_start": 91880,
+        "resposta_char_end": 92129,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o sistema de censura no Brasil é o mais extremo entre os países democráticos e rejeita a alegação de que a liberdade de expressão seja um valor importado",
+      "falante": "Glenn Edward Greenwald",
+      "turno_id": 60,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não se pode comparar o que está acontecendo aqui no Brasil, com relação à liberdade de expressão, com qualquer outro país no mundo democrático.",
+          "char_start": 103469,
+          "char_end": 103612,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O que está acontecendo aqui é bem mais extremo do que o que acontece em qualquer outro país no mundo democrático, mesmo naqueles países com uma grande tradição de censura, como a Alemanha, o Reino Unido e outros países da Europa.",
+          "char_start": 103612,
+          "char_end": 103841,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Foi isto que o jornalTheNew York Timesdisse, quando denunciou o Ministro Alexandre de Moraes, que afirma estar protegendo a democracia brasileira: que, na realidade, ele é uma grande ameaça à democracia brasileira.",
+          "char_start": 103842,
+          "char_end": 104056,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Há uma tentativa de argumentar que o modelo robusto da liberdade de expressão só existe nos Estados Unidos, que é uma ideia norte-americana. Para tentar defender a liberdade de expressão aqui no Brasil, há uma forma de imperialismo tentando importar ideias dos Estados Unidos para o Brasil.",
+        "resposta": "Primeiramente, essa premissa é falsa.",
+        "objecao_char_start": 102654,
+        "objecao_char_end": 102944,
+        "resposta_char_start": 102945,
+        "resposta_char_end": 102982,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "considera irrelevante a crítica ao caráter de Elon Musk no debate sobre censura, destacando que o problema ultrapassa figuras individuais",
+      "falante": "Glenn Edward Greenwald",
+      "turno_id": 60,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Alguns Deputados atacaram o caráter e as opiniões do Elon Musk, chamando-o, por exemplo, de antissemita.",
+          "char_start": 104826,
+          "char_end": 104930,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Mas qual é a relevância do caráter do Elon Musk para esse debate? Absolutamente nenhuma.",
+          "char_start": 105138,
+          "char_end": 105226,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que sua postura crítica ao poder judiciário é coerente, independentemente da orientação política afetada pela censura",
+      "falante": "Glenn Edward Greenwald",
+      "turno_id": 60,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Naquela época, eu era convidado dos Deputados da Esquerda. Ninguém da Esquerda me criticou dizendo que eu estaria interferindo na soberania brasileira. Muito pelo contrário, eles me aplaudiram, organizaram eventos para me elogiar e me deram vários prêmios.",
+          "char_start": 105672,
+          "char_end": 105928,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Naquela época, eu estava fazendo exatamente o que estou fazendo agora, estava criticando um juiz muito poderoso, estava criticando o STF por apoiar esse sistema, que considero um abuso. Também estava defendendo o direito universal ao devido processo. Era a mesma coisa que estou fazendo agora.",
+          "char_start": 105930,
+          "char_end": 106223,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "alerta que o sistema de censura é politicamente neutro em sua aplicação e pode ser usado contra qualquer grupo, incluindo a esquerda",
+      "falante": "Glenn Edward Greenwald",
+      "turno_id": 60,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Mas eu acho que é importante notar que o sistema de censura poderia ser utilizado muito facilmente contra a Esquerda.",
+          "char_start": 106488,
+          "char_end": 106605,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Estão acontecendo críticas a Israel. Estou sendo censurado, chamado de antissemita. Também o PCO chamou o Ministro Alexandre de Moraes deskinheadde toga, e eles também foram censurados em todas as plataformas.",
+          "char_start": 106606,
+          "char_end": 106815,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a imprensa tem o dever de proteger a liberdade de expressão e rejeita o apoio da grande mídia ao sistema de censura",
+      "falante": "Glenn Edward Greenwald",
+      "turno_id": 60,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Acho que a obrigação principal dos jornalistas é evitar ser politizado, ou seja, é não ficar do lado de um partido ou de outro, de esquerda ou de direita. Mas os jornalistas têm como obrigação defender alguns valores democráticos, principalmente a liberdade de expressão e a imprensa livre, e ser contra a censura.",
+          "char_start": 106974,
+          "char_end": 107288,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Acho que é muito triste ver a grande mídia brasileira apoiando o Alexandre de Moraes, apoiando o sistema de censura. É muito ruim ver jornalistas apoiando a censura.",
+          "char_start": 107290,
+          "char_end": 107455,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a criminalização de erros como desinformação, por abrir caminho para censura arbitrária baseada na leitura de intenções",
+      "falante": "Michael Shellenberger",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu tenho cem páginas de referências para corrigir tudo.",
+          "char_start": 108201,
+          "char_end": 108256,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Depois, eu fiz uma correção. Logo depois da postagem, eu pedi desculpas.",
+          "char_start": 108452,
+          "char_end": 108524,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Um advogado do PT disse que eu tinha mentido, o que é uma coisa muito diferente.",
+        "resposta": "Por quê? Porque a ideia é que ele pode ler a mente de outras pessoas, entender os motivos. E ele tinha feito isto, porque ele tem poderes muito especiais, aparentemente: disse que era mentira, que era desinformação. Por quê? Porque acusar uma pessoa de fazer desinformação é criar um pretexto de censura.",
+        "objecao_char_start": 108574,
+        "objecao_char_end": 108654,
+        "resposta_char_start": 108763,
+        "resposta_char_end": 109067,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica a existência de comitês ou autoridades com poder para julgar intenções e punir com base em acusações de mentira",
+      "falante": "Michael Shellenberger",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Imaginem num país, como o que o Brasil quer ser, haver uma situação em que juízes ou pessoas de um núcleo de Inteligência estejam decidindo — decidindo! — isso, tentando ler as mentes das pessoas para saber quem está falando mentira e quem somente cometeu um erro.",
+          "char_start": 109069,
+          "char_end": 109333,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "E aí?Vão processar as pessoas que esse núcleo de Inteligência decide?",
+        "resposta": "Cara, essa é uma coisa que já vimos, chama-se: inquisição espanhola.",
+        "objecao_char_start": 109334,
+        "objecao_char_end": 109403,
+        "resposta_char_start": 109405,
+        "resposta_char_end": 109473,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a liberdade de expressão como essencial e alinhada com os anseios da maioria da população brasileira",
+      "falante": "Michael Shellenberger",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu sei — de falar com muita gente lá no Brasil — que a grande maioria dos brasileiros quer democracia e quer a liberdade de expressão.",
+          "char_start": 110206,
+          "char_end": 110340,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a acusação de desequilíbrio na audiência, afirmando que o acordo regimental foi cumprido",
+      "falante": "Marcel van Hattem",
+      "turno_id": 64,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "quando fizemos o acordo para decidir sobre esta audiência pública, eu deixei aberta a possibilidade da indicação de um nome para fecharmos os seis painelistas que cabem, de acordo com o Regimento Interno, em uma audiência pública.",
+          "char_start": 112154,
+          "char_end": 112384,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Deputado Arlindo Chinaglia nos indicou uma palestrante, uma painelista, a Sra. Estela Aranha, que, por algum motivo, não sei qual, não veio, mas havia confirmado participação.",
+          "char_start": 112418,
+          "char_end": 112595,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "São seis os painelistas. Vamos manter a audiência pública de acordo com o que diz o Regimento Interno.",
+          "char_start": 112886,
+          "char_end": 112988,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "afirma que a censura no Brasil é real, arbitrária e baseada em decisões sob sigilo",
+      "falante": "Marcel van Hattem",
+      "turno_id": 64,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A própria Ministra Cármen Lúcia falou, concordando com a decisão daquela resolução, que aceitaria censura apenas por um período, mas, sim, que era censura, era contra a Constituição.",
+          "char_start": 114336,
+          "char_end": 114518,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "há limites para aquilo que nós podemos dizer, e limites que não são claros, porque estão na cabeça de um juiz — ou de um ditador, porque não merece alcunha de juiz nem de Ministro.",
+          "char_start": 114826,
+          "char_end": 115006,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a censura política e jurídica, covarde, porque os processos são todos sob sigilo, precisa acabar no País.",
+          "char_start": 120247,
+          "char_end": 120352,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a repercussão internacional exige que o Brasil escolha entre ditadura e recuo na censura",
+      "falante": "Marcel van Hattem",
+      "turno_id": 64,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós obtivemos, com a publicação do Twitter Files, uma repercussão internacional, porque Elon Musk decidiu compartilhar — algo que ele, aliás, já vinha dizendo, já vinha reclamando, mas o trabalho jornalístico muito bem feito permitiu que ele colocasse ao mundo exatamente a situação em que hoje nós vivemos.",
+          "char_start": 116107,
+          "char_end": 116414,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Isso vale para o Supremo Tribunal Federal e vale para o Lula também.Eles vão ter que decidir. Ou nós somos ditadores aos olhos do mundo e vamos continuar fazendo o que estamos fazendo, ou nós vamos finalmente recuar e talvez fazer um novo pacto com os brasileiros e oferecer paz outra vez para a Nação.",
+          "char_start": 116714,
+          "char_end": 117016,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "argumenta que as ações de Alexandre de Moraes expõem globalmente os perigos da censura, servindo como alerta ao mundo",
+      "falante": "Marcel van Hattem",
+      "turno_id": 64,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "é por meio das atitudes de um homem chamado Alexandre de Moraes que o Brasil está, ao mundo, de uma forma muito escrachada, debochada, demonstrando o perigo da censura e do fim da liberdade de expressão no século XXI.",
+          "char_start": 119216,
+          "char_end": 119433,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "merece inclusive omemede Darth Vader compartilhado por Elon Musk nas redes sociais",
+          "char_start": 119130,
+          "char_end": 119212,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "há problemas de respeito à liberdade de expressão na Europa, nos Estados Unidos, para não falar nas ditaduras de fato.",
+        "resposta": "Mas nos países em que hoje há democracia, de uma forma sutil, se está subvertendo a democracia. De uma forma sutil, estão criando comitês de verdade.",
+        "objecao_char_start": 118066,
+        "objecao_char_end": 118184,
+        "resposta_char_start": 118185,
+        "resposta_char_end": 118334,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a ampliação do debate sobre liberdade de expressão, mandato de ministros do STF e decisões monocráticas como questão nacional, com impacto na sociedade",
+      "falante": "Lucas Redecker",
+      "turno_id": 65,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é uma pauta do Congresso Nacional como um todo",
+          "char_start": 121050,
+          "char_end": 121096,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 6,
+      "falante": "Eli Vieira Araujo Júnior",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "os Twitter Files Brasil pelas investigações mais amplas do meu colega David Ágape, em parceria com o nosso colaborador americano Michael Shellenberger"
+    },
+    {
+      "turno_id": 6,
+      "falante": "Eli Vieira Araujo Júnior",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "humoristas como Leo Lins já foram alvo de censura no Brasil, e já temos uma 'lei antipiadas' sancionada pelo Presidente Lula"
+    },
+    {
+      "turno_id": 6,
+      "falante": "Eli Vieira Araujo Júnior",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "odiado também não deve ser crime"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Marcel van Hattem",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "não há nenhum URL, um link indicado, portanto, não havia como cumprir a ordem judicial"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Marcel van Hattem",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que faltam ao Michael Shellenberger, ao Eli Vieira e ao David Ágape mostrarem as provas, os documentos de que, de fato, ocorreram essas ordens ilegais"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Marcel van Hattem",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o juiz, para não aceitar que estava errado... disse que não, que ele estava certo, que, na verdade, era para tirar a página inteira"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Marcel van Hattem",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "vão pagar multa de 20 mil reais — que pode ser descontada direto do salário se eu não tiver na conta esse dinheiro —, ou seja, ele disse 'se reincidir, eu vou bloquear de novo', sendo que eu nunca tinha sido bloqueado"
+    },
+    {
+      "turno_id": 36,
+      "falante": "Mario Frias",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "não cita o Código Civil, não cita o Código Penal, não cita a nossa Constituição, não cita o Marco Civil da Internet — que, como você mesmo disse, é muito completo —, não cita a Lei Geral de Proteção de Dados"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9268,
+  "taxa_contraponto": 0.3415,
+  "taxa_ancoragem_fundamento": 0.9091
+}

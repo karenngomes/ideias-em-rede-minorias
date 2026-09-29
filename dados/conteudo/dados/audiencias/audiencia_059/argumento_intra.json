@@ -1,0 +1,615 @@
+{
+  "sample_id": 59,
+  "n_opinioes": 26,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 25,
+  "n_fundamentos_propostos": 45,
+  "n_fundamentos_ancorados": 42,
+  "n_fundamentos_com_numero": 7,
+  "por_tipo": {
+    "dado": 42
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 3,
+  "n_rejeitados": 4,
+  "itens": [
+    {
+      "opiniao": "defende que documentos como carteiras de pesca, INSS e seguro defeso de 2015 ou 2016 sejam aceitos como prova de atividade para fins de indenização e reconhecimento",
+      "falante": "Benilde Madeira",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "quem recebeu o seguro defeso em 2015 ou 2016",
+          "char_start": 4534,
+          "char_end": 4578,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "as contribuições do INSS que a pessoa fez",
+          "char_start": 4482,
+          "char_end": 4523,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "uma carteira de pesca",
+          "char_start": 3382,
+          "char_end": 3403,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que pescadores tradicionais com vínculos documentais mínimos sejam priorizados no reconhecimento de direitos, sem prejuízo para outros",
+      "falante": "Benilde Madeira",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "pelo menos um papelzinho — de 2015 para 2016, isso tinha que valer em primeiro lugar",
+          "char_start": 6387,
+          "char_end": 6471,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quem tem um resquício de documento pelo menos, uma carteira de pesca",
+          "char_start": 3335,
+          "char_end": 3403,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "se todo mundo é pescador, isso eu não vou dizer",
+        "resposta": "mas, para quem estava como pescador e tinha um pequeno documento — pelo menos um papelzinho — de 2015 para 2016, isso tinha que valer em primeiro lugar",
+        "objecao_char_start": 6271,
+        "objecao_char_end": 6318,
+        "resposta_char_start": 6320,
+        "resposta_char_end": 6471,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita o fechamento de processos indenizatórios por falta de declaração do MAPA, quando o documento não era exigido anteriormente e é hoje inacessível",
+      "falante": "Benilde Madeira",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Muitos processos foram fechados sem terem sido concluídos, alegando-se a falta de uma declaração do MAPA que, outrora, nem era necessária e foi apresentada a tempo",
+          "char_start": 6809,
+          "char_end": 6972,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "considera que exigir documento inexistente na legislação revitima os pescadores",
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "exigem um documento que não existe na legislação, um documento para o qual não há previsão na legislação do Ministério da Pesca",
+          "char_start": 10544,
+          "char_end": 10671,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Ministério da Pesca crie com urgência procedimento para emissão de declaração de tempo de carteira no SisRGP",
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "por que o Ministério, de forma urgente, não poderia criar um procedimento para que todo pescador, e não só o do Rio Doce, pudesse, no sistema, no SisRGP, tirar uma declaração do tempo ativo que ele tem de pesca?",
+          "char_start": 11041,
+          "char_end": 11252,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "afirma que exigência de comprovação de tempo de carteira é arbitrária e que órgãos deveriam ser mais sensíveis",
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "essa ausência de informação tão simples, que é um direito básico, bem como a necessidade de comprovar esse tempo de carteira, eu considero uma exigência muito complicada e arbitrária",
+          "char_start": 11662,
+          "char_end": 11844,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "afirma que pescadores sem data de primeiro registro são prejudicados por falha do Governo",
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um problema que era do próprio Governo está sendo transferido para os pescadores, porque quem deixou de colocar a data de primeiro registro foram os servidores",
+          "char_start": 12481,
+          "char_end": 12640,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere que superintendências emitam declarações com base em pastas físicas e corrijam dados no sistema",
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é só ver, na pasta de cada pescador, a data de primeiro registro, corrigir no sistema e gerar o documento",
+          "char_start": 12727,
+          "char_end": 12832,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação urgente de câmara técnica no Ministério para tratar de atingidos por grandes empreendimentos",
+      "falante": "Vanessa Gaudereto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é que o Ministério, de forma urgente, crie uma câmara técnica específica para tratar das questões dos atingidos por grandes empreendimentos",
+          "char_start": 13617,
+          "char_end": 13756,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Ministério Público Federal deve intervir para coibir abusos da Renova e garantir direitos dos pescadores",
+      "falante": "Padre João",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os pescadores, não; os pescadores não retomam nada",
+          "char_start": 14769,
+          "char_end": 14819,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a repactuação dos danos causados por mineradoras só seja válida com a participação direta dos pescadores e atingidos",
+      "falante": "Leleco Pimentel",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós fizemos questão de fazer uma forte incursão com o Deputado Padre João aqui na Assembleia",
+          "char_start": 17628,
+          "char_end": 17720,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós pudemos nos sentar com vocês, junto com as lideranças indígenas e os atingidos e atingidas",
+          "char_start": 17402,
+          "char_end": 17496,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Sem a participação dos atingidos, não há condições de isso ser apoiado, nem pelo Governo Federal, nem por nós",
+          "char_start": 22410,
+          "char_end": 22519,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a certificação oficial do tempo de atividade dos pescadores como direito e condição para acesso a benefícios e aposentadoria",
+      "falante": "Leleco Pimentel",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vanessa, que me antecedeu, chamou atenção para uma necessidade: que o Ministério da Pesca, num sistema público, transparente, certifique o tempo que cada pescador e cada pescadora têm de profissão",
+          "char_start": 19265,
+          "char_end": 19461,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "esse documento importante servirá não só para a vida, para acesso aos direitos, aos programas, mas também para a garantia da aposentadoria, que é sagrada para quem tanto se dedica ao trabalho",
+          "char_start": 19506,
+          "char_end": 19697,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eles estão sendo revitimizados, como disse também a Vanessa, com essa necessidade de prova para o tempo de carteira",
+          "char_start": 19777,
+          "char_end": 19892,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a homenagem do Governador de Minas Gerais a Michel Temer e acusa o governo estadual de aliar-se às mineradoras em detrimento dos pescadores",
+      "falante": "Leleco Pimentel",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, Deputado Padre João, completam 100 dias esse ataque que queriam fazer, esse golpe do dia 8 de janeiro",
+          "char_start": 21545,
+          "char_end": 21652,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "aqui assistimos ao Zema apontar medalha de grão-mestre para aquele que destruiu tudo e oportunizou que o Bolsonaro viesse a ocupar o cargo de Presidente da República",
+          "char_start": 21656,
+          "char_end": 21821,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ele vai oferecer a medalha de grão-mestre para Temer, o destruidor de todas as legislações trabalhistas",
+          "char_start": 21823,
+          "char_end": 21926,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Zema está a serviço das mineradoras. O partido dele é a FIEMG, que tomou o lado das poderosas que lucram cada vez que esses crimes vão sendo arrastados e vão retirando o direito das pessoas",
+          "char_start": 21147,
+          "char_end": 21338,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "condena a morosidade do Judiciário por agravar o sofrimento dos pescadores atingidos",
+      "falante": "Padre João",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Já são 7 anos",
+          "char_start": 23127,
+          "char_end": 23140,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "considera temerária a retomada da pesca sem comprovação da qualidade do pescado",
+      "falante": "Diógenes Lemainski",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não existem resultados conclusivos e favoráveis que atestem que o pescado está apto para o consumo humano",
+          "char_start": 27291,
+          "char_end": 27396,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a exclusão de pescadores e lideranças comunitárias dos processos de decisão",
+      "falante": "Diógenes Lemainski",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não vemos, por exemplo, a participação do Benilde, do Lelis e de tantos outros companheiros ou lideranças comunitárias que acompanharam as câmaras técnicas ao longo desses anos",
+          "char_start": 27634,
+          "char_end": 27810,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a estabilidade da Pasta da Pesca para assegurar continuidade nas políticas e proteção aos pescadores artesanais",
+      "falante": "Jeanne Gomes da Silva",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Porque toda vez que ocorre uma mudança, não é só para nós como funcionários, mas também para os pescadores e principalmente para os pescadores artesanais.",
+          "char_start": 33062,
+          "char_end": 33216,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende revisão da legislação previdenciária para garantir direitos a pescadores atingidos, reconhecendo sua condição de vítimas",
+      "falante": "Padre João",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu acho que, para efeito de previdência, tínhamos que visitar essa lei, esse normativo, para permitir não apenas a cessão de benefícios temporários, mas também para resolver questões previdenciárias.",
+          "char_start": 34098,
+          "char_end": 34297,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu acho que há uma medida provisória em que contemplamos os atingidos, quando foram desenquadrados também do CadÚnico.",
+          "char_start": 33978,
+          "char_end": 34096,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a retomada da metodologia de reconhecimento de pescadores em cidades atingidas, para incluir trabalhadores sem documentação",
+      "falante": "Lelis Barreiros",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Com isso, está sendo perseguida também essa categoria, de pessoas simples, humildes, que não têm documento ou nunca tiveram documento.",
+          "char_start": 38768,
+          "char_end": 38902,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há essa perseguição. Como você disse, ela exige documento da Secretaria da Pesca de Belo Horizonte, do antigo MAPA. Hoje, graças a Deus, nós somos do Ministério da Pesca. Por que a Secretaria não emite esse documento se nós temos os protocolos de antes de 2015?",
+          "char_start": 36463,
+          "char_end": 36724,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Muitos que já tinham adquirido esse direito tiveram negado o direito de serem reconhecidos, e até hoje não são reconhecidos. Foram reconhecidos pela metodologia, mas as criminosas Samarco, Vale e BHP não os reconhecem, não dão seus direitos.",
+          "char_start": 35721,
+          "char_end": 35962,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe que o Ministério Público do Trabalho reconheça os pescadores como povos tradicionais e atue por sua dignidade",
+      "falante": "Padre João",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a atividade pesqueira surgiu, acho, antes da agricultura familiar",
+          "char_start": 40857,
+          "char_end": 40922,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia autodeclaração de pescadores como solução ideal, mas não imediata",
+      "falante": "Diógenes Lemainski",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quanto à sugestão de o próprio pescador, o próprio usuário final emitir sua declaração ou um histórico, eu acho que esse é o ideal dos mundos.",
+          "char_start": 45665,
+          "char_end": 45807,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Enquanto não estivermos com a casa organizada, por mais que sejam boas as intenções, nós não conseguiremos implementar isso em curto prazo.",
+          "char_start": 45808,
+          "char_end": 45947,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Enquanto não estivermos com a casa organizada, por mais que sejam boas as intenções, nós não conseguiremos implementar isso em curto prazo.",
+        "resposta": "Tem havido um esforço bastante considerável por parte da equipe, por parte dos servidores do Ministério, para a composição desses sistemas, para arrumar toda a base cadastral.",
+        "objecao_char_start": 45808,
+        "objecao_char_end": 45947,
+        "resposta_char_start": 45948,
+        "resposta_char_end": 46123,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende tratamento diferenciado para pescadores atingidos em políticas de auxílio e segurança social",
+      "falante": "Diógenes Lemainski",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quanto a dar um tratamento diferenciado, tanto do ponto de vista de auxílio para esse público quanto aos mecanismos de segurança social, nós estamos plenamente de acordo.",
+          "char_start": 46218,
+          "char_end": 46388,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe formalizar a participação do Deputado Padre João em diligências para assegurar o respeito à dignidade dos pescadores em Minas Gerais",
+      "falante": "Leleco Pimentel",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não temos uma Secretaria ou recebemos algum apoio por parte do Governo Estadual em relação aos problemas aqui levantados",
+          "char_start": 47877,
+          "char_end": 47997,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a ausência. Hoje ela é muito sentida por nós, não só pelo abandono, mas também pela importância do Ministério Público Federal, que é, afinal, quem promove as oitivas e leva para a repactuação temas importantes, como é a atividade dos pescadores",
+          "char_start": 48230,
+          "char_end": 48474,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a omissão do Ministério Público Federal e defende ações concretas para proteger os direitos dos atingidos",
+      "falante": "Padre João",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vamos para 8 anos, e essas pessoas ainda estão sendo penalizadas.",
+          "char_start": 50869,
+          "char_end": 50934,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "O Judiciário que me perdoe,",
+        "resposta": "mas essa omissão só favorece os criminosos e continua penalizando os atingidos.",
+        "objecao_char_start": 50935,
+        "objecao_char_end": 50962,
+        "resposta_char_start": 50963,
+        "resposta_char_end": 51042,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a adoção de medidas mais severas contra a Fundação Renova por perseguição a atingidos",
+      "falante": "Lelis Barreiros",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em 2015 entrei com ação judicial no Ministério do Trabalho em Belo Horizonte",
+          "char_start": 51219,
+          "char_end": 51295,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Procurei ainda o Ministério Público em Valadares e sugeri a proibição",
+          "char_start": 51519,
+          "char_end": 51588,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o IEF liberou parcialmente essa pesca",
+          "char_start": 51659,
+          "char_end": 51696,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 6,
+      "falante": "Leleco Pimentel",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "nós conseguimos aprovar a ida dos Deputados Estaduais e também dos Deputados Federais que compõem a Comissão Externa — destaco nossa liderança e a do Deputado Padre João — no dia 4, quando nós estaremos em Aimorés"
+    },
+    {
+      "turno_id": 6,
+      "falante": "Leleco Pimentel",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns podem dizer que a repactuação pode prosseguir sem a presença direta dos atingidos"
+    },
+    {
+      "turno_id": 12,
+      "falante": "Lelis Barreiros",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Queremos saber de vocês o que pode ser feito por esses atingidos de forma geral, não só pescadores, mas também ilheiros, ribeirinhos. Eles têm muitas propriedades às margens do Rio Doce, mas suas casas foram destruídas, a exemplo de Conselheiro Pena, Aimorés, Tumiritinga e várias outras cidades."
+    },
+    {
+      "turno_id": 14,
+      "falante": "Diógenes Lemainski",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Parece que o pescador é que está sendo o mais penalizado nesse processo."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9615,
+  "taxa_contraponto": 0.1154,
+  "taxa_ancoragem_fundamento": 0.9333
+}

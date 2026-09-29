@@ -1,0 +1,5887 @@
+{
+  "sample_id": 112,
+  "n_turnos": 140,
+  "n_turnos_codificados": 64,
+  "n_codigos": 447,
+  "n_rejeitados": 1,
+  "taxa_rejeicao": 0.0064,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 64,
+      "distribuicao": {
+        "interrompido": 6,
+        "normal": 58
+      },
+      "media": 0.9062,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 63,
+      "distribuicao": {
+        "nenhuma": 19,
+        "inferior": 26,
+        "qualificada": 18,
+        "sofisticada": 0
+      },
+      "media": 0.9841,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 64,
+      "distribuicao": {
+        "interesse_de_grupo": 18,
+        "neutro": 26,
+        "bem_comum_utilitario": 15,
+        "bem_comum_diferenca": 5
+      },
+      "media": 1.1094,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 64,
+      "distribuicao": {
+        "negativo": 1,
+        "neutro": 16,
+        "explicito_positivo": 47
+      },
+      "media": 1.7188,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 64,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 62,
+        "explicito_positivo": 2
+      },
+      "media": 1.0312,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 64,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 57,
+        "inclui": 7,
+        "valoriza": 0
+      },
+      "media": 1.1094,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 64,
+      "distribuicao": {
+        "posicional": 54,
+        "proposta_alternativa": 8,
+        "proposta_mediadora": 2
+      },
+      "media": 0.1875,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Abel Santos": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Aderson Ribeiro da Silva": {
+        "participacao": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Alan Vinícius": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Carina Mineia dos Santos Trindade": {
+        "participacao": {
+          "n": 6,
+          "media": 0.8333
+        },
+        "politica_construtiva": {
+          "n": 6,
+          "media": 0.3333
+        },
+        "respeito_contra": {
+          "n": 6,
+          "media": 1.5
+        },
+        "justificacao_nivel": {
+          "n": 6,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 6,
+          "media": 1.3333
+        },
+        "respeito_grupos": {
+          "n": 6,
+          "media": 1.6667
+        },
+        "respeito_demandas": {
+          "n": 6,
+          "media": 1.0
+        }
+      },
+      "Cladimir": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Daniel Agrobom": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Dayany Bittencourt": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Denis Moura": {
+        "participacao": {
+          "n": 1,
+          "media": 0.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Eduardo Lima": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Glauber Braga": {
+        "participacao": {
+          "n": 20,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 20,
+          "media": 0.15
+        },
+        "respeito_contra": {
+          "n": 20,
+          "media": 1.05
+        },
+        "justificacao_nivel": {
+          "n": 20,
+          "media": 0.45
+        },
+        "justificacao_conteudo": {
+          "n": 20,
+          "media": 1.15
+        },
+        "respeito_grupos": {
+          "n": 20,
+          "media": 1.6
+        },
+        "respeito_demandas": {
+          "n": 20,
+          "media": 1.1
+        }
+      },
+      "Gleidson Veras": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Hildo do Candango": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Hítalo": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Jair Gomes de Almeida": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Jean Carlo": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Jhonny Breno": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Joelci Batista de Moraes": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Jonatas Amorim": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Leandro Mendes": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Luiz Fernando Muller": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Marlon Luz": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Paulo Xavier": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Renata Dutra": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Rodrigo Carelli": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Simone Almeida": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Sâmia Bomfim": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Sérgio Guerra Correa": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Tadeu Henrique Lopes da Cunha": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Wellington": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Renata Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Tadeu Henrique Lopes da Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Paulo Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Paulo Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Abel Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Joelci Batista de Moraes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Simone Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Simone Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Dayany Bittencourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Hildo do Candango",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 63,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Alan Vinícius",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Marlon Luz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 71,
+      "falante": "Denis Moura",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 77,
+      "falante": "Jean Carlo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jhonny Breno",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 81,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 84,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 88,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 89,
+      "falante": "Gleidson Veras",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Gleidson Veras",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 92,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 94,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Leandro Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 96,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Sérgio Guerra Correa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 100,
+      "falante": "Luiz Fernando Muller",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 102,
+      "falante": "Eduardo Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 108,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Jonatas Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 112,
+      "falante": "Wellington",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 114,
+      "falante": "Cladimir",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 115,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 120,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 127,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 132,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 137,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 139,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 140,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Glauber Braga",
+      "trecho": "Eu sei que, para os motoristas e as motoristas não é nada fácil estar aqui neste momento, porque, com a regra atual, a partir do momento em que estão aqui, o pneu do carro não está rodando, e os senhores e as senhoras estão deixando de colocar comida na mesa de suas famílias.Então, deixo um agradecimento extra a todas e todos os que fizeram esse enorme esforço para estar nesta reunião.",
+      "char_start": 2597,
+      "char_end": 2985,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "O questionamento que fazemos sempre é que, no ano passado, nós fizemos paralisações em busca da remuneração por quilômetro e minuto e não entendemos, até este momento, como se chegou ao consenso de hora trabalhada, sendo que a hora trabalhada refere-se à mão de obra, e a nossa ferramenta de trabalho funciona com base em quilômetro.",
+      "char_start": 5741,
+      "char_end": 6074,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "O questionamento que fazemos sempre é que, no ano passado, nós fizemos paralisações em busca da remuneração por quilômetro e minuto e não entendemos, até este momento, como se chegou ao consenso de hora trabalhada, sendo que a hora trabalhada refere-se à mão de obra, e a nossa ferramenta de trabalho funciona com base em quilômetro.",
+      "char_start": 5741,
+      "char_end": 6074,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "Então, para todos vocês, eu tenho que tirar o chapéu, porque a vida de motorista por aplicativo não é fácil.",
+      "char_start": 5205,
+      "char_end": 5313,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "E este projeto aqui tem algumas falhas.",
+      "char_start": 9022,
+      "char_end": 9061,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "o trabalhador",
+      "char_start": 8493,
+      "char_end": 8506,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Jair Gomes de Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Renata Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Renata Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 5,
+      "falante": "Renata Dutra",
+      "trecho": "Esse enquadramento que está sendo feito dos trabalhadores motoristas que realizam atividade de transporte com o uso de aplicativos como trabalhadores autônomos, num enquadramentoa priorique não considera as relações práticas que estão acontecendo na realidade social e que abre mão da possibilidade de limitar ou, de fato, regular os poderes que são dominados pelas plataformas de aplicativos em relação à prestação desse trabalho, é realmente uma preocupação.",
+      "char_start": 10946,
+      "char_end": 11406,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 5,
+      "falante": "Renata Dutra",
+      "trecho": "a lei protege, a lei atenua esse poder,coloca limites, coloca aquele que está diante do poder em uma posição de vulnerabilidade, envolto de algumas garantias que podem atenuar a assimetria e a desigualdade dessa relação.",
+      "char_start": 12765,
+      "char_end": 12985,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 5,
+      "falante": "Renata Dutra",
+      "trecho": "os trabalhadores, a sociedade em geral e todos aqueles que se preocupam com a questão da regulação do trabalho",
+      "char_start": 10014,
+      "char_end": 10124,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Renata Dutra",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Tadeu Henrique Lopes da Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Tadeu Henrique Lopes da Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 7,
+      "falante": "Tadeu Henrique Lopes da Cunha",
+      "trecho": "A remuneração mínima é de 32 reais, sendo que 24 reais são destinados para a manutenção e 8 reais são a retribuição do trabalho, por hora. Aqui, considerando a reforma da Previdência Social, inclusive a última das reformas, que prevê que, para que a pessoa tenha o benefício, ela tem que ter um salário de contribuição relativo ao salário mínimo, vemos uma possibilidade real de motoristas recolherem e não receberem o benefício futuramente, porque esse recolhimento tem que considerar o salário mínimo. Então, esses 8 reais por hora podem não alcançar em 1 mês o valor do salário mínimo, e, portanto, pode haver recolhimento sem haver a contraprestação por parte do INSS.",
+      "char_start": 17918,
+      "char_end": 18590,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 7,
+      "falante": "Tadeu Henrique Lopes da Cunha",
+      "trecho": "vemos uma possibilidade real de motoristas recolherem e não receberem o benefício futuramente, porque esse recolhimento tem que considerar o salário mínimo. Então, esses 8 reais por hora podem não alcançar em 1 mês o valor do salário mínimo, e, portanto, pode haver recolhimento sem haver a contraprestação por parte do INSS.",
+      "char_start": 18265,
+      "char_end": 18590,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Tadeu Henrique Lopes da Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Tadeu Henrique Lopes da Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Paulo Xavier",
+      "trecho": "Nós construímos, em mais de 70 dias, em inúmeras horas de reuniões, um projeto de lei. Este, sim, é um projeto feito por motoristas, com a participação dos motoristas.",
+      "char_start": 22337,
+      "char_end": 22504,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Paulo Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Paulo Xavier",
+      "trecho": "A dor do motorista está ligada aos ganhos. Simplesmente tínhamos uma expectativa, um sonho, vamos dizer assim, mas sabíamos que seria muito difícil acontecer, o de que esse item, o principal para o motorista, fosse contemplado na regulamentação. A dor do motorista está relacionada aos ganhos, e simplesmente tivemos uma perda muito maior, porque agora seremos taxados. A taxação é pesada, de 27,5% para o INSS. Sabemos que as plataformas, que a empresa não paga imposto. Ela vai retirar esse valor do motorista. É assim que é feito...",
+      "char_start": 21398,
+      "char_end": 21933,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Paulo Xavier",
+      "trecho": "A dor do motorista está ligada aos ganhos. Simplesmente tínhamos uma expectativa, um sonho, vamos dizer assim, mas sabíamos que seria muito difícil acontecer, o de que esse item, o principal para o motorista, fosse contemplado na regulamentação. A dor do motorista está relacionada aos ganhos, e simplesmente tivemos uma perda muito maior, porque agora seremos taxados. A taxação é pesada, de 27,5% para o INSS. Sabemos que as plataformas, que a empresa não paga imposto. Ela vai retirar esse valor do motorista. É assim que é feito...",
+      "char_start": 21398,
+      "char_end": 21933,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Paulo Xavier",
+      "trecho": "Nós construímos, em mais de 70 dias, em inúmeras horas de reuniões, um projeto de lei. Este, sim, é um projeto feito por motoristas, com a participação dos motoristas.",
+      "char_start": 22337,
+      "char_end": 22504,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Paulo Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Paulo Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Paulo Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Paulo Xavier",
+      "trecho": "O projeto franquia para a plataforma o banimento unilateral, o que é um absurdo. Isso já acontece conosco o tempo todo: banimentos injustos. O motorista simplesmente dorme e acorda no dia seguinte banido, sem direito a nada.",
+      "char_start": 23996,
+      "char_end": 24220,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 14,
+      "falante": "Paulo Xavier",
+      "trecho": "O motorista simplesmente dorme e acorda no dia seguinte banido, sem direito a nada.",
+      "char_start": 24137,
+      "char_end": 24220,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Paulo Xavier",
+      "trecho": "Que trabalhemos e apresentemos, então, um projeto que seja realmente viável, útil e bom para o motorista.",
+      "char_start": 24794,
+      "char_end": 24899,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Paulo Xavier",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 15,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Glauber Braga",
+      "trecho": "aqui todas as manifestações são bem-vindas e vão ser por nós acolhidas",
+      "char_start": 25960,
+      "char_end": 26030,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Glauber Braga",
+      "trecho": "recebam com acolhimento — e acolhimento não quer dizer que não seja também uma posição firme — as opiniões diversas que serão aqui apresentadas",
+      "char_start": 26084,
+      "char_end": 26227,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Abel Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Abel Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Abel Santos",
+      "trecho": "O meu maior interesse é demonstrar isso aqui. Isso aqui é um laboratório. Infelizmente, nós trabalhadores, motoristas, entregadores, empregadas domésticas, lavadores de carro e todos aqueles que são os chamados \"maridos de aluguel\" estão sendo um laboratório para a expansão de algo que vai realmente acabar com todo e qualquer direito e com o poder de ganho do trabalhador neste País.",
+      "char_start": 27427,
+      "char_end": 27812,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Abel Santos",
+      "trecho": "vai realmente acabar com todo e qualquer direito e com o poder de ganho do trabalhador neste País",
+      "char_start": 27714,
+      "char_end": 27811,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Abel Santos",
+      "trecho": "Nós sempre buscamos construir este espaço, até mesmo para empregadas domésticas, para o pessoal que lava carros, porque nós sabemos que eles já estão sendo precarizados por plataformas também.",
+      "char_start": 27234,
+      "char_end": 27426,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Abel Santos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 21,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 21,
+      "falante": "Glauber Braga",
+      "trecho": "É fundamental que possamos ouvi-la com todo o respeito, que possamos ouvir toda a sua fala, para que não seja comprometida esta audiência, que está sendo tão importante e, inclusive, é a primeira em que estamos tendo a oportunidade de ouvir as senhoras e os senhores.",
+      "char_start": 32797,
+      "char_end": 33064,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 21,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Nós sabemos que esse projeto tem que ser aperfeiçoado. Não estou dizendo que o PL é uma maravilha. Sabemos que tem que ser melhorado.",
+      "char_start": 35124,
+      "char_end": 35257,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Quero salientar que é muito importante para nós, porque, como categoria, conseguiremos que sejam criadas políticas públicas para atuarmos em favor do que o trabalhador precisa realmente na ponta.",
+      "char_start": 34050,
+      "char_end": 34245,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Quero salientar que é muito importante para nós, porque, como categoria, conseguiremos que sejam criadas políticas públicas para atuarmos em favor do que o trabalhador precisa realmente na ponta.",
+      "char_start": 34050,
+      "char_end": 34245,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "a criação de uma categoria — hoje não a temos, hoje somos invisibilizados — é muito importante",
+      "char_start": 34253,
+      "char_end": 34347,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Paulo veio aqui e disse:\"Ah! Não queremos ser representados\".Acho que vocês têm todo o direito de não quererem ser representados pelo sindicato.",
+      "char_start": 36294,
+      "char_end": 36438,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Sabemos que trabalhadores, em diversas partes do País, ganham menos de 20 reais por hora efetivamente trabalhada.",
+      "char_start": 36135,
+      "char_end": 36248,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 24,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Sabemos que trabalhadores, em diversas partes do País, ganham menos de 20 reais por hora efetivamente trabalhada.",
+      "char_start": 36135,
+      "char_end": 36248,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Sabemos que trabalhadores, em diversas partes do País, ganham menos de 20 reais por hora efetivamente trabalhada.",
+      "char_start": 36135,
+      "char_end": 36248,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 29,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Glauber Braga",
+      "trecho": "Quando uma convidada que está falando é interrompida, isso prejudica inclusive quem está nos assistindo fora do nosso ambiente, porque a pessoa não consegue ter a compreensão de tudo o que está acontecendo aqui.",
+      "char_start": 37643,
+      "char_end": 37854,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Glauber Braga",
+      "trecho": "Quando uma convidada que está falando é interrompida, isso prejudica inclusive quem está nos assistindo fora do nosso ambiente, porque a pessoa não consegue ter a compreensão de tudo o que está acontecendo aqui.",
+      "char_start": 37643,
+      "char_end": 37854,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Glauber Braga",
+      "trecho": "garantir a palavra dos convidados e das convidadas, de todos e de todas que vierem aqui fazer uso da palavra",
+      "char_start": 37338,
+      "char_end": 37446,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 30,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "O Paulo fala de uma CLT disfarçada. Eu discordo dele, porque não estamos garantindo o 13º.",
+      "char_start": 37953,
+      "char_end": 38043,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "porque não estamos garantindo o 13º",
+      "char_start": 38007,
+      "char_end": 38042,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 35,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Joelci Batista de Moraes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Joelci Batista de Moraes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Joelci Batista de Moraes",
+      "trecho": "É preciso ter várias amarras para se melhorar a nossa função, a nossa atividade.",
+      "char_start": 41476,
+      "char_end": 41556,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 36,
+      "falante": "Joelci Batista de Moraes",
+      "trecho": "É preciso ter várias amarras para se melhorar a nossa função, a nossa atividade.",
+      "char_start": 41476,
+      "char_end": 41556,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 36,
+      "falante": "Joelci Batista de Moraes",
+      "trecho": "As mulheres estão aí porque merecem estar, porque são trabalhadoras como nós todos somos trabalhadores.",
+      "char_start": 42459,
+      "char_end": 42562,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 36,
+      "falante": "Joelci Batista de Moraes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 38,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Rodrigo Carelli",
+      "trecho": "O projeto inteiro é desastroso, mas o art. 5º é o pior que pode existir em todo o projeto. Vejam que temos jornada de 12 horas, como acontecia no período da Revolução Industrial. Para ser pior do que isso, é preciso ainda ser bem pior, e ele é pior, porque o art. 5º garante todo tipo de poder empregatício que pode existir. Ele faz uma descrição, parece um manual. Ele diz que as empresas têm poder organizativo, que elas têm poder fiscalizatório ou vigilante e que elas têm poder punitivo, e não estabelece garantia, ao contrário, nega, ao mesmo tempo em que reconhece, que esses trabalhadores estão subordinados às empresas.",
+      "char_start": 43331,
+      "char_end": 43958,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Rodrigo Carelli",
+      "trecho": "Acho que temos que pensar de maneira mais ampla a respeito de qual é o caminho dos trabalhadores no País.",
+      "char_start": 43028,
+      "char_end": 43133,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 38,
+      "falante": "Rodrigo Carelli",
+      "trecho": "Temos que discutir esse projeto, e não somente o projeto. Acho que temos que pensar de maneira mais ampla a respeito de qual é o caminho dos trabalhadores no País.",
+      "char_start": 42970,
+      "char_end": 43133,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 38,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Rodrigo Carelli",
+      "trecho": "Podemos estar construindo um(falha na transmissão)subordinados, que vão ser tratados como autônomos só na pior parte, que é a de ter obrigações e não ter nenhum direito.",
+      "char_start": 47088,
+      "char_end": 47257,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 40,
+      "falante": "Rodrigo Carelli",
+      "trecho": "que vão ser tratados como autônomos só na pior parte, que é a de ter obrigações e não ter nenhum direito.",
+      "char_start": 47152,
+      "char_end": 47257,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 40,
+      "falante": "Rodrigo Carelli",
+      "trecho": "Podemos estar construindo um(falha na transmissão)subordinados, que vão ser tratados como autônomos só na pior parte, que é a de ter obrigações e não ter nenhum direito.",
+      "char_start": 47088,
+      "char_end": 47257,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 40,
+      "falante": "Rodrigo Carelli",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Simone Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Simone Almeida",
+      "trecho": "O Paulo disse que os trabalhadores não foram ouvidos. Foram sim. Em princípio, nós queríamos que fossem celetistas. Foram feitas várias pesquisas no Brasil inteiro. Hoje, somos 1 milhão e 500 mil motoristas no Brasil. E motoristas não quiseram a CLT. Então, partimos para a autonomia com direito.",
+      "char_start": 48753,
+      "char_end": 49049,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Simone Almeida",
+      "trecho": "Esse projeto, que estabelece essa obrigatoriedade, eu apoio totalmente, porque senti aquilo na pele. Eu achava que isso nunca ia acontecer comigo.",
+      "char_start": 49786,
+      "char_end": 49932,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 42,
+      "falante": "Simone Almeida",
+      "trecho": "Esse projeto, que estabelece essa obrigatoriedade, eu apoio totalmente, porque senti aquilo na pele. Eu achava que isso nunca ia acontecer comigo.",
+      "char_start": 49786,
+      "char_end": 49932,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Simone Almeida",
+      "trecho": "Essa é a maior conquista que tivemos em 10 anos da nossa classe. Agora poderemos existir, poderemos ter direitos e garantias que nunca tivemos antes.",
+      "char_start": 48602,
+      "char_end": 48751,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Simone Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 43,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Glauber Braga",
+      "trecho": "Espero que, sempre que estiver uma mulher fazendo uso da palavra, não tenhamos um ruído superior àquilo que ela esteja dizendo, para que o conjunto da audiência possa ouvi-la.",
+      "char_start": 50524,
+      "char_end": 50699,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 44,
+      "falante": "Simone Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Simone Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Simone Almeida",
+      "trecho": "Porque osyoutubersestão aí para ganhar dinheiro em cima de você, motorista! Eles não estão aqui para ajudar você, porque, se eles pudessem ou se eles quisessem ajudar você, eles teriam feito algo há 10 anos, e não fizeram!",
+      "char_start": 52103,
+      "char_end": 52325,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 44,
+      "falante": "Simone Almeida",
+      "trecho": "Nós estamos aqui por nós trabalhadores, por mim, que sou motorista, e por você que é motorista!",
+      "char_start": 51896,
+      "char_end": 51991,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 44,
+      "falante": "Simone Almeida",
+      "trecho": "Nós estamos aqui por nós trabalhadores, por mim, que sou motorista, e por você que é motorista!",
+      "char_start": 51896,
+      "char_end": 51991,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 44,
+      "falante": "Simone Almeida",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 45,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Daniel Agrobom",
+      "trecho": "eu solicito aqui a todos os Parlamentares, inclusive a V.Exa., que possamos assinar um ofício, que nós estamos fazendo, para o Executivo retirar a urgência desse PLP",
+      "char_start": 57230,
+      "char_end": 57395,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Daniel Agrobom",
+      "trecho": "Eu discordo do que disse a Carina de que o sindicato representa os motoristas de aplicativo.",
+      "char_start": 54842,
+      "char_end": 54934,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Daniel Agrobom",
+      "trecho": "porque foi criado junto com o motorista de aplicativo. Nós ouvimos dos motoristas de aplicativo a reivindicação dos seus direitos, para eles poderem, então, ter autonomia, liberdade e remuneração justa para poderem trabalhar.",
+      "char_start": 56799,
+      "char_end": 57024,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Daniel Agrobom",
+      "trecho": "porque foi criado junto com o motorista de aplicativo. Nós ouvimos dos motoristas de aplicativo a reivindicação dos seus direitos, para eles poderem, então, ter autonomia, liberdade e remuneração justa para poderem trabalhar.",
+      "char_start": 56799,
+      "char_end": 57024,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Daniel Agrobom",
+      "trecho": "defender o motorista de aplicativo",
+      "char_start": 54399,
+      "char_end": 54433,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Dayany Bittencourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Dayany Bittencourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Dayany Bittencourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Dayany Bittencourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 48,
+      "falante": "Dayany Bittencourt",
+      "trecho": "Sou uma formiguinha na frente de vocês, porque vocês são gigantes.",
+      "char_start": 58939,
+      "char_end": 59005,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Dayany Bittencourt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 52,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 52,
+      "falante": "Sâmia Bomfim",
+      "trecho": "Isso nos coloca com uma espécie de faca no pescoço, ou seja, vocês têm 30 dias para chegar a um acordo sobre o texto, 30 dias para que ele seja aprovado. Isso é algo incompatível com a realidade das críticas e das divergências dos milhões de trabalhadores por aplicativo que existem no Brasil.",
+      "char_start": 61366,
+      "char_end": 61659,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 52,
+      "falante": "Sâmia Bomfim",
+      "trecho": "Isso é algo incompatível com a realidade das críticas e das divergências dos milhões de trabalhadores por aplicativo que existem no Brasil.",
+      "char_start": 61520,
+      "char_end": 61659,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 52,
+      "falante": "Sâmia Bomfim",
+      "trecho": "todos os motoristas, trabalhadores por aplicativo que vieram até esta audiência, todos os expositores que apresentaram as suas opiniões, que são divergentes entre si, contraditórias entre si, mas são fundamentais de serem escutadas na totalidade",
+      "char_start": 60705,
+      "char_end": 60950,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 52,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 53,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 53,
+      "falante": "Sâmia Bomfim",
+      "trecho": "No momento em que ele não vai poder ficar com a sua família, ele vai estar à disposição do patrão ou da empresa, da plataforma, mas ele não vai estar recebendo por isso. E não é culpa dele se ele não conseguir rodar, porque tem a ver com a demanda que as pessoas têm, inclusive, de pedir.",
+      "char_start": 63601,
+      "char_end": 63889,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 53,
+      "falante": "Sâmia Bomfim",
+      "trecho": "No momento em que ele não vai poder ficar com a sua família, ele vai estar à disposição do patrão ou da empresa, da plataforma, mas ele não vai estar recebendo por isso. E não é culpa dele se ele não conseguir rodar, porque tem a ver com a demanda que as pessoas têm, inclusive, de pedir.",
+      "char_start": 63601,
+      "char_end": 63889,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 53,
+      "falante": "Sâmia Bomfim",
+      "trecho": "eu sou daquelas que defendem, acima de tudo, a organização dos trabalhadores, através das suas entidades, através dos seus sindicatos, através das suas organizações, dos seus movimentos sociais.",
+      "char_start": 67187,
+      "char_end": 67381,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 53,
+      "falante": "Sâmia Bomfim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Hildo do Candango",
+      "trecho": "Já quero aqui corroborar o projeto de requerimento do Deputado Daniel Agrobom.Quero assinar isso aí! Não queremos urgência! Queremos regulamentação!",
+      "char_start": 69008,
+      "char_end": 69156,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Hildo do Candango",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Hildo do Candango",
+      "trecho": "É preciso regulamentar a categoria — eu vejo que a categoria tem que ser regulamentada —, mas não com essa urgência.",
+      "char_start": 68891,
+      "char_end": 69007,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Hildo do Candango",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 55,
+      "falante": "Hildo do Candango",
+      "trecho": "quero aqui cumprimentar todos os motoristas de aplicativo e contar uma situação que ocorre comigo. Talvez, algum deles já possa até ter me levado em seus veículos, porque eu sou da cidade de Águas Lindas, vizinha ao Distrito Federal. Todas as vezes que estou numa viagem vou conversando com os motoristas de aplicativo, e eles nos dão uma aula. É interessante como eles conhecem a realidade e sabem o que querem.",
+      "char_start": 68360,
+      "char_end": 68772,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 55,
+      "falante": "Hildo do Candango",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Glauber Braga",
+      "trecho": "a Comissão de Legislação Participativa, pelo menos a partir da sua Presidência, está solicitando ao Governo, para que esta discussão possa ser feita com maior profundidade, a retirada da urgência constitucional, para que esta matéria não seja avaliada nos próximos 30 dias.",
+      "char_start": 77955,
+      "char_end": 78228,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 56,
+      "falante": "Glauber Braga",
+      "trecho": "Essa pode não ser a posição da maioria dos senhores, mas, na minha avaliação, o trabalho realizado aqui é um trabalho de CLT, que tem uma relação direta de subordinação a partir da orientação e do poder exercido pelas empresas, pelo patrão, que hoje é o aplicativo, é o Uber, é o 99, seja quem for.",
+      "char_start": 71587,
+      "char_end": 71885,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 56,
+      "falante": "Glauber Braga",
+      "trecho": "Isso porque, no período dos próximos 30 dias, o que vai acabar acontecendo, no fim das contas, como disse a Deputada Sâmia, é uma votação em que o peso e a pressão, principalmente dos interesses das plataformas, vão prevalecer sobre os interesses das senhoras e dos senhores.",
+      "char_start": 74583,
+      "char_end": 74858,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 56,
+      "falante": "Glauber Braga",
+      "trecho": "vão prevalecer sobre os interesses das senhoras e dos senhores.",
+      "char_start": 74795,
+      "char_end": 74858,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 56,
+      "falante": "Glauber Braga",
+      "trecho": "esta Comissão é exatamente aquela que busca ampliar o processo de organização de trabalhadores e trabalhadoras.",
+      "char_start": 75675,
+      "char_end": 75786,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 56,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 60,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 60,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 60,
+      "falante": "Glauber Braga",
+      "trecho": "Nós vamos priorizar a escuta das senhoras e dos senhores, mas nós vamos estabelecer um tempo que respeite o coletivo que aqui está.",
+      "char_start": 79062,
+      "char_end": 79193,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 60,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 62,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Glauber Braga",
+      "trecho": "A quem for fazer uso da palavra nós pedimos que seja o mais objetivo possível para garantir que um maior número de pessoas possa falar.",
+      "char_start": 79673,
+      "char_end": 79808,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 62,
+      "falante": "Glauber Braga",
+      "trecho": "A quem for fazer uso da palavra nós pedimos que seja o mais objetivo possível para garantir que um maior número de pessoas possa falar.",
+      "char_start": 79673,
+      "char_end": 79808,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 62,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 63,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "Hítalo",
+      "trecho": "nós precisamos de uma regulamentação, porque hoje estamos sofrendo brutalmente com as condições impostas pelas plataformas",
+      "char_start": 80380,
+      "char_end": 80502,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 63,
+      "falante": "Hítalo",
+      "trecho": "nós precisamos de uma regulamentação, porque hoje estamos sofrendo brutalmente com as condições impostas pelas plataformas",
+      "char_start": 80380,
+      "char_end": 80502,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Hítalo",
+      "trecho": "Queremos, sim, uma regulamentação. Eu quero uma regulamentação favorável a cada um de nós, não uma regulamentação da forma como está.",
+      "char_start": 83895,
+      "char_end": 84028,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 65,
+      "falante": "Hítalo",
+      "trecho": "Da forma como está, vai colocar em risco os passageiros. Nós não temos condições de pagar o IPVA, pelas condições de remuneração. A manutenção dos veículos, como vocês podem observar, está cada vez pior em todas as regiões, porque os motoristas não têm condições de manter os carros, pelos valores que são pagos pelas viagens hoje.",
+      "char_start": 82081,
+      "char_end": 82412,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 65,
+      "falante": "Hítalo",
+      "trecho": "Da forma como está, vai colocar em risco os passageiros.",
+      "char_start": 82081,
+      "char_end": 82137,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 65,
+      "falante": "Hítalo",
+      "trecho": "Hoje a nossa categoria é a mais fragilizadas. Nós sentimos isso na pele em todas as circunstâncias.",
+      "char_start": 81741,
+      "char_end": 81840,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Hítalo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 67,
+      "falante": "Alan Vinícius",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Alan Vinícius",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 67,
+      "falante": "Alan Vinícius",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Alan Vinícius",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 67,
+      "falante": "Alan Vinícius",
+      "trecho": "Nós usuários precisamos de vocês. Nós usuários estamos defendendo vocês.",
+      "char_start": 84926,
+      "char_end": 84998,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Alan Vinícius",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 69,
+      "falante": "Marlon Luz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Marlon Luz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 69,
+      "falante": "Marlon Luz",
+      "trecho": "Então, a Deputada Sâmia está correta quando afirma — eu estou provando com números — que o piso vira teto se o piso colocado for tão baixo.",
+      "char_start": 86198,
+      "char_end": 86337,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Marlon Luz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 69,
+      "falante": "Marlon Luz",
+      "trecho": "O motorista por aplicativo não quer o cálculo por hora, mas, sim, por quilômetro.É assim que ele quer ser representado.",
+      "char_start": 86339,
+      "char_end": 86458,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Marlon Luz",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 71,
+      "falante": "Denis Moura",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 71,
+      "falante": "Denis Moura",
+      "trecho": "Eu concordo com o economista do PSOL quando diz que o piso salarial se torna um ímã para atrair um teto de salário.",
+      "char_start": 91154,
+      "char_end": 91269,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 71,
+      "falante": "Denis Moura",
+      "trecho": "simplesmente vai fazer com que nós tenhamos um problema lá na frente.",
+      "char_start": 92117,
+      "char_end": 92186,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 71,
+      "falante": "Denis Moura",
+      "trecho": "A categoria é organizada, sim.",
+      "char_start": 89724,
+      "char_end": 89754,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 71,
+      "falante": "Denis Moura",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 77,
+      "falante": "Jean Carlo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 77,
+      "falante": "Jean Carlo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 77,
+      "falante": "Jean Carlo",
+      "trecho": "Este não é um projeto de ideologia política, é um projeto de categoria.",
+      "char_start": 93781,
+      "char_end": 93852,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 77,
+      "falante": "Jean Carlo",
+      "trecho": "Este não é um projeto de ideologia política, é um projeto de categoria.",
+      "char_start": 93781,
+      "char_end": 93852,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 77,
+      "falante": "Jean Carlo",
+      "trecho": "nós estamos organizados, sim. Nós não estamos sindicalizados, mas estamos organizados e pedindo os direitos que o atual PL não nos dá",
+      "char_start": 94492,
+      "char_end": 94625,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 77,
+      "falante": "Jean Carlo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 79,
+      "falante": "Jhonny Breno",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jhonny Breno",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jhonny Breno",
+      "trecho": "Afinal, 45 dias para a aprovação de um projeto que afetará a vida de mais de 1,5 milhão de motoristas é muito rápido.",
+      "char_start": 96554,
+      "char_end": 96671,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 79,
+      "falante": "Jhonny Breno",
+      "trecho": "Afinal, 45 dias para a aprovação de um projeto que afetará a vida de mais de 1,5 milhão de motoristas é muito rápido.",
+      "char_start": 96554,
+      "char_end": 96671,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jhonny Breno",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 79,
+      "falante": "Jhonny Breno",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 80,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 80,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 80,
+      "falante": "Glauber Braga",
+      "trecho": "eu vou sempre defender o processo de organização de trabalhadores e trabalhadoras",
+      "char_start": 97220,
+      "char_end": 97301,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 81,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 81,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 81,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "Um ano após a assinatura deste PLP, o senhor e a Receita Federal verão milhares de trabalhadores com suas contas bloqueadas.",
+      "char_start": 97798,
+      "char_end": 97922,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 81,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "milhares de trabalhadores",
+      "char_start": 97869,
+      "char_end": 97894,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 81,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 81,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 84,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "Segundo o próprio informe fiscal da Uber — abre o aplicativo, está lá escrito —, você só pode descontar 40%, Deputado.",
+      "char_start": 99787,
+      "char_end": 99905,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 86,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "Nós iremos tapar a droga do INSS e encher os cofres do Leão!",
+      "char_start": 100435,
+      "char_end": 100495,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 86,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "Nós iremos tapar a droga do INSS e encher os cofres do Leão!",
+      "char_start": 100435,
+      "char_end": 100495,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 0,
+      "turno_id": 86,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "Eu estou aqui tentando despir a ignorância de 1 milhão e 200 mil, que não estão parando para pensar!",
+      "char_start": 100210,
+      "char_end": 100310,
+      "fonte": "modelo",
+      "rotulo": "negativo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Aderson Ribeiro da Silva",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 88,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 88,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 88,
+      "falante": "Glauber Braga",
+      "trecho": "Se eu não mantiver aqui a possibilidade de fazer uma interação com vocês que respeite o direito de todos, perdemos a possibilidade de fazer uma audiência de que, coletivamente, todos saiam satisfeitos. Se não ficarem todos satisfeitos e satisfeitas, que, pelo menos, todos saibam que foi uma reunião conduzida da maneira adequada.",
+      "char_start": 101088,
+      "char_end": 101418,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 88,
+      "falante": "Glauber Braga",
+      "trecho": "perdemos a possibilidade de fazer uma audiência de que, coletivamente, todos saiam satisfeitos. Se não ficarem todos satisfeitos e satisfeitas, que, pelo menos, todos saibam que foi uma reunião conduzida da maneira adequada.",
+      "char_start": 101194,
+      "char_end": 101418,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 88,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 88,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Gleidson Veras",
+      "trecho": "eu indico para os senhores — e agradeço o apoio — que reúnam as bases, os blocos políticos, toda a liderança partidária que existe dentro desta Casa. Coloquem os dois projetos em pauta.",
+      "char_start": 103245,
+      "char_end": 103430,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Gleidson Veras",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 89,
+      "falante": "Gleidson Veras",
+      "trecho": "O sindicato só consegue representar alguém quando há a categoria criada. E nós estamos aqui para regulamentar, para haver a criação de uma categoria, para vocês fazerem a eleição e se identificarem como os nossos representantes. Então, o sindicato está querendo ser mãe sem antes parir o filho.",
+      "char_start": 101850,
+      "char_end": 102144,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 89,
+      "falante": "Gleidson Veras",
+      "trecho": "Vocês têm nas mãos a oportunidade de ficar na história política deste País, resolvendo a vida de mais de 1 milhão e meio de trabalhadores.",
+      "char_start": 102544,
+      "char_end": 102682,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 89,
+      "falante": "Gleidson Veras",
+      "trecho": "resolvendo a vida de mais de 1 milhão e meio de trabalhadores",
+      "char_start": 102620,
+      "char_end": 102681,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Gleidson Veras",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 91,
+      "falante": "Gleidson Veras",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Gleidson Veras",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Gleidson Veras",
+      "trecho": "vai interferir na vida de mais de 1 milhão e meio de brasileiros",
+      "char_start": 104624,
+      "char_end": 104688,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 91,
+      "falante": "Gleidson Veras",
+      "trecho": "vai interferir na vida de mais de 1 milhão e meio de brasileiros",
+      "char_start": 104624,
+      "char_end": 104688,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 91,
+      "falante": "Gleidson Veras",
+      "trecho": "cuidem de mais de 1 milhão de motoristas que estão aí!",
+      "char_start": 104775,
+      "char_end": 104829,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Gleidson Veras",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 92,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 92,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 92,
+      "falante": "Glauber Braga",
+      "trecho": "Nós não estamos preocupados em garantir \"direitos\", entre aspas, da Uber e companhia. Nós estamos querendo dialogar com vocês.",
+      "char_start": 105117,
+      "char_end": 105243,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 92,
+      "falante": "Glauber Braga",
+      "trecho": "Nós não estamos preocupados em garantir \"direitos\", entre aspas, da Uber e companhia. Nós estamos querendo dialogar com vocês.",
+      "char_start": 105117,
+      "char_end": 105243,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 92,
+      "falante": "Glauber Braga",
+      "trecho": "assumindo uma posição e indo ao encontro dos trabalhadores",
+      "char_start": 105032,
+      "char_end": 105090,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 92,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 94,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 94,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 94,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 94,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 94,
+      "falante": "Glauber Braga",
+      "trecho": "sempre que vamos nos referir a algo que diga respeito especificamente às mulheres, temos que ter todo um cuidado e uma preocupação da forma como vamos fazê-la",
+      "char_start": 106175,
+      "char_end": 106333,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 94,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 95,
+      "falante": "Leandro Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Leandro Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 95,
+      "falante": "Leandro Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Leandro Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 95,
+      "falante": "Leandro Mendes",
+      "trecho": "Precisamos de pessoas que, de fato, sabem da nossa luta, conhecem a nossa realidade, vivem atrás do volante, como nós.",
+      "char_start": 107556,
+      "char_end": 107674,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Leandro Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 96,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 96,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 96,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 96,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 96,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 96,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Sérgio Guerra Correa",
+      "trecho": "Eu tenho que ganhar no mínimo 2 reais por quilômetro, mais 40 centavos por minuto e o meu Município tem de ter direito a regulamentar e também ter o direito de reajustar estes valores",
+      "char_start": 109337,
+      "char_end": 109520,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Sérgio Guerra Correa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Sérgio Guerra Correa",
+      "trecho": "A vida do motorista tem que ser por quilômetro rodado. Eu gasto combustível por quilômetro rodado, eu gasto meu pneu por quilômetro rodado, eu gasto o óleo do meu carro por quilômetro rodado. Não faz sentido nenhum me pagarem por hora.",
+      "char_start": 109101,
+      "char_end": 109336,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 97,
+      "falante": "Sérgio Guerra Correa",
+      "trecho": "A vida do motorista tem que ser por quilômetro rodado. Eu gasto combustível por quilômetro rodado, eu gasto meu pneu por quilômetro rodado, eu gasto o óleo do meu carro por quilômetro rodado. Não faz sentido nenhum me pagarem por hora.",
+      "char_start": 109101,
+      "char_end": 109336,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 97,
+      "falante": "Sérgio Guerra Correa",
+      "trecho": "por ser um Deputado de esquerda e estar abrindo a ala para todos nós motoristas, por estar falando a verdade e o que realmente sentimos do fundo do nosso coração",
+      "char_start": 108397,
+      "char_end": 108558,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Sérgio Guerra Correa",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 100,
+      "falante": "Luiz Fernando Muller",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 100,
+      "falante": "Luiz Fernando Muller",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 100,
+      "falante": "Luiz Fernando Muller",
+      "trecho": "porque este PL, para nós motoristas, não serve de nada. Existe, sim, a criação do grupo, a criação da profissão. Excelente! E eu acho que sou a favor da regulamentação, para termos o direito ao INSS, às garantias previdenciárias. Mas o restante não serve de nada, não é a voz de todos nós que estamos aqui trabalhando hoje.",
+      "char_start": 112180,
+      "char_end": 112503,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 100,
+      "falante": "Luiz Fernando Muller",
+      "trecho": "porque este PL, para nós motoristas, não serve de nada. Existe, sim, a criação do grupo, a criação da profissão. Excelente! E eu acho que sou a favor da regulamentação, para termos o direito ao INSS, às garantias previdenciárias. Mas o restante não serve de nada, não é a voz de todos nós que estamos aqui trabalhando hoje.",
+      "char_start": 112180,
+      "char_end": 112503,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 100,
+      "falante": "Luiz Fernando Muller",
+      "trecho": "Sabemos que a Cacá é motorista, é trabalhadora. Sei que ela trabalha à noite, e respeito a luta dela.",
+      "char_start": 112505,
+      "char_end": 112606,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 100,
+      "falante": "Luiz Fernando Muller",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 102,
+      "falante": "Eduardo Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 102,
+      "falante": "Eduardo Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 102,
+      "falante": "Eduardo Lima",
+      "trecho": "Saindo um projeto como esse, se a Casa não intervier, a classe não vai durar mais do que 6 meses. A primeira coisa que vai acontecer após a sanção é o motorista que tem carro locado devolver o seu veículo. Nós não vamos ficar trabalhando dia e noite para pagar locadora, gasolina e imposto para Governo. O motorista vai devolver o carro. Aquele que tem financiamento, em 4 meses o banco vai estar na porta dele para tirar, porque esse projeto retira ganhos dos motoristas e aplica vários impostos. Por quê? Os 20% pelos quais a Uber está batendo palmas para o Governo, não é ela que vai pagar; ela vai repassar ao motorista. É o motorista quem vai pagar. Então, quando se fala que o motorista vai pagar 7,5%, é mentira. Vai pagar 27,5%.",
+      "char_start": 114003,
+      "char_end": 114739,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 102,
+      "falante": "Eduardo Lima",
+      "trecho": "Saindo um projeto como esse, se a Casa não intervier, a classe não vai durar mais do que 6 meses. A primeira coisa que vai acontecer após a sanção é o motorista que tem carro locado devolver o seu veículo. Nós não vamos ficar trabalhando dia e noite para pagar locadora, gasolina e imposto para Governo. O motorista vai devolver o carro. Aquele que tem financiamento, em 4 meses o banco vai estar na porta dele para tirar, porque esse projeto retira ganhos dos motoristas e aplica vários impostos. Por quê? Os 20% pelos quais a Uber está batendo palmas para o Governo, não é ela que vai pagar; ela vai repassar ao motorista. É o motorista quem vai pagar. Então, quando se fala que o motorista vai pagar 7,5%, é mentira. Vai pagar 27,5%.",
+      "char_start": 114003,
+      "char_end": 114739,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 102,
+      "falante": "Eduardo Lima",
+      "trecho": "Se não fosse a atuação das associações em 2017 e em 2018, esta classe não estaria aqui para reivindicar melhoria",
+      "char_start": 113340,
+      "char_end": 113452,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 102,
+      "falante": "Eduardo Lima",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 108,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 108,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 108,
+      "falante": "Daniel Agrobom",
+      "trecho": "O grupo de trabalho teria que ter usado este artigo e dado direito a qualquer federação, a qualquer associação ou até mesmo a pessoas individualmente que se diziam representantes de trabalhadores, e não somente aos sindicatos.",
+      "char_start": 116004,
+      "char_end": 116230,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 108,
+      "falante": "Daniel Agrobom",
+      "trecho": "os nossos motoristas não foram representados no grupo de trabalho",
+      "char_start": 115866,
+      "char_end": 115931,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 108,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 108,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 110,
+      "falante": "Jonatas Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Jonatas Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Jonatas Amorim",
+      "trecho": "A cobrança de 20% de INSS, a qual está proposta no PLP, irá inviabilizar esse modal de negócios no Brasil que são os aplicativos regionais.",
+      "char_start": 117365,
+      "char_end": 117504,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 110,
+      "falante": "Jonatas Amorim",
+      "trecho": "os aplicativos regionais, que geram renda, emprego e distribuição da mesma renda nos Municípios, não estão sendo ouvidos nessa questão.",
+      "char_start": 116802,
+      "char_end": 116937,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 110,
+      "falante": "Jonatas Amorim",
+      "trecho": "os aplicativos regionais, que geram renda, emprego e distribuição da mesma renda nos Municípios",
+      "char_start": 116802,
+      "char_end": 116897,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Jonatas Amorim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 112,
+      "falante": "Wellington",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 112,
+      "falante": "Wellington",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 112,
+      "falante": "Wellington",
+      "trecho": "Se abrimos a boca para falar de democracia e queremos que a nossa opinião se sobreponha à do outro, não somos democráticos. A democracia acontece no meio-termo",
+      "char_start": 118789,
+      "char_end": 118948,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 112,
+      "falante": "Wellington",
+      "trecho": "Todo mundo vai ser \"plataformizado\", sinto muito. E todo mundo que está defendendo essa autonomia que não existe está defendendo a escravidão do povo brasileiro.",
+      "char_start": 121870,
+      "char_end": 122031,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 112,
+      "falante": "Wellington",
+      "trecho": "meu pai era pedreiro, um homem branco, extremamente preconceituoso. Mas ele encontrou uma mulata dos lábios roxos e se apaixonou. Ele soltava foguete a cada filho que nascia, e foi um ótimo pai. Quando ele morreu, aos 47 anos, foi a CLT que garantiu que minha mãe continuasse com uma pensão para cuidar de todos nós. E todos nos formamos.",
+      "char_start": 120062,
+      "char_end": 120400,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 112,
+      "falante": "Wellington",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 114,
+      "falante": "Cladimir",
+      "trecho": "Nós precisamos urgentemente, Deputado Glauber, fazer a retirada dessa urgência urgentíssima, trabalhar nesse projeto de lei do Deputado Daniel e trazer todos os trabalhadores.",
+      "char_start": 122405,
+      "char_end": 122580,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 114,
+      "falante": "Cladimir",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 114,
+      "falante": "Cladimir",
+      "trecho": "Ninguém aguenta fazer uma viagem de 7 reais, colocando o seu veículo limpo, seguro, para levar meu amigo Baleia, aqui. Gente, não existe; não cobre o custo!",
+      "char_start": 123035,
+      "char_end": 123191,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 114,
+      "falante": "Cladimir",
+      "trecho": "Ninguém aguenta fazer uma viagem de 7 reais, colocando o seu veículo limpo, seguro, para levar meu amigo Baleia, aqui. Gente, não existe; não cobre o custo!",
+      "char_start": 123035,
+      "char_end": 123191,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 114,
+      "falante": "Cladimir",
+      "trecho": "levar dignidade às pessoas",
+      "char_start": 122638,
+      "char_end": 122664,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 114,
+      "falante": "Cladimir",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 115,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 115,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 115,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 115,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 115,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 115,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 116,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "porque, quando chamamos para alguma atividade — seja assembleia dentro de sindicatos; seja audiência pública, como no Rio Grande do Sul, com a presença do Ministro — para levar as demandas da categoria, a maioria não vai.",
+      "char_start": 125063,
+      "char_end": 125284,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 116,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "para levar as demandas da categoria",
+      "char_start": 125229,
+      "char_end": 125264,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 116,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "uma categoria unida, uma categoria em busca de melhorias",
+      "char_start": 125467,
+      "char_end": 125523,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 120,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 120,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 120,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 120,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 120,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Estamos para ouvir o trabalhador",
+      "char_start": 128088,
+      "char_end": 128120,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 120,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 127,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 127,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 127,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 127,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 127,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 127,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 132,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 132,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 132,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 132,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 132,
+      "falante": "Daniel Agrobom",
+      "trecho": "Aqui nós estamos todos em defesa dos motoristas de aplicativo.",
+      "char_start": 131466,
+      "char_end": 131528,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 132,
+      "falante": "Daniel Agrobom",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 2,
+      "turno_id": 137,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "E nós conseguimos chegar a um meio-termo, porque as plataformas levaram o valor de 15 reais por hora trabalhada.",
+      "char_start": 132754,
+      "char_end": 132866,
+      "fonte": "modelo",
+      "rotulo": "proposta_mediadora"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 137,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 137,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "Para uma mesa de negociação, você leva o máximo — 71 reais a hora, como o senhor bem lembrou — para conseguir alguma coisa.",
+      "char_start": 132630,
+      "char_end": 132753,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 137,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 137,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 137,
+      "falante": "Carina Mineia dos Santos Trindade",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 2,
+      "turno_id": 139,
+      "falante": "Glauber Braga",
+      "trecho": "nós vamos solicitar, a partir da CLP — o Deputado Daniel está recolhendo assinaturas —, a retirada de urgência. A retirada de urgência pode ter os mais variados instrumentos. Um deles é o instrumento político, que o Deputado Daniel está usando. Ele está solicitando, imagino, aos Líderes partidários e aos Deputados um encaminhamento ao Executivo com solicitação de retirada da urgência constitucional.\n\nEu assumo o compromisso de que, como Presidente da CLP, pessoalmente, vou me dirigir também ao Executivo solicitando a retirada da urgência constitucional dessa proposta.",
+      "char_start": 134477,
+      "char_end": 135051,
+      "fonte": "modelo",
+      "rotulo": "proposta_mediadora"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 139,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 139,
+      "falante": "Glauber Braga",
+      "trecho": "Se eu abrir o microfone agora para cada um fazer um questionamento a ela... Eu já deveria ter sido mais rígido com o Deputado Daniel. Acabei não o sendo com o grau de rigidez que deveria. Isso é que está levando a essa possibilidade de reabertura de discussão e de questionamentos.",
+      "char_start": 133379,
+      "char_end": 133660,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 139,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 139,
+      "falante": "Glauber Braga",
+      "trecho": "essa pressão que vocês estão fazendo e que é muito importante",
+      "char_start": 137707,
+      "char_end": 137768,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 139,
+      "falante": "Glauber Braga",
+      "trecho": "o que vocês querem é que a proposta tramite nas Comissões, para que vocês estejam presentes nas Comissões, participem das audiências públicas, intervenham fazendo as colocações de vocês, demonstrem as contradições da Uber nas mesas em que ela vai estar — estou citando a UBER, mas poderia citar a 99 e outras plataformas —, indiquem essas contradições e façam esse enfrentamento político",
+      "char_start": 136972,
+      "char_end": 137359,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 140,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 140,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 140,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 140,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 140,
+      "falante": "Glauber Braga",
+      "trecho": "Que, ao final deste processo, prevaleçam os direitos de vocês trabalhadores e motoristas por aplicativo, e não os da Uber.",
+      "char_start": 138209,
+      "char_end": 138331,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 140,
+      "falante": "Glauber Braga",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 71,
+      "falante": "Denis Moura",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "qualificada",
+      "trecho": "Eu concordo com o economista do PSOL quando diz que o piso salarial se torna um ímã para atrair um teto de salário. Essa fala é de um economista do próprio PSOL. O senhor deve saber disso. A colega também falou sobre isso. Um rapaz aqui — eu até eu gostei muito dele, apesar de não ter gravado o nome, pois sou ruim para gravar nomes, mas, daqui a pouco, eu faço justiça e vou dizer o nome dele — fez uma fala importantíssima numa entrevista ao Intercept, dizendo que esse piso simplesmente faz com que a plataforma pague menos. No Estado de Minnesota, eles fizeram isso há 1 ano. Hoje, neste momento, a plataforma está ameaçando sair de lá, porque houve um reajuste desse piso. Um ano depois, o motorista não aguentou. O reajuste foi só uma equiparação ao salário mínimo local, e a plataforma disse: 'Se houver aumento, nós saímos'."
+    }
+  ],
+  "turnos_falhos": []
+}

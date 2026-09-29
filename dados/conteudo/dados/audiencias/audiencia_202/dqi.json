@@ -1,0 +1,1430 @@
+{
+  "sample_id": 202,
+  "n_turnos": 28,
+  "n_turnos_codificados": 15,
+  "n_codigos": 105,
+  "n_rejeitados": 0,
+  "taxa_rejeicao": 0.0,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 15,
+      "distribuicao": {
+        "interrompido": 1,
+        "normal": 14
+      },
+      "media": 0.9333,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 15,
+      "distribuicao": {
+        "nenhuma": 4,
+        "inferior": 1,
+        "qualificada": 10,
+        "sofisticada": 0
+      },
+      "media": 1.4,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 15,
+      "distribuicao": {
+        "interesse_de_grupo": 0,
+        "neutro": 6,
+        "bem_comum_utilitario": 9,
+        "bem_comum_diferenca": 0
+      },
+      "media": 1.6,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 15,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 8,
+        "explicito_positivo": 7
+      },
+      "media": 1.4667,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 15,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 15,
+        "explicito_positivo": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 15,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 13,
+        "inclui": 2,
+        "valoriza": 0
+      },
+      "media": 1.1333,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 15,
+      "distribuicao": {
+        "posicional": 12,
+        "proposta_alternativa": 2,
+        "proposta_mediadora": 1
+      },
+      "media": 0.2667,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Alice Portugal": {
+        "participacao": {
+          "n": 6,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 6,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 6,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 6,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 6,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 6,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 6,
+          "media": 1.0
+        }
+      },
+      "Daniel Facchini": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Estevam Rivello": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Evergisto Souto Maior": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Marcelo Renato Massahud Junior": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Paulo Mayall Guilayn": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Evergisto Souto Maior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Alice Portugal",
+      "trecho": "o correto seria aproveitar as profissões já regulamentadas — a medicina, há quase 1 século, e a fisioterapia, há mais de meio século. Essa talvez fosse a posição mais correta, na medida em que nós temos uma estruturação que está mantida legalmente, dada a regulamentação do exercício profissional e a fiscalização por seus conselhos profissionais.",
+      "char_start": 2859,
+      "char_end": 3206,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Alice Portugal",
+      "trecho": "o correto seria aproveitar as profissões já regulamentadas — a medicina, há quase 1 século, e a fisioterapia, há mais de meio século. Essa talvez fosse a posição mais correta, na medida em que nós temos uma estruturação que está mantida legalmente, dada a regulamentação do exercício profissional e a fiscalização por seus conselhos profissionais.",
+      "char_start": 2859,
+      "char_end": 3206,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Alice Portugal",
+      "trecho": "ela é extremamente eficaz e importante quando é cientificamente aplicada, adequada aos métodos técnico-científicos",
+      "char_start": 3779,
+      "char_end": 3893,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "Neste momento, nós poderíamos incluir a quiropraxia, assim como a osteopatia, nas nossas portarias, com todas as regulações possíveis dentro de uma portaria.",
+      "char_start": 6336,
+      "char_end": 6493,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "Nós entendemos, assim como a OMS, que a quiropraxia é uma terapia complementar, e nós temos a Política Nacional de Práticas Integrativas e Complementares, que já é definida por portaria. Neste momento, nós poderíamos incluir a quiropraxia, assim como a osteopatia, nas nossas portarias, com todas as regulações possíveis dentro de uma portaria. Acreditamos que essa seria a situação ideal.",
+      "char_start": 6149,
+      "char_end": 6538,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "trecho": "Nós estamos aqui hoje justamente para falar por que é importante e necessária a regulamentação dessa profissão específica.",
+      "char_start": 7517,
+      "char_end": 7639,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "trecho": "Nós vamos falar hoje sobre dois itens importantes na Comissão de Educação: segurança, em primeiro lugar, e acesso ao atendimento quiroprático por parte da população.",
+      "char_start": 8589,
+      "char_end": 8754,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Estevam Rivello",
+      "trecho": "Então, nós estamos falando de um profissional que possui mais de 10 mil horas de formação, sem sombra de dúvida. E o médico tem essa capacidade de formular uma hipótese diagnóstica, através do conhecimento que adquiriu em sua formação, como também a de traçar, naquela perspectiva, o que é hipótese e o que ele deve solicitar de exame.",
+      "char_start": 23367,
+      "char_end": 23702,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Estevam Rivello",
+      "trecho": "Mas será que isso é mesmo bom para a população brasileira?",
+      "char_start": 25267,
+      "char_end": 25325,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "O PL tenta regulamentar uma profissão que já existe. É a fisioterapia que trabalha com isso. Ele traz, na sua justificativa, que a IFOMPT — Federação Internacional de Fisioterapeutas Manipulativos Ortopédicos reconhece a fisioterapia, a quiropraxia e a osteopatia como três profissões distintas, que apresentam diferenças históricas e filosóficas.\n\nNa verdade, a IFOMPT reconhece a osteopatia, quiropraxia, Maitland, Mulligan, McKenzie e outras técnicas manipulativas como recursos do fisioterapeuta. E essa justificativa ainda tem diferenças filosóficas. Nós vamos criar uma profissão que utiliza o mesmo recurso com diferença filosófica? E ainda é pior: as diferenças filosóficas são baseadas no vitalismo.\n\nComo profissão, a quiropraxia prega que o ajuste articular vai restabelecer a inteligência inata, o fluxo de energia vital. O conceito de vitalismo representa a explicação que Palmer deu na época, dado o conhecimento que tinha, para explicar o resultado. A ciência hoje em dia mostra de onde vêm os efeitos.\n\nDr. Estevam, imagine criar uma profissão que pratique um ato do médico, como, por exemplo, o de prescrever medicamento. Só que, dessa forma, a explicação seria filosófica. É cabível uma coisa dessas? É extremamente temerário que se criem três profissões que utilizam o mesmo recurso, e duas delas... Também existe uma explicação de como a osteopatia restabelece o fluxo sanguíneo, e isso leva à autocura. Agora, nós vamos diferenciar profissões, uma delas já regulamentada, com amparo científico, por diferenças filosóficas baseadas em pseudociência? Nós vamos realmente fazer dessa forma?",
+      "char_start": 28466,
+      "char_end": 30074,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "Na assistência com quiropraxia pelas mãos de um fisioterapeuta, a população possui uma assistência adequada e segura.",
+      "char_start": 32165,
+      "char_end": 32282,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Evergisto Souto Maior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Evergisto Souto Maior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Evergisto Souto Maior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Evergisto Souto Maior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Evergisto Souto Maior",
+      "trecho": "Ainda hoje, a Dra. Angela Kolberg tem prestado um trabalho fantástico em benefício de pesquisas avançadas na quiropraxia, tal qual a sua filha, Carol Kolberg, formada na primeira turma, que foi minha colega. Hoje, ela é Diretora-Executiva da parte de educação em quiropraxia, também PhD.",
+      "char_start": 34263,
+      "char_end": 34550,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Evergisto Souto Maior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Alice Portugal",
+      "trecho": "E os que já estão formados em quiropraxia não poderiam fazer uma suplência com as disciplinas de porta de entrada diagnóstica se quisessem ser médicos ou fisioterapeutas, ingressando nessas graduações?",
+      "char_start": 42528,
+      "char_end": 42729,
+      "fonte": "modelo",
+      "rotulo": "proposta_mediadora"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Alice Portugal",
+      "trecho": "O elemento crucial é técnico-científico, é o questionamento. Qual é o diagnóstico de porta de entrada do quiroprata? O paciente passa pelo médico? Qual é o elemento técnico-científico que garante vitalidade e cura, senão o alívio doloroso? Há discussão sobre a correção ortopédica? E se o paciente precisar de uma cirurgia? E se ele precisar de ação medicamentosa? Como age o quiroprata nesses casos?",
+      "char_start": 37382,
+      "char_end": 37782,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Alice Portugal",
+      "trecho": "Então, nós obstamos essa regulamentação, em função de toda a precaução em relação à saúde da população.",
+      "char_start": 38638,
+      "char_end": 38741,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 14,
+      "falante": "Alice Portugal",
+      "trecho": "Acredito que as duas categorias regulamentadas, com seus conselhos de fiscalização do exercício profissional, deixaram claro que não contestam o fazer",
+      "char_start": 36424,
+      "char_end": 36574,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 14,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Alice Portugal",
+      "trecho": "porque está na mão dos Parlamentares, representantes populares, a possibilidade de a população ter benefícios ou riscos para a saúde",
+      "char_start": 44368,
+      "char_end": 44500,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Alice Portugal",
+      "trecho": "a possibilidade de a população ter benefícios ou riscos para a saúde",
+      "char_start": 44432,
+      "char_end": 44500,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Daniel Facchini",
+      "trecho": "O que o nosso ilustríssimo colega da medicina menciona sobre a questão do diagnóstico foi levantado previamente e inclusive removido do texto, porque, de fato, a quiropraxia não deve impingir nada a outras profissões, e não o faz.",
+      "char_start": 46532,
+      "char_end": 46762,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Daniel Facchini",
+      "trecho": "A manutenção dostatus quo, que é a não regulamentação, não significa que nós não atuemos: os quiropraxistas continuam se formando, continuam atuando. Seria simplesmente a manutenção dostatus quoe desse estado caótico que eu demonstrei na apresentação. É isso o que acontece quando não se regulamenta. Os quiropraxistas que atuam não são afetados por isso negativamente. Nós já vivemos com isso e atendemos a população com a melhor das nossas habilidades.\n\nO que nós temos que interromper é esse ciclo, que é uma afronta à saúde — eu tenho certeza de que todos vocês concordam. É uma afronta uma pessoa sem formação nenhuma se identificar como um fisioterapeuta especialista em quiropraxia, se identificar como um quiropraxista, se identificar como um médico. Isso é uma afronta, e a não regulamentação leva a isso.",
+      "char_start": 47316,
+      "char_end": 48130,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Daniel Facchini",
+      "trecho": "O que nós temos que interromper é esse ciclo, que é uma afronta à saúde — eu tenho certeza de que todos vocês concordam. É uma afronta uma pessoa sem formação nenhuma se identificar como um fisioterapeuta especialista em quiropraxia, se identificar como um quiropraxista, se identificar como um médico. Isso é uma afronta, e a não regulamentação leva a isso.",
+      "char_start": 47772,
+      "char_end": 48130,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Daniel Facchini",
+      "trecho": "nós concordamos com o que ele coloca e entendemos a necessidade e a importância da profissão médica",
+      "char_start": 46812,
+      "char_end": 46911,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Daniel Facchini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 23,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Estevam Rivello",
+      "trecho": "Talvez, Deputado, o que nós possamos discutir, de forma amadurecida, é a não permissão de abertura de cursos de profissão não regulamentada, para que não utilizem como argumento o fato de que o MEC já abriu, de que organizações internacionais já reconhecem, arvorando-se no direito de prosperar como profissão regulamentada no Brasil, quando aquilo já é praticado por profissões que estão consolidadas na assistência à população brasileira e no mundo afora.",
+      "char_start": 49240,
+      "char_end": 49697,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Estevam Rivello",
+      "trecho": "quando aquilo já é praticado por profissões que estão consolidadas na assistência à população brasileira e no mundo afora.",
+      "char_start": 49575,
+      "char_end": 49697,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Estevam Rivello",
+      "trecho": "Eu acho que nós no Brasil temos respeito pelos centros de reabilitação. São locais que a população busca, procura, porque têm grau de formação e têm excelência no serviço, na entrega do serviço à população, tanto no SUS quanto no sistema suplementar.",
+      "char_start": 48862,
+      "char_end": 49112,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Estevam Rivello",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 25,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "Então, não há como um Conselho Regional de Medicina ou um Conselho Regional de Fisioterapia fiscalizar e punir casos como o que foi apresentado, em que alguém sem a mínima formação se intitula quiropraxista ou profissional de qualquer outra área, qualquer outra profissão, qualquer outra área de atuação, e faz mal à população.  Então, nós precisamos melhorar essa segurança para a nossa população.",
+      "char_start": 51148,
+      "char_end": 51546,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "Então, nós precisamos melhorar essa segurança para a nossa população.",
+      "char_start": 51477,
+      "char_end": 51546,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "demais representantes das profissões",
+      "char_start": 50836,
+      "char_end": 50872,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Marcelo Renato Massahud Junior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 27,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "No momento, eu gostaria de pedir essa confirmação a todos os especialistas presentes. Acredito que outros especialistas possam dar provas de base científica para o complexo de subluxação.",
+      "char_start": 53747,
+      "char_end": 53934,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "Acredito que o exercício ilegal da fisioterapia e da quiropraxia também deveria ser assim considerado. Esse é um problema que não seria resolvido com esse projeto de lei, mas que nos remete à reflexão sobre o exercício das profissões de saúde de maneira geral.",
+      "char_start": 53158,
+      "char_end": 53418,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Paulo Mayall Guilayn",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alice Portugal",
+      "trecho": "Farei um requerimento para a realização de uma segunda audiência antes dessa votação, para que possamos dar oportunidade de fala a todos e todas.",
+      "char_start": 55642,
+      "char_end": 55787,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Alice Portugal",
+      "trecho": "o Brasil vai precisar evoluir, assim como talvez precise evoluir na criação de uma carreira do SUS",
+      "char_start": 54983,
+      "char_end": 55081,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Alice Portugal",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [],
+  "turnos_falhos": []
+}

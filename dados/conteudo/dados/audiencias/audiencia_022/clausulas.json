@@ -1,0 +1,124 @@
+{
+  "sample_id": 22,
+  "n_opinioes": 22,
+  "n_decompostas": 22,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 12,
+  "n_ancorados": 6,
+  "n_rejeitados": 6,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "condicao": 3,
+    "atribuicao": 1,
+    "escopo": 1,
+    "prazo": 1
+  },
+  "perdas": [
+    {
+      "falante": "Zé Neto",
+      "turno_id": 2,
+      "opiniao": "defende tratamento responsável e unitário sobre o comércio digital para evitar que o Brasil fique para trás em competitividade",
+      "nucleo": "defendeu tratamento responsável e unitário sobre o comércio digital para evitar que o Brasil fique para trás em competitividade",
+      "tipo": "condicao",
+      "trecho": "para que tenhamos condição de proteger mais a nossa indústria, o nosso comércio, especialmente o nosso varejo, dando-lhe condições de competitividade adequadas",
+      "char_start": 5025,
+      "char_end": 5184
+    },
+    {
+      "falante": "Igor Luna",
+      "turno_id": 17,
+      "opiniao": "defende políticas públicas para o comércio eletrônico com base em análises técnicas e participação multilateral",
+      "nucleo": "defendeu políticas públicas para o comércio eletrônico com base em análises técnicas e participação multilateral",
+      "tipo": "escopo",
+      "trecho": "com o setor",
+      "char_start": 26682,
+      "char_end": 26693
+    },
+    {
+      "falante": "Zé Neto",
+      "turno_id": 25,
+      "opiniao": "defende que a regulação do comércio digital seja responsabilidade de todo o Estado brasileiro, não apenas do Governo",
+      "nucleo": "defendeu que a regulação do comércio digital seja responsabilidade de todo o Estado brasileiro",
+      "tipo": "atribuicao",
+      "trecho": "Você foi muito preciso.",
+      "char_start": 58286,
+      "char_end": 58309
+    },
+    {
+      "falante": "Guilherme Henrique Martins Santos",
+      "turno_id": 29,
+      "opiniao": "defende a viabilização de soluções logísticas como lockers e pontos de coleta por meio de incentivos tributários",
+      "nucleo": "defendeu a viabilização de soluções logísticas como lockers e pontos de coleta por meio de incentivos tributários",
+      "tipo": "condicao",
+      "trecho": "enquanto se impõe o sistema atual",
+      "char_start": 64215,
+      "char_end": 64248
+    },
+    {
+      "falante": "Jorge Gonçalves Filho",
+      "turno_id": 31,
+      "opiniao": "defende a adoção imediata da IN 2.124 e do plano de conformidade para regular o comércio digital",
+      "nucleo": "defendeu a adoção imediata da IN 2.124 e do plano de conformidade para regular o comércio digital",
+      "tipo": "prazo",
+      "trecho": "a partir de 1º de julho",
+      "char_start": 65539,
+      "char_end": 65562
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 17,
+      "falante": "Igor Luna",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "contanto que sejam feitas análises técnicas bastante robustas",
+      "opiniao": "defende políticas públicas para o comércio eletrônico com base em análises técnicas e participação multilateral"
+    },
+    {
+      "turno_id": 17,
+      "falante": "Igor Luna",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "contanto que isso também deva ser aberto para o setor empresarial, para a sociedade civil, através de consultas públicas, audiências públicas",
+      "opiniao": "defende políticas públicas para o comércio eletrônico com base em análises técnicas e participação multilateral"
+    },
+    {
+      "turno_id": 23,
+      "falante": "Guilherme Henrique Martins Santos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "para garantir segurança jurídica e unificação nacional",
+      "opiniao": "defende que a responsabilização solidária de marketplaces pelo ICMS dos sellers deve ser regulada por lei complementar federal, para garantir segurança jurídica e unificação nacional"
+    },
+    {
+      "turno_id": 23,
+      "falante": "Guilherme Henrique Martins Santos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "mas critica o abandono da seletividade",
+      "opiniao": "apoia a reforma tributária como solução para problemas do comércio eletrônico, mas critica o abandono da seletividade e a transição prolongada entre sistemas"
+    },
+    {
+      "turno_id": 23,
+      "falante": "Guilherme Henrique Martins Santos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "e a transição prolongada entre sistemas",
+      "opiniao": "apoia a reforma tributária como solução para problemas do comércio eletrônico, mas critica o abandono da seletividade e a transição prolongada entre sistemas"
+    },
+    {
+      "turno_id": 27,
+      "falante": "Igor Luna",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "contanto que observe a carga tributária que já existe no Brasil",
+      "opiniao": "defende tributação equilibrada para a economia digital e participação no debate sobre reforma tributária"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.1667,
+  "taxa_ancoragem": 0.5,
+  "taxa_opiniao_intacta": 0.7727
+}

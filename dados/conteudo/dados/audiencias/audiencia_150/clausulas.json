@@ -1,0 +1,60 @@
+{
+  "sample_id": 150,
+  "n_opinioes": 7,
+  "n_decompostas": 7,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 4,
+  "n_ancorados": 2,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 0,
+  "n_perdidos": 2,
+  "por_tipo": {
+    "escopo": 1,
+    "prazo": 1
+  },
+  "perdas": [
+    {
+      "falante": "Luciano Valentim Rechiuti",
+      "turno_id": 4,
+      "opiniao": "defende aumento de investimentos em ciência e tecnologia espacial por considerar insuficiente o atual nível de investimento do Brasil",
+      "nucleo": "defendeu aumento de investimentos em ciência e tecnologia espacial por considerar insuficiente o atual nível de investimento do Brasil",
+      "tipo": "escopo",
+      "trecho": "no Brasil",
+      "char_start": 16126,
+      "char_end": 16135
+    },
+    {
+      "falante": "Cláudio Gomide",
+      "turno_id": 19,
+      "opiniao": "defende que o sesquicentenário de Santos Dumont seja o início de um movimento contínuo de valorização nacional",
+      "nucleo": "defendeu que o sesquicentenário de Santos Dumont seja o início de um movimento contínuo de valorização nacional",
+      "tipo": "prazo",
+      "trecho": "no ano que vem, nos 151 anos, isso não termine",
+      "char_start": 38192,
+      "char_end": 38238
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Luciano Valentim Rechiuti",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "se não aumentar seus investimentos",
+      "opiniao": "alerta que o Brasil corre o risco de ficar para trás em tecnologia espacial se não aumentar seus investimentos"
+    },
+    {
+      "turno_id": 17,
+      "falante": "Cláudio Gomide",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "atribuicao",
+      "trecho": "com apoio da Força Aérea Brasileira",
+      "opiniao": "defende maior divulgação e reconhecimento de Santos Dumont no Brasil, com apoio da Força Aérea Brasileira"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.0,
+  "taxa_ancoragem": 0.5,
+  "taxa_opiniao_intacta": 0.7143
+}

@@ -1,0 +1,383 @@
+{
+  "sample_id": 191,
+  "n_opinioes": 16,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 14,
+  "n_fundamentos_propostos": 28,
+  "n_fundamentos_ancorados": 28,
+  "n_fundamentos_com_numero": 15,
+  "por_tipo": {
+    "dado": 26,
+    "autoridade": 2
+  },
+  "n_contrapontos_propostos": 3,
+  "n_com_contraponto": 3,
+  "n_rejeitados": 0,
+  "itens": [
+    {
+      "opiniao": "Defende a realização de construções internas e debates para assimilar normas de bem-estar animal, começando imediatamente.",
+      "falante": "Vanessa Negrini",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "vamos ter que passar por uma série de construções internas, de debates internos, até que essas normas sejam assimiladas. Comecemos. Comecemos.",
+          "char_start": 6755,
+          "char_end": 6897,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o Governo deve responder à demanda social por bem-estar animal, impulsionada por votação no PPA e reconhecida pela ONU.",
+      "falante": "Vanessa Negrini",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "no PPA Participativo a primeira proposta mais votada no MAPA — Ministério da Agricultura e Pecuária foi a de produção livres de gaiolas",
+          "char_start": 8422,
+          "char_end": 8557,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Com relação à Resolução Nexus entre Bem-Estar Animal, Meio Ambiente e Desenvolvimento Sustentável, do PNUMA, foi a primeira vez que tivemos o reconhecimento pela Organização das Nações Unidas, em 2022, dessa relação.",
+          "char_start": 4816,
+          "char_end": 5032,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Afirma que o bem-estar animal é fundamental principalmente para a sobrevivência humana.",
+      "falante": "Vanessa Negrini",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É pelo bem dos animais, sim. É pelo bem dos animais, mas, não se iludam, é sobretudo pela vida humana na Terra.",
+          "char_start": 9140,
+          "char_end": 9251,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "É pelo bem dos animais, sim.",
+        "resposta": "É pelo bem dos animais, mas, não se iludam, é sobretudo pela vida humana na Terra.",
+        "objecao_char_start": 9140,
+        "objecao_char_end": 9168,
+        "resposta_char_start": 9169,
+        "resposta_char_end": 9251,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende o bem-estar animal como oportunidade concreta e alinhada com princípios éticos e modelos empresariais tradicionais",
+      "falante": "Celso Funcia Lemme",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Aqui é apenas uma indicação do impacto que tem o nosso sistema de produção atual. Esse é um dado de pesquisa recente da National Academy of Sciences, de fevereiro deste ano. Se nós somarmos o peso da espécie humana em milhões de toneladas sobre o planeta, 390, com os nossos rebanhos domésticos, 630, e até os cães domésticos, por uma indicação de convívio com a espécie humana, observaremos o que eles representam em termos de comparação com o peso de todos os mamíferos selvagens terrestres e marinhos.",
+          "char_start": 10722,
+          "char_end": 11226,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Por que o bem-estar animal pode ser uma oportunidade muito interessante para nós brasileiros, para a economia, para o desenvolvimento? Por algumas razões.\n\nA primeira delas é porque parte de princípios muito simples, muito comuns e que são quase consenso nas sociedades humanas das mais diversas regiões e culturas, como respeitar a vida, evitar o sofrimento desnecessário, manifestar comportamentos naturais.",
+          "char_start": 12513,
+          "char_end": 12922,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção proativa do bem-estar animal para evitar riscos econômicos e manter competitividade",
+      "falante": "Celso Funcia Lemme",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se nós observarmos 2 anos à frente, mas já 9 anos atrás, veremos novamente alertas na área de negócios de um dos maiores produtores de alimentos do mundo, a Nestlé, fazendo a indicação aos seus fornecedores de que não deseja mais adquirir produtos que venham da criação de aves submetidas a gaiolas em bateria.",
+          "char_start": 14181,
+          "char_end": 14491,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "E, se nós passarmos das demandas de consumidores para as de investidores, veremos esta tela do Global Reporting Initiative, que é o maior padrão internacional de relatórios de sustentabilidade e transparência corporativa. E, dentro da norma para o setor 13, que é agricultura, aquicultura e pesca, especificamente, ele trata de bem-estar animal em itens e indicadores específicos.",
+          "char_start": 18533,
+          "char_end": 18913,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A Bolsa de Valores brasileira, a B3, tem um índice de sustentabilidade empresarial, e o bem-estar animal está lá como um dos requisitos para avaliação.",
+          "char_start": 18915,
+          "char_end": 19066,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A XP fala do crescimento das dívidas sustentáveis, ou seja, adotar estratégia de sustentabilidade permite acesso a capital mais barato.",
+          "char_start": 19068,
+          "char_end": 19203,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Quanto custa? Qual é o investimento para fazer essas mudanças de sistemas de produção?",
+        "resposta": "o custo de fazer uma mudança pode ser alto, mas o risco de não fazê-la pode ser muito maior, ou seja, você pode vir a ser eliminado de mercados, perder oportunidades ou perder a sua liderança.",
+        "objecao_char_start": 15024,
+        "objecao_char_end": 15110,
+        "resposta_char_start": 15605,
+        "resposta_char_end": 15797,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a exploração animal é uma das principais causas de crises ambientais, de saúde pública e de perda de biodiversidade",
+      "falante": "Karina Ishida",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a pecuária, responsável por mais de 60% do desmatamento da Floresta Amazônica",
+          "char_start": 41751,
+          "char_end": 41828,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "25% das emissões de gases poluentes do planeta são provocadas pela agropecuária",
+          "char_start": 41856,
+          "char_end": 41935,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "64,8% dos gases emitidos são provenientes da agropecuária",
+          "char_start": 49667,
+          "char_end": 49724,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quase 80% da safra mundial de soja é destinada para a alimentação dos animais",
+          "char_start": 47265,
+          "char_end": 47342,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o uso de ingredientes nativos, como o feijão, em proteínas alternativas para valorizar a agricultura familiar e reduzir o extrativismo",
+      "falante": "Alysson Soares",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o feijão não é umacommodity, está muito desvalorizado. Estão deixando de plantar feijão para plantar soja, milho, que, como foi muito bem colocado aqui, vão para a ração animal, muito mais do que para o consumo humano.",
+          "char_start": 66105,
+          "char_end": 66323,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há muitos outros exemplos, mas o feijão, exemplo que eu estou usando, nitrogena o solo, devolve ao solo o oxigênio retirado por outras culturas, entre diversos outros fatores.",
+          "char_start": 66795,
+          "char_end": 66970,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a inversão do modelo extrativista por meio de proteínas alternativas para gerar valor agregado nacional",
+      "falante": "Alysson Soares",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós produzimos, vendemos — geralmente acommodity, que não é processada, não tem nenhum valor agregado — e compramos de volta, depois, o mesmo grão que vendemos, já em sua versão com valor agregado, com 10, 20, 30 vezes o preço pelo qual vendemos.",
+          "char_start": 65586,
+          "char_end": 65832,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia a criação da Coalizão Global pelas Proteínas Alternativas para fortalecer políticas públicas no setor",
+      "falante": "Alysson Soares",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Aqui temos um dado que, acho, ninguém tinha mencionado: um bife vegetal, em comparação com um bife animal, emite 90% menos de gases de efeito estufa, 99% menos de água, 93% a menos de terra e necessita de 46% menos de energia elétrica para ser feito.",
+          "char_start": 67308,
+          "char_end": 67558,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Coalizão Global pelas Proteínas Alternativas, iniciativa que o GFI está capitaneando. Vai ser lançada agora na COP 28, em Dubai.",
+          "char_start": 67747,
+          "char_end": 67877,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a participação do Legislativo no avanço da saúde única como mudança de cultura e responsabilidade multissetorial",
+      "falante": "Natiela Beatriz de Oliveira",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "São mais de 16 instituições que estão trabalhando nesse processo, como MMA, MAPA, EMBRAPA, FIOCRUZ",
+          "char_start": 72262,
+          "char_end": 72360,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a continuidade do debate parlamentar sobre saúde única com participação ativa do Ministério da Saúde",
+      "falante": "Natiela Beatriz de Oliveira",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A intenção é trazer prioridades de trabalho e que possamos trazer, inclusive, para dentro desta Casa também a discussão sobre esse plano de ação",
+          "char_start": 72363,
+          "char_end": 72507,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a ampliação do debate sobre bem-estar animal com a contribuição técnica da sociedade",
+      "falante": "Izabel Honorato",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "mais de 56 projetos relacionados ao bem-estar animal doméstico e silvestre, que estamos sempre debatendo",
+          "char_start": 78087,
+          "char_end": 78191,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Lá, nas pautas sobre a causa animal, estão cadastrados, hoje, como projetos de leis que a Frente Ambientalista acompanha como prioridade",
+          "char_start": 77949,
+          "char_end": 78085,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "www.frenteambientalista.com",
+          "char_start": 77919,
+          "char_end": 77946,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atuação imediata do Ministério do Meio Ambiente em aldeias indígenas do Amapá para combater a contaminação do solo",
+      "falante": "Silvia Waiãpi",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há a presença de três fungos e uma bactéria, para os quais ainda não existe cura.",
+          "char_start": 80182,
+          "char_end": 80263,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No Estado do Amapá, os povos indígenas estão precisando de socorro do Governo Federal.",
+          "char_start": 80335,
+          "char_end": 80421,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "considera áreas de fronteira como estratégicas para a defesa nacional e rejeita interferência internacional em decisões internas do Brasil",
+      "falante": "Silvia Waiãpi",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos um Estado bloqueado 73% em reservas, tanto indígenas quanto minerais, impossibilitado de se desenvolver economicamente, que faz fronteira com a Guiana Francesa e passa por uma interferência internacional quanto à sua liberdade econômica e à sua liberdade de desenvolvimento, principalmente na questão do meio ambiente.",
+          "char_start": 80676,
+          "char_end": 81004,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "É necessário que comecemos a perceber o Brasil e suas áreas de fronteira como áreas estratégicas de defesa, e não permitir que interesses internacionais continuem delimitando e coordenando o que deve ou não deve ser feito no nosso País.",
+          "char_start": 81006,
+          "char_end": 81242,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "passa por uma interferência internacional quanto à sua liberdade econômica e à sua liberdade de desenvolvimento",
+        "resposta": "É necessário que comecemos a perceber o Brasil e suas áreas de fronteira como áreas estratégicas de defesa, e não permitir que interesses internacionais continuem delimitando e coordenando o que deve ou não deve ser feito no nosso País.",
+        "objecao_char_start": 80848,
+        "objecao_char_end": 80959,
+        "resposta_char_start": 81006,
+        "resposta_char_end": 81242,
+        "ancorado": true
+      }
+    }
+  ],
+  "rejeitados": [],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.875,
+  "taxa_contraponto": 0.1875,
+  "taxa_ancoragem_fundamento": 1.0
+}

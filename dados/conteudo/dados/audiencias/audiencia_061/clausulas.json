@@ -1,0 +1,109 @@
+{
+  "sample_id": 61,
+  "n_opinioes": 31,
+  "n_decompostas": 31,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 16,
+  "n_ancorados": 13,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 7,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "condicao": 8,
+    "escopo": 4,
+    "atribuicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Jorge Nascimento",
+      "turno_id": 16,
+      "opiniao": "defende reforma tributária nacional que respeite o pacto federativo e não onere indústria e consumidor",
+      "nucleo": "defendeu reforma tributária nacional que respeite o pacto federativo e não onere indústria e consumidor",
+      "tipo": "escopo",
+      "trecho": "que atenda o País como um todo",
+      "char_start": 22227,
+      "char_end": 22257
+    },
+    {
+      "falante": "Vitor Lippi",
+      "turno_id": 18,
+      "opiniao": "defende o aproveitamento do reposicionamento de cadeias globais para atrair indústrias ao Brasil",
+      "nucleo": "Defendeu o aproveitamento do reposicionamento de cadeias globais para atrair indústrias ao Brasil",
+      "tipo": "escopo",
+      "trecho": "inclusive para Manaus",
+      "char_start": 39708,
+      "char_end": 39729
+    },
+    {
+      "falante": "Zé Neto",
+      "turno_id": 29,
+      "opiniao": "Defende que a transição governe como partida, não chegada, com câmaras técnicas interministeriais.",
+      "nucleo": "Defendeu que a transição governe como partida, não chegada, com câmaras técnicas interministeriais.",
+      "tipo": "condicao",
+      "trecho": "não seja de chegada, mas de partida",
+      "char_start": 58913,
+      "char_end": 58948
+    },
+    {
+      "falante": "Zé Neto",
+      "turno_id": 29,
+      "opiniao": "Defende manutenção da desoneração da folha em 17 setores.",
+      "nucleo": "Defendeu manutenção da desoneração da folha em 17 setores.",
+      "tipo": "escopo",
+      "trecho": "esses 17 setores que já são desonerados",
+      "char_start": 59655,
+      "char_end": 59694
+    },
+    {
+      "falante": "Zé Neto",
+      "turno_id": 29,
+      "opiniao": "Defende proteção do mercado interno e produção nacional para gerar emprego e soberania.",
+      "nucleo": "Defendeu proteção do mercado interno e produção nacional para gerar emprego e soberania.",
+      "tipo": "escopo",
+      "trecho": "que é o que está sendo feito no mundo inteiro pelos mais avançados regimes liberais que estamos vivendo pelo mundo",
+      "char_start": 63530,
+      "char_end": 63644
+    },
+    {
+      "falante": "Zé Neto",
+      "turno_id": 29,
+      "opiniao": "Defende interromper processo de desmonte e venda do BNDES.",
+      "nucleo": "Defendeu interromper processo de desmonte e venda do BNDES.",
+      "tipo": "atribuicao",
+      "trecho": "Com a montagem que eles fizeram dentro do banco, está tudo claro que é para vender o banco, que é para entregar",
+      "char_start": 62255,
+      "char_end": 62366
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 24,
+      "falante": "Alexis Fonteyne",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para gerar empregos e crescimento",
+      "opiniao": "defende priorização da indústria com menos regulação e mais apoio para gerar empregos e crescimento"
+    },
+    {
+      "turno_id": 31,
+      "falante": "Jorge Nascimento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "no mesmo nível do agronegócio",
+      "opiniao": "defende valorização da indústria nacional no mesmo nível do agronegócio"
+    },
+    {
+      "turno_id": 35,
+      "falante": "Marcelo Pimentel",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que acompanhado de debate público",
+      "opiniao": "apoia o PDL 575 com ressalvas, desde que acompanhado de debate público para evitar arbitrariedade e proteger a indústria nacional"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5385,
+  "taxa_ancoragem": 0.8125,
+  "taxa_opiniao_intacta": 0.8065
+}

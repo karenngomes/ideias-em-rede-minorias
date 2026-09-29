@@ -1,0 +1,175 @@
+{
+  "sample_id": 138,
+  "n_opinioes": 6,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 6,
+  "n_fundamentos_propostos": 10,
+  "n_fundamentos_ancorados": 10,
+  "n_fundamentos_com_numero": 0,
+  "por_tipo": {
+    "dado": 10
+  },
+  "n_contrapontos_propostos": 3,
+  "n_com_contraponto": 2,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "defende que a empresa é sempre responsável pelo vazamento de dados, mesmo em caso de invasão externa, por falha na proteção adequada",
+      "falante": "Caio Vianna",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se um agente externo é capaz de penetrar o sistema — não precisa ter havido um erro operacional de algum funcionário da empresa —, é porque a empresa não implementou as práticas de segurança adequadas.",
+          "char_start": 19862,
+          "char_end": 20063,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Deu a esse malfeitor externo a oportunidade de invadir o sistema e promover esse vazamento de dados.",
+          "char_start": 20064,
+          "char_end": 20164,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não precisa ter havido um erro operacional de algum funcionário da empresa",
+        "resposta": "é porque a empresa não implementou as práticas de segurança adequadas",
+        "objecao_char_start": 19915,
+        "objecao_char_end": 19989,
+        "resposta_char_start": 19993,
+        "resposta_char_end": 20062,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a ANPD precisa de aprimoramento legislativo e maior eficácia na aplicação de sanções para garantir a proteção de dados",
+      "falante": "Caio Vianna",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há algo que não me parece razoável nisso tudo. Você deu o exemplo da padaria, que é tão importante quanto asbig techs, mas os grandes vazamentos geralmente vêm de bancos de dados maiores, das grandesbig techs —não das tão grandes, porque elas têm uma camada de proteção e segurança maior, mas de algumas que estão galgando esse espaço.",
+          "char_start": 24542,
+          "char_end": 24877,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu aproveito para perguntar: houve algum tipo de sanção ou alguma coisa que vocês fizeram com relação ao Ministério da Saúde, quando houve o vazamento do ConecteSUS?",
+          "char_start": 25858,
+          "char_end": 26023,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Parece-me que não houve, ainda, não vou nem dizer uma mão pesada da ANPD, mas uma resposta mais efetiva, por parte da agência, com relação a estes vazamentos.",
+          "char_start": 25698,
+          "char_end": 25856,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a ANPD deve agir com mais celeridade e eficácia, especialmente em vazamentos de órgãos públicos como o Ministério da Saúde",
+      "falante": "Caio Vianna",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O ConecteSUS, por exemplo, foi um caso que aconteceu já faz algum tempo, e já dava para ter tido alguma resposta.",
+          "char_start": 28002,
+          "char_end": 28115,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "é contrário à monetização de dados pessoais, pois considera ilícita a prática no ordenamento brasileiro",
+      "falante": "Waldemar Gonçalves Ortunho Júnior",
+      "turno_id": 34,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nos Estados Unidos, por exemplo, eu posso, em busca de algum desconto, falar que esses dados podem ser utilizados da forma como se quiser.",
+          "char_start": 32493,
+          "char_end": 32631,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Nos Estados Unidos, por exemplo, eu posso, em busca de algum desconto, falar que esses dados podem ser utilizados da forma como se quiser.",
+        "resposta": "Nós ainda não a temos. Trata-se de algo que tem que ser votado e aprovado. No momento, é algo ainda considerado ilícito para nós.",
+        "objecao_char_start": 32493,
+        "objecao_char_end": 32631,
+        "resposta_char_start": 32670,
+        "resposta_char_end": 32799,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "é pessoalmente contrário à monetização de dados por considerá-la complexa e inadequada",
+      "falante": "Waldemar Gonçalves Ortunho Júnior",
+      "turno_id": 36,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu, particularmente, sou contrário.",
+          "char_start": 33060,
+          "char_end": 33095,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção de blockchain como tecnologia promissora para proteção de dados, com potencial para superar limitações atuais",
+      "falante": "Caio Vianna",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É possível, sim, fazer alterações, mas isso também fica registrado.",
+          "char_start": 36550,
+          "char_end": 36617,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Na parte de exclusão, já existe um pouco mais de dificuldade.",
+          "char_start": 36618,
+          "char_end": 36679,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 18,
+      "falante": "Caio Vianna",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Nós temos que entender como vamos atuar, porque não adianta apenas colocar mais recursos na ANPD e aumentar o pessoal"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.3333,
+  "taxa_ancoragem_fundamento": 1.0
+}

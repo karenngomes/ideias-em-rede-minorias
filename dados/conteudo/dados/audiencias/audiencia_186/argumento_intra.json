@@ -1,0 +1,784 @@
+{
+  "sample_id": 186,
+  "n_opinioes": 35,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 31,
+  "n_fundamentos_propostos": 60,
+  "n_fundamentos_ancorados": 57,
+  "n_fundamentos_com_numero": 20,
+  "por_tipo": {
+    "dado": 55,
+    "autoridade": 2
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 4,
+  "n_rejeitados": 3,
+  "itens": [
+    {
+      "opiniao": "defende que políticas emergenciais e estruturais devem combater os impactos ambientais do agronegócio, com foco na preservação florestal, hídrica e na agroecologia",
+      "falante": "Maria de Jesus",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É o agronegócio!",
+          "char_start": 6066,
+          "char_end": 6082,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "biomas do Brasil que nunca tiveram seca hoje são biomas que estão tendo também, periodicamente, secas",
+          "char_start": 6140,
+          "char_end": 6241,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "este ano, recebeu 360 bilhões de reais de financiamento no Plano Safra",
+          "char_start": 6358,
+          "char_end": 6428,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Já há estudo da ONU comprovando que, se o mundo plantasse hoje 17 trilhões de árvores, nós teríamos um equilíbrio no planeta em face das mudanças climáticas e de tanta devastação produzida pelo ser humano",
+          "char_start": 7357,
+          "char_end": 7561,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que subsídios emergenciais devem incluir ações de recuperação ambiental e educação, como plantio de árvores e hortas urbanas",
+      "falante": "Maria de Jesus",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O plantio de árvores é uma das maiores ações a serem feitas",
+          "char_start": 7296,
+          "char_end": 7355,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Já há estudo da ONU comprovando que, se o mundo plantasse hoje 17 trilhões de árvores, nós teríamos um equilíbrio no planeta em face das mudanças climáticas e de tanta devastação produzida pelo ser humano",
+          "char_start": 7357,
+          "char_end": 7561,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em Maricá, há hortas na cidade para a população ter acesso a elas",
+          "char_start": 9826,
+          "char_end": 9891,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que políticas habitacionais devem priorizar a segurança de famílias atingidas por desastres ambientais",
+      "falante": "Maria de Jesus",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu vejo que as pessoas perdem as casas",
+          "char_start": 8186,
+          "char_end": 8224,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Elas poderiam ter outro local que não colocasse em risco a vida delas",
+          "char_start": 8437,
+          "char_end": 8506,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a reforma agrária com base agroecológica e florestal como modelo produtivo sustentável",
+      "falante": "Maria de Jesus",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós temos construído no MST uma discussão de defesa de uma reforma agrária e agroecológica florestal",
+          "char_start": 9036,
+          "char_end": 9136,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Precisamos ter nos nossos sistemas de produção essa base tecnológica",
+          "char_start": 9138,
+          "char_end": 9206,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a implementação de políticas nacionais de agricultura urbana e arborização produtiva",
+      "falante": "Maria de Jesus",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A agricultura urbana existe em muitos países. China e Cuba são exemplos de agricultura urbana",
+          "char_start": 9446,
+          "char_end": 9539,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quem disse que as nossas cidades não podem ser arborizadas com fruteiras?",
+          "char_start": 9655,
+          "char_end": 9728,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quem disse que as nossas cidades não podem ter hortas, como ocorre em Maricá, no Rio de Janeiro?",
+          "char_start": 9729,
+          "char_end": 9825,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em Maricá, há hortas na cidade para a população ter acesso a elas",
+          "char_start": 9826,
+          "char_end": 9891,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende auxílio emergencial duradouro que contemple reconstrução psicossocial e recuperação econômica",
+      "falante": "Victor Marchezini",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "300 bilhões de reais em danos materiais e prejuízos em desastres",
+          "char_start": 16779,
+          "char_end": 16843,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "muitas pessoas morrem de depressão",
+          "char_start": 20013,
+          "char_end": 20047,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Quando nós identificamos o histórico de desastres no Brasil, percebemos que a temporalidade não se limita ao momento em que está chovendo, ao momento em que está havendo uma inundação.",
+        "resposta": "Os efeitos do desastre perduram ao longo do tempo, não só no momento da emergência, quando há uma inundação, uma seca, mas depois, nos abrigos temporários, muitos em condições insalubres.",
+        "objecao_char_start": 19195,
+        "objecao_char_end": 19379,
+        "resposta_char_start": 19379,
+        "resposta_char_end": 19566,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende fortalecimento de políticas de mitigação de risco com foco em habitação, drenagem e educação",
+      "falante": "Victor Marchezini",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "30% não têm sequer um computador para trabalhar e 67% não possuem uma viatura para fazer as ações de verificação de riscos",
+          "char_start": 18212,
+          "char_end": 18334,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende auxílio emergencial vinculado a sistema de gestão federativo, com participação social e financiamento claro, e prioriza moradia como direito frente à lógica mercantil",
+      "falante": "Gisele Brito",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O próprio CEMADEN diz que, só em 2022, foram mais de 842 mil desalojados, e mais de 41 milhões de pessoas, em 10 anos, foram atingidas por inundações",
+          "char_start": 31464,
+          "char_end": 31613,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "959 Municípios",
+          "char_start": 29107,
+          "char_end": 29121,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "as pessoas esperam 6 meses para receber o primeiro recurso",
+          "char_start": 29417,
+          "char_end": 29475,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "existe uma lei de 2004, que era uma medida provisória, que tem uma função parecida com essa que está sendo proposta. É a Lei nº 10.954, que institui, no âmbito doprograma de resposta aos desastres, o auxílio emergencial financeiro",
+          "char_start": 24544,
+          "char_end": 24774,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Mas, de fato, esse problema não se resolve com dinheiro.",
+        "resposta": "Nós temos uma deficiência na produção de infraestrutura no Brasil, uma deficiência na produção de políticas habitacionais. É, mais uma vez, inevitável se falar na importância de pensarmos a moradia como um direito, e não como uma mercadoria, para que Estados, Prefeituras e Governo Federal produzam habitação de interesse social e de interesse público.",
+        "objecao_char_start": 26918,
+        "objecao_char_end": 26974,
+        "resposta_char_start": 27396,
+        "resposta_char_end": 27748,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende intervenções municipais para mitigar riscos sem remoção de comunidades",
+      "falante": "Talíria Petrone",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em 2010, viveu a tragédia do Bumba, que ficou conhecida com esse nome, mas que foi um processo de deslizamento em mais de 23 pontos da cidade",
+          "char_start": 32075,
+          "char_end": 32216,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende auxílio emergencial como política de reparação para populações historicamente excluídas e impactadas pela crise climática",
+      "falante": "Igor Travassos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quando o Império decreta a abolição, não se pensou sobre o dia 14, o dia seguinte.",
+          "char_start": 36588,
+          "char_end": 36670,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 1872 foi realizado o primeiro Censo oficial. Segundo esse Censo, havia 9 milhões de pessoas.",
+          "char_start": 37211,
+          "char_end": 37306,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 1890, 12 anos depois do primeiro Censo, essa população sai de 9 milhões para 14 milhões de pessoas.",
+          "char_start": 37395,
+          "char_end": 37497,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 1900, essa população duplica.",
+          "char_start": 37522,
+          "char_end": 37554,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "São pessoas negras, e isso é importante colocar.",
+          "char_start": 36539,
+          "char_end": 36587,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita o critério de renda como único para acesso ao auxílio emergencial em desastres climáticos",
+      "falante": "Igor Travassos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "muitas dessas pessoas que vivem em territórios periféricos não necessariamente trabalham nesses territórios.",
+          "char_start": 39240,
+          "char_end": 39348,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Falo aqui de empregadas domésticas, por exemplo, que trabalham em bairros nobres das cidades. A casa dos seus patrões, das suas patroas não vai sofrer impacto. Ela continua com vínculo laboral.",
+          "char_start": 39402,
+          "char_end": 39595,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Falo aqui inclusive de comerciantes informais, que na dinâmica das cidades deixam seus produtos num lugar mais próximo, no centro, e moram nas periferias.",
+          "char_start": 39596,
+          "char_end": 39750,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o auxílio emergencial inclua lógica de indenização por perda de patrimônio em desastres climáticos",
+      "falante": "Igor Travassos",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A família que está vivendo em área de risco não está ali por uma escolha, mas por uma consequência de omissões do Estado.",
+          "char_start": 41159,
+          "char_end": 41280,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se chegou ao momento, ao ponto crítico de perder sua residência por um desmoronamento, por uma enchente, é por causa de uma prática sistêmica do Estado de não olhar para esses territórios.",
+          "char_start": 41281,
+          "char_end": 41469,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Há pessoas que estão impactadas há 20 anos, há 30 anos.",
+        "resposta": "Como conseguimos colocar um valor que tem uma lógica — eu sei que é complexo, porque isso também dá margem para outras discussões — da indenização daquilo que se perdeu?",
+        "objecao_char_start": 40932,
+        "objecao_char_end": 40987,
+        "resposta_char_start": 40988,
+        "resposta_char_end": 41157,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a revisão do PL com base em contribuições para gerar políticas efetivas",
+      "falante": "Talíria Petrone",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o PL de 2004 — acho que podemos falar isso de público, porque esta é uma audiência pública —, de que eu não tinha conhecimento, mencionado pela Gisele, no que aconteceu de lá até aqui. É um PL que tem diferenças, mas deveria na ponta garantir o auxílio emergencial a essas pessoas, e, de lá para cá, isso não é instituído.",
+          "char_start": 43120,
+          "char_end": 43442,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "vincula desastres em periferias ao racismo e a projetos de higienização urbana",
+      "falante": "Lídia Lins Assumpção",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Tudo é parte de um projeto político inclusive de higienização dos centros. O meu bairro fica bem distante do centro de Recife, e ele inclusive começou a ser povoado de forma mais intensa a partir das cheias das décadas de 60 e de 70 e da retirada dessas famílias, porque era muito conveniente tirar as famílias que estavam mais próximas do centro e levá-las para esses lugares mais afastados, na periferia",
+          "char_start": 49068,
+          "char_end": 49473,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a participação direta das pessoas atingidas nas discussões de políticas públicas",
+      "falante": "Lídia Lins Assumpção",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu sempre faço esse apelo e sempre tenciono no sentido de que as pessoas que são diretamente atingidas façam parte das discussões sobre o que está sendo decidido, sobre as políticas públicas que estão sendo desenhadas, porque muitas vezes elas ficam excluídas desses processos, desses debates, e suas vozes não são escutadas.",
+          "char_start": 50238,
+          "char_end": 50563,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a definição vaga de tempo do desastre no PL por não considerar impactos duradouros",
+      "falante": "Lídia Lins Assumpção",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Um primeiro ponto que eu anotei aqui foi essa definição, que está muito vaga no PL, do tempo do desastre. De fato, é muito difícil definir isso, porque as repercussões de um desastre dessa magnitude vão reverberando ao longo do tempo. Por exemplo, ainda hoje muitas famílias sofrem com traumas psicológicos gigantes decorrentes do que aconteceu.",
+          "char_start": 51086,
+          "char_end": 51431,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de fóruns com participação direta de atingidos para controle social",
+      "falante": "Lídia Lins Assumpção",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu acho que é importante pensarmos em estabelecer fóruns e instâncias de participação e controle social a partir dos diretamente atingidos, para as discussões referentes a esses auxílios emergenciais.",
+          "char_start": 53636,
+          "char_end": 53836,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende diálogo efetivo entre esferas de governo e comunidades atingidas",
+      "falante": "Lídia Lins Assumpção",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Gisele também trouxe outra coisa importante, que é como fazer esse diálogo com os Municípios, que estão na ponta, que vão executar esse recurso, e como será o diálogo com as pessoas atingidas nos Municípios, se as distâncias para a participação social são burocráticas e nem sempre contemplam, nem sempre abarcam essas pessoas.",
+          "char_start": 53838,
+          "char_end": 54165,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende integração do auxílio emergencial com políticas de assistência, renda, saúde e educação",
+      "falante": "Lídia Lins Assumpção",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Também é importante pensar na interligação com outras políticas públicas, com a rede de assistência social, com a rede de geração de emprego e rendas, com as políticas públicas de saúde, de alimentação, de educação. Acho que é extrema importância ter esse ponto interligado, esse diálogo entre os entes federados.",
+          "char_start": 54167,
+          "char_end": 54480,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende desburocratização do acesso ao auxílio emergencial e eliminação de barreiras locais",
+      "falante": "Lídia Lins Assumpção",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Uma coisa necessária para o recebimento do auxílio era que as pessoas tivessem cadastro no CadÚnico, mas nem todas as pessoas estavam cadastradas, e elas precisavam receber o auxílio naquele momento. Só para conseguir uma ficha para ser atendido no CadÚnico o tempo de espera foi enorme, muito grande.Vejam a burocracia para se ter acesso ao recurso!",
+          "char_start": 55237,
+          "char_end": 55587,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que políticas públicas devem considerar a dimensão racial",
+      "falante": "Talíria Petrone",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um País que teve quase 4 séculos de escravidão",
+          "char_start": 57071,
+          "char_end": 57117,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "uma abolição inconclusa",
+          "char_start": 57120,
+          "char_end": 57143,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende políticas públicas de moradia digna e reparação para atingidos por desastres com base na escuta de comunidades impactadas",
+      "falante": "Célia Xakriabá",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "68% das pessoas mais atingidas pela mineração e por fortes enchentes são pessoas negras, são as comunidades quilombolas",
+          "char_start": 57782,
+          "char_end": 57901,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "As pessoas não sorriem mais porque, todas as noites, ou toda madrugada, a sirene é ligada para dizer se aquela barragem vai romper ou não",
+          "char_start": 58906,
+          "char_end": 59043,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Mas eles constroem em lugares que são proibidos. Eles constroem em lugares em que não se pode construir",
+        "resposta": "Nós queríamos morar, por exemplo, no centro de Belo Horizonte. Nós queríamos morar no centro de Brasília. Em todas as discussões que são feitas com o Max Maciel aqui em Brasília, dizem que o Plano Piloto, na verdade, não é uma cidade-dormitório, porque as pessoas trabalham aqui durante o dia e vão à noite para Ceilândia",
+        "objecao_char_start": 59132,
+        "objecao_char_end": 59235,
+        "resposta_char_start": 59504,
+        "resposta_char_end": 59825,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o PL incorpore a centralidade das vítimas e os direitos humanos nas políticas de adaptação climática",
+      "falante": "Gabriel Mantelli",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Sabemos que existem disputas ideológicas teóricas em relação à questão da crise climática, mas para nós, além da disputa econômica que acontece, a centralidade está nas vítimas, em quem já está sofrendo os impactos da crise do clima",
+          "char_start": 65828,
+          "char_end": 66060,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende uma transição ecológica e justa que priorize as populações sobre interesses petrolíferos e minerários",
+      "falante": "Gabriel Mantelli",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "infelizmente, ainda tem políticas que dão primazia à questão do petróleo, da indústria petrolífera, da mineração",
+          "char_start": 66564,
+          "char_end": 66676,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a inclusão da expressão 'perdas e danos' no PL para alinhamento com o debate climático global",
+      "falante": "Gabriel Mantelli",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No ano passado, finalmente, conseguimos aprovar um fundo mundial para perdas e danos na COP do Egito",
+          "char_start": 69014,
+          "char_end": 69114,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe incluir elevação do nível do mar e erosão costeira como desastres climáticos no PL",
+      "falante": "Gabriel Mantelli",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "temos visto também a elevação do nível do mar, a erosão do mar, e as cidades costeiras também já estão vivenciando esses impactos",
+          "char_start": 70656,
+          "char_end": 70785,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de comitês ou salas de situação com participação social permanente para monitorar políticas climáticas",
+      "falante": "Gabriel Mantelli",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nos últimos anos, infelizmente, durante a gestão do ex-Presidente Jair Bolsonaro, nós vimos a informação e a participação ambiental sendo totalmente desmanteladas",
+          "char_start": 71127,
+          "char_end": 71289,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que políticas de adaptação incluam atenção à saúde mental e espiritual de populações impactadas",
+      "falante": "Gabriel Mantelli",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O colega do CEMADEN também trouxe alguns pontos sobre isso, dizendo que os dados não conseguem ainda visualizar diretamente qual é o impacto na saúde mental",
+          "char_start": 72929,
+          "char_end": 73085,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a inclusão de comunidades no auxílio emergencial, com valor proporcional ao tamanho da comunidade",
+      "falante": "Defensor Stélio Dener",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em Roraima tem a maior população indígena, percentualmente falando, do Brasil: 11% da população do Estado é indígena.",
+          "char_start": 77155,
+          "char_end": 77272,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em Roraima, nós temos 719 comunidades indígenas.",
+          "char_start": 77379,
+          "char_end": 77427,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há comunidades, por exemplo, em Ingarikó, que perderam todo o plantio em virtude da cheia do rio. A água levou tudo.",
+          "char_start": 77669,
+          "char_end": 77785,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o auxílio emergencial considere raça, saúde mental e controle social",
+      "falante": "Talíria Petrone",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "de haver um fórum ou um comitê para controle social da execução do auxílio, pensando na centralidade das vítimas, das pessoas atingidas e afetadas",
+          "char_start": 81049,
+          "char_end": 81195,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "de fazer um debate sobre a indenização, sobre o caráter desse recurso, que chega às pessoas atingidas e afetadas, se será indenização ou auxílio, sobre quem teria direito ao auxílio, sobre as pessoas que não têm diretamente o seu negócio afetado, a sua renda afetada, mas o seu modo de vida, a sua saúde mental",
+          "char_start": 81197,
+          "char_end": 81507,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende ampliação do debate com participação efetiva das comunidades mais atingidas pela crise climática",
+      "falante": "Igor Travassos",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "as realidades que são vividas, por exemplo, na Região Metropolitana do Recife podem conversar e dialogar com as realidades da Região Metropolitana de São Paulo, mas são situações com vivências totalmente diferentes",
+          "char_start": 85851,
+          "char_end": 86065,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 10,
+      "falante": "Lídia Lins Assumpção",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Resido aí a importância de pensarmos num auxílio emergencial nessas situações, porque, de fato, é importante chegar junto e pensar em como materialmente podemos atender a essas famílias. Mas, como a Gisele bem pontuou em sua fala, só isso não resolve."
+    },
+    {
+      "turno_id": 16,
+      "falante": "Defensor Stélio Dener",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Poderíamos colocar um inciso III, que não trata de pessoa física, mas de comunidades. Ficaria assim:'III - Comunidades indígenas, quilombolas, ribeirinhas, costeira —sugerida pelo Gabriel—, afro, que tenham sido impactados (...)'."
+    },
+    {
+      "turno_id": 16,
+      "falante": "Defensor Stélio Dener",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Lá embaixo, nos requisitos quanto ao valor a ser fixado, nós decidiríamos:'(...) de acordo com o tamanho da comunidade'. Por exemplo: até 50 pessoas,um auxílio fixado pelo próprio PL, ou até 100 pessoas, um auxílio fixado pelo PL."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.8857,
+  "taxa_contraponto": 0.1143,
+  "taxa_ancoragem_fundamento": 0.95
+}

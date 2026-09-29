@@ -1,0 +1,122 @@
+{
+  "sample_id": 149,
+  "n_opinioes": 21,
+  "n_decompostas": 21,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 14,
+  "n_ancorados": 12,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 4,
+  "n_perdidos": 8,
+  "por_tipo": {
+    "prazo": 4,
+    "condicao": 2,
+    "escopo": 5,
+    "excecao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Alexandre Lindenmeyer",
+      "turno_id": 1,
+      "opiniao": "defende que o Estado brasileiro se prepare para as mudanças demográficas para garantir qualidade de vida às pessoas idosas",
+      "nucleo": "defendeu que o Estado brasileiro se prepare para as mudanças demográficas para garantir qualidade de vida às pessoas idosas",
+      "tipo": "prazo",
+      "trecho": "no curto, médio e longo prazo",
+      "char_start": 2990,
+      "char_end": 3019
+    },
+    {
+      "falante": "Danyel Iório de Lima",
+      "turno_id": 4,
+      "opiniao": "defende a elaboração de um plano de longo prazo para lidar com a transição demográfica",
+      "nucleo": "defendeu a elaboração de um plano de longo prazo para lidar com a transição demográfica",
+      "tipo": "prazo",
+      "trecho": "no próximo ano",
+      "char_start": 34990,
+      "char_end": 35004
+    },
+    {
+      "falante": "Danyel Iório de Lima",
+      "turno_id": 4,
+      "opiniao": "defende a elaboração de um plano de longo prazo para lidar com a transição demográfica",
+      "nucleo": "defendeu a elaboração de um plano de longo prazo para lidar com a transição demográfica",
+      "tipo": "escopo",
+      "trecho": "que vai além dos 4 anos",
+      "char_start": 35042,
+      "char_end": 35065
+    },
+    {
+      "falante": "Matheus Guerra Cotta",
+      "turno_id": 6,
+      "opiniao": "defende políticas para idosos que considerem a realidade de áreas rurais, florestas e comunidades quilombolas",
+      "nucleo": "defendeu políticas para idosos que considerem a realidade de áreas rurais, florestas e comunidades quilombolas",
+      "tipo": "escopo",
+      "trecho": "nos diversos contextos do País, e não só a diversidade dos contextos urbanos. Existe uma população no campo. Existe uma população rural. Existe uma população na floresta",
+      "char_start": 41477,
+      "char_end": 41646
+    },
+    {
+      "falante": "Vladimir Milton Pomar",
+      "turno_id": 12,
+      "opiniao": "defende que o Governo Lula atue como divisor de águas na crise demográfica com planejamento até 2060 e estrutura ministerial dedicada",
+      "nucleo": "defendeu que o Governo Lula atue como divisor de águas na crise demográfica com planejamento até 2060 e estrutura ministerial dedicada",
+      "tipo": "escopo",
+      "trecho": "no Sul do Brasil",
+      "char_start": 57815,
+      "char_end": 57831
+    },
+    {
+      "falante": "Izabel Guimarães Marri",
+      "turno_id": 14,
+      "opiniao": "Defende políticas públicas urgentes para expandir o mercado de trabalho formal e adaptar o sistema previdenciário ao envelhecimento populacional, com foco na participação feminina.",
+      "nucleo": "Defendeu políticas públicas urgentes para expandir o mercado de trabalho formal e adaptar o sistema previdenciário ao envelhecimento populacional, com foco na participação feminina.",
+      "tipo": "prazo",
+      "trecho": "é superurgente",
+      "char_start": 83747,
+      "char_end": 83761
+    },
+    {
+      "falante": "Michel Saad",
+      "turno_id": 18,
+      "opiniao": "defende manter os direitos e a autonomia dos tecnólogos em gerontologia, rejeitando supressão de seus direitos profissionais",
+      "nucleo": "defendeu manter os direitos e a autonomia dos tecnólogos em gerontologia",
+      "tipo": "excecao",
+      "trecho": "sem nenhuma restrição de direitos e de autonomia",
+      "char_start": 93352,
+      "char_end": 93400
+    },
+    {
+      "falante": "Alexandre da Silva",
+      "turno_id": 22,
+      "opiniao": "Rejeita aumentar a idade de referência para 65 anos por considerar que muitos não sobrevivem até lá, o que agravaria desigualdades",
+      "nucleo": "Rejeitou aumentar a idade de referência para 65 anos",
+      "tipo": "condicao",
+      "trecho": "Nós não estamos no momento de falar sobre isso ainda",
+      "char_start": 96030,
+      "char_end": 96082
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Andréa dos Santos",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "contanto que",
+      "opiniao": "defende a criação de instrumentos legais para garantir políticas públicas efetivas com foco na acessibilidade e autonomia da população idosa"
+    },
+    {
+      "turno_id": 22,
+      "falante": "Alexandre da Silva",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "para pessoas idosas",
+      "opiniao": "Defende o direito ao trabalho decente para pessoas idosas, com respeito, remuneração e valorização"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.3333,
+  "taxa_ancoragem": 0.8571,
+  "taxa_opiniao_intacta": 0.6667
+}

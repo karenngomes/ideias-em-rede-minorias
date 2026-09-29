@@ -1,0 +1,106 @@
+{
+  "sample_id": 113,
+  "n_falantes": 6,
+  "n_parlamentares": 4,
+  "n_convidados": 2,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 2,
+  "n_opinioes_gold": 9,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.6257343624006451,
+      "participacao_civil_turnos": 0.3333333333333333,
+      "citacao_civil_opinioes": 0.0,
+      "citacao_civil_pessoas": 0.0,
+      "deficit_civil": 0.6257343624006451
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.923338432772395,
+      "participacao_civil_turnos": 0.7142857142857143,
+      "citacao_civil_opinioes": null,
+      "citacao_civil_pessoas": null,
+      "deficit_civil": null
+    }
+  },
+  "citados_ausentes": [
+    "Pedro Batista",
+    "Vera Campelo"
+  ],
+  "falantes_silenciados": [
+    "Jorge Goetten",
+    "Pedro Henrique Lopes Batista",
+    "Tarcísio Motta",
+    "Vera Lúcia Campelo da Silva"
+  ],
+  "falantes": [
+    {
+      "nome": "Leo Prates",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 1,
+      "n_palavras": 584,
+      "turnos": [
+        1
+      ]
+    },
+    {
+      "nome": "Gilson Daniel",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 7,
+      "n_palavras": 2214,
+      "turnos": [
+        2,
+        4,
+        6,
+        8,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "nome": "Vera Lúcia Campelo da Silva",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2681,
+      "turnos": [
+        3,
+        9,
+        14
+      ]
+    },
+    {
+      "nome": "Pedro Henrique Lopes Batista",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 2751,
+      "turnos": [
+        5,
+        12
+      ]
+    },
+    {
+      "nome": "Jorge Goetten",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 142,
+      "turnos": [
+        7
+      ]
+    },
+    {
+      "nome": "Tarcísio Motta",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 309,
+      "turnos": [
+        10
+      ]
+    }
+  ]
+}

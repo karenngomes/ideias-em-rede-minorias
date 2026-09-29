@@ -1,0 +1,479 @@
+{
+  "sample_id": 68,
+  "n_opinioes": 24,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 21,
+  "n_fundamentos_propostos": 29,
+  "n_fundamentos_ancorados": 28,
+  "n_fundamentos_com_numero": 4,
+  "por_tipo": {
+    "dado": 24,
+    "autoridade": 4
+  },
+  "n_contrapontos_propostos": 6,
+  "n_com_contraponto": 6,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "rejeita a inclusão do Avastin no protocolo da CONITEC sem consulta pública e sem respaldo da ANVISA, devido aos riscos para o paciente",
+      "falante": "Vanessa Pirolo",
+      "turno_id": 3,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Inclusive neste eslaide que eu coloquei para vocês, eque está aqui pequenininho, mostra muito claro todos os problemas que o paciente pode vir a ter, como danos, aumento da quantidade de sangue no local de aplicação, presença de moscas volantes, complicações, como sangramento na parte interna e posterior do olho, descolamento de retina, ruptura da retina, inflamação do globo ocular, catarata, infecções, e efeitos, como hemorragias, distúrbios gastrointestinais, AVC, infarto.",
+          "char_start": 10041,
+          "char_end": 10520,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a ANVISA deixou muito claro que não é a favor que esse medicamento seja indicado para tratamento da retinopatia diabética.",
+          "char_start": 9259,
+          "char_end": 9381,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "muitas vezes esse medicamento tenha sido tão bem utilizado por médicos até a aprovação deste protocolo",
+        "resposta": "se a nossa agência reguladora, que é o órgão que regulamenta todos os medicamentos e insumos deste País, não for favorável ao produto, significa que nós estaríamos aqui incluindo um medicamento que apesar de não ser favorável, ao mesmo tempo, a pessoa assina um documento que diz que ela é responsável pelos efeitos colaterais, uma vez que o Ministério da Saúde não arca com essa questão.",
+        "objecao_char_start": 10950,
+        "objecao_char_end": 11052,
+        "resposta_char_start": 11054,
+        "resposta_char_end": 11442,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende maior acesso a especialistas oftalmologistas no SUS para evitar agravamento da retinopatia diabética",
+      "falante": "Levimar Araújo",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "75% dependem exclusivamente do SUS",
+          "char_start": 14906,
+          "char_end": 14940,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a capacitação da atenção básica para detecção precoce de complicações visuais da diabetes",
+      "falante": "Levimar Araújo",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nossa ideia é levar conhecimento, levar informação para o pessoal da cadeira básica",
+          "char_start": 16037,
+          "char_end": 16120,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o uso de medicamentos aprovados por órgãos reguladores no tratamento da retinopatia diabética, contra mudanças que possam restringi-los",
+      "falante": "Levimar Araújo",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "A SBD posiciona-se dessa maneira, para que se tenha uma visão multi, isto é, enfatizando o uso das medicações que estão aprovadas pelos órgãos superiores",
+          "char_start": 16520,
+          "char_end": 16673,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção imediata e efetiva do tratamento precoce para retinopatia diabética, conforme previsto no PCDT",
+      "falante": "Levimar Araújo",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, pacientes estão ficando cegos em decorrência da falta de tratamento",
+          "char_start": 16764,
+          "char_end": 16837,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "esperamos que se cumpra o que foi determinado, aquilo que nós, com tanta determinação e com tanto empenho, aprovamos nesse PCDT",
+          "char_start": 16846,
+          "char_end": 16973,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a organização do sistema de saúde com priorização de casos graves de retinopatia diabética",
+      "falante": "Fernando Malerbi",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "aproximadamente um terço dos pacientes apenas têm alterações na retina",
+          "char_start": 19139,
+          "char_end": 19209,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A minoria deles tem alteração que pode levar à cegueira",
+          "char_start": 19211,
+          "char_end": 19266,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "15 mil indivíduos no Brasil que precisam de pelo menos um exame da retina por ano",
+          "char_start": 19967,
+          "char_end": 20048,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a descentralização do rastreamento para a atenção primária",
+      "falante": "Fernando Malerbi",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É preciso levar o rastreamento para a atenção primária, para que o paciente não precise passar por todo o trâmite de referência e contrarreferência, que sabemos que ocupa as vagas",
+          "char_start": 21279,
+          "char_end": 21458,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia tratamentos científicos para retinopatia diabética, incluindo laser e cirurgia, e destaca a importância do tratamento da catarata em diabéticos",
+      "falante": "Fernando Malerbi",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "a Sociedade Brasileira de Diabetes apoia todos os tratamentos para retinopatia diabética que tenham embasamento científico",
+          "char_start": 21651,
+          "char_end": 21773,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "que não se restringem só à farmacoterapia, que ganhou muita evidência",
+        "resposta": "Há o tratamento a laser, que realmente previne a cegueira, um tratamento custo efetivo, e também cirurgias para casos mais graves",
+        "objecao_char_start": 21775,
+        "objecao_char_end": 21844,
+        "resposta_char_start": 21846,
+        "resposta_char_end": 21975,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reitera disposição da Sociedade Brasileira de Diabetes para colaborar com o Ministério na organização do acesso à saúde ocular",
+      "falante": "Fernando Malerbi",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós chegamos a levar a essa reunião no Ministério uma proposta da Sociedade Brasileira de Diabetes sobre organização",
+          "char_start": 22332,
+          "char_end": 22448,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o custeio atual para tratamento de retinopatia diabética no SUS é insuficiente e ameaça a sustentabilidade dos serviços",
+      "falante": "Arnaldo Furman Bordon",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O custeio proposto para esse tipo de medicação via PAC é insuficiente para cobrir o custo do tratamento, ou seja, o sistema não se sustenta",
+          "char_start": 28122,
+          "char_end": 28261,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atualização da tabela do SUS para acompanhar avanços tecnológicos e evitar descredenciamento de hospitais",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Hospital A.C.Camargo anunciou que vai se descredenciar do SUS porque a tabela está muito defasada há vários anos.",
+          "char_start": 46406,
+          "char_end": 46521,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a retomada e ampliação de discussões sobre PCDTs e financiamento com participação ampla",
+      "falante": "Patrícia Peres de Souza",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o País tem excelentes profissionais, locais bem equipados",
+          "char_start": 50242,
+          "char_end": 50299,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o tratamento medicamentoso da retina, que consta da tabela do SUS, diz respeito apenas ao componente federal do financiamento desse tratamento",
+          "char_start": 50492,
+          "char_end": 50634,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu não estou, com isso, querendo dizer que a resolução de todo o problema é saber que o financiamento, o custeio e a organização são tripartites ou que a responsabilidade é das três esferas.",
+        "resposta": "Eu não só gostaria de lembrar isso, mas de dizer também que compartilho a preocupação e a opinião de que esse assunto deve ser realmente rediscutido quantas vezes for necessário. Se for preciso, devemos rever mesmo os PCDTs, a forma de financiamento, com uma discussão ampla que envolva vários setores do Ministério da Saúde.",
+        "objecao_char_start": 51455,
+        "objecao_char_end": 51645,
+        "resposta_char_start": 51646,
+        "resposta_char_end": 51971,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica o Ministério da Saúde por transferir responsabilidades sem financiamento suficiente e exige retomada do debate com responsabilidade federal",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O financiamento que chega aos Estados e aos Municípios não contempla esse tipo de tratamento",
+          "char_start": 53367,
+          "char_end": 53459,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não, isso é problema de gestão",
+        "resposta": "E como isso é problema de gestão, se o recurso que chega, de determinado valor, o Estado ou o Município não pode transferir para cobrir outro, porque o outro também vai ficar sem?",
+        "objecao_char_start": 53743,
+        "objecao_char_end": 53773,
+        "resposta_char_start": 53776,
+        "resposta_char_end": 53955,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reconhece a defasagem do financiamento e defende discussões amplas e profundas para sua revisão",
+      "falante": "Patrícia Peres de Souza",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "está defasado",
+          "char_start": 54397,
+          "char_end": 54410,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a ampla divulgação do trabalho educativo da ADJ para promover prevenção e acesso",
+      "falante": "Lucas Leme Galastri",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "50 milhões de pessoas nunca procuraram um oftalmologista",
+          "char_start": 58936,
+          "char_end": 58992,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a realização imediata de reunião com a CONITEC e o Ministério da Saúde para revisar o protocolo e assegurar tratamento seguro e implementação",
+      "falante": "Vanessa Pirolo",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Muitas Secretarias de Saúde não estão conseguindo implementá-lo",
+          "char_start": 61393,
+          "char_end": 61456,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não se pode deixar a pessoa com diabetes desassistida",
+        "resposta": "senão essa conta vai ser triplicada, quadruplicada, multiplicada não sei quantas vezes",
+        "objecao_char_start": 61458,
+        "objecao_char_end": 61511,
+        "resposta_char_start": 61513,
+        "resposta_char_end": 61599,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a implementação do protocolo com financiamento adequado para evitar custos futuros maiores ao SUS",
+      "falante": "Vanessa Pirolo",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o paciente vai precisar do auxílio-doença e de outras coisas",
+          "char_start": 61007,
+          "char_end": 61067,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "A conta é ineficaz, porque não se gasta num primeiro momento",
+        "resposta": "mas num segundo momento vai-se gastar, já que o paciente vai precisar do auxílio-doença e de outras coisas",
+        "objecao_char_start": 60899,
+        "objecao_char_end": 60959,
+        "resposta_char_start": 60961,
+        "resposta_char_end": 61067,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "propõe reunião entre CONASS, CONASEMS e Ministério da Saúde para definir solução coordenada para o acesso a antiangiogênicos",
+      "falante": "Marcos Ávila",
+      "turno_id": 32,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Tanto Portugal quanto a Argentina têm medicamentos disponíveis.",
+          "char_start": 64105,
+          "char_end": 64168,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há tanto em Portugal quanto na Inglaterra, na Holanda e em outros países, para todo lado que se vai.",
+          "char_start": 64247,
+          "char_end": 64347,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a indicação de Dra. Vanessa Pirolo para coordenar o grupo e oferece apoio institucional",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a Vanessa seja indicada para coordenar o grupo",
+          "char_start": 65100,
+          "char_end": 65146,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu coloco o meu gabinete à disposição também",
+          "char_start": 65239,
+          "char_end": 65283,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "oferece colaboração da Sociedade Brasileira de Retina e Vitreo para enfrentar a retinopatia diabética em parceria com o Governo",
+      "falante": "Arnaldo Furman Bordon",
+      "turno_id": 36,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "1.200 médicos oftalmologistas, especialistas em retina",
+          "char_start": 65947,
+          "char_end": 66001,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "compromete-se a avançar formalmente com a retomada de discussões mediante documento formal",
+      "falante": "Patrícia Peres de Souza",
+      "turno_id": 38,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vanessa, peço que você faça esse documento que o Deputado sugeriu, com a assinatura de todos, e que o direcione à Secretaria de Atenção Especializada",
+          "char_start": 66696,
+          "char_end": 66845,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 40,
+      "falante": "Patrícia Peres de Souza",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Nesse tempo em que eu estou aqui, sempre ouvi dos meus meus superiores — da minha Coordenadora, do meu Diretor e da Secretária — a orientação de que temos que estar sempre à disposição para ajudar e, de preferência, tomarmos iniciativa, tomarmos a frente na luta contra as dificuldades que vemos em v"
+    }
+  ],
+  "turnos_perdidos": [
+    {
+      "turno_id": 21,
+      "falante": "Marcos Ávila",
+      "opinioes": 1,
+      "erro": "ValueError: resposta sem objeto JSON: '{\\n  \"posicoes\": [\\n    {\\n      \"i\": 1,\\n      \"fundamentos\": [\\n        {\"tipo\": \"dado\", \"t"
+    }
+  ],
+  "taxa_fundamentacao": 0.875,
+  "taxa_contraponto": 0.25,
+  "taxa_ancoragem_fundamento": 0.9655
+}

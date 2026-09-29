@@ -1,0 +1,99 @@
+{
+  "sample_id": 8,
+  "n_falantes": 4,
+  "n_parlamentares": 1,
+  "n_convidados": 3,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 2,
+  "n_opinioes_gold": 13,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.9431107954545455,
+      "participacao_civil_turnos": 0.5,
+      "citacao_civil_opinioes": 0.5,
+      "citacao_civil_pessoas": 0.5,
+      "deficit_civil": 0.44311079545454546
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [
+    "Alexandre dos Santos",
+    "Otávio Damaso"
+  ],
+  "falantes_silenciados": [
+    "Alexandre Pinheiro dos Santos",
+    "Otávio Ribeiro Damaso"
+  ],
+  "falantes": [
+    {
+      "nome": "Aureo Ribeiro",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 14,
+      "n_palavras": 801,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        26,
+        28
+      ]
+    },
+    {
+      "nome": "Otávio Ribeiro Damaso",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 5,
+      "n_palavras": 4333,
+      "turnos": [
+        2,
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "nome": "Thiago Bueno",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1694,
+      "turnos": [
+        4,
+        16,
+        18
+      ]
+    },
+    {
+      "nome": "Alexandre Pinheiro dos Santos",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 6,
+      "n_palavras": 7252,
+      "turnos": [
+        6,
+        20,
+        22,
+        24,
+        25,
+        27
+      ]
+    }
+  ]
+}

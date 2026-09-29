@@ -1,0 +1,367 @@
+{
+  "sample_id": 174,
+  "n_opinioes": 15,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 14,
+  "n_fundamentos_propostos": 22,
+  "n_fundamentos_ancorados": 22,
+  "n_fundamentos_com_numero": 11,
+  "por_tipo": {
+    "dado": 19,
+    "autoridade": 3
+  },
+  "n_contrapontos_propostos": 7,
+  "n_com_contraponto": 7,
+  "n_rejeitados": 0,
+  "itens": [
+    {
+      "opiniao": "rejeita a participação de treineiros sem diploma no REVALIDA por não se tratar de um exame preparatório, mas de revalidação",
+      "falante": "Ulysses Tavares Teixeira",
+      "turno_id": 3,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "em 2023, nessa edição aplicada em março de 2023, tivemos 857 participantes sem diploma",
+          "char_start": 35301,
+          "char_end": 35387,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se você sequer concluiu o processo formativo em Medicina no estrangeiro, obviamente, a expectativa de aprovação num exame de revalidação de diploma que vai cobrar as competências de um curso completo cai bastante",
+          "char_start": 35480,
+          "char_end": 35692,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "por meio de ações judiciais, vemos aqui, por exemplo, que, em 2023, nessa edição aplicada em março de 2023, tivemos 857 participantes sem diploma",
+        "resposta": "a participação de treineiros não nos parece o ideal ou o mais adequado",
+        "objecao_char_start": 35242,
+        "objecao_char_end": 35387,
+        "resposta_char_start": 35151,
+        "resposta_char_end": 35221,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a limitação do número de exames solicitados na prova prática do REVALIDA para promover racionalidade clínica e aderência ao SUS",
+      "falante": "Ulysses Tavares Teixeira",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o gabarito dessa prova prevê um número de solicitação de exames. Se solicitou, a pontuação é completa; se não solicitou ou solicitou só essa parte, pontuação parcial. Se prescreveu o medicamento adequado, pontuação completa.",
+          "char_start": 43368,
+          "char_end": 43592,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Dessa vez, fizemos uma limitação, ou seja, o candidato pode solicitar até cinco exames.",
+          "char_start": 44030,
+          "char_end": 44117,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Desenvolveu-se no Brasil, paralelamente ao REVALIDA, um grupo de cursinhos preparatórios para essa prova.",
+        "resposta": "Então, os cursinhos vinham preparando o participante a chegar lá e pedir 50 exames, falar 50 diagnósticos, prescrever 50 medicamentos, na tentativa de acertar um na sorte, ao acaso, porque não existia previsão de punição para prescrições erradas. Dessa vez, fizemos uma limitação, ou seja, o candidato pode solicitar até cinco exames.",
+        "objecao_char_start": 43677,
+        "objecao_char_end": 43782,
+        "resposta_char_start": 43783,
+        "resposta_char_end": 44117,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "questiona a necessidade de três edições anuais do REVALIDA, argumentando que duas são suficientes diante do perfil dos candidatos",
+      "falante": "Ulysses Tavares Teixeira",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não há três turmas de medicina se formando por ano, mas, em geral, quem vai passar precisa de, no máximo, 2 edições.",
+          "char_start": 40269,
+          "char_end": 40385,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere a harmonização de padrões educacionais com países vizinhos para alinhar a formação médica estrangeira à brasileira",
+      "falante": "Ulysses Tavares Teixeira",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Parece-nos que uma aproximação junto às agências de avaliação e regulação da educação superior dos nossos países vizinhos seria muito interessante no sentido de se harmonizar os graus de exigência, para que o que o INEP cobra nos cursos brasileiros seja semelhante ao que está sendo cobrado nos outros países para os mesmos cursos.",
+          "char_start": 46030,
+          "char_end": 46361,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a consolidação da regulação educacional para assegurar transparência e qualidade na validação de diplomas",
+      "falante": "Elizabeth Regina Nunes Guedes",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "94,7% dos diplomas são originados na Bolívia, no Paraguai, em Cuba e na Argentina",
+          "char_start": 63602,
+          "char_end": 63683,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "solicita ao legislador que revise a tramitação simplificada de validação de diplomas médicos e regule a abertura de novos cursos",
+      "falante": "Elizabeth Regina Nunes Guedes",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Alguns dizem que mais de 2 mil médicos já tiveram seus diplomas validados na modalidade simplificada",
+          "char_start": 58072,
+          "char_end": 58172,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "questiona a suficiência da nota de corte do REVALIDA entre 60% e 65% para garantir competência profissional",
+      "falante": "Elizabeth Regina Nunes Guedes",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a nota de corte varia entre 60% e 65%",
+          "char_start": 64536,
+          "char_end": 64573,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "existe gente dizendo que a prova é feita para não aprovar",
+        "resposta": "Ora, uma prova que aprova quem sabe só 65%, que o próprio Ulysses declara ser o mínimo que se exige de um médico, não é uma prova difícil",
+        "objecao_char_start": 64843,
+        "objecao_char_end": 64900,
+        "resposta_char_start": 64902,
+        "resposta_char_end": 65039,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende o REVALIDA como filtro de qualidade necessário para proteger a sociedade e assegurar padrão mínimo de competência clínica",
+      "falante": "Jeancarlo Cavalcante",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "3,75% de aprovados é um índice muito baixo",
+          "char_start": 70736,
+          "char_end": 70778,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Clarito Rojas, Presidente do Conselho Nacional da Avaliação de Ensino Superior do Paraguai, falava da necessidade de se reavaliarem as escolas médicas do Paraguai",
+          "char_start": 70970,
+          "char_end": 71132,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O Paraguai hoje tem cinco escolas públicas de medicina e 17 escolas privadas de medicina",
+          "char_start": 71134,
+          "char_end": 71222,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "determinadas escolas médicas bolivianas têm um bom índice de aprovação no REVALIDA, enquanto outras não conseguem atingir números consideráveis",
+          "char_start": 71689,
+          "char_end": 71832,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o jornalH2FOZ, um jornal de Foz do Iguaçu, trouxe uma matéria em que Clarito Rojas, Presidente do Conselho Nacional da Avaliação de Ensino Superior do Paraguai, falava da necessidade de se reavaliarem as escolas médicas do Paraguai",
+          "char_start": 70901,
+          "char_end": 71132,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Como bem falou a Profa. Elizabeth Guedes, é quase impossível fazer um curso de medicina pagando mil reais por mensalidade",
+          "char_start": 71300,
+          "char_end": 71421,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "As pessoas que falam contra o REVALIDA dizem que o Reino Unido e a Austrália têm muitos médicos estrangeiros, muitos indianos.",
+        "resposta": "É verdade, são bastantes, mas todos eles fizeram a revalidação do seu diploma e, algumas vezes, o exame de proficiência de língua inglesa, quando não eram nativos desse idioma.",
+        "objecao_char_start": 70267,
+        "objecao_char_end": 70393,
+        "resposta_char_start": 70394,
+        "resposta_char_end": 70570,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a redução da evasão em cursos públicos de medicina como forma de justiça educacional",
+      "falante": "Francisco de Assis Rocha Neves",
+      "turno_id": 26,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "cursos gratuitos de medicina tenham evasão",
+          "char_start": 77478,
+          "char_end": 77520,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "a taxa de evasão do curso de medicina, que é baixa",
+        "resposta": "mas é uma baixa cara. Temos que baixar mais, até que fique próxima de zero",
+        "objecao_char_start": 77782,
+        "objecao_char_end": 77832,
+        "resposta_char_start": 77834,
+        "resposta_char_end": 77908,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o curso de medicina no Brasil é feito para ricos e não para pobres ou classe média",
+      "falante": "Coronel Chrisóstomo",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "quem pode pagar 10 mil reais por mês, no mínimo, numa faculdade, Dr. Francisco? Só filho de rico.",
+          "char_start": 79424,
+          "char_end": 79521,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o respeito e reconhecimento aos médicos formados no exterior, especialmente na América do Sul",
+      "falante": "Coronel Chrisóstomo",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "muitos rondonienses estudam na Bolívia",
+          "char_start": 78797,
+          "char_end": 78835,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "parece que são médicos — aí eu vou colocar um dado referente ao que eu vejo — de terceira categoria, mas, na verdade, não o são.",
+        "resposta": "São médicos formados em outro país. Nós temos, sim, que ter respeito por esses médicos e trazê-los para o Brasil.",
+        "objecao_char_start": 81016,
+        "objecao_char_end": 81144,
+        "resposta_char_start": 81145,
+        "resposta_char_end": 81258,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a revisão dos critérios do REVALIDA para avaliar se a baixa aprovação reflete problema na prova ou na formação",
+      "falante": "Coronel Chrisóstomo",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Parece-me que, no último concurso, passaram menos de 10% dos que se formaram no curso em determinado país.",
+          "char_start": 85050,
+          "char_end": 85156,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o percentual de aprovação é muito baixo",
+          "char_start": 81651,
+          "char_end": 81690,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não sei se isso tem a ver com as escolas onde eles foram formados ou com o nível muito alto da prova.",
+        "resposta": "Isso, se se tratasse de uma prova normal, mostraria que ou há um problema em quem constrói a prova e a aplica, ou realmente se tem que mandar fechar o curso lá nesse país.",
+        "objecao_char_start": 81732,
+        "objecao_char_end": 81833,
+        "resposta_char_start": 85157,
+        "resposta_char_end": 85328,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "apoia o abatimento de dívidas do FIES no programa Mais Médicos como forma de ampliar acesso equitativo à formação médica",
+      "falante": "Francisco de Assis Rocha Neves",
+      "turno_id": 34,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se ele ficar 4 anos no programa, só vão restar 40% da dívida.",
+          "char_start": 94727,
+          "char_end": 94788,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a construção de condições para que médicos possam exercer plenamente a profissão, garantindo qualidade no atendimento à população",
+      "falante": "Evair Vieira de Melo",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "num país continental e desafiador como é o nosso Brasil",
+          "char_start": 97944,
+          "char_end": 97999,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9333,
+  "taxa_contraponto": 0.4667,
+  "taxa_ancoragem_fundamento": 1.0
+}

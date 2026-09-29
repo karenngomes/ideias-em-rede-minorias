@@ -1,0 +1,479 @@
+{
+  "sample_id": 200,
+  "n_opinioes": 23,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 20,
+  "n_fundamentos_propostos": 32,
+  "n_fundamentos_ancorados": 30,
+  "n_fundamentos_com_numero": 5,
+  "por_tipo": {
+    "dado": 28,
+    "autoridade": 2
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 3,
+  "n_rejeitados": 3,
+  "itens": [
+    {
+      "opiniao": "defende a aprovação do projeto de lei que institui a CIF como ferramenta oficial no SUS para garantir saúde funcional e abordagem multiprofissional",
+      "falante": "Nadja Waléria Vilela Camara",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A CIF já existe no Brasil desde 2011, em língua portuguesa, mas, mesmo assim, há resistência de todos os profissionais para fazer uso dela.",
+          "char_start": 21164,
+          "char_end": 21303,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os Núcleos de Atenção à Saúde Funcional foram extintos no Governo Federal anteriore recolocados em todo o cenário nacional agora, neste ano.",
+          "char_start": 27183,
+          "char_end": 27323,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós desenvolvemos para ela um relatório baseado na CIF.",
+          "char_start": 25676,
+          "char_end": 25731,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende tratamento multidisciplinar para doenças reumatológicas e crônicas de dor, integrando diversas especialidades",
+      "falante": "Roberto Rodrigues Filho",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, quem atende fibromialgia, ou outra doença reumatológica, não consegue mais trabalhar sozinho.",
+          "char_start": 32110,
+          "char_end": 32209,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós precisamos realmente de um projeto mais profundo, de uma análise mais profunda nesse quesito.",
+          "char_start": 31150,
+          "char_end": 31247,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Muitas vezes, nós afastamos o servidor para que ele faça o tratamento, mas ele não consegue.",
+        "resposta": "Então, você acaba enxugando gelo, você vai afastando o servidor, o trabalhador, mas ele continua adoecido.",
+        "objecao_char_start": 33476,
+        "objecao_char_end": 33568,
+        "resposta_char_start": 33686,
+        "resposta_char_end": 33792,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita afastamento do trabalho sem acesso a tratamento multidisciplinar efetivo",
+      "falante": "Roberto Rodrigues Filho",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Muitas vezes, nós afastamos o servidor para que ele faça o tratamento, mas ele não consegue.",
+          "char_start": 33476,
+          "char_end": 33568,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que felicidade em saúde é ausência ou controle da dor, dependente de acesso a tratamento",
+      "falante": "Roberto Rodrigues Filho",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "felicidade para mim é a ausência de dor ou uma dor controlada, quando a pessoa consegue fazer as coisas e ter outros tipos de satisfação que vão compensar aquilo",
+          "char_start": 34152,
+          "char_end": 34313,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a criação de centro público de tratamento integrado de dor no Distrito Federal",
+      "falante": "Roberto Rodrigues Filho",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Aqui no DF, por exemplo, já há alguns projetos e ideias para termos um centro de tratamento de dor na esfera pública.",
+          "char_start": 36029,
+          "char_end": 36146,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aplicação universal da CIF e da avaliação biopsicossocial, não restrita às pessoas com deficiência",
+      "falante": "Eduardo Santana Cordeiro",
+      "turno_id": 14,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "O Governo brasileiro tem insistido em manter a avaliação biopsicossocial e a aplicação da CIF para uma parcela da população que o Governo chama de pessoas com deficiência.",
+        "resposta": "a avaliação biopsicossocial e a aplicação da CIF são universais. Então, isso precisa mudar.",
+        "objecao_char_start": 38868,
+        "objecao_char_end": 39039,
+        "resposta_char_start": 39052,
+        "resposta_char_end": 39143,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "apoia a aprovação do Projeto de Lei 1.673/2021 por seus efeitos estruturantes no sistema de saúde",
+      "falante": "Eduardo Santana Cordeiro",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "ele trata de uma ideia que começou um pouco antes, em 2012, quando o Conselho Nacional de Saúde publicou a Resolução nº 452",
+          "char_start": 37672,
+          "char_end": 37795,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 2007, ela foi apresentada pela primeira vez e também foi aprovada por unanimidade",
+          "char_start": 39614,
+          "char_end": 39698,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 2011, na Conferência Nacional de Saúde, a política de saúde funcional foi ratificada, foi aprovada uma moção pela Política Nacional de Saúde Funcional",
+          "char_start": 39384,
+          "char_end": 39537,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a Resolução nº 452, em 2012",
+          "char_start": 39174,
+          "char_end": 39201,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o uso da CIF para garantir equilíbrio e justiça na distribuição de benefícios sociais e previdenciários",
+      "falante": "Eduardo Santana Cordeiro",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o uso da CIF causa um equilíbrio entre a necessidade das pessoas e a disponibilidade de recursos",
+          "char_start": 43933,
+          "char_end": 44029,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que deixar de tratar dor crônica é análogo à tortura por omissão e exige maior empatia no cuidado",
+      "falante": "Carlos Gropen Júnior",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "A entidade chamada Human Rights Watch, que cuida dos direitos humanos, fala uma coisa muito interessante que \"deixar de fornecer ou deixar de tratar um paciente com dor é análogo à tortura, porque é uma tortura por omissão\".",
+          "char_start": 48453,
+          "char_end": 48677,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atualização das leis de incapacidade para incluir avanços médicos e garantir justiça a pacientes com fibromialgia",
+      "falante": "Carlos Gropen Júnior",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu gosto muito de frisar duas coisas em relação à CIF e à doença e de classificar a funcionalidade através de doença. A espondilite anquilosante — muitos de vocês são mais novos e não sabem o que é — era uma doença muito difícil tratar. Antes dos biológicos, esses pacientes evoluíam quase inexoravelmente para a incapacidade. Ela foi colocada naquele rol das doenças que causam incapacidade. Hoje nós temos os biológicos. Nós temos pessoas com espondilite anquilosante sem dor, trabalhando e, quando aposentadas, ganham a aposentadoria integral, enquanto pessoas com fibromialgia estão na cama, não conseguem trabalhar e sem direitos.",
+          "char_start": 50255,
+          "char_end": 50890,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a reabilitação profissional como caminho para a dignidade e inclusão social de pessoas com dor crônica",
+      "falante": "Carlos Gropen Júnior",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu vou falar de uma questão que já foi abordada, mas quero reiterar. Refiro-me à questão da reabilitação do paciente.\n\nMuitos pacientes têm condição, mesmo com dor, de voltar a trabalhar, de maneira readaptada.",
+          "char_start": 51255,
+          "char_end": 51465,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu levo também em consideração o exemplo de Stephen Hawking, que tinha uma doença evolutiva, uma doença neuromotora e, mesmo com uma deficiência gravíssima, ele ainda tinha capacidade de fazer muito. Mesmo com uma doença grave, ele conseguiu ocupar a cadeira do Isaac Newton na Faculdade de Cambridge.",
+          "char_start": 51602,
+          "char_end": 51903,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende políticas públicas com atendimento multidisciplinar e integração entre CID e CIF para pessoas com doenças crônicas.",
+      "falante": "Djane da Silva Bento",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós precisamos de psicólogo, psiquiatra, nutricionista e odontólogo.",
+          "char_start": 57586,
+          "char_end": 57654,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o reconhecimento e o atendimento integral de pessoas com doenças crônicas, combatendo a invisibilidade e o preconceito",
+      "falante": "Professora Goreth",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Sou professora e tive alunos com doenças crônicas e que muitas vezes eram discriminados pela escola, porque os profissionais da educação não conheciam essas doenças",
+          "char_start": 62727,
+          "char_end": 62891,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a inclusão da CIF no diagnóstico biopsicossocial para superar a limitação do Código Internacional de Doenças e garantir uma avaliação mais completa da condição humana.",
+      "falante": "Erika Kokay",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A CID não pode resumir as pessoas. Nós somos mais do que a CID. Qualquer que seja a CID, nós somos maiores do que ela.",
+          "char_start": 68854,
+          "char_end": 68972,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quando se remonta o caso a um diagnóstico biopsicossocial, encara-se, além do fato em si, de que há uma cegueira monocular, como isso impacta a existência do ponto de vista biológico, social e psicológico.",
+          "char_start": 69912,
+          "char_end": 70117,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não estamos dizendo que se deve anular a CID. Ninguém está falando nisso aqui.",
+        "resposta": "Nós estamos falando que, além das condições biológicas que podem se expressar na CID, na Classificação Internacional de Doenças, é preciso haver outros elementos que possibilitem um diagnóstico que abarque de forma mais completa e mais inteira a nossa própria humanidade.",
+        "objecao_char_start": 69169,
+        "objecao_char_end": 69247,
+        "resposta_char_start": 69248,
+        "resposta_char_end": 69519,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "apoia a ampliação da avaliação biopsicossocial para todas as pessoas com condições crônicas, como forma de equilibrar direitos e políticas",
+      "falante": "Eduardo Santana Cordeiro",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a avaliação biopsicossocial é importante para todas as pessoas, em especial para as que têm problemas crônicos, e não apenas para as pessoas com deficiência",
+          "char_start": 76966,
+          "char_end": 77122,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que pessoas com dores crônicas tenham direito ao diagnóstico e à atenção biopsicossocial, como previsto na Lei Brasileira de Inclusão.",
+      "falante": "Erika Kokay",
+      "turno_id": 34,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há todo um movimento da fibromialgia, por exemplo, e parece-me, salvo engano, que já existe, em algumas legislações municipais, algumas condições que são postas para as pessoas com deficiência e estendidas para as pessoas com fibromialgia, como, por exemplo, a priorização de estacionamentos",
+          "char_start": 77950,
+          "char_end": 78241,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "como está previsto na Lei Brasileira de Inclusão, que está sob a coordenação da Secretaria Nacional de Promoção dos Direitos da Pessoa com Deficiência, vinculada ao Ministério dos Direitos Humanos e da Cidadania na nossa estrutura governamental",
+          "char_start": 77528,
+          "char_end": 77772,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a transformação do projeto de lei em norma obrigatória para assegurar o uso da CIF e o tratamento diferenciado conforme a condição de saúde de cada indivíduo",
+      "falante": "Nadja Waléria Vilela Camara",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Um PL, quando deixa de ser projeto de lei e passa a ser lei, torna-se um \"dever fazer\"",
+          "char_start": 79779,
+          "char_end": 79865,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a ampliação do acesso à neuromodulação no SUS e seu reconhecimento por planos de saúde",
+      "falante": "Carlos Gropen Júnior",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não recebemos o amparo para que essas pessoas façam esse tipo de tratamento",
+          "char_start": 82486,
+          "char_end": 82561,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "até no setor privado os planos de saúde ainda não reconhecem isso",
+          "char_start": 82582,
+          "char_end": 82647,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a classificação funcional deve ser dinâmica, permitindo reabilitação e reinserção social",
+      "falante": "Carlos Gropen Júnior",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A pessoa pode estar com um diagnóstico CIF, um grau de funcionalidade, hoje, mas isso não quer dizer que ela não possa ser reabilitada, melhorar, voltar à funcionalidade e ter mais uma oportunidade de contribuir com a nossa sociedade",
+          "char_start": 82752,
+          "char_end": 82985,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a aprovação de projeto de lei que una CID e CIF como medida essencial para o bem-estar e a saúde integral de pessoas com doenças crônicas.",
+      "falante": "Djane da Silva Bento",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "as pessoas com lúpus quanto para as pessoas com fibromialgia, as pessoas com dor crônica, as pessoas com artrite reumatoide crônica",
+          "char_start": 83726,
+          "char_end": 83857,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a construção de uma política integral para pessoas com dor crônica, com abordagem multidisciplinar na saúde, no trabalho e nas relações familiares.",
+      "falante": "Erika Kokay",
+      "turno_id": 40,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos aqui várias pessoas que sentem dor no local de trabalho, sentem a dor de a sua fala não ser validada, a dor de serem revitimizadas em função de portarem dor crônica associada a especificidades ou patologias, como lúpus, como fibromialgia e tantas outras.",
+          "char_start": 87478,
+          "char_end": 87742,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Nadja Waléria Vilela Camara",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que isso vai encarecer o produto"
+    },
+    {
+      "turno_id": 14,
+      "falante": "Eduardo Santana Cordeiro",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "a aplicação da CIF e a avaliação biopsicossocial são universais"
+    },
+    {
+      "turno_id": 37,
+      "falante": "Carlos Gropen Júnior",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "a CIF — é o melhor instrumento que temos hoje"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.8696,
+  "taxa_contraponto": 0.1304,
+  "taxa_ancoragem_fundamento": 0.9375
+}

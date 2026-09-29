@@ -1,0 +1,384 @@
+{
+  "sample_id": 181,
+  "n_opinioes": 20,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 19,
+  "n_fundamentos_propostos": 25,
+  "n_fundamentos_ancorados": 24,
+  "n_fundamentos_com_numero": 9,
+  "por_tipo": {
+    "dado": 22,
+    "autoridade": 2
+  },
+  "n_contrapontos_propostos": 1,
+  "n_com_contraponto": 1,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "Defende que parar de fumar melhora a qualidade de vida e reduz riscos de doenças",
+      "falante": "Maria José Giongo",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quanto mais cedo a pessoa parar de fumar, menor será o risco de adoecer.",
+          "char_start": 10871,
+          "char_end": 10943,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Parar de fumar sempre vale a pena, pois a qualidade de vida melhora muito.",
+          "char_start": 10796,
+          "char_end": 10870,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção da proibição de cigarros eletrônicos no Brasil com base na RDC nº 46/2009",
+      "falante": "Sandra Marques",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No Brasil, no ano passado, 25% dos jovens de 18 a 24 anos experimentaram pela primeira vez o cigarro eletrônico. Neste ano, houve o aumento da prevalência em 20% — praticamente dobrou.",
+          "char_start": 22801,
+          "char_end": 22985,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Eu vou me adiantar aqui, mas não posso deixar de lembrar a RDC nº 46, de 2009, que proíbe a comercialização e a importação de cigarros eletrônicos no Brasil.",
+          "char_start": 22591,
+          "char_end": 22748,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção de medidas contra o uso de cigarro eletrônico, especialmente entre jovens",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Temos andado pelas ruas e visto que a incidência está altíssima",
+          "char_start": 32157,
+          "char_end": 32220,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a conscientização nas escolas e ação conjunta com o Ministério da Educação sobre os malefícios do cigarro eletrônico",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a maior proporção realmente são os jovens",
+          "char_start": 32485,
+          "char_end": 32526,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o reajuste de impostos sobre tabaco e a vedação de subsídios, em linha com o imposto seletivo na reforma tributária",
+      "falante": "Mônica Andreis",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a política de preços e impostos é uma das que mais funciona e foi responsável com mais da metade da redução da proporção de fumantes entre 1989 e 2015",
+          "char_start": 38622,
+          "char_end": 38772,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Desde 2016, não há mais reajuste no preço e nas alíquotas de impostos de cigarros",
+          "char_start": 39158,
+          "char_end": 39239,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Ah, mas é um perigo aumentarmos demais o preço, porque vai aumentar o comércio ilícito",
+        "resposta": "Um trabalho foi realizado em 2019, que faz uma análise mundial a respeito dos impostos de tabaco, mostrando que não é uma relação direta a questão de preço e aumento de mercado ilícito",
+        "objecao_char_start": 39321,
+        "objecao_char_end": 39407,
+        "resposta_char_start": 39410,
+        "resposta_char_end": 39594,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a vinculação dos recursos do imposto seletivo sobre tabaco ao SUS",
+      "falante": "Mônica Andreis",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "sete em cada dez são a favor de que os recursos sejam destinados ao SUS",
+          "char_start": 41549,
+          "char_end": 41620,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o fortalecimento da política de controle do tabaco e o cumprimento da meta de redução de 40% até 2030",
+      "falante": "Mônica Andreis",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É preciso que tenhamos cada vez mais medidas de defesa da Política Nacional de Controle do Tabaco e do fortalecimento da Convenção 4 do Controle do Tabaco e termos uma meta de redução na prevalência do tabagismo de 40% até 2030, no nosso Plano Nacional de Enfrentamento das Doenças Crônicas Não Transmissíveis",
+          "char_start": 45380,
+          "char_end": 45689,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o apoio a projetos de lei alinhados à Convenção-Quadro, como o PL 6.387/2019",
+      "falante": "Mônica Andreis",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Também pedimos o apoio a medidas legislativas em consonância com a Convenção 4, a exemplo do PL 6.387, de 2019, que prevê entre suas medidas também a proibição de aromas e sabores em cigarros",
+          "char_start": 45780,
+          "char_end": 45971,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aplicação do art. 5.3 da Convenção-Quadro para evitar interferência da indústria do tabaco",
+      "falante": "Mônica Andreis",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Sempre lembro a importância de termos a aplicação do art. 5.3, que visa coibir a interferência da indústria do tabaco nas políticas de saúde",
+          "char_start": 46125,
+          "char_end": 46265,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a intensificação de medidas preventivas e educativas nas escolas sobre os riscos do tabaco",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Colocam as figuras até impactantes nos maços de cigarro, mostrando os riscos, mas o pessoal não está muito preocupado com isso",
+          "char_start": 46821,
+          "char_end": 46947,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a baixa tributação sobre cigarros no Paraguai por estimular contrabando e uso no Brasil",
+      "falante": "Margareth Dalcolmo",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Paraguai tem a mais baixa de todas",
+          "char_start": 58791,
+          "char_end": 58827,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje o que entra de contrabando de cigarro do Paraguai no Brasil é algo inusitado",
+          "char_start": 58982,
+          "char_end": 59063,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atualização imediata do protocolo clínico de DPOC no SUS para garantir tratamento equânime e baseado em evidências, com base em diretrizes internacionais",
+      "falante": "Gustavo San Martin",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós ficamos quase 10 anos sem ter o protocolo clínico, Deputado. Em agosto de 2021, nós o atualizamos. E agora, 2 anos depois, nós precisamos atualizar o protocolo",
+          "char_start": 67167,
+          "char_end": 67330,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "temos outras terapias que causam mais comodidade e, por consequência, adesão do paciente, controlando o avanço tão rápido de uma doença que é resultado do tabagismo",
+          "char_start": 66921,
+          "char_end": 67085,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Reafirma o compromisso com a redução da prevalência do tabagismo em adolescentes, idosos e população geral",
+      "falante": "Maria José Giongo",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "diminuição da prevalência do tabagismo tanto na população de adolescentes jovens quanto na de idosos e na população em geral",
+          "char_start": 68332,
+          "char_end": 68456,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende fiscalização rigorosa de cigarros eletrônicos com apoio institucional para combater a indústria tabagista",
+      "falante": "Margareth Dalcolmo",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "quem fabrica cigarro eletrônico é a indústria tabagista",
+          "char_start": 69311,
+          "char_end": 69366,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia o PL 6.387/19 por proteger crianças contra aditivos e novos produtos de tabaco",
+      "falante": "Diogo Alves",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o PL 6.387/19, que veio do Senado, que vai versar justamente sobre a proteção das nossas crianças, sobre a parte dos aditivos e tantos outros",
+          "char_start": 70512,
+          "char_end": 70653,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atuação forte na prevenção do tabagismo para proteger o sistema de saúde e os jovens",
+      "falante": "Mônica Andreis",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Sabemos o impacto que o tabagismo traz para o sistema de saúde.",
+          "char_start": 71520,
+          "char_end": 71583,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reivindica encaminhamento para atualização rápida do protocolo clínico de DPOC no âmbito federal, diante de disparidades entre estados e mortalidade elevada",
+      "falante": "Gustavo San Martin",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Existem Estados hoje que o oferecem mais do que outros, e há pacientes morrendo, o que traz um custo tanto para as famílias quanto para o sistema público universal de saúde",
+          "char_start": 73335,
+          "char_end": 73507,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a combinação de prevenção ao tabagismo com tratamento adequado para quem já desenvolveu DPOC",
+      "falante": "Gustavo San Martin",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É urgente diminuirmos esse funil, que só aumenta, de pessoas diagnosticadas, principalmente com doença pulmonar obstrutiva crônica, para que possamos realmente diminuir o número de pessoas diagnosticadas e também tratar adequadamente as que já têm o diagnóstico",
+          "char_start": 72725,
+          "char_end": 72986,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a educação como base para o combate ao tabagismo e a atuação coordenada com parlamentares",
+      "falante": "Dr. Zacharias Calil",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É como uma ação básica.",
+          "char_start": 74050,
+          "char_end": 74073,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 17,
+      "falante": "Gustavo San Martin",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o protocolo clínico que foi atualizado em agosto de 2021"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.95,
+  "taxa_contraponto": 0.05,
+  "taxa_ancoragem_fundamento": 0.96
+}

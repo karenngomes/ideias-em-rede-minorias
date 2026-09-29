@@ -1,0 +1,108 @@
+{
+  "sample_id": 189,
+  "n_falantes": 5,
+  "n_parlamentares": 1,
+  "n_convidados": 4,
+  "n_citados_gold": 4,
+  "n_citados_ausentes": 1,
+  "n_opinioes_gold": 11,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.8105464597065702,
+      "participacao_civil_turnos": 0.4827586206896552,
+      "citacao_civil_opinioes": 0.75,
+      "citacao_civil_pessoas": 0.6666666666666666,
+      "deficit_civil": 0.060546459706570244
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 1.0,
+      "participacao_civil_turnos": 1.0,
+      "citacao_civil_opinioes": 1.0,
+      "citacao_civil_pessoas": 1.0,
+      "deficit_civil": 0.0
+    }
+  },
+  "citados_ausentes": [
+    "Adriana Cardinali"
+  ],
+  "falantes_silenciados": [
+    "Adriana Laporta Cardinali Straube",
+    "José Alexandre Novaes Bicalho"
+  ],
+  "falantes": [
+    {
+      "nome": "Any Ortiz",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 15,
+      "n_palavras": 1782,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29
+      ]
+    },
+    {
+      "nome": "Luizio Felipe Rocha",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1810,
+      "turnos": [
+        2,
+        4,
+        22
+      ]
+    },
+    {
+      "nome": "Adriana Laporta Cardinali Straube",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 2054,
+      "turnos": [
+        6,
+        8,
+        10,
+        24
+      ]
+    },
+    {
+      "nome": "José Alexandre Novaes Bicalho",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1464,
+      "turnos": [
+        12,
+        14,
+        26
+      ]
+    },
+    {
+      "nome": "Ricardo Medeiros de Castro",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 2296,
+      "turnos": [
+        16,
+        18,
+        20,
+        28
+      ]
+    }
+  ]
+}

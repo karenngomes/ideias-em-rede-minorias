@@ -1,0 +1,527 @@
+{
+  "sample_id": 97,
+  "n_opinioes": 22,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 22,
+  "n_fundamentos_propostos": 37,
+  "n_fundamentos_ancorados": 35,
+  "n_fundamentos_com_numero": 10,
+  "por_tipo": {
+    "dado": 35
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 3,
+  "n_rejeitados": 3,
+  "itens": [
+    {
+      "opiniao": "defende que o Governo Federal implemente políticas públicas para reativar o setor automobilístico e garantir empregos",
+      "falante": "Claudio Batista da Silva Júnior",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No nosso caso em Taubaté e nas outras unidades da Volkswagen no Brasil, temos um acordo vultoso, de 5 anos, que garante estabilidade no emprego para todos os trabalhadores, por meio das ferramentas de flexibilidade, banco de horas,shutdown,day off,lay-off.",
+          "char_start": 8185,
+          "char_end": 8441,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No caso da Volkswagen, estamos com aproximadamente 50% da capacidade de produção de veículos sendo utilizada.",
+          "char_start": 8684,
+          "char_end": 8793,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em algumas outras empresas, infelizmente, alguns trabalhadores tiveram que ser desligados.",
+          "char_start": 9485,
+          "char_end": 9575,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No setor automobilístico, como todos sabem, para cada trabalhador empregado, a cadeia é de aproximadamente 16 trabalhadores.",
+          "char_start": 10835,
+          "char_end": 10959,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de uma política industrial clara para o setor automotivo para evitar que o Brasil se torne apenas mercado consumidor",
+      "falante": "Fausto Augusto Júnior",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos assistindo, já faz décadas, na verdade, há pelo menos duas décadas, ao realinhamento da produção automotiva brasileira para o realinhamento do mercado global.",
+          "char_start": 15907,
+          "char_end": 16077,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nós vamos cada vez mais nos transformar em mercado consumidor e deixar de ser um país produtor de automóvel, no qual a indústria automotiva sempre teve papel fundamental para o nosso desenvolvimento.",
+          "char_start": 21586,
+          "char_end": 21785,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o uso do etanol como matriz energética mais sustentável que a elétrica no Brasil, dada a matriz energética e a cadeia produtiva nacional",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um carro elétrico tem uma pegada de carbono maior que um carro de motor de explosão a gasolina, a depender da matriz energética do país, da região",
+          "char_start": 24312,
+          "char_end": 24458,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quando ele é comparado com um carro com um motor de explosão a etanol, a pegada de carbono deste carro, considerando-se desde a produção da bateria até o descarte da bateria e dos demais componentes do carro e de toda a sua vida útil, consumindo o combustível vegetal, vai ser menor do que a de um carro elétrico",
+          "char_start": 24460,
+          "char_end": 24772,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a dependência de carros elétricos importados por não gerarem empregos ou desenvolvimento tecnológico no Brasil",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "eles são totalmente importados, ou seja, não geram emprego na cadeia de produção de automóveis no Brasil",
+          "char_start": 25854,
+          "char_end": 25958,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o carro elétrico, do ponto de vista do desenvolvimento tecnológico, não tem desenvolvimento tecnológico no Brasil",
+          "char_start": 25979,
+          "char_end": 26092,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o desenvolvimento de carros híbridos com motor a etanol e elétrico como tecnologia nacional viável e estratégica",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quando pegamos um automóvel com tecnologia de motor elétrico associada a um motor a etanol, a pegada de CO2é muito mais favorável, do ponto de vista da preservação, do que um carro elétrico",
+          "char_start": 26775,
+          "char_end": 26964,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Esta é uma tecnologia nacional",
+          "char_start": 26982,
+          "char_end": 27012,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção de tecnologias baseadas em etanol para preservar e expandir empregos no setor produtivo brasileiro",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "isso abre um campo enorme para a manutenção dos empregos e, talvez, até a ampliação de empregos na cadeia sucroalcooleira, uma cadeia importantíssima para todo o Brasil",
+          "char_start": 28124,
+          "char_end": 28292,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe que o Brasil priorize o etanol híbrido como tecnologia de mobilidade sustentável e nacionalmente estratégica",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A ideia que o Sindicato dos Metalúrgicos do ABC iniciou, uma ideia já discutida com a indústria automotiva e ampliada para todo o Estado de São Paulo, com montadoras, com todos os centros de pesquisas mais importantes é, sem dúvida, o etanol, que está disponível para o debate claramente, o etanol associado ao motor elétrico, neste momento, em carros híbridos e, no futuro, novas tecnologias como a(ininteligível)de combustível",
+          "char_start": 30725,
+          "char_end": 31153,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende uma política industrial consolidada com contrapartidas claras, valorização do conteúdo nacional e qualificação profissional para evitar o desmonte do setor e garantir desenvolvimento econômico e humano",
+      "falante": "Aroaldo Oliveira da Silva",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Com isso, nós tivemos 4.653 robôs implementados em 14 montadoras.",
+          "char_start": 41707,
+          "char_end": 41772,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós vimos a Audi chegar ao Brasil. Vimos a BMW, a Jaguar, a Cherry, a Nissan, a Toyota, a Mercedes voltarem a produzir carros no Brasil. Vimos a Hyundai e a Honda chegarem ao nosso País.",
+          "char_start": 41032,
+          "char_end": 41218,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Aumentamos os investimentos em pesquisa e em desenvolvimento. Tivemos a modernização das linhas de produção no Brasil.",
+          "char_start": 41343,
+          "char_end": 41461,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Às vezes, há aqueles que, no debate, dizem que o setor automotivo é pesado, que não é produtivo, que precisa de incentivo e tudo mais.",
+        "resposta": "Não! No período do Inovar-Auto, nós tivemos a modernização das vias de produção e o aumento da produtividade.",
+        "objecao_char_start": 41462,
+        "objecao_char_end": 41596,
+        "resposta_char_start": 41597,
+        "resposta_char_end": 41706,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica a ausência de política industrial e defende debate sobre novas matrizes energéticas, eletromobilidade e conectividade como parte da discussão sobre mobilidade no Brasil",
+      "falante": "Aroaldo Oliveira da Silva",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós precisamos fazer todo um debate sobre eletromobilidade, veículo híbrido e conectividade.",
+          "char_start": 49849,
+          "char_end": 49941,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O Erick chamou atenção muito bem para as diversas matrizes que são brasileiras.",
+          "char_start": 49582,
+          "char_end": 49661,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que empresas que usam dinheiro público devem ter responsabilidade social e indenizar a sociedade ao sair do País",
+      "falante": "Ronaldo Lima dos Santos",
+      "turno_id": 22,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A dispensa em massa da Ford atingiu quase 5 mil trabalhadores",
+          "char_start": 64716,
+          "char_end": 64777,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "há empresas que atuavam em torno da Ford que dispensaram 400 trabalhadores, 500 trabalhadores",
+          "char_start": 64781,
+          "char_end": 64874,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "É um ato potestativo do empregador mandar todos embora. É um direito da empresa migrar",
+        "resposta": "Será que é um direito da empresa migrar sem indenizar a sociedade, sem amenizar os impactos sociais, considerando que, no momento em que ela entrou, ela se utilizou do dinheiro dessa própria sociedade?",
+        "objecao_char_start": 65761,
+        "objecao_char_end": 65847,
+        "resposta_char_start": 65850,
+        "resposta_char_end": 66051,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a redução do Custo Brasil por meio de reformas tributárias, logísticas e trabalhistas, com participação ativa da ANFAVEA em propostas ao governo.",
+      "falante": "Luiz Carlos Moraes",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O País não é competitivo. A carga tributária é muito grande. Os encargos trabalhistas, Deputado Vicentinho — V.Exa. conhece isso muito bem —, são muito altos. O que o trabalhador recebe é uma parte do que é pago pela empresa, que gasta com um empregado duas vezes e meia aquilo que o trabalhador recebe.",
+          "char_start": 77037,
+          "char_end": 77340,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Pagamos PIS, COFINS, ICMS. Em São Paulo, por exemplo, o ICMS é de 14,5%; o IPI vai de 13% até 25%, dependendo da motorização.",
+          "char_start": 71307,
+          "char_end": 71432,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a criação de um Plano Indústria para fortalecer a indústria de transformação, com investimentos, inovação e geração de empregos de alta qualidade.",
+      "falante": "Luiz Carlos Moraes",
+      "turno_id": 24,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós defendemos a indústria. Eu tenho brigado muito pela indústria e estou à disposição dos senhores para continuar o diálogo nessa área.",
+          "char_start": 89214,
+          "char_end": 89350,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Congresso deve colocar o debate da indústria no centro da agenda nacional",
+      "falante": "Fausto Augusto Júnior",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o BNDES, que é o banco de desenvolvimento que basicamente nasceu para criar, para fazer desenvolver a nossa indústria no Brasil, não tem mais uma área de desenvolvimento industrial",
+          "char_start": 102267,
+          "char_end": 102447,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a única iniciativa no Brasil de criação de uma indústria de semicondutores, que foi a criação de uma empresa estatal para o desenvolvimento dessa área, está simplesmente sendo desmontada",
+          "char_start": 103081,
+          "char_end": 103267,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a indústria com projeto nacional como condição para justiça social, distribuição de renda e superação da desigualdade",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós não faremos a riqueza do Brasil, o crescimento do Brasil, a distribuição de renda no Brasil, nenhum processo de avanço da igualdade no Brasil. Muito pelo contrário, iremos no caminho da desigualdade, do desemprego, da fome, da miséria se a indústria não estiver absolutamente alicerçada com um projeto de futuro.",
+          "char_start": 106439,
+          "char_end": 106755,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a política pública deve ser voltada para o equilíbrio e distribuição da riqueza nacional por meio da indústria",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A política pública tem que ser orientada no sentido da construção do equilíbrio da riqueza nacional, da distribuição da riqueza nacional, da possibilidade de melhoria da qualidade de vida do povo.",
+          "char_start": 106131,
+          "char_end": 106327,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a ampliação do debate sobre descarbonização com participação múltipla e responsabilidade política e social",
+      "falante": "Erick Pereira da Silva",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "este debate deve ser amplificado, Deputado Vicentinho, e isso está sob nossa responsabilidade, sob a responsabilidade da indústria, sob a responsabilidade da academia, sob a responsabilidade dos trabalhadores e, fundamentalmente, da política pública nacional.",
+          "char_start": 105871,
+          "char_end": 106130,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a permanência das indústrias no Brasil e a qualificação de trabalhadores para novas tecnologias",
+      "falante": "Ronaldo Lima dos Santos",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nos Estados Unidos e na Europa, há estudos no sentido de que esses trabalhadores estão sendo requalificados.",
+          "char_start": 108694,
+          "char_end": 108802,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a cadeia produtiva automotiva no Brasil deve ser 100% nacional para gerar benefícios reais ao País",
+      "falante": "Ronaldo Lima dos Santos",
+      "turno_id": 33,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Algo muito importante é que a nossa cadeia de fornecimento seja 100% nacional.",
+          "char_start": 108964,
+          "char_end": 109042,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Será que vamos ter como construir esses veículos, se a tecnologia não for importada também, se os trabalhadores não forem qualificados e as empresas fornecedoras desses componentes não os produzirem aqui?",
+        "resposta": "Algo muito importante é que a nossa cadeia de fornecimento seja 100% nacional.",
+        "objecao_char_start": 109493,
+        "objecao_char_end": 109697,
+        "resposta_char_start": 108964,
+        "resposta_char_end": 109042,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "convoca o Congresso a criar um pacto pela indústria, emprego e renda, e a desenhar um plano nacional para a indústria, com criação de comissão mista ou grupo de trabalho",
+      "falante": "Aroaldo Oliveira da Silva",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Conversamos com os Presidentes das duas Casas — Deputado Arthur Lira e Senador Rodrigo Pacheco — sobre isso",
+          "char_start": 111594,
+          "char_end": 111701,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a discussão ampliada sobre os complexos industriais da saúde, petróleo e gás, defesa, alimentação e segurança alimentar como estratégicos para o país",
+      "falante": "Aroaldo Oliveira da Silva",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "se tivermos uma indústria de defesa consolidada, 1 real na indústria de defesa significam 12 reais de volta para o Brasil",
+          "char_start": 112218,
+          "char_end": 112339,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reforça a necessidade de articular atores sociais em torno da indústria e do desenvolvimento econômico, com interlocução efetiva, destacando a ausência do Ministério da Indústria",
+      "falante": "Aroaldo Oliveira da Silva",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Destaco a ausência do Ministério da Indústria",
+          "char_start": 112586,
+          "char_end": 112631,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o Brasil deve diversificar suas exportações, saindo de commodities e apostando em produtos industriais com alto valor agregado.",
+      "falante": "Luiz Carlos Moraes",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Brasil não pode exportar basicamente soja, petróleo e minério de ferro",
+          "char_start": 115496,
+          "char_end": 115568,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 20,
+      "falante": "Aroaldo Oliveira da Silva",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "nós tivemos investimento com o Inovar-Auto em torno de 15 bilhões de reais."
+    },
+    {
+      "turno_id": 24,
+      "falante": "Luiz Carlos Moraes",
+      "campo": "contraponto",
+      "motivo": "resposta não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Por que nós não podemos ter também uma indústria de transformação, incluindo o setor automotivo, forte, robusto e preparada para esse futuro, que é transformador para a sociedade?"
+    },
+    {
+      "turno_id": 29,
+      "falante": "Fausto Augusto Júnior",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o Brasil não tem mais o Ministério da Indústria e Comércio Exterior"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.1364,
+  "taxa_ancoragem_fundamento": 0.9459
+}

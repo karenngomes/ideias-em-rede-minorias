@@ -1,0 +1,119 @@
+{
+  "sample_id": 73,
+  "n_opinioes": 22,
+  "n_decompostas": 22,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 17,
+  "n_ancorados": 14,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 7,
+  "n_perdidos": 7,
+  "por_tipo": {
+    "condicao": 8,
+    "escopo": 4,
+    "atribuicao": 2
+  },
+  "perdas": [
+    {
+      "falante": "Paulo Nei",
+      "turno_id": 2,
+      "opiniao": "Defende a participação da SUSEP e revisão regulatória para proteger idosos em seguros.",
+      "nucleo": "Defendeu a participação da SUSEP e revisão regulatória para proteger idosos em seguros.",
+      "tipo": "condicao",
+      "trecho": "sendo ouvida e questionada também a respeito desses problemas que vêm acontecendo",
+      "char_start": 7039,
+      "char_end": 7120
+    },
+    {
+      "falante": "Beatriz Herranz",
+      "turno_id": 7,
+      "opiniao": "defende a manutenção da vigência contratual e a proibição de rescisão unilateral pelas seguradoras",
+      "nucleo": "defendeu a manutenção da vigência contratual e a proibição de rescisão unilateral pelas seguradoras",
+      "tipo": "condicao",
+      "trecho": "No caso da não renovação, o contrato foi cumprido, sua vigência chegou ao fim, e as partes decidem se vão ou não renová-lo.",
+      "char_start": 32247,
+      "char_end": 32370
+    },
+    {
+      "falante": "Beatriz Herranz",
+      "turno_id": 7,
+      "opiniao": "defende a manutenção da vigência contratual e a proibição de rescisão unilateral pelas seguradoras",
+      "nucleo": "defendeu a manutenção da vigência contratual e a proibição de rescisão unilateral pelas seguradoras",
+      "tipo": "escopo",
+      "trecho": "No caso dos seguros de repartição que não são contratados com vigência vitalícia",
+      "char_start": 32371,
+      "char_end": 32451
+    },
+    {
+      "falante": "Mauro Moreira de Oliveira Freitas",
+      "turno_id": 9,
+      "opiniao": "defende a revisão de cálculos atuariais para garantir acesso equitativo ao seguro de vida por idosos, com base na função social e na solidariedade",
+      "nucleo": "defendeu a revisão de cálculos atuariais para garantir acesso equitativo ao seguro de vida por idosos, com base na função social e na solidariedade",
+      "tipo": "condicao",
+      "trecho": "se não encontrarmos uma solução para distribuir esse risco perante a sociedade",
+      "char_start": 36309,
+      "char_end": 36387
+    },
+    {
+      "falante": "Carlos Augusto Santos Silva",
+      "turno_id": 15,
+      "opiniao": "defende que o Estado deve se redimir pela mortalidade elevada entre segurados especiais na pandemia",
+      "nucleo": "Defendeu que o Estado deve se redimir pela mortalidade elevada entre segurados especiais na pandemia.",
+      "tipo": "condicao",
+      "trecho": "por conta da COVID",
+      "char_start": 57547,
+      "char_end": 57565
+    },
+    {
+      "falante": "João Pimenta",
+      "turno_id": 17,
+      "opiniao": "as autoridades de defesa do consumidor falham em proteger o idoso contra abusos de instituições financeiras",
+      "nucleo": "afirmou que as autoridades de defesa do consumidor falham em proteger o idoso contra abusos de instituições financeiras",
+      "tipo": "atribuicao",
+      "trecho": "Eu deduzi daí, Deputado Vilson, que eles não cancelavam unilateralmente, como teve uma expositora que mencionou, o que fez com que eu tivesse grande problema.",
+      "char_start": 61511,
+      "char_end": 61669
+    },
+    {
+      "falante": "João Pimenta",
+      "turno_id": 17,
+      "opiniao": "os idosos são sistematicamente excluídos de seguros de vida, mesmo com histórico de pagamento, o que é injusto e inaceitável",
+      "nucleo": "afirmou que os idosos são sistematicamente excluídos de seguros de vida, mesmo com histórico de pagamento, o que é injusto e inaceitável",
+      "tipo": "escopo",
+      "trecho": "Quando cheguei ao banco de cor laranja, eu abri uma conta. A moça falou:\"Ah, que bacana. Então, eu vou vender para o senhor um seguro de vida.\"Depois ela falou:\"Ah, o senhor tem mais de 69 nove anos — não pode.\"",
+      "char_start": 63508,
+      "char_end": 63719
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 11,
+      "falante": "Renê Patriota",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "após os 65 anos",
+      "opiniao": "Defende a eliminação de cláusulas que limitam cobertura de doença grave após os 65 anos em seguros de vida."
+    },
+    {
+      "turno_id": 11,
+      "falante": "Renê Patriota",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "independentemente da idade",
+      "opiniao": "Defende o acesso equitativo a seguros de vida e saúde independentemente da idade."
+    },
+    {
+      "turno_id": 11,
+      "falante": "Renê Patriota",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em casos de catástrofes naturais, pandemias e suicídio",
+      "opiniao": "Defende a revisão de cláusulas que excluem cobertura em casos de catástrofes naturais, pandemias e suicídio."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5,
+  "taxa_ancoragem": 0.8235,
+  "taxa_opiniao_intacta": 0.7273
+}

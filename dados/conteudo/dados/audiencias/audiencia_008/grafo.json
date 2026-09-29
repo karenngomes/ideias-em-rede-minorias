@@ -1,0 +1,271 @@
+{
+  "sample_id": 8,
+  "assunto": "Regulação do mercado de criptomoedas no Brasil",
+  "nos": [
+    {
+      "id": "p::Otávio Ribeiro Damaso",
+      "tipo": "participante",
+      "rotulo": "Otávio Ribeiro Damaso",
+      "dados": {
+        "cargo": "representante do Banco Central do Brasil",
+        "n_opinioes": 4
+      }
+    },
+    {
+      "id": "p::Thiago Bueno",
+      "tipo": "participante",
+      "rotulo": "Thiago Bueno",
+      "dados": {
+        "cargo": "",
+        "n_opinioes": 2
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende a segregação patrimonial de recursos de clientes e instituições, mesmo sem previsão legal",
+      "dados": {
+        "falante": "Otávio Ribeiro Damaso",
+        "cargo": "representante do Banco Central do Brasil",
+        "turno_id": 2,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "apoia a retomada da discussão sobre segregação patrimonial no Congresso",
+      "dados": {
+        "falante": "Otávio Ribeiro Damaso",
+        "cargo": "representante do Banco Central do Brasil",
+        "turno_id": 2,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "Se o Congresso tiver o interesse de retomar essa discussão",
+            "preservado": false,
+            "char_start": 14357,
+            "char_end": 14415
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "defende a implementação de mecanismos de segregação patrimonial, mesmo sem base legal",
+      "dados": {
+        "falante": "Otávio Ribeiro Damaso",
+        "cargo": "representante do Banco Central do Brasil",
+        "turno_id": 14,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "atribuicao",
+            "trecho": "naturalmente a blindagem total seria muito bem-vinda na legislação",
+            "preservado": true,
+            "char_start": 55527,
+            "char_end": 55593
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "autoriza a operação de bancos e corretoras com criptomoedas sob supervisão prudencial",
+      "dados": {
+        "falante": "Otávio Ribeiro Damaso",
+        "cargo": "representante do Banco Central do Brasil",
+        "turno_id": 14,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "escopo",
+            "trecho": "bancos e corretoras",
+            "preservado": true,
+            "char_start": 58119,
+            "char_end": 58138
+          },
+          {
+            "tipo": "condicao",
+            "trecho": "Uma vez que entre no perímetro do olhar do Banco Central",
+            "preservado": false,
+            "char_start": 57780,
+            "char_end": 57836
+          },
+          {
+            "tipo": "condicao",
+            "trecho": "naturalmente seguindo as regras prudenciais",
+            "preservado": true,
+            "char_start": 57932,
+            "char_end": 57975
+          },
+          {
+            "tipo": "excecao",
+            "trecho": "Para alguns outros tipos, como as IPs, as instituições de pagamento, que têm um propósito muito específico, muito delimitado, talvez não seja o caso de autorizar essa nova carteira",
+            "preservado": false,
+            "char_start": 58229,
+            "char_end": 58409
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "Defende a criação do crime de gestão fraudulenta de exchange para proteger o sistema financeiro de forma mais abrangente do que o estelionato.",
+      "dados": {
+        "falante": "Thiago Bueno",
+        "cargo": "",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "quando houvesse um esquema de pirâmide financeira",
+            "preservado": false,
+            "char_start": 22883,
+            "char_end": 22932
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "Defende que a extensão das obrigações de registro, identificação de clientes e repasse de informações às exchanges é essencial para o combate a crimes com criptoativos.",
+      "dados": {
+        "falante": "Thiago Bueno",
+        "cargo": "",
+        "turno_id": 18,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "a partir da edição da lei de dezembro do ano passado",
+            "preservado": false,
+            "char_start": 61229,
+            "char_end": 61281
+          }
+        ]
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Otávio Ribeiro Damaso",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Otávio Ribeiro Damaso",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Otávio Ribeiro Damaso",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Otávio Ribeiro Damaso",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Thiago Bueno",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Thiago Bueno",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Otávio Ribeiro Damaso",
+      "destino": "p::Thiago Bueno",
+      "tipo": "fala_apos",
+      "peso": 2.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Thiago Bueno",
+      "destino": "p::Otávio Ribeiro Damaso",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0002",
+      "tipo": "mesmo_tema",
+      "peso": 0.8011,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0002",
+      "tipo": "mesmo_tema",
+      "peso": 0.6453,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0004",
+      "tipo": "mesmo_tema",
+      "peso": 0.6019,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6516,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.7092,
+      "dados": {}
+    }
+  ],
+  "resumo": {
+    "sample_id": 8,
+    "n_participantes": 2,
+    "n_opinioes": 6,
+    "arestas": {
+      "emitiu": 6,
+      "fala_apos": 2,
+      "mesmo_tema": 5
+    },
+    "camadas_exatas": [
+      "emitiu",
+      "fala_apos",
+      "concede_palavra"
+    ]
+  }
+}

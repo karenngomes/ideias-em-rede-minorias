@@ -1,0 +1,100 @@
+{
+  "sample_id": 202,
+  "n_opinioes": 13,
+  "n_decompostas": 13,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 12,
+  "n_ancorados": 10,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 4,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "condicao": 5,
+    "atribuicao": 5
+  },
+  "perdas": [
+    {
+      "falante": "Estevam Rivello",
+      "turno_id": 8,
+      "opiniao": "defende aprofundamento do debate sobre a regulamentação da quiropraxia, com base na formação já existente em outras profissões e na segurança do paciente",
+      "nucleo": "defendeu aprofundamento do debate sobre a regulamentação da quiropraxia com base na formação de outras profissões e na segurança do paciente",
+      "tipo": "condicao",
+      "trecho": "se de fato prosseguirmos com este debate",
+      "char_start": 25437,
+      "char_end": 25477
+    },
+    {
+      "falante": "Marcelo Renato Massahud Junior",
+      "turno_id": 10,
+      "opiniao": "opõe-se à regulamentação da quiropraxia como profissão distinta, por considerá-la recurso já incluído na fisioterapia e por basear-se em pseudociência",
+      "nucleo": "opôs-se à regulamentação da quiropraxia como profissão distinta",
+      "tipo": "atribuicao",
+      "trecho": "O nosso decreto-lei fala que é atividade privativa do fisioterapeuta executar métodos e técnicas fisioterápicos",
+      "char_start": 27510,
+      "char_end": 27621
+    },
+    {
+      "falante": "Alice Portugal",
+      "turno_id": 14,
+      "opiniao": "Defende que a regulamentação de profissões de saúde deve considerar rigor técnico-científico, segurança ao paciente e integração na equipe multidisciplinar, não apenas a existência de formação profissional.",
+      "nucleo": "Defendeu que a regulamentação de profissões de saúde deve considerar rigor técnico-científico, segurança ao paciente e integração na equipe multidisciplinar.",
+      "tipo": "condicao",
+      "trecho": "desde que",
+      "char_start": 40563,
+      "char_end": 40572
+    },
+    {
+      "falante": "Estevam Rivello",
+      "turno_id": 23,
+      "opiniao": "opõe-se à regulamentação de novas profissões com base em reconhecimento internacional ou abertura de cursos não regulamentados",
+      "nucleo": "opôs-se à regulamentação de novas profissões com base em reconhecimento internacional ou abertura de cursos não regulamentados",
+      "tipo": "condicao",
+      "trecho": "quando aquilo já é praticado por profissões que estão consolidadas na assistência à população brasileira e no mundo afora",
+      "char_start": 49575,
+      "char_end": 49696
+    },
+    {
+      "falante": "Paulo Mayall Guilayn",
+      "turno_id": 27,
+      "opiniao": "defende que não se deve aprovar lei que inclua termo sem comprovação científica, como o complexo de subluxação",
+      "nucleo": "defende que não se deve aprovar lei que inclua termo sem comprovação científica, como o complexo de subluxação",
+      "tipo": "condicao",
+      "trecho": "como esse termo está sendo usado na redação do projeto de lei",
+      "char_start": 53942,
+      "char_end": 54003
+    },
+    {
+      "falante": "Alice Portugal",
+      "turno_id": 28,
+      "opiniao": "Defende a realização de nova audiência pública antes da votação do projeto, para garantir ampla discussão técnica e participação equilibrada.",
+      "nucleo": "Defendeu a realização de nova audiência pública antes da votação do projeto.",
+      "tipo": "condicao",
+      "trecho": "para que possamos dar oportunidade de fala a todos e todas",
+      "char_start": 55728,
+      "char_end": 55786
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "por normativa infralegal",
+      "opiniao": "defende a regulamentação da quiropraxia por normativa infralegal e sua inclusão em portaria da Política Nacional de Práticas Integrativas e Complementares"
+    },
+    {
+      "turno_id": 4,
+      "falante": "Paulo Mayall Guilayn",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "em portaria da Política Nacional de Práticas Integrativas e Complementares",
+      "opiniao": "defende a regulamentação da quiropraxia por normativa infralegal e sua inclusão em portaria da Política Nacional de Práticas Integrativas e Complementares"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.4,
+  "taxa_ancoragem": 0.8333,
+  "taxa_opiniao_intacta": 0.5385
+}

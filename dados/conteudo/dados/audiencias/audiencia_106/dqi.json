@@ -1,0 +1,2379 @@
+{
+  "sample_id": 106,
+  "n_turnos": 49,
+  "n_turnos_codificados": 27,
+  "n_codigos": 187,
+  "n_rejeitados": 2,
+  "taxa_rejeicao": 0.0278,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 27,
+      "distribuicao": {
+        "interrompido": 1,
+        "normal": 26
+      },
+      "media": 0.963,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 26,
+      "distribuicao": {
+        "nenhuma": 6,
+        "inferior": 5,
+        "qualificada": 15,
+        "sofisticada": 0
+      },
+      "media": 1.3462,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 27,
+      "distribuicao": {
+        "interesse_de_grupo": 2,
+        "neutro": 10,
+        "bem_comum_utilitario": 14,
+        "bem_comum_diferenca": 1
+      },
+      "media": 1.5185,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 26,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 11,
+        "explicito_positivo": 15
+      },
+      "media": 1.5769,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 27,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 26,
+        "explicito_positivo": 1
+      },
+      "media": 1.037,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 27,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 24,
+        "inclui": 3,
+        "valoriza": 0
+      },
+      "media": 1.1111,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 27,
+      "distribuicao": {
+        "posicional": 14,
+        "proposta_alternativa": 13,
+        "proposta_mediadora": 0
+      },
+      "media": 0.4815,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Bohn Gass": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        }
+      },
+      "Claudio Filgueiras Pacheco Moreira": {
+        "participacao": {
+          "n": 8,
+          "media": 0.875
+        },
+        "politica_construtiva": {
+          "n": 8,
+          "media": 0.75
+        },
+        "respeito_contra": {
+          "n": 8,
+          "media": 1.25
+        },
+        "justificacao_nivel": {
+          "n": 8,
+          "media": 1.625
+        },
+        "justificacao_conteudo": {
+          "n": 8,
+          "media": 1.75
+        },
+        "respeito_grupos": {
+          "n": 7,
+          "media": 1.4286
+        },
+        "respeito_demandas": {
+          "n": 8,
+          "media": 1.0
+        }
+      },
+      "Célio Porto": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Dirceu Schmidt": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Heitor Schuch": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Jelson Gesser": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 0.6667
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Pezenti": {
+        "participacao": {
+          "n": 8,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 8,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 8,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 8,
+          "media": 0.75
+        },
+        "justificacao_conteudo": {
+          "n": 8,
+          "media": 1.375
+        },
+        "respeito_grupos": {
+          "n": 8,
+          "media": 1.625
+        },
+        "respeito_demandas": {
+          "n": 8,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Heitor Schuch",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 1,
+      "falante": "Pezenti",
+      "trecho": "Os senhores sabem que, há décadas, o PROAGRO tem sido suporte para milhões de pequenos agricultores espalhados pelo Brasil",
+      "char_start": 639,
+      "char_end": 761,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "trecho": "a de que o último acionamento do PROAGRO que os agricultores fizeram nessa última safra não fosse contabilizado",
+      "char_start": 11328,
+      "char_end": 11439,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "trecho": "Quando se limita algum amparo para o agricultor, principalmente no caso do PROAGRO... Vou dar um exemplo de nossas pequenas propriedades. O produtor de Santa Catarina, e do Brasil como um todo, cultiva mais do que uma atividade, possui mais de uma lavoura em sua propriedade, até porque sempre foi muito bem pregado pelos órgãos de pesquisa e extensão rural que ele precisava diversificar em sua propriedade. E isso é fato; hoje, o produtor diversifica. Ele cultiva: cebola, alho, um pouquinho de fruta, um pouquinho de hortaliça, enfim, culturas essas que hoje vão diretamente para a mesa do brasileiro.",
+      "char_start": 5429,
+      "char_end": 6033,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "trecho": "culturas essas que hoje vão diretamente para a mesa do brasileiro",
+      "char_start": 5967,
+      "char_end": 6032,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "trecho": "é uma honra poder participar de uma audiência pública na Câmara dos Deputados, uma audiência tão importante para nós, agricultores familiares.",
+      "char_start": 3321,
+      "char_end": 3463,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Pezenti",
+      "trecho": "Essas alterações nas regras do PROAGRO desincentivam a diversificação, impossibilitando os produtores de espalhar sua esperança em mais culturas.",
+      "char_start": 12411,
+      "char_end": 12556,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Pezenti",
+      "trecho": "Essas alterações nas regras do PROAGRO desincentivam a diversificação, impossibilitando os produtores de espalhar sua esperança em mais culturas.",
+      "char_start": 12411,
+      "char_end": 12556,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 3,
+      "falante": "Pezenti",
+      "trecho": "Eu venho também de uma família de agricultores, de pequenos produtores, e, desde que me conheço por gente, somos motivados a diversificar o plantio.",
+      "char_start": 12262,
+      "char_end": 12410,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "trecho": "Então, essa mudança impacta muito na diversificação da propriedade, e principalmente na sucessão familiar. Ouvimos falar muito nisso, em várias reuniões focamos nisso. Queremos que o jovem continue na atividade, porque nós precisamos cada vez mais de alimentos.",
+      "char_start": 15628,
+      "char_end": 15889,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "trecho": "Queremos que o jovem continue na atividade, porque nós precisamos cada vez mais de alimentos.",
+      "char_start": 15796,
+      "char_end": 15889,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "trecho": "Queremos que o jovem continue na atividade, porque nós precisamos cada vez mais de alimentos.",
+      "char_start": 15796,
+      "char_end": 15889,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 5,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 5,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Nós estamos estudando manter o limite de seis perdas, que consideramos importante para essas culturas grandes. Vamos desconsiderar as perdas de arroz, feijão, olerícolas e cultura permanente, assim como as perdas de trigo do ano passado, que foi uma lástima.",
+      "char_start": 30109,
+      "char_end": 30367,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Nós temos sempre que pensar nisso, porque, quando a agricultura familiar tem incentivo, nós temos muito uso de dinheiro público.",
+      "char_start": 19897,
+      "char_end": 20025,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Nós temos sempre que pensar nisso, porque, quando a agricultura familiar tem incentivo, nós temos muito uso de dinheiro público.",
+      "char_start": 19897,
+      "char_end": 20025,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Eu acho muito importante ouvir os produtores na ponta, ouvir as federações dos agricultores, porque eles vão nos trazer subsídios para, cada vez mais, termos uma regra melhor que use racionalmente o dinheiro público.",
+      "char_start": 19680,
+      "char_end": 19896,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 7,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 7,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "trecho": "A política de seguro rural, e o PROAGRO é um seguro rural, é um dos esteios da política agrícola em qualquer lugar do mundo. No Brasil, essencialmente, a política agrícola consiste no crédito rural, no seguro rural e em medidas de apoio à comercialização. Todo mundo sabe que a colheita se dá em poucos meses e o consumo, em 12 meses. Então, é preciso ter crédito para distribuir essa oferta ao longo do ano e evitar o aviltamento de preços ao produtor na época da colheita. Por isso, há política de suporte à comercialização.",
+      "char_start": 36966,
+      "char_end": 37492,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "trecho": "A agricultura é chamada de indústria a céu aberto, portanto, sujeita às adversidades climáticas. Tanto no Brasil como nos demais países de agricultura relevante, sempre há algum tipo de apoio do Estado para as políticas de seguro rural, de forma a baratear o custo da aquisição do seguro pelo agricultor e, por consequência, ele ter uma proteção de sua renda.",
+      "char_start": 37494,
+      "char_end": 37853,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 9,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Pezenti",
+      "trecho": "eu não posso botar minha família no carro e ir para o Beto Carreiro, para passear de montanha-russa, sem antes pagar a fatura de energia elétrica, sem pagar o boleto da prestação da geladeira, porque a vida é feita de prioridades. Então, para um governo que gasta 16 bilhões em Lei Rouanet, 8 bilhões para o PROAGRO eu acredito que esteja de bom tamanho.",
+      "char_start": 49987,
+      "char_end": 50341,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Pezenti",
+      "trecho": "Nós não podemos inviabilizar o PROAGRO e tirar o acesso de milhares e milhares de famílias por conta de algumas que fraudaram o programa. Vamos focar as fraudes, vamos tirar do sistema e punir com bastante rigor esses criminosos. Quando você comete uma fraude desse tamanho, você está tirando dinheiro público do cofre e botando no bolso, você está tirando dinheiro de todo mundo e colocando no bolso, no seio da sua família. Isso é muito errado.",
+      "char_start": 51565,
+      "char_end": 52011,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 9,
+      "falante": "Pezenti",
+      "trecho": "que é um grande defensor da agricultura familiar",
+      "char_start": 50804,
+      "char_end": 50852,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 9,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Pezenti",
+      "trecho": "O problema é que, limitando o número de acionamentos do PROAGRO, nós estamos empurrando o agricultor para a monocultura. O intervalo entre uma cultura e outra vai ser de quase 1 ano, porque ele vai voltar a plantar uma coisa só.",
+      "char_start": 54252,
+      "char_end": 54480,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Pezenti",
+      "trecho": "vai ser importante, não para mim, mas para muita gente que está acompanhando",
+      "char_start": 54739,
+      "char_end": 54815,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 10,
+      "falante": "Pezenti",
+      "trecho": "faço questão de destacar uma mensagem que recebemos de um produtor rural que está acompanhando a nossa transmissão pela Internet, o Seu Hélio Rode, que trabalha com cebola em Santa Catarina",
+      "char_start": 54829,
+      "char_end": 55018,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Eu espero que essa regra saia, do mesmo jeito que saíram essas quatro nesta semana, que nós consigamos levar ao Conselho Monetário Nacional, este mês ou no próximo mês, no máximo, para que façamos o ajuste.",
+      "char_start": 55644,
+      "char_end": 55850,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Por quê? Porque são unidades familiares diferentes.",
+      "char_start": 56167,
+      "char_end": 56218,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "a nossa ideia é fazer com que o produtor se planeje ao longo do ano. A multicultura vai ser permitida para muitos, como estamos discutindo aqui. Nessa multicultura, ele vai saber exatamente onde colocar em cada período para cumprir o ZARC.",
+      "char_start": 60090,
+      "char_end": 60329,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Por quê? Porque o Tesouro, junto com os outros órgãos que cuidam desses recursos, entenderam que mais do que 1,25 bilhão é um valor muito elevado para essa indenização, fora a indenização da cultura.",
+      "char_start": 58577,
+      "char_end": 58776,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 15,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Por quê? Porque o Tesouro, junto com os outros órgãos que cuidam desses recursos, entenderam que mais do que 1,25 bilhão é um valor muito elevado para essa indenização, fora a indenização da cultura.",
+      "char_start": 58577,
+      "char_end": 58776,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 15,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 16,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 16,
+      "falante": "Pezenti",
+      "trecho": "a equipe do Banco Central, que tão bem nos atende, com muita gentileza, acima de tudo com informações de qualidade, sempre prestando toda aquela assistência que é demandada",
+      "char_start": 61649,
+      "char_end": 61821,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 16,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "trecho": "Nós só não podemos penalizar de modo geral os bons, por causa dos ruins.",
+      "char_start": 62788,
+      "char_end": 62860,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "trecho": "Nós só não podemos penalizar de modo geral os bons, por causa dos ruins.",
+      "char_start": 62788,
+      "char_end": 62860,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "trecho": "os produtores rurais também têm que trabalhar de forma correta",
+      "char_start": 62724,
+      "char_end": 62786,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Dirceu Schmidt",
+      "trecho": "O Claudio citou o uso da propriedade por mais grupos familiares. Essa questão é importante, sim, mas não sei de que maneira isso vai ser resolvido, porque hoje não conseguimos fazer a divisão da propriedade. Pode ser que, com essa alteração, consigamos mudar ali na frente.",
+      "char_start": 63642,
+      "char_end": 63915,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Dirceu Schmidt",
+      "trecho": "Essa questão é importante, sim, mas não sei de que maneira isso vai ser resolvido, porque hoje não conseguimos fazer a divisão da propriedade. Pode ser que, com essa alteração, consigamos mudar ali na frente.",
+      "char_start": 63707,
+      "char_end": 63915,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Dirceu Schmidt",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Bohn Gass",
+      "trecho": "quero ponderar a necessidade de que seja feita uma revisão — quero insistir nisso. Estou presente para pedir que seja revista a última normativa, principalmente em quatro aspectos que vocês já abordaram aqui.",
+      "char_start": 66188,
+      "char_end": 66396,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 23,
+      "falante": "Bohn Gass",
+      "trecho": "e o agricultor familiar vai ficar de fora.",
+      "char_start": 66068,
+      "char_end": 66110,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 23,
+      "falante": "Bohn Gass",
+      "trecho": "Nós temos que defender principalmente quem produz comida, alimento.",
+      "char_start": 66110,
+      "char_end": 66177,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 23,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Ela vai declarar para o Banco Central:\"Eu conheço esse produtor e sei que há três famílias utilizando a área\".Ela vai dividir o CAR em três e vai nos informar.",
+      "char_start": 72396,
+      "char_end": 72555,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Essa redução é feita para pegar as pessoas que estão utilizando o Programa de Subvenção ao Prêmio do Seguro Rural — PSR e o PROAGRO ao mesmo tempo, as aquelas pessoas que orbitam entre os dois programas. A pessoa contrata um, depois vê uma oportunidade melhor no outro; aí, cancela o primeiro e vem para o lado de cá; depois, devolve o adicional, porque ele contratou e desistiu. Não queremos essas pessoas orbitando os dois programas do Governo. Fizemos essa redução de forma pensada e estudada, para que essas pessoas usem o PSR.",
+      "char_start": 69905,
+      "char_end": 70436,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Em momento nenhum nós vamos mexer com o agricultor familiar, com a pessoa que bota comida na mesa do brasileiro e nos dá segurança alimentar.",
+      "char_start": 70574,
+      "char_end": 70715,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 25,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Em momento nenhum nós vamos mexer com o agricultor familiar, com a pessoa que bota comida na mesa do brasileiro e nos dá segurança alimentar.",
+      "char_start": 70574,
+      "char_end": 70715,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 25,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Bohn Gass",
+      "trecho": "Eu acho que é preciso usar um sistema que unifique o processo e determine que a identificação tenha uma forma fixa, clara e total.",
+      "char_start": 73473,
+      "char_end": 73603,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 26,
+      "falante": "Bohn Gass",
+      "trecho": "Eu acho que é preciso usar um sistema que unifique o processo e determine que a identificação tenha uma forma fixa, clara e total. Já que isso está em formação, é preciso ter tolerância e fazer uma consulta para verificar que não há invasão e duplicidade.",
+      "char_start": 73473,
+      "char_end": 73728,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 26,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Por que não ajustamos essas normas junto com o Plano Safra?",
+      "char_start": 76238,
+      "char_end": 76297,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Nós queremos preservar o PROAGRO, que é um programa muito bom. Sabemos que ele funciona, mas temos que corrigi-lo e evoluir.",
+      "char_start": 76113,
+      "char_end": 76237,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 27,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Nós queremos que a política pública seja bem utilizada, que o dinheiro público seja bem empregado, de forma racional, para atender todos.",
+      "char_start": 75855,
+      "char_end": 75992,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 27,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Heitor Schuch",
+      "trecho": "nós precisamos pedir ao Conselho Monetário Nacional que coloque nofreezeressas resoluções; que chame os movimentos sociais que estão no campo; que chame o movimento sindical; que chame as cooperativas, o sistema financeiro, todo mundo que trabalha com isso no cotidiano.",
+      "char_start": 85315,
+      "char_end": 85585,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Heitor Schuch",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Heitor Schuch",
+      "trecho": "O seguro é uma peça elementar para ter garantia o agricultor, que vai plantar. Todo dia, ele olha para o céu, agradece o tempo, o clima, a chuva na hora certa. Não falta chuva para ele fazer a safra. Se não houver para o agro seguro público, via Banco Central, como há hoje, a agricultura familiar vai ficar sem PROAGRO, sem seguro. Nós vamos ficar de fora.",
+      "char_start": 81625,
+      "char_end": 81982,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Heitor Schuch",
+      "trecho": "nós somos um país eminentemente identificado com a produção agrícola. E a agricultura familiar, como eu disse no começo, precisa de política pública. O PROAGRO é tão importante como o crédito. As coisas não caminham separadas.",
+      "char_start": 85769,
+      "char_end": 85995,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 29,
+      "falante": "Heitor Schuch",
+      "trecho": "A agricultura familiar não vive sem política pública.",
+      "char_start": 80386,
+      "char_end": 80439,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 29,
+      "falante": "Heitor Schuch",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 33,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "E concordo com o senhor, nós trabalhamos a parte de zoneamento para que ele faça dentro do período, mas tudo depende muito da parte climática. Eu sei que no Sul, que é uma região de transição, há alguns problemas. E nós podemos, sempre que identificarmos algum problema na norma, revê-la.",
+      "char_start": 88778,
+      "char_end": 89066,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Entendemos que essas medidas que nós fizemos agora não vão diminuir o tamanho do PROAGRO, mas vão racionalizar o uso de alguns recursos públicos, melhorar algumas situações que estávamos identificando de uso inadequado do PROAGRO e levar o produtor a assumir o menor risco. Por quê? O zoneamento agrícola é feito pela EMBRAPA, é um estudo técnico que ajuda.",
+      "char_start": 88420,
+      "char_end": 88777,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "vão racionalizar o uso de alguns recursos públicos",
+      "char_start": 88514,
+      "char_end": 88564,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 33,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "o agricultor familiar, que é quem produz o que nós estamos consumindo no dia a dia. Nós precisamos, com certeza, manter, incentivar e tornar o programa mais rígido.",
+      "char_start": 90039,
+      "char_end": 90203,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 33,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Bohn Gass",
+      "trecho": "se a média era 12 mil reais, que fique ao menos 12 mil reais",
+      "char_start": 91636,
+      "char_end": 91696,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Bohn Gass",
+      "trecho": "se a média era 12 mil reais, que fique ao menos 12 mil reais. Nós estamos lutando para ampliá-la. A média era 12 mil reais. Agora se quer colocar o limite, o teto de 9 mil reais? Porque é teto, não é? Então, não pode passar de 9 mil reais.",
+      "char_start": 91636,
+      "char_end": 91875,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Bohn Gass",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Bohn Gass",
+      "trecho": "Concordo com o que o Deputado Heitor colocou: se a média era 12 mil reais, que fique ao menos 12 mil reais.",
+      "char_start": 91590,
+      "char_end": 91697,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Mas é razoável pensar em ajustar esses 9 mil mais um pouquinho.",
+      "char_start": 92672,
+      "char_end": 92735,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "Mas é razoável pensar em ajustar esses 9 mil mais um pouquinho.",
+      "char_start": 92672,
+      "char_end": 92735,
+      "fonte": "modelo",
+      "rotulo": "inclui"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "A concentração da curva está exatamente na faixa dos 9 mil. É por isso que nós sempre pensamos numa política pública para atender todos. Pegando-se a curva de pagamento de GRM, com 9 mil, quase todo mundo é atendido.",
+      "char_start": 92813,
+      "char_end": 93029,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 37,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "É por isso que nós sempre pensamos numa política pública para atender todos.",
+      "char_start": 92873,
+      "char_end": 92949,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 37,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "trecho": "será que nós poderíamos discutir essa ideia de perdoar esse acionamento de PROAGRO da última safra para os produtores familiares dos Municípios que decretaram situação de calamidade pública, para que eles pudessem voltar a plantar a nova safra, captar o recurso do banco e lançar a semente na terra de novo para o próximo ano?",
+      "char_start": 94641,
+      "char_end": 94967,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "trecho": "para que eles pudessem voltar a plantar a nova safra, captar o recurso do banco e lançar a semente na terra de novo para o próximo ano",
+      "char_start": 94832,
+      "char_end": 94966,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "trecho": "para que eles pudessem voltar a plantar a nova safra, captar o recurso do banco e lançar a semente na terra de novo para o próximo ano",
+      "char_start": 94832,
+      "char_end": 94966,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "trecho": "Sou só um agricultor. Mas é uma ideia, é uma sugestão que veio da minha classe agricultora e que talvez atenderia muitos agricultores.",
+      "char_start": 95136,
+      "char_end": 95270,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 39,
+      "falante": "Jelson Gesser",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Célio Porto",
+      "trecho": "Eu acho que um dos possíveis aperfeiçoamentos do Zoneamento Agrícola de Risco Climático seria, por exemplo, se está caracterizado um ano de La Niña, ajustar para os anos históricos do La Niña, porque aí teríamos mais acuidade em relação àquilo que esperamos acontecer naquele ano, e, se é um ano de El Niño, ajustar ao histórico de anos de El Niño.",
+      "char_start": 97242,
+      "char_end": 97590,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Célio Porto",
+      "trecho": "porque aí teríamos mais acuidade em relação àquilo que esperamos acontecer naquele ano",
+      "char_start": 97435,
+      "char_end": 97521,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Célio Porto",
+      "trecho": "que representa, em última instância, risco para as arrecadações municipal, estadual e até federal, como também para o abastecimento",
+      "char_start": 97983,
+      "char_end": 98114,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 43,
+      "falante": "Célio Porto",
+      "trecho": "A agricultura é uma indústria a céu aberto. Então, o fator clima vai ser cada vez mais importante em políticas públicas como o Seguro Rural e o PROAGRO, a fim de que possam compensar, reduzir o risco do agricultor, que representa, em última instância, risco para as arrecadações municipal, estadual e até federal, como também para o abastecimento.",
+      "char_start": 97768,
+      "char_end": 98115,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 43,
+      "falante": "Célio Porto",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 49,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 49,
+      "falante": "Pezenti",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "respeito_grupos",
+      "turno_id": 15,
+      "falante": "Claudio Filgueiras Pacheco Moreira",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "explicito_positivo",
+      "trecho": "os produtores que a princípio ficaram de fora voltem todos para o PROAGRO e consigam fazer as suas multiculturas"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 23,
+      "falante": "Bohn Gass",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "qualificada",
+      "trecho": "Se houver fraude, esperamos que todos os mecanismos de fiscalização aconteçam, doa a quem doer. Se houve erro, o bom não deve pagar pelo mau. Os mecanismos de fiscalização devem ser cada vez mais apurados. Nós que defendemos o PROAGRO não queremos que haja a substituição dele por um sistema privado. Se ele for substituído por um sistema privado, vai custar muito caro — todos falam isso —, e o agricultor familiar vai ficar de fora."
+    }
+  ],
+  "turnos_falhos": []
+}

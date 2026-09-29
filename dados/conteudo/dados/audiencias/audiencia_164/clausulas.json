@@ -1,0 +1,128 @@
+{
+  "sample_id": 164,
+  "n_opinioes": 19,
+  "n_decompostas": 19,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 16,
+  "n_ancorados": 12,
+  "n_rejeitados": 4,
+  "n_incoerentes": 0,
+  "n_preservados": 5,
+  "n_perdidos": 7,
+  "por_tipo": {
+    "prazo": 1,
+    "escopo": 4,
+    "condicao": 5,
+    "atribuicao": 2
+  },
+  "perdas": [
+    {
+      "falante": "Marcelo Trindade Miterhof",
+      "turno_id": 50,
+      "opiniao": "Defende que futuros leilões de saneamento devem priorizar redução de tarifa em vez de outorga.",
+      "nucleo": "Defendeu que futuros leilões de saneamento devem priorizar redução de tarifa em vez de outorga.",
+      "tipo": "condicao",
+      "trecho": "Antes do novo marco, buscar a universalização via concessão era mais ou menos uma opção. Agora já não é mais uma opção: isso tem que ser cumprido.",
+      "char_start": 48862,
+      "char_end": 49008
+    },
+    {
+      "falante": "Marcelo Trindade Miterhof",
+      "turno_id": 50,
+      "opiniao": "Defende que futuros leilões de saneamento devem priorizar redução de tarifa em vez de outorga.",
+      "nucleo": "Defendeu que futuros leilões de saneamento devem priorizar redução de tarifa em vez de outorga.",
+      "tipo": "escopo",
+      "trecho": "os próximos leilões",
+      "char_start": 48797,
+      "char_end": 48816
+    },
+    {
+      "falante": "Marcelo Trindade Miterhof",
+      "turno_id": 58,
+      "opiniao": "Defende que a privatização da SABESP não deve ocorrer antes de outras companhias com maior necessidade de investimentos.",
+      "nucleo": "Defendeu que a privatização da SABESP não deve ocorrer antes de outras companhias com maior necessidade de investimentos.",
+      "tipo": "atribuicao",
+      "trecho": "eu acho também que esta é apenas minha opinião",
+      "char_start": 52197,
+      "char_end": 52243
+    },
+    {
+      "falante": "Marcelo Trindade Miterhof",
+      "turno_id": 60,
+      "opiniao": "Defende que a privatização de companhias em Estados com maior necessidade de investimentos deve ter prioridade sobre a SABESP.",
+      "nucleo": "Defendeu que a privatização de companhias em Estados com maior necessidade de investimentos deve ter prioridade sobre a SABESP",
+      "tipo": "condicao",
+      "trecho": "se for o caso",
+      "char_start": 52711,
+      "char_end": 52724
+    },
+    {
+      "falante": "Filipe de Mello Sampaio Cunha",
+      "turno_id": 70,
+      "opiniao": "defende o fomento de audiências públicas e o uso de requerimentos de informação pelo Parlamento para fortalecer a regulação e a universalização do saneamento",
+      "nucleo": "defendeu o fomento de audiências públicas e o uso de requerimentos de informação pelo Parlamento para fortalecer a regulação e a universalização do saneamento",
+      "tipo": "escopo",
+      "trecho": "no que tange à agência reguladora",
+      "char_start": 74850,
+      "char_end": 74883
+    },
+    {
+      "falante": "Pedro Damásio Costa Neto",
+      "turno_id": 80,
+      "opiniao": "defende o fortalecimento de operadores públicos de saneamento com financiamento do BNDES e da Caixa Econômica Federal para universalização como política de Estado",
+      "nucleo": "defendeu o fortalecimento de operadores públicos de saneamento com financiamento do BNDES e da Caixa Econômica Federal para universalização como política de Estado",
+      "tipo": "condicao",
+      "trecho": "sejam eles estaduais ou municipais",
+      "char_start": 93172,
+      "char_end": 93206
+    },
+    {
+      "falante": "Percy Soares Neto",
+      "turno_id": 94,
+      "opiniao": "defende a não reabertura do debate legislativo sobre a estrutura da prestação de serviços de saneamento",
+      "nucleo": "defendeu a não reabertura do debate legislativo sobre a estrutura da prestação de serviços de saneamento",
+      "tipo": "prazo",
+      "trecho": "neste momento",
+      "char_start": 131083,
+      "char_end": 131096
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 62,
+      "falante": "Marcelo Trindade Miterhof",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "prazo",
+      "trecho": "no momento atual",
+      "opiniao": "É contrário à privatização da SABESP no momento atual, preferindo priorizar outras companhias."
+    },
+    {
+      "turno_id": 86,
+      "falante": "Marcelo Trindade Miterhof",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que haja compromisso com a universalização",
+      "opiniao": "Defende que o BNDES apoie qualquer modelo de prestação de serviços desde que haja compromisso com a universalização."
+    },
+    {
+      "turno_id": 92,
+      "falante": "Percy Soares Neto",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que não haja reabertura do debate legislativo",
+      "opiniao": "defende a manutenção da estabilidade do marco legal do saneamento para garantir continuidade dos investimentos"
+    },
+    {
+      "turno_id": 92,
+      "falante": "Percy Soares Neto",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "no mecanismo de capacidade econômico-financeira",
+      "opiniao": "rejeita a flexibilização das exigências de capacidade econômico-financeira para operadores de saneamento"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.4167,
+  "taxa_ancoragem": 0.75,
+  "taxa_opiniao_intacta": 0.6842
+}

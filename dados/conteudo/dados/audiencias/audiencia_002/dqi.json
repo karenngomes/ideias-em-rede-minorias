@@ -1,0 +1,4581 @@
+{
+  "sample_id": 2,
+  "n_turnos": 125,
+  "n_turnos_codificados": 49,
+  "n_codigos": 336,
+  "n_rejeitados": 5,
+  "taxa_rejeicao": 0.0407,
+  "agregado": {
+    "participacao": {
+      "exata": true,
+      "n": 49,
+      "distribuicao": {
+        "interrompido": 3,
+        "normal": 46
+      },
+      "media": 0.9388,
+      "maximo_da_escala": 1
+    },
+    "justificacao_nivel": {
+      "exata": false,
+      "n": 47,
+      "distribuicao": {
+        "nenhuma": 11,
+        "inferior": 14,
+        "qualificada": 22,
+        "sofisticada": 0
+      },
+      "media": 1.234,
+      "maximo_da_escala": 3
+    },
+    "justificacao_conteudo": {
+      "exata": false,
+      "n": 47,
+      "distribuicao": {
+        "interesse_de_grupo": 2,
+        "neutro": 11,
+        "bem_comum_utilitario": 28,
+        "bem_comum_diferenca": 6
+      },
+      "media": 1.8085,
+      "maximo_da_escala": 3
+    },
+    "respeito_grupos": {
+      "exata": false,
+      "n": 48,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 17,
+        "explicito_positivo": 31
+      },
+      "media": 1.6458,
+      "maximo_da_escala": 2
+    },
+    "respeito_demandas": {
+      "exata": false,
+      "n": 48,
+      "distribuicao": {
+        "negativo": 0,
+        "neutro": 45,
+        "explicito_positivo": 3
+      },
+      "media": 1.0625,
+      "maximo_da_escala": 2
+    },
+    "respeito_contra": {
+      "exata": false,
+      "n": 49,
+      "distribuicao": {
+        "degradante": 0,
+        "ignora": 49,
+        "inclui": 0,
+        "valoriza": 0
+      },
+      "media": 1.0,
+      "maximo_da_escala": 3
+    },
+    "politica_construtiva": {
+      "exata": false,
+      "n": 48,
+      "distribuicao": {
+        "posicional": 39,
+        "proposta_alternativa": 9,
+        "proposta_mediadora": 0
+      },
+      "media": 0.1875,
+      "maximo_da_escala": 2
+    },
+    "por_falante": {
+      "Arnaldo Jardim": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Benes Leocádio": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Bia Kicis": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Carlos Zarattini": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Coronel Chrisóstomo": {
+        "participacao": {
+          "n": 2,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.5
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 2,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 2,
+          "media": 1.0
+        }
+      },
+      "Danilo Forte": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Dorinaldo Malafaia": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Geraldo Mendes": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Igor Timo": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Josenildo": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "João Carlos Bacelar": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Julio Lopes": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Leo Prates": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Leonardo Monteiro": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Luiz Carlos Ciocchi": {
+        "participacao": {
+          "n": 5,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 5,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 5,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 5,
+          "media": 0.8
+        },
+        "justificacao_conteudo": {
+          "n": 5,
+          "media": 1.4
+        },
+        "respeito_grupos": {
+          "n": 5,
+          "media": 1.6
+        },
+        "respeito_demandas": {
+          "n": 5,
+          "media": 1.0
+        }
+      },
+      "Merlong Solano": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 0.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Ministro Alexandre Silveira de Oliveira": {
+        "participacao": {
+          "n": 13,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 12,
+          "media": 0.25
+        },
+        "respeito_contra": {
+          "n": 13,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 12,
+          "media": 1.75
+        },
+        "justificacao_conteudo": {
+          "n": 12,
+          "media": 2.0833
+        },
+        "respeito_grupos": {
+          "n": 13,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 13,
+          "media": 1.2308
+        }
+      },
+      "Odair Cunha": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Padre João": {
+        "participacao": {
+          "n": 2,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 2,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 2,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 2,
+          "media": 1.5
+        },
+        "justificacao_conteudo": {
+          "n": 2,
+          "media": 2.5
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Paulo Guedes": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 3.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Pedro Campos": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Rodrigo de Castro": {
+        "participacao": {
+          "n": 3,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 3,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 3,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 3,
+          "media": 0.3333
+        },
+        "justificacao_conteudo": {
+          "n": 3,
+          "media": 1.3333
+        },
+        "respeito_grupos": {
+          "n": 3,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 3,
+          "media": 1.0
+        }
+      },
+      "Tadeu Veneri": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 2.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 1.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      },
+      "Vicentinho Júnior": {
+        "participacao": {
+          "n": 4,
+          "media": 0.5
+        },
+        "politica_construtiva": {
+          "n": 4,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 4,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 4,
+          "media": 0.75
+        },
+        "justificacao_conteudo": {
+          "n": 4,
+          "media": 1.5
+        },
+        "respeito_grupos": {
+          "n": 4,
+          "media": 1.5
+        },
+        "respeito_demandas": {
+          "n": 4,
+          "media": 1.0
+        }
+      },
+      "Welter": {
+        "participacao": {
+          "n": 1,
+          "media": 1.0
+        },
+        "politica_construtiva": {
+          "n": 1,
+          "media": 0.0
+        },
+        "respeito_contra": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_nivel": {
+          "n": 1,
+          "media": 1.0
+        },
+        "justificacao_conteudo": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_grupos": {
+          "n": 1,
+          "media": 2.0
+        },
+        "respeito_demandas": {
+          "n": 1,
+          "media": 1.0
+        }
+      }
+    }
+  },
+  "codigos": [
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Odair Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Padre João",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Padre João",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Tadeu Veneri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Timo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Merlong Solano",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Arnaldo Jardim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Josenildo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Carlos Zarattini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "João Carlos Bacelar",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Welter",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Leonardo Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 72,
+      "falante": "Danilo Forte",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 74,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 0,
+      "turno_id": 80,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "interrompido"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Pedro Campos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Paulo Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Benes Leocádio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 93,
+      "falante": "Julio Lopes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Geraldo Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Dorinaldo Malafaia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 99,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 101,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 103,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 105,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 109,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 113,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "participacao",
+      "nivel": 1,
+      "turno_id": 124,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "exato",
+      "rotulo": "normal"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 1,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 1,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 2,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 2,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 3,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 3,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 4,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 4,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "a Casa que representa a foto fidedigna da sociedade exatamente pela sua heterogeneidade",
+      "char_start": 10054,
+      "char_end": 10141,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 4,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 6,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "O Brasil tem uma grande vantagem comparativa em aproveitar a energia que temos do sol e dos ventos, principalmente no Nordeste brasileiro e no norte de Minas, para trazer essa energia aos grandes centros de consumidores, até que outros grandes centros de consumidores se instalem em outras regiões.",
+      "char_start": 14943,
+      "char_end": 15241,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 6,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "O Brasil tem uma grande vantagem comparativa em aproveitar a energia que temos do sol e dos ventos, principalmente no Nordeste brasileiro e no norte de Minas, para trazer essa energia aos grandes centros de consumidores, até que outros grandes centros de consumidores se instalem em outras regiões.",
+      "char_start": 14943,
+      "char_end": 15241,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 6,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 8,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "Quanto temos um evento de grandes proporções em que as causas ainda não estão completamente identificadas — como é normal, pois todos os eventos são sempre assim —, o ONS tem a prerrogativa de assumir uma operação mais conservadora. E essa postura, essa operação mais conservadora consistiu exatamente no seguinte ponto: reduzir o fluxo de energia das regiões Norte e Nordeste para o Sudeste. Então, esse foi o grande objetivo: redução de energia nas linhas de transmissão que conectam Nordeste com Sudeste, Norte com Sudeste e também Norte e com Nordeste.",
+      "char_start": 21915,
+      "char_end": 22471,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "Dessa forma, nós estamos garantindo que a operação esteja atendendo a 100% das necessidades do Brasil hoje de forma segura.",
+      "char_start": 23854,
+      "char_end": 23977,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 8,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "sendo uma organização que, dentro do setor elétrico, goza de todo o respeito",
+      "char_start": 25779,
+      "char_end": 25855,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 8,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 10,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 10,
+      "falante": "Bia Kicis",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 11,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 11,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "para que nós brasileiros e brasileiras continuemos orgulhosos de termos a melhor matriz de energia elétrica do mundo",
+      "char_start": 31853,
+      "char_end": 31969,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 11,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 12,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Rodrigo de Castro",
+      "trecho": "Nós precisamos também de uma reestruturação orçamentária e da carreira da agência, e a proposta do Governo de 3 anos é absolutamente insuficiente.",
+      "char_start": 47484,
+      "char_end": 47630,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 12,
+      "falante": "Rodrigo de Castro",
+      "trecho": "Uma parte importante do Brasil tem sido prejudicada por conta disso.",
+      "char_start": 48106,
+      "char_end": 48174,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 12,
+      "falante": "Rodrigo de Castro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 13,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 13,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "A reestruturação da agência é extremamente importante para os servidores, mas é imprescindível para o Brasil, porque o setor mineral pode e deve contribuir muito mais do que contribui hoje, em especial neste momento em que o mundo vira os olhos para o País em relação aos minerais críticos e as terras raras. Não há transição energética sem esses minerais.",
+      "char_start": 51028,
+      "char_end": 51384,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "A reestruturação da agência é extremamente importante para os servidores, mas é imprescindível para o Brasil, porque o setor mineral pode e deve contribuir muito mais do que contribui hoje, em especial neste momento em que o mundo vira os olhos para o País em relação aos minerais críticos e as terras raras. Não há transição energética sem esses minerais.",
+      "char_start": 51028,
+      "char_end": 51384,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "os servidores da agência recebam esses salários, já num primeiro momento, equiparados aos da ANEEL, equiparados aos das demais agências, até porque a ANM tem um mister tão importante quanto o das demais agências e muito importante para o Brasil.",
+      "char_start": 56496,
+      "char_end": 56741,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 13,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Eu queria dizer que os pleitos são extremamente justos.",
+      "char_start": 49779,
+      "char_end": 49834,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 17,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 17,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 19,
+      "falante": "Odair Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Odair Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Odair Cunha",
+      "trecho": "porque, se tivermos um diagnóstico seguro, teremos condições de tomar medidas seguras na perspectiva de organizar essa \"casa\" — entre aspas — que se chama Sistema Elétrico Brasileiro.",
+      "char_start": 62334,
+      "char_end": 62517,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 19,
+      "falante": "Odair Cunha",
+      "trecho": "Se nós queremos fazer com que este mundo seja melhor para se viver, precisamos reduzir drasticamente a emissão de carbono neste País, e uma das formas de fazermos isso é incentivando, sim, os biocombustíveis.",
+      "char_start": 63926,
+      "char_end": 64134,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Odair Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 19,
+      "falante": "Odair Cunha",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 22,
+      "falante": "Padre João",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Padre João",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 22,
+      "falante": "Padre João",
+      "trecho": "De nada resolve produzirmos energia e até avançarmos com uma energia mais limpa, se não possibilitarmos o acesso e avançarmos de fato.",
+      "char_start": 65345,
+      "char_end": 65479,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 22,
+      "falante": "Padre João",
+      "trecho": "De nada resolve produzirmos energia e até avançarmos com uma energia mais limpa, se não possibilitarmos o acesso e avançarmos de fato.",
+      "char_start": 65345,
+      "char_end": 65479,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 24,
+      "falante": "Padre João",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Padre João",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Padre João",
+      "trecho": "não pode um Município que tem mais de 300 anos de mineração de ouro ter tanta miséria, não avançar nas questões social e ambiental. Quem tem riqueza garantida, na verdade, são justamente as grandes empresas.",
+      "char_start": 67498,
+      "char_end": 67705,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 24,
+      "falante": "Padre João",
+      "trecho": "há 12 mil pessoas na extrema pobreza, segundo dados da própria Secretaria de Assistência Social. Então, não pode um Município que tem mais de 300 anos de mineração de ouro ter tanta miséria, não avançar nas questões social e ambiental.",
+      "char_start": 67394,
+      "char_end": 67629,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 24,
+      "falante": "Padre João",
+      "trecho": "não pode um Município que tem mais de 300 anos de mineração de ouro ter tanta miséria, não avançar nas questões social e ambiental",
+      "char_start": 67498,
+      "char_end": 67628,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 24,
+      "falante": "Padre João",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 28,
+      "falante": "Tadeu Veneri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Tadeu Veneri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Tadeu Veneri",
+      "trecho": "Esse grupo tem participação na COPEL e tem outras participações. A 3G já fez esse processo na Americanas S.A., que é objeto de uma CPI aqui nesta Casa, com mais de 40 bilhões de reais de prejuízo ao povo brasileiro. Ela pode ter mesma prática junto a outros participantes externos, de fazer a maximização de lucros e a redução do quadro pessoal, demitindo milhares de trabalhadores, fazendo com que haja inclusive a possibilidade real — não significa que isso vá acontecer — de inviabilizar a COPEL por conta da falta de quadros técnicos.",
+      "char_start": 69429,
+      "char_end": 69967,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 28,
+      "falante": "Tadeu Veneri",
+      "trecho": "o que traz para o País um cenário muito perigoso para os próximos anos",
+      "char_start": 70307,
+      "char_end": 70377,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Tadeu Veneri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 28,
+      "falante": "Tadeu Veneri",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Timo",
+      "trecho": "eu gostaria de convidá-lo para uma reunião regional, se possível, no Vale do Jequitinhonha, nas cidades de Araçuaí ou Itinga, onde se concentram praticamente 85% da reserva nacional, para que possamos discutir, junto com os populares daquela região, os melhores mecanismos para buscar uma solução.",
+      "char_start": 74115,
+      "char_end": 74412,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Timo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Timo",
+      "trecho": "Eu acho que essa é uma pergunta crucial para superarmos, de uma vez por todas, a possibilidade de trazer segurança para que continuemos fazendo e propondo os investimentos necessários.",
+      "char_start": 71954,
+      "char_end": 72138,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Igor Timo",
+      "trecho": "para superarmos, de uma vez por todas, a possibilidade de trazer segurança para que continuemos fazendo e propondo os investimentos necessários.",
+      "char_start": 71994,
+      "char_end": 72138,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 30,
+      "falante": "Igor Timo",
+      "trecho": "as regiões mais carentes, onde, muitas vezes, a mineração se torna a principal veia econômica, mas os resultados lá não ficam",
+      "char_start": 72275,
+      "char_end": 72400,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 30,
+      "falante": "Igor Timo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Merlong Solano",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Merlong Solano",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 32,
+      "falante": "Merlong Solano",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Merlong Solano",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Merlong Solano",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 32,
+      "falante": "Merlong Solano",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 34,
+      "falante": "Arnaldo Jardim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Arnaldo Jardim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Arnaldo Jardim",
+      "trecho": "acho que o sistema tem que operar com mais segurança. E, quando deixamos de ter uma presença de fontes firmes nos critérios de despacho, eu acho que nós passamos a correr um risco acentuado.",
+      "char_start": 78241,
+      "char_end": 78431,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 34,
+      "falante": "Arnaldo Jardim",
+      "trecho": "acho que o sistema tem que operar com mais segurança. E, quando deixamos de ter uma presença de fontes firmes nos critérios de despacho, eu acho que nós passamos a correr um risco acentuado.",
+      "char_start": 78241,
+      "char_end": 78431,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Arnaldo Jardim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 34,
+      "falante": "Arnaldo Jardim",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Josenildo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Josenildo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Josenildo",
+      "trecho": "O Estado é penalizado duas vezes, porque tem a tarifa mais cara e tem um serviço prestado pela empresa Equatorial que é de péssima qualidade.",
+      "char_start": 81686,
+      "char_end": 81827,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 41,
+      "falante": "Josenildo",
+      "trecho": "torná-la mais justa para o povo do Estado do Amapá",
+      "char_start": 82186,
+      "char_end": 82236,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 41,
+      "falante": "Josenildo",
+      "trecho": "Eu represento, aqui nesta Casa, o povo do Estado do Amapá, que, de fato, tem a tarifa de energia mais cara do País, o que não se justifica.",
+      "char_start": 81546,
+      "char_end": 81685,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 41,
+      "falante": "Josenildo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós vamos precisar aprovar essa lei, que podia partir, inclusive, do PL 414, que está em andamento aqui. Mas eu entendo que o processo é mais célere se o Executivo encaminhar um projeto para criar alternativa, ou pelo menos tentar, e será aperfeiçoado por esta Casa, tenho certeza.",
+      "char_start": 88798,
+      "char_end": 89079,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Por que eu digo que é uma política moderna? Porque é o primeiro projeto de lei em que nós vamos do poço até a roda, em que nós consideramos toda a cadeia de descarbonização.",
+      "char_start": 84089,
+      "char_end": 84262,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "O primeiro e grande desafio é combater a miséria, a fome, a desigualdade e ser um País melhor. E a energia será um instrumento para isso.",
+      "char_start": 86924,
+      "char_end": 87061,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 42,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "combater a miséria, a fome, a desigualdade e ser um País melhor",
+      "char_start": 86954,
+      "char_end": 87017,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 42,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 46,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós precisamos chegar com energia firme e suficiente.",
+      "char_start": 95629,
+      "char_end": 95682,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós precisamos chegar com energia firme e suficiente.",
+      "char_start": 95629,
+      "char_end": 95682,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 46,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós precisamos irrigar a produção, desde a do pequeno produtor até a do grande produtor.",
+      "char_start": 95540,
+      "char_end": 95628,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 46,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 48,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 48,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós precisamos de mais Brasil e menos... O que eu percebo é o seguinte: há certa discriminação contra o poder público, como se o poder público não tivesse quadros, não tivesse competência, não tivesse condições de contribuir para uma empresa da qual ele é dono.",
+      "char_start": 101514,
+      "char_end": 101775,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 48,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "O povo brasileiro, nós todos somos donos de 43,64% das ações e não temos que saber o que está acontecendo? Só temos que receber o resultado? Na minha opinião, isso está errado.",
+      "char_start": 102262,
+      "char_end": 102438,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 48,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós precisamos de mais Brasil e menos... O que eu percebo é o seguinte: há certa discriminação contra o poder público, como se o poder público não tivesse quadros, não tivesse competência, não tivesse condições de contribuir para uma empresa da qual ele é dono.",
+      "char_start": 101514,
+      "char_end": 101775,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 48,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "vamos propor uma equanimidade, por meio de um projeto que venha a buscar minimizar os impactos do que ocorreu nos últimos 8 anos no setor elétrico brasileiro",
+      "char_start": 103780,
+      "char_end": 103937,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 54,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Há uma grande distorção. O setor elétrico virou uma colcha de retalhos. É importante termos lucidez sobre isso. É um setor regulado.Quando os investimentos aumentam, aumenta-se a conta de luz, porque é investimento/tarifa. Mas há uma distorção hoje em consequência de todos esses fatos que eu citei anteriormente aqui para a qual vamos propor uma equanimidade, por meio de um projeto que venha a buscar minimizar os impactos do que ocorreu nos últimos 8 anos no setor elétrico brasileiro, cuja conta ficou, infelizmente, para os mais pobres, em especial para os nordestinos e os nortistas do Brasil.",
+      "char_start": 103450,
+      "char_end": 104049,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 54,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "cuja conta ficou, infelizmente, para os mais pobres, em especial para os nordestinos e os nortistas do Brasil.",
+      "char_start": 103939,
+      "char_end": 104049,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 54,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "cuja conta ficou, infelizmente, para os mais pobres, em especial para os nordestinos e os nortistas do Brasil.",
+      "char_start": 103939,
+      "char_end": 104049,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 54,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 57,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 57,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 57,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "uma equipe com uma extraordinária e enorme competência técnica",
+      "char_start": 104755,
+      "char_end": 104817,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 57,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 61,
+      "falante": "Carlos Zarattini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Carlos Zarattini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 61,
+      "falante": "Carlos Zarattini",
+      "trecho": "no seu modo de ver e no meu modo de ver, isso faz com que tenhamos, consequentemente, uma carga de custo sobre aqueles que ficarem no mercado cativo muito maior, o que vai aumentar as tarifas para a maioria do povo brasileiro",
+      "char_start": 107384,
+      "char_end": 107609,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 61,
+      "falante": "Carlos Zarattini",
+      "trecho": "o que vai aumentar as tarifas para a maioria do povo brasileiro",
+      "char_start": 107546,
+      "char_end": 107609,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Carlos Zarattini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 61,
+      "falante": "Carlos Zarattini",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 63,
+      "falante": "João Carlos Bacelar",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "João Carlos Bacelar",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 63,
+      "falante": "João Carlos Bacelar",
+      "trecho": "Além disso, a prorrogação, como previsto na Lei nº 14.182, de 2021, deverá resultar na redução da conta do PROINFA e, consequentemente, na redução dos encargos dos consumidores.",
+      "char_start": 111883,
+      "char_end": 112060,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 63,
+      "falante": "João Carlos Bacelar",
+      "trecho": "Além disso, a prorrogação, como previsto na Lei nº 14.182, de 2021, deverá resultar na redução da conta do PROINFA e, consequentemente, na redução dos encargos dos consumidores.",
+      "char_start": 111883,
+      "char_end": 112060,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "João Carlos Bacelar",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 63,
+      "falante": "João Carlos Bacelar",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 65,
+      "falante": "Welter",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Welter",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Welter",
+      "trecho": "O quanto antes resgatarmos isso, melhor para o povo brasileiro, melhor para a tua força política, para implementar políticas públicas, para irmos para cima dessas novas fontes de energia, como o hidrogênio verde.",
+      "char_start": 114802,
+      "char_end": 115014,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 65,
+      "falante": "Welter",
+      "trecho": "melhor para o povo brasileiro",
+      "char_start": 114835,
+      "char_end": 114864,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 65,
+      "falante": "Welter",
+      "trecho": "os direitos do povo brasileiro",
+      "char_start": 114770,
+      "char_end": 114800,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 65,
+      "falante": "Welter",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 67,
+      "falante": "Leonardo Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Leonardo Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 67,
+      "falante": "Leonardo Monteiro",
+      "trecho": "O Vale do Jequitinhonha, historicamente, tem uma tradição complicada. As grandes riquezas saíram do Vale do Jequitinhonha, inclusive para financiar o PIB do Brasil, desde o Brasil colônia. Diamantina não tem esse nome à toa, porque foi uma grande produtora de diamantes e está no Vale do Jequitinhonha. Nós já tivemos várias minas de ouro na região: Virgem da Lapa, Araçuaí, Minas Novas. E o Vale continua na miséria, continua pobre. Agora o Vale do Jequitinhonha está sendo chamado inclusive de \"vale do lítio\", pela produção de lítio na região de Itinga, de Araçuaí e de Salinas.",
+      "char_start": 118869,
+      "char_end": 119450,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 67,
+      "falante": "Leonardo Monteiro",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 69,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "É energia limpa que precisamos? Rondônia resolve o problema do Brasil.",
+      "char_start": 120865,
+      "char_end": 120935,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 69,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "É energia limpa que precisamos? Rondônia resolve o problema do Brasil.",
+      "char_start": 120865,
+      "char_end": 120935,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 69,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "eu tenho orgulho, Ministro, de ter em Rondônia a capital da produção de energia no Brasil",
+      "char_start": 120964,
+      "char_end": 121053,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 69,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "chamar os dragueiros, reunir todos e explicar: \"Meu filho, é assim ou assado\". Isso deve ser feito antes da queimada.",
+      "char_start": 123128,
+      "char_end": 123245,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "Será que não é melhor — essa é uma sugestão que faço a V.Exa. — chamar os dragueiros, reunir todos e explicar: \"Meu filho, é assim ou assado\". Isso deve ser feito antes da queimada. Essa é uma sugestão que eu faço a V.Exa., porque, desse modo, V.Exa. acaba com esses dragueiros. O cara gasta 2 milhões, e sabe o que ele vai fazer depois? Cometer ilegalidades em todos os cantos. É isso que nós queremos no Brasil? Não! Nós queremos ordem.",
+      "char_start": 123064,
+      "char_end": 123502,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 70,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "É isso que nós queremos no Brasil? Não! Nós queremos ordem.",
+      "char_start": 123443,
+      "char_end": 123502,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 70,
+      "falante": "Coronel Chrisóstomo",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 72,
+      "falante": "Danilo Forte",
+      "trecho": "Eu estou disposto a fazer isso, inclusive como Relator da LDO.",
+      "char_start": 127990,
+      "char_end": 128052,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 72,
+      "falante": "Danilo Forte",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 72,
+      "falante": "Danilo Forte",
+      "trecho": "Essa mudança precisa ser feita, porque vem para o Brasil igualitário, da diminuição das desigualdades regionais que V.Exa. tanto falou. Diminuir as desigualdades regionais hoje é investir em energia limpa e renovável no Nordeste brasileiro, é começar a reindustrialização verde por lá.",
+      "char_start": 126241,
+      "char_end": 126526,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 72,
+      "falante": "Danilo Forte",
+      "trecho": "Essa mudança precisa ser feita, porque vem para o Brasil igualitário, da diminuição das desigualdades regionais que V.Exa. tanto falou. Diminuir as desigualdades regionais hoje é investir em energia limpa e renovável no Nordeste brasileiro, é começar a reindustrialização verde por lá.",
+      "char_start": 126241,
+      "char_end": 126526,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 72,
+      "falante": "Danilo Forte",
+      "trecho": "Diminuir as desigualdades regionais hoje é investir em energia limpa e renovável no Nordeste brasileiro, é começar a reindustrialização verde por lá.",
+      "char_start": 126377,
+      "char_end": 126526,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 72,
+      "falante": "Danilo Forte",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 74,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Vicentinho Júnior",
+      "trecho": "porque está ficando insustentável tocar a máquina pública com arrecadações a menores, FPMs a menores e obrigações a maiores, e a CFEM é parte dessa solução.",
+      "char_start": 128975,
+      "char_end": 129131,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 74,
+      "falante": "Vicentinho Júnior",
+      "trecho": "porque está ficando insustentável tocar a máquina pública com arrecadações a menores, FPMs a menores e obrigações a maiores, e a CFEM é parte dessa solução.",
+      "char_start": 128975,
+      "char_end": 129131,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 74,
+      "falante": "Vicentinho Júnior",
+      "trecho": "eu também sou solidário à situação que estão vivendo hoje os mais de 5 mil e tantos Prefeitos no Brasil",
+      "char_start": 128719,
+      "char_end": 128822,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 74,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 80,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 80,
+      "falante": "Vicentinho Júnior",
+      "trecho": "fomentando-se a ANM e seus servidores, haverá a possibilidade de aumentar em mais de 10 bilhões a receita para os cofres públicos",
+      "char_start": 131232,
+      "char_end": 131361,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 80,
+      "falante": "Vicentinho Júnior",
+      "trecho": "aumentar em mais de 10 bilhões a receita para os cofres públicos",
+      "char_start": 131297,
+      "char_end": 131361,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 80,
+      "falante": "Vicentinho Júnior",
+      "trecho": "a ANM é um instrumento que faz bem ao Brasil",
+      "char_start": 133154,
+      "char_end": 133198,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 80,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 84,
+      "falante": "Pedro Campos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Pedro Campos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Pedro Campos",
+      "trecho": "para que não se inicie um processo de vilanização de qualquer tipo de fonte de geração de energia",
+      "char_start": 134637,
+      "char_end": 134734,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 84,
+      "falante": "Pedro Campos",
+      "trecho": "para que não se inicie um processo de vilanização de qualquer tipo de fonte de geração de energia",
+      "char_start": 134637,
+      "char_end": 134734,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 84,
+      "falante": "Pedro Campos",
+      "trecho": "para que garantamos que esses investimentos não deixem o homem e a mulher do campo olhando aquela pá girando, sem ver o desenvolvimento chegar dentro da sua casa, com o barateamento da sua conta de energia; com a oportunidade de geração de emprego e de renda; com a oportunidade de um preço de arrendamento justo para aquelas famílias",
+      "char_start": 135372,
+      "char_end": 135706,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 84,
+      "falante": "Pedro Campos",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Leo Prates",
+      "trecho": "E eu queria, Presidente, sugerir a criação de uma subcomissão — não de uma CPI, mas de uma subcomissão — para acompanharmos todos os estudos que estão sendo feitos, para que nós possamos colaborar para que episódios como esse não voltem a se repetir.",
+      "char_start": 140454,
+      "char_end": 140704,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 86,
+      "falante": "Leo Prates",
+      "trecho": "Se o sistema não está preparado — corrija-me, professor —, as energias limpas geram uma quantidade de harmônicos muito maior. Se o sistema de controle não está preparado, o sistema desarma.",
+      "char_start": 139729,
+      "char_end": 139918,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 86,
+      "falante": "Leo Prates",
+      "trecho": "a discussão do sistema tributário voltado à energia elétrica é fundamental",
+      "char_start": 141721,
+      "char_end": 141795,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 86,
+      "falante": "Leo Prates",
+      "trecho": "é o povo trabalhador",
+      "char_start": 141397,
+      "char_end": 141417,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 86,
+      "falante": "Leo Prates",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 89,
+      "falante": "Paulo Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Paulo Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Paulo Guedes",
+      "trecho": "Vimos no Governo passado o Brasil pagar caro, o povo brasileiro, para um grupo pequeno de investidores da PETROBRAS, que lucrava bilhões enquanto o povo penava para conseguir abastecer seus veículos.",
+      "char_start": 144149,
+      "char_end": 144348,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 89,
+      "falante": "Paulo Guedes",
+      "trecho": "Vimos no Governo passado o Brasil pagar caro, o povo brasileiro, para um grupo pequeno de investidores da PETROBRAS, que lucrava bilhões enquanto o povo penava para conseguir abastecer seus veículos.",
+      "char_start": 144149,
+      "char_end": 144348,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Paulo Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 89,
+      "falante": "Paulo Guedes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 91,
+      "falante": "Benes Leocádio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Benes Leocádio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Benes Leocádio",
+      "trecho": "Mas há sempre aquela expectativa, ou dúvida, sobre quando isso vai refletir na conta dos consumidores potiguares — e brasileiros, é claro. O senhor registrou bem que temos 88% da matriz de energia limpa do mundo, mas ainda não sentimos o reflexo disso em benefícios, ou em contrapartida para os consumidores.",
+      "char_start": 145732,
+      "char_end": 146040,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 91,
+      "falante": "Benes Leocádio",
+      "trecho": "Mas há sempre aquela expectativa, ou dúvida, sobre quando isso vai refletir na conta dos consumidores potiguares — e brasileiros, é claro. O senhor registrou bem que temos 88% da matriz de energia limpa do mundo, mas ainda não sentimos o reflexo disso em benefícios, ou em contrapartida para os consumidores.",
+      "char_start": 145732,
+      "char_end": 146040,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 91,
+      "falante": "Benes Leocádio",
+      "trecho": "A irrigação está extremamente ameaçada, principalmente para os pequenos irrigantes do meu Estado, 2.764 consumidores, que estão sendo convocados a renovar a sua condição para esse desconto concedido na taxa da energia verde, da ordem de 73%.",
+      "char_start": 148078,
+      "char_end": 148319,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 91,
+      "falante": "Benes Leocádio",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 93,
+      "falante": "Julio Lopes",
+      "trecho": "Faço oralmente um requerimento, para que V.Exa. submeta à aprovação da Comissão, a fim de convidarmos S.Sa. o Presidente da ELETROBRAS a vir aqui explicar seu posicionamento.",
+      "char_start": 152930,
+      "char_end": 153104,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 93,
+      "falante": "Julio Lopes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 93,
+      "falante": "Julio Lopes",
+      "trecho": "O sistema não foi eficiente o suficiente para detectar aquela movimentação e fazer a manobra necessária para que o sistema não caísse.",
+      "char_start": 150482,
+      "char_end": 150616,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 93,
+      "falante": "Julio Lopes",
+      "trecho": "para que possamos nos planejar melhor",
+      "char_start": 150934,
+      "char_end": 150971,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 93,
+      "falante": "Julio Lopes",
+      "trecho": "sou muito fã do ONS. Sou tão fã, que eu entrei no TCU com uma ação de obrigação de fazer à ANP, para que se constitua um painel de controle, um sistema de controle do monitoramento nacional de petróleo e abastecimento nacional de petróleo, à equivalência do que os senhores fazem no ONS, de tão bem feito e de tão importante que é o sistema de controle estabelecido pelo ONS.",
+      "char_start": 149661,
+      "char_end": 150036,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 93,
+      "falante": "Julio Lopes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 95,
+      "falante": "Geraldo Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Geraldo Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Geraldo Mendes",
+      "trecho": "Essa fábrica foi fechada em 2020. Mais de 1.200, ou mais de 1.300 colaboradores ficaram desempregados.",
+      "char_start": 154095,
+      "char_end": 154197,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 0,
+      "turno_id": 95,
+      "falante": "Geraldo Mendes",
+      "trecho": "Essa fábrica foi fechada em 2020. Mais de 1.200, ou mais de 1.300 colaboradores ficaram desempregados.",
+      "char_start": 154095,
+      "char_end": 154197,
+      "fonte": "modelo",
+      "rotulo": "interesse_de_grupo"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 95,
+      "falante": "Geraldo Mendes",
+      "trecho": "Hoje eu também sou representante do agronegócio. Eu gostaria de destacar os problemas que vimos enfrentando.",
+      "char_start": 153775,
+      "char_end": 153883,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 95,
+      "falante": "Geraldo Mendes",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Dorinaldo Malafaia",
+      "trecho": "Eu apresentei a esta Casa um projeto de lei para suspender, por exemplo, as tarifas vermelha e amarela para Estados superavitários, como é o caso do Amapá.",
+      "char_start": 156603,
+      "char_end": 156758,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Dorinaldo Malafaia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Dorinaldo Malafaia",
+      "trecho": "É inaceitável que Estados produtores superavitários continuem sofrendo dessa forma.",
+      "char_start": 156519,
+      "char_end": 156602,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 97,
+      "falante": "Dorinaldo Malafaia",
+      "trecho": "A população vive uma situação de espoliação feita pela Equatorial, que é a atual concessionária do serviço.",
+      "char_start": 157250,
+      "char_end": 157357,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 97,
+      "falante": "Dorinaldo Malafaia",
+      "trecho": "Nós precisamos ter um posicionamento por uma matriz energética diferenciada. Não é possível que Estados superavitários, Estados que produzem energia no Norte do País, tenham um tratamento desse tipo.",
+      "char_start": 157450,
+      "char_end": 157649,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 97,
+      "falante": "Dorinaldo Malafaia",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 99,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 99,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 99,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Se a energia elétrica for colocada como uma essencialidade, nós podemos, sim, aferir menores tarifas na questão da energia elétrica.",
+      "char_start": 158554,
+      "char_end": 158686,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 99,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "para o bem do Brasil",
+      "char_start": 158286,
+      "char_end": 158306,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 99,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "que é quem protege a população brasileira",
+      "char_start": 159048,
+      "char_end": 159089,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 99,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 101,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 101,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 101,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós não vamos varrer para debaixo do tapete a questão tarifária e sair apregoando investimento e julgando a conta.",
+      "char_start": 165579,
+      "char_end": 165693,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 101,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós não vamos varrer para debaixo do tapete a questão tarifária e sair apregoando investimento e julgando a conta.",
+      "char_start": 165579,
+      "char_end": 165693,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 101,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Eu reconheço na energia solar uma importante fonte de energia limpa, renovável, de geração de emprego, importantíssima para a região do Deputado Paulo Guedes, o norte de Minas, o Mucuri, o Jequitinhonha.",
+      "char_start": 165295,
+      "char_end": 165498,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 101,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 1,
+      "turno_id": 103,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "A ideia é mandar um projeto para cá que equalize a questão tarifária, que proteja o consumidor mais fragilizado, que é o consumidor mais pobre, que já tem a proteção da tarifa social, mas a própria tarifa social já não o protege em consequência desta grande evasão do consumo regulado para o mercado livre; além das questões que envolvem os subsídios que nós todos defendemos.",
+      "char_start": 166856,
+      "char_end": 167232,
+      "fonte": "modelo",
+      "rotulo": "proposta_alternativa"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 103,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 103,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "A ideia é mandar um projeto para cá que equalize a questão tarifária, que proteja o consumidor mais fragilizado, que é o consumidor mais pobre, que já tem a proteção da tarifa social, mas a própria tarifa social já não o protege em consequência desta grande evasão do consumo regulado para o mercado livre",
+      "char_start": 166856,
+      "char_end": 167161,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 3,
+      "turno_id": 103,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "que proteja o consumidor mais fragilizado, que é o consumidor mais pobre",
+      "char_start": 166926,
+      "char_end": 166998,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_diferenca"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 103,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "que proteja o consumidor mais fragilizado, que é o consumidor mais pobre",
+      "char_start": 166926,
+      "char_end": 166998,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 103,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Os Governadores do Nordeste, legitimamente, querem compatibilizar o prazo de término das linhas de transmissão",
+      "char_start": 167234,
+      "char_end": 167344,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 105,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 105,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 105,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós estamos defendendo a institucionalidade, nós estamos defendendo o equilíbrio da participação da União, que é do povo brasileiro, dentro da ELETROBRAS.",
+      "char_start": 173527,
+      "char_end": 173681,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 105,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós estamos defendendo a institucionalidade, nós estamos defendendo o equilíbrio da participação da União, que é do povo brasileiro, dentro da ELETROBRAS.",
+      "char_start": 173527,
+      "char_end": 173681,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 105,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Nós estamos defendendo a institucionalidade, nós estamos defendendo o equilíbrio da participação da União, que é do povo brasileiro, dentro da ELETROBRAS.",
+      "char_start": 173527,
+      "char_end": 173681,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 105,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 109,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 2,
+      "turno_id": 109,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "reestruturar a ANM quer dizer aumentar as divisas do Brasil, aumentar a arrecadação, organizar o setor mineral, principalmente neste momento de transição energética, de minerais críticos e de terras raras.",
+      "char_start": 178156,
+      "char_end": 178361,
+      "fonte": "modelo",
+      "rotulo": "qualificada"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 109,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "reestruturar a ANM quer dizer aumentar as divisas do Brasil, aumentar a arrecadação, organizar o setor mineral, principalmente neste momento de transição energética, de minerais críticos e de terras raras.",
+      "char_start": 178156,
+      "char_end": 178361,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 109,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "os servidores são essenciais",
+      "char_start": 177938,
+      "char_end": 177966,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 109,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 110,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 110,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 110,
+      "falante": "Vicentinho Júnior",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 113,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 113,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 1,
+      "turno_id": 113,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Trata-se de um país em desenvolvimento, um país desigual, um país que precisa que nós nos debrucemos, de forma razoável e minimamente respeitosa, para poder buscar solução para os problemas reais da sociedade.",
+      "char_start": 184596,
+      "char_end": 184805,
+      "fonte": "modelo",
+      "rotulo": "inferior"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 2,
+      "turno_id": 113,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Trata-se de um país em desenvolvimento, um país desigual, um país que precisa que nós nos debrucemos, de forma razoável e minimamente respeitosa, para poder buscar solução para os problemas reais da sociedade.",
+      "char_start": 184596,
+      "char_end": 184805,
+      "fonte": "modelo",
+      "rotulo": "bem_comum_utilitario"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 113,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "um país que precisa que nós nos debrucemos, de forma razoável e minimamente respeitosa, para poder buscar solução para os problemas reais da sociedade",
+      "char_start": 184654,
+      "char_end": 184804,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 2,
+      "turno_id": 113,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "trecho": "Eu concordo com o senhor: há uma extrema urgência nesses assuntos todos.",
+      "char_start": 184459,
+      "char_end": 184531,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 116,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 116,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 2,
+      "turno_id": 116,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "engenheiros que são muito melhores do que eu",
+      "char_start": 185763,
+      "char_end": 185807,
+      "fonte": "modelo",
+      "rotulo": "explicito_positivo"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 116,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "nivel": 0,
+      "turno_id": 124,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "posicional"
+    },
+    {
+      "dimensao": "respeito_contra",
+      "nivel": 1,
+      "turno_id": 124,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "ignora"
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "nivel": 0,
+      "turno_id": 124,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "nenhuma"
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "nivel": 1,
+      "turno_id": 124,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_grupos",
+      "nivel": 1,
+      "turno_id": 124,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    },
+    {
+      "dimensao": "respeito_demandas",
+      "nivel": 1,
+      "turno_id": 124,
+      "falante": "Luiz Carlos Ciocchi",
+      "trecho": "",
+      "char_start": null,
+      "char_end": null,
+      "fonte": "modelo",
+      "rotulo": "neutro"
+    }
+  ],
+  "rejeitados": [
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 11,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "qualificada",
+      "trecho": "Nós precisamos mostrar para o investidor nacional e internacional que nós temos segurança regulatória, que nós temos um ambiente de estabilidade política e social que permite a atração de investimentos ao Brasil, de investidores, volto a dizer, nacionais e internacionais."
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "turno_id": 11,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "bem_comum_utilitario",
+      "trecho": "Nós precisamos mostrar para o investidor nacional e internacional que nós temos segurança regulatória, que nós temos um ambiente de estabilidade política e social que permite a atração de investimentos ao Brasil, de investidores, volto a dizer, nacionais e internacionais."
+    },
+    {
+      "dimensao": "justificacao_nivel",
+      "turno_id": 67,
+      "falante": "Leonardo Monteiro",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "qualificada",
+      "trecho": "a nossa preocupação é em como nós podemos explorar esse lítio, contribuindo para que pelo menos parcela dessa riqueza fique em Minas Gerais, sobretudo no Vale do Jequitinhonha, para que não continue sendo chamado de 'vale da miséria', mesmo depois de retirarem de lá toneladas e toneladas de lítio, como foram retirados o ouro e o diamante."
+    },
+    {
+      "dimensao": "justificacao_conteudo",
+      "turno_id": 67,
+      "falante": "Leonardo Monteiro",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "bem_comum_diferenca",
+      "trecho": "para que não continue sendo chamado de 'vale da miséria'"
+    },
+    {
+      "dimensao": "politica_construtiva",
+      "turno_id": 109,
+      "falante": "Ministro Alexandre Silveira de Oliveira",
+      "motivo": "não é cópia literal da fala",
+      "rotulo": "proposta_alternativa",
+      "trecho": "Eu estou publicando hoje uma portaria, orientando a ANM acerca da execução do decreto que nós publicamos na semana passada, o Decreto nº 11.659, de 23 de agosto de 2023, para que, em 60 dias, esteja completamente regular o pagamento aos Municípios."
+    }
+  ],
+  "turnos_falhos": [
+    {
+      "turno_id": 22,
+      "falante": "Padre João",
+      "prompt": "dqi_respeito.txt",
+      "erro": "ValueError: resposta sem objeto JSON: '1.  `respeito_grupos`: **explicito_positivo** — \"Os Municípios estão sendo prejudicados. V.Ex"
+    }
+  ]
+}

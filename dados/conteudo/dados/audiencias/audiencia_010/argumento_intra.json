@@ -1,0 +1,879 @@
+{
+  "sample_id": 10,
+  "n_opinioes": 31,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 29,
+  "n_fundamentos_propostos": 61,
+  "n_fundamentos_ancorados": 58,
+  "n_fundamentos_com_numero": 42,
+  "por_tipo": {
+    "dado": 55,
+    "autoridade": 3
+  },
+  "n_contrapontos_propostos": 16,
+  "n_com_contraponto": 16,
+  "n_rejeitados": 3,
+  "itens": [
+    {
+      "opiniao": "defende a eliminação do saque-aniversário para preservar a sustentabilidade do FGTS e suas funções sociais",
+      "falante": "Carlos Augusto Simões Gonçalvez Júnior",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se não tivéssemos o saque-aniversário de 2020 para cá, hoje nós poderíamos estar financiando cerca de 268 bilhões de reais em habitações a mais do que o fundo já financiou.",
+          "char_start": 22858,
+          "char_end": 23030,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós já poderíamos ter financiado e construído 1 milhão e 395 mil habitações, o que corresponderia a cerca de 6 milhões de empregos gerados.",
+          "char_start": 23031,
+          "char_end": 23170,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "O recurso que hoje, muitas vezes, sai para o consumo, um consumo legítimo de quem é cotista, a ele mesmo progressivamente vai sendo negado.",
+        "resposta": "Pela forma de organização do fundo, vai sendo negada a oportunidade de se adquirir a moradia.",
+        "objecao_char_start": 28653,
+        "objecao_char_end": 28792,
+        "resposta_char_start": 28793,
+        "resposta_char_end": 28886,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende limitar a antecipação do saque-aniversário a cinco anos",
+      "falante": "Rafael Baldi",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Estamos sugerindo que seja cinco ciclos, ou seja, que o trabalhador possa antecipar, no máximo, 5 anos do seu FGTS",
+          "char_start": 36268,
+          "char_end": 36382,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende permitir uso do saldo do FGTS para quitação antecipada em caso de demissão sem justa causa",
+      "falante": "Rafael Baldi",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em 2020, a demissão sem justa causa foi responsável por 60% dos saques",
+          "char_start": 34142,
+          "char_end": 34212,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a complementariedade entre crédito consignado privado e antecipação do saque-aniversário",
+      "falante": "Rafael Baldi",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um vai na linha de comprometer um saldo que não é mensal, mas é anual, e o outro produto vai na linha de complementar uma eventual necessidade da família brasileira com relação a empréstimos e complementar o seu orçamento",
+          "char_start": 36870,
+          "char_end": 37091,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção do saque-aniversário com base em sua utilidade para os mais pobres e na ausência de desequilíbrio do FGTS",
+      "falante": "Rodrigo Saraiva Marinho",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "70% dele é para os mais pobres",
+          "char_start": 43093,
+          "char_end": 43123,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 2019, o fundo tinha 418 bilhões de reais",
+          "char_start": 41962,
+          "char_end": 42005,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 2020, 424 bilhões de reais; em 2021, 464 bilhões de reais; em 2022, 499 bilhões de reais. Nós chegamos a 570 bilhões de reais no fundo",
+          "char_start": 42320,
+          "char_end": 42457,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Não sou eu que estou dizendo, foi a Caixa Econômica Federal que disse",
+          "char_start": 42201,
+          "char_end": 42270,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Disseram aqui que o fundo seria desequilibrado",
+        "resposta": "Não houve desequilíbrio financeiro, não foi afetado o setor da construção civil, que é um setor importantíssimo para o País, que dizem que pode ser afetado por isso. Não foi!",
+        "objecao_char_start": 41809,
+        "objecao_char_end": 41855,
+        "resposta_char_start": 42459,
+        "resposta_char_end": 42633,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a manutenção da destinação original do FGTS para habitação e se opõe ao saque-aniversário por prejudicar a aquisição de moradias",
+      "falante": "Renato de Sousa Correia",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Desde 2020, foram sacados 101 bilhões, e eu vou terminando por aqui dizendo que isso significou 500 mil moradias a menos e que o lar de 1,5 milhão de brasileiros deixou de ser construído.",
+          "char_start": 50207,
+          "char_end": 50394,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "As saídas do saque-aniversário contabilizadas pela Caixa de 2020 a 2024 somam 45 bilhões de reais. Isso corresponderia a 300 mil unidades habitacionais.",
+          "char_start": 50053,
+          "char_end": 50205,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Vejam que 75% dos financiamentos do Minha Casa, Minha Vida são realizados pelos cotistas do fundo.",
+          "char_start": 47440,
+          "char_end": 47538,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Todos nós estamos. Se colocarem um pote de ouro na frente do trabalhador, ele vai pegá-lo.",
+        "resposta": "Só que ele não tem capacidade de fazer a análise de onde investir, da taxa de juros.",
+        "objecao_char_start": 49092,
+        "objecao_char_end": 49182,
+        "resposta_char_start": 49183,
+        "resposta_char_end": 49267,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "pleiteia o fim do saque-aniversário por considerá-lo um absurdo que reduz a produção de moradias",
+      "falante": "Renato de Sousa Correia",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Desde 2020, foram sacados 101 bilhões, e eu vou terminando por aqui dizendo que isso significou 500 mil moradias a menos e que o lar de 1,5 milhão de brasileiros deixou de ser construído.",
+          "char_start": 50207,
+          "char_end": 50394,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "As saídas do saque-aniversário contabilizadas pela Caixa de 2020 a 2024 somam 45 bilhões de reais. Isso corresponderia a 300 mil unidades habitacionais.",
+          "char_start": 50053,
+          "char_end": 50205,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a coexistência do saque-aniversário do FGTS com o consignado privado",
+      "falante": "Alex Sander Moreira Gonçalves",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "35 milhões de trabalhadores aderiram ao saque-aniversário",
+          "char_start": 52603,
+          "char_end": 52660,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "20 milhões já contrataram a operação de antecipação",
+          "char_start": 52681,
+          "char_end": 52732,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "mais de 80 bilhões de reais de concessão",
+          "char_start": 53028,
+          "char_end": 53068,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "só em 2023, foram mais de 30 bilhões de reais de crédito concedidos na antecipação do saque-aniversário do FGTS",
+          "char_start": 53081,
+          "char_end": 53192,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "as medidas que estão sendo propostas pelo Governo, de fato, têm o potencial de desburocratizar essa linha de crédito, tornando possível incrementar os volumes, o acesso do trabalhador ao consignado privado",
+        "resposta": "isso não deveria resultar na extinção da modalidade do saque-aniversário e da possibilidade da sua antecipação. Na visão da ABBC, as duas linhas se complementam e deveriam coexistir",
+        "objecao_char_start": 51983,
+        "objecao_char_end": 52188,
+        "resposta_char_start": 52221,
+        "resposta_char_end": 52402,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a manutenção do saque-aniversário do FGTS como direito do trabalhador",
+      "falante": "Alex Sander Moreira Gonçalves",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "35 milhões de trabalhadores aderiram ao saque-aniversário",
+          "char_start": 52603,
+          "char_end": 52660,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "90% informaram que querem ter a liberdade de escolher como utilizar o seu FGTS",
+          "char_start": 56196,
+          "char_end": 56274,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o saldo do fundo tem crescido mesmo havendo um aumento do saque-aniversário",
+          "char_start": 57052,
+          "char_end": 57127,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aprimoramentos no saque-aniversário, como saque em caso de demissão sem justa causa",
+      "falante": "Alex Sander Moreira Gonçalves",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "ouvimos as palavras do Ministério dizendo que um dos problemas do saque-aniversário é o fato de o trabalhador demitido sem justa causa não poder sacar o saldo que tem na sua conta",
+          "char_start": 57529,
+          "char_end": 57708,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "que ele utilize esse recurso. Se ele tiver feito a antecipação, que se calcule o saldo devedor, e ele possa sacar a diferença que ali existe",
+          "char_start": 57959,
+          "char_end": 58099,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção do saque-aniversário do FGTS como política benéfica e sustentável, que não deve ser eliminada para favorecer crédito privado",
+      "falante": "Henrique Lian",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Ano passado, preocupado com essa distorção, o Ministério do Trabalho ensaiou uma solução, que seria acabar com o saque-aniversário",
+          "char_start": 66012,
+          "char_end": 66142,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 2019, ele tinha 418 bilhões de reais; hoje, tem 570 bilhões de reais, que são suficientes para honrar as demissões sem justa causa, para continuar o saque-aniversário e continuar financiando o sistema da habitação",
+          "char_start": 65793,
+          "char_end": 66009,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Especialmente os trabalhadores de menor renda, especialmente os negativados, como já foi dito, é que usam esse recurso com uma modalidade de juros baixa de 1,79%, contra um consignado privado atual de 2,73%",
+          "char_start": 65141,
+          "char_end": 65347,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Pareces de juristas ilustres, como o Prof. Carlos Mário da Silva Velloso, ex-Ministro do Supremo, já estabeleceram a conexão e indissociabilidade entre os princípios da livre-iniciativa e o direito do consumidor, incisos IV e V do art. 170",
+          "char_start": 68271,
+          "char_end": 68510,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "É sabido que é dever do Estado favorecer a livre-iniciativa, o que significa não dificultá-la e não concorrer com ela",
+        "resposta": "Conquanto a iniciativa de oferecer crédito seja boa, eliminar a concorrência é um mal em si",
+        "objecao_char_start": 67730,
+        "objecao_char_end": 67847,
+        "resposta_char_start": 67849,
+        "resposta_char_end": 67940,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o Governo deve ouvir os trabalhadores sobre o saque-aniversário, pois são eles os principais usuários",
+      "falante": "Capitão Alberto Neto",
+      "turno_id": 28,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "todos eram a favor",
+          "char_start": 69737,
+          "char_end": 69755,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "é contrário ao saque-aniversário e ao empréstimo consignado por comprometerem a sustentabilidade do FGTS",
+      "falante": "Mário Avelino",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "só o empréstimo consignado já comprometeu 167 bilhões.",
+          "char_start": 72141,
+          "char_end": 72195,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Só em 2023, o saque-aniversário foi feito por 29 milhões e 243 mil trabalhadores, o que corresponde a 24% do total dos trabalhadores sacando 14,6 bilhões.",
+          "char_start": 72455,
+          "char_end": 72609,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "72% dos saques do Fundo de Garantia, quantitativamente, foram feitos pelo saque-aniversário.",
+          "char_start": 72870,
+          "char_end": 72962,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O saque-aniversário com empréstimo consignado foi de 38 bilhões, a segunda maior condição de saque, ou seja, 26,79% dos saques no fundo foram pelo saque-aniversário consignado.",
+          "char_start": 73122,
+          "char_end": 73298,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o ativo do fundo do trabalhador está em 595 bilhões atualmente.",
+          "char_start": 77871,
+          "char_end": 77934,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Meu amigo, o empréstimo consignado é lindo, maravilhoso",
+        "resposta": "Mas ele não sabe que, se amanhã ele morrer, se for o titular e morrer, o dependente, para sacar aquele dinheiro, vai ter que primeiro quitar tudo.",
+        "objecao_char_start": 76328,
+        "objecao_char_end": 76383,
+        "resposta_char_start": 76386,
+        "resposta_char_end": 76532,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o modelo do FGTS depende do crescimento contínuo de trabalhadores para se sustentar",
+      "falante": "Capitão Alberto Neto",
+      "turno_id": 38,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "porque o dinheiro captado...",
+          "char_start": 83564,
+          "char_end": 83592,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe a reestruturação do consignado privado como alternativa ao saque-aniversário para garantir crédito acessível e preservar o FGTS",
+      "falante": "Carlos Augusto Simões Gonçalvez Júnior",
+      "turno_id": 43,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje, acerca do que há de financiamento do Minha Casa, Minha Vida com a AGU, ele responde, no máximo, por 40% daquilo que nós financiamos no Minha Casa, Minha Vida, através do Fundo de Garantia do Tempo Serviço",
+          "char_start": 86128,
+          "char_end": 86338,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o trabalhador é o legítimo dono dos recursos do FGTS e tem autonomia sobre seu uso",
+      "falante": "Edison João Costa",
+      "turno_id": 50,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "29 milhões de saques-aniversário em 2023; 19 milhões de trabalhadores fizeram uso da antecipação; 14 milhões estavam negativados — isso foi confirmado por todas as fontes; e 38 bilhões de reais foram sacados.",
+          "char_start": 91565,
+          "char_end": 91773,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "89% desses recursos foram destinados a contas atrasadas e a outros pagamentos.",
+          "char_start": 91959,
+          "char_end": 92037,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "ositeda Caixa Econômica",
+          "char_start": 92126,
+          "char_end": 92149,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "quando se diz que o dinheiro vai para alienação, que o dinheiro vai para os bancos",
+        "resposta": "eu acho que existe aí um equívoco, um erro de narrativa, porque o dinheiro não vai para os bancos. O banco antecipa o dinheiro por uma taxa de juros compatível com o risco que ele tem, e o dinheiro vai para a economia.",
+        "objecao_char_start": 96184,
+        "objecao_char_end": 96266,
+        "resposta_char_start": 96268,
+        "resposta_char_end": 96486,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a revisão do modelo do FGTS para adequá-lo à realidade atual",
+      "falante": "Edison João Costa",
+      "turno_id": 50,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós criamos o Fundo de Garantia há 58 anos, se eu gravei bem na memória.",
+          "char_start": 94794,
+          "char_end": 94866,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Com exceção de 2016, quando se passou a distribuir o resultado do fundo para os trabalhadores?",
+          "char_start": 94915,
+          "char_end": 95009,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a ideia de que o saque-aniversário beneficia apenas bancos, destacando seu impacto positivo na economia",
+      "falante": "Edison João Costa",
+      "turno_id": 50,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "38 bilhões de reais foram sacados.",
+          "char_start": 91739,
+          "char_end": 91773,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "89% desses recursos foram destinados a contas atrasadas e a outros pagamentos.",
+          "char_start": 91959,
+          "char_end": 92037,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "quando se diz que o dinheiro vai para alienação, que o dinheiro vai para os bancos",
+        "resposta": "eu acho que existe aí um equívoco, um erro de narrativa, porque o dinheiro não vai para os bancos. O banco antecipa o dinheiro por uma taxa de juros compatível com o risco que ele tem, e o dinheiro vai para a economia. Esse dinheiro todo não ficou com o banco, diferentemente de outras situações em que vemos que algumas coisas ficam em lugar errado. Mas esse dinheiro todo foi para a economia, ativou a economia, gerou mais emprego, gerou mais circulação, gerou mais imposto, gerou mais um monte de coisa.",
+        "objecao_char_start": 96184,
+        "objecao_char_end": 96266,
+        "resposta_char_start": 96268,
+        "resposta_char_end": 96774,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a possibilidade de o trabalhador optante pelo saque-aniversário também sacar na rescisão, por comprometer a sustentabilidade do FGTS",
+      "falante": "Clóvis Roberto Scherer",
+      "turno_id": 58,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Houve uma saída líquida de 46 bilhões de reais de 2020 a 2024",
+          "char_start": 104392,
+          "char_end": 104453,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "a ideia de que o saque-rescisão, o saque-aniversário e a alienação fiduciária não comprometeram a trajetória do fundo em termos de ativos",
+        "resposta": "Quando deflacionamos o ativo total do Fundo de Garantia de 2020 a 2022, percebemos que, na verdade, ele perdeu 10 bilhões de reais nesse processo",
+        "objecao_char_start": 104739,
+        "objecao_char_end": 104876,
+        "resposta_char_start": 105063,
+        "resposta_char_end": 105208,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o trabalhador deve ter autonomia para decidir sobre o uso de seus recursos, incluindo a antecipação do fundo para necessidades básicas",
+      "falante": "Simão Luiz Kovalski",
+      "turno_id": 60,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "de um grupo de pessoas, vamos dizer que de 35 milhões de trabalhadores, dos quais nenhum tem a condição de nenhuma das pessoas desta sala. São pessoas que muitas vezes precisam do recurso para comer, para comprar um remédio.",
+          "char_start": 109732,
+          "char_end": 109956,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quantas pessoas teriam passado fome se eles não tivessem a opção de acessar o fundo, um recurso que é dele? Quantas pessoas teriam perdido seus entes queridos também?",
+          "char_start": 110223,
+          "char_end": 110389,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "em algumas falas, foi colocado como se fosse proibida a alimentação, como se fosse proibido um trabalhador se alimentar.",
+        "resposta": "Nós estamos falando aqui, Deputado, de um grupo de pessoas, vamos dizer que de 35 milhões de trabalhadores, dos quais nenhum tem a condição de nenhuma das pessoas desta sala. São pessoas que muitas vezes precisam do recurso para comer, para comprar um remédio.",
+        "objecao_char_start": 107572,
+        "objecao_char_end": 107692,
+        "resposta_char_start": 109696,
+        "resposta_char_end": 109956,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o debate sobre o fundo deve continuar e que o trabalhador deve ser ouvido antes de decisões serem tomadas",
+      "falante": "Simão Luiz Kovalski",
+      "turno_id": 60,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "eu acho que seria muito prematuro da nossa parte tirar o direito do trabalhador de tomar a decisão por algo que é dele.",
+          "char_start": 109083,
+          "char_end": 109202,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a manutenção e aprimoramento do saque-aniversário como modalidade importante para a saúde financeira de milhões de trabalhadores",
+      "falante": "Eduardo Lopes",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "35 milhões de trabalhadores aderiram ao saque-aniversário",
+          "char_start": 114544,
+          "char_end": 114601,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "83% das pessoas veem o saque-aniversário como muito importante para a saúde da sua vida financeira",
+          "char_start": 117500,
+          "char_end": 117598,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "ou o saque-aniversário ou o consignado privado",
+        "resposta": "Não se trata disso. Eu acho que temos aqui que encontrar um equilíbrio",
+        "objecao_char_start": 117267,
+        "objecao_char_end": 117313,
+        "resposta_char_start": 117412,
+        "resposta_char_end": 117482,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a eliminação do saque-aniversário por prejudicar o acesso ao crédito de quem não tem alternativas formais",
+      "falante": "Eduardo Lopes",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Muitas vezes, essa é a única alternativa de crédito",
+          "char_start": 117748,
+          "char_end": 117799,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Negar essa alternativa de crédito não é simplesmente jogá-la para uma linha mais cara. Ela não tem recurso, ela está negativada ou não tem, por qualquer outro motivo, acesso a crédito e vai procurar outros meios",
+        "resposta": "É um dado da realidade a necessidade de crédito das pessoas, de complementação de renda. Então, ela procura um agiota, ela vive situações à margem da legalidade, que são muito mais caras e, inclusive, podem colocá-la em risco",
+        "objecao_char_start": 117801,
+        "objecao_char_end": 118012,
+        "resposta_char_start": 118014,
+        "resposta_char_end": 118239,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a coexistência de saque-aniversário e consignado privado como opções complementares, não excludentes",
+      "falante": "Eduardo Lopes",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "FGTS, mais de 130 milhões de contas ativas. Esse é o público elegível para essa operação. No caso da CLT, são em torno de 40 milhões de celetistas",
+          "char_start": 119653,
+          "char_end": 119799,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Um não pode substituir o outro",
+        "resposta": "entendemos que eles não são excludentes e não são substituíveis",
+        "objecao_char_start": 120219,
+        "objecao_char_end": 120249,
+        "resposta_char_start": 120154,
+        "resposta_char_end": 120217,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende o aprimoramento regulatório do saque-aniversário, com limites à antecipação, em vez de sua extinção",
+      "falante": "Eduardo Lopes",
+      "turno_id": 62,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se a antecipação é muito longa, se são muitos os anos antecipados, vamos colocar um limite à quantidade de anos que podem ser antecipados",
+          "char_start": 118782,
+          "char_end": 118919,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a redução de recursos no FGTS dificulta a compra de imóveis e aumenta a dependência de subsídios públicos",
+      "falante": "Vladimir Iszlaji",
+      "turno_id": 70,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em 2018, uma família tinha, em média, três salários em recursos do FGTS para aquisição de imóvel, para dá-los de entrada no momento do financiamento. Hoje, tem um.",
+          "char_start": 130598,
+          "char_end": 130761,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "É de 6 milhões de unidades o déficit habitacional.",
+          "char_start": 131050,
+          "char_end": 131100,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a manutenção do saque-aniversário como proteção ao trabalhador, desde que aprimorado, e rejeita seu fim imediato",
+      "falante": "Capitão Alberto Neto",
+      "turno_id": 80,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "34 milhões de pessoas utilizaram o saque-aniversário",
+          "char_start": 134984,
+          "char_end": 135036,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Foram injetados bilhões na nossa economia",
+          "char_start": 134939,
+          "char_end": 134980,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Será que, como foi questionado aqui, esses 34 milhões de trabalhadores queriam comprar só ovo de Páscoa?",
+        "resposta": "Não, não foi isso. Foi para salvar vida, foi para pagar uma dívida mais cara.",
+        "objecao_char_start": 135037,
+        "objecao_char_end": 135141,
+        "resposta_char_start": 135142,
+        "resposta_char_end": 135219,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a liberdade do trabalhador em decidir sobre o uso de seus recursos do FGTS, com acesso a opções justas e informadas",
+      "falante": "Capitão Alberto Neto",
+      "turno_id": 80,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o dinheiro é dele, é ele que está lá suando, é ele que acorda cedo, é ele que vai pegar ônibus lotado, é ele que vai sustentar a sua família",
+          "char_start": 136712,
+          "char_end": 136852,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Rejeita a extinção do saque-aniversário, defendendo seu aprimoramento como medida justa e necessária",
+      "falante": "Capitão Alberto Neto",
+      "turno_id": 80,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "34 milhões de pessoas utilizaram o saque-aniversário",
+          "char_start": 134984,
+          "char_end": 135036,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Foram injetados bilhões na nossa economia",
+          "char_start": 134939,
+          "char_end": 134980,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Será que, como foi questionado aqui, esses 34 milhões de trabalhadores queriam comprar só ovo de Páscoa?",
+        "resposta": "Não, não foi isso. Foi para salvar vida, foi para pagar uma dívida mais cara.",
+        "objecao_char_start": 135037,
+        "objecao_char_end": 135141,
+        "resposta_char_start": 135142,
+        "resposta_char_end": 135219,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Se posiciona contra a extinção do saque-aniversário e se coloca à disposição para aprimorá-lo",
+      "falante": "Capitão Alberto Neto",
+      "turno_id": 80,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "Acho que precisamos aprimorar o saque-aniversário, mas acabar neste momento seria uma solução muito cruel para os trabalhadores",
+        "resposta": "Quero dizer para o Governo que estou aqui à disposição para que possamos aprimorar esse projeto, mas que não conte comigo para finalizá-lo, para acabar com ele",
+        "objecao_char_start": 137571,
+        "objecao_char_end": 137698,
+        "resposta_char_start": 137745,
+        "resposta_char_end": 137904,
+        "ancorado": true
+      }
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 50,
+      "falante": "Edison João Costa",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "mais de 50% das empresas não têm condição de garantir o que ela vai 'derreter' do seu funcionário, mesmo porque ela não está nem recolhendo imposto."
+    },
+    {
+      "turno_id": 58,
+      "falante": "Clóvis Roberto Scherer",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "percebermos que, na verdade, ele perdeu 10 bilhões de reais nesse processo"
+    },
+    {
+      "turno_id": 60,
+      "falante": "Simão Luiz Kovalski",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "acho que este debate ainda precisa ser aprofundado, inclusive do ponto de vista dos números aqui apresentados."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9355,
+  "taxa_contraponto": 0.5161,
+  "taxa_ancoragem_fundamento": 0.9508
+}

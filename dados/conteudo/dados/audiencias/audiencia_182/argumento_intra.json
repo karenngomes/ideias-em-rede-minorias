@@ -1,0 +1,1048 @@
+{
+  "sample_id": 182,
+  "n_opinioes": 42,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 41,
+  "n_fundamentos_propostos": 75,
+  "n_fundamentos_ancorados": 74,
+  "n_fundamentos_com_numero": 33,
+  "por_tipo": {
+    "dado": 66,
+    "autoridade": 8
+  },
+  "n_contrapontos_propostos": 12,
+  "n_com_contraponto": 12,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "defende a discussão do custo médico-hospitalar como base para reajustes, em vez de focar apenas no índice anual",
+      "falante": "Marcos Paulo Novais",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O crescimento de 9,63% deste ano foi, de novo, reflexo da variação de custos",
+          "char_start": 26152,
+          "char_end": 26228,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os custos galopantes, crescentes",
+          "char_start": 26087,
+          "char_end": 26119,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita o modelo atual de reajuste de planos individuais por ser insustentável e causar risco de insolvência",
+      "falante": "Marcos Paulo Novais",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "69,8% das operadoras de plano de saúde estão com déficit na sua carteira de plano individual",
+          "char_start": 26337,
+          "char_end": 26429,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "331 operadoras estão fechando no negativo no mercado de plano individual",
+          "char_start": 26925,
+          "char_end": 26997,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação do movimento 'Todos por Todos com Muita Saúde' para promover transparência e debate sobre o custo da saúde",
+      "falante": "Marcos Paulo Novais",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Lançamos este ano um movimento chamado Todos por Todos com Muita Saúde",
+          "char_start": 27610,
+          "char_end": 27680,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o cumprimento da lei que exige faturamento no mesmo mês da utilização de produtos, para evitar riscos tributários e legais",
+      "falante": "Sérgio Dilamar Bitencourt da Rocha",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós empresários corremos o risco de sermos multados — aliás, já fomos — pelo fato de o produto usado não ter sido faturado",
+          "char_start": 30772,
+          "char_end": 30894,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Este é o momento de incluir isso na pauta? Talvez até não seja",
+        "resposta": "talvez seja necessária uma conversa paralela, um outro espaço para discutir isso",
+        "objecao_char_start": 30897,
+        "objecao_char_end": 30959,
+        "resposta_char_start": 30961,
+        "resposta_char_end": 31041,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulação de reajustes em planos de saúde coletivos devido à ausência de balizamento e ocorrência de aumentos abusivos",
+      "falante": "Eduardo Chow de Martino Tostes",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "índices de 50%, 100%, 200%, 300% que chegam para aquele consumidor",
+          "char_start": 37504,
+          "char_end": 37570,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "não tem balizamento, não tem uma regulação por parte da ANS",
+          "char_start": 37361,
+          "char_end": 37420,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a judicialização como mal necessário na ausência de regulação adequada para reajustes de planos de saúde",
+      "falante": "Eduardo Chow de Martino Tostes",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós observamos, nesses 30% que somos obrigados a judicializar, que o reajuste de planos de saúde é um dos principais temas",
+          "char_start": 36001,
+          "char_end": 36123,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende maior transparência e proteção ao consumidor frente à falta de qualidade na prestação de serviços de planos de saúde",
+      "falante": "Pablo Bismarck",
+      "turno_id": 27,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Pesquisa recente, divulgada pelo Instituto Brasileiro de Defesa do Consumidor — IDEC neste mês, no dia 6 de agosto, revelou quanto os aumentos desregulados dos planos de saúde coletivos no Brasil podem impactar a vida dos consumidores.",
+          "char_start": 49568,
+          "char_end": 49803,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os especialistas recomendam à ANS a seguinte modificação: equiparar os planos coletivos contratados por MEI a planos individuais.",
+          "char_start": 50391,
+          "char_end": 50520,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Planos de saúde coletivos representam mais de 80%, como já foi dito aqui.",
+          "char_start": 49804,
+          "char_end": 49877,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "algumas dessas modalidades registradas no acumulado dos últimos 5 anos aumentam os valores de suas mensalidades, que chegaram a ser quase duas vezes maior do que o do plano individual.",
+          "char_start": 49953,
+          "char_end": 50137,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os resultados do estudo que se debruçou sobre os aumentos aplicados nos últimos 5 anos demonstram que quase todas as categorias de planos coletivos tiveram reajuste médio consistentemente superiores aos individuais.",
+          "char_start": 50146,
+          "char_end": 50361,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "segundo o IDEC ainda, os especialistas recomendam à ANS a seguinte modificação: equiparar os planos coletivos contratados por MEI a planos individuais.",
+          "char_start": 50369,
+          "char_end": 50520,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Os motivos do aumento, segundo as entidades do setor, é o aumento da sinistralidade, como já foi dito aqui; o uso indevido de reembolso, ou seja, alegam fraudes, e para isso é preciso aperfeiçoar os mecanismos; e o aumento da judicialização.",
+        "resposta": "Ora, se há judicialização, é porque o serviço não está sendo prestado de maneira eficiente, de maneira eficaz. É por isso que a população tem que recorrer ao Judiciário, aos órgãos de defesa do consumidor, para fazer valer os seus direitos.",
+        "objecao_char_start": 51627,
+        "objecao_char_end": 51868,
+        "resposta_char_start": 51868,
+        "resposta_char_end": 52108,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende limitar reajustes de planos coletivos ao dobro do percentual dos planos individuais",
+      "falante": "Arthur Rollo",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos este ano um reajuste em torno de 40%, o que corresponde a mais de quatro vezes o teto fixado pela ANS para os planos individuais.",
+          "char_start": 55697,
+          "char_end": 55836,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Foi dito aqui que o reajuste é transparente, mas não é.",
+        "resposta": "O céu é o limite para negociar. As empresas fixam o valor que bem entendem.",
+        "objecao_char_start": 56497,
+        "objecao_char_end": 56552,
+        "resposta_char_start": 56553,
+        "resposta_char_end": 56628,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende limitar reajustes de planos coletivos e revisar custos com novas tecnologias",
+      "falante": "Arthur Rollo",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a questão que foi falada aqui da implantação de novas tecnologias também não pode ser ilimitada, porque a empresa tem lá um custo.",
+          "char_start": 61293,
+          "char_end": 61423,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende padronização da regra de reajuste anual para planos coletivos, com acesso obrigatório à planilha de cálculo e ao contrato integral, e ampliação do pool de risco para conter aumentos abusivos",
+      "falante": "Ana Carolina Navarrete",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os planos coletivos empresariais, pequenos, aqueles nos quais estão incluídos o plano MEI, que é o do microempreendedor individual, tiveram a curva mais alta, que é a curva cinza.",
+          "char_start": 70875,
+          "char_end": 71054,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o aumento acumulado desses reajustes chegou a 82%.",
+          "char_start": 71868,
+          "char_end": 71918,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os individuais familiares, nesse mesmo período, aumentaram, no acumulado dos 5 anos, apenas 35%.",
+          "char_start": 72026,
+          "char_end": 72122,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 5 anos, essa mensalidade praticamente dobrou.",
+          "char_start": 71939,
+          "char_end": 71987,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "80% do mercado, a operadora é livre para cancelar a seu bel prazer.",
+          "char_start": 73746,
+          "char_end": 73813,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a ANS tem uma política de agrupar contratos pequenos e aplicar reajuste único para contratos até 29 vidas, mas isso não está segurando os aumentos.",
+          "char_start": 73107,
+          "char_end": 73254,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "de cada quatro decisões judiciais sobre reajuste anual ou por sinistralidade, três delas o Judiciário afastava por considerar o reajuste abusivo.",
+          "char_start": 67714,
+          "char_end": 67859,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "três delas o Judiciário afastava por considerar o reajuste abusivo. E elas eram afastadas por três razões: cláusula contratual vaga e aberta; aumento de sinistralidade alegado pela operadora, mas não comprovado com planilha de cálculo; e percentuais muito elevados.",
+          "char_start": 67792,
+          "char_end": 68057,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Congresso supla a omissão da ANS na regulação de planos coletivos, como medida necessária para proteger os consumidores",
+      "falante": "Ana Carolina Navarrete",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "se a ANS não regular, se não avançar nessa pauta, não resta outra alternativa senão o Congresso suprir essa lacuna",
+          "char_start": 77819,
+          "char_end": 77933,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "se a ANS não regular, se não avançar nessa pauta",
+        "resposta": "não resta outra alternativa senão o Congresso suprir essa lacuna",
+        "objecao_char_start": 77819,
+        "objecao_char_end": 77867,
+        "resposta_char_start": 77869,
+        "resposta_char_end": 77933,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a regulação de planos de saúde com base na proteção da vulnerabilidade do consumidor, especialmente em situações de doença e idade avançada",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quando somos consumidores e doentes, nós somos mais vulneráveis, Deputado. E nós precisamos entender que essa vulnerabilidade ainda é agravada, porque eu posso ser um consumidor doente e idoso.",
+          "char_start": 82300,
+          "char_end": 82493,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Esse consumidor doente, dependendo da doença, não tem o tempo de 3 meses para esperar a autorização de uma cirurgia.",
+          "char_start": 82494,
+          "char_end": 82610,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende transparência e clareza na informação sobre reajustes de planos de saúde, com base no art. 30 do CDC",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "E nós citamos o art. 30 do Código de Defesa do Consumidor, onde se fala da oferta.",
+          "char_start": 84034,
+          "char_end": 84116,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A oferta tem que ser clara, a oferta tem que ser precisa, a oferta tem que ser ostensiva. O consumidor tem que saber quanto está pagando e quanto vai pagar no reajuste. Ele tem que saber qual é a base de cálculo que foi utilizada.",
+          "char_start": 84118,
+          "char_end": 84348,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a revisão da regulação de planos individuais e a criação de regulação obrigatória e urgente para planos coletivos",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nas falas que me antecederam, também foi mencionada a necessidade de revisar, porque o modelo do plano individual não funciona.",
+          "char_start": 82892,
+          "char_end": 83019,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu só espero que o modelo do plano individual que não funciona não adote o modelo do plano coletivo. O modelo do plano coletivo é um modelo que não atende aos consumidores.",
+          "char_start": 83020,
+          "char_end": 83192,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a falta de resposta da ANS à SENACON por agravar a vulnerabilidade do consumidor e comprometer a transparência",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No dia 14 de junho, nós fizemos uma reunião com a Agência Nacional de Saúde em que protocolamos um documento pedindo esclarecimentos sobre o modelo, o método e a forma de cálculo dos reajustes adotados no País. Nós não fomos respondidos.",
+          "char_start": 83423,
+          "char_end": 83660,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende maior fiscalização sobre planos de saúde para evitar ofertas inviáveis que levam à insolvência",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 39,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Também ouvimos aqui, nas falas que me antecederam, que muitas empresas de plano de saúde, pela dificuldade do mercado, foram liquidadas em função de uma crise de insolvência que sofreram.",
+          "char_start": 85676,
+          "char_end": 85863,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Mas nós precisamos também repensar se essas empresas que quebraram não estavam ofertando algo que não podiam cumprir.",
+          "char_start": 85864,
+          "char_end": 85981,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aprimoramento das regras de reajuste de planos coletivos e a regulamentação de mecanismos de coparticipação e franquia",
+      "falante": "Daniele Rodrigues Campos",
+      "turno_id": 49,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os outros 80% dos beneficiários não estão sujeitos a essa regra de reajuste de planos individuais regulamentados, cujo índice máximo é autorizado pela ANS.",
+          "char_start": 94206,
+          "char_end": 94361,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende mudança urgente no modelo regulatório de planos de saúde por ser falho para consumidores e operadoras",
+      "falante": "Gisela Simona",
+      "turno_id": 57,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje 80% dos consumidores de plano de saúde não estão tendo uma regulação do plano porque é plano coletivo",
+          "char_start": 109553,
+          "char_end": 109659,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "como é o caso de Mato Grosso, Estado onde praticamente nós só temos a UNIMED como operadora de plano de saúde",
+          "char_start": 110092,
+          "char_end": 110201,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a Câmara tome medidas urgentes para regular e controlar os planos de saúde",
+      "falante": "Gisela Simona",
+      "turno_id": 57,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "hoje 80% dos consumidores de plano de saúde não estão tendo uma regulação do plano porque é plano coletivo",
+          "char_start": 109553,
+          "char_end": 109659,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a punição de operadoras que descumprem as regras e a revisão do modelo de reajuste por insustentabilidade",
+      "falante": "Marcos Paulo Novais",
+      "turno_id": 59,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "331 operadoras não conseguem entregar um procedimento, que é o mais caro coberto no Brasil, de 7 milhões de reais",
+          "char_start": 113077,
+          "char_end": 113190,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Concordo que talvez não seja adotar um modelo de reajuste do plano coletivo para o plano individual.",
+        "resposta": "O plano individual precisa ser revisto, ele não é modelo, esse modelo atual vai nos levar à insolvência, então não podemos usá-lo como exemplo.",
+        "objecao_char_start": 112195,
+        "objecao_char_end": 112295,
+        "resposta_char_start": 112296,
+        "resposta_char_end": 112439,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende estímulo ao uso racional de planos de saúde com incentivos para consumo moderado",
+      "falante": "Arthur Rollo",
+      "turno_id": 65,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É preciso criar uma fórmula, como acontece, por exemplo, com o seguro de carro: aquele consumidor que não usa o seu seguro ao longo de 12 meses ou usa pouco, acaba tendo estímulo, com descontos, etc.",
+          "char_start": 122851,
+          "char_end": 123050,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Vivemos, infelizmente, no Brasil, a medicina do pronto-socorro. Isso ocorre, sobretudo, quando o consumidor tenta marcar consulta e não consegue. Aí ele vai parar no pronto-socorro e o custo é muito maior.",
+          "char_start": 123151,
+          "char_end": 123356,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a regulação legislativa de planos de saúde coletivos por empresas, sob pena de colapso do sistema e aumento de custos",
+      "falante": "Celso Russomanno",
+      "turno_id": 67,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a Agência Nacional de Saúde Suplementar não tem controle sobre os planos coletivos.",
+          "char_start": 124139,
+          "char_end": 124222,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Se houver dentre esse grupo uma pessoa com uma doença terminal, o plano de saúde, por uma questão comercial e financeira, decide expurgar do plano aquele grupo, dizendo que não há mais interesse.",
+          "char_start": 124829,
+          "char_end": 125024,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Cada vez mais os grandes grupos assumem essa prestação de serviço.",
+          "char_start": 126176,
+          "char_end": 126242,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que os consumidores devem exigir a demonstração dos cálculos atuariais dos reajustes com base no CDC",
+      "falante": "Jorge Braz",
+      "turno_id": 69,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O consumidor não deve apenas aceitar o reajuste imposto pela operadora, cabendo-lhe exigir a demonstração dos percentuais aplicados por meio de apresentação de cálculos atuariais",
+          "char_start": 134109,
+          "char_end": 134287,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "considera abusivos os reajustes sem esclarecimento aos contratantes, por violar o art. 51 do CDC",
+      "falante": "Jorge Braz",
+      "turno_id": 69,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "nos termos do art. 51, incisos IV e X, do CDC",
+          "char_start": 135502,
+          "char_end": 135547,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que operadoras devem comprovar tecnicamente a base atuarial dos reajustes",
+      "falante": "Jorge Braz",
+      "turno_id": 69,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a operadora deve verter prova técnica que demonstre que os reajustes das mensalidades estão sendo pautados por critérios atuariais, destinados a assegurar a viabilidade do plano, ponderados com os custos dos serviços",
+          "char_start": 135784,
+          "char_end": 136000,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "sugere que a ANS crie uma fórmula obrigatória para divulgação dos critérios de reajuste",
+      "falante": "Jorge Braz",
+      "turno_id": 69,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Talvez a ANS possa, via resolução, criar uma fórmula básica do que e como foi gasto e do que mudou ou não a cada ano",
+          "char_start": 136383,
+          "char_end": 136499,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não sei se é possível, Presidente — e esta Comissão, creio eu, tem a obrigação de definir isso —, enquanto não se resolve isso, fazer uma espécie de uma formulazinha",
+        "resposta": "Talvez a ANS possa, via resolução, criar uma fórmula básica do que e como foi gasto e do que mudou ou não a cada ano",
+        "objecao_char_start": 136217,
+        "objecao_char_end": 136382,
+        "resposta_char_start": 136383,
+        "resposta_char_end": 136499,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que a Câmara regulamente o controle de reajustes de planos de saúde",
+      "falante": "Jorge Braz",
+      "turno_id": 69,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O que estou dizendo, como falou o nosso Deputado Celso aqui, é que esta Casa, de fato, tem que regulamentar essa questão e ter controle efetivamente sobre isso",
+          "char_start": 134865,
+          "char_end": 135024,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a Agência Nacional de Saúde deve comparecer presencialmente a audiências da Câmara por ter papel singular e por haver descumprido requerimento da SENACON",
+      "falante": "Paulão",
+      "turno_id": 71,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a SENACON encaminhou um requerimento de informações à ANS e até hoje não teve resposta",
+          "char_start": 138194,
+          "char_end": 138280,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "É claro que há justificativa para tudo",
+        "resposta": "não quero fazer nenhuma valoração, mas ela tem um papel singular nesse processo",
+        "objecao_char_start": 138454,
+        "objecao_char_end": 138492,
+        "resposta_char_start": 138494,
+        "resposta_char_end": 138573,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "propõe que a Comissão convoque a ANS para comparecer presencialmente em audiência futura, junto à SENACON, para discutir planos de saúde",
+      "falante": "Paulão",
+      "turno_id": 71,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a SENACON encaminhou um requerimento de informações à ANS e até hoje não teve resposta",
+          "char_start": 138194,
+          "char_end": 138280,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a participação ampla e com propostas de todos os atores na elaboração de nova legislação sobre planos de saúde",
+      "falante": "Celso Russomanno",
+      "turno_id": 75,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "todos os atores dessa história, que apresentariam propostas de como melhorar a situação",
+          "char_start": 141104,
+          "char_end": 141191,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende regulação rigorosa de planos de saúde com transparência nos reajustes e proibição de exclusão de consumidores vulneráveis em planos coletivos.",
+      "falante": "Duarte Jr",
+      "turno_id": 77,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "50%, 60%, 70%",
+          "char_start": 144359,
+          "char_end": 144372,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "uma pessoa com deficiência, uma pessoa que luta contra o câncer, uma pessoa idosa, que gera um custo, sim, maior ao plano de saúde, o plano de saúde, mesmo sendo pago em dia, notifica e exclui",
+          "char_start": 146533,
+          "char_end": 146725,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "conforme o preceitua o art. 6, inciso III",
+          "char_start": 144488,
+          "char_end": 144529,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O art. 51 do Código de Defesa do Consumidor traz, em um dos seus incisos, o inciso IV ou o inciso IX, se eu não me engano, uma cláusula nula de pleno direito",
+          "char_start": 146237,
+          "char_end": 146394,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "como é possível tolerar, como é possível conviver com a possibilidade de rescisão unilateral do contrato nos planos coletivos?",
+        "resposta": "Isso é mais do que ilegal e mais do que imoral, isso é um pecado! Não podemos aceitar que o consumidor de alta vulnerabilidade, mesmo pagando, seja excluído do plano de saúde.",
+        "objecao_char_start": 146400,
+        "objecao_char_end": 146526,
+        "resposta_char_start": 146727,
+        "resposta_char_end": 146902,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "apoia o relatório do Deputado Duarte por atender anseios de consumidores idosos e fragilizados",
+      "falante": "Márcio Marinho",
+      "turno_id": 78,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós caminhamos para uma população idosa e fragilizada",
+          "char_start": 147850,
+          "char_end": 147903,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reafirma o compromisso da SENACON com a defesa do consumidor em questões regulatórias",
+      "falante": "Vitor Hugo do Amaral Ferreira",
+      "turno_id": 79,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a SENACON, depois de ter questionado o reajuste dos planos de saúde, adotou um procedimento de estudo e monitoramento do mercado",
+          "char_start": 149729,
+          "char_end": 149857,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a punição de práticas ilegais como seleção de risco e fraudes por judicialização imediata após adesão",
+      "falante": "Marcos Paulo Novais",
+      "turno_id": 85,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "normalmente numa sexta-feira, solicitam um procedimento cirúrgico, que é concedido pelo juiz, ou solicitam terapias, que são concedidas também",
+          "char_start": 153613,
+          "char_end": 153755,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "quem está pagando a conta são aqueles que já estavam no plano, porque o reajuste vai vir para todos",
+          "char_start": 153862,
+          "char_end": 153961,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Hoje temos uma cultura e um volume gigantesco de pessoas que entram no plano de saúde e, no dia seguinte, normalmente numa sexta-feira, solicitam um procedimento cirúrgico, que é concedido pelo juiz, ou solicitam terapias, que são concedidas também",
+        "resposta": "quem está pagando a conta são aqueles que já estavam no plano, porque o reajuste vai vir para todos",
+        "objecao_char_start": 153507,
+        "objecao_char_end": 153755,
+        "resposta_char_start": 153862,
+        "resposta_char_end": 153961,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica o plano ambulatorial por prometer coberturas que não são efetivamente prestadas, especialmente em casos oncológicos",
+      "falante": "Marcos Paulo Novais",
+      "turno_id": 85,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "vendemos o plano ambulatorial com a promessa de uma internação de 12 horas",
+          "char_start": 154117,
+          "char_end": 154191,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "temos, na cobertura do plano ambulatorial, previsto em lei, tratamento de terapia oncológica, mas a cirurgia oncológica, que é necessária para tirar o tumor, não está prevista, porque é um procedimento cirúrgico",
+          "char_start": 154235,
+          "char_end": 154446,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de plano ambulatorial sem internação como forma de desafogar o SUS e ampliar ofertas no mercado",
+      "falante": "Celso Russomanno",
+      "turno_id": 86,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vai todo mundo querer oferecer isso",
+          "char_start": 154740,
+          "char_end": 154775,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que as operadoras devem aprimorar a transparência sobre o funcionamento dos planos e os motivos dos reajustes",
+      "falante": "Marcos Paulo Novais",
+      "turno_id": 87,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "precisamos melhorar muito em termos de transparência",
+          "char_start": 154984,
+          "char_end": 155036,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende manutenção da metodologia atual de reajuste de planos individuais, com cautela em revisões, devido ao contexto atípico da pandemia que influenciou os dados",
+      "falante": "Ana Carolina Navarrete",
+      "turno_id": 93,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há uma questão sobre o fato de essa metodologia ter produzido o menor e o maior reajuste da série histórica, mas isso ocorreu exatamente dentro do período da pandemia, o que precisa ser levado em consideração",
+          "char_start": 158262,
+          "char_end": 158470,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "porque essa metodologia foi pensada para tempos de normalidade sanitária e econômica, e não foi o que nós vivemos nos últimos 3 anos",
+          "char_start": 158472,
+          "char_end": 158604,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Em algum momento aqui, falou-se sobre a necessidade de revisão do modelo de reajuste de plano individual.",
+        "resposta": "O IDEC não questiona a relevância e o progresso que houve com a introdução dessa nova metodologia, mas avalia que propostas no sentido de revisá-la devem ser vistas com muita cautela.",
+        "objecao_char_start": 157731,
+        "objecao_char_end": 157836,
+        "resposta_char_start": 158078,
+        "resposta_char_end": 158261,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que reformas na lei de planos de saúde não devem retroceder, mantendo o avanço na proteção do consumidor desde os anos 90",
+      "falante": "Ana Carolina Navarrete",
+      "turno_id": 93,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a lei de planos de saúde foi criada em direção à defesa do interesse público e à ampliação de cobertura",
+          "char_start": 159573,
+          "char_end": 159676,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "não voltar para a realidade de antes dos anos 90",
+          "char_start": 159825,
+          "char_end": 159873,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende transparência nos planos de saúde para proteger o consumidor, sem prejudicar empresas",
+      "falante": "Márcio Marinho",
+      "turno_id": 96,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o plano de saúde da mãe dela chegou a 6 mil reais",
+          "char_start": 163929,
+          "char_end": 163978,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "já estava chegando a 4 mil reais",
+          "char_start": 164287,
+          "char_end": 164319,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "conforme dito e reconhecido aqui por eles próprios, está faltando transparência",
+          "char_start": 162865,
+          "char_end": 162944,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Como disse aqui o Deputado Duarte, com relação ao que está escrito no Código de Defesa do Consumidor, no art. 6º, quando falta informação, a coisa fica nebulosa",
+          "char_start": 162967,
+          "char_end": 163127,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "não é destruir empresa",
+        "resposta": "O nosso objetivo é que as empresas tenham transparência na prestação de serviço e que o consumidor não tenha prejuízo, lá na ponta, ao pagar uma conta que ele mesmo não tem nenhuma condição de pagar",
+        "objecao_char_start": 163644,
+        "objecao_char_end": 163666,
+        "resposta_char_start": 163673,
+        "resposta_char_end": 163871,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a implantação de prontuário único integrado entre os setores público e privado para evitar repetição de exames e combater corrupção no sistema de saúde.",
+      "falante": "Duarte Jr",
+      "turno_id": 101,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "alguém que tem plano de saúde que, ao ser atendido numa urgência ou emergência no hospital público, faz lá um exame e tem que fazê-lo novamente no particular",
+          "char_start": 165152,
+          "char_end": 165309,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não tem lógica, não faz sentido alguém que tem plano de saúde que, ao ser atendido numa urgência ou emergência no hospital público, faz lá um exame e tem que fazê-lo novamente no particular",
+        "resposta": "em tendo acesso às informações, conseguiremos garantir mais sustentabilidade ao setor, conseguiremos combater, Deputado Márcio, Deputado Celso, a corrupção cometida por aquele profissional que solicita um exame de que o paciente não precisa ou por aquele hospital que solicita uma estrutura de que o paciente não precisa",
+        "objecao_char_start": 165120,
+        "objecao_char_end": 165309,
+        "resposta_char_start": 165438,
+        "resposta_char_end": 165758,
+        "ancorado": true
+      }
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 59,
+      "falante": "Marcos Paulo Novais",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o modelo atual vai nos levar à insolvência"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9762,
+  "taxa_contraponto": 0.2857,
+  "taxa_ancoragem_fundamento": 0.9867
+}

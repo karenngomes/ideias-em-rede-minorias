@@ -1,0 +1,696 @@
+{
+  "sample_id": 134,
+  "n_opinioes": 30,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 30,
+  "n_fundamentos_propostos": 49,
+  "n_fundamentos_ancorados": 48,
+  "n_fundamentos_com_numero": 19,
+  "por_tipo": {
+    "dado": 43,
+    "autoridade": 5
+  },
+  "n_contrapontos_propostos": 5,
+  "n_com_contraponto": 5,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "Defende a adoção da métrica 'berço ao túmulo' com neutralidade tecnológica para direcionar investimentos em mobilidade sustentável.",
+      "falante": "Plínio Nastari",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a montagem do veículo emite 1% e a operação do veículo emite 85%, seja essa operação na condição fóssil, na de bioenergia ou de eletricidade",
+          "char_start": 21158,
+          "char_end": 21298,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Uma avaliação feita pelo Grupo Stellantis recentemente indica que, em toneladas de CO2equivalente por veículo, para um veículo segmento C, um sedã, usando gasolina com 27% de etanol anidro, temos no ciclo de vida 62 toneladas de CO2por veículo, no ciclo de vida; usando etanol hidratado E100, 26 toneladas por veículo; o veículo elétrico a bateria, usando a energia elétrica aqui no Brasil, que é extremamente renovável, 23; e o elétrico a bateria, da Europa, 30",
+          "char_start": 21947,
+          "char_end": 22409,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a integração de RenovaBio e Rota 2030 com base na Análise do Ciclo de Vida para promover mobilidade sustentável de baixo carbono",
+      "falante": "Pietro Adamo Sampaio Mendes",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós vamos juntar o esforço que a política pública do RenovaBio faz de reduzir a intensidade de carbono dos combustíveis com o esforço que há no Rota 2030 de melhorar a eficiência energética dos motores",
+          "char_start": 36456,
+          "char_end": 36657,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Brasil já avançou muito na sua matriz elétrica, pois tem 88% de geração de energia renovável, e também no setor de combustíveis",
+          "char_start": 37348,
+          "char_end": 37477,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "em 2018 nós tínhamos menos de 75 gramas de CO2equivalente por megajoule de energia, enquanto a Europa tinha 95",
+          "char_start": 37495,
+          "char_end": 37605,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Aqui, nós temos a eficiência do tanque à roda, em que se espera que a Europa tenha uma menor utilização de energia por quilômetro rodado, justamente porque lá vai haver uma penetração maior de veículos elétricos do que aqui no Brasil",
+        "resposta": "Mas, ao final, do poço à roda, para o meio ambiente, nós vamos ter o mesmo resultado que a União Europeia está esperando para 2032, a um custo muito mais palatável para o consumidor, porque o veículo é mais barato e o custo total da sua utilização tem menor valor",
+        "objecao_char_start": 37742,
+        "objecao_char_end": 37975,
+        "resposta_char_start": 37977,
+        "resposta_char_end": 38240,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a Análise do Ciclo de Vida como instrumento essencial para políticas públicas de energia e mobilidade",
+      "falante": "Pietro Adamo Sampaio Mendes",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "A certificação por Análise do Ciclo de Vida leva em conta a ISO 14040",
+          "char_start": 32384,
+          "char_end": 32453,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Todas as metodologias de cálculo são validadas com publicações científicas que dão suporte às emissões, com avaliações de revisores criteriosos",
+          "char_start": 32456,
+          "char_end": 32599,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "os números todos que constam na RenovaCalc são números com validação científica, e você consegue comprovar o que está falando",
+          "char_start": 32608,
+          "char_end": 32733,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o problema central da humanidade é a desigualdade, não o carbono",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Prestem atenção no que acontece quando ocorre um furacão na América Central e quando ocorre um furacão na América do Norte. Nos Estados Unidos não morre quase ninguém. É desigualdade o problema!",
+          "char_start": 45077,
+          "char_end": 45271,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Um americano gasta 280 gigajoules, enquanto um africano gasta 11 gigajoules.",
+          "char_start": 45340,
+          "char_end": 45416,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a transição para carros elétricos baseados em matriz fóssil",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "85% da matriz energética mundial é fóssil.",
+          "char_start": 46761,
+          "char_end": 46803,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Transição energética? Esse trabalho da Universidade de Colônia mostrou que um Tesla na Alemanha emite mais CO2, quando se faz uma Análise de Ciclo de Vida do Berço ao Túmulo do que um BMW adiesel.",
+          "char_start": 46805,
+          "char_end": 47001,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a eletrificação baseada em baterias como solução sustentável",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um carro elétrico a bateria no Brasil, com a melhor matriz do mundo, emite 16,7 gramas de CO2equivalente, contra 9,5 de um híbrido simples a etanol.",
+          "char_start": 49052,
+          "char_end": 49200,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Esta Análise do Ciclo de Vida foi feita pela própria Volkswagen, junto com os amigos da Única.",
+          "char_start": 50011,
+          "char_end": 50105,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o biometano como melhor alternativa para transporte pesado",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós vemos que um ônibus a biometano é muito melhor do que um ônibus elétrico no Brasil, mesmo com toda a matriz limpa que poderá vir a ser utilizada.",
+          "char_start": 49414,
+          "char_end": 49563,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende biocombustíveis por gerarem mais empregos que eletrificação",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O que um carro elétrico como o da Tesla traz? Desemprego!",
+          "char_start": 49769,
+          "char_end": 49826,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Bosch percebeu que, se continuar nesse sistema de eletrificação com bateria, vai perder 900 mil postos de emprego.",
+          "char_start": 56600,
+          "char_end": 56714,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Brasil deve exportar soluções energéticas renováveis",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Pablo Di Si, um ex-executivo que infelizmente saiu do Brasil — mas quem sabe uma hora volta —, dizia o seguinte: isto aqui é uma jabuticaba, mas é uma jabuticaba de exportação.",
+          "char_start": 50109,
+          "char_end": 50285,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Fundo Mubadala assinando com a PETROBRAS para produzir bioquerosene de aviação na usina de Mataripe, através dessa planta, a macaúba, que muitos aqui provavelmente conhecem — produtividade do dendê crescendo em solo degradado.",
+          "char_start": 59608,
+          "char_end": 59836,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a ideia de que energias solar e eólica são limpas sem análise de ciclo completo",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Na China, que começou isso antes, ninguém mais sabe que diabos se vai fazer com essa placa.",
+          "char_start": 50891,
+          "char_end": 50982,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Vocês estão vendo aquele trator gigantesco lá no fundo? Isso aí é pá eólica, e ninguém sabe o que fazer com isso. Não é reciclável, não é renovável.",
+          "char_start": 51046,
+          "char_end": 51194,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita exportação de commodities não beneficiadas",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "aqui, olha a nossa inteligência: estamos exportandocommodities. E os caras ainda os parabenizaram por isso.\"Que coisa linda!\" —exportando lítio não beneficiado.",
+          "char_start": 52362,
+          "char_end": 52522,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a fotossíntese como principal via de descarbonização",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O que é a fotossíntese? Água — sempre foi o hidrogênio. O hidrogênio da água reduz uma molécula de CO2e a converte em uma glicose. Isso é fotossíntese. A glicose é sólida. Então, o CO2, que é gasoso, sai da atmosfera.",
+          "char_start": 52749,
+          "char_end": 52966,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a dicotomia food versus fuel como narrativa enganosa",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Vejam o mapeamento do WWF: todas essas zonas aí agora podem ter bioquerosene de aviação — as mesmas zonas da disputafood versus fuel.",
+          "char_start": 53392,
+          "char_end": 53525,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Aí a desculpa para não se fazer isso:food versus fuel. Entretanto, o céu não tem acostamento. E, na hora em que vem um avião, ele não pode ser movido a bateria, porque fica pesado demais. Aí, o biocombustível de aviação pode. Agora, pode.",
+          "char_start": 53100,
+          "char_end": 53338,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Aí a desculpa para não se fazer isso:food versus fuel.",
+        "resposta": "Entretanto, o céu não tem acostamento. E, na hora em que vem um avião, ele não pode ser movido a bateria, porque fica pesado demais. Aí, o biocombustível de aviação pode. Agora, pode.",
+        "objecao_char_start": 53100,
+        "objecao_char_end": 53154,
+        "resposta_char_start": 53155,
+        "resposta_char_end": 53338,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende combustíveis renováveis como solução superior à eletrificação",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um carro elétrico a bateria no Brasil, com a melhor matriz do mundo, emite 16,7 gramas de CO2equivalente, contra 9,5 de um híbrido simples a etanol.",
+          "char_start": 49052,
+          "char_end": 49200,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "carro a combustão tem 35% de eficiência energética; o carro a bateria tem 90% de eficiência.",
+          "char_start": 46319,
+          "char_end": 46411,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "alerta sobre perda massiva de empregos com eletrificação baseada em baterias",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Bosch percebeu que, se continuar nesse sistema de eletrificação com bateria, vai perder 900 mil postos de emprego.",
+          "char_start": 56600,
+          "char_end": 56714,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O que um carro elétrico como o da Tesla traz? Desemprego!",
+          "char_start": 49769,
+          "char_end": 49826,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o e-fuel como solução energética sustentável e escalável",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós conseguimos controlar CO2vindo da fermentação, hidrogênio vindo da eletrólise da água. Com o excedente que nós temos de hidrogênio, produzimos qualquer molécula, produzimos qualquer coisa!",
+          "char_start": 57898,
+          "char_end": 58090,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os chineses produziram glicose. Nós produzimos todos os combustíveis totalmente renováveis, totalmente puros e vindos do Sol.",
+          "char_start": 58091,
+          "char_end": 58216,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe biofuel for food como modelo de desenvolvimento integrado",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Isto tem que acabar! E, para acabar com isso, a solução ébiofuel for food. Se nós temos uma usina, temos emprego. O Plínio conhece bem. Onde há usina, Plínio, como no Estado de São Paulo, há indústria, há emprego, há universidade.",
+          "char_start": 60431,
+          "char_end": 60661,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "valoriza o Sertão como centro de inovação climática",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não sei se vai dar para ver. Isso aí é a Casa dos Ventos, uma empresa de 200 mil hectares. Isso aí é Sertão. A empresa só usa esses pedacinhos.",
+          "char_start": 53887,
+          "char_end": 54030,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende ar-condicionado como infraestrutura essencial para educação e inovação",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Deputado, nós hoje não temos salas de aula no País, temos \"saunas\" de aula.É impossível formar gente nessas condições.",
+          "char_start": 61648,
+          "char_end": 61766,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "E isso aqui é o patriarca de Cingapura dizendo que a maior invenção da humanidade é o ar-condicionado.",
+          "char_start": 62046,
+          "char_end": 62148,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende cana, agave e macaúba como pilares da bioeconomia nacional",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o porto seguro — agora, sim, Deputado, para terminar mesmo — é este aqui: cana, agave, macaúba.",
+          "char_start": 62347,
+          "char_end": 62442,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a adoção de métricas nacionais de descarbonização em vez de padrões internacionais",
+      "falante": "Valéria Lima",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Brasil é um grande produtor de matéria-prima renovável, é um grande exportador, inclusive.",
+          "char_start": 70495,
+          "char_end": 70587,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "pararmos de importar métricas que não são nossas",
+        "resposta": "ou nós passarmos a ter nossa própria métrica de descarbonização e nossos programas que não necessariamente são os mesmos internacionalmente",
+        "objecao_char_start": 70684,
+        "objecao_char_end": 70732,
+        "resposta_char_start": 70734,
+        "resposta_char_end": 70873,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a necessidade de fiscalização e rastreabilidade na cadeia de biocombustíveis",
+      "falante": "Valéria Lima",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os produtosdrop in, que produzem biocombustíveis com a mesma molécula do carbono, que são os mais avançados, o SAF, o HVO, requerem uma estrutura de rastreabilidade adequada.",
+          "char_start": 69492,
+          "char_end": 69666,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende um desenho tributário proativo e múltiplas rotas de descarbonização conforme viabilidade regional",
+      "falante": "Valéria Lima",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A descarbonização do transporte será feita necessariamente através de várias rotas. Não precisamos escolher uma agora. Regionalmente, podemos ter uma ou outra rota mais vencedora.",
+          "char_start": 71478,
+          "char_end": 71657,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "questiona se o Brasil tem métrica para implementar a ACV com base na experiência do RenovaBio",
+      "falante": "Leônidas Cristino",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O combustível do futuro introduz a ACV com base na experiência exitosa do RenovaBio, do poço à roda",
+          "char_start": 74534,
+          "char_end": 74633,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Recomenda ao Congresso adotar a métrica 'berço ao túmulo' na legislação para mobilidade, com neutralidade tecnológica.",
+      "falante": "Plínio Nastari",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "todas as montadoras estão definindo metas de emissão zero de carbono até 2050, o que implica estabelecer como compromisso, que elas estão firmando, a emissão zero no conceito \"berço ao túmulo\"",
+          "char_start": 75064,
+          "char_end": 75256,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aplicação universal da Análise do Ciclo de Vida em políticas públicas",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "se você quiser saber quanto de alimento uma pessoa come ao longo da vida, você não vai fazer um recorte. Não vai dizer:\"Vou considerar só a partir dos 80 anos e calcular a partir daí\"",
+          "char_start": 76407,
+          "char_end": 76590,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Hoje em dia, quando a gente compra uma geladeira, lá está o selo de eficiência energética",
+          "char_start": 77609,
+          "char_end": 77698,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "vencer pelomarketing",
+        "resposta": "a conta chega",
+        "objecao_char_start": 78225,
+        "objecao_char_end": 78245,
+        "resposta_char_start": 78255,
+        "resposta_char_end": 78268,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende liderança brasileira baseada em ciência e não em narrativas",
+      "falante": "Gonçalo Pereira",
+      "turno_id": 14,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Brasil hoje é uma grande potência científica, e o fato de um acadêmico estar aqui hoje, falando nesta Comissão, junto com um representante das empresas, é uma revolução",
+          "char_start": 78369,
+          "char_end": 78539,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que políticas públicas para biocombustíveis devem ser baseadas em ciência, tecnologia e inovação",
+      "falante": "Alexandre Alonso",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Essa política de biocombustíveis tem essa particularidade muito interessante: é uma política inteiramente calcada e baseada em ciência, tecnologia e inovação",
+          "char_start": 80733,
+          "char_end": 80890,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o papel da EMBRAPA como fornecedora de ciência para legislação e regulamentação",
+      "falante": "Alexandre Alonso",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o de prover os melhores dados, os melhores modelos, a melhor ciência, para que a gente também tenha a melhor legislação e os melhores regulamentos",
+          "char_start": 81782,
+          "char_end": 81928,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a validade de medições intermediárias de ciclo de vida para fins setoriais",
+      "falante": "Valéria Lima",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o do \"poço à roda\" foi importante para a definição do RenovaBio e para as notas que estão no RenovaCalc",
+          "char_start": 83367,
+          "char_end": 83470,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a ISO trata disso",
+          "char_start": 83072,
+          "char_end": 83089,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "No entanto, que acho que, sim. A ideia é que, no fundo, os CBIOs, por exemplo, ou o RenovaBio seja incorporado ao mercado de carbono.",
+        "resposta": "Com isso, você não vai ter mais essas medidas intermediárias.",
+        "objecao_char_start": 84067,
+        "objecao_char_end": 84200,
+        "resposta_char_start": 84201,
+        "resposta_char_end": 84262,
+        "ancorado": true
+      }
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 8,
+      "falante": "Gonçalo Pereira",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Pessoal, aqui nós fizemos um grande programa, junto com a Shell. [...] Com a Shell investindo cerca de 130 milhões de reais, nós estamos fazendo do agave uma nova cana."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.1667,
+  "taxa_ancoragem_fundamento": 0.9796
+}

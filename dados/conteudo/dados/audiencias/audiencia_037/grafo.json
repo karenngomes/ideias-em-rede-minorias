@@ -1,0 +1,371 @@
+{
+  "sample_id": 37,
+  "assunto": "Solicitação de mais orçamento e estrutura para atletas com deficiência",
+  "nos": [
+    {
+      "id": "p::Fábio Augusto Lima de Araujo",
+      "tipo": "participante",
+      "rotulo": "Fábio Augusto Lima de Araujo",
+      "dados": {
+        "cargo": "Secretário Nacional de Paradesporto",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "p::Nayara Karin Falcão de Oliveira",
+      "tipo": "participante",
+      "rotulo": "Nayara Karin Falcão de Oliveira",
+      "dados": {
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "n_opinioes": 7
+      }
+    },
+    {
+      "id": "p::Luiz Lima",
+      "tipo": "participante",
+      "rotulo": "Luiz Lima",
+      "dados": {
+        "cargo": "",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende que o paradesporto seja tratado com prioridade, conforme a Constituição e a Lei Brasileira de Inclusão",
+      "dados": {
+        "falante": "Fábio Augusto Lima de Araujo",
+        "cargo": "Secretário Nacional de Paradesporto",
+        "turno_id": 10,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "defende a valorização e a visibilidade dos atletas com deficiência em todas as modalidades esportivas",
+      "dados": {
+        "falante": "Nayara Karin Falcão de Oliveira",
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "defende a humanização e o reconhecimento da pessoa com deficiência como sujeito de direitos, além da condição de deficiência",
+      "dados": {
+        "falante": "Nayara Karin Falcão de Oliveira",
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "defende políticas públicas de inclusão comunicacional e tecnológica com foco na equidade e no alcance das camadas mais vulneráveis",
+      "dados": {
+        "falante": "Nayara Karin Falcão de Oliveira",
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "defende a mudança na percepção social da pessoa com deficiência, de sujeito passivo para agente ativo na construção da sociedade",
+      "dados": {
+        "falante": "Nayara Karin Falcão de Oliveira",
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "defende o reconhecimento da humanidade e a cidadania plena das pessoas com deficiência como base para a inclusão social",
+      "dados": {
+        "falante": "Nayara Karin Falcão de Oliveira",
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0006",
+      "tipo": "opiniao",
+      "rotulo": "defende o esporte como meio de resgate psicossocial e empoderamento da pessoa com deficiência",
+      "dados": {
+        "falante": "Nayara Karin Falcão de Oliveira",
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0007",
+      "tipo": "opiniao",
+      "rotulo": "defende a união de todas as camadas sociais como condição para a construção de uma sociedade inclusiva",
+      "dados": {
+        "falante": "Nayara Karin Falcão de Oliveira",
+        "cargo": "advogada, ex-atleta de paracanoagem, pessoa com deficiência",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "Se não nos unirmos, se não houver uma união de todas as camadas sociais, não conseguiremos fazer isso acontecer",
+            "preservado": true,
+            "char_start": 33904,
+            "char_end": 34015
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0008",
+      "tipo": "opiniao",
+      "rotulo": "Defende o fortalecimento da Secretaria Nacional de Paradesporto e a valorização dos 24% de Municípios que promovem políticas de paradesporto.",
+      "dados": {
+        "falante": "Luiz Lima",
+        "cargo": "",
+        "turno_id": 8,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Fábio Augusto Lima de Araujo",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "o::0006",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "o::0007",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Luiz Lima",
+      "destino": "o::0008",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Fábio Augusto Lima de Araujo",
+      "destino": "p::Nayara Karin Falcão de Oliveira",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Nayara Karin Falcão de Oliveira",
+      "destino": "p::Luiz Lima",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Luiz Lima",
+      "destino": "p::Fábio Augusto Lima de Araujo",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0001",
+      "tipo": "mesmo_tema",
+      "peso": 0.5636,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0008",
+      "tipo": "mesmo_tema",
+      "peso": 0.606,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0002",
+      "tipo": "mesmo_tema",
+      "peso": 0.6989,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0004",
+      "tipo": "mesmo_tema",
+      "peso": 0.6548,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6536,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.8551,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0003",
+      "tipo": "mesmo_tema",
+      "peso": 0.6324,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0004",
+      "tipo": "mesmo_tema",
+      "peso": 0.826,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.8906,
+      "dados": {}
+    },
+    {
+      "origem": "o::0002",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.6331,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0004",
+      "tipo": "mesmo_tema",
+      "peso": 0.6289,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6999,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0007",
+      "tipo": "mesmo_tema",
+      "peso": 0.6259,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.7839,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.6561,
+      "dados": {}
+    },
+    {
+      "origem": "o::0005",
+      "destino": "o::0007",
+      "tipo": "mesmo_tema",
+      "peso": 0.6749,
+      "dados": {}
+    }
+  ],
+  "resumo": {
+    "sample_id": 37,
+    "n_participantes": 3,
+    "n_opinioes": 9,
+    "arestas": {
+      "emitiu": 9,
+      "fala_apos": 3,
+      "mesmo_tema": 16
+    },
+    "camadas_exatas": [
+      "emitiu",
+      "fala_apos",
+      "concede_palavra"
+    ]
+  }
+}

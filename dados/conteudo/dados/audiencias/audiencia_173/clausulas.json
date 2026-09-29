@@ -1,0 +1,110 @@
+{
+  "sample_id": 173,
+  "n_opinioes": 29,
+  "n_decompostas": 29,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 15,
+  "n_ancorados": 12,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 6,
+  "n_perdidos": 6,
+  "por_tipo": {
+    "escopo": 6,
+    "condicao": 3,
+    "prazo": 2,
+    "grau": 1
+  },
+  "perdas": [
+    {
+      "falante": "Enio Fonseca",
+      "turno_id": 6,
+      "opiniao": "defende equalização de estímulos entre todas as fontes renováveis",
+      "nucleo": "defendeu a equalização de estímulos entre todas as fontes renováveis",
+      "tipo": "escopo",
+      "trecho": "todas as fontes renováveis que nós temos",
+      "char_start": 20201,
+      "char_end": 20241
+    },
+    {
+      "falante": "Geraldo Mendes",
+      "turno_id": 8,
+      "opiniao": "propõe que atingidos por usinas hidrelétricas recebam percentual da indenização",
+      "nucleo": "propõe que atingidos por usinas hidrelétricas recebam percentual da indenização",
+      "tipo": "escopo",
+      "trecho": "UHEs que os atingem",
+      "char_start": 32337,
+      "char_end": 32356
+    },
+    {
+      "falante": "Geraldo Mendes",
+      "turno_id": 8,
+      "opiniao": "critica modelo de leilões que beneficia empresas estrangeiras e propõe mudança por projeto de lei",
+      "nucleo": "critica modelo de leilões que beneficia empresas estrangeiras e propõe mudança por projeto de lei",
+      "tipo": "prazo",
+      "trecho": "no futuro",
+      "char_start": 33454,
+      "char_end": 33463
+    },
+    {
+      "falante": "Geraldo Mendes",
+      "turno_id": 8,
+      "opiniao": "defende manutenção do reservatório de Belo Monte como questão de soberania",
+      "nucleo": "defende manutenção do reservatório de Belo Monte como questão de soberania",
+      "tipo": "condicao",
+      "trecho": "não sucumbir às influências dos setores sem qualquer conhecimento técnico, a medidas leigas ou às organizações não governamentais — ONGs, inclusive estrangeiras, contrárias ao desenvolvimento",
+      "char_start": 34038,
+      "char_end": 34229
+    },
+    {
+      "falante": "Charles Lenzi",
+      "turno_id": 9,
+      "opiniao": "defende a expansão de hidrelétricas com políticas públicas que viabilizem investimentos e planejamento de longo prazo",
+      "nucleo": "defendeu a expansão de hidrelétricas com políticas públicas que viabilizem investimentos e planejamento de longo prazo",
+      "tipo": "escopo",
+      "trecho": "no contexto da transição energética",
+      "char_start": 38256,
+      "char_end": 38291
+    },
+    {
+      "falante": "Charles Lenzi",
+      "turno_id": 9,
+      "opiniao": "defende a expansão de usinas hidrelétricas de pequeno porte como estratégia para desenvolvimento regional e nacional",
+      "nucleo": "defendeu a expansão de usinas hidrelétricas de pequeno porte como estratégia para desenvolvimento regional e nacional",
+      "tipo": "escopo",
+      "trecho": "até 50 megawatts",
+      "char_start": 38485,
+      "char_end": 38501
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 6,
+      "falante": "Enio Fonseca",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "com exceção de seus múltiplos usos",
+      "opiniao": "rejeita a eliminação de fontes tradicionais como petróleo e carvão por seus múltiplos usos"
+    },
+    {
+      "turno_id": 8,
+      "falante": "Geraldo Mendes",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "condicao",
+      "trecho": "desde que elas mesmas deveriam contribuir com tais reservatórios",
+      "opiniao": "defende que fontes intermitentes paguem às hidrelétricas por uso de reservatórios para regularização"
+    },
+    {
+      "turno_id": 9,
+      "falante": "Charles Lenzi",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "no setor de hidrelétricas de pequeno porte",
+      "opiniao": "defende a expansão de usinas hidrelétricas de pequeno porte como estratégia para desenvolvimento regional e nacional"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5,
+  "taxa_ancoragem": 0.8,
+  "taxa_opiniao_intacta": 0.7931
+}

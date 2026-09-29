@@ -1,0 +1,130 @@
+{
+  "sample_id": 100,
+  "n_opinioes": 28,
+  "n_decompostas": 28,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 19,
+  "n_ancorados": 16,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 8,
+  "n_perdidos": 8,
+  "por_tipo": {
+    "condicao": 6,
+    "outro": 1,
+    "atribuicao": 2,
+    "escopo": 7
+  },
+  "perdas": [
+    {
+      "falante": "George Neves Lodder",
+      "turno_id": 24,
+      "opiniao": "defende a flexibilidade na designação de autoridade para receber comunicações de provedores",
+      "nucleo": "defendeu a flexibilidade na designação de autoridade para receber comunicações de provedores",
+      "tipo": "escopo",
+      "trecho": "aos crimes referentes a material de abuso infantil",
+      "char_start": 74234,
+      "char_end": 74284
+    },
+    {
+      "falante": "George Neves Lodder",
+      "turno_id": 26,
+      "opiniao": "defende a possibilidade de autoridades solicitarem diretamente dados de conexão e cadastrais sem ordem judicial",
+      "nucleo": "defendeu que autoridades possam solicitar diretamente dados de conexão e cadastrais sem ordem judicial",
+      "tipo": "condicao",
+      "trecho": "porque isso não adentra demais a intimidade das pessoas",
+      "char_start": 76767,
+      "char_end": 76822
+    },
+    {
+      "falante": "Marcel van Hattem",
+      "turno_id": 28,
+      "opiniao": "defende aprimoramento da legislação contra crimes online com respeito ao devido processo legal e critica o foco governamental em perseguições políticas",
+      "nucleo": "defendeu o aprimoramento da legislação contra crimes online e criticou o foco em perseguições políticas",
+      "tipo": "condicao",
+      "trecho": "quando se trata desse tipo de crime",
+      "char_start": 84658,
+      "char_end": 84693
+    },
+    {
+      "falante": "Marcel van Hattem",
+      "turno_id": 28,
+      "opiniao": "defende aprimoramento da legislação contra crimes online com respeito ao devido processo legal e critica o foco governamental em perseguições políticas",
+      "nucleo": "defendeu o aprimoramento da legislação contra crimes online e criticou o foco em perseguições políticas",
+      "tipo": "escopo",
+      "trecho": "no caso de pedófilo, no caso de pessoa que comete crimes contra crianças",
+      "char_start": 85970,
+      "char_end": 86042
+    },
+    {
+      "falante": "Wally Samya Nogueira Barros Noleto",
+      "turno_id": 34,
+      "opiniao": "defende que o acesso a redes sociais por condenados mesmo após prisão compromete a eficácia da punição e estimula a reincidência",
+      "nucleo": "defendeu que o acesso a redes sociais por condenados compromete a eficácia da punição e estimula a reincidência",
+      "tipo": "escopo",
+      "trecho": "como Polícia Civil",
+      "char_start": 94525,
+      "char_end": 94543
+    },
+    {
+      "falante": "Wally Samya Nogueira Barros Noleto",
+      "turno_id": 38,
+      "opiniao": "propõe a implementação de gratificação para policiais que concluem investigações com êxito como forma de incentivo",
+      "nucleo": "Propôs a implementação de gratificação para policiais que concluem investigações com êxito como forma de incentivo.",
+      "tipo": "condicao",
+      "trecho": "Se houver a possibilidade de",
+      "char_start": 97530,
+      "char_end": 97558
+    },
+    {
+      "falante": "George Neves Lodder",
+      "turno_id": 44,
+      "opiniao": "questiona a viabilidade prática da exclusão de infratores de redes sociais devido à facilidade de criação de perfis falsos",
+      "nucleo": "questiona a viabilidade prática da exclusão de infratores de redes sociais",
+      "tipo": "escopo",
+      "trecho": "no caso das redes sociais",
+      "char_start": 99576,
+      "char_end": 99601
+    },
+    {
+      "falante": "Gisela Simona",
+      "turno_id": 66,
+      "opiniao": "defende ampliação do esforço institucional contra a pedofilia por considerar as ações atuais insuficientes diante da gravidade do crime",
+      "nucleo": "defendeu a ampliação do esforço institucional contra a pedofilia",
+      "tipo": "condicao",
+      "trecho": "considerando a dimensão do Brasil e a complexidade do problema",
+      "char_start": 113609,
+      "char_end": 113671
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 22,
+      "falante": "Roseli Faria",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "porque precisamos entender e estar pares passo com o desenvolvimento de novas tecnologias",
+      "opiniao": "defende maior envolvimento de todos os Poderes e esferas de governo no enfrentamento da violência digital, com articulação constante com o desenvolvimento tecnológico"
+    },
+    {
+      "turno_id": 31,
+      "falante": "Silvye Alves",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "excecao",
+      "trecho": "sem responsabilização unilateral das plataformas",
+      "opiniao": "Defende um modelo de cooperação entre Estado, plataformas e instituições, sem responsabilização unilateral das plataformas, para garantir a identificação e punição de abusadores."
+    },
+    {
+      "turno_id": 60,
+      "falante": "Roseli Faria",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "na Secretaria",
+      "opiniao": "destaca a escassez de servidores na área, ao mencionar que apenas quatro pessoas na Secretaria cuidam de grupos vulnerabilizados, incluindo crianças e adolescentes"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.5,
+  "taxa_ancoragem": 0.8421,
+  "taxa_opiniao_intacta": 0.75
+}

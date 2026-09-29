@@ -1,0 +1,696 @@
+{
+  "sample_id": 190,
+  "n_opinioes": 32,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 30,
+  "n_fundamentos_propostos": 51,
+  "n_fundamentos_ancorados": 47,
+  "n_fundamentos_com_numero": 15,
+  "por_tipo": {
+    "dado": 45,
+    "autoridade": 2
+  },
+  "n_contrapontos_propostos": 3,
+  "n_com_contraponto": 2,
+  "n_rejeitados": 5,
+  "itens": [
+    {
+      "opiniao": "Defende a pesquisa clínica como instrumento de saúde pública, economia e acesso a tratamentos.",
+      "falante": "Marina Domenech",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "1,2 bilhão de reais foi destinado ao custeio de tratamentos para doenças raras, 90% desse total",
+          "char_start": 5920,
+          "char_end": 6015,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "mais de 55 mil pacientes impactados, mais de 2 bilhões de reais de investimento dentro do nosso País, mais de 5 bilhões de reais ao ano em impacto em atividades econômicas, mais de 48 mil profissionais no mercado de trabalho",
+          "char_start": 15386,
+          "char_end": 15610,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a aprovação de projeto de lei para regulamentar a pesquisa clínica e o sistema de ética em pesquisa no Brasil.",
+      "falante": "Marina Domenech",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se fôssemos o décimo, se ultrapassássemos estas casas, o que aconteceria? Teríamos mais de 55 mil pacientes impactados, mais de 2 bilhões de reais de investimento dentro do nosso País, mais de 5 bilhões de reais ao ano em impacto em atividades econômicas, mais de 48 mil profissionais no mercado de trabalho",
+          "char_start": 15303,
+          "char_end": 15610,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Reafirma o papel central da pesquisa clínica no tratamento de doenças raras e no impacto econômico nacional.",
+      "falante": "Marina Domenech",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Estes números servem exatamente para demonstrar de maneira efetiva quanto a pesquisa pode ser uma arma poderosa no tratamento dessa comunidade e na geração de recursos para o nosso País.",
+          "char_start": 15743,
+          "char_end": 15929,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a isenção de impostos sobre produtos e pesquisas clínicas para reduzir o custo do paciente de pesquisa",
+      "falante": "Marcela Pontes",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos um dos pacientes de pesquisa mais caros do mundo.",
+          "char_start": 20164,
+          "char_end": 20223,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica a resolução de 2004 sobre precificação por não considerar o valor terapêutico dos medicamentos",
+      "falante": "Marcela Pontes",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "uma resolução de 2004, que não atende, de maneira alguma, a necessidade de avaliação desses produtos de acordo com o valor que ele traz para a população.",
+          "char_start": 21446,
+          "char_end": 21599,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de mecanismos alternativos de incorporação, financiamento e acesso no SUS inspirados em experiências internacionais",
+      "falante": "Marcela Pontes",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Muitos países já trabalham em mecanismos alternativos de financiamento, possuem fundos específicos para financiamento de doenças raras.",
+          "char_start": 23045,
+          "char_end": 23180,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "argumenta que a judicialização não amplia o acesso e é mais cara que a incorporação no SUS",
+      "falante": "Marcela Pontes",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o gasto que se tem com a judicialização acaba sendo muito maior do que o de incorporação de um produto no Sistema Único de Saúde.",
+          "char_start": 23773,
+          "char_end": 23902,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de uma política de Estado para o Complexo Econômico-Industrial da Saúde",
+      "falante": "Marcela Pontes",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não temos uma política de Estado instituída em relação ao Complexo Econômico-Industrial da Saúde que nos permita realizar pesquisa e fazer produtos no nosso País.",
+          "char_start": 24099,
+          "char_end": 24261,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a incorporação de medicamentos para doenças raras mesmo com baixa prevalência, por valorizar cada vida e combater a burocracia que atrasa o acesso.",
+      "falante": "Laudeci Vieira dos Santos",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No Brasil, nós temos 13 milhões de brasileiros com algum tipo de doença rara",
+          "char_start": 27690,
+          "char_end": 27766,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "65 em cada 100 mil indivíduos",
+          "char_start": 27659,
+          "char_end": 27688,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "80% são de ordem genética",
+          "char_start": 27819,
+          "char_end": 27844,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "20% delas vêm de infecções por vírus ou bactérias",
+          "char_start": 27768,
+          "char_end": 27817,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "de acordo com a OMS, uma doença é classificada como rara quando afeta 65 em cada 100 mil indivíduos",
+          "char_start": 27589,
+          "char_end": 27688,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Ministério não tem muito incentivo para, por exemplo, incorporar um medicamento para dez pacientes",
+          "char_start": 28991,
+          "char_end": 29091,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "dez pacientes são dez vidas",
+          "char_start": 29185,
+          "char_end": 29212,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "o Ministério não tem muito incentivo para, por exemplo, incorporar um medicamento para dez pacientes",
+        "resposta": "Nós temos que pensar muito, porque dez pacientes são dez vidas. Não importa se são poucos.",
+        "objecao_char_start": 28991,
+        "objecao_char_end": 29091,
+        "resposta_char_start": 29150,
+        "resposta_char_end": 29240,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a aprovação mais ágil de medicamentos inovadores que cruzam a barreira hematoencefálica para pacientes com MPS II",
+      "falante": "Ana Maria Martins",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "mais de 60% — apresenta uma doença neurodegenerativa",
+          "char_start": 36699,
+          "char_end": 36751,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ele passou tantos anos dormindo entre os pais, e, um belo dia, entre 6 meses e 1 ano de tratamento, pegou o seu travesseiro e foi dormir no seu quarto",
+          "char_start": 41217,
+          "char_end": 41367,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende trazer pesquisas clínicas para o Brasil, estimular investimentos e revisar marcos regulatórios para novos medicamentos",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Flexibilizar o número de pacientes também é algo relevante, como no exemplo dado aqui pela Lauda:\"Dez pacientes são dez vidas\"",
+          "char_start": 51658,
+          "char_end": 51784,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica os limiares de custo-efetividade por impactarem negativamente a incorporação de tecnologias para doenças raras",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os aspectos econômicos da pauta em debate são tão oportunos e atuais que a melhor comprovação disso é a regulamentação pelo Governo dos limiares de custo-efetividade e seus efeitos indesejáveis para nós sobre as incorporações de tecnologias para as doenças raras",
+          "char_start": 52187,
+          "char_end": 52449,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a implantação completa da triagem neonatal em todos os estados, com coordenação centralizada pelo Ministério da Saúde",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nada mais oportuno do que falar sobre a implantação, por completo, do Programa de Triagem Neonatal em todos os Estados da Federação e no Distrito Federal",
+          "char_start": 54071,
+          "char_end": 54224,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há uma defasagem gritante entre os Estados na identificação de diagnósticos precoces",
+          "char_start": 54226,
+          "char_end": 54310,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Há uma defasagem gritante entre os Estados na identificação de diagnósticos precoces",
+        "resposta": "Isso exige, senhoras e senhores, uma coordenação tripartite e centralizada, a nosso ver, pelo Ministério da Saúde",
+        "objecao_char_start": 54226,
+        "objecao_char_end": 54310,
+        "resposta_char_start": 54312,
+        "resposta_char_end": 54425,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a criação de centros de referência em hospitais e o aprimoramento de protocolos clínicos para doenças raras",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é bom lembrar a necessidade do constante aprimoramento dos protocolos clínicos",
+          "char_start": 54560,
+          "char_end": 54638,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "é relevante a implementação de centros de referência em atendimento a esses pacientes, estabelecidos em hospitais",
+          "char_start": 54849,
+          "char_end": 54962,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a atualização da lista de doenças raras para incluir a ataxia SCA3, a fim de garantir benefícios e reconhecimento oficial",
+      "falante": "Edvaldo de Freitas",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "desde 1999, que não é feita uma análise a respeito disso",
+          "char_start": 73644,
+          "char_end": 73700,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O próprio INSS não aceita, por não constar dessa lista de doenças raras, a ataxia",
+          "char_start": 74502,
+          "char_end": 74583,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "assume a luta pela inclusão da ataxia SCA3 como uma missão pessoal e coletiva, decorrente de sua experiência e ativismo",
+      "falante": "Edvaldo de Freitas",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "eu sou defensor popular — eu fiz o primeiro curso de defensor popular do Distrito Federal justamente para lutar pelas comunidades vulneráveis e pelas famílias que se encontram em situação de vulnerabilidade — e hoje me vejo, dentro da minha casa, precisando lutar não somente pelo meu filho, mas por todas essas famílias",
+          "char_start": 74870,
+          "char_end": 75190,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende melhor comunicação formal entre a saúde e o CNJ para facilitar acesso a notas técnicas",
+      "falante": "Bruno Andrade",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "onde existe o NatJus, para quando nós precisarmos de uma nota técnica. Ali falta, às vezes, um pouco mais de acesso",
+          "char_start": 77315,
+          "char_end": 77430,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende preferência facilitada no acesso a tratamentos para doenças raras",
+      "falante": "Bruno Andrade",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não é possível que nós aqui sempre tenhamos que judicializar para conseguir o que já deveria existir nos centros de atenção",
+          "char_start": 78480,
+          "char_end": 78603,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de protocolos em todos os setores de atenção à saúde para doenças raras",
+      "falante": "Bruno Andrade",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Também faltam os protocolos em todos os setores de atenção. Sem isso, torna-se também impraticável saber onde realmente está faltando",
+          "char_start": 79142,
+          "char_end": 79275,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende atendimento diferenciado para pacientes com doenças raras a partir do diagnóstico",
+      "falante": "Bruno Andrade",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se a pessoa é portadora, tem a doença, é diagnosticada, a partir daí, tem uma preferência, um atendimento diferenciado",
+          "char_start": 79457,
+          "char_end": 79575,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende tratamento multidisciplinar que inclua apoio à família do paciente com doença rara",
+      "falante": "Bruno Andrade",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A família toda precisa de tratamento. Não é uma doença para a qual você traz facilidade para aquele paciente, há uma multidisciplinaridade necessária, para a qual também vale a judicialização, porque todos ficam doentes com o diagnosticado",
+          "char_start": 79848,
+          "char_end": 80087,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o cumprimento da política de doenças raras com garantia de acesso a tratamentos já incorporados no SUS",
+      "falante": "Simone Arede",
+      "turno_id": 29,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A doença está incorporada no SUS, está incorporada. Ela tem esse direito, mas o Governo não comprou a medicação.",
+          "char_start": 83762,
+          "char_end": 83874,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Aqui em Brasília, há uma menina que está grávida, vai ter um filho com deficiência porque o Governo não compra a medicação a que ela tem direito.",
+          "char_start": 83616,
+          "char_end": 83761,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Vários Estados ficam sem a fórmula. Quando existe alguma medicação que serve para esse tratamento, essa medicação não é distribuída.",
+          "char_start": 82709,
+          "char_end": 82841,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Governo não comprou a medicação. Ela vai ter uma criança com deficiência. Nós vamos ter mais uma pessoa com deficiência sem necessidade.",
+          "char_start": 83840,
+          "char_end": 83978,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reafirma a importância de fortalecer a pesquisa clínica no Brasil e coloca o setor à disposição para contribuir com o acesso",
+      "falante": "Marcela Pontes",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Fico feliz em ouvir da ANVISA que dados de mundo real têm sido considerados como um próximo passo a ser analisado, principalmente para doenças raras, que é algo extremamente importante devido às suas condições específicas.",
+          "char_start": 86215,
+          "char_end": 86437,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende incentivar pesquisas clínicas no Brasil para reduzir hiato tecnológico em doenças raras",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "para reduzir o nosso hiato tecnológico nesse contexto das doenças raras",
+          "char_start": 87697,
+          "char_end": 87768,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende revisão ou aceleração do PL 3.262/2020 para criar fundos de investimento em assistência e pesquisa",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É necessária a revisão ou aceleração do Projeto de Lei nº 3.262, de 2020, que eu citei aqui — esse é o mais relevante para nós outros —, e outros do gênero, para criar fundos de investimento para o atendimento assistencial e, principalmente, para o investimento em pesquisa e conhecimento tecnológico",
+          "char_start": 87771,
+          "char_end": 88071,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende triagem neonatal universal como forma de reduzir impactos clínicos e orçamentários",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós vamos ter o Distrito Federal com a grande maioria da identificação das doenças em triagem neonatal, mas, como foi dito aqui, outros Estados da Federação, com cinco ou seis identificações",
+          "char_start": 88183,
+          "char_end": 88373,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Isso é ruim para o paciente e é ruim para o Erário",
+          "char_start": 88375,
+          "char_end": 88425,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende implantação de centros de referência em hospitais para integrar especialidades e fomentar pesquisa",
+      "falante": "Rômulo Bezerra Marques",
+      "turno_id": 37,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O centro de referência instalado em unidades hospitalares para as doenças raras eu acho que é fundamental em termos de macrogestão",
+          "char_start": 89282,
+          "char_end": 89412,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que a ANVISA atue como parceira de pacientes e do desenvolvimento nacional, promovendo acesso rápido a medicamentos seguros e eficazes para doenças raras.",
+      "falante": "Fabricio Carneiro de Oliveira",
+      "turno_id": 41,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a ANVISA vai sempre buscar trabalhar para ser um parceiro dos pacientes e um parceiro também do desenvolvimento do País",
+          "char_start": 93394,
+          "char_end": 93513,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a priorização de políticas públicas para doenças raras, com foco em diagnóstico precoce, tratamento adequado e capacitação de profissionais de saúde",
+      "falante": "Andreia Siqueira",
+      "turno_id": 43,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu tenho um familiar que tem a Doença de Machado-Joseph, que é a chamada \"doença do tropeço\"",
+          "char_start": 95632,
+          "char_end": 95724,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a família tem essa doença: mãe e os filhos",
+          "char_start": 95763,
+          "char_end": 95805,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Até conseguimos trazer um dos filhos, que tem apenas 29 anos e foi diagnosticado com essa doença, aqui para Brasília, mas, infelizmente, não tinha mais solução para que ele pudesse fazer o tratamento",
+          "char_start": 95807,
+          "char_end": 96006,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende avanços legislativos e fiscalização contínua sobre políticas para pessoas com doenças raras, valorizando a atuação organizada da sociedade civil",
+      "falante": "Erika Kokay",
+      "turno_id": 50,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o dia é raro, por isso as doenças raras têm um dia que é muito raro, o 29 de fevereiro",
+          "char_start": 106939,
+          "char_end": 107025,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 13,
+      "falante": "Ana Maria Martins",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "ele começou a usar mais palavras, tinha mais expressão facial e sorria muito mais"
+    },
+    {
+      "turno_id": 13,
+      "falante": "Ana Maria Martins",
+      "campo": "contraponto",
+      "motivo": "resposta não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Eu faço aqui um apelo para a ANVISA de que repense o que significa o tempo de 1 ano, 2 anos para esses pacientes, o tempo que eles estão perdendo"
+    },
+    {
+      "turno_id": 16,
+      "falante": "Rômulo Bezerra Marques",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "temos que motivar pesquisadores, estimular investidores e entes públicos e privados, desenvolver a pesquisa em território nacional, aportar recursos orçamentários, inserir estímulos fiscais e revisar os marcos regulatórios para a entrada e produção de novos medicamentos no País"
+    },
+    {
+      "turno_id": 23,
+      "falante": "Edvaldo de Freitas",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "não consta dessa lista de doenças raras, a ataxia"
+    },
+    {
+      "turno_id": 29,
+      "falante": "Simone Arede",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "na fenilcetonúria, também é a mesma coisa. É dado um remédio só para as meninas — e já há uma discriminação, porque só as meninas enquanto estão grávidas podem usar. E isso também não acontece!"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9375,
+  "taxa_contraponto": 0.0625,
+  "taxa_ancoragem_fundamento": 0.9216
+}

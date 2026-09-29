@@ -1,0 +1,1488 @@
+{
+  "sample_id": 199,
+  "n_opinioes": 79,
+  "n_sem_ancora": 3,
+  "n_com_fundamento": 63,
+  "n_fundamentos_propostos": 104,
+  "n_fundamentos_ancorados": 103,
+  "n_fundamentos_com_numero": 30,
+  "por_tipo": {
+    "dado": 88,
+    "autoridade": 15
+  },
+  "n_contrapontos_propostos": 16,
+  "n_com_contraponto": 15,
+  "n_rejeitados": 2,
+  "itens": [
+    {
+      "opiniao": "reafirma sua autoridade como Presidente da sessão",
+      "falante": "Bia Kicis",
+      "turno_id": 35,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu sou a Presidente.",
+          "char_start": 30910,
+          "char_end": 30930,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita acusações sem apuração sobre mortes em hospitais",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 47,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "qualquer responsabilidade minha ou de quem quer que seja sem apuração desses pacientes",
+          "char_start": 33273,
+          "char_end": 33359,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "o Governo não se importa com o tema em questão",
+      "falante": "André Fernandes",
+      "turno_id": 52,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Governo não está nem aí para isso",
+          "char_start": 34640,
+          "char_end": 34675,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende prioridade de assento para Parlamentares e exigência de silêncio e respeito no recinto",
+      "falante": "Bia Kicis",
+      "turno_id": 69,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "existem Parlamentares de pé",
+          "char_start": 42533,
+          "char_end": 42560,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a aquisição emergencial de insulina e a autossuficiência nacional em medicamentos",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 79,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "para evitar prejuízo para cerca de 74 mil pacientes do SUS",
+          "char_start": 51613,
+          "char_end": 51671,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "com a compra de 1 milhão e 300 mil unidades para abastecimento emergencial",
+          "char_start": 52147,
+          "char_end": 52221,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "com base na Resolução da Diretoria Colegiada — RDC nº 2003, da ANVISA",
+          "char_start": 52008,
+          "char_end": 52077,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a compra internacional que fizemos foi autorizada pela ANVISA, por unanimidade da sua diretoria colegiada",
+          "char_start": 52582,
+          "char_end": 52687,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Já havia sido realizado no Governo anterior um pregão, sem manifestação de interesse das empresas",
+        "resposta": "Em janeiro de 2023, realizamos um segundo pregão, e também não houve interesse das empresas que alegaram problema na capacidade de produção.\n\nNós fizemos então, com base na Resolução da Diretoria Colegiada — RDC nº 2003, da ANVISA, a aquisição emergencial",
+        "objecao_char_start": 51747,
+        "objecao_char_end": 51844,
+        "resposta_char_start": 51847,
+        "resposta_char_end": 52102,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "permite manifestações livres de Deputados, mas exige postura de respeito da assessoria",
+      "falante": "Bia Kicis",
+      "turno_id": 86,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os Deputados podem se manifestar livremente, podem aplaudir",
+          "char_start": 63046,
+          "char_end": 63105,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Os Deputados podem se manifestar livremente, podem aplaudir",
+        "resposta": "eu peço à assessoria que mantenha uma postura de respeito",
+        "objecao_char_start": 63046,
+        "objecao_char_end": 63105,
+        "resposta_char_start": 63119,
+        "resposta_char_end": 63176,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita a Resolução nº 715/2023 por considerá-la ideológica e desvinculada das necessidades reais do sistema de saúde",
+      "falante": "Nikolas Ferreira",
+      "turno_id": 106,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No ponto 44, vemos que, em vez de o Conselho Nacional de Saúde estar preocupado com a estrutura de hospital, com pessoas morrendo nas filas de hospitais, precisando de insumos, ele está preocupado com a redução da idade de início de hormonização para 14 anos",
+          "char_start": 74222,
+          "char_end": 74480,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a resolução promove a sexualização precoce de crianças",
+      "falante": "Nikolas Ferreira",
+      "turno_id": 107,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Houve um homem que esteve aqui um dia — um homem que até hoje dá pavor em V.Exas. Ele se chama Jair Messias Bolsonaro — e deixou bem claro exatamente isso.Ele disse:\"Vocês querem sexualizar as criancinhas\". É exatamente o está acontecendo aqui, através do Conselho Nacional de Saúde, do que foi assinado pela senhora.",
+          "char_start": 75281,
+          "char_end": 75598,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "acusa a Ministra de contradição entre discurso e ações ao assinar resolução que extrapola o marco legal",
+      "falante": "Nikolas Ferreira",
+      "turno_id": 107,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a senhora assinou uma resolução que diz que, para poder combater as desigualdades estruturais, a solução seria a legalização do aborto e a legalização da maconha no Brasil.",
+          "char_start": 76391,
+          "char_end": 76563,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reitera que manifestações impróprias serão punidas com retirada do recinto",
+      "falante": "Bia Kicis",
+      "turno_id": 123,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A próxima vez que qualquer pessoa presente aqui que não seja Deputado aplaudir, vaiar, assobiar, fizer qualquer manifestação imprópria para o recinto será solicitada a se retirar",
+          "char_start": 78620,
+          "char_end": 78798,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "servidores do Ministério da Saúde cometeram afronta ao Parlamento ao aplaudir e gritar",
+      "falante": "André Fernandes",
+      "turno_id": 124,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "vem gente lá do Ministério da Saúde para ficar aqui — eu estou falando com esses três que estão ali no canto — gritando e aplaudindo",
+          "char_start": 79037,
+          "char_end": 79169,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende liberdade de manifestação dos Deputados dentro do Regimento",
+      "falante": "Bia Kicis",
+      "turno_id": 127,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Desde que não fira o Regimento, está tudo correto.",
+          "char_start": 79922,
+          "char_end": 79972,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o respeito à autoridade e à trajetória profissional da ministra",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 136,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "como ex-Presidente da FIOCRUZ, como membro da Academia Brasileira de Ciências e da Academia Mundial de Ciências",
+          "char_start": 81276,
+          "char_end": 81387,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o Ministério da Saúde foi confiado a mim pelo Presidente Lula, ou por qualquer Presidente que fosse",
+          "char_start": 81468,
+          "char_end": 81567,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "exige a retirada de não parlamentares do recinto sob pena de condução pela Polícia Legislativa",
+      "falante": "Bia Kicis",
+      "turno_id": 137,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "há pessoas presentes que não são Parlamentares",
+          "char_start": 81782,
+          "char_end": 81828,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a legitimidade da linguagem da resolução por desconsiderar a realidade biológica",
+      "falante": "Nikolas Ferreira",
+      "turno_id": 160,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um homem pode gestar, que um homem pode menstruar",
+          "char_start": 86412,
+          "char_end": 86461,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita que a Ministra da Saúde tenha poder para definir quem pode ou não menstruar",
+      "falante": "Dandara",
+      "turno_id": 165,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Ela é Ministra! Ela vai dizer quem pode e quem não pode menstruar como, se ela é Ministra, se ela é gestora do Ministério da Saúde, se ela é gestora do SUS? É isto que ela é: gestora! Ela é uma Ministra! Ela é uma Ministra! Ela vai dizer quem pode e quem não pode?",
+          "char_start": 88572,
+          "char_end": 88836,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a vacinação com base científica e rejeita desinformação sobre vacinas",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 176,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um estudo realizado também pela FIOCRUZ e pela UFBA, e que é referência para a ANVISA, demonstrou que a vacinação, seja com a vacina produzida pelo Instituto Butantan, seja com a produzida pela FIOCRUZ, seja com a da Pfizer, seja com a da Janssen, ela salvou vidas. Vidas foram salvas, isso tudo já foi estabelecido do ponto de vista estatístico, e eu posso compartilhar com os senhores.",
+          "char_start": 94933,
+          "char_end": 95320,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "A vacina passou pelas fases de ensaios clínicos e foi aprovada pela ANVISA",
+          "char_start": 94108,
+          "char_end": 94182,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a ANVISA já atestou",
+          "char_start": 94293,
+          "char_end": 94312,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "é a orientação de saúde pública em todo o mundo, não só no Brasil",
+          "char_start": 94810,
+          "char_end": 94875,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "a ideia de que a vacina é experimental é uma tese equivocada",
+        "resposta": "A vacina passou pelas fases de ensaios clínicos e foi aprovada pela ANVISA",
+        "objecao_char_start": 93923,
+        "objecao_char_end": 93983,
+        "resposta_char_start": 94108,
+        "resposta_char_end": 94182,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que proposta de projeto de lei é ato parlamentar legítimo e não desinformação",
+      "falante": "Bia Kicis",
+      "turno_id": 178,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "propor um projeto de lei é uma atividade parlamentar",
+          "char_start": 95649,
+          "char_end": 95701,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "isso não é desinformação",
+        "resposta": "Não se trata de desinformação, porque hoje nós temos quem escolhe o que é ou não é desinformação",
+        "objecao_char_start": 95703,
+        "objecao_char_end": 95727,
+        "resposta_char_start": 95956,
+        "resposta_char_end": 96052,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica a censura e restrição à liberdade de expressão durante a pandemia",
+      "falante": "Bia Kicis",
+      "turno_id": 178,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Facebook nos Estados Unidos sofreu pressão da Casa Branca. Ele não podia postar nem sequer falas de médicos sobre a vacina. Ele era obrigado a retirar",
+          "char_start": 96079,
+          "char_end": 96231,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Foram constatados casos terríveis de efeitos colaterais, que não podem ser publicados, sob pena de censura",
+          "char_start": 96366,
+          "char_end": 96472,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o combate à desinformação e entende que a liberdade deve ser exercida com responsabilidade social.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 180,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a vacina altera código genético e de que a vacina está matando crianças em todo o mundo, como vemos ser divulgado",
+          "char_start": 96953,
+          "char_end": 97066,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Com relação ao conceito de liberdade, é um conceito que também devemos discutir.",
+        "resposta": "A liberdade tem um limite, que é a responsabilidade para com o outro, é a responsabilidade com o cuidado da sociedade.",
+        "objecao_char_start": 97255,
+        "objecao_char_end": 97335,
+        "resposta_char_start": 97445,
+        "resposta_char_end": 97563,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende reorganizar a cadeia produtiva da saúde, com foco em segurança nacional e gestão eficaz da capacidade instalada no SUS",
+      "falante": "Alberto Mourão",
+      "turno_id": 192,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o País tinha a política da vacinação",
+          "char_start": 105838,
+          "char_end": 105874,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós ficamos refém, na pandemia, da vacina da China e da vacina da Índia",
+          "char_start": 105756,
+          "char_end": 105827,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós não tínhamos produção de máscara",
+          "char_start": 106066,
+          "char_end": 106102,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "vacina é questão de segurança nacional",
+          "char_start": 106025,
+          "char_end": 106063,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe reorganizar o SAMU em todo o País, com gestão centralizada e investimento em tecnologia para reduzir tempos de resposta",
+      "falante": "Alberto Mourão",
+      "turno_id": 192,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A um tempo de resposta para a chegada da ambulância entre 15 minutos a 20 minutos",
+          "char_start": 109091,
+          "char_end": 109172,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "eu estava, na semana passada, ao lado de um paciente, no meio de uma rua, esperando a ambulância e ela levou quase 20 minutos para chegar",
+          "char_start": 109337,
+          "char_end": 109474,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende vincular abertura de novas faculdades de medicina à cobertura da Saúde da Família e ao financiamento compartilhado de bolsas para formar médicos comprometidos com o SUS",
+      "falante": "Alberto Mourão",
+      "turno_id": 192,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "só poderiam ser abertas novas faculdades mediante a formação de mais médicos",
+          "char_start": 111903,
+          "char_end": 111979,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "onde houvesse residência médica em saúde da família, que a cidade que fosse sede tivesse pelo menos 80% de cobertura do Programa Saúde da Família",
+          "char_start": 112051,
+          "char_end": 112196,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a cidade se comprometeria a pagar 15% das bolsas de estudo e a mantenedora, mais outros 15%",
+          "char_start": 112264,
+          "char_end": 112355,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a reconstrução do Ministério da Saúde como prioridade diante dos danos causados por uma gestão considerada criminosa e negacionista",
+      "falante": "Lindbergh Farias",
+      "turno_id": 213,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Foi uma tragédia, uma gestão criminosa.",
+          "char_start": 125484,
+          "char_end": 125523,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "reconhece o SUS como um sistema essencial que salvou vidas mesmo sob ataques à sua credibilidade",
+      "falante": "Lindbergh Farias",
+      "turno_id": 213,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "foi esse Sistema Único de Saúde que nos salvou, no meio de toda a tragédia dessa política genocida.",
+          "char_start": 128445,
+          "char_end": 128544,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica o desmonte da cobertura vacinal no governo anterior por meio de desinformação e política anti-vacina",
+      "falante": "Jorge Solla",
+      "turno_id": 215,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "com o desastre da cobertura vacinal, retroagimos 30 anos — 30 anos!",
+          "char_start": 129092,
+          "char_end": 129159,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "na forma como criamfake newscontra a vacinação e na abordagem do ex-Presidente, por um retrocesso de 30 anos da cobertura vacinal em nosso País",
+          "char_start": 129218,
+          "char_end": 129361,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Reconhece a PEC da Transição como condição fundamental para a manutenção e expansão de políticas de saúde.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 231,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No PLOA encaminhado pelo Governo passado, teríamos entre 56% e 60% de corte orçamentário, num orçamento que já era debilitado.",
+          "char_start": 138037,
+          "char_end": 138163,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que a medicina deve ser exercida com humanismo e responsabilidade social.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 249,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Eu acho que o Pedro Nava, grande médico acadêmico e grande figura humana, dizia que a medicina é um exercício humano.",
+          "char_start": 150417,
+          "char_end": 150534,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Eu acho que Virchow dizia também que a medicina é uma ciência social aplicada, porque não basta o conhecimento técnico, é importante o conhecimento sobre o sofrimento humano.",
+          "char_start": 150535,
+          "char_end": 150709,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende tratar o câncer como emergência com cobertura completa da jornada do paciente",
+      "falante": "Weliton Prado",
+      "turno_id": 253,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No Brasil, o índice de mortalidade de crianças com o câncer está inalterado há 20 anos, enquanto, em outros países, a mortalidade diminui.",
+          "char_start": 153106,
+          "char_end": 153244,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No País, o número de mortes de crianças com câncer é muito grande, por falta de diagnóstico e de acesso a centros especializados, onde se faz o tratamento.",
+          "char_start": 153245,
+          "char_end": 153400,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nos Estados Unidos, o número de mortes de crianças por leucemia é muito pequeno. No Brasil, é muito, muito grande.",
+          "char_start": 153401,
+          "char_end": 153515,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nos últimos anos, mais de 100 mil pessoas faleceram por falta de acesso à radioterapia",
+          "char_start": 153865,
+          "char_end": 153951,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe rubrica específica no orçamento da saúde com recursos novos para o câncer",
+      "falante": "Weliton Prado",
+      "turno_id": 253,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os recursos virão de onde? O cobertor é pequeno, não queremos retirar recursos da saúde, estamos propondo novos recursos.",
+          "char_start": 152225,
+          "char_end": 152346,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Das moedas apreendidas no crime organizado, osbitcoins, que estão parados e podem salvar vidas ao compor esse fundo.",
+          "char_start": 152377,
+          "char_end": 152493,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Podemos garantir também recursos de todos os acordos, de todas as instâncias do Poder Judiciário.",
+          "char_start": 152495,
+          "char_end": 152592,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Futuramente comporão esse fundo recursos vindos de um percentual das bebidas alcoólicas e não alcoólicas e dos cigarros.",
+          "char_start": 152593,
+          "char_end": 152713,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende aprovação da política com fundo nacional para tratar câncer como emergência",
+      "falante": "Weliton Prado",
+      "turno_id": 253,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É fundamental aprovarmos a nova Política Nacional de Enfrentamento ao Câncer com o Fundo Nacional, que garantirá recursos para financiamento das ações de enfrentamento ao câncer, para que o câncer seja tratado como uma doença emergencial.",
+          "char_start": 153516,
+          "char_end": 153754,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nos últimos anos, mais de 100 mil pessoas faleceram por falta de acesso à radioterapia.",
+          "char_start": 153865,
+          "char_end": 153952,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende urgência na criação de rubrica orçamentária com novos recursos para câncer",
+      "falante": "Weliton Prado",
+      "turno_id": 253,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Como Presidente da Comissão sobre o Combate ao Câncer, quero dizer que é muito importante criarmos uma rubrica no orçamento do Ministério da Saúde para o financiamento de ações para o enfrentamento do câncer, por meio de novos recursos.",
+          "char_start": 155161,
+          "char_end": 155397,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós últimos anos, fruto de emendas parlamentares ou de outros recursos, foram instalados dois aceleradores lineares no Brasil, um deles foi de emenda de minha autoria para o Hospital de Clínicas da UFU — Universidade Federal de Uberlândia. Essa quantidade é um verdadeiro absurdo, perto da demanda que nós temos em relação à radioterapia.",
+          "char_start": 154762,
+          "char_end": 155100,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende vacinação escolar contra HPV para prevenir câncer do colo de útero",
+      "falante": "Weliton Prado",
+      "turno_id": 253,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos que incentivar as crianças a serem vacinadas contra o HPV, o que representa a cura de 6% dos tipos de câncer, principalmente o câncer do colo de útero.",
+          "char_start": 155963,
+          "char_end": 156124,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita que o Conselho Nacional de Saúde trate de temas como aborto e legalização da maconha, que devem ser decididos pelo Congresso",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 256,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Brasil não tem sequer leitos para atender a todos",
+          "char_start": 158211,
+          "char_end": 158262,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Existe um vídeo muito bom da Deputada Chris Tonietto, que, infelizmente, não se faz presente — ela está tomando conta do filho recém-nascido. O vídeo traz duas questões: aborto e legalização da maconha",
+          "char_start": 157778,
+          "char_end": 157979,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que homem e mulher são definições biológicas e rejeita a noção de gênero não binário em políticas de saúde",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 256,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "De acordo com a genética e com a biologia, existe homem, existe mulher, e não existe uma terceira via",
+          "char_start": 158948,
+          "char_end": 159049,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a possibilidade de mudança de sexo para menores de 18 anos, especialmente sem consentimento dos pais",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 256,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um menor de 18 anos que comete um crime não pode ser apenado. Ele é tido como inimputável por não ter discernimento completo, ele não é capaz de decidir e saber o que é o bem e o que é o mal",
+          "char_start": 159265,
+          "char_end": 159455,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Ao que tudo indica, este processo poderia caminhar sem o consentimento dos pais",
+          "char_start": 159745,
+          "char_end": 159824,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "acusa a esquerda de silenciar debates científicos legítimos e de usar rótulos para desqualificar oposição",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 256,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se você é contra as cotas raciais, você é racista; se você é contra o PLC 122, você é homofóbico; se você fala alguma coisa sobre alerta de vacina contra a COVID, você é tido como negacionista",
+          "char_start": 163044,
+          "char_end": 163236,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Se você é contra as cotas raciais, você é racista; se você é contra o PLC 122, você é homofóbico; se você fala alguma coisa sobre alerta de vacina contra a COVID, você é tido como negacionista",
+        "resposta": "É lamentável que a Esquerda tenha tomado este caminho.Às vezes, as pessoas não entendem por que a sociedade está polarizada, Presidente Bia Kicis. Eu explico. A sociedade está polarizada porque não existe mais debate",
+        "objecao_char_start": 163044,
+        "objecao_char_end": 163236,
+        "resposta_char_start": 162826,
+        "resposta_char_end": 163042,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a vacinação obrigatória como medida de proteção coletiva e responsabiliza o negacionismo pelo retrocesso na cobertura vacinal.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 257,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Voltamos 30 anos atrás!",
+          "char_start": 166649,
+          "char_end": 166672,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o sarampo, que, infelizmente, retornou",
+          "char_start": 165858,
+          "char_end": 165896,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "a poliomielite, que é um risco para o Brasil",
+          "char_start": 165805,
+          "char_end": 165849,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "seguindo a lei, ou seja, o Estatuto da Criança e do Adolescente",
+          "char_start": 164387,
+          "char_end": 164450,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que críticas às vacinas foram censuradas e que os questionamentos se revelaram válidos",
+      "falante": "Eduardo Bolsonaro",
+      "turno_id": 259,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O número de processos abertos na Justiça na Grã-Bretanha dá um retrato: são 19 por morte e 364 por sequelas graves",
+          "char_start": 168318,
+          "char_end": 168432,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Eu mesmo tomei a vacina da Pfizer e depois peguei COVID!",
+          "char_start": 168915,
+          "char_end": 168971,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "você tinha que escrever de outra forma para fazer menção a ela na rede social",
+        "resposta": "você não podia nem sequer falar a palavra \"vacina\"",
+        "objecao_char_start": 168693,
+        "objecao_char_end": 168770,
+        "resposta_char_start": 168641,
+        "resposta_char_end": 168691,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a inclusão dos hospitais do Rio de Janeiro em um parque de saúde como solução emergencial",
+      "falante": "Aureo Ribeiro",
+      "turno_id": 273,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os hospitais do Rio de Janeiro, infelizmente, carecem de muita atenção",
+          "char_start": 178259,
+          "char_end": 178329,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a liberação do cultivo de maconha para uso medicinal, inclusive em assentamentos do MST, para garantir acesso a medicamentos e evitar importação",
+      "falante": "Padre João",
+      "turno_id": 287,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "poder, nos seus assentamentos, plantar maconha, e nós mesmos nos beneficiarmos e não termos que importar esse produto dos Estados Unidos",
+          "char_start": 190547,
+          "char_end": 190683,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Os pobres estão excluídos de um medicamento tão importante por causa da criminalização de uma planta!",
+          "char_start": 190685,
+          "char_end": 190786,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Embora haja uma criminalização, uma hipocrisia reinante aqui",
+        "resposta": "eu ainda espero, na minha vida, ver o MST, que está sendo criminalizado — estava na Comissão —, poder, nos seus assentamentos, plantar maconha, e nós mesmos nos beneficiarmos e não termos que importar esse produto dos Estados Unidos",
+        "objecao_char_start": 190389,
+        "objecao_char_end": 190449,
+        "resposta_char_start": 190451,
+        "resposta_char_end": 190683,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "o Governo Lula traiu o compromisso com evangélicos ao homologar resoluções que favorecem o aborto e o uso de drogas",
+      "falante": "André Fernandes",
+      "turno_id": 302,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o então candidato à Presidência da República Luiz Inácio Lula da Silva fez compromisso com os evangélicos",
+          "char_start": 194256,
+          "char_end": 194361,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nosso Projeto de Governo tem compromisso com a Vida plena em todas as suas fases. Para mim a vida é sagrada, obra das mãos do Criador e meu compromisso sempre foi e será com sua proteção. Sou pessoalmente contra o aborto...",
+          "char_start": 196652,
+          "char_end": 196875,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Na carta de compromisso para com os evangélicos, havia dois pontos que, na época, chamaram muito a atenção",
+          "char_start": 194603,
+          "char_end": 194709,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não tem força legal. Não poderíamos ter feito nada",
+        "resposta": "Poderiam e inclusive o Governo anterior fez! Não homologou, quando tratava de aborto legal.",
+        "objecao_char_start": 197084,
+        "objecao_char_end": 197134,
+        "resposta_char_start": 197137,
+        "resposta_char_end": 197228,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "a homologação da resolução do CNS que reduz a idade para mudança de sexo é inaceitável",
+      "falante": "André Fernandes",
+      "turno_id": 302,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "na 17ª Conferência, o Conselho Nacional de Saúde trata, no item 44 da resolução, da redução da idade, de 18 para 14 anos, para aquelas crianças — crianças! — que queiram mudar de sexo",
+          "char_start": 197240,
+          "char_end": 197423,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a postura do Ministério da Saúde representa uma afronta aos valores cristãos",
+      "falante": "André Fernandes",
+      "turno_id": 302,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu falo como cristão",
+          "char_start": 196500,
+          "char_end": 196520,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o Ministério da Saúde do Lula, à frente do qual está V.Exa., simplesmente, homologa a resolução",
+          "char_start": 197720,
+          "char_end": 197815,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a manutenção dos conselhos de saúde e a homologação de todas as resoluções da Conferência Nacional de Saúde para análise técnica e legal.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 304,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "garantir atenção em saúde às pessoas com sequelas e familiares de vítimas de COVID-19",
+          "char_start": 201055,
+          "char_end": 201140,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "implementar política para pessoas com deficiência",
+          "char_start": 201142,
+          "char_end": 201191,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "V.Exas. estão mirando o foco em três resoluções polêmicas",
+        "resposta": "não fujo de controvérsias, mas não se trata aqui de entrar num debate específico sobre qual deve ser a política para drogas, qual deve ser a política para aborto, porque respeitarei o que a legislação define, o que é diferente dos estudos científicos",
+        "objecao_char_start": 201223,
+        "objecao_char_end": 201280,
+        "resposta_char_start": 201284,
+        "resposta_char_end": 201534,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Rejeita a ideia de veto a resoluções de conferências e defende a abordagem das drogas como questão de saúde pública.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 307,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não existe veto a resoluções de conferências",
+          "char_start": 203838,
+          "char_end": 203882,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende o diálogo com todas as religiões para promoção da saúde, mantendo a laicidade do Estado.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 313,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "tenho procurado também todas as lideranças religiosas, para elas se irmanarem comigo na campanha de vacinação.",
+          "char_start": 207917,
+          "char_end": 208027,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "É isso que pressupõe o Estado moderno e democrático. É isso que vige na Constituição do Brasil",
+          "char_start": 208074,
+          "char_end": 208168,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a Resolução nº 715/2023 por falta de base científica e por promover hormonização de adolescentes em processo de puberdade",
+      "falante": "Priscila Costa",
+      "turno_id": 314,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "de 95% das crianças que têm crise de identidade sexual, 75%, após a puberdade, serão reconhecidas com o seu próprio sexo biológico",
+          "char_start": 209506,
+          "char_end": 209636,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "oManual de Sexualidade e Psicologia, daAssociação Pediátrica Americana",
+          "char_start": 209421,
+          "char_end": 209491,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Quais são os benefícios de saúde para esses adolescentes?",
+        "resposta": "O Ministério da Saúde não se apoia em estudos científicos?",
+        "objecao_char_start": 209283,
+        "objecao_char_end": 209340,
+        "resposta_char_start": 209341,
+        "resposta_char_end": 209399,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a análise técnica e democrática das resoluções da Conferência Nacional de Saúde.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 316,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A Dra. Zilda Arns, com o soro caseiro, salvou a vida de muitas crianças.",
+          "char_start": 210632,
+          "char_end": 210704,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "De modo algum, eu dei cientificidade a nenhuma religião na minha fala.",
+        "resposta": "Eu falei de...",
+        "objecao_char_start": 210749,
+        "objecao_char_end": 210819,
+        "resposta_char_start": 210820,
+        "resposta_char_end": 210834,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Rejeita o QualiSUS Cardio por prejudicar o acesso à cardiologia e anuncia sua revisão.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 323,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "levou muitos serviços praticamente ao descredenciamento",
+          "char_start": 212939,
+          "char_end": 212994,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O impacto dele na desassistência da área cardiológica é muito grande",
+          "char_start": 213188,
+          "char_end": 213256,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não vou discutir as intenções",
+        "resposta": "quando existe um programa de qualificação, ele tem que ser gradativo e não pode resultar numa dificuldade de atenção, ainda mais numa área como a cardiologia, que pode ter implicações tão graves",
+        "objecao_char_start": 213258,
+        "objecao_char_end": 213287,
+        "resposta_char_start": 213294,
+        "resposta_char_end": 213488,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende que meninas vítimas de estupro devem ser protegidas e não obrigadas a gestar, criticando a omissão de setores que se dizem defensores da vida",
+      "falante": "Ana Pimentel",
+      "turno_id": 338,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "61% da violência sexual, do estupro, acontece com meninas abaixo de 13 anos",
+          "char_start": 217181,
+          "char_end": 217256,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Condena a perseguição a pessoas trans e o uso político do termo 'ideologia de gênero' para atacar a diversidade sexual",
+      "falante": "Ana Pimentel",
+      "turno_id": 338,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "pelo 14º ano seguido, o Brasil é o país que mais mata pessoas trans",
+          "char_start": 217551,
+          "char_end": 217618,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Acusa o Deputado Nikolas Ferreira de propagar discurso de ódio que impacta negativamente a saúde e a vida de pessoas trans e vítimas de violência",
+      "falante": "Ana Pimentel",
+      "turno_id": 338,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o Deputado Nikolas Ferreira envergonha Minas Gerais quando agride as pessoas trans e as famílias que têm crianças vítimas de violência e não podem ser protegidas",
+          "char_start": 217866,
+          "char_end": 218027,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a necessidade de combater discursos de ódio por seus efeitos letais sobre a população vulnerável",
+      "falante": "Ana Pimentel",
+      "turno_id": 342,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Esse discurso de ódio extermina, mata e adoece",
+          "char_start": 219221,
+          "char_end": 219267,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a Ministra explique a falta de avanço na gestão dos hospitais federais do Rio, apesar de sete meses de governo",
+      "falante": "Roberto Monteiro",
+      "turno_id": 351,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há serviços fechados nos hospitais federais do Rio porque os equipamentos estão quebrados. Os aparelhos de Raios X, mamografia e endoscopia do Hospital de Bonsucesso e o angiógrafo do Hospital dos Servidores do Estado estão quebrados.",
+          "char_start": 222570,
+          "char_end": 222804,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em 7 meses, não deu para resolver isso?",
+          "char_start": 222805,
+          "char_end": 222844,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "são 7 meses de gestão nos hospitais do Rio. No entanto, não houve avanço de fato — essa é uma colocação. Os hospitais, segundo pacientes, funcionários e noticiário continuam, desabastecidos. As obras tão necessárias, como a cozinha do Andaraí, a subestação do Hospital de Bonsucesso e o Hospital do Cérebro, não saíram do papel, por quê?",
+          "char_start": 222892,
+          "char_end": 223229,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Não se trata de um ataque, porque a senhora não está em todos os lugares.",
+        "resposta": "A senhora não pode estar em todos os lugares. Por gentileza, com a sua competência, pode nos responder?",
+        "objecao_char_start": 223231,
+        "objecao_char_end": 223304,
+        "resposta_char_start": 223370,
+        "resposta_char_end": 223473,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o combate ao negacionismo e a retomada de programas como o Farmácia Popular e o Mais Médicos são essenciais para a reconstrução do País",
+      "falante": "Aliel Machado",
+      "turno_id": 357,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "São ações concretas, como o Farmácia Popular e o Programa Mais Médicos, dilacerados pelo Governo anterior, que, por questão ideológica, tirou a oportunidade de um ser pobre, humilde, ter atendimento com dignidade.",
+          "char_start": 225764,
+          "char_end": 225977,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia publicamente a atuação da Ministra da Saúde como exemplo de republicanismo e resistência frente às desigualdades e à retórica baseada no ódio",
+      "falante": "Aliel Machado",
+      "turno_id": 361,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Freud já dizia que as neuroses são determinadas pela história de amor do indivíduo",
+          "char_start": 228091,
+          "char_end": 228173,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Muitos, com os seus problemas, que não são conhecidos por fora, se agarram nisso para justificar as barbáries, os crimes, as mentiras que são ditas",
+        "resposta": "V.Exa., que se torna ainda mais forte, vem aqui dar um exemplo de republicanismo e mostra a força do nosso Ministério, de toda a sua equipe, do nosso SUS, que é tão importante neste momento de reconstrução dos grandes desafios",
+        "objecao_char_start": 228175,
+        "objecao_char_end": 228322,
+        "resposta_char_start": 228354,
+        "resposta_char_end": 228580,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Reafirma sua integridade e compromisso ético, e defende a importância do diálogo e do confronto de ideias para o progresso.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 367,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "eu creio que nós temos que avançar no diálogo dos problemas, das questões, dos esclarecimentos, inclusive com o confronto de ideias",
+          "char_start": 231510,
+          "char_end": 231641,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o enfrentamento ao negacionismo como prioridade e a responsabilização do governo Bolsonaro por genocídio ianomâmi e mortes por atraso na vacinação",
+      "falante": "Dorinaldo Malafaia",
+      "turno_id": 369,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "300 mil pessoas tivessem ido à morte por falta da vacina, que não chegou a tempo",
+          "char_start": 232387,
+          "char_end": 232467,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a abertura plena do Hospital Universitário no Amapá para atendimento à população",
+      "falante": "Dorinaldo Malafaia",
+      "turno_id": 369,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O Hospital Universitário é um dos maiores, ou o maior da Região Norte",
+          "char_start": 233072,
+          "char_end": 233141,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a criação de uma política de memória da COVID-19, com memorial e envolvimento do Ministério da Educação, para combater o negacionismo.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 378,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "mais de 700 mil mortes",
+          "char_start": 236732,
+          "char_end": 236754,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a divulgação de memórias das vítimas da COVID-19 como forma de exigir justiça e combater o negacionismo.",
+      "falante": "Pedro Uczai",
+      "turno_id": 381,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "De todos da minha família, a moça que casou com meu sobrinho, 36 anos, enfermeira, desesperada, pedia a vacina, e gente empilhando dentro do hospital em Curitiba. E a vacina não chegou. Agora, uma menina de 5 anos está sendo cuidada pelos avós.",
+          "char_start": 239071,
+          "char_end": 239315,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a superação de desigualdades históricas, o combate ao negacionismo e ao racismo, e a reconstrução do Brasil com justiça social e inclusão.",
+      "falante": "Ministra Nísia Trindade Lima",
+      "turno_id": 383,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "24 anos atrás, eu publicava o livro que foi a minha tese de doutorado:Um Sertão Chamado Brasil, que fala das nossas desigualdades, que fala das dificuldades de olharmos para o País sem ser sob o ângulo, que muitos intelectuais olharam, da Europa para o País.",
+          "char_start": 240953,
+          "char_end": 241211,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 257,
+      "falante": "Ministra Nísia Trindade Lima",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que isso vai encarecer o produto"
+    },
+    {
+      "turno_id": 302,
+      "falante": "André Fernandes",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "o Governo Lula, à frente do qual está V.Exa., simplesmente, homologa a resolução"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.7975,
+  "taxa_contraponto": 0.1899,
+  "taxa_ancoragem_fundamento": 0.9904
+}

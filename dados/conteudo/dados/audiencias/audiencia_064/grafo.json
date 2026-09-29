@@ -1,0 +1,361 @@
+{
+  "sample_id": 64,
+  "assunto": "Fomento e estrutura para o turismo religioso no Brasil",
+  "nos": [
+    {
+      "id": "p::Rodrigo Coelho",
+      "tipo": "participante",
+      "rotulo": "Rodrigo Coelho",
+      "dados": {
+        "cargo": "",
+        "n_opinioes": 2
+      }
+    },
+    {
+      "id": "p::Alexandre Márcio de Souza",
+      "tipo": "participante",
+      "rotulo": "Alexandre Márcio de Souza",
+      "dados": {
+        "cargo": "representante dos Gideões Missionários da Última Hora",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "p::Thayse Tristão Rosa de Souza",
+      "tipo": "participante",
+      "rotulo": "Thayse Tristão Rosa de Souza",
+      "dados": {
+        "cargo": "",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "p::Ariane Nakamura",
+      "tipo": "participante",
+      "rotulo": "Ariane Nakamura",
+      "dados": {
+        "cargo": "",
+        "n_opinioes": 2
+      }
+    },
+    {
+      "id": "p::Marcos Jaboski",
+      "tipo": "participante",
+      "rotulo": "Marcos Jaboski",
+      "dados": {
+        "cargo": "gestor do Santuário Santa Paulina",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende diferenciação na cobrança de ECAD entre eventos comerciais e eventos religiosos ou filantrópicos",
+      "dados": {
+        "falante": "Rodrigo Coelho",
+        "cargo": "",
+        "turno_id": 16,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "Tem que haver diferenciação entre um evento tipicamente comercial e um evento que tem caráter filantrópico ou cunho religioso",
+            "preservado": true,
+            "char_start": 37317,
+            "char_end": 37442
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "defende investimentos em infraestrutura rodoviária e conectividade para o desenvolvimento do turismo religioso",
+      "dados": {
+        "falante": "Rodrigo Coelho",
+        "cargo": "",
+        "turno_id": 26,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "escopo",
+            "trecho": "no caso, Nova Trento",
+            "preservado": false,
+            "char_start": 54926,
+            "char_end": 54946
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "defende a participação no 38º Congresso dos Gideões Missionários da Última Hora como evento de retorno pós-pandemia",
+      "dados": {
+        "falante": "Alexandre Márcio de Souza",
+        "cargo": "representante dos Gideões Missionários da Última Hora",
+        "turno_id": 14,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "condicao",
+            "trecho": "Como eu disse, durante os 2 anos da pandemia não houve congresso",
+            "preservado": true,
+            "char_start": 29857,
+            "char_end": 29921
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "defende que eventos religiosos com finalidade de fé, não comercial, não devem ser alvo de cobrança de direitos autorais pelo ECAD",
+      "dados": {
+        "falante": "Thayse Tristão Rosa de Souza",
+        "cargo": "",
+        "turno_id": 15,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "defende a destinação de recursos para estruturação de rotas de turismo religioso e de santuários, e a promoção de encontros com partes interessadas",
+      "dados": {
+        "falante": "Ariane Nakamura",
+        "cargo": "",
+        "turno_id": 17,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "prazo",
+            "trecho": "para a próxima legislatura",
+            "preservado": false,
+            "char_start": 40802,
+            "char_end": 40828
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "defende a inclusão do turismo religioso como segmento distinto no CADASTUR",
+      "dados": {
+        "falante": "Ariane Nakamura",
+        "cargo": "",
+        "turno_id": 17,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0006",
+      "tipo": "opiniao",
+      "rotulo": "defende a instalação urgente de antena de telefonia e melhoria de infraestrutura em Nova Trento por causa da importância do turismo religioso",
+      "dados": {
+        "falante": "Marcos Jaboski",
+        "cargo": "gestor do Santuário Santa Paulina",
+        "turno_id": 25,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "prazo",
+            "trecho": "com urgência",
+            "preservado": true,
+            "char_start": 50435,
+            "char_end": 50447
+          }
+        ]
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Alexandre Márcio de Souza",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Thayse Tristão Rosa de Souza",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Ariane Nakamura",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Ariane Nakamura",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Marcos Jaboski",
+      "destino": "o::0006",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "p::Alexandre Márcio de Souza",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Alexandre Márcio de Souza",
+      "destino": "p::Thayse Tristão Rosa de Souza",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Thayse Tristão Rosa de Souza",
+      "destino": "p::Rodrigo Coelho",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "p::Ariane Nakamura",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Ariane Nakamura",
+      "destino": "p::Rodrigo Coelho",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "p::Marcos Jaboski",
+      "tipo": "fala_apos",
+      "peso": 3.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Marcos Jaboski",
+      "destino": "p::Rodrigo Coelho",
+      "tipo": "fala_apos",
+      "peso": 3.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "p::Alexandre Márcio de Souza",
+      "tipo": "concede_palavra",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "p::Ariane Nakamura",
+      "tipo": "concede_palavra",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Rodrigo Coelho",
+      "destino": "p::Marcos Jaboski",
+      "tipo": "concede_palavra",
+      "peso": 3.0,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0003",
+      "tipo": "mesmo_tema",
+      "peso": 0.7297,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0004",
+      "tipo": "mesmo_tema",
+      "peso": 0.7903,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.7574,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.6667,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.8222,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.5679,
+      "dados": {}
+    }
+  ],
+  "resumo": {
+    "sample_id": 64,
+    "n_participantes": 5,
+    "n_opinioes": 7,
+    "arestas": {
+      "emitiu": 7,
+      "fala_apos": 7,
+      "concede_palavra": 3,
+      "mesmo_tema": 6
+    },
+    "camadas_exatas": [
+      "emitiu",
+      "fala_apos",
+      "concede_palavra"
+    ]
+  }
+}

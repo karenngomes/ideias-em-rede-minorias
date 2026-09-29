@@ -1,0 +1,99 @@
+{
+  "sample_id": 181,
+  "n_opinioes": 20,
+  "n_decompostas": 20,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 9,
+  "n_ancorados": 6,
+  "n_rejeitados": 3,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 5,
+  "por_tipo": {
+    "condicao": 3,
+    "atribuicao": 1,
+    "prazo": 2
+  },
+  "perdas": [
+    {
+      "falante": "Maria José Giongo",
+      "turno_id": 2,
+      "opiniao": "Defende que parar de fumar melhora a qualidade de vida e reduz riscos de doenças",
+      "nucleo": "Defendeu que parar de fumar melhora a qualidade de vida e reduz riscos de doenças",
+      "tipo": "condicao",
+      "trecho": "Quanto mais cedo a pessoa parar de fumar, menor será o risco de adoecer",
+      "char_start": 10871,
+      "char_end": 10942
+    },
+    {
+      "falante": "Gustavo San Martin",
+      "turno_id": 17,
+      "opiniao": "defende a atualização imediata do protocolo clínico de DPOC no SUS para garantir tratamento equânime e baseado em evidências, com base em diretrizes internacionais",
+      "nucleo": "Defendeu a atualização imediata do protocolo clínico de DPOC no SUS para garantir tratamento equânime e baseado em evidências.",
+      "tipo": "prazo",
+      "trecho": "2 anos depois",
+      "char_start": 67279,
+      "char_end": 67292
+    },
+    {
+      "falante": "Gustavo San Martin",
+      "turno_id": 17,
+      "opiniao": "defende a atualização imediata do protocolo clínico de DPOC no SUS para garantir tratamento equânime e baseado em evidências, com base em diretrizes internacionais",
+      "nucleo": "Defendeu a atualização imediata do protocolo clínico de DPOC no SUS para garantir tratamento equânime e baseado em evidências.",
+      "tipo": "condicao",
+      "trecho": "considerando todo o rito processual",
+      "char_start": 66755,
+      "char_end": 66790
+    },
+    {
+      "falante": "Margareth Dalcolmo",
+      "turno_id": 21,
+      "opiniao": "defende fiscalização rigorosa de cigarros eletrônicos com apoio institucional para combater a indústria tabagista",
+      "nucleo": "Defendeu fiscalização rigorosa de cigarros eletrônicos para combater a indústria tabagista",
+      "tipo": "atribuicao",
+      "trecho": "com o seu prestígio, com a sua condição de nos ajudar",
+      "char_start": 69059,
+      "char_end": 69112
+    },
+    {
+      "falante": "Gustavo San Martin",
+      "turno_id": 29,
+      "opiniao": "reivindica encaminhamento para atualização rápida do protocolo clínico de DPOC no âmbito federal, diante de disparidades entre estados e mortalidade elevada",
+      "nucleo": "reivindica encaminhamento para atualização rápida do protocolo clínico de DPOC no âmbito federal",
+      "tipo": "condicao",
+      "trecho": "enquanto não conseguimos, com sucesso, prevenir doenças decorrentes do tabagismo, como a DPOC",
+      "char_start": 73082,
+      "char_end": 73175
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Sandra Marques",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "atribuicao",
+      "trecho": "com base na RDC nº 46/2009",
+      "opiniao": "defende a manutenção da proibição de cigarros eletrônicos no Brasil com base na RDC nº 46/2009"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Mônica Andreis",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "na reforma tributária",
+      "opiniao": "defende o reajuste de impostos sobre tabaco e a vedação de subsídios, em linha com o imposto seletivo na reforma tributária"
+    },
+    {
+      "turno_id": 10,
+      "falante": "Mônica Andreis",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "como o PL 6.387/2019",
+      "opiniao": "defende o apoio a projetos de lei alinhados à Convenção-Quadro, como o PL 6.387/2019"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.1667,
+  "taxa_ancoragem": 0.6667,
+  "taxa_opiniao_intacta": 0.8
+}

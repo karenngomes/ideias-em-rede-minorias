@@ -1,0 +1,695 @@
+{
+  "sample_id": 77,
+  "n_opinioes": 33,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 31,
+  "n_fundamentos_propostos": 43,
+  "n_fundamentos_ancorados": 40,
+  "n_fundamentos_com_numero": 18,
+  "por_tipo": {
+    "dado": 35,
+    "autoridade": 5
+  },
+  "n_contrapontos_propostos": 9,
+  "n_com_contraponto": 6,
+  "n_rejeitados": 6,
+  "itens": [
+    {
+      "opiniao": "defende financiamento estrutural não tarifário, com a tarifa como complemento, para garantir universalidade, modicidade e frequência no transporte coletivo",
+      "falante": "Rafael Calabria",
+      "turno_id": 3,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós fizemos uma pesquisa sobre os contratos de ônibus das 12 maiores capitais brasileiras",
+          "char_start": 14983,
+          "char_end": 15072,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Apenas São Paulo, na época, tinha adotado o pagamento por custo e qualidade",
+          "char_start": 16152,
+          "char_end": 16227,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "critica o PL dos Idosos por não gerar benefício novo e por distorcer o atendimento ao custear gratuidades em vez do custo real",
+      "falante": "Rafael Calabria",
+      "turno_id": 3,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O PL dos Idosos tem um problema mais fácil de ser explicado, que é o fato de ele não gerar nenhum benefício novo, pois a gratuidade do idoso já está garantida pela legislação",
+          "char_start": 21395,
+          "char_end": 21569,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "custear a gratuidade já existente não é um formato muito prático de se fazer este subsídio, na medida em que pode gerar distorções",
+          "char_start": 22833,
+          "char_end": 22963,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende subsídio emergencial federal ágil, transparente e vinculado ao custo real da operação, para recuperar frota e frequência",
+      "falante": "Rafael Calabria",
+      "turno_id": 3,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É preciso pensar em subsidiar o custo real que o empresário tem e garantir que o sistema tenha uma frequência adequada para o usuário",
+          "char_start": 24940,
+          "char_end": 25073,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "gerar um legado positivo e, preferencialmente, subsidiar os custos reais, garantindo-se e estimulando-se o aumento da frota ou, pelo menos, a reposição da frota que foi retirada durante a pandemia",
+          "char_start": 24742,
+          "char_end": 24938,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende marco regulatório com divisão clara de responsabilidades, financiamento público direto e gestão regionalizada",
+      "falante": "Rafael Calabria",
+      "turno_id": 3,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós fizemos uma pesquisa sobre os contratos de ônibus das 12 maiores capitais brasileiras",
+          "char_start": 14983,
+          "char_end": 15072,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há realidades previstas com possíveis 40 anos de contrato, o que demora para conseguir fazer mudanças, inovar o setor e modificar aprendizados que houve no contrato",
+          "char_start": 17553,
+          "char_end": 17717,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a separação entre tarifa pública e remuneração do operador, com subsídios públicos para cobrir o diferencial",
+      "falante": "Marcos Bicalho dos Santos",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Este princípio, Deputado, já consta hoje da Lei nº 12.587, de 2012, a lei da Política Nacional de Mobilidade Urbana, que prevê a separação destas tarifas, mas apenas como uma diretriz.",
+          "char_start": 36860,
+          "char_end": 37044,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Naturalmente, essa separação das tarifas pode gerar desequilíbrios entre o custo da remuneração dos operadores e a receita obtida com a tarifa pública.",
+        "resposta": "Este diferencial tem que ser coberto com subsídios públicos, daí a dificuldade de avançar nesta proposta e de haver poucas cidades brasileiras praticando isso até a pandemia.",
+        "objecao_char_start": 37347,
+        "objecao_char_end": 37498,
+        "resposta_char_start": 37499,
+        "resposta_char_end": 37673,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que gratuidades no transporte sejam custeadas por orçamentos públicos, não pelas tarifas dos usuários",
+      "falante": "Marcos Bicalho dos Santos",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, para o senhor ter uma ideia, na média nacional, as gratuidades representam 20% do custo da tarifa média no Brasil.",
+          "char_start": 40903,
+          "char_end": 41023,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a extensão do subsídio ao óleo diesel para o transporte público coletivo urbano",
+      "falante": "Marcos Bicalho dos Santos",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós temos um projeto em tramitação aqui nesta Comissão de Viação e Transporte, que é o Projeto de Lei nº 5.141, de 2013, cujo substitutivo foi apresentado pelo Deputado Mauro Lopes, que introduz no marco legal do setor a possibilidade de subsídioao óleodieselconsumido no setor de transporte público coletivo urbano, assim como a Lei nº 9.445, de 1997, que concede essa subvenção aos barcos pesqueiros.",
+          "char_start": 41318,
+          "char_end": 41720,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Aliás, foi reafirmado recentemente na Lei Complementar nº 194, aprovada em 2022, em que o transporte coletivo aparece confirmado como serviço essencial, junto dos próprios combustíveis e dos serviços de comunicações.",
+          "char_start": 41974,
+          "char_end": 42190,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia o Projeto de Lei 3.278/2021 como marco estrutural para o transporte público urbano",
+      "falante": "Marcos Bicalho dos Santos",
+      "turno_id": 5,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Por fim, em termos mais estruturais, gostaria de citar o Projeto de Lei nº 3.278, de 2021, de autoria do Senador Antonio Anastasia, que atualiza o marco legal do setor.",
+          "char_start": 42192,
+          "char_end": 42360,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a integração de múltiplos modais de transporte com tarifa única e acessível.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu sonho, um dia, na minha cidade, o cidadão pegar sua bicicleta, ir até uma estação de BRT, ou de VLT, ou de metrô, ou de lotação, deixá-la, seguir a sua viagem, voltar depois, pegá-la e ir para sua casa, no seu bairro.",
+          "char_start": 45270,
+          "char_end": 45490,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Rejeita a construção de metrôs em cidades antigas como solução viável.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Fazer metrô ainda de superfície é possível, mas enterrar metrô em cidade consolidada, como a minha, que tem 250 anos, é discurso de campanha.",
+          "char_start": 46654,
+          "char_end": 46795,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende financiamento perene para a mobilidade urbana com participação da União.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não se faz metrô com dinheiro de IPTU, não se compra VLT, BRT com dinheiro de ISS.",
+          "char_start": 46395,
+          "char_end": 46477,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Critica a isenção tarifária automática por idade, por beneficiar quem não precisa.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Um desembargador aposentado do Tribunal de Contas, quem é Ministro do Tribunal de Contas ou um juiz aposentado ou um empresário no Brasil hoje, se tiver 65 anos ou mais, entra no ônibus, e não paga. Agora, o camelô que vai lutar pelo litro de leite para levar para o seu bairro, no final do dia, paga a passagem cheia.",
+          "char_start": 47429,
+          "char_end": 47747,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende divisão de 70% dos recursos para Municípios e 30% para Estados.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O projeto que saiu do Senado previa 80% para os Municípios e 20% para os Estados. Esse é o projeto original, cujo Relator atualmente na Câmara é o Deputado Isnaldo Bulhões Jr. Agora, o Deputado Isnaldo Bulhões Jr. deu um passo adiante e negociou lá que era 40/60. Nós berramos, e ontem eu passei pelo Senado, fiquei lá, e combinamos o seguinte: na pior das hipóteses, 30/70.",
+          "char_start": 49549,
+          "char_end": 49923,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende um sistema público de financiamento do transporte como o SUS.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Tem que haver o SUS do transporte coletivo, Deputado.",
+          "char_start": 54835,
+          "char_end": 54888,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende urgência na aprovação de financiamento e política integrada de mobilidade.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Este tema tem urgência e tem pressa, porque, se parar a mobilidade, para a farmácia, para o mercado, para o hospital, param os negócios e para a economia brasileira.",
+          "char_start": 55031,
+          "char_end": 55196,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende ações concretas para evitar colapso da mobilidade urbana.",
+      "falante": "Sebastião Melo",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós precisamos estar juntos. Os Municípios estão dentro da União. Os Governadores viraram as costas para este tema como o diabo virou para a cruz. Quem está bancando esse jogo são os Municípios.",
+          "char_start": 55205,
+          "char_end": 55399,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a responsabilização da União no financiamento do transporte público e critica o veto a recursos para o setor em comparação com o apoio a empresas aéreas",
+      "falante": "Elias Vaz",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós tivemos aqui a aprovação de ajuda para as empresas aéreas.",
+          "char_start": 58043,
+          "char_end": 58105,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Rejeita pedágio urbano no centro da cidade.",
+      "falante": "Sebastião Melo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Pedágio na cidade eu não vou colocar. Se eu colocar pedágio no centro da cidade, eu vou matar... Não dá.",
+          "char_start": 64316,
+          "char_end": 64420,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a taxação de empresas de aplicativos pelo uso da infraestrutura urbana.",
+      "falante": "Sebastião Melo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Não é possível que eu use uma malha viária da minha cidade com 35 mil veículos e eu não pague um centavo.",
+          "char_start": 64736,
+          "char_end": 64841,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "As empresas agora se concentraram também em São Paulo. Então, o ISS que elas pagavam lá não pagam mais.",
+          "char_start": 64842,
+          "char_end": 64945,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Eu não topo taxar o cara que pilota, porque esse coitado acha que ganha alguma coisa, mas, com a primeira peça que ele tem que trocar do carro, ele já está perdendo.",
+        "resposta": "Agora, as empresas têm que ser taxadas.",
+        "objecao_char_start": 64530,
+        "objecao_char_end": 64695,
+        "resposta_char_start": 64696,
+        "resposta_char_end": 64735,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende política perene de financiamento com apoio federal para transporte urbano.",
+      "falante": "Sebastião Melo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é preciso que haja uma política perene de financiamento dos modais de transporte e da infraestrutura das cidades, em 30 anos, 40 anos, 50 anos, seja a fundo perdido, seja por empréstimo internacional com o aval do Governo Federal, seja com dinheiro o BNDES.",
+          "char_start": 65210,
+          "char_end": 65467,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Propõe leasing de ônibus como modelo para renovação da frota com apoio estatal.",
+      "falante": "Sebastião Melo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um ônibus elétrico custa 2 milhões de reais; um ônibus comum custa 650 mil reais.",
+          "char_start": 65530,
+          "char_end": 65611,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Então, o Estado tem que bancar isso, por exemplo, alugando os ônibus, fazendo umleasing.",
+          "char_start": 65799,
+          "char_end": 65887,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende um sistema de transporte público financiado como o SUS.",
+      "falante": "Sebastião Melo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu vou chamá-lo aqui de SUT. A União tem que custear esse sistema, no mínimo, com aquilo que a lei federal decidiu.",
+          "char_start": 67133,
+          "char_end": 67248,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende participação da União e Estados no custeio da mobilidade urbana.",
+      "falante": "Sebastião Melo",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu acho que a União tem que contribuir, e os Estados têm que contribuir, porque os Municípios já contribuem.",
+          "char_start": 67633,
+          "char_end": 67741,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende pagamento por custo e qualidade em vez de pagamento por passageiro para garantir frequência e qualidade",
+      "falante": "Rafael Calabria",
+      "turno_id": 13,
+      "fundamentos": [],
+      "contraponto": {
+        "objecao": "É claro que isso é muito difícil, não é trivial.",
+        "resposta": "mas é uma necessidade. E a qualidade de que eu falei vai ajudar nessa mudança, como a eletrificação também.",
+        "objecao_char_start": 78784,
+        "objecao_char_end": 78832,
+        "resposta_char_start": 78910,
+        "resposta_char_end": 79017,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende subsídios em insumos, como frota elétrica, para gerar contrapartida em qualidade e sustentabilidade",
+      "falante": "Rafael Calabria",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Rio de Janeiro e São José dos Campos vão custear a frota de ônibus, um por meio de aluguel, outro por contratação. O empresário vai receber a frota sem custos. Isso já é um subsídio, mas sem necessidade de repassar dinheiro. Eles estão repassando o insumo para o empresário apenas operar.",
+          "char_start": 75730,
+          "char_end": 76018,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende tributação da indústria automotiva e uso de receitas de pedágio e Zona Azul para financiar transporte coletivo",
+      "falante": "Rafael Calabria",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "A Lei de Mobilidade Urbana, de 2012, estabelece o custeio dos impactos negativos, e o uso excessivo do carro é um deles.",
+          "char_start": 71815,
+          "char_end": 71935,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "V.Exa. falou da Zona Azul, Deputado, e esse é um sistema que São José dos Campos, por exemplo, está usando para custear os ônibus elétricos na cidade, e o Prefeito de Porto Alegre disse que vai fazer isso também lá em Porto Alegre.",
+          "char_start": 71282,
+          "char_end": 71513,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende desestímulo ao uso do carro e prioridade viária para transporte coletivo para induzir mudança cultural",
+      "falante": "Rafael Calabria",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Temos cidades no Brasil com 40% de uso de carro. Isso não dá para aceitar como uma mudança de cultura.",
+          "char_start": 78014,
+          "char_end": 78116,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Com a realidade da crise no setor, parece que estamos a anos-luz disso hoje,",
+        "resposta": "mas é uma necessidade. E a qualidade de que eu falei vai ajudar nessa mudança, como a eletrificação também.",
+        "objecao_char_start": 78833,
+        "objecao_char_end": 78909,
+        "resposta_char_start": 78910,
+        "resposta_char_end": 79017,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a retomada do papel do Governo Federal como indutor, investidor e regulador da mobilidade urbana",
+      "falante": "Marcos Bicalho dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O senhor sabe muito bem que o Corredor Anhanguera, em Goiânia, foi construído com recursos federais da EBTU.",
+          "char_start": 81108,
+          "char_end": 81216,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o risco de demanda no transporte público seja assumido pelo poder público, não pelas empresas",
+      "falante": "Marcos Bicalho dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós tivemos o exemplo da pandemia, com uma queda de demanda da ordem de 80%.",
+          "char_start": 83945,
+          "char_end": 84021,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "O Prefeito falou da necessidade de as empresas operadoras assumirem os riscos do negócio.",
+        "resposta": "Eu concordo que elas têm que assumir esses riscos, mas não o risco de demanda, porque o risco de demanda está totalmente fora do controle de qualquer operador privado.",
+        "objecao_char_start": 83688,
+        "objecao_char_end": 83777,
+        "resposta_char_start": 83778,
+        "resposta_char_end": 83945,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o transporte público seja tratado como política pública de Estado, com participação efetiva do Governo Federal",
+      "falante": "Elias Vaz",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um governo da época tinha dado isenção para a indústria automobilística, e a isenção do último ano — isso foi em 2013 —, daria para manter tarifa zero em todas as capitais do Brasil o ano inteiro",
+          "char_start": 87286,
+          "char_end": 87481,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende reformulação da função do cobrador para atendimento de plataforma com foco em qualidade e inclusão",
+      "falante": "Rafael Calabria",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos defendido um debate sobre a reformulação da categoria. Defendemos que o cobrador não fique sentado, preso àquela cadeira, mas que seja, por exemplo, em corredores de BRT, em vias principais, um auxiliar do sistema, nas estações. Ele pode descer, sair, subir, resolver um problema, ser o cara que assessora, que dá qualidade ao sistema.",
+          "char_start": 90452,
+          "char_end": 90797,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Estou fazendo um paralelo com o sistema de metrô e trens. Existe a bilheteria, a pessoa que cobra — e ela está sendo mais facilmente superada —, mas há o atendente de plataforma, que fica lá na plataforma e ajuda o idoso, enfim, resolve problemas de operação.",
+          "char_start": 90798,
+          "char_end": 91057,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "há sempre o debate sobre economia de custos, contra a defesa corporativa do setor, dos trabalhadores, que, é claro, estão defendendo o seu ganha-pão.",
+        "resposta": "Defendemos que o cobrador não fique sentado, preso àquela cadeira, mas que seja, por exemplo, em corredores de BRT, em vias principais, um auxiliar do sistema, nas estações. Ele pode descer, sair, subir, resolver um problema, ser o cara que assessora, que dá qualidade ao sistema.",
+        "objecao_char_start": 90031,
+        "objecao_char_end": 90180,
+        "resposta_char_start": 90517,
+        "resposta_char_end": 90797,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a criação de rubrica orçamentária permanente para transporte público",
+      "falante": "Elias Vaz",
+      "turno_id": 20,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os Municípios têm a responsabilidade constitucional sobre o transporte público",
+          "char_start": 96061,
+          "char_end": 96139,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "Alguns dizem que receitas acessórias, complementares, são suficientes"
+    },
+    {
+      "turno_id": 3,
+      "falante": "Rafael Calabria",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "O projeto é temporário e pode ajudar na crise"
+    },
+    {
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "autoridade",
+      "trecho": "porque o SUS funciona? É fundo a fundo, com gestão tripartite."
+    },
+    {
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "Eu acho também que tem que haver uma legislação que diga: 'Bom, se eu estou botando dinheiro público nisso, eu tenho que ter, em contrapartida, os tickets para eu dar para o pobre'."
+    },
+    {
+      "turno_id": 11,
+      "falante": "Sebastião Melo",
+      "campo": "contraponto",
+      "motivo": "objeção não é cópia literal da fala",
+      "tipo": "",
+      "trecho": "o sistema diz: 'Não, senão tu vais botar mais gente no sistema na hora de pico, e eu vou perder passageiro'."
+    },
+    {
+      "turno_id": 13,
+      "falante": "Rafael Calabria",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "quando o empresário recebe por passageiro transportado, o que vemos, em muitos relatos, é que não importa o custo que ele vai ter, o número de viagens, porque ele vai receber por pessoa. Acontecem então eventuais descumprimentos de partidas. Ele não faz a tal partida, mas recebe o recurso, porque a "
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9394,
+  "taxa_contraponto": 0.1818,
+  "taxa_ancoragem_fundamento": 0.9302
+}

@@ -1,0 +1,299 @@
+{
+  "sample_id": 150,
+  "assunto": "Comemoração dos 150 anos de nascimento de Santos Dumont e suas contribuições para a aviação e outras áreas",
+  "nos": [
+    {
+      "id": "p::Jean Robert Batana Ferreira",
+      "tipo": "participante",
+      "rotulo": "Jean Robert Batana Ferreira",
+      "dados": {
+        "cargo": "Coordenador-Geral de Tecnologias Estratégicas no MCTI",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "p::Luciano Valentim Rechiuti",
+      "tipo": "participante",
+      "rotulo": "Luciano Valentim Rechiuti",
+      "dados": {
+        "cargo": "subdiretor técnico do Departamento de Ciência, Tecnologia e Inovação",
+        "n_opinioes": 2
+      }
+    },
+    {
+      "id": "p::Cláudio Gomide",
+      "tipo": "participante",
+      "rotulo": "Cláudio Gomide",
+      "dados": {
+        "cargo": "do Museu Casa de Santos Dumont, em Petrópolis",
+        "n_opinioes": 3
+      }
+    },
+    {
+      "id": "p::Ricardo Magalhães",
+      "tipo": "participante",
+      "rotulo": "Ricardo Magalhães",
+      "dados": {
+        "cargo": "representante do Instituto Cultural Santos Dumont",
+        "n_opinioes": 1
+      }
+    },
+    {
+      "id": "o::0000",
+      "tipo": "opiniao",
+      "rotulo": "defende que o legado de Santos Dumont é fundamental para o desenvolvimento contínuo da aviação e de novas tecnologias aéreas",
+      "dados": {
+        "falante": "Jean Robert Batana Ferreira",
+        "cargo": "Coordenador-Geral de Tecnologias Estratégicas no MCTI",
+        "turno_id": 2,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0001",
+      "tipo": "opiniao",
+      "rotulo": "defende aumento de investimentos em ciência e tecnologia espacial por considerar insuficiente o atual nível de investimento do Brasil",
+      "dados": {
+        "falante": "Luciano Valentim Rechiuti",
+        "cargo": "subdiretor técnico do Departamento de Ciência, Tecnologia e Inovação",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "escopo",
+            "trecho": "no Brasil",
+            "preservado": false,
+            "char_start": 16126,
+            "char_end": 16135
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0002",
+      "tipo": "opiniao",
+      "rotulo": "alerta que o Brasil corre o risco de ficar para trás em tecnologia espacial se não aumentar seus investimentos",
+      "dados": {
+        "falante": "Luciano Valentim Rechiuti",
+        "cargo": "subdiretor técnico do Departamento de Ciência, Tecnologia e Inovação",
+        "turno_id": 4,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0003",
+      "tipo": "opiniao",
+      "rotulo": "defende maior divulgação e reconhecimento de Santos Dumont no Brasil, com apoio da Força Aérea Brasileira",
+      "dados": {
+        "falante": "Cláudio Gomide",
+        "cargo": "do Museu Casa de Santos Dumont, em Petrópolis",
+        "turno_id": 17,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0004",
+      "tipo": "opiniao",
+      "rotulo": "defende a implementação da educação museal para valorizar ícones históricos como Santos Dumont e combater visões simplistas",
+      "dados": {
+        "falante": "Cláudio Gomide",
+        "cargo": "do Museu Casa de Santos Dumont, em Petrópolis",
+        "turno_id": 19,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    },
+    {
+      "id": "o::0005",
+      "tipo": "opiniao",
+      "rotulo": "defende que o sesquicentenário de Santos Dumont seja o início de um movimento contínuo de valorização nacional",
+      "dados": {
+        "falante": "Cláudio Gomide",
+        "cargo": "do Museu Casa de Santos Dumont, em Petrópolis",
+        "turno_id": 19,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": [
+          {
+            "tipo": "prazo",
+            "trecho": "no ano que vem, nos 151 anos, isso não termine",
+            "preservado": false,
+            "char_start": 38192,
+            "char_end": 38238
+          }
+        ]
+      }
+    },
+    {
+      "id": "o::0006",
+      "tipo": "opiniao",
+      "rotulo": "Defende a valorização do legado de Santos Dumont por meio da visitação à exposição no Museu Catavento.",
+      "dados": {
+        "falante": "Ricardo Magalhães",
+        "cargo": "representante do Instituto Cultural Santos Dumont",
+        "turno_id": 21,
+        "char_start": null,
+        "char_end": null,
+        "qualificadores": []
+      }
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "p::Jean Robert Batana Ferreira",
+      "destino": "o::0000",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Luciano Valentim Rechiuti",
+      "destino": "o::0001",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Luciano Valentim Rechiuti",
+      "destino": "o::0002",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Cláudio Gomide",
+      "destino": "o::0003",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Cláudio Gomide",
+      "destino": "o::0004",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Cláudio Gomide",
+      "destino": "o::0005",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Ricardo Magalhães",
+      "destino": "o::0006",
+      "tipo": "emitiu",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Jean Robert Batana Ferreira",
+      "destino": "p::Luciano Valentim Rechiuti",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Luciano Valentim Rechiuti",
+      "destino": "p::Cláudio Gomide",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "p::Cláudio Gomide",
+      "destino": "p::Ricardo Magalhães",
+      "tipo": "fala_apos",
+      "peso": 1.0,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0003",
+      "tipo": "mesmo_tema",
+      "peso": 0.7039,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6256,
+      "dados": {}
+    },
+    {
+      "origem": "o::0000",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.6155,
+      "dados": {}
+    },
+    {
+      "origem": "o::0001",
+      "destino": "o::0002",
+      "tipo": "mesmo_tema",
+      "peso": 0.8561,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6313,
+      "dados": {}
+    },
+    {
+      "origem": "o::0003",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.5969,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0005",
+      "tipo": "mesmo_tema",
+      "peso": 0.6456,
+      "dados": {}
+    },
+    {
+      "origem": "o::0004",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.7379,
+      "dados": {}
+    },
+    {
+      "origem": "o::0005",
+      "destino": "o::0006",
+      "tipo": "mesmo_tema",
+      "peso": 0.659,
+      "dados": {}
+    }
+  ],
+  "resumo": {
+    "sample_id": 150,
+    "n_participantes": 4,
+    "n_opinioes": 7,
+    "arestas": {
+      "emitiu": 7,
+      "fala_apos": 3,
+      "mesmo_tema": 9
+    },
+    "camadas_exatas": [
+      "emitiu",
+      "fala_apos",
+      "concede_palavra"
+    ]
+  }
+}

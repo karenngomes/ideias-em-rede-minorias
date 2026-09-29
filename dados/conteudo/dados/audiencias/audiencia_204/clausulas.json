@@ -1,0 +1,80 @@
+{
+  "sample_id": 204,
+  "n_opinioes": 19,
+  "n_decompostas": 19,
+  "n_sem_ancora": 0,
+  "n_qualificadores": 7,
+  "n_ancorados": 5,
+  "n_rejeitados": 2,
+  "n_incoerentes": 0,
+  "n_preservados": 1,
+  "n_perdidos": 4,
+  "por_tipo": {
+    "escopo": 4,
+    "condicao": 1
+  },
+  "perdas": [
+    {
+      "falante": "Sara Casagrande",
+      "turno_id": 4,
+      "opiniao": "Defende a capacitação de mais profissionais para o uso de toxina botulínica e terapias avançadas, com treinamento técnico e acesso a equipamentos.",
+      "nucleo": "Defendeu a capacitação de mais profissionais para o uso de toxina botulínica e terapias avançadas.",
+      "tipo": "escopo",
+      "trecho": "médicos do Brasil inteiro",
+      "char_start": 19061,
+      "char_end": 19086
+    },
+    {
+      "falante": "Sara Casagrande",
+      "turno_id": 4,
+      "opiniao": "Defende o acesso universal a testes genéticos para pacientes com distonia, para direcionar tratamentos e melhorar prognóstico.",
+      "nucleo": "Defendeu o acesso universal a testes genéticos para pacientes com distonia.",
+      "tipo": "escopo",
+      "trecho": "pelo menos um exame de painel de distonias, que é o básico",
+      "char_start": 26783,
+      "char_end": 26841
+    },
+    {
+      "falante": "Rosângela Moro",
+      "turno_id": 7,
+      "opiniao": "defende a criação de cadeira obrigatória sobre doenças de origem genética no ensino superior",
+      "nucleo": "defendeu a criação de cadeira obrigatória sobre doenças de origem genética no ensino superior",
+      "tipo": "condicao",
+      "trecho": "aí nós precisamos ouvir todos os médicos e os estudiosos",
+      "char_start": 50915,
+      "char_end": 50971
+    },
+    {
+      "falante": "Amira Awada",
+      "turno_id": 13,
+      "opiniao": "propõe colaboração do Instituto Vidas Raras no desenvolvimento de políticas para distonia",
+      "nucleo": "propôs colaboração do Instituto Vidas Raras no desenvolvimento de políticas para distonia",
+      "tipo": "escopo",
+      "trecho": "para atender as necessidades das pessoas com distonia no Brasil",
+      "char_start": 76270,
+      "char_end": 76333
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 4,
+      "falante": "Sara Casagrande",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "escopo",
+      "trecho": "mesmo em casos moderados",
+      "opiniao": "Defende políticas públicas para viabilizar o acesso a medicamentos de alto custo e tecnologias como DBS, mesmo em casos moderados."
+    },
+    {
+      "turno_id": 23,
+      "falante": "Meire Serafim",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "atribuicao",
+      "trecho": "com base na audiência pública",
+      "opiniao": "Defende a criação de um mês de conscientização sobre distonia, com base na audiência pública, como forma de visibilização e apoio aos pacientes."
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_preservacao": 0.2,
+  "taxa_ancoragem": 0.7143,
+  "taxa_opiniao_intacta": 0.7895
+}

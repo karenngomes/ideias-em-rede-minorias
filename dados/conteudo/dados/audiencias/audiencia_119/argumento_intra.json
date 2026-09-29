@@ -1,0 +1,423 @@
+{
+  "sample_id": 119,
+  "n_opinioes": 17,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 16,
+  "n_fundamentos_propostos": 30,
+  "n_fundamentos_ancorados": 30,
+  "n_fundamentos_com_numero": 10,
+  "por_tipo": {
+    "autoridade": 6,
+    "dado": 24
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 4,
+  "n_rejeitados": 0,
+  "itens": [
+    {
+      "opiniao": "defende a aprovação da PEC 76/2019 para constitucionalizar a polícia científica e assegurar sua autonomia e imparcialidade",
+      "falante": "Érica Brito Oliveira",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "com a aprovação da PEC 76, de 2019",
+          "char_start": 6869,
+          "char_end": 6903,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a integração entre múltiplos ministérios com a perícia como eixo comum no combate à violência",
+      "falante": "Érica Brito Oliveira",
+      "turno_id": 2,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Quantas mulheres, negros e índios morrem sem que a cena do crime passe por uma análise pericial?",
+          "char_start": 5819,
+          "char_end": 5915,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Quantos estão presos sem terem cometido o crime que lhes imputam, em sua maioria pobres e negros?",
+          "char_start": 5916,
+          "char_end": 6013,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a revisão urgente do protocolo nacional de investigação de feminicídio para incluir perspectiva de gênero e torná-lo público e participativo",
+      "falante": "Aline Yamamoto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "A gestão anterior elaborou um protocolo de investigação nacional, mas esse documento foi considerado sigiloso.",
+          "char_start": 15337,
+          "char_end": 15447,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A grande maioria da população não participou disso, não houve um processo participativo na elaboração desse documento, e ele sequer se tornou público.",
+          "char_start": 15448,
+          "char_end": 15598,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a priorização de políticas de Estado para garantir direitos de mulheres assassinadas e combater a naturalização da violência",
+      "falante": "Aline Yamamoto",
+      "turno_id": 4,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "3.858 mulheres foram assassinadas no Brasil em 2021.",
+          "char_start": 9174,
+          "char_end": 9226,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o número de homicídios de mulheres aumentou nesse período em 0,3%.",
+          "char_start": 10110,
+          "char_end": 10176,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A maioria dessas mulheres — 67,4% — são negras.",
+          "char_start": 10177,
+          "char_end": 10224,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Um relatório da ONU Mulheres estimou que 89 mil mulheres foram assassinadas no mundo em 2022.",
+          "char_start": 8522,
+          "char_end": 8615,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O IPEA estima que esse número seja ainda maior, considerando que no ano de 2021 aumentou muito o registro de mortes violentas sem causa determinada.",
+          "char_start": 9226,
+          "char_end": 9374,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "Fórum Brasileiro de Segurança Pública, de acordo com o que foi publicado no seu Anuário Brasileiro de Segurança Pública e no Atlas de Violência mais recente, que foi uma parceria do Instituto de Pesquisa Econômica Aplicada — IPEA com o Fórum Brasileiro de Segurança Pública.",
+          "char_start": 8838,
+          "char_end": 9112,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que mortes violentas e suspeitas de mulheres acionem o protocolo de feminicídio para evitar simulações de acidentes",
+      "falante": "Raoni Parreira Maciel",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O filho da mulher que foi assassinada estava tomando banho, escutou um barulho, se enrolou rápido e saiu. A mãe estava totalmente ensanguentada, a casa estava toda revirada, e o marido dela, que não era pai dele, estava meio atônito ali, meio sem saber o que tinha acontecido. Ele correu, levou a mulher ainda com vida para o hospital, e ela faleceu no hospital, infelizmente.",
+          "char_start": 22646,
+          "char_end": 23022,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "o que o agressor disse?\"Foi um acidente. Ela caiu.\"Como ela tinha um histórico de desmaio, o que ele disse foi bem conveniente.\"Foi um acidente. Ela caiu sobre essa mesa aqui. Isso aqui é um acidente.\"",
+          "char_start": 23072,
+          "char_end": 23273,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Conseguiu documentar que havia sangue embaixo dos estilhaços de vidro, ou seja, a sequência de fatos é: essa mulher começou a sangrar antes que essa mesa fosse rompida. Ele a matou e quebrou a mesa para parecer que era um acidente.",
+          "char_start": 23874,
+          "char_end": 24105,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Nós não podemos ficar na mão da versão do agressor de que aquilo ali foi um acidente",
+        "resposta": "para, depois, daqui 3 dias, 4 dias, perceber que não foi e perder a oportunidade de fazer um laudo de local perfeito que possa ensejar a responsabilização do ofendido.",
+        "objecao_char_start": 24824,
+        "objecao_char_end": 24908,
+        "resposta_char_start": 24909,
+        "resposta_char_end": 25076,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende que o combate ao feminicídio deve priorizar a prevenção em vez da repressão",
+      "falante": "Viviane Bonato",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Na repressão, nós temos mais de 90% de autorias desvendadas nos feminicídios aqui do DF",
+          "char_start": 34942,
+          "char_end": 35029,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "Na repressão, nós temos mais de 90% de autorias desvendadas nos feminicídios aqui do DF",
+        "resposta": "O ponto que precisamos focar é na prevenção",
+        "objecao_char_start": 34942,
+        "objecao_char_end": 35029,
+        "resposta_char_start": 35148,
+        "resposta_char_end": 35191,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a participação da perícia na formulação de políticas e projetos de segurança pública",
+      "falante": "Érica Brito Oliveira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os Estados não conseguem fazer concurso público para mais médicos legistas nos seus postos.",
+          "char_start": 71671,
+          "char_end": 71762,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Há um projeto de colocar médicos legistas e odontolegistas nas Casas das Mulheres Brasileiras dos Estados, mas os Estados não têm como fazer concurso e não é rápido um concurso público, demora de 6 meses a 1 ano.",
+          "char_start": 71763,
+          "char_end": 71975,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe o uso de viaturas da medicina legal para levar atendimento pericial às vítimas em Casas da Mulher Brasileira",
+      "falante": "Érica Brito Oliveira",
+      "turno_id": 17,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nesse caso, não conseguimos fazer um concurso público para médico legista agora, mas pode haver uma viatura na medicina legal.",
+          "char_start": 72488,
+          "char_end": 72614,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a violência de gênero deve ser tratada como prioridade estrutural e transversal em todas as políticas públicas, e não como tema eventual",
+      "falante": "Beatriz Figueiredo",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os colegas foram convidados há mais de 1 mês, com certeza",
+          "char_start": 74215,
+          "char_end": 74272,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Parece que é sempre no suspiro de última hora",
+          "char_start": 74641,
+          "char_end": 74686,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que o Estado deve atuar contra a naturalização da violência de gênero e a reprodução de estereótipos em suas instituições",
+      "falante": "Aline Yamamoto",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "o conceito de feminicídio, um dos conceitos vem muito claramente construído pela antropóloga mexicana Marcela Lagarde",
+          "char_start": 78185,
+          "char_end": 78302,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a compreensão do feminicídio como crime de Estado quando o Estado omite condições para a vida livre de violência",
+      "falante": "Aline Yamamoto",
+      "turno_id": 21,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "o conceito de feminicídio, um dos conceitos vem muito claramente construído pela antropóloga mexicana Marcela Lagarde, reconhecendo que feminicídio também é um crime de Estado",
+          "char_start": 78185,
+          "char_end": 78360,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende o reconhecimento dos avanços no combate ao feminicídio para evitar retrocessos e sustenta a punição severa como essencial",
+      "falante": "Raoni Parreira Maciel",
+      "turno_id": 23,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "No Distrito Federal, temos 178 vítimas desde a promulgação da lei, e seis autores apenas estão respondendo em liberdade.",
+          "char_start": 80953,
+          "char_end": 81073,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "cinco estão foragidos",
+          "char_start": 81207,
+          "char_end": 81228,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "embora tenhamos que procurar seguir avançando, sempre tenho medo do discurso de terra arrasada, segundo o qual nada está funcionando",
+        "resposta": "porque, de repente, se pode perder toda a conquista que alcançamos nesses 8 anos, desde que o feminicídio passou a ser um crime tipificado",
+        "objecao_char_start": 82374,
+        "objecao_char_end": 82506,
+        "resposta_char_start": 82508,
+        "resposta_char_end": 82646,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "considera o feminicídio um dos crimes mais graves e destaca o risco elevado dentro do domicílio",
+      "falante": "Viviane Bonato",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o crime acontece dentro de casa",
+          "char_start": 84211,
+          "char_end": 84242,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a conscientização da mulher sobre o risco de morte no rompimento de relações como medida preventiva",
+      "falante": "Viviane Bonato",
+      "turno_id": 25,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Às vezes, a mulher não sabe que o rompimento da relação vai colocá-la numa situação de grande risco",
+          "char_start": 85104,
+          "char_end": 85203,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a perspectiva de gênero na perícia criminal deve ser exigência institucional, não dependente de iniciativa individual",
+      "falante": "Beatriz Figueiredo",
+      "turno_id": 30,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "quando a Polícia Civil colocou como regra que, em caso de assassinato de mulher, o crime é inicialmente investigado como sendo de feminicídio, ela retirou a subjetividade de um delegado, de uma delegada, de qualquer pessoa que diria:\"Ah, acho que não. Acho que isso aqui não é tão importante\"",
+          "char_start": 90432,
+          "char_end": 90724,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Ah, acho que não. Acho que isso aqui não é tão importante",
+        "resposta": "quando a Polícia Civil colocou como regra que, em caso de assassinato de mulher, o crime é inicialmente investigado como sendo de feminicídio, ela retirou a subjetividade de um delegado, de uma delegada, de qualquer pessoa",
+        "objecao_char_start": 90666,
+        "objecao_char_end": 90723,
+        "resposta_char_start": 90432,
+        "resposta_char_end": 90654,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende o fortalecimento e a independência da perícia criminal como ferramenta essencial para combater o feminicídio e outras violências de gênero",
+      "falante": "Erika Kokay",
+      "turno_id": 31,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós estamos falando do que nos diferencia da barbárie, estamos falando de marco civilizatório. Essa não é uma discussão menor. Isso é marco civilizatório. Você não pode carregar o risco de morte por você ser mulher",
+          "char_start": 99472,
+          "char_end": 99686,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "nós somos o quinto país em feminicídio do mundo — o quinto país!",
+          "char_start": 99353,
+          "char_end": 99417,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A violência ou o homicídio contra mulheres é praticado, na maioria dos casos, dentro de casa. A maioria é ainda mais expressiva quando existe relacionamento íntimo com essas mulheres",
+          "char_start": 93882,
+          "char_end": 94064,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 0.9412,
+  "taxa_contraponto": 0.2353,
+  "taxa_ancoragem_fundamento": 1.0
+}

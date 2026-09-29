@@ -1,0 +1,632 @@
+{
+  "sample_id": 121,
+  "n_opinioes": 28,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 28,
+  "n_fundamentos_propostos": 44,
+  "n_fundamentos_ancorados": 43,
+  "n_fundamentos_com_numero": 11,
+  "por_tipo": {
+    "dado": 33,
+    "autoridade": 10
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 4,
+  "n_rejeitados": 1,
+  "itens": [
+    {
+      "opiniao": "defende a implementação da competência híbrida nas varas especializadas para garantir atendimento integral às mulheres",
+      "falante": "Aline Yamamoto",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "mais de 428 mil processos tramitaram e foram julgados em varas não exclusivas",
+          "char_start": 14082,
+          "char_end": 14159,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "cerca de um terço ingressou nas varas exclusivas, nessas varas especializadas",
+          "char_start": 13993,
+          "char_end": 14070,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a pesquisa também realizada pelo CNJ em parceria com o IPEA, em 2019, identificou que, apesar dessas instâncias, apesar desses esforços, a resposta que o Judiciário brasileiro dá aos casos de violência doméstica e familiarainda é muito heterogênea, ainda está muito suscetível ao entendimento individual",
+          "char_start": 15538,
+          "char_end": 15841,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a aplicação automática da guarda compartilhada em situações de violência doméstica",
+      "falante": "Aline Yamamoto",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Este ano foi sancionada uma lei muito importante, e que ao nosso ver veio tardiamente, que simplesmente inclui um olhar para a violência doméstica e familiar nas varas de família, com a alteração da Lei nº 14.713, que altera o Código Civil para estabelecer que o risco de violência doméstica e familiar seria uma causa impeditiva do exercício da guarda compartilhada",
+          "char_start": 17571,
+          "char_end": 17937,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": {
+        "objecao": "A tendência da legislação brasileira, o que vem sendo definido há alguns anos é que a guarda compartilhada deve ser a regra.",
+        "resposta": "Não obstante isso, em muitos casos existe uma definição de guarda compartilhada na vara de família e existe às vezes uma medida protetiva determinando o afastamento do agressor não só da mulher, mas dos próprios filhos e filhas. Essas são decisões contraditórias dadas pelo Judiciário que dificultam sobremaneira o exercício do acesso ao diretor das mulheres e se refletem muitas vezes numa perpetuação da situação de violência que elas vivenciam.",
+        "objecao_char_start": 18538,
+        "objecao_char_end": 18662,
+        "resposta_char_start": 18663,
+        "resposta_char_end": 19110,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "critica o uso da lei de alienação parental por potencializar a revitimização de mulheres e crianças",
+      "falante": "Aline Yamamoto",
+      "turno_id": 7,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Há diversos movimentos de mulheres e diversos estudos, não só no Brasil, mas na comunidade internacional, que deixam muito claro que não existe cientificidade para o que se denomina como síndrome de alienação parental",
+          "char_start": 19248,
+          "char_end": 19465,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a inclusão de critérios de especialização de varas e equipes exclusivas na avaliação de tribunais pelo CNJ.",
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "quando comparamos numa mesma localidade, normalmente em cidades grandes ou cidades médias, varas de violência doméstica com varas criminais e com varas de família, as varas de violência doméstica recebem, em média, duas vezes mais processos novos do que as varas de família e recebem, em média, quatro vezes mais processos novos do que as varas criminais",
+          "char_start": 26344,
+          "char_end": 26698,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "O Conselho Nacional de Justiça anualmente faz uma premiação para os tribunais que cumprem melhor as políticas judiciárias. Nós concedemos o Selo Ouro, o Selo Prata, o Selo Diamante, etc. Um critério que vai ser incorporado na avaliação a partir deste ano diz respeito exatamente à especialização de varas de violência doméstica, à conversão de varas em varas de violência doméstica ou à estruturação das varas existentes com equipes multidisciplinares próprias, exclusivas",
+          "char_start": 27521,
+          "char_end": 27993,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "nós nunca vamos ter 100% desses processos tramitando em varas exclusivas pela simples razão de que grande parte dos processos no Brasil tramitam em comarcas pequenas, comarcas de interior, onde há só um juiz, e esse juiz que tem competência para tudo",
+        "resposta": "Então, numa comarca pequena, de interior, não vai haver uma vara exclusiva, porque há só um juiz, que vai atender a todas as situações",
+        "objecao_char_start": 28121,
+        "objecao_char_end": 28371,
+        "resposta_char_start": 28373,
+        "resposta_char_end": 28507,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a ampliação da competência híbrida nos juizados para evitar revitimização da mulher vítima.",
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos um caso de grande repercussão agora de uma apresentadora de TV que sofreu violência doméstica, buscou auxílio, e a ação de divórcio que ela propôs teve que sair",
+          "char_start": 29105,
+          "char_end": 29275,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "essa é uma situação que traz alguns entraves e potencialmente pode gerar prejuízos a essa mulher que é vítima e que vai ter que se submeter a repetir a história toda mais de uma vez",
+          "char_start": 29291,
+          "char_end": 29472,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a atuação conjunta de instituições públicas para fortalecer redes de proteção e estruturação de varas especializadas.",
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "é preciso que engajemos toda a sociedade no enfrentamento dessa forma de violência, reconhecendo que se trata, sim, de uma grave violação a direitos humanos e que é preciso, como já várias vezes foi falado aqui tanto pela Dra. Aline quanto pela Desembargadora Evangelina, que todas as entidades públicas deem as mãos",
+          "char_start": 21615,
+          "char_end": 21931,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Precisamos reunir esforços, concertar esforços para que possamos enfrentar de modo efetivo e adequado esse enorme desafio",
+          "char_start": 22130,
+          "char_end": 22251,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que o Poder Judiciário deve se adequar às leis do Legislativo com colaboração, sem ativismo.",
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "O Poder Legislativo, como representante do povo, como órgão máximo da democracia, diz:\"Nós, enquanto representantes, não admitimos mais esse tipo de violência. Então, temos que fazer isso, isso e isso\".Cabe a nós conversar, para vermos de que forma isso pode ser feito, a fim de que os objetivos sejam atingidos da melhor forma possível",
+          "char_start": 33954,
+          "char_end": 34290,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a disseminação da discussão sobre violência contra a mulher para juízes de áreas não especializadas.",
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "temos hoje uma certa dificuldade, é preciso reconhecer, no tratamento dessa questão relacionada à violência com juízes que não são de varas de violência",
+          "char_start": 34487,
+          "char_end": 34639,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "precisamos furar a bolha e parar de falar só para convertidos",
+          "char_start": 34699,
+          "char_end": 34760,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que mediação em casos de violência só ocorra após análise de equipe multidisciplinar para garantir segurança da vítima.",
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "turno_id": 9,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Nós estamos incorporando à nossa resolução uma recomendação da CEDAW sobre como tratar a mediação e a composição nesses casos de mulheres vítimas de violência",
+          "char_start": 35444,
+          "char_end": 35602,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende revisão dos recursos no combate à violência doméstica, incluindo a atuação do sistema de justiça, para enfrentar a reprodução de práticas patriarcais",
+      "falante": "Fernanda Fernandes",
+      "turno_id": 11,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Os dados do último anuário do Fórum Brasileiro de Segurança Pública registraram que todos os crimes contra as mulheres cresceram no ano de 2022, como feminicídio, tentativa de feminicídio e agressão doméstica.",
+          "char_start": 37794,
+          "char_end": 38003,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O 190 foi acionado para denunciar violência doméstica quase 1 milhão de vezes mais durante o ano de 2022, equivalendo a 102 chamados de socorro por hora.",
+          "char_start": 38120,
+          "char_end": 38273,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "No balanço de atendimento do Ligue 180, desde 2014, as estatísticas revelam que 80% das mulheres violentadas possuíam filhos com os respectivos agressores, 65% já afirmavam que seus filhos presenciavam as agressões e 18% dos filhos seriam diretamente vitimados por agressões psicológicas ou físicas nesse contexto de exposição à violência doméstica.",
+          "char_start": 39967,
+          "char_end": 40316,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "E há cenários que indicam, ao contrário do enunciado pelo Comitê contra a Tortura, pelo Comitê de Direitos Humanos e pelo Comitê da CEDAW, um reduzido número de denúncias e de condenações em relação à violência doméstica familiar e de grandes reconciliações nos casos em que se deveria pensar sobre a ruptura matrimonial.",
+          "char_start": 39043,
+          "char_end": 39364,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "o Estado brasileiro tem falhado com seu dever de diligência, segundo os parâmetros internacionais, assim como com seu dever de criar as condições para uma existência digna às mulheres. E isso ocorre apesar de todos os instrumentos legais em âmbito de efetivação das normativas internacionais, como a CEDAW, e, internamente, com a criação da Lei Maria da Penha.",
+          "char_start": 38308,
+          "char_end": 38668,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a inclusão obrigatória de temas de combate à violência doméstica nos currículos escolares como forma de prevenção e mudança cultural.",
+      "falante": "Delegada Ione",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Existe na Lei Maria da Penha um dispositivo que fala dos currículos escolares",
+          "char_start": 44385,
+          "char_end": 44462,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a regulamentação imediata do auxílio-aluguel pela vítima de violência doméstica",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Sem a regulamentação, os juízes não podem conceder o auxílio, pois não há o fluxo: para onde vai? quem vai pagar?",
+          "char_start": 54993,
+          "char_end": 55106,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a obrigatoriedade do formulário de avaliação de risco na Polícia Civil",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O primeiro lugar onde a mulher é atendida, 99,9%, é na delegacia.",
+          "char_start": 55613,
+          "char_end": 55678,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a vinculação de recursos federais ao enfrentamento da violência contra mulheres por meio de plano de metas",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "É preciso vincular a segurança pública nesse enfrentamento, e que cada Município e Estado apresentem suas metas e projetos para receber esses recursos.",
+          "char_start": 56389,
+          "char_end": 56540,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a análise conjunta de projetos de pensão para órfãos de feminicídio para evitar duplicidade",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "São dois projetos que tramitam ali. É o PL 976/2022, que já foi aprovado na Câmara e está no Senado, e o PL 310/2023, que está na Câmara. Pode ser que haja um conflito, e teria que ver até se seria o caso de reunir estes projetos.",
+          "char_start": 56648,
+          "char_end": 56878,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia a monitoração eletrônica com restrição ao acesso da vítima à localização do agressor",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós achamos que o acesso da vítima à localização do réu não deve ser de forma irrestrita, porque fere o direito à privacidade. Deveria ser somente naquelas hipóteses em que ele invade o perímetro que foi protegido pela medida protetiva.",
+          "char_start": 57359,
+          "char_end": 57595,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "conceder à vítima o acesso à sua localização",
+        "resposta": "nós achamos que o acesso da vítima à localização do réu não deve ser de forma irrestrita, porque fere o direito à privacidade. Deveria ser somente naquelas hipóteses em que ele invade o perímetro que foi protegido pela medida protetiva.",
+        "objecao_char_start": 57136,
+        "objecao_char_end": 57180,
+        "resposta_char_start": 57359,
+        "resposta_char_end": 57595,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende a capacitação de professores para abordagem da violência doméstica no currículo escolar",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "A Lei de Diretrizes e Bases da Educação no ano passado sofreu alteração, de modo que, sim, deve-se constar do currículo a matéria de violência doméstica.",
+          "char_start": 61008,
+          "char_end": 61161,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a criação de um BI nacional de dados sobre violência de gênero",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 13,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Precisamos compartilhar, ter um único BI sobre a situação de gênero no País.",
+          "char_start": 59443,
+          "char_end": 59519,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a sobrecarga nos juizados especializados e a cumulação de competências comprometem a eficácia da prestação jurisdicional em casos de violência doméstica",
+      "falante": "Eldom Stevem Barbosa dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós temos hoje pouco mais de 150 juizados especializados, como disse a Desembargadora Ana Lúcia, a maioria está concentrada em cidades de grande porte, em capitais de Estado.",
+          "char_start": 65536,
+          "char_end": 65710,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Em outros Estados, até existe algum grau de interiorização, mas com competência cumulada, ou seja, com um único juiz exercendo diversas competências, dentre elas, a competência de violência doméstica e familiar.",
+          "char_start": 65878,
+          "char_end": 66089,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "existem dezenas, centenas, milhares de demandas em tramitação numa única unidade judiciária, sob responsabilidade de um único juiz, de um único juízo.",
+          "char_start": 66284,
+          "char_end": 66434,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a transferência de competência para juizados especializados sem ampliação de estrutura agravou a sobrecarga dos magistrados",
+      "falante": "Eldom Stevem Barbosa dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "o FONAVID editou nota técnica acerca do disposto no art. 23, parágrafo único, da Lei nº 13.431, de 2017, a lei do depoimento especial, que transportou para os juizados especializados, que são poucos e já estão sobrecarregados, a competência para processo e julgamento de crimes cometidos contra crianças e adolescentes, independentemente do gênero.",
+          "char_start": 66487,
+          "char_end": 66835,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "o crime de feminicídio deve ter tipificação autônoma, e não como qualificadora do homicídio",
+      "falante": "Eldom Stevem Barbosa dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Hoje, o tipo penal do feminicídio é uma qualificadora do crime de homicídio.",
+          "char_start": 66957,
+          "char_end": 67033,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a política pública para mulheres no Brasil depende de orçamento público para ser efetiva",
+      "falante": "Eldom Stevem Barbosa dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a falta completa de estrutura, como resultado da ausência de recursos financeiros, de orçamento público para atendimento das mulheridades.",
+          "char_start": 67214,
+          "char_end": 67352,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nós não conseguimos executar atividades sem orçamento.",
+          "char_start": 67562,
+          "char_end": 67616,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a ausência de equipes técnicas multidisciplinares no Judiciário compromete o atendimento humanizado às vítimas de violência",
+      "falante": "Eldom Stevem Barbosa dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Há diversos Estados em que juízes que cumulam competências não têm equipe técnica multidisciplinar e têm que se servir dessas atividades e serviços de assistência social e psicologia das prefeituras, dessa rede que já está sobrecarregada.",
+          "char_start": 68772,
+          "char_end": 69010,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "os juizados especializados devem ser ampliados e dotados de equipes técnicas exclusivas e estáveis, vinculadas ao Poder Judiciário",
+      "falante": "Eldom Stevem Barbosa dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "conforme o manual de estruturação publicado pelo Conselho Nacional de Justiça e disponível a todos, no sítio daquele conselho.",
+          "char_start": 70453,
+          "char_end": 70579,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "a ampliação dos juizados especializados deve ser acompanhada pela interiorização da Defensoria Pública",
+      "falante": "Eldom Stevem Barbosa dos Santos",
+      "turno_id": 15,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós estamos falando de uma falta de cobertura nas cidades de pequeno porte e de médio porte, inclusive na falta de Defensoria Pública, que hoje não atende 100% das comarcas do nosso País na Justiça estadual.",
+          "char_start": 69564,
+          "char_end": 69771,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Por exemplo, na Comarca de Paraíso do Norte, não temos Defensoria Pública.",
+          "char_start": 69772,
+          "char_end": 69846,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a troca de experiências entre instituições para superar desafios no enfrentamento à violência contra a mulher.",
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "cidades pequenas que, às vezes, não têm esse acesso",
+          "char_start": 72497,
+          "char_end": 72548,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "mesmo cidades médias não conseguem ter acesso a essa estrutura básica",
+          "char_start": 72585,
+          "char_end": 72654,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "reclamando dos nossos problemas sozinhos",
+        "resposta": "Precisamos levar essas dificuldades para fora dos muros do Poder Judiciário, para que juntos possamos encontrar meios de discuti-las e de construir soluções em conjunto",
+        "objecao_char_start": 73534,
+        "objecao_char_end": 73574,
+        "resposta_char_start": 73576,
+        "resposta_char_end": 73744,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "reafirma a defesa da criação de um BI nacional para integração de dados sobre violência de gênero",
+      "falante": "Ana Lúcia Lourenço",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "talvez fosse o caso de partirmos para a criação de um BI nacional, umbusiness intelligencenacional, da situação de gênero no país",
+          "char_start": 74399,
+          "char_end": 74528,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a união de forças entre os Poderes e a renovação da parceria com o TJ-MG na Casa Mulher Segura como estratégia essencial no combate à violência doméstica.",
+      "falante": "Delegada Ione",
+      "turno_id": 19,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Foi o Tribunal de Justiça de Minas Gerais que teve essa disposição de nos ajudar, nessa iniciativa que salva muitas vidas, não só de mulheres, como também de meninas, assim como dos filhos dessas vítimas de violência doméstica.",
+          "char_start": 75577,
+          "char_end": 75804,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    }
+  ],
+  "rejeitados": [
+    {
+      "turno_id": 9,
+      "falante": "Marcio Luiz Coelho de Freitas",
+      "campo": "fundamento",
+      "motivo": "não é cópia literal da fala",
+      "tipo": "dado",
+      "trecho": "temos 153 varas especializadas no Brasil todo, o que claramente é insuficiente"
+    }
+  ],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.1429,
+  "taxa_ancoragem_fundamento": 0.9773
+}

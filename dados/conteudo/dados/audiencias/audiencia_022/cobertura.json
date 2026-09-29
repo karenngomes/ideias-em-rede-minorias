@@ -1,0 +1,125 @@
+{
+  "sample_id": 22,
+  "n_falantes": 6,
+  "n_parlamentares": 2,
+  "n_convidados": 4,
+  "n_citados_gold": 5,
+  "n_citados_ausentes": 1,
+  "n_opinioes_gold": 11,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.6377801120448179,
+      "participacao_civil_turnos": 0.43243243243243246,
+      "citacao_civil_opinioes": 0.625,
+      "citacao_civil_pessoas": 0.5,
+      "deficit_civil": 0.012780112044817882
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.8429943306722203,
+      "participacao_civil_turnos": 0.8421052631578947,
+      "citacao_civil_opinioes": 0.7142857142857143,
+      "citacao_civil_pessoas": 0.6666666666666666,
+      "deficit_civil": 0.128708616386506
+    }
+  },
+  "citados_ausentes": [
+    "Guilherme Santos"
+  ],
+  "falantes_silenciados": [
+    "Guilherme Henrique Martins Santos",
+    "Igor Luna"
+  ],
+  "falantes": [
+    {
+      "nome": "Lucas Ramos",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 18,
+      "n_palavras": 2781,
+      "turnos": [
+        1,
+        3,
+        5,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        37
+      ]
+    },
+    {
+      "nome": "Zé Neto",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1357,
+      "turnos": [
+        2,
+        4,
+        25
+      ]
+    },
+    {
+      "nome": "Adriana Azevedo",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 7,
+      "n_palavras": 1630,
+      "turnos": [
+        6,
+        7,
+        9,
+        11,
+        13,
+        15,
+        33
+      ]
+    },
+    {
+      "nome": "Igor Luna",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 4,
+      "n_palavras": 1558,
+      "turnos": [
+        17,
+        27,
+        35,
+        36
+      ]
+    },
+    {
+      "nome": "Jorge Gonçalves Filho",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 2248,
+      "turnos": [
+        19,
+        21,
+        31
+      ]
+    },
+    {
+      "nome": "Guilherme Henrique Martins Santos",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1850,
+      "turnos": [
+        23,
+        29
+      ]
+    }
+  ]
+}

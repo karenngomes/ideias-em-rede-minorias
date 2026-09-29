@@ -1,0 +1,157 @@
+{
+  "sample_id": 19,
+  "n_falantes": 10,
+  "n_parlamentares": 3,
+  "n_convidados": 7,
+  "n_citados_gold": 5,
+  "n_citados_ausentes": 2,
+  "n_opinioes_gold": 9,
+  "proporcoes": {
+    "com_mesa": {
+      "participacao_civil_palavras": 0.6704074164430349,
+      "participacao_civil_turnos": 0.37037037037037035,
+      "citacao_civil_opinioes": 0.5,
+      "citacao_civil_pessoas": 0.3333333333333333,
+      "deficit_civil": 0.17040741644303492
+    },
+    "sem_mesa": {
+      "participacao_civil_palavras": 0.7946024096385542,
+      "participacao_civil_turnos": 0.7692307692307693,
+      "citacao_civil_opinioes": 0.6666666666666666,
+      "citacao_civil_pessoas": 0.5,
+      "deficit_civil": 0.1279357429718876
+    }
+  },
+  "citados_ausentes": [
+    "Carlos Henrique Carvalho",
+    "Letícia Cardoso"
+  ],
+  "falantes_silenciados": [
+    "Adrualdo de Lima Catão",
+    "Bebeto",
+    "Bruno Rizzon",
+    "Carlos Henrique Ribeiro de Carvalho",
+    "Letícia de Oliveira Cardoso",
+    "Marcos Daniel Souza dos Santos",
+    "Rodrigo Ribeiro"
+  ],
+  "falantes": [
+    {
+      "nome": "Juninho do Pneu",
+      "parlamentar": true,
+      "mesa": true,
+      "n_turnos": 14,
+      "n_palavras": 1922,
+      "turnos": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27
+      ]
+    },
+    {
+      "nome": "Bebeto",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1396,
+      "turnos": [
+        2,
+        24
+      ]
+    },
+    {
+      "nome": "Jilmar Tatto",
+      "parlamentar": true,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 735,
+      "turnos": [
+        4
+      ]
+    },
+    {
+      "nome": "Letícia de Oliveira Cardoso",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1434,
+      "turnos": [
+        6
+      ]
+    },
+    {
+      "nome": "Adrualdo de Lima Catão",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 982,
+      "turnos": [
+        8
+      ]
+    },
+    {
+      "nome": "Marcos Daniel Souza dos Santos",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 2,
+      "n_palavras": 1727,
+      "turnos": [
+        10,
+        26
+      ]
+    },
+    {
+      "nome": "Rodrigo Ribeiro",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 542,
+      "turnos": [
+        12
+      ]
+    },
+    {
+      "nome": "Bruno Rizzon",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 925,
+      "turnos": [
+        14
+      ]
+    },
+    {
+      "nome": "Carlos Henrique Ribeiro de Carvalho",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 3,
+      "n_palavras": 1097,
+      "turnos": [
+        16,
+        20,
+        22
+      ]
+    },
+    {
+      "nome": "Victor Pavarino",
+      "parlamentar": false,
+      "mesa": false,
+      "n_turnos": 1,
+      "n_palavras": 1537,
+      "turnos": [
+        18
+      ]
+    }
+  ]
+}

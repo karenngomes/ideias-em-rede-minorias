@@ -1,0 +1,623 @@
+{
+  "sample_id": 162,
+  "n_opinioes": 23,
+  "n_sem_ancora": 0,
+  "n_com_fundamento": 23,
+  "n_fundamentos_propostos": 48,
+  "n_fundamentos_ancorados": 48,
+  "n_fundamentos_com_numero": 16,
+  "por_tipo": {
+    "dado": 34,
+    "autoridade": 14
+  },
+  "n_contrapontos_propostos": 4,
+  "n_com_contraponto": 4,
+  "n_rejeitados": 0,
+  "itens": [
+    {
+      "opiniao": "defende a inclusão de todos os trabalhadores, sem exceção, nos programas de prevenção de riscos psicossociais, com base na Constituição e na Convenção 155 da OIT",
+      "falante": "Cirlene Luiza Zimmermann",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "empresas com até 10 empregados ficam dispensadas dessa orientação",
+          "char_start": 9139,
+          "char_end": 9204,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "empresas de grau de risco 1 e 2 não precisam elaborar determinados programas de saúde e de segurança",
+          "char_start": 9370,
+          "char_end": 9470,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "é isso que está disposto na nossa Constituição",
+          "char_start": 10469,
+          "char_end": 10515,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Organização Internacional do Trabalho dispôs, ou seja, que um ambiente seguro e saudável é princípio e direito fundamental",
+          "char_start": 10841,
+          "char_end": 10965,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Convenção 155, que, a partir desta definição como princípio e direito fundamental, se torna uma convenção fundamental, de relevância superior",
+          "char_start": 10997,
+          "char_end": 11140,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a prevenção de riscos psicossociais inclua a análise da cultura organizacional e não se limite à punição de assediadores",
+      "falante": "Cirlene Luiza Zimmermann",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "não basta simplesmente demitir o assediador",
+          "char_start": 14643,
+          "char_end": 14686,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não basta reposicionar o assediado, porque, muitas vezes, todos os colegas do mesmo setor estão contaminados por aquela mesma situação",
+          "char_start": 14734,
+          "char_end": 14868,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "não basta simplesmente demitir o assediador",
+        "resposta": "É preciso um cuidado com toda a coletividade",
+        "objecao_char_start": 14643,
+        "objecao_char_end": 14686,
+        "resposta_char_start": 14688,
+        "resposta_char_end": 14732,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "rejeita propostas que priorizem assistência a adoecidos em vez de prevenção de riscos psicossociais no trabalho",
+      "falante": "Cirlene Luiza Zimmermann",
+      "turno_id": 6,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "um PL que está tramitando nesta Casa, o PL 2.364/23, de autoria do Deputado Amom Mandel, que propõe incentivo fiscal no Imposto de Renda Pessoa Jurídica para empresas que implementarem programas de saúde mental e promoverem grupos de ajuda e acolhimento no ambiente laboral",
+          "char_start": 17167,
+          "char_end": 17440,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "na interpretação do Ministério Público do Trabalho, uma proposta de lei como essa desvirtua o propósito em termos de saúde mental",
+          "char_start": 17449,
+          "char_end": 17578,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Está apenas se propondo assistência",
+        "resposta": "nós precisamos de prevenção",
+        "objecao_char_start": 17580,
+        "objecao_char_end": 17615,
+        "resposta_char_start": 17619,
+        "resposta_char_end": 17646,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "defende transformar ambientes de trabalho em promotores de saúde com foco na prevenção de riscos psicossociais",
+      "falante": "Anne Caroline Luz Grudtner da Silva",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós temos diversos fatores psicossociais que vão acabar diminuindo a nossa saúde mental",
+          "char_start": 21012,
+          "char_end": 21099,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende envolver os trabalhadores no reconhecimento de riscos psicossociais para fortalecer a prevenção",
+      "falante": "Anne Caroline Luz Grudtner da Silva",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "nós temos um sistema de informação em saúde. Quando o profissional de saúde identifica que um sofrimento mental, um transtorno mental, tem relação com o trabalho, é feita uma notificação. Nós sabemos que essas notificações ainda são pequenas, frente à realidade, frente ao número de casos",
+          "char_start": 21950,
+          "char_end": 22238,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que legislações e ações protejam os trabalhadores dos riscos psicossociais, sob o princípio de 'trabalhar, sim; adoecer, não'",
+      "falante": "Anne Caroline Luz Grudtner da Silva",
+      "turno_id": 8,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Nós sempre destacamos isto: trabalhar, sim; adoecer, não",
+          "char_start": 22479,
+          "char_end": 22535,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a normatização da saúde do trabalhador deve proteger a vida, não facilitar a gestão empresarial",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Saúde do trabalhador é saúde do trabalhador, não é saúde da empresa.",
+          "char_start": 30115,
+          "char_end": 30183,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "é um escárnio que, além de as normas não serem tão efetivas, as poucas que existem sejam descumpridas de forma contumaz pelas empresas.",
+          "char_start": 30310,
+          "char_end": 30445,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "rejeita a atribuição da culpa pelo adoecimento ao trabalhador, apontando a gestão como fator central",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Se viesse a patronal, se houvesse um representante dos patrões, tenho certeza de que eles iriam buscar uma culpa multifatorial, uma culpa que penaliza o trabalhador por estar com depressão.",
+          "char_start": 31521,
+          "char_end": 31710,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O mal-estar da sociedade nunca é a gestão. Eles tentam evitar tirar o problema da gestão como fator desencadeador do adoecimento, mesmo de suicídios.",
+          "char_start": 31710,
+          "char_end": 31859,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "apoia o projeto de lei por incluir o risco psicossocial na legislação e obrigar a atuação do Estado",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "O grande mérito desse projeto é incluir esse debate, incluir o risco psicossocial na legislação, obrigar o Estado a agir.",
+          "char_start": 32321,
+          "char_end": 32442,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "alerta que a regulamentação pode beneficiar empresas se não for rigorosa e voltada à proteção do trabalhador",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Agora, há o segundo passo que também eu gosto de dizer — e nunca é demais reforçar: essa regulamentação também pode ser para o bem ou para o mal, pode ser para melhorar ou pode também para facilitar ainda mais a vida das empresas.",
+          "char_start": 32444,
+          "char_end": 32674,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a tramitação célere da Convenção nº 190 da OIT no Congresso",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Eu queria salientar também que está tramitando nesta Casa a ratificação da Convenção nº 190 da OIT, que trata sobre isso também.",
+          "char_start": 32714,
+          "char_end": 32842,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Nesse sentido, queria fazer um apelo para que seja dada celeridade a esse processo de tramitação, se for possível.",
+          "char_start": 32989,
+          "char_end": 33103,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a participação dos trabalhadores como condição para efetiva prevenção em saúde do trabalho",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Por fim, eu gostaria de, primeiro, reforçar que sem a participação dos trabalhadores, não se faz política efetiva de prevenção em saúde do trabalhador.",
+          "char_start": 33105,
+          "char_end": 33256,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Não adianta que não serão os técnicos, muito menos as empresas que vão fazer uma efetiva prevenção.",
+          "char_start": 33257,
+          "char_end": 33356,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "propõe que o projeto de lei inclua todos os trabalhadores no gerenciamento de riscos, sem distinção de porte da empresa",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "E também agora, pela fala da Dra. Cirlene, de que trabalhadores de micro e pequenas empresas, que menos de 10 trabalhadores não são... Então, que sejam de todas as empresas, independentemente do número, e que todos os trabalhadores sejam representados nesse debate.",
+          "char_start": 33780,
+          "char_end": 34045,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a necessidade de visibilidade, cobrança institucional e leis para proteger a vida dos trabalhadores contra a ganância empresarial",
+      "falante": "Mauro Salles",
+      "turno_id": 10,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Precisamos da visibilidade, por exemplo, fazer o enfrentamento, cobrar das instituições públicas e do Estado brasileiro, que têm obrigação de fazer esse enfrentamento.",
+          "char_start": 35205,
+          "char_end": 35372,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O Parlamento tem que ajudar também, criando leis e também fazendo a necessária pressão às instituições para enquadrar os empregadores nessa sanha do lucro acima da vida.",
+          "char_start": 35373,
+          "char_end": 35542,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "A ganância não pode vitimar tantas pessoas. São mortes evitáveis.",
+          "char_start": 35543,
+          "char_end": 35608,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a Câmara dos Deputados debata saúde mental e trabalho para fortalecer políticas públicas e mudanças nos processos de trabalho",
+      "falante": "Pedro Tourinho de Siqueira",
+      "turno_id": 12,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "temos a saúde mental como a terceira causa mais importante de afastamento, de concessão de benefícios, considerando-se uma profunda subnotificação, como disse.",
+          "char_start": 38550,
+          "char_end": 38709,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "dado",
+          "trecho": "Anualmente, a estimativa é de cerca de 12 bilhões de dias de trabalho perdidos por causa de depressão, de ansiedade, com custo, como já foi dito aqui também, de pelo menos de 1 trilhão de dólares — esse é um material produzido pela Organização Mundial da Saúde.",
+          "char_start": 38710,
+          "char_end": 38971,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "O INSS, no ano de 2022, apontou 209.124 pessoas afastadas por transtornos mentais, dentre eles: depressão, distúrbios emocionais, Alzheimer, enquanto que, em 2021, foram 200 mil pessoas afastadas.",
+          "char_start": 38972,
+          "char_end": 39168,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "a Organização Mundial da Saúde publicou muito recentemente um documento que trata da temática da saúde mental e trabalho.",
+          "char_start": 38278,
+          "char_end": 38399,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "esse é um material produzido pela Organização Mundial da Saúde.",
+          "char_start": 38908,
+          "char_end": 38971,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a distinção entre riscos psicossociais e seus fatores antecedentes como condição para políticas legítimas e eficazes.",
+      "falante": "Fernanda Sousa Duarte",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "os transtornos mentais foram escalando o pódio de causas mais comuns para a concessão de licenças-saúde",
+          "char_start": 56693,
+          "char_end": 56796,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Nós estamos fazendo aqui um debate mais amplo, que, às vezes, se torna muito abstrato.",
+        "resposta": "Fazer a distinção entre estes dois conceitos — os riscos psicossociais e os fatores dos riscos psicossociais — é fundamental, não só por preciosismo acadêmico, mas, especialmente, pela implementação dos dispositivos normativos e legais.",
+        "objecao_char_start": 59441,
+        "objecao_char_end": 59527,
+        "resposta_char_start": 59679,
+        "resposta_char_end": 59915,
+        "ancorado": true
+      }
+    },
+    {
+      "opiniao": "Defende a gestão tripartite dos riscos psicossociais, com participação ativa de trabalhadores, sindicatos e Governo.",
+      "falante": "Fernanda Sousa Duarte",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Como já foi apontado hoje diversas vezes — para não ficar repetitiva minha fala, devo respeitar o tempo —, o sucesso da gestão dos riscos psicossociais do trabalho não pode ser deixado à mercê das forças do mercado, como acontece nos Estados Unidos ou mesmo na Suíça. Ele depende da compreensão do caráter sistêmico dos fatores de risco psicossociais.",
+          "char_start": 62979,
+          "char_end": 63330,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende a participação anônima dos trabalhadores no diagnóstico de riscos psicossociais para evitar retaliações.",
+      "falante": "Fernanda Sousa Duarte",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "a participação dos trabalhadores no diagnóstico dos fatores de risco precisa acontecer preferencialmente de forma anônima, para já reduzir o risco de retaliações, que sabemos que acontece, e aí vai incidir outro risco.",
+          "char_start": 62346,
+          "char_end": 62564,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Rejeita a gestão baseada apenas no mercado e defende vigilância constante por instituições públicas e atores sociais.",
+      "falante": "Fernanda Sousa Duarte",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "Como já foi apontado hoje diversas vezes — para não ficar repetitiva minha fala, devo respeitar o tempo —, o sucesso da gestão dos riscos psicossociais do trabalho não pode ser deixado à mercê das forças do mercado, como acontece nos Estados Unidos ou mesmo na Suíça.",
+          "char_start": 62979,
+          "char_end": 63246,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "Defende que os fatores de risco psicossociais devem ser diagnosticados especificamente por categoria, evitando generalizações.",
+      "falante": "Fernanda Sousa Duarte",
+      "turno_id": 16,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Enfim, com o dispositivo implementado, tal gestão poderá ser cumprida, com a especificação de que os fatores têm que ser diagnosticados. Eles diferem de acordo com o trabalho.",
+          "char_start": 63475,
+          "char_end": 63650,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende que a saúde mental no trabalho é questão técnica e econômica, não apenas social ou ideológica",
+      "falante": "Ana Luiza Horcades",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "Em matéria de impactos financeiros, é de 1 trilhão de dólares a cifra relacionada ao adoecimento mental.",
+          "char_start": 72008,
+          "char_end": 72112,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "300 milhões de pessoas viviam com ansiedade em 2019",
+          "char_start": 71797,
+          "char_end": 71848,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "703 mil pessoas morreram por suicídio",
+          "char_start": 71888,
+          "char_end": 71925,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "15% das pessoas em idade adulta tiveram algum tipo de desordem mental em 2019",
+          "char_start": 71928,
+          "char_end": 72005,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "isso não foi escrito ontem nem anteontem — físicos e mentais que afetam a saúde e estão diretamente relacionados com a segurança e a saúde no trabalho",
+          "char_start": 66408,
+          "char_end": 66558,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "não sou eu que inventei isso, isso é um conceito da Convenção 155, ratificada pelo Brasil",
+          "char_start": 66139,
+          "char_end": 66228,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "como também diz a Organização Mundial de Saúde",
+          "char_start": 66829,
+          "char_end": 66875,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "em 2022 isso ter ficado mais claro e já ter sido positivado, estar escrito, estar declarado pela Organização Mundial de Saúde",
+          "char_start": 67774,
+          "char_end": 67899,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende a capacitação de profissionais como essencial para o combate aos fatores de risco psicossociais",
+      "falante": "Ana Luiza Horcades",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "dado",
+          "trecho": "apenas 29% dos médicos consideravam os fatores psicossociais no PCMSO",
+          "char_start": 75410,
+          "char_end": 75479,
+          "ancorado": true,
+          "contem_numero": true
+        },
+        {
+          "tipo": "dado",
+          "trecho": "somente em metade dos casos foram feitos levantamentos específicos para isso",
+          "char_start": 75525,
+          "char_end": 75601,
+          "ancorado": true,
+          "contem_numero": false
+        },
+        {
+          "tipo": "autoridade",
+          "trecho": "A Associação Paulista de Medicina do Trabalho — APMT publicou, em 2018, uma enquete para saber o que os médicos do trabalho entendem sobre saúde mental",
+          "char_start": 75214,
+          "char_end": 75365,
+          "ancorado": true,
+          "contem_numero": true
+        }
+      ],
+      "contraponto": null
+    },
+    {
+      "opiniao": "defende um Estado forte e normas eficazes para garantir saúde e segurança a um público trabalhador heterogêneo",
+      "falante": "Ana Luiza Horcades",
+      "turno_id": 18,
+      "fundamentos": [
+        {
+          "tipo": "autoridade",
+          "trecho": "os direitos humanos, como o direito ao meio ambiente de trabalho seguro e saudável, estão positivados na nossa legislação brasileira",
+          "char_start": 67918,
+          "char_end": 68050,
+          "ancorado": true,
+          "contem_numero": false
+        }
+      ],
+      "contraponto": {
+        "objecao": "Todo mundo fala que gostaria de viver na Suíça, que gostaria de viver na Europa, porque na Europa a coisa é diferente.",
+        "resposta": "Por quê? Porque já existe um raciocínio no Antigo Continente, de uma forma geral, de que as políticas públicas têm que ser pensadas com base na centralidade da pessoa humana e da valorização do indivíduo; que um acidente de trabalho não é uma fatalidade, não pode fazer parte da conta da economia daquele país para a coisa andar para frente.",
+        "objecao_char_start": 69069,
+        "objecao_char_end": 69187,
+        "resposta_char_start": 69188,
+        "resposta_char_end": 69529,
+        "ancorado": true
+      }
+    }
+  ],
+  "rejeitados": [],
+  "turnos_perdidos": [],
+  "taxa_fundamentacao": 1.0,
+  "taxa_contraponto": 0.1739,
+  "taxa_ancoragem_fundamento": 1.0
+}
