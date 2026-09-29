@@ -21,9 +21,14 @@ export default function RootLayout({
               <span className="grid size-9 place-items-center rounded-full bg-orange-500 text-sm font-black text-white">IR</span>
               <span><span className="block font-semibold tracking-tight">Ideias em Rede</span><span className="block text-xs text-zinc-500">Observatório de audiências públicas</span></span>
             </Link>
+            <nav className="flex items-center gap-6 text-sm font-medium text-zinc-600">
+              <Link href="/#audiencias" className="hover:text-zinc-950">Recorte</Link>
+              <Link href="/audiencias" className="hover:text-zinc-950">Audiências</Link>
+            </nav>
           </div>
         </header>
         {children}
+        <footer className="border-t border-zinc-200 bg-white px-5 py-6 text-center text-xs text-zinc-500 lg:px-8">Ideias em Rede · Observatório de audiências públicas</footer>
       </body>
     </html>
   );

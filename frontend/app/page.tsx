@@ -1,223 +1,107 @@
 import Link from "next/link";
-import { ArrowRight, Database, FileText, Users } from "lucide-react";
-import { extractDate, firstLine, getAudiencias, getClassifiedRecords, getHealth, type Audiencia } from "@/lib/api-server";
+import { ArrowRight, FileText, Megaphone, Network, Newspaper, Quote, Scale } from "lucide-react";
+import { getClassifiedRecords, getHealth } from "@/lib/api-server";
 import { minorityGroupOf, PILOT_GROUP } from "@/lib/minorities";
 
-const PAGE_SIZE = 12;
-
 const hypotheses = [
-  "Em audiências sobre pautas de minorias, falantes convidados são interrompidos com frequência desproporcionalmente maior que parlamentares.",
-  "A proporção de códigos de respeito é maior nas audiências de minorias nas duas direções, com mais elogio explícito e mais hostilidade, enquanto a posição média na escala não difere.",
-  "Chamada à ação e linguagem emocionalmente carregada são mais frequentes nas audiências sobre minorias, sobretudo nas falas da sociedade civil.",
-  "Nas audiências sobre minorias, a sociedade civil é citada na matéria em proporção menor do que sua participação na fala, e essa diferença é maior do que nas demais audiências.",
+  "Convidados são interrompidos com mais frequência que parlamentares.",
+  "Há mais elogio explícito e mais hostilidade, mas a média de respeito não muda.",
+  "Chamada à ação e linguagem carregada aparecem mais, sobretudo na sociedade civil.",
+  "A sociedade civil fala mais do que aparece na matéria da Agência Câmara.",
 ];
 
-type Status = "real" | "demo" | "soon";
-
-const statusLabels: Record<Status, { label: string; className: string }> = {
-  real: { label: "Dados reais", className: "border-emerald-200 bg-emerald-50 text-emerald-700" },
-  demo: { label: "Dados demonstrativos", className: "border-amber-200 bg-amber-50 text-amber-800" },
-  soon: { label: "Em construção", className: "border-zinc-200 bg-zinc-100 text-zinc-600" },
-};
-
-const methods: Array<{ step: string; title: string; description: string; view?: string; status: Status }> = [
-  {
-    step: "01",
-    title: "Sumarização ancorada",
-    description: "Resumos em vários níveis de detalhe em que cada afirmação aponta para a fala original. O princípio de ancoragem permite verificar de onde veio cada frase, o que um sumarizador comum não garante.",
-    view: "resumo",
-    status: "demo",
-  },
-  {
-    step: "02",
-    title: "Extração de opiniões",
-    description: "Posições atribuídas a cada participante, sempre ligadas ao turno que as sustenta. A validação usa o ground truth já anotado no corpus.",
-    status: "soon",
-  },
-  {
-    step: "03",
-    title: "Análise de cobertura",
-    description: "Compara quem falou na sessão com quem a matéria da Agência Câmara citou, medindo o déficit de visibilidade da sociedade civil.",
-    status: "soon",
-  },
-  {
-    step: "04",
-    title: "Técnicas de persuasão",
-    description: "Cada parágrafo é classificado em seis técnicas (ataque à reputação, justificativa, simplificação, distração, chamada para ação e linguagem manipulativa). A classificação do modelo é comparada com anotação humana (kappa).",
-    view: "argumentacao",
-    status: "real",
-  },
-  {
-    step: "05",
-    title: "Rede de interação",
-    description: "Uma forma visual de resumir quem falou depois de quem, quem concedeu a palavra e quais opiniões tratam do mesmo tema ao longo da audiência.",
-    view: "interacoes",
-    status: "demo",
-  },
-  {
-    step: "06",
-    title: "Qualidade deliberativa (DQI)",
-    description: "Sete indicadores por fala: participação, nível e conteúdo da justificação, respeito a grupos, a demandas e a contra-argumentos, e política construtiva.",
-    status: "soon",
-  },
+const methods = [
+  { icon: FileText, title: "Sumarização ancorada", text: "Resumos em que cada frase aponta para a fala original.", view: "resumo" },
+  { icon: Quote, title: "Extração de opiniões", text: "O que cada participante defendeu, ligado ao turno de fala." },
+  { icon: Newspaper, title: "Análise de cobertura", text: "Quem falou na sessão × quem a matéria citou." },
+  { icon: Megaphone, title: "Técnicas de persuasão", text: "Seis técnicas por parágrafo, comparadas com anotação humana.", view: "argumentacao" },
+  { icon: Network, title: "Rede de interação", text: "Quem falou depois de quem e quem concedeu a palavra.", view: "interacoes" },
+  { icon: Scale, title: "Qualidade deliberativa", text: "Sete indicadores do DQI, como justificação e respeito." },
 ];
 
-export default async function Home({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
-  const query = await searchParams;
-  const requested = Number(query.page ?? "1");
-  const page = Number.isInteger(requested) && requested > 0 ? requested : 1;
-  const [health, audiencias, classified] = await Promise.all([getHealth(), getAudiencias(page, PAGE_SIZE), getClassifiedRecords()]);
-  const groups = new Map(classified.items.map((record) => [record.id, minorityGroupOf(record.runs.map((run) => run.experiments_tag))]));
-  const minorities = classified.items.filter((record) => groups.get(record.id) !== PILOT_GROUP);
+export default async function Home() {
+  const [health, classified] = await Promise.all([getHealth(), getClassifiedRecords()]);
+  const minorities = classified.items
+    .map((record) => ({ ...record, group: minorityGroupOf(record.runs.map((run) => run.experiments_tag)) }))
+    .filter((record) => record.group !== PILOT_GROUP);
   const example = minorities[0]?.id;
-  const totalPages = Math.max(1, Math.ceil(audiencias.total / PAGE_SIZE));
 
   return (
     <main>
-      <section className="relative overflow-hidden bg-zinc-900 px-5 pb-28 pt-14 text-white lg:px-8">
-        <div aria-hidden className="pointer-events-none absolute -right-40 -top-40 size-[560px] rounded-full bg-orange-500/10 blur-3xl"/>
-        <div className="relative mx-auto max-w-[1200px]">
-          <p className="mb-4 text-xs font-bold uppercase tracking-[0.18em] text-orange-400">Audiências públicas e grupos minoritários</p>
-          <h1 className="max-w-4xl text-4xl font-semibold tracking-[-0.04em] sm:text-6xl">Quando o Legislativo abre espaço,<br/><em className="font-serif font-normal text-orange-400">quem é ouvido?</em></h1>
-          <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-300">Explore como deliberam as audiências públicas da Câmara sobre minorias, como cada participante argumenta e como essa deliberação chega ao público.</p>
+      <section className="bg-zinc-900 px-5 py-20 text-center text-white lg:px-8">
+        <div className="mx-auto max-w-[1200px]">
+          <h1 className="text-5xl font-semibold tracking-[-0.04em] sm:text-6xl">Ideias em Rede</h1>
+          <p className="mt-5 text-xl text-orange-400">Como deliberam as audiências públicas sobre minorias?</p>
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-zinc-300">
+            {health.lds_records} audiências da Câmara dos Deputados e {health.transcript_chunks.toLocaleString("pt-BR")} trechos de fala para entender quem argumenta, como argumenta e quem chega ao público.
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Link href="#audiencias" className="rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-orange-400">Explorar audiências</Link>
+            {example && <Link href={`/audiencias/${example}/argumentacao`} className="rounded-lg border border-white/20 px-5 py-2.5 text-sm font-semibold text-white transition hover:border-white/40">Ver um exemplo</Link>}
+          </div>
+
+          <div className="mx-auto mt-16 max-w-4xl border border-white/10 border-l-4 border-l-orange-500 px-8 py-8 text-left text-base leading-8 text-zinc-300">
+            <p>Quando o Legislativo abre espaço formal para grupos historicamente vulnerabilizados, essa arena funciona da mesma forma que as outras audiências?</p>
+            <p className="mt-4">O trabalho acompanha o caminho das <strong className="text-white">audiências sobre minorias</strong> até a <strong className="text-white">dinâmica deliberativa</strong> e, por fim, até a <strong className="text-white">representação na cobertura institucional</strong>, comparando esse recorte com as demais audiências.</p>
+          </div>
         </div>
       </section>
 
-      <div className="relative -mt-16 px-5 lg:px-8">
-        <div className="mx-auto grid max-w-[1200px] gap-3 md:grid-cols-3">
-          <StatCard icon={<FileText className="size-5"/>} tone="bg-blue-50 text-blue-700" value={health.lds_records.toLocaleString("pt-BR")} label="Audiências catalogadas"/>
-          <StatCard icon={<Database className="size-5"/>} tone="bg-orange-50 text-orange-700" value={health.transcript_chunks.toLocaleString("pt-BR")} label="Trechos transcritos"/>
-          <StatCard icon={<Users className="size-5"/>} tone="bg-emerald-50 text-emerald-700" value={String(minorities.length)} label="Audiências no recorte de minorias"/>
-        </div>
-      </div>
-
-      <div className="px-5 py-14 lg:px-8">
-        <div className="mx-auto max-w-[1200px] space-y-16">
-          <section className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
-            <SectionTitle eyebrow="O artigo" title="Motivação"/>
-            <div className="space-y-4 text-base leading-8 text-zinc-700">
-              <p>Quando o Legislativo abre espaço formal para grupos historicamente vulnerabilizados, essa arena funciona da mesma forma que outras audiências? O trabalho acompanha o caminho que vai das <strong>audiências sobre minorias</strong> à <strong>dinâmica deliberativa</strong> e, por fim, à <strong>representação na cobertura institucional</strong>.</p>
-              <blockquote className="border-l-4 border-orange-500 bg-white px-5 py-4 text-lg font-medium leading-8 text-zinc-900">Como deliberam as audiências públicas sobre minorias, e como essa deliberação chega ao público?</blockquote>
-            </div>
-          </section>
-
-          <section className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
-            <SectionTitle eyebrow="O que testamos" title="Hipóteses"/>
-            <ol className="grid gap-3 md:grid-cols-2">
-              {hypotheses.map((hypothesis, index) => (
-                <li key={index} className="rounded-2xl border border-zinc-200 bg-white p-5">
-                  <span className="font-mono text-xs font-bold text-orange-600">H{index + 1}</span>
-                  <p className="mt-2 text-sm leading-6 text-zinc-700">{hypothesis}</p>
-                </li>
-              ))}
-              <li className="rounded-2xl border border-dashed border-zinc-300 p-5 md:col-span-2">
-                <span className="font-mono text-xs font-bold text-zinc-500">Pergunta aberta</span>
-                <p className="mt-2 text-sm leading-6 text-zinc-700">Quais são as principais características argumentativas presentes nessas audiências?</p>
+      <section className="bg-white px-5 py-20 lg:px-8">
+        <div className="mx-auto max-w-[1200px]">
+          <h2 className="text-center text-3xl font-semibold tracking-[-0.03em]">Hipóteses</h2>
+          <ol className="relative mt-14 grid gap-10 md:grid-cols-4 md:gap-6">
+            <span aria-hidden className="absolute left-[12.5%] right-[12.5%] top-7 hidden h-0.5 bg-orange-200 md:block"/>
+            {hypotheses.map((hypothesis, index) => (
+              <li key={index} className="relative flex flex-col items-center text-center">
+                <span className="grid size-14 place-items-center rounded-full bg-orange-500 text-lg font-semibold text-white ring-8 ring-white">{index + 1}</span>
+                <p className="mt-5 max-w-[240px] text-sm font-medium leading-6 text-zinc-700">{hypothesis}</p>
               </li>
-            </ol>
-          </section>
-
-          <section className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
-            <SectionTitle eyebrow="Como analisamos" title="Metodologia" description="Cada etapa vira uma visualização da ferramenta. Todo resultado aponta de volta para a fala que o sustenta."/>
-            <div className="grid gap-3 md:grid-cols-2">
-              {methods.map((method) => {
-                const status = statusLabels[method.status];
-                const content = (
-                  <>
-                    <div className="mb-3 flex items-center justify-between gap-2">
-                      <span className="font-mono text-xs font-bold text-zinc-400">{method.step}</span>
-                      <span className={`rounded-md border px-2 py-0.5 text-[10px] font-bold ${status.className}`}>{status.label}</span>
-                    </div>
-                    <h3 className="text-base font-semibold text-zinc-900">{method.title}</h3>
-                    <p className="mt-2 text-sm leading-6 text-zinc-600">{method.description}</p>
-                    {method.view && example && <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-orange-700">Ver visualização <ArrowRight className="size-3.5 transition group-hover:translate-x-0.5"/></span>}
-                  </>
-                );
-                return method.view && example
-                  ? <Link key={method.step} href={`/audiencias/${example}/${method.view}`} className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 transition hover:border-orange-300 hover:shadow-[0_12px_40px_rgba(24,24,27,0.06)]">{content}</Link>
-                  : <div key={method.step} className="flex flex-col rounded-2xl border border-zinc-200 bg-white p-5">{content}</div>;
-              })}
-            </div>
-          </section>
-
-          <section className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
-            <SectionTitle eyebrow="Comparação" title="Minorias × demais audiências" description="Os mesmos indicadores medidos no recorte de minorias e nas outras audiências: tamanho, persuasão, argumentação e cobertura."/>
-            <div className="rounded-2xl border border-dashed border-zinc-300 p-6 text-sm leading-6 text-zinc-600">
-              O painel comparativo está em construção. Hoje a persuasão foi classificada apenas nas {minorities.length} audiências do recorte; a comparação depende de classificar também um grupo de controle.
-            </div>
-          </section>
-
-          <section>
-            <div className="mb-5 flex flex-wrap items-end justify-between gap-4">
-              <SectionTitle eyebrow="Explorar" title="Recorte de minorias"/>
-              <span className="text-xs text-zinc-500">{minorities.length} audiências com persuasão classificada</span>
-            </div>
-            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-              {minorities.map((record) => (
-                <Link key={record.id} href={`/audiencias/${record.id}/argumentacao`} className="group rounded-2xl border border-zinc-200 bg-white p-5 transition hover:border-orange-300 hover:shadow-[0_12px_40px_rgba(24,24,27,0.06)]">
-                  <div className="mb-3 flex items-center justify-between gap-2 text-xs">
-                    <span className="rounded-md border border-orange-200 bg-orange-50 px-2 py-0.5 font-bold text-orange-700">{groups.get(record.id)}</span>
-                    <span className="font-mono text-zinc-400">#{record.id}</span>
-                  </div>
-                  <h3 className="text-sm font-semibold leading-6 text-zinc-900 group-hover:text-orange-700">{record.assunto}</h3>
-                </Link>
-              ))}
-            </div>
-          </section>
-
-          <section id="acervo">
-            <div className="mb-5 flex flex-wrap items-end justify-between gap-4">
-              <SectionTitle eyebrow="Acervo" title="Todas as audiências"/>
-              <span className="text-xs text-zinc-500">Página {page} de {totalPages}</span>
-            </div>
-            <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-              {audiencias.items.map((audiencia) => <AudienceCard key={audiencia.id} audiencia={audiencia} group={groups.get(audiencia.id)}/>)}
-            </div>
-            <nav aria-label="Paginação" className="mt-6 flex items-center justify-center gap-2 text-sm">
-              {page > 1 && <Link href={`/?page=${page - 1}#acervo`} className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 font-semibold text-zinc-700 hover:border-zinc-300">Anterior</Link>}
-              <span className="px-2 text-zinc-500">{page} / {totalPages}</span>
-              {page < totalPages && <Link href={`/?page=${page + 1}#acervo`} className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 font-semibold text-zinc-700 hover:border-zinc-300">Próxima</Link>}
-            </nav>
-          </section>
+            ))}
+          </ol>
+          <p className="mt-14 text-center text-sm text-zinc-500">E uma pergunta aberta: quais são as principais características argumentativas dessas audiências?</p>
         </div>
-      </div>
+      </section>
+
+      <section className="bg-zinc-900 px-5 py-20 text-white lg:px-8">
+        <div className="mx-auto max-w-[1200px]">
+          <h2 className="text-center text-3xl font-semibold tracking-[-0.03em]">Metodologia</h2>
+          <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-6 text-zinc-400">Cada etapa vira uma visualização. Todo resultado aponta de volta para a fala que o sustenta.</p>
+          <div className="mt-14 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+            {methods.map(({ icon: Icon, title, text, view }) => (
+              <div key={title} className="flex flex-col items-center text-center">
+                <Icon className="size-10 text-orange-400" strokeWidth={1.5}/>
+                <h3 className="mt-4 text-base font-semibold">{title}</h3>
+                <p className="mt-2 max-w-[280px] text-sm leading-6 text-zinc-400">{text}</p>
+                {view && example
+                  ? <Link href={`/audiencias/${example}/${view}`} className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-orange-400 hover:text-orange-300">Ver visualização <ArrowRight className="size-3.5"/></Link>
+                  : <span className="mt-3 text-xs text-zinc-500">Em construção</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="audiencias" className="bg-[#f8f7f3] px-5 py-20 lg:px-8">
+        <div className="mx-auto max-w-[1200px]">
+          <h2 className="text-center text-3xl font-semibold tracking-[-0.03em]">Recorte de minorias</h2>
+          <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-6 text-zinc-500">{minorities.length} audiências com as técnicas de persuasão já classificadas.</p>
+          <ul className="mx-auto mt-12 max-w-4xl divide-y divide-zinc-200 border-y border-zinc-200">
+            {minorities.map((record) => (
+              <li key={record.id}>
+                <Link href={`/audiencias/${record.id}/argumentacao`} className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-center sm:gap-4">
+                  <span className="shrink-0 text-xs font-semibold uppercase tracking-wider text-orange-600 sm:w-48">{record.group}</span>
+                  <span className="flex-1 text-sm font-medium text-zinc-800 group-hover:text-zinc-950">{record.assunto}</span>
+                  <ArrowRight className="hidden size-4 shrink-0 text-zinc-300 transition group-hover:translate-x-0.5 group-hover:text-orange-500 sm:block"/>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-10 text-center">
+            <Link href="/audiencias" className="inline-flex items-center gap-1.5 text-sm font-semibold text-zinc-700 hover:text-zinc-950">Ver todas as {health.lds_records} audiências <ArrowRight className="size-4"/></Link>
+          </div>
+        </div>
+      </section>
     </main>
-  );
-}
-
-function SectionTitle({ eyebrow, title, description }: { eyebrow: string; title: string; description?: string }) {
-  return (
-    <div>
-      <p className="mb-2 text-xs font-bold uppercase tracking-[0.16em] text-orange-600">{eyebrow}</p>
-      <h2 className="text-2xl font-semibold tracking-[-0.03em]">{title}</h2>
-      {description && <p className="mt-2 text-sm leading-6 text-zinc-500">{description}</p>}
-    </div>
-  );
-}
-
-function StatCard({ icon, tone, value, label }: { icon: React.ReactNode; tone: string; value: string; label: string }) {
-  return (
-    <div className="flex items-center gap-4 rounded-2xl border border-zinc-200 bg-white p-5 shadow-[0_12px_40px_rgba(24,24,27,0.08)]">
-      <span className={`grid size-11 shrink-0 place-items-center rounded-xl ${tone}`}>{icon}</span>
-      <div><p className="text-2xl font-semibold tabular-nums text-zinc-950">{value}</p><p className="text-xs text-zinc-500">{label}</p></div>
-    </div>
-  );
-}
-
-function AudienceCard({ audiencia, group }: { audiencia: Audiencia; group?: string }) {
-  return (
-    <Link href={`/audiencias/${audiencia.id}`} className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 transition hover:border-orange-300 hover:shadow-[0_12px_40px_rgba(24,24,27,0.06)]">
-      <div className="mb-3 flex items-center justify-between gap-2 text-xs text-zinc-400">
-        <span className="font-mono">#{audiencia.id}</span>
-        <time>{extractDate(audiencia.materia) ?? "Data não informada"}</time>
-      </div>
-      {group && <span className="mb-2 self-start rounded-md border border-orange-200 bg-orange-50 px-2 py-0.5 text-[11px] font-bold text-orange-700">{group}</span>}
-      <h3 className="text-sm font-semibold leading-6 text-zinc-900 group-hover:text-orange-700">{audiencia.metadados.assunto || firstLine(audiencia.materia)}</h3>
-      <p className="mt-1 line-clamp-2 text-xs leading-5 text-zinc-500">{firstLine(audiencia.materia)}</p>
-      <div className="mt-auto flex gap-4 pt-4 text-xs text-zinc-500">
-        <span className="flex items-center gap-1.5"><Users className="size-3.5"/>{audiencia.metadados.envolvidos.length} participantes</span>
-        <span className="flex items-center gap-1.5"><FileText className="size-3.5"/>{(audiencia.chunk_count ?? 0).toLocaleString("pt-BR")} trechos</span>
-      </div>
-    </Link>
   );
 }
