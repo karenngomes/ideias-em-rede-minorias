@@ -2,29 +2,31 @@
   "secoes": [
     {
       "titulo": "Desigualdade racial no atendimento",
-      "sintese": "Joana Santos apresentou dados de espera no pré-natal e defendeu que a diferença persiste mesmo controlando por renda; o deputado Carlos Mendes atribuiu o problema à gestão.",
+      "sintese": "Joana Santos e Lúcia Ferreira apresentaram dados de espera no pré-natal e de mortalidade materna, sustentando que a diferença persiste mesmo controlando por renda; o deputado Carlos Mendes atribuiu o problema à gestão.",
       "participantes": [
+        "Deputado Carlos Mendes",
         "Joana Santos",
-        "Deputado Carlos Mendes"
+        "Lúcia Ferreira"
       ],
       "deriva_de": [
         "o::0001",
         "o::0003",
-        "o::0004"
+        "o::0004",
+        "o::0005"
       ],
       "posicoes": [
         {
           "falante": "Joana Santos",
           "texto": "afirma que mulheres negras esperam o dobro do tempo por pré-natal",
-          "turno_id": 2,
+          "turno_id": 3,
           "char_start": null,
           "char_end": null,
           "qualificadores": []
         },
         {
           "falante": "Deputado Carlos Mendes",
-          "texto": "considera que o problema é de gestão e recursos, não racial",
-          "turno_id": 3,
+          "texto": "considera que o problema é de gestão e de recursos, não racial",
+          "turno_id": 4,
           "char_start": null,
           "char_end": null,
           "qualificadores": []
@@ -32,46 +34,14 @@
         {
           "falante": "Joana Santos",
           "texto": "sustenta que a desigualdade persiste mesmo controlando por renda",
-          "turno_id": 4,
-          "char_start": null,
-          "char_end": null,
-          "qualificadores": []
-        }
-      ]
-    },
-    {
-      "titulo": "Protocolo com recorte racial",
-      "sintese": "A sociedade civil pediu aprovação urgente do protocolo; o Ministério propôs construção gradual com os estados, proposta aceita pelo deputado com a condição de financiamento.",
-      "participantes": [
-        "Joana Santos",
-        "Paulo Lima",
-        "Deputado Carlos Mendes"
-      ],
-      "deriva_de": [
-        "o::0002",
-        "o::0005",
-        "o::0006"
-      ],
-      "posicoes": [
-        {
-          "falante": "Joana Santos",
-          "texto": "defende aprovar ainda neste semestre um protocolo de atendimento com recorte racial",
-          "turno_id": 2,
+          "turno_id": 5,
           "char_start": null,
           "char_end": null,
           "qualificadores": []
         },
         {
-          "falante": "Paulo Lima",
-          "texto": "propõe indicador de equidade racial e protocolo construído com os estados, com metas graduais",
-          "turno_id": 6,
-          "char_start": null,
-          "char_end": null,
-          "qualificadores": []
-        },
-        {
-          "falante": "Deputado Carlos Mendes",
-          "texto": "apoia a proposta intermediária se houver fonte de financiamento",
+          "falante": "Lúcia Ferreira",
+          "texto": "aponta mortalidade materna quase duas vezes maior entre mulheres negras",
           "turno_id": 7,
           "char_start": null,
           "char_end": null,
@@ -80,19 +50,156 @@
       ]
     },
     {
-      "titulo": "Abertura",
-      "sintese": "A presidente justificou a realização do debate.",
+      "titulo": "Protocolo com recorte racial",
+      "sintese": "A sociedade civil pediu um protocolo urgente; o Ministério propôs construção gradual com os estados e indicador de equidade, e a proposta de piloto ganhou apoio condicionado.",
       "participantes": [
-        "Deputada Ana Ribeiro"
+        "Deputada Helena Costa",
+        "Joana Santos",
+        "Paulo Lima"
       ],
       "deriva_de": [
-        "o::0000"
+        "o::0002",
+        "o::0008",
+        "o::0015",
+        "o::0016"
+      ],
+      "posicoes": [
+        {
+          "falante": "Joana Santos",
+          "texto": "defende aprovar ainda neste semestre um protocolo de atendimento com recorte racial",
+          "turno_id": 3,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Paulo Lima",
+          "texto": "propõe indicador de equidade racial e protocolo gradual com os estados",
+          "turno_id": 11,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Deputada Helena Costa",
+          "texto": "apoia piloto em cinco estados com relatórios semestrais",
+          "turno_id": 21,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Joana Santos",
+          "texto": "pede que o piloto comece este ano com participação da Rede",
+          "turno_id": 22,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        }
+      ]
+    },
+    {
+      "titulo": "Financiamento",
+      "sintese": "A preocupação com custos levou à proposta de piloto; o Deputado Marcos Alves anunciou emenda de R$ 50 milhões, que destravou o apoio da Deputada Helena Costa.",
+      "participantes": [
+        "Deputada Helena Costa",
+        "Deputado Carlos Mendes",
+        "Deputado Marcos Alves"
+      ],
+      "deriva_de": [
+        "o::0007",
+        "o::0009",
+        "o::0011",
+        "o::0014"
+      ],
+      "posicoes": [
+        {
+          "falante": "Deputada Helena Costa",
+          "texto": "teme o custo de um protocolo nacional e sugere um piloto",
+          "turno_id": 9,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Deputado Carlos Mendes",
+          "texto": "apoia a proposta intermediária se houver financiamento definido",
+          "turno_id": 12,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Deputado Carlos Mendes",
+          "texto": "atribui a situação a limite orçamentário, não a descaso",
+          "turno_id": 14,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Deputado Marcos Alves",
+          "texto": "anuncia emenda de R$ 50 milhões para o piloto e a formação",
+          "turno_id": 20,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        }
+      ]
+    },
+    {
+      "titulo": "Formação e controle social",
+      "sintese": "Propostas para a residência, a graduação e a formação continuada, e para que conselhos locais e comunidades acompanhem o protocolo.",
+      "participantes": [
+        "Deputada Ana Ribeiro",
+        "Deputado Marcos Alves",
+        "Lúcia Ferreira",
+        "Rita Oliveira"
+      ],
+      "deriva_de": [
+        "o::0000",
+        "o::0006",
+        "o::0010",
+        "o::0012",
+        "o::0013"
       ],
       "posicoes": [
         {
           "falante": "Deputada Ana Ribeiro",
-          "texto": "defende a realização do debate sobre racismo institucional na saúde",
+          "texto": "defende debater o racismo institucional na saúde a partir de quem o vive",
           "turno_id": 1,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Deputado Marcos Alves",
+          "texto": "propõe incluir saúde da população negra na residência médica",
+          "turno_id": 8,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Rita Oliveira",
+          "texto": "afirma que falta prioridade, não dinheiro, e cobra controle social",
+          "turno_id": 13,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Rita Oliveira",
+          "texto": "propõe conferências regionais de saúde da população negra",
+          "turno_id": 18,
+          "char_start": null,
+          "char_end": null,
+          "qualificadores": []
+        },
+        {
+          "falante": "Lúcia Ferreira",
+          "texto": "defende revisar currículos e oferecer formação continuada",
+          "turno_id": 19,
           "char_start": null,
           "char_end": null,
           "qualificadores": []
@@ -101,8 +208,8 @@
     }
   ],
   "cobertura": {
-    "participantes": 4,
-    "participantes_total": 4,
+    "participantes": 8,
+    "participantes_total": 8,
     "taxa_participantes": 1.0
   }
 }

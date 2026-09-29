@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
+import { Figtree } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
+const figtree = Figtree({ subsets: ["latin"], variable: "--font-figtree", display: "swap" });
+
 export const metadata: Metadata = {
-  title: "Ideias em Rede",
-  description: "Observatório de audiências públicas da Câmara dos Deputados.",
+  title: "Karkará · Ideias em Rede",
+  description: "Como deliberam as audiências públicas da Câmara sobre minorias. Projeto da equipe Karkará no desafio Ideias em Rede.",
 };
 
 export default function RootLayout({
@@ -13,22 +17,34 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
-      <body className="bg-[#f8f7f3] text-zinc-950">
-        <header className="border-b border-zinc-200/80 bg-white px-5 py-4 lg:px-8">
+    <html lang="pt-BR" className={figtree.variable}>
+      <body className="bg-paper font-sans text-ink antialiased">
+        <header className="border-b border-black/10 bg-white px-5 py-4 lg:px-8">
           <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4">
-            <Link href="/" className="flex items-center gap-3">
-              <span className="grid size-9 shrink-0 place-items-center rounded-full bg-orange-500 text-sm font-black text-white">IR</span>
-              <span><span className="block font-semibold tracking-tight">Ideias em Rede</span><span className="block text-xs text-zinc-500">Observatório de audiências públicas</span></span>
+            <Link href="/" className="flex items-baseline gap-2.5">
+              <span className="text-lg font-bold tracking-[-0.03em] text-ink">karkará</span>
+              <span className="size-1.5 translate-y-[-2px] rounded-full bg-orange-500"/>
+              <span className="text-sm font-medium text-[#666666]">Ideias em Rede</span>
             </Link>
-            <nav className="flex items-center gap-6 text-sm font-medium text-zinc-600">
-              <Link href="/#audiencias" className="hover:text-zinc-950">Recorte</Link>
-              <Link href="/audiencias" className="hover:text-zinc-950">Audiências</Link>
+            <nav className="flex items-center gap-6 text-sm font-medium text-[#666666]">
+              <Link href="/#audiencias" className="hover:text-ink">Recorte</Link>
+              <Link href="/audiencias" className="hover:text-ink">Audiências</Link>
             </nav>
           </div>
         </header>
         {children}
-        <footer className="border-t border-zinc-200 bg-white px-5 py-6 text-center text-xs text-zinc-500 lg:px-8">Ideias em Rede · Observatório de audiências públicas</footer>
+        <footer className="border-t border-black/10 bg-white px-5 py-8 lg:px-8">
+          <div className="mx-auto flex max-w-[1200px] flex-col gap-6 text-sm text-[#666666] sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p><strong className="font-semibold text-ink">Equipe Karkará</strong> · desafio Ideias em Rede</p>
+              <p className="mt-1 text-xs">Código aberto sob licença MIT.</p>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-xs">Uma iniciativa do</span>
+              <Image src="/kunumi-positivo.png" alt="Instituto Kunumi" width={120} height={50} className="h-8 w-auto"/>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

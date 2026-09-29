@@ -1,5 +1,5 @@
 // Server-side client: server components call the FastAPI backend directly.
-import type { ClassifiedRecord } from "@/lib/persuasion-api";
+import type { ClassificationSummary, ClassifiedRecord, TranscriptionChunk } from "@/lib/persuasion-api";
 
 const API_URL = process.env.API_URL ?? "http://127.0.0.1:8000";
 
@@ -50,4 +50,33 @@ export type Health = { lds_records: number; transcript_chunks: number };
 
 export function getHealth() {
   return request<Health>("/health");
+}
+
+export async function getSummary(jobId: string) {
+  return request<ClassificationSummary>(`/persuasion-classifications/${jobId}/summary`);
+}
+
+// A short window of a real speech around one reliable persuasion evidence.
+export async function getHighlightedExcerpt(recordId: number, jobId: string, parliamentarians: string[]) {
+  const page = await request<{ items: TranscriptionChunk[] }>(`/lds/${recordId}/chunks?page=1&page_size=60&classification_job_id=${jobId}`);
+  for (const chunk of page.items) {
+    if (parliamentarians.includes(chunk.speaker_name)) continue;
+    const hit = chunk.selected_classification?.superclass_classifications?.find(
+      (item) => item.evidence_reliable !== false && item.superclass !== "justificativa" && item.span_offsets[0]?.start != null,
+    );
+    if (!hit) continue;
+    const start = hit.span_offsets[0].start as number;
+    const end = hit.span_offsets[0].end as number;
+    if (end - start > 220) continue;
+    const before = chunk.text.slice(Math.max(0, start - 140), start);
+    const after = chunk.text.slice(end, end + 120);
+    return {
+      speaker: chunk.speaker_name,
+      superclass: hit.superclass,
+      before: (start > 140 ? "…" : "") + before.replace(/^\S*\s/, ""),
+      highlight: chunk.text.slice(start, end),
+      after: after.replace(/\s\S*$/, "") + "…",
+    };
+  }
+  return null;
 }

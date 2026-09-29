@@ -1,9 +1,18 @@
 # Mocks dos dados da Thalia
 
-Audiência **fictícia 901**. A documentação dos dados reserva esse número para
-testes: as audiências reais vão de 001 a 206. Os nomes, falas e números foram
-inventados. Estes dados servem só para desenvolver as visualizações enquanto os
+Audiência **fictícia 901**, sobre racismo institucional no acesso à saúde:
+23 turnos, 8 participantes (4 parlamentares e 4 convidadas/os), 17 opiniões em
+4 temas e 30 códigos de DQI. A documentação dos dados reserva o número 901 para
+testes: as audiências reais vão de 001 a 206. Nomes, falas e números foram
+inventados, e servem só para desenvolver a página **Turno a turno** enquanto os
 arquivos reais não chegam.
+
+Os arquivos são gerados por `gerar_mock.py`, que confere que cada trecho do DQI é
+literal e que cada opinião ancora numa fala da pessoa certa:
+
+```bash
+python3 data/mocks/gerar_mock.py
+```
 
 Os arquivos seguem o formato documentado pela Thalia:
 

@@ -1,4 +1,6 @@
-# Ideias em Rede — recorte de minorias
+# Karkará · Ideias em Rede — recorte de minorias
+
+Projeto da equipe **Karkará** no desafio Ideias em Rede, do Instituto Kunumi.
 
 Ferramenta de visualização para o artigo *O Comportamento das Audiências
 Públicas e suas Características Argumentativas: um Recorte sobre Grupos
@@ -76,3 +78,12 @@ A tela identifica o grupo minoritário pela tag do experimento (`racial-black`,
 geram as planilhas de validação. As amostras já exportadas ficam em
 `backend/outputs/`. O formulário de validação está em
 `backend/google_apps_script/validacao_persuasao/`.
+
+## Identidade visual e licença
+
+O visual segue o guia rápido da marca do Instituto Kunumi: fonte Figtree,
+grafite `#1c2127`, cinza `#f0f0f0` e coral `#ff4b3e`, com o degradê da marca no
+cabeçalho das audiências. Os tokens estão em `frontend/tailwind.config.ts` e os
+logos em `frontend/public/`.
+
+O código é distribuído sob a licença MIT (veja `LICENSE`).

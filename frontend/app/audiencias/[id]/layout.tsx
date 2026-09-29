@@ -42,7 +42,7 @@ export default async function AudienceLayout({ children, params }: Props) {
         <div className="mx-auto max-w-[1200px]">
           <Link href="/" className="mb-5 inline-flex items-center gap-1.5 text-sm font-medium text-zinc-500 hover:text-zinc-900"><ChevronLeft className="size-4"/>Voltar para audiências</Link>
 
-          <section className="overflow-hidden rounded-3xl bg-zinc-900 px-6 py-8 text-white shadow-[0_20px_60px_rgba(24,24,27,0.18)] sm:px-10 sm:py-10">
+          <section className="relative overflow-hidden rounded-3xl bg-night px-6 py-8 text-white sm:px-10 sm:py-10" style={{ backgroundImage: "radial-gradient(60% 90% at 105% 20%, rgba(245,77,32,0.55), transparent 60%), radial-gradient(50% 80% at 95% 110%, rgba(52,75,127,0.7), transparent 65%)" }}>
             <div className="flex flex-wrap gap-2 text-[11px] font-bold uppercase tracking-[0.14em]">
               <span className="rounded-md bg-orange-500 px-2.5 py-1 text-white">Audiência pública</span>
               <span className="rounded-md border border-white/15 px-2.5 py-1 text-zinc-300">#{audiencia.id}</span>
@@ -63,7 +63,7 @@ export default async function AudienceLayout({ children, params }: Props) {
               <h2 className="mb-4 text-2xl font-semibold tracking-[-0.03em]">Participantes destacados</h2>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {audiencia.metadados.envolvidos.map((person, index) => (
-                  <div key={`${person.nome}-${index}`} className="flex items-center gap-3 rounded-2xl border border-zinc-200 bg-white p-4">
+                  <div key={`${person.nome}-${index}`} className="flex min-w-0 items-center gap-3 rounded-2xl border border-zinc-200 bg-white p-4">
                     <span className="grid size-10 shrink-0 place-items-center rounded-full bg-orange-50 text-sm font-bold text-orange-700">{person.nome.slice(0, 1).toUpperCase()}</span>
                     <div className="min-w-0">
                       <p className="truncate text-sm font-semibold text-zinc-900">{person.nome}</p>

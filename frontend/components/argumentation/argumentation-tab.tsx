@@ -56,7 +56,7 @@ export function ArgumentationTab({ recordId }: { recordId: number }) {
   const totalPages = chunks ? Math.max(1, Math.ceil(chunks.total / PAGE_SIZE)) : 1;
 
   return (
-    <section role="tabpanel" aria-label="Tipo de argumentação" className="bg-[#f8f7f3] px-5 py-8 lg:px-8">
+    <section role="tabpanel" aria-label="Tipo de argumentação" className="bg-paper px-5 py-8 lg:px-8">
       <div className="mx-auto max-w-[1200px]">
         <div className="mb-7 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
           <div>

@@ -3,16 +3,16 @@
   "envolvidos": [
     {
       "nome": "Deputada Ana Ribeiro",
-      "cargo": "Deputada (PSOL-RJ)",
+      "cargo": "Deputada (PSOL-RJ), presidente da sessão",
       "opinioes": [
         {
-          "texto": "defende a realização do debate sobre racismo institucional na saúde",
+          "texto": "defende debater o racismo institucional na saúde a partir de quem o vive",
           "ancora": {
             "turno_id": 1,
             "chunk_id": "turno_0001",
-            "node_id": null,
+            "node_id": "o::0000",
             "char_start": 1000,
-            "char_end": 1250
+            "char_end": 1407
           },
           "nucleo": "",
           "qualificadores": []
@@ -22,14 +22,17 @@
         {
           "turno_id": 1,
           "tipo": "posicionamento",
-          "resumo": "Declaro aberta a presente reunião de audiência pública destinada a debater o enfrentamento…"
+          "resumo": "Declaro aberta a presente reunião de audiência pública destinada a debater o enfrentamento ao racismo…"
         }
       ],
       "protocolo": [
-        5,
-        8
+        2,
+        6,
+        10,
+        17,
+        23
       ],
-      "resumo_geral": "Deputada Ana Ribeiro participou em 3 turno(s)."
+      "resumo_geral": "Deputada Ana Ribeiro (Deputada (PSOL-RJ), presidente da sessão) falou em 6 turno(s)."
     },
     {
       "nome": "Joana Santos",
@@ -38,11 +41,11 @@
         {
           "texto": "afirma que mulheres negras esperam o dobro do tempo por pré-natal",
           "ancora": {
-            "turno_id": 2,
-            "chunk_id": "turno_0002",
-            "node_id": null,
-            "char_start": 1290,
-            "char_end": 1668
+            "turno_id": 3,
+            "chunk_id": "turno_0003",
+            "node_id": "o::0001",
+            "char_start": 1564,
+            "char_end": 2013
           },
           "nucleo": "",
           "qualificadores": []
@@ -50,11 +53,11 @@
         {
           "texto": "defende aprovar ainda neste semestre um protocolo de atendimento com recorte racial",
           "ancora": {
-            "turno_id": 2,
-            "chunk_id": "turno_0002",
-            "node_id": null,
-            "char_start": 1290,
-            "char_end": 1668
+            "turno_id": 3,
+            "chunk_id": "turno_0003",
+            "node_id": "o::0002",
+            "char_start": 1564,
+            "char_end": 2013
           },
           "nucleo": "",
           "qualificadores": []
@@ -62,55 +65,23 @@
         {
           "texto": "sustenta que a desigualdade persiste mesmo controlando por renda",
           "ancora": {
-            "turno_id": 4,
-            "chunk_id": "turno_0004",
-            "node_id": null,
-            "char_start": 1959,
-            "char_end": 2078
-          },
-          "nucleo": "",
-          "qualificadores": []
-        }
-      ],
-      "falas": [
-        {
-          "turno_id": 2,
-          "tipo": "posicionamento",
-          "resumo": "Represento a Rede de Mulheres Negras da Baixada. Os dados que trouxemos mostram que mulher…"
-        },
-        {
-          "turno_id": 4,
-          "tipo": "exposicao",
-          "resumo": "Deputado, se me permite, os números controlam por renda. Mesmo entre mulheres com a mesma …"
-        }
-      ],
-      "protocolo": [],
-      "resumo_geral": "Joana Santos participou em 2 turno(s)."
-    },
-    {
-      "nome": "Deputado Carlos Mendes",
-      "cargo": "Deputado (PL-SP)",
-      "opinioes": [
-        {
-          "texto": "considera que o problema é de gestão e recursos, não racial",
-          "ancora": {
-            "turno_id": 3,
-            "chunk_id": "turno_0003",
-            "node_id": null,
-            "char_start": 1708,
-            "char_end": 1919
+            "turno_id": 5,
+            "chunk_id": "turno_0005",
+            "node_id": "o::0004",
+            "char_start": 2424,
+            "char_end": 2568
           },
           "nucleo": "",
           "qualificadores": []
         },
         {
-          "texto": "apoia a proposta intermediária se houver fonte de financiamento",
+          "texto": "pede que o piloto comece este ano com participação da Rede",
           "ancora": {
-            "turno_id": 7,
-            "chunk_id": "turno_0007",
-            "node_id": null,
-            "char_start": 2661,
-            "char_end": 2777
+            "turno_id": 22,
+            "chunk_id": "turno_0022",
+            "node_id": "o::0016",
+            "char_start": 7103,
+            "char_end": 7366
           },
           "nucleo": "",
           "qualificadores": []
@@ -120,29 +91,51 @@
         {
           "turno_id": 3,
           "tipo": "posicionamento",
-          "resumo": "Com todo o respeito, eu discordo de tratar isso como questão racial. O problema é de gestã…"
-        },
-        {
-          "turno_id": 7,
-          "tipo": "posicionamento",
-          "resumo": "Essa proposta intermediária me parece mais razoável, desde que venha acompanhada de fonte …"
+          "resumo": "Obrigada, Presidente. Represento a Rede de Mulheres Negras da Baixada. Os dados que trouxemos mostram que…"
         }
       ],
-      "protocolo": [],
-      "resumo_geral": "Deputado Carlos Mendes participou em 2 turno(s)."
+      "protocolo": [
+        5,
+        22
+      ],
+      "resumo_geral": "Joana Santos (Rede de Mulheres Negras da Baixada) falou em 3 turno(s)."
     },
     {
-      "nome": "Paulo Lima",
-      "cargo": "Ministério da Saúde",
+      "nome": "Deputado Carlos Mendes",
+      "cargo": "Deputado (PL-SP)",
       "opinioes": [
         {
-          "texto": "propõe indicador de equidade racial e protocolo construído com os estados, com metas graduais",
+          "texto": "considera que o problema é de gestão e de recursos, não racial",
           "ancora": {
-            "turno_id": 6,
-            "chunk_id": "turno_0006",
-            "node_id": null,
-            "char_start": 2260,
-            "char_end": 2621
+            "turno_id": 4,
+            "chunk_id": "turno_0004",
+            "node_id": "o::0003",
+            "char_start": 2053,
+            "char_end": 2384
+          },
+          "nucleo": "",
+          "qualificadores": []
+        },
+        {
+          "texto": "apoia a proposta intermediária se houver financiamento definido",
+          "ancora": {
+            "turno_id": 12,
+            "chunk_id": "turno_0012",
+            "node_id": "o::0009",
+            "char_start": 4642,
+            "char_end": 4867
+          },
+          "nucleo": "",
+          "qualificadores": []
+        },
+        {
+          "texto": "atribui a situação a limite orçamentário, não a descaso",
+          "ancora": {
+            "turno_id": 14,
+            "chunk_id": "turno_0014",
+            "node_id": "o::0011",
+            "char_start": 5256,
+            "char_end": 5369
           },
           "nucleo": "",
           "qualificadores": []
@@ -150,13 +143,212 @@
       ],
       "falas": [
         {
-          "turno_id": 6,
+          "turno_id": 4,
           "tipo": "posicionamento",
-          "resumo": "O Ministério reconhece a desigualdade apontada e já elaborou uma proposta de indicador de …"
+          "resumo": "Com todo o respeito, eu discordo de tratar isso como questão racial. O problema é de gestão e de falta de…"
+        }
+      ],
+      "protocolo": [
+        12,
+        14,
+        16
+      ],
+      "resumo_geral": "Deputado Carlos Mendes (Deputado (PL-SP)) falou em 4 turno(s)."
+    },
+    {
+      "nome": "Lúcia Ferreira",
+      "cargo": "Pesquisadora da Fiocruz",
+      "opinioes": [
+        {
+          "texto": "aponta mortalidade materna quase duas vezes maior entre mulheres negras",
+          "ancora": {
+            "turno_id": 7,
+            "chunk_id": "turno_0007",
+            "node_id": "o::0005",
+            "char_start": 2803,
+            "char_end": 3242
+          },
+          "nucleo": "",
+          "qualificadores": []
+        },
+        {
+          "texto": "defende revisar currículos e oferecer formação continuada",
+          "ancora": {
+            "turno_id": 19,
+            "chunk_id": "turno_0019",
+            "node_id": "o::0013",
+            "char_start": 6124,
+            "char_end": 6473
+          },
+          "nucleo": "",
+          "qualificadores": []
+        }
+      ],
+      "falas": [
+        {
+          "turno_id": 7,
+          "tipo": "posicionamento",
+          "resumo": "Nossa pesquisa acompanhou mais de doze mil gestantes em três estados. A mortalidade materna entre mulheres…"
+        },
+        {
+          "turno_id": 19,
+          "tipo": "posicionamento",
+          "resumo": "Complementando a proposta do Deputado Marcos, a mudança não pode ficar restrita à residência. É preciso…"
         }
       ],
       "protocolo": [],
-      "resumo_geral": "Paulo Lima participou em 1 turno(s)."
+      "resumo_geral": "Lúcia Ferreira (Pesquisadora da Fiocruz) falou em 2 turno(s)."
+    },
+    {
+      "nome": "Deputado Marcos Alves",
+      "cargo": "Deputado (PT-BA)",
+      "opinioes": [
+        {
+          "texto": "propõe incluir saúde da população negra na residência médica",
+          "ancora": {
+            "turno_id": 8,
+            "chunk_id": "turno_0008",
+            "node_id": "o::0006",
+            "char_start": 3282,
+            "char_end": 3634
+          },
+          "nucleo": "",
+          "qualificadores": []
+        },
+        {
+          "texto": "anuncia emenda de R$ 50 milhões para o piloto e a formação",
+          "ancora": {
+            "turno_id": 20,
+            "chunk_id": "turno_0020",
+            "node_id": "o::0014",
+            "char_start": 6513,
+            "char_end": 6787
+          },
+          "nucleo": "",
+          "qualificadores": []
+        }
+      ],
+      "falas": [
+        {
+          "turno_id": 8,
+          "tipo": "posicionamento",
+          "resumo": "Quero registrar meu apoio ao que foi dito pela Dra. Lúcia e pela Sra. Joana. A formação dos profissionais…"
+        }
+      ],
+      "protocolo": [
+        20
+      ],
+      "resumo_geral": "Deputado Marcos Alves (Deputado (PT-BA)) falou em 2 turno(s)."
+    },
+    {
+      "nome": "Deputada Helena Costa",
+      "cargo": "Deputada (UNIÃO-GO)",
+      "opinioes": [
+        {
+          "texto": "teme o custo de um protocolo nacional e sugere um piloto",
+          "ancora": {
+            "turno_id": 9,
+            "chunk_id": "turno_0009",
+            "node_id": "o::0007",
+            "char_start": 3674,
+            "char_end": 4009
+          },
+          "nucleo": "",
+          "qualificadores": []
+        },
+        {
+          "texto": "apoia piloto em cinco estados com relatórios semestrais",
+          "ancora": {
+            "turno_id": 21,
+            "chunk_id": "turno_0021",
+            "node_id": "o::0015",
+            "char_start": 6827,
+            "char_end": 7063
+          },
+          "nucleo": "",
+          "qualificadores": []
+        }
+      ],
+      "falas": [
+        {
+          "turno_id": 9,
+          "tipo": "posicionamento",
+          "resumo": "Eu reconheço a gravidade dos números, mas me preocupa o custo de implantar um protocolo novo em todo o país…"
+        }
+      ],
+      "protocolo": [
+        21
+      ],
+      "resumo_geral": "Deputada Helena Costa (Deputada (UNIÃO-GO)) falou em 2 turno(s)."
+    },
+    {
+      "nome": "Paulo Lima",
+      "cargo": "Ministério da Saúde",
+      "opinioes": [
+        {
+          "texto": "propõe indicador de equidade racial e protocolo gradual com os estados",
+          "ancora": {
+            "turno_id": 11,
+            "chunk_id": "turno_0011",
+            "node_id": "o::0008",
+            "char_start": 4169,
+            "char_end": 4602
+          },
+          "nucleo": "",
+          "qualificadores": []
+        }
+      ],
+      "falas": [
+        {
+          "turno_id": 11,
+          "tipo": "posicionamento",
+          "resumo": "O Ministério reconhece a desigualdade apontada pela Rede e pela Fiocruz e já elaborou uma proposta de…"
+        }
+      ],
+      "protocolo": [],
+      "resumo_geral": "Paulo Lima (Ministério da Saúde) falou em 1 turno(s)."
+    },
+    {
+      "nome": "Rita Oliveira",
+      "cargo": "Conselho Nacional de Saúde",
+      "opinioes": [
+        {
+          "texto": "afirma que falta prioridade, não dinheiro, e cobra controle social",
+          "ancora": {
+            "turno_id": 13,
+            "chunk_id": "turno_0013",
+            "node_id": "o::0010",
+            "char_start": 4907,
+            "char_end": 5216
+          },
+          "nucleo": "",
+          "qualificadores": []
+        },
+        {
+          "texto": "propõe conferências regionais de saúde da população negra",
+          "ancora": {
+            "turno_id": 18,
+            "chunk_id": "turno_0018",
+            "node_id": "o::0012",
+            "char_start": 5753,
+            "char_end": 6084
+          },
+          "nucleo": "",
+          "qualificadores": []
+        }
+      ],
+      "falas": [
+        {
+          "turno_id": 18,
+          "tipo": "posicionamento",
+          "resumo": "Obrigada, Presidente. Proponho que a comissão apoie a realização de conferências regionais de saúde da…"
+        }
+      ],
+      "protocolo": [
+        13,
+        15
+      ],
+      "resumo_geral": "Rita Oliveira (Conselho Nacional de Saúde) falou em 3 turno(s)."
     }
   ]
 }

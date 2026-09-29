@@ -4,9 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export const audienceSections = [
-  { slug: "interacoes", label: "Interações entre falantes" },
-  { slug: "interacoes-deputados", label: "Interações entre deputados" },
+  { slug: "turnos", label: "Turno a turno" },
   { slug: "argumentacao", label: "Tipo de argumentação" },
+  { slug: "interacoes", label: "Interações entre falantes" },
   { slug: "resumo", label: "Resumo textual com níveis de detalhamento" },
 ] as const;
 
