@@ -57,7 +57,7 @@ export function ArgumentationTab({ recordId }: { recordId: number }) {
 
   return (
     <section role="tabpanel" aria-label="Tipo de argumentação" className="bg-[#f8f7f3] px-5 py-8 lg:px-8">
-      <div className="mx-auto max-w-[1500px]">
+      <div className="mx-auto max-w-[1200px]">
         <div className="mb-7 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
           <div>
             <p className="mb-2 text-xs font-bold uppercase tracking-[0.16em] text-orange-600">Mineração de argumentos</p>

@@ -39,7 +39,7 @@ export default async function AudienceLayout({ children, params }: Props) {
   return (
     <>
       <div className="px-5 pt-6 lg:px-8">
-        <div className="mx-auto max-w-[1500px]">
+        <div className="mx-auto max-w-[1200px]">
           <Link href="/" className="mb-5 inline-flex items-center gap-1.5 text-sm font-medium text-zinc-500 hover:text-zinc-900"><ChevronLeft className="size-4"/>Voltar para audiências</Link>
 
           <section className="overflow-hidden rounded-3xl bg-zinc-900 px-6 py-8 text-white shadow-[0_20px_60px_rgba(24,24,27,0.18)] sm:px-10 sm:py-10">

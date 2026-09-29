@@ -14,7 +14,7 @@ export function AudienceNav({ id }: { id: number }) {
   const pathname = usePathname();
   return (
     <nav aria-label="Análises da audiência" className="sticky top-0 z-20 border-b border-zinc-200 bg-white/95 px-5 backdrop-blur lg:px-8">
-      <div className="mx-auto max-w-[1500px] overflow-x-auto">
+      <div className="mx-auto max-w-[1200px] overflow-x-auto">
         <div className="flex min-w-max gap-1">
           {audienceSections.map((section) => {
             const href = `/audiencias/${id}/${section.slug}`;

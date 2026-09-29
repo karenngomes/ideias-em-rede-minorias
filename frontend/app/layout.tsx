@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className="bg-[#f8f7f3] text-zinc-950">
         <header className="border-b border-zinc-200/80 bg-white px-5 py-4 lg:px-8">
-          <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-4">
+          <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4">
             <Link href="/" className="flex items-center gap-3">
               <span className="grid size-9 place-items-center rounded-full bg-orange-500 text-sm font-black text-white">IR</span>
               <span><span className="block font-semibold tracking-tight">Ideias em Rede</span><span className="block text-xs text-zinc-500">Observatório de audiências públicas</span></span>
