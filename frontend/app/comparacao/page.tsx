@@ -108,7 +108,7 @@ export default async function ComparacaoPage() {
         <p className="mb-2 text-xs font-bold uppercase tracking-[0.16em] text-orange-600">Comparação</p>
         <h1 className="text-4xl font-semibold tracking-[-0.035em]">Minorias × demais audiências</h1>
         <p className="mt-3 max-w-3xl text-base leading-7 text-[#666666]">
-          O estudo de caso do artigo: as {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura e da classificação de persuasão (David).
+          O estudo de caso do artigo: as {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura e da classificação de persuasão.
           Cada ponto é uma audiência; clique para abri-la.
         </p>
         <p className="mt-3 max-w-3xl rounded-xl border border-black/10 bg-white px-4 py-3 text-xs leading-5 text-[#666666]">
@@ -131,7 +131,6 @@ export default async function ComparacaoPage() {
 
         <Section eyebrow="H2 · Conteúdo da justificação" title="Justificativas pelo bem comum sensível à diferença" badge="via LLM"
           text={<>Parte dos códigos de conteúdo da justificação que apelam ao bem comum sensível à diferença (em vez de interesse de grupo, neutro ou bem comum utilitário). A hipótese: mais desse tipo e menos interesse de grupo nas audiências de minorias. Mediana de <strong className="text-ink">{pct(medianOf(bemComum, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pct(medianOf(bemComum, "C") ?? 0)}</strong> nas demais.</>}
-          note="É a dimensão que a anotação humana da Thalia está validando (bem comum × interesse de grupo). Atribuído por modelo de linguagem: o instrumento indica, não afirma."
           test={<TestBox name={testes.h2.bem_comum_diferenca.teste} significant={testes.h2.bem_comum_diferenca.p < 0.05}>
             <p>Bem comum sensível à diferença: diferença de medianas (M − C) de <strong>{signed(testes.h2.bem_comum_diferenca.diferenca, "pp")}</strong> ({interval(testes.h2.bem_comum_diferenca.ic, "pp")}), {pValue(testes.h2.bem_comum_diferenca.p)}, efeito r = {num(testes.h2.bem_comum_diferenca.r)} (grande a partir de 0,5).</p>
             <p className="text-xs text-[#666666]">Interesse de grupo: mediana de {pct(h2Interesse.mediana.M)} nas audiências de minorias e {pct(h2Interesse.mediana.C)} nas demais, {h2Interesse.p < 0.05 ? "com" : "sem"} diferença significativa ({pValue(h2Interesse.p)}). {h2InteresseTexto}</p>
