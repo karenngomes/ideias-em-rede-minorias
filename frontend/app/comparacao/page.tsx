@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { GroupedBars, Legend, StripPlot } from "@/components/comparacao/charts";
+import { CategoryDumbbell, GroupedBars, Legend, StripPlot } from "@/components/comparacao/charts";
+import persuasao from "@/data/persuasao-por-audiencia.json";
 import { getComparacao, mediana, type AudienciaIndicadores, type Grupo, type Papel } from "@/lib/comparacao";
 
 export const metadata: Metadata = { title: "Minorias × demais | Karkará · Ideias em Rede" };
@@ -44,6 +45,20 @@ export default async function ComparacaoPage() {
     return convidado && parlamentar ? convidado / parlamentar : null;
   };
 
+  // Persuasão: classificação do David, agrupada pela rotulagem da Thalia (M ou C).
+  const grupoDe = new Map(audiencias.map((a) => [a.id, a]));
+  const categoriaNomes: Record<string, string> = { ataque_a_reputacao: "Ataque à reputação", justificativa: "Justificativa", simplificacao: "Simplificação", distracao: "Distração", chamada: "Chamada à ação", linguagem_manipulativa: "Linguagem manipulativa", nenhuma: "Nenhuma técnica" };
+  const persuasaoAudiencias = Object.entries(persuasao.audiencias).map(([id, values]) => ({ id: Number(id), values, info: grupoDe.get(Number(id)) })).filter((item) => item.info);
+  const nPersuasao = { M: persuasaoAudiencias.filter((a) => a.info!.grupo === "M").length, C: persuasaoAudiencias.filter((a) => a.info!.grupo === "C").length };
+  const divergentes = persuasaoAudiencias.filter((a) => (a.info!.grupo === "M") !== persuasao.grupos_do_autor.minorias.includes(a.id));
+  const persuasaoCategorias = persuasao.categorias.map((key, index) => ({
+    label: categoriaNomes[key] ?? key,
+    points: {
+      M: persuasaoAudiencias.filter((a) => a.info!.grupo === "M").map((a) => ({ id: a.id, value: a.values[index], title: a.info!.assunto })),
+      C: persuasaoAudiencias.filter((a) => a.info!.grupo === "C").map((a) => ({ id: a.id, value: a.values[index], title: a.info!.assunto })),
+    },
+  }));
+
   const palavras = rows(audiencias, (a) => a.palavras);
   const positivo = rows(audiencias, (a) => a.respeitoPositivo);
   const negativo = rows(audiencias, (a) => a.respeitoNegativo);
@@ -82,8 +97,11 @@ export default async function ComparacaoPage() {
           <StripPlot rows={negativo} min={0} max={Math.ceil(Math.max(0.01, ...negativo.flatMap((r) => r.points.map((p) => p.value))) * 100) / 100} format={pct}/>
         </Section>
 
-        <Section eyebrow="H3 · Persuasão" title="Chamada à ação e linguagem carregada" badge="via LLM"
-          text={<>Ainda não dá para comparar: a persuasão foi classificada só em 10 audiências do grupo M e em nenhuma do grupo C. Veja cada uma no modo persuasão do <Link href="/audiencias/163" className="font-semibold text-orange-700 underline decoration-orange-200 underline-offset-4">Turno a turno</Link>.</>}/>
+        <Section eyebrow="H3 · Persuasão" title="Técnicas de persuasão por grupo" badge="via LLM"
+          text={<>Média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências de minorias e {nPersuasao.C} demais. As audiências de minorias têm mais chamada à ação, ataque à reputação e justificativa, e menos trechos sem nenhuma técnica. Uma fala pode ter mais de uma técnica.</>}
+          note={`Classificação do David (multilabel, via LLM, em validação humana), só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. Os grupos seguem a rotulagem da Thalia${divergentes.length ? `; no agrupamento do David, a audiência ${divergentes.map((a) => a.id).join(", ")} aparece entre as temáticas variadas, e as diferenças mudam pouco (por exemplo, chamada à ação +9,6 pp em vez de +9,4 pp)` : ""}.`}>
+          <CategoryDumbbell categories={persuasaoCategorias} max={100}/>
+        </Section>
 
         <Section eyebrow="H4 · Cobertura" title="A sociedade civil fala mais do que aparece na matéria?" badge="sem modelo"
           text={<>Déficit da sociedade civil: parte das palavras ditas por convidados menos a parte das posições citadas na matéria original da Agência Câmara (com quem preside). Positivo significa que a sociedade civil fala mais do que aparece. Mediana de <strong className="text-ink">{pts(medianOf(deficit, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pts(medianOf(deficit, "C") ?? 0)}</strong> nas demais.</>}

@@ -106,7 +106,7 @@ estatístico), e cada ponto dos gráficos é uma audiência clicável.
 | H1 · Interrupções | parte das falas interrompidas de convidados, parlamentares e quem preside, somando cada grupo | sem modelo |
 | H2 · Respeito | parte dos códigos de respeito explicitamente positivos, por audiência | via LLM |
 | H2 · Hostilidade | parte dos códigos de respeito negativos ou degradantes, por audiência | via LLM |
-| H3 · Persuasão | ainda sem comparação: só 10 audiências do grupo M foram classificadas | via LLM |
+| H3 · Persuasão | média do percentual de parágrafos com cada técnica, em 11 audiências de M e 9 de C (classificação do David, em `frontend/data/persuasao-por-audiencia.json`) | via LLM |
 | H4 · Cobertura | déficit da sociedade civil (fala − citação na matéria original), por audiência | sem modelo |
 | Contexto | palavras faladas por audiência | sem modelo |
 
@@ -384,9 +384,16 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 **Persuasão e validação**
 
-- [ ] **Persuasão no grupo C e no restante do grupo M.** Só 10 das 53 audiências
-  do grupo M têm a persuasão classificada. Para comparar minorias × demais, é
-  preciso classificar mais audiências, o que gera custo na OpenAI.
+- [ ] **Persuasão no banco.** As 10 audiências de "temáticas variadas" que o
+  David classificou (54, 92, 108, 118, 130, 138, 156, 171, 183, 190) só existem,
+  por enquanto, como números agregados em `frontend/data/persuasao-por-audiencia.json`.
+  Para o modo persuasão funcionar nelas, é preciso importar as classificações
+  por fala no MongoDB.
+- [ ] **Audiência 92.** O David a conta como temática variada, mas na rotulagem
+  da Thalia ela é do grupo M ("Crianças e adolescentes"). O painel segue a
+  Thalia (11 × 9); combinar um critério único com o David.
+- [ ] **Mais audiências com persuasão.** Com 10 a 11 audiências por grupo, a
+  comparação é só um sinal descritivo; ampliar gera custo na OpenAI.
 - [ ] **Resultados da validação humana** da persuasão: concordância (kappa),
   F1 por classe e matriz de confusão humano × modelo.
 - [ ] **Validação das opiniões.** Comparar com as opiniões do dataset é injusto,

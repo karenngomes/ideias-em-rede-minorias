@@ -120,3 +120,55 @@ export function Legend() {
     </div>
   );
 }
+
+// Uma linha por categoria: média de cada grupo (pontos grandes), cada audiência
+// (pontos pequenos) e a diferença M − C à direita.
+export function CategoryDumbbell({ categories, max }: {
+  categories: Array<{ label: string; points: Record<"M" | "C", Array<{ id: number; value: number; title: string }>> }>;
+  max: number;
+}) {
+  const row = 46;
+  const left = 170;
+  const right = 76;
+  const height = categories.length * row + 30;
+  const x = (value: number) => left + (value / max) * (WIDTH - left - right);
+  const mean = (values: number[]) => values.reduce((a, b) => a + b, 0) / (values.length || 1);
+  const tickValues = ticks(0, max);
+  return (
+    <svg viewBox={`0 0 ${WIDTH} ${height}`} className="w-full" role="img" aria-label="Média de parágrafos com cada técnica, minorias e demais">
+      {tickValues.map((tick) => (
+        <g key={tick}>
+          <line x1={x(tick)} x2={x(tick)} y1={4} y2={categories.length * row} stroke="#ececec" strokeWidth={1}/>
+          <text x={x(tick)} y={height - 10} textAnchor="middle" fontSize={11} fill="#8a8a8a">{tick}%</text>
+        </g>
+      ))}
+      <text x={WIDTH - 4} y={14} textAnchor="end" fontSize={10} fill="#8a8a8a">M − C</text>
+      {categories.map((category, index) => {
+        const cy = index * row + row / 2 + 6;
+        const means = { M: mean(category.points.M.map((p) => p.value)), C: mean(category.points.C.map((p) => p.value)) };
+        const delta = means.M - means.C;
+        return (
+          <g key={category.label}>
+            <text x={left - 12} y={cy + 4} textAnchor="end" fontSize={12} fill="#1c2127">{category.label}</text>
+            <line x1={x(means.C)} x2={x(means.M)} y1={cy} y2={cy} stroke="#9a9a9a" strokeWidth={2}/>
+            {(["C", "M"] as const).map((grupo) => (
+              <g key={grupo}>
+                {category.points[grupo].map((point) => (
+                  <a key={point.id} href={`/audiencias/${point.id}`}>
+                    <circle cx={x(point.value)} cy={cy + (grupo === "M" ? -9 : 9)} r={3} fill={GROUP_COLORS[grupo]} fillOpacity={0.35}>
+                      <title>{`#${point.id} · ${point.title}\n${point.value.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}% dos parágrafos`}</title>
+                    </circle>
+                  </a>
+                ))}
+                <circle cx={x(means[grupo])} cy={cy} r={6} fill={GROUP_COLORS[grupo]} stroke="#ffffff" strokeWidth={2}>
+                  <title>{`${GROUP_LABELS[grupo]}: média de ${means[grupo].toLocaleString("pt-BR", { maximumFractionDigits: 1 })}%`}</title>
+                </circle>
+              </g>
+            ))}
+            <text x={WIDTH - 4} y={cy + 4} textAnchor="end" fontSize={12} fontWeight={600} fill="#1c2127">{`${delta >= 0 ? "+" : "−"}${Math.abs(delta).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} pp`}</text>
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
