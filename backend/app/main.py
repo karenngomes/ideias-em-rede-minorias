@@ -1,6 +1,7 @@
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 import os
+import uuid
 from threading import Thread
 from typing import Any, Dict
 
@@ -12,10 +13,19 @@ from pymongo.errors import PyMongoError
 from app.database import (
     client,
     classification_jobs_collection,
+    conversation_relation_runs_collection,
     lds_collection,
     nli_collection,
     persuasion_results_collection,
     transcript_chunks_collection,
+)
+from app.conversation_relations import (
+    EmbeddingServiceError,
+    InferenceApproach,
+    InferenceServiceError,
+    RelationInferenceRequest,
+    RelationInferenceResponse,
+    infer_conversation_relations,
 )
 from app.persuasion_approaches import (
     approach_capabilities,
@@ -80,6 +90,10 @@ async def lifespan(_: FastAPI):
     persuasion_results_collection.create_index(
         [("job_id", ASCENDING), ("chunk_index", ASCENDING)], unique=True
     )
+    conversation_relation_runs_collection.create_index("run_id", unique=True)
+    conversation_relation_runs_collection.create_index(
+        [("record_id", ASCENDING), ("created_at", -1)]
+    )
     persuasion_results_collection.create_index(
         [("record_id", ASCENDING), ("approach", ASCENDING),
          ("experiments_tag", ASCENDING), ("chunk_index", ASCENDING)]
@@ -114,6 +128,128 @@ def health() -> Dict[str, Any]:
         }
     except PyMongoError as error:
         raise HTTPException(status_code=503, detail="MongoDB unavailable") from error
+
+
+@app.post(
+    "/conversation-relations/infer",
+    response_model=RelationInferenceResponse,
+    summary="Infer direct and indirect relations between conversation chunks",
+)
+def infer_relations(request: RelationInferenceRequest) -> RelationInferenceResponse:
+    """Evaluate consecutive chunks and validate RAG candidates from earlier chunks."""
+    if not os.getenv("OPENAI_API_KEY"):
+        raise HTTPException(status_code=503, detail="OPENAI_API_KEY is not configured")
+    try:
+        return infer_conversation_relations(request)
+    except EmbeddingServiceError as error:
+        raise HTTPException(status_code=502, detail="Embedding service unavailable") from error
+    except InferenceServiceError as error:
+        raise HTTPException(status_code=502, detail="Relation inference service unavailable") from error
+
+
+def audience_relation_chunks(record_id: int) -> list[dict]:
+    return [
+        {
+            "id": f"chunk-{chunk['chunk_index'] + 1}",
+            "chunk_index": chunk["chunk_index"],
+            "speaker_id": chunk.get("speaker_name"),
+            "text": chunk["text"],
+        }
+        for chunk in transcript_chunks_collection.find(
+            {"record_id": record_id},
+            {"_id": 0, "chunk_index": 1, "speaker_name": 1, "text": 1},
+        ).sort("chunk_index", ASCENDING)
+    ]
+
+
+def audience_relation_payload(record_id: int, run: dict | None) -> Dict[str, Any]:
+    chunks = audience_relation_chunks(record_id)
+    if run is None:
+        return {
+            "record_id": record_id,
+            "status": "not_started",
+            "run_id": None,
+            "created_at": None,
+            "candidate_count": None,
+            "min_confidence": None,
+            "approach": None,
+            "model": None,
+            "embedding_model": None,
+            "relations": [],
+            "audit": [],
+            "chunks": chunks,
+        }
+    without_mongo_id(run)
+    return {**run, "chunks": chunks}
+
+
+@app.get("/lds/{record_id}/conversation-relations")
+def get_audience_relations(record_id: int) -> Dict[str, Any]:
+    if not lds_collection.find_one({"id": record_id}, {"_id": 1}):
+        raise HTTPException(status_code=404, detail=f"Record {record_id} not found")
+    run = conversation_relation_runs_collection.find_one(
+        {"record_id": record_id},
+        sort=[("created_at", -1)],
+    )
+    return audience_relation_payload(record_id, run)
+
+
+@app.post("/lds/{record_id}/conversation-relations")
+def generate_audience_relations(
+    record_id: int,
+    approach: InferenceApproach = Query(default="rag_pairwise"),
+    candidate_count: int = Query(
+        default=int(os.getenv("RELATION_RAG_CANDIDATE_COUNT", "5")), ge=1, le=20
+    ),
+    min_confidence: float = Query(
+        default=float(os.getenv("RELATION_MIN_CONFIDENCE", "0.70")), ge=0.0, le=1.0
+    ),
+) -> Dict[str, Any]:
+    if not os.getenv("OPENAI_API_KEY"):
+        raise HTTPException(status_code=503, detail="OPENAI_API_KEY is not configured")
+    if not lds_collection.find_one({"id": record_id}, {"_id": 1}):
+        raise HTTPException(status_code=404, detail=f"Record {record_id} not found")
+    chunks = audience_relation_chunks(record_id)
+    if not chunks:
+        raise HTTPException(status_code=422, detail="Record has no transcript chunks")
+    request = RelationInferenceRequest(
+        chunks=[
+            {
+                "id": chunk["id"],
+                "text": chunk["text"],
+                "position": chunk["chunk_index"],
+                "speaker_id": chunk["speaker_id"],
+            }
+            for chunk in chunks
+        ],
+        candidate_count=candidate_count,
+        min_confidence=min_confidence,
+        approach=approach,
+    )
+    try:
+        result = infer_conversation_relations(request)
+    except EmbeddingServiceError as error:
+        raise HTTPException(status_code=502, detail="Embedding service unavailable") from error
+    except InferenceServiceError as error:
+        raise HTTPException(status_code=502, detail="Relation inference service unavailable") from error
+    run = {
+        "run_id": str(uuid.uuid4()),
+        "record_id": record_id,
+        "status": "completed",
+        "candidate_count": candidate_count,
+        "min_confidence": min_confidence,
+        "approach": approach,
+        "model": os.getenv(
+            "OPENAI_RELATION_MODEL",
+            os.getenv("OPENAI_CLASSIFICATION_MODEL", "gpt-4o-mini"),
+        ),
+        "embedding_model": os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small"),
+        "relations": [relation.model_dump(mode="json") for relation in result.relations],
+        "audit": [entry.model_dump(mode="json") for entry in result.audit],
+        "created_at": datetime.now(timezone.utc),
+    }
+    conversation_relation_runs_collection.insert_one(run)
+    return audience_relation_payload(record_id, run)
 
 
 @app.get("/lds")

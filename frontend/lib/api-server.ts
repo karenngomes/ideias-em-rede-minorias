@@ -1,5 +1,6 @@
 // Server-side client: server components call the FastAPI backend directly.
 import type { ClassificationSummary, ClassifiedRecord, TranscriptionChunk } from "@/lib/persuasion-api";
+import type { ConversationRelationRun } from "@/lib/relations-api";
 
 const API_URL = process.env.API_URL ?? "http://127.0.0.1:8000";
 
@@ -127,4 +128,8 @@ export async function getPersuasionAudit(recordId: number, jobId: string, chunkI
     }));
   }
   return executions;
+}
+
+export function getConversationRelations(recordId: number) {
+  return request<ConversationRelationRun>(`/lds/${recordId}/conversation-relations`);
 }

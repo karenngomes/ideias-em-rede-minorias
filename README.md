@@ -84,6 +84,25 @@ todas as partes ao mesmo tempo:
   dos turnos. Em audiências longas (a maior tem 4.873 turnos), o histograma
   agrupa os turnos em faixas e o play avança vários turnos por passo.
 
+### Relações entre falas
+
+Análise do David, logo abaixo do Turno a turno. Um modelo de linguagem identifica
+como cada fala reage às anteriores (responde, questiona, concorda, discorda,
+retoma, dá a palavra e mais 30 tipos), tanto entre falas consecutivas quanto
+entre falas distantes, recuperadas por embeddings (RAG). O resultado aparece num
+diagrama de sequência: uma coluna por participante, o tempo descendo, uma seta
+por relação, com linha do tempo, explicação de cada relação e a auditoria das
+chamadas ao modelo.
+
+Três abordagens: `rag_pairwise` (pares consecutivos e RAG para os distantes,
+padrão), `protocol` (cada fala confrontada com todas as anteriores) e
+`protocol_rag` (protocolo completo sobre as falas recuperadas por embeddings, com
+auditoria). Esta análise usa os trechos da API, não os turnos da Thalia.
+
+Quando a audiência ainda não foi analisada, a seção mostra o botão **Gerar
+relações**, que chama a OpenAI (custo por uso). Por enquanto só a audiência 140
+tem relações no nosso banco; as execuções que o David fez estão no banco dele.
+
 ### Modo persuasão
 
 Nas audiências com persuasão classificada, o Turno a turno ganha o botão
@@ -164,6 +183,7 @@ A persuasão foi classificada em **10 audiências do grupo M**: 20, 26, 37, 48, 
 │   ├── app/
 │   │   ├── main.py                    # endpoints FastAPI
 │   │   ├── persuasion_approaches.py   # classificador de persuasão (7 classes)
+│   │   ├── conversation_relations.py  # relações entre falas (David)
 │   │   └── database.py                # conexão MongoDB
 │   ├── tests/                         # testes (unittest)
 │   ├── importar_mongodb.py            # importa os JSONL do corpus
@@ -179,6 +199,7 @@ A persuasão foi classificada em **10 audiências do grupo M**: 20, 26, 37, 48, 
 │   │   └── audiencias/[id]/turnos/    # página Turno a turno e a busca da auditoria
 │   ├── components/
 │   │   ├── turnos/                    # página Turno a turno
+│   │   ├── relacoes/                  # diagrama de relações entre falas (David)
 │   │   ├── comparacao/                # gráficos da página Minorias × demais
 │   │   └── home/                      # partes compartilhadas das prévias
 │   ├── lib/
@@ -231,7 +252,10 @@ cp .env.example .env
 ```
 
 No `.env`, ajuste `MONGODB_URL` (por exemplo, a porta 27018 do passo anterior) e
-`OPENAI_API_KEY`, necessária só para rodar novas classificações. Depois:
+`OPENAI_API_KEY`, necessária só para rodar novas classificações. As relações
+entre falas também leem `OPENAI_EMBEDDING_MODEL`, `OPENAI_RELATION_MODEL`,
+`RELATION_RAG_CANDIDATE_COUNT` e `RELATION_MIN_CONFIDENCE` (veja
+`.env.example`). Depois:
 
 ```bash
 .venv/bin/uvicorn app.main:app --reload --port 8000
@@ -342,6 +366,9 @@ curl -X POST "http://localhost:8000/persuasion-classifications" \
 | GET | `/persuasion-classifications/{job_id}/results` | resultados |
 | GET | `/persuasion-classifications/{job_id}/summary` | técnicas por tipo de falante |
 | GET | `/persuasion-classified-records` | audiências com classificação |
+| GET | `/lds/{id}/conversation-relations` | última execução de relações entre falas da audiência |
+| POST | `/lds/{id}/conversation-relations?approach=…` | gera relações para a audiência (usa a OpenAI) |
+| POST | `/conversation-relations/infer` | infere relações para falas enviadas no corpo |
 | GET | `/nli`, `/nli/{id}`, `/records/{id}` | dados de avaliação NLI |
 
 Conta como parlamentar quem tem partido informado em alguma fala da audiência,
@@ -503,6 +530,10 @@ do Instituto Kunumi estão em `frontend/public/`.
   mudam pouco. Vale combinar um critério único para o artigo.
 - [ ] **Mais audiências com persuasão.** Com 10 a 11 audiências por grupo, a
   comparação é só um sinal descritivo; ampliar gera custo na OpenAI.
+- [ ] **Relações entre falas no banco.** O David rodou as relações no banco dele;
+  para aparecerem aqui sem gerar de novo, é preciso exportar a coleção
+  `conversation_relation_runs` dele e importar no nosso MongoDB
+  (`mongodump --collection conversation_relation_runs` e `mongorestore`).
 - [ ] **Resultados da validação humana** da persuasão: concordância (kappa),
   F1 por classe e matriz de confusão humano × modelo.
 - [ ] **Validação das opiniões.** Comparar com as opiniões do dataset é injusto,
