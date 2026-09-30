@@ -6,8 +6,6 @@ import { usePathname } from "next/navigation";
 export const audienceSections = [
   { slug: "turnos", label: "Turno a turno" },
   { slug: "argumentacao", label: "Tipo de argumentação" },
-  { slug: "interacoes", label: "Interações entre falantes" },
-  { slug: "resumo", label: "Resumo textual com níveis de detalhamento" },
 ] as const;
 
 export function AudienceNav({ id }: { id: number }) {

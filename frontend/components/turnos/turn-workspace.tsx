@@ -82,9 +82,14 @@ export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
             </div>
 
             <div className="flex flex-wrap gap-x-4 gap-y-1.5 border-t border-black/10 px-4 py-3 text-[11px] text-[#666666]">
-              {mode === "posicoes" ? themes.map((theme) => (
-                <span key={theme.index} className="flex items-center gap-1.5"><i className="size-2.5 rounded-full" style={{ backgroundColor: temaCor(theme.index) }}/>{theme.titulo}</span>
-              )) : (
+              {mode === "posicoes" ? (
+                <>
+                  {themes.map((theme) => (
+                    <span key={theme.index} className="flex items-center gap-1.5"><i className="size-2.5 rounded-full" style={{ backgroundColor: temaCor(theme.index) }}/>{theme.titulo}</span>
+                  ))}
+                  <span className="flex basis-full items-center gap-1.5"><i className="w-4 border-t-2 border-dashed border-[#999]"/>linha tracejada: liga opiniões que tratam do mesmo assunto, detectadas automaticamente pela semelhança entre os textos <Judged/></span>
+                </>
+              ) : (
                 <>
                   <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-[#c9c9c9]"/>fala após <Exact/></span>
                   <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-orange-500"/>concede a palavra <Exact/></span>
@@ -131,6 +136,10 @@ export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
       </div>
     </section>
   );
+}
+
+function Judged() {
+  return <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">automática</span>;
 }
 
 function Exact() {

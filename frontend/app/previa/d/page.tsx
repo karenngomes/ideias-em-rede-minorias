@@ -11,11 +11,11 @@ const hypotheses = [
 ];
 
 const methods = [
-  { icon: FileText, title: "Sumarização ancorada", text: "Resumos em que cada frase aponta para a fala original.", view: "resumo" },
+  { icon: FileText, title: "Sumarização ancorada", text: "Resumos em que cada frase aponta para a fala original.", view: "turnos" },
   { icon: Quote, title: "Extração de opiniões", text: "O que cada participante defendeu, ligado ao turno de fala." },
   { icon: Newspaper, title: "Análise de cobertura", text: "Quem falou na sessão × quem a matéria citou." },
   { icon: Megaphone, title: "Técnicas de persuasão", text: "Seis técnicas por parágrafo, comparadas com anotação humana.", view: "argumentacao" },
-  { icon: Network, title: "Rede de interação", text: "Quem falou depois de quem e quem concedeu a palavra.", view: "interacoes" },
+  { icon: Network, title: "Rede de interação", text: "Quem falou depois de quem e quem concedeu a palavra.", view: "turnos" },
   { icon: Scale, title: "Qualidade deliberativa", text: "Sete indicadores do DQI, como justificação e respeito." },
 ];
 

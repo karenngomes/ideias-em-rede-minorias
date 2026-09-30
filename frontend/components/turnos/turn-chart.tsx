@@ -61,7 +61,7 @@ export function TurnChart({ data, mode, showThemes, turn, selected, onSelect, on
           <g key={nome}>
             <line x1={LABEL - 8} x2={WIDTH - 24} y1={y(nome)} y2={y(nome)} stroke={active ? "#1c2127" : "#e4e4e4"} strokeWidth={active ? 1.2 : 1}/>
             <text x={LABEL - 16} y={y(nome) + fontSize / 3} textAnchor="end" fontSize={fontSize} fontWeight={active ? 700 : 500} fill={active ? "#1c2127" : "#666666"}>
-              {nome.length > 26 ? `${nome.slice(0, 25)}…` : nome}
+              {nome.length > 22 ? `${nome.slice(0, 21)}…` : nome}
             </text>
             <circle cx={12} cy={y(nome)} r={3.5} fill={parlamentares.has(nome) ? "#1c2127" : "#ff4b3e"}/>
           </g>

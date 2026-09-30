@@ -36,13 +36,10 @@ O projeto junta dois trabalhos anteriores:
 | Acervo de audiências | `/audiencias` | reais |
 | Turno a turno | `/audiencias/[id]/turnos` | reais (pacote da Thalia) |
 | Tipo de argumentação | `/audiencias/[id]/argumentacao` | reais (persuasão) |
-| Interações entre falantes | `/audiencias/[id]/interacoes` | **demonstrativos** |
-| Resumo em níveis | `/audiencias/[id]/resumo` | **demonstrativos** |
 | Prévias da home | `/previa/a` … `/previa/d` | reais; em avaliação |
 
 Toda página de audiência tem o mesmo cabeçalho (assunto, data, grupo minoritário
-quando houver, participantes) e um menu entre as análises. Páginas com dados
-simulados ou demonstrativos exibem um aviso.
+quando houver, tema, participantes) e um menu entre as análises.
 
 ### Turno a turno
 
@@ -114,8 +111,7 @@ A audiência 140 foi usada como piloto e aparece como "fora do recorte".
 │   ├── components/
 │   │   ├── argumentation/             # página de persuasão
 │   │   ├── turnos/                    # página Turno a turno
-│   │   ├── home/                      # partes compartilhadas das prévias
-│   │   └── network-graph.tsx          # páginas demonstrativas antigas
+│   │   └── home/                      # partes compartilhadas das prévias
 │   ├── lib/
 │   │   ├── api-server.ts              # chamadas à API no servidor
 │   │   ├── persuasion-api.ts          # chamadas à API no navegador
@@ -280,7 +276,8 @@ formulário de validação em `backend/google_apps_script/validacao_persuasao/`.
 
 ## Frontend
 
-- Next.js 15, React 19, Tailwind CSS e ícones `lucide-react`.
+- Next.js 15, React 19, Tailwind CSS e ícones `lucide-react`. Os gráficos são SVG
+  feitos à mão, sem biblioteca de gráficos.
 - Páginas do servidor buscam a API direto (`lib/api-server.ts`).
 - Componentes do navegador usam o proxy `/api/backend`, configurado em
   `next.config.ts`, para evitar CORS (`lib/persuasion-api.ts`).
@@ -314,10 +311,6 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 **Visualizações**
 
-- [ ] **Páginas com dados demonstrativos.** "Interações entre falantes" e
-  "Resumo em níveis" ainda mostram uma audiência inventada sobre transição
-  energética. A página Turno a turno já cobre a rede de interação e o resumo com
-  dados reais; falta decidir se as duas saem ou se viram outra coisa.
 - [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
   posição) e as perdas registradas em `clausulas.json`.
 
