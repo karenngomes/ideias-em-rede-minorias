@@ -29,6 +29,7 @@ export default function RootLayout({
             <nav className="flex items-center gap-6 text-sm font-medium text-[#666666]">
               <Link href="/#audiencias" className="hover:text-ink">Recorte</Link>
               <Link href="/audiencias" className="hover:text-ink">Audiências</Link>
+              <Link href="/comparacao" className="hover:text-ink">Comparação</Link>
             </nav>
           </div>
         </header>

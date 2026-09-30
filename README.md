@@ -35,6 +35,7 @@ O projeto junta dois trabalhos anteriores:
 | Home do artigo | `/` | reais (contagens e recorte) |
 | Acervo de audiências | `/audiencias` | reais |
 | Turno a turno | `/audiencias/[id]/turnos` | reais (pacote da Thalia) |
+| Minorias × demais | `/comparacao` | reais (pacote da Thalia) |
 | Prévias da home | `/previa/a` … `/previa/d` | reais; em avaliação |
 
 A página da audiência tem um cabeçalho (assunto, data, categorias de minoria
@@ -94,6 +95,26 @@ Cada fala com técnicas grifadas tem o botão **Ver auditoria**, que mostra cada
 chamada ao modelo: o prompt do sistema, o contexto enviado e a resposta original.
 A auditoria é buscada no servidor só quando o botão é clicado.
 
+### Minorias × demais
+
+A página `/comparacao` compara as 53 audiências do grupo M com as 153 do grupo C,
+uma seção por hipótese. É descritiva (medianas e proporções, sem teste
+estatístico), e cada ponto dos gráficos é uma audiência clicável.
+
+| Seção | O que mostra | Origem |
+|---|---|---|
+| H1 · Interrupções | parte das falas interrompidas de convidados, parlamentares e quem preside, somando cada grupo | sem modelo |
+| H2 · Respeito | parte dos códigos de respeito explicitamente positivos, por audiência | via LLM |
+| H2 · Hostilidade | parte dos códigos de respeito negativos ou degradantes, por audiência | via LLM |
+| H3 · Persuasão | ainda sem comparação: só 10 audiências do grupo M foram classificadas | via LLM |
+| H4 · Cobertura | déficit da sociedade civil (fala − citação na matéria original), por audiência | sem modelo |
+| Contexto | palavras faladas por audiência | sem modelo |
+
+Os indicadores são calculados no servidor a partir do pacote da Thalia
+(`frontend/lib/comparacao.ts`) e ficam em cache enquanto o servidor roda. As
+cores dos grupos (coral `#ff4b3e` para M, azul `#3d63d9` para C) foram validadas
+para daltonismo e contraste.
+
 ### Selos de origem
 
 Cada informação diz de onde vem:
@@ -136,6 +157,7 @@ A persuasão foi classificada em **10 audiências do grupo M**: 20, 26, 37, 48, 
 │   │   └── audiencias/[id]/turnos/    # página Turno a turno e a busca da auditoria
 │   ├── components/
 │   │   ├── turnos/                    # página Turno a turno
+│   │   ├── comparacao/                # gráficos da página Minorias × demais
 │   │   └── home/                      # partes compartilhadas das prévias
 │   ├── lib/
 │   │   ├── api-server.ts              # chamadas à API no servidor
@@ -375,8 +397,9 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 **Visualizações**
 
-- [ ] **Painel comparativo minorias × demais.** DQI, cobertura e tamanho já podem
-  ser comparados entre M e C com o pacote da Thalia, sem custo extra.
+- [ ] **Comparação com teste estatístico.** A página `/comparacao` é
+  descritiva; o artigo vai precisar de testes (por exemplo, Mann-Whitney ou
+  bootstrap das medianas) e de controlar o tamanho das audiências.
 - [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
   posição) e as perdas registradas em `clausulas.json`.
 
