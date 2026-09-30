@@ -24,6 +24,7 @@ O projeto junta dois trabalhos anteriores:
 - [Dados](#dados)
 - [Backend](#backend)
 - [Frontend](#frontend)
+- [Análise estatística](#análise-estatística)
 - [Identidade visual](#identidade-visual)
 - [O que está faltando](#o-que-está-faltando)
 - [Licença](#licença)
@@ -167,6 +168,8 @@ A persuasão foi classificada em **10 audiências do grupo M**: 20, 26, 37, 48, 
 │   │   ├── thalia.ts                  # tipos e dados derivados do pacote da Thalia
 │   │   └── thalia-data.ts             # leitura do pacote no servidor
 │   └── public/                        # logos do Instituto Kunumi
+├── analises/
+│   └── testes_estatisticos.py         # um teste por hipótese (M × C)
 ├── dados/conteudo/                    # pacote de dados da Thalia (JSON)
 ├── LICENSE
 └── README.md
@@ -340,6 +343,39 @@ formulário de validação em `backend/google_apps_script/validacao_persuasao/`.
   carregada sob demanda por uma server action.
 - O conteúdo tem largura máxima de 1200px.
 
+## Análise estatística
+
+O painel `/comparacao` é descritivo. Os testes ficam em
+`analises/testes_estatisticos.py` (numpy, scipy, pandas e statsmodels):
+
+```bash
+python3 analises/testes_estatisticos.py
+```
+
+Cada hipótese tem um teste adequado à estrutura dos dados:
+
+| Hipótese | Unidade | Teste | Por quê |
+|---|---|---|---|
+| H1 · Interrupções | fala | regressão logística com GEE, falas agrupadas por audiência; termo de interação `convidado × minorias` | as falas de uma mesma audiência não são independentes; a hipótese é sobre a diferença entre convidados e parlamentares ser maior em M |
+| H2 · Respeito explícito | audiência | Mann-Whitney, tamanho de efeito (correlação rank-biserial) e bootstrap da diferença de medianas | proporções por audiência, sem supor normalidade |
+| H2 · Hostilidade | audiência | teste exato de Fisher (audiências com algum código negativo) | o evento é raro |
+| H3 · Persuasão | audiência | teste de permutação da diferença de médias, com correção de Holm para as 7 técnicas | só 10 audiências por grupo; 7 comparações ao mesmo tempo |
+| H4 · Cobertura | audiência | Mann-Whitney e bootstrap; regressão (OLS com erros robustos) controlando o tamanho da audiência | o déficit pode depender do tamanho da sessão |
+
+Resultados preliminares (DQI e persuasão vêm de LLM, sem validação humana):
+
+| Hipótese | Resultado | Leitura |
+|---|---|---|
+| H1 | interação OR 1,96 [IC95% 0,80–4,79], p = 0,14 | a diferença convidado × parlamentar parece maior em M, mas não é significativa |
+| H2 · respeito explícito | +7,2 pp [IC95% +5,3 a +9,6], p < 0,001, r = +0,59 | mais respeito explícito em M; efeito grande e robusto |
+| H2 · hostilidade | M 4/53, C 22/153, p = 0,24 | rara nos dois grupos; sem diferença |
+| H3 | "nenhuma técnica" −7,9 pp, p (Holm) = 0,045; chamada à ação +9,6 pp, p (Holm) = 0,07 | só "nenhuma" resiste à correção; as demais são sinais com 10 × 10 audiências |
+| H4 | −3,0 pts [IC95% −9,7 a +4,7], p = 0,47; controlando o tamanho, p = 0,61 | sem diferença entre M e C |
+
+Cuidados: a rotulagem M/C diz que as hipóteses foram registradas antes em
+`paper/PRE_REGISTRO.md` (no repositório da Thalia); os testes finais devem
+seguir esse registro. Com várias hipóteses, vale corrigir também entre elas.
+
 ## Identidade visual
 
 Segue o guia rápido da marca do Instituto Kunumi:
@@ -407,9 +443,10 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 **Visualizações**
 
-- [ ] **Comparação com teste estatístico.** A página `/comparacao` é
-  descritiva; o artigo vai precisar de testes (por exemplo, Mann-Whitney ou
-  bootstrap das medianas) e de controlar o tamanho das audiências.
+- [ ] **Testes estatísticos finais.** Há uma primeira versão em
+  `analises/testes_estatisticos.py`. Falta alinhar com o pré-registro da Thalia,
+  rodar de novo depois da validação do DQI e da persuasão e decidir se os
+  resultados entram no painel.
 - [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
   posição) e as perdas registradas em `clausulas.json`.
 
