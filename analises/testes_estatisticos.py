@@ -7,10 +7,14 @@ passaram por validação humana.
 
     python3 analises/testes_estatisticos.py
 
+Além de imprimir, grava frontend/data/testes-estatisticos.json, que o painel
+/comparacao exibe. Rode de novo sempre que os dados mudarem.
+
 Requer numpy, scipy, pandas e statsmodels.
 """
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -22,6 +26,7 @@ from scipy import stats
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "dados" / "conteudo" / "dados"
 RNG = np.random.default_rng(20260929)
+OUTPUT = ROOT / "frontend" / "data" / "testes-estatisticos.json"
 N_PERM = 10_000
 
 
@@ -94,9 +99,12 @@ def h1(turnos):
                     family=sm.families.Binomial(), cov_struct=sm.cov_struct.Exchangeable()).fit()
     odds = np.exp(model.params)
     ci = np.exp(model.conf_int())
-    for term, label in [("convidado", "convidado × parlamentar (nas demais)"),
-                        ("convidado:minorias", "interação: a diferença é maior em M?")]:
+    result = {"teste": "Regressão logística com GEE (falas agrupadas por audiência)", "n_falas": int(len(data))}
+    for term, key, label in [("convidado", "convidado", "convidado × parlamentar (nas demais)"),
+                             ("convidado:minorias", "interacao", "interação: a diferença é maior em M?")]:
         print(f"  {label:42} OR {odds[term]:.2f} [IC95% {ci.loc[term, 0]:.2f}–{ci.loc[term, 1]:.2f}]  p = {model.pvalues[term]:.3f}")
+        result[key] = {"or": float(odds[term]), "ic": [float(ci.loc[term, 0]), float(ci.loc[term, 1])], "p": float(model.pvalues[term])}
+    return result
 
 
 def h2(audiencias):
@@ -111,6 +119,12 @@ def h2(audiencias):
     odds, p = stats.fisher_exact(table.values)
     print(f"  audiências com algum código negativo: M {table.loc['M', 1]}/{table.loc['M'].sum()}, C {table.loc['C', 1]}/{table.loc['C'].sum()}"
           f"  Fisher OR = {odds:.2f}  p = {p:.3f}")
+    return {
+        "respeito": {"teste": "Mann-Whitney e bootstrap da diferença de medianas", "diferenca": float(m.median() - c.median()),
+                     "ic": [float(low), float(high)], "p": float(u.pvalue), "r": float(rank_biserial(m, c))},
+        "hostilidade": {"teste": "Teste exato de Fisher", "m": [int(table.loc["M", 1]), int(table.loc["M"].sum())],
+                        "c": [int(table.loc["C", 1]), int(table.loc["C"].sum())], "or": float(odds), "p": float(p)},
+    }
 
 
 def h3():
@@ -127,6 +141,9 @@ def h3():
     adjusted = holm(np.array([p for _, _, p in results]))
     for (categoria, diff, p), p_holm in zip(results, adjusted):
         print(f"  {categoria:24} M − C = {diff:+5.1f} pp  p = {p:.3f}  p (Holm) = {p_holm:.3f}")
+    return {"teste": "Permutação da diferença de médias, com correção de Holm para as 7 técnicas",
+            "categorias": {categoria: {"diferenca": float(diff) / 100, "p": float(p), "p_holm": float(p_holm)}
+                           for (categoria, diff, p), p_holm in zip(results, adjusted)}}
 
 
 def h4(audiencias):
@@ -142,12 +159,20 @@ def h4(audiencias):
     data["log_palavras"] = np.log(data.palavras)
     ols = smf.ols("deficit_civil ~ minorias + log_palavras", data=data).fit(cov_type="HC3")
     print(f"  controlando o tamanho (OLS, erros robustos): efeito de M = {100 * ols.params['minorias']:+.1f} pts  p = {ols.pvalues['minorias']:.3f}")
+    return {"teste": "Mann-Whitney e bootstrap; regressão controlando o tamanho da audiência", "diferenca": float(m.median() - c.median()),
+            "ic": [float(low), float(high)], "p": float(u.pvalue), "r": float(rank_biserial(m, c)),
+            "ajustado": {"efeito": float(ols.params["minorias"]), "p": float(ols.pvalues["minorias"])}}
 
 
 if __name__ == "__main__":
     turnos, audiencias = load()
     print(f"{audiencias.grupo.value_counts().to_dict()} audiências · {len(turnos)} falas com código de participação")
-    h1(turnos)
-    h2(audiencias)
-    h3()
-    h4(audiencias)
+    results = {
+        "gerado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "h1": h1(turnos),
+        "h2": h2(audiencias),
+        "h3": h3(),
+        "h4": h4(audiencias),
+    }
+    OUTPUT.write_text(json.dumps(results, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"\nresultados gravados em {OUTPUT.relative_to(ROOT)}")
