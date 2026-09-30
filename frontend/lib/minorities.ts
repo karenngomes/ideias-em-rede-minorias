@@ -28,9 +28,3 @@ export async function getMinorityAudiences(): Promise<MinorityAudience[]> {
       return { id: item.sample_id, assunto: item.assunto, tema: item.tema, categorias: cats, group: cats.join(" · ") || "Minorias", persuasao: withPersuasion.has(item.sample_id) };
     });
 }
-
-// Rótulo curto por audiência, só para as do grupo M.
-export async function getMinorityLabels() {
-  const audiences = await getMinorityAudiences();
-  return new Map(audiences.map((audience) => [audience.id, audience.group]));
-}

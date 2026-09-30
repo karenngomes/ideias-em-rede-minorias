@@ -40,10 +40,14 @@ O projeto junta dois trabalhos anteriores:
 | Página | Endereço | Dados |
 |---|---|---|
 | Home do artigo | `/` | reais (contagens e recorte) |
-| Acervo de audiências | `/audiencias` | reais |
+| Acervo de audiências | `/audiencias`, com filtros `?grupo=M`, `?grupo=C` e `?categoria=…` | reais |
 | Turno a turno | `/audiencias/[id]/turnos` | reais (pacote da Thalia) |
 | Minorias × demais | `/comparacao` | reais (pacote da Thalia) |
 | Prévias da home | `/previa/a` … `/previa/d` | reais; em avaliação |
+
+Na home, o recorte de minorias aparece resumido: as 8 categorias como etiquetas
+(cada uma abre a lista filtrada), 5 audiências com análise de persuasão e links
+para as 53 do recorte e para o acervo completo.
 
 A página da audiência tem um cabeçalho (assunto, data, categorias de minoria
 quando houver, tema, quantas pessoas falaram, com a lista ao passar o mouse) e,

@@ -23,6 +23,8 @@ const methods = [
 
 export default async function Home() {
   const [health, minorities, corpus] = await Promise.all([getHealth(), getMinorityAudiences(), getSilenciadosCorpus()]);
+  const categorias = Array.from(minorities.flatMap((record) => record.categorias).reduce((map, categoria) => map.set(categoria, (map.get(categoria) ?? 0) + 1), new Map<string, number>())).sort((a, b) => b[1] - a[1]);
+  const destaques = minorities.filter((record) => record.persuasao).slice(0, 5);
   const silenciados = corpus.falantes ? Math.round((corpus.silenciados / corpus.falantes) * 100) : null;
   const example = minorities.find((record) => record.persuasao)?.id ?? minorities[0]?.id;
 
@@ -101,21 +103,33 @@ export default async function Home() {
         <div className="mx-auto grid max-w-[1200px] gap-10 lg:grid-cols-[240px_minmax(0,1fr)]">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-zinc-500">Recorte de minorias</p>
-            <p className="mt-3 text-sm leading-6 text-zinc-500">{minorities.length} audiências convocadas sobre pautas de minorias, {minorities.filter((record) => record.persuasao).length} delas com as técnicas de persuasão classificadas.</p>
+            <p className="mt-3 text-sm leading-6 text-zinc-500">{minorities.length} audiências convocadas sobre pautas de minorias, em {categorias.length} categorias que podem se sobrepor.</p>
           </div>
           <div>
+            <div className="flex flex-wrap gap-2">
+              {categorias.map(([categoria, total]) => (
+                <Link key={categoria} href={`/audiencias?categoria=${encodeURIComponent(categoria)}`} className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3.5 py-1.5 text-sm text-zinc-700 transition hover:border-orange-300 hover:text-zinc-950">
+                  {categoria}<span className="font-mono text-xs text-zinc-400">{total}</span>
+                </Link>
+              ))}
+            </div>
+
+            <p className="mb-2 mt-10 text-xs font-semibold uppercase tracking-wider text-zinc-500">Com análise de persuasão</p>
             <ul className="divide-y divide-zinc-200 border-y border-zinc-200">
-              {minorities.map((record) => (
+              {destaques.map((record) => (
                 <li key={record.id}>
                   <Link href={`/audiencias/${record.id}`} className="group flex flex-col gap-1 py-4 sm:flex-row sm:items-center sm:gap-4">
-                    <span className="shrink-0 text-xs font-semibold uppercase tracking-wider text-orange-600 sm:w-48">{record.group}</span>
+                    <span className="shrink-0 text-xs font-semibold uppercase tracking-wider text-orange-600 sm:w-48">{record.categorias[0] ?? "Minorias"}</span>
                     <span className="flex-1 text-sm font-medium text-zinc-800 group-hover:text-zinc-950">{record.assunto}</span>
                     <ArrowRight className="hidden size-4 shrink-0 text-zinc-300 transition group-hover:translate-x-0.5 group-hover:text-orange-500 sm:block"/>
                   </Link>
                 </li>
               ))}
             </ul>
-            <Link href="/audiencias" className="mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-zinc-700 hover:text-zinc-950">Ver todas as {health.lds_records} audiências <ArrowRight className="size-4"/></Link>
+            <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
+              <Link href="/audiencias?grupo=M" className="inline-flex items-center gap-1.5 text-sm font-semibold text-zinc-800 hover:text-orange-700">Ver as {minorities.length} audiências do recorte <ArrowRight className="size-4"/></Link>
+              <Link href="/audiencias" className="inline-flex items-center gap-1.5 text-sm font-semibold text-zinc-500 hover:text-zinc-950">Todas as {health.lds_records} audiências <ArrowRight className="size-4"/></Link>
+            </div>
           </div>
         </div>
       </section>
