@@ -4,10 +4,11 @@ import { getHealth } from "@/lib/api-server";
 import { getMinorityAudiences } from "@/lib/minorities";
 
 const hypotheses = [
-  "Convidados são interrompidos com mais frequência que parlamentares.",
-  "Há mais elogio explícito e mais hostilidade, mas a média de respeito não muda.",
-  "Chamada à ação e linguagem carregada aparecem mais, sobretudo na sociedade civil.",
-  "A sociedade civil fala mais do que aparece na matéria da Agência Câmara.",
+  "Convidados são mais interrompidos que parlamentares, sobretudo nas audiências de minorias.",
+  "Nas audiências de minorias, as justificativas apelam mais ao bem comum sensível à diferença e menos ao interesse de grupo.",
+  "O nível de justificação das falas é diferente entre os dois grupos.",
+  "Há mais elogio explícito e mais hostilidade nas audiências de minorias, sem mudar a média de respeito.",
+  "As técnicas de persuasão se distribuem de forma diferente entre os grupos.",
 ];
 
 const methods = [
@@ -31,7 +32,7 @@ export default async function Home() {
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-orange-600">Audiências públicas · Câmara dos Deputados</p>
             <h1 className="mt-5 max-w-3xl text-5xl font-semibold leading-[1.05] tracking-[-0.045em] sm:text-7xl">Quem é ouvido quando o Legislativo <em className="font-serif font-normal text-orange-600">abre espaço</em> às minorias?</h1>
             <p className="mt-7 max-w-xl text-base leading-7 text-zinc-600">
-              {health.lds_records} audiências e {health.transcript_chunks.toLocaleString("pt-BR")} trechos de fala para entender quem argumenta, como argumenta e quem chega ao público.
+              Uma ferramenta para analisar qualquer audiência pública: quem fala, como argumenta e quem chega ao público. Aplicada às {health.lds_records} audiências do corpus, com um estudo de caso sobre as audiências de minorias.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="#audiencias" className="rounded-lg bg-zinc-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-orange-600">Explorar audiências</Link>
@@ -52,6 +53,7 @@ export default async function Home() {
           <div>
             <p className="max-w-3xl font-serif text-3xl italic leading-snug text-zinc-900 sm:text-4xl">“Como deliberam as audiências públicas sobre minorias, e como essa deliberação chega ao público?”</p>
             <p className="mt-8 max-w-2xl text-base leading-8 text-zinc-600">Quando o Legislativo abre espaço formal para grupos historicamente vulnerabilizados, essa arena funciona como as outras audiências? O trabalho acompanha o caminho das <strong className="text-zinc-900">audiências sobre minorias</strong> até a <strong className="text-zinc-900">dinâmica deliberativa</strong> e, por fim, até a <strong className="text-zinc-900">representação na cobertura institucional</strong>, comparando esse recorte com as demais audiências.</p>
+            <p className="mt-5 max-w-2xl text-base leading-8 text-zinc-600">A ferramenta não depende do tema: transcrição, opiniões, deliberação e cobertura funcionam para qualquer audiência. O recorte de minorias é o estudo de caso em que os resultados estão sendo validados; levar a validação a outros temas fica como trabalho futuro.</p>
           </div>
         </div>
       </section>
@@ -69,6 +71,7 @@ export default async function Home() {
               ))}
             </ol>
             <p className="border-t border-zinc-200 pt-6 text-sm text-zinc-500">E uma pergunta aberta: quais são as principais características argumentativas dessas audiências?</p>
+            <Link href="/comparacao" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-zinc-800 hover:text-orange-700">Ver os resultados na comparação minorias × demais <ArrowRight className="size-4"/></Link>
           </div>
         </div>
       </section>

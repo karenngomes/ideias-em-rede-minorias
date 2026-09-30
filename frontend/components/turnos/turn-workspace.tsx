@@ -108,13 +108,14 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
                   {themes.map((theme) => (
                     <span key={theme.index} className="flex items-center gap-1.5"><i className="size-2.5 rounded-full" style={{ backgroundColor: temaCor(theme.index) }}/>{theme.titulo}</span>
                   ))}
-                  <span className="flex basis-full items-center gap-1.5"><i className="w-4 border-t-2 border-dashed border-[#999]"/>linha tracejada: liga opiniões que tratam do mesmo assunto, detectadas automaticamente pela semelhança entre os textos <Judged/></span>
+                  <span className="basis-full text-[#999]">Cor: tema do resumo, com as opiniões agrupadas por semelhança (SBERT + agrupamento hierárquico Ward) <Judged/>. Alguns temas saem parecidos entre si e serão refeitos.</span>
+                  <span className="flex basis-full items-center gap-1.5"><i className="w-4 border-t-2 border-dashed border-[#999]"/>linha tracejada: liga opiniões que tratam do mesmo assunto. Clique numa opinião para ver só as ligações dela. <Judged/></span>
                 </>
               ) : (
                 <>
                   <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-[#c9c9c9]"/>fala após <Exact/></span>
                   <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-orange-500"/>concede a palavra <Exact/></span>
-                  <span className="flex items-center gap-1.5"><b className="text-orange-500">✕</b>interrompido(a) <Exact/></span>
+                  <span className="flex items-center gap-1.5"><b className="text-orange-500">✕</b>interrompido(a) <Exact/><span className="rounded bg-amber-100 px-1 text-[9px] font-bold uppercase text-amber-800">em revisão</span></span>
                 </>
               )}
               <span className="ml-auto flex items-center gap-3">

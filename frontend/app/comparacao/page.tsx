@@ -67,11 +67,13 @@ export default async function ComparacaoPage() {
     },
   }));
 
-  const h3Significativas = persuasao.categorias.filter((key) => testes.h3.categorias[key as keyof typeof testes.h3.categorias].p_holm < 0.05);
+  const h5Significativas = persuasao.categorias.filter((key) => testes.h5.categorias[key as keyof typeof testes.h5.categorias].p_holm < 0.05);
 
   const palavras = rows(audiencias, (a) => a.palavras);
   const positivo = rows(audiencias, (a) => a.respeitoPositivo);
   const negativo = rows(audiencias, (a) => a.respeitoNegativo);
+  const bemComum = rows(audiencias, (a) => a.bemComumDiferenca);
+  const nivel = rows(audiencias, (a) => a.nivelJustificacao);
   const deficit = rows(audiencias, (a) => a.deficitCivil);
   const deficitExtent = extent(deficit.flatMap((row) => row.points.map((point) => point.value)));
   const medianOf = (data: typeof deficit, grupo: Grupo) => mediana(data.find((row) => row.grupo === grupo)!.points.map((point) => point.value));
@@ -82,52 +84,71 @@ export default async function ComparacaoPage() {
         <p className="mb-2 text-xs font-bold uppercase tracking-[0.16em] text-orange-600">Comparação</p>
         <h1 className="text-4xl font-semibold tracking-[-0.035em]">Minorias × demais audiências</h1>
         <p className="mt-3 max-w-3xl text-base leading-7 text-[#666666]">
-          As {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura (Thalia) e da classificação de persuasão (David).
+          O estudo de caso do artigo: as {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura (Thalia) e da classificação de persuasão (David).
           Cada ponto é uma audiência; clique para abri-la.
+        </p>
+        <p className="mt-3 max-w-3xl rounded-xl border border-black/10 bg-white px-4 py-3 text-xs leading-5 text-[#666666]">
+          <strong className="text-ink">Análise exploratória.</strong> As hipóteses podem ter sido formuladas depois de olhar parte dos dados, e o DQI e a persuasão vêm de modelos de linguagem ainda sem validação humana. Os testes indicam onde há sinal; não confirmam as hipóteses.
         </p>
         <div className="mt-5 flex flex-wrap items-center justify-between gap-4">
           <Legend/>
-          <p className="text-xs text-[#999]">Testes preliminares, gerados em {new Date(testes.gerado_em).toLocaleDateString("pt-BR")}: DQI e persuasão ainda sem validação humana.</p>
+          <p className="text-xs text-[#999]">Testes gerados em {new Date(testes.gerado_em).toLocaleDateString("pt-BR")} por <code>analises/testes_estatisticos.py</code>.</p>
         </div>
 
-        <Section eyebrow="H1 · Interrupções" title="Quem é interrompido no meio da fala" badge="sem modelo"
+        <Section eyebrow="H1 · Interrupções" title="Quem é interrompido no meio da fala" badge="sem modelo" warning="lógica em revisão"
           text={<>Parte das falas de cada papel marcadas como interrompidas, somando todas as audiências de cada grupo. Nas audiências de minorias, convidados são interrompidos <strong className="text-ink">{ratio("M")?.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}×</strong> mais que parlamentares; nas demais, <strong className="text-ink">{ratio("C")?.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}×</strong>.</>}
-          note="As interrupções saem da estrutura da transcrição, sem modelo, mas parte delas pode ser fala de alguém não identificado ou manifestação da plateia. Ainda precisam de conferência."
+          note="A regra atual marca como interrupção qualquer fala fora da ordem esperada da sessão (presidência, convidado, réplica, tréplica), inclusive quando quem preside fala fora da vez. Isso não é necessariamente interrupção, e parte dos casos é fala de alguém não identificado ou da plateia. A Thalia está refazendo a regra; estes números vão mudar."
           test={<TestBox name={`${testes.h1.teste}, ${testes.h1.n_falas.toLocaleString("pt-BR")} falas`} significant={testes.h1.interacao.p < 0.05}>
             <p>A diferença entre convidados e parlamentares é maior nas audiências de minorias? Razão de chances da interação <strong>{num(testes.h1.interacao.or)}</strong> (IC95% {num(testes.h1.interacao.ic[0])}–{num(testes.h1.interacao.ic[1])}), {pValue(testes.h1.interacao.p)}.</p>
-            <p className="text-xs text-[#666666]">Nas demais audiências, convidados têm {num(testes.h1.convidado.or)} vezes a chance de parlamentares de serem interrompidos (IC95% {num(testes.h1.convidado.ic[0])}–{num(testes.h1.convidado.ic[1])}), {pValue(testes.h1.convidado.p)}. O intervalo inclui 1, então o dado ainda não sustenta a hipótese.</p>
+            <p className="text-xs text-[#666666]">Nas demais audiências, convidados têm {num(testes.h1.convidado.or)} vezes a chance de parlamentares de serem interrompidos (IC95% {num(testes.h1.convidado.ic[0])}–{num(testes.h1.convidado.ic[1])}), {pValue(testes.h1.convidado.p)}.</p>
           </TestBox>}>
           <GroupedBars categories={interruptionCategories} max={maxInterruption} format={pct}/>
         </Section>
 
-        <Section eyebrow="H2 · Respeito" title="Respeito explícito nas falas" badge="via LLM"
-          text={<>Parte dos códigos de respeito (a grupos, a demandas e a contra-argumentos) que são explicitamente positivos. Mediana de <strong className="text-ink">{pct(medianOf(positivo, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pct(medianOf(positivo, "C") ?? 0)}</strong> nas demais.</>}
-          note="Atribuído por modelo de linguagem e ainda sem conferência humana: o instrumento indica, não afirma."
-          test={<TestBox name={testes.h2.respeito.teste} significant={testes.h2.respeito.p < 0.05}>
-            <p>Diferença de medianas (M − C) de <strong>{signed(testes.h2.respeito.diferenca, "pp")}</strong> ({interval(testes.h2.respeito.ic, "pp")}), {pValue(testes.h2.respeito.p)}. Tamanho de efeito r = {num(testes.h2.respeito.r)} (grande a partir de 0,5).</p>
+        <Section eyebrow="H2 · Conteúdo da justificação" title="Justificativas pelo bem comum sensível à diferença" badge="via LLM"
+          text={<>Parte dos códigos de conteúdo da justificação que apelam ao bem comum sensível à diferença (em vez de interesse de grupo, neutro ou bem comum utilitário). A hipótese: mais desse tipo e menos interesse de grupo nas audiências de minorias. Mediana de <strong className="text-ink">{pct(medianOf(bemComum, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pct(medianOf(bemComum, "C") ?? 0)}</strong> nas demais.</>}
+          note="É a dimensão que a anotação humana da Thalia está validando (bem comum × interesse de grupo). Atribuído por modelo de linguagem: o instrumento indica, não afirma."
+          test={<TestBox name={testes.h2.bem_comum_diferenca.teste} significant={testes.h2.bem_comum_diferenca.p < 0.05}>
+            <p>Bem comum sensível à diferença: diferença de medianas (M − C) de <strong>{signed(testes.h2.bem_comum_diferenca.diferenca, "pp")}</strong> ({interval(testes.h2.bem_comum_diferenca.ic, "pp")}), {pValue(testes.h2.bem_comum_diferenca.p)}, efeito r = {num(testes.h2.bem_comum_diferenca.r)} (grande a partir de 0,5).</p>
+            <p className="text-xs text-[#666666]">Interesse de grupo: raro nos dois grupos (mediana 0%), sem diferença ({pValue(testes.h2.interesse_de_grupo.p)}). A parte da hipótese sobre “menos interesse de grupo” não se sustenta.</p>
           </TestBox>}>
-          <StripPlot rows={positivo} min={0} max={Math.ceil(Math.max(...positivo.flatMap((r) => r.points.map((p) => p.value))) * 10) / 10} format={pct}/>
+          <StripPlot rows={bemComum} min={0} max={Math.ceil(Math.max(...bemComum.flatMap((r) => r.points.map((p) => p.value))) * 10) / 10} format={pct}/>
         </Section>
 
-        <Section eyebrow="H2 · Hostilidade" title="Respeito negativo ou degradante" badge="via LLM"
-          test={<TestBox name={testes.h2.hostilidade.teste} significant={testes.h2.hostilidade.p < 0.05}>
-            <p>Audiências com algum código negativo: {testes.h2.hostilidade.m[0]} de {testes.h2.hostilidade.m[1]} em M e {testes.h2.hostilidade.c[0]} de {testes.h2.hostilidade.c[1]} em C. Razão de chances {num(testes.h2.hostilidade.or)}, {pValue(testes.h2.hostilidade.p)}.</p>
-          </TestBox>}
-          text={<>A outra ponta da escala. Quase não aparece em nenhum dos grupos: {negativo.map((row) => `${row.points.filter((p) => p.value > 0).length} de ${row.points.length} audiências ${row.grupo === "M" ? "de minorias" : "demais"}`).join(" e ")} têm algum código negativo.</>}>
+        <Section eyebrow="H3 · Nível de justificação" title="As posições vêm com razões?" badge="via LLM"
+          text={<>Nível médio de justificação das falas de cada audiência, de 0 (nenhuma) a 3 (sofisticada). Mediana de <strong className="text-ink">{num(medianOf(nivel, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{num(medianOf(nivel, "C") ?? 0)}</strong> nas demais.</>}
+          note="Atribuído por modelo de linguagem, sem conferência humana."
+          test={<TestBox name={testes.h3.teste} significant={testes.h3.p < 0.05}>
+            <p>Diferença de medianas (M − C) de <strong>{testes.h3.diferenca >= 0 ? "+" : "−"}{num(Math.abs(testes.h3.diferenca))}</strong> na escala de 0 a 3 (IC95% {num(testes.h3.ic[0])} a {num(testes.h3.ic[1])}), {pValue(testes.h3.p)}.</p>
+          </TestBox>}>
+          <StripPlot rows={nivel} min={0} max={Math.ceil(Math.max(...nivel.flatMap((r) => r.points.map((p) => p.value))) * 2) / 2} format={(value) => num(value, 1)}/>
+        </Section>
+
+        <Section eyebrow="H4 · Respeito" title="Mais elogio e mais hostilidade, com a mesma média?" badge="via LLM"
+          text={<>A hipótese previa mais manifestações nas duas pontas (explícito positivo e negativo) sem mudar o nível médio. O gráfico mostra a parte dos códigos de respeito (a grupos, a demandas e a contra-argumentos) que são explicitamente positivos: mediana de <strong className="text-ink">{pct(medianOf(positivo, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pct(medianOf(positivo, "C") ?? 0)}</strong> nas demais.</>}
+          note="Atribuído por modelo de linguagem e ainda sem conferência humana: o instrumento indica, não afirma."
+          test={<TestBox name="Mann-Whitney e bootstrap; teste exato de Fisher para a hostilidade" significant={testes.h4.respeito.p < 0.05} label="hipótese não sustentada como formulada">
+            <p>Respeito explícito: <strong>{signed(testes.h4.respeito.diferenca, "pp")}</strong> ({interval(testes.h4.respeito.ic, "pp")}), {pValue(testes.h4.respeito.p)}, efeito r = {num(testes.h4.respeito.r)}.</p>
+            <p>Hostilidade (algum código negativo): {testes.h4.hostilidade.m[0]} de {testes.h4.hostilidade.m[1]} audiências de minorias e {testes.h4.hostilidade.c[0]} de {testes.h4.hostilidade.c[1]} demais, {pValue(testes.h4.hostilidade.p)}: rara nos dois grupos, sem diferença.</p>
+            <p>Nível médio de respeito (0 a 1): {testes.h4.media.diferenca >= 0 ? "+" : "−"}{num(Math.abs(testes.h4.media.diferenca))} (IC95% {num(testes.h4.media.ic[0])} a {num(testes.h4.media.ic[1])}), {pValue(testes.h4.media.p)}.</p>
+            <p className="text-xs text-[#666666]">Há mais elogio, mas não mais hostilidade, e a média também sobe. Por isso a hipótese, como foi formulada, não se sustenta.</p>
+          </TestBox>}>
+          <StripPlot rows={positivo} min={0} max={Math.ceil(Math.max(...positivo.flatMap((r) => r.points.map((p) => p.value))) * 10) / 10} format={pct}/>
+          <p className="mb-2 mt-6 text-xs font-semibold text-ink">Respeito negativo ou degradante</p>
           <StripPlot rows={negativo} min={0} max={Math.ceil(Math.max(0.01, ...negativo.flatMap((r) => r.points.map((p) => p.value))) * 100) / 100} format={pct}/>
         </Section>
 
-        <Section eyebrow="H3 · Persuasão" title="Técnicas de persuasão por grupo" badge="via LLM"
+        <Section eyebrow="H5 · Persuasão" title="Técnicas de persuasão por grupo" badge="via LLM"
           text={<>Análise do David: média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. As audiências de minorias têm mais chamada à ação, ataque à reputação e justificativa, e menos trechos sem nenhuma técnica. Uma fala pode ter mais de uma técnica.</>}
           note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. Os grupos são os do David${divergentes.length ? `; na rotulagem da Thalia, usada nas outras seções, a audiência ${divergentes.map((a) => a.id).join(", ")} é do grupo de minorias. Com essa rotulagem, as diferenças mudam pouco (por exemplo, chamada à ação +9,4 pp em vez de +9,6 pp)` : ""}.`}>
           <CategoryDumbbell categories={persuasaoCategorias} max={100}/>
-          <TestBox name={testes.h3.teste} significant={h3Significativas.length > 0} label={`${h3Significativas.length} de ${persuasao.categorias.length} técnicas com diferença significativa`}>
+          <TestBox name={testes.h5.teste} significant={h5Significativas.length > 0} label={`${h5Significativas.length} de ${persuasao.categorias.length} técnicas com diferença significativa`}>
             <div className="overflow-x-auto">
               <table className="w-full min-w-[420px] text-left text-xs">
                 <thead><tr className="text-[#666666]"><th className="py-1 font-medium">Técnica</th><th className="py-1 text-right font-medium">M − C</th><th className="py-1 text-right font-medium">p</th><th className="py-1 text-right font-medium">p corrigido (Holm)</th></tr></thead>
                 <tbody>
                   {persuasao.categorias.map((key) => {
-                    const item = testes.h3.categorias[key as keyof typeof testes.h3.categorias];
+                    const item = testes.h5.categorias[key as keyof typeof testes.h5.categorias];
                     return (
                       <tr key={key} className={`border-t border-black/5 ${item.p_holm < 0.05 ? "font-semibold text-ink" : ""}`}>
                         <td className="py-1">{categoriaNomes[key]}</td>
@@ -141,16 +162,16 @@ export default async function ComparacaoPage() {
               </table>
             </div>
             <p className="text-xs text-[#666666]">
-              Com a correção para as {persuasao.categorias.length} técnicas, {h3Significativas.length ? <>fica abaixo de 0,05 {h3Significativas.map((key) => `“${categoriaNomes[key].toLowerCase()}”`).join(", ")}</> : "nenhuma fica abaixo de 0,05"}. Com {nPersuasao.M} audiências por grupo, falta poder estatístico para detectar diferenças desse tamanho.
+              Com a correção para as {persuasao.categorias.length} técnicas, {h5Significativas.length ? <>fica abaixo de 0,05 {h5Significativas.map((key) => `“${categoriaNomes[key].toLowerCase()}”`).join(", ")}, no limite</> : "nenhuma fica abaixo de 0,05"}. Com {nPersuasao.M} audiências por grupo, falta poder estatístico para detectar diferenças desse tamanho.
             </p>
           </TestBox>
         </Section>
 
-        <Section eyebrow="H4 · Cobertura" title="A sociedade civil fala mais do que aparece na matéria?" badge="sem modelo"
-          text={<>Déficit da sociedade civil: parte das palavras ditas por convidados menos a parte das posições citadas na matéria original da Agência Câmara (com quem preside). Positivo significa que a sociedade civil fala mais do que aparece. Mediana de <strong className="text-ink">{pts(medianOf(deficit, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pts(medianOf(deficit, "C") ?? 0)}</strong> nas demais.</>}
+        <Section eyebrow="Complementar · Cobertura" title="A sociedade civil fala mais do que aparece na matéria?" badge="sem modelo"
+          text={<>Fora das hipóteses principais. Déficit da sociedade civil: parte das palavras ditas por convidados menos a parte das posições citadas na matéria original da Agência Câmara (com quem preside). Positivo significa que a sociedade civil fala mais do que aparece. Mediana de <strong className="text-ink">{pts(medianOf(deficit, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pts(medianOf(deficit, "C") ?? 0)}</strong> nas demais.</>}
           note="Audiências sem denominador (“sem dado”) ficam de fora; não é o mesmo que zero."
-          test={<TestBox name={testes.h4.teste} significant={testes.h4.p < 0.05 || testes.h4.ajustado.p < 0.05}>
-            <p>Diferença de medianas (M − C) de <strong>{signed(testes.h4.diferenca, "pts")}</strong> ({interval(testes.h4.ic, "pts")}), {pValue(testes.h4.p)}. Controlando o tamanho da audiência, o efeito de ser do grupo M é de {signed(testes.h4.ajustado.efeito, "pts")}, {pValue(testes.h4.ajustado.p)}.</p>
+          test={<TestBox name={testes.cobertura.teste} significant={testes.cobertura.p < 0.05 || testes.cobertura.ajustado.p < 0.05}>
+            <p>Diferença de medianas (M − C) de <strong>{signed(testes.cobertura.diferenca, "pts")}</strong> ({interval(testes.cobertura.ic, "pts")}), {pValue(testes.cobertura.p)}. Controlando o tamanho da audiência, o efeito de ser do grupo M é de {signed(testes.cobertura.ajustado.efeito, "pts")}, {pValue(testes.cobertura.ajustado.p)}.</p>
           </TestBox>}>
           <StripPlot rows={deficit} min={deficitExtent.min} max={deficitExtent.max} format={pts} zero/>
         </Section>
@@ -164,10 +185,11 @@ export default async function ComparacaoPage() {
   );
 }
 
-function Section({ eyebrow, title, badge, text, note, test, children }: {
+function Section({ eyebrow, title, badge, warning, text, note, test, children }: {
   eyebrow: string;
   title: string;
   badge: "sem modelo" | "via LLM";
+  warning?: string;
   text: React.ReactNode;
   note?: string;
   test?: React.ReactNode;
@@ -178,6 +200,7 @@ function Section({ eyebrow, title, badge, text, note, test, children }: {
       <div className="flex flex-wrap items-center gap-2">
         <p className="text-xs font-bold uppercase tracking-[0.16em] text-orange-600">{eyebrow}</p>
         <span className={`rounded px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider ${badge === "sem modelo" ? "bg-[#344b7f]/10 text-[#344b7f]" : "bg-orange-50 text-orange-700"}`}>{badge}</span>
+        {warning && <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-amber-800">{warning}</span>}
       </div>
       <h2 className="mt-1 text-xl font-semibold tracking-[-0.02em]">{title}</h2>
       <p className="mt-2 max-w-3xl text-sm leading-6 text-[#666666]">{text}</p>

@@ -8,6 +8,11 @@ Minoritários*.
 > Como deliberam as audiências públicas sobre minorias, e como essa deliberação
 > chega ao público?
 
+A ferramenta é geral: transcrição, opiniões, deliberação e cobertura funcionam
+para qualquer audiência pública. As audiências sobre pautas de minorias são o
+**estudo de caso** do artigo, e é nelas que os resultados estão sendo validados.
+Levar a validação a outros temas fica como trabalho futuro.
+
 O projeto junta dois trabalhos anteriores:
 
 - `backend/`: API FastAPI sobre o MongoDB `public_hearing_br` (206 audiências da
@@ -51,11 +56,14 @@ todas as partes ao mesmo tempo:
 
 - **Gráfico**, em dois modos:
   - *mapa de posições*: cada opinião no turno em que foi dita, colorida pelo
-    tema do resumo. As linhas tracejadas ligam opiniões sobre o mesmo assunto;
+    tema do resumo. Os temas agrupam as opiniões por semelhança (embeddings
+    SBERT + agrupamento hierárquico Ward, que não deixa nenhuma opinião de
+    fora); alguns saem parecidos entre si e serão refeitos. As linhas tracejadas ligam opiniões sobre o mesmo assunto;
     ficam ocultas por padrão ("ligações por tema") e sempre aparecem para a
     opinião selecionada;
   - *rede de interação*: sequência de falas, passagens de palavra (setas) e
-    interrupções (✕).
+    interrupções (✕). A regra das interrupções está em revisão (veja as
+    pendências).
 - **Painel de leitura**:
   - *Transcrição*: acompanha o turno atual (mostra as 60 falas anteriores).
   - *Resumo*: cada seção acende quando ganha evidência.
@@ -99,20 +107,25 @@ A auditoria é buscada no servidor só quando o botão é clicado.
 ### Minorias × demais
 
 A página `/comparacao` compara as 53 audiências do grupo M com as 153 do grupo C,
-uma seção por hipótese. Cada seção usa o recorte de quem fez a análise: DQI,
-interrupções e cobertura vêm da Thalia (rotulagem M/C dela); persuasão vem do
-David (agrupamento dele, 10 × 10). Cada seção traz medianas, proporções e o
-resultado do teste estatístico (veja [Análise estatística](#análise-estatística)),
-e cada ponto dos gráficos é uma audiência clicável.
+seguindo as hipóteses da Thalia. Cada seção traz o gráfico por audiência (cada
+ponto é clicável) e o resultado do teste estatístico (veja
+[Análise estatística](#análise-estatística)). Cada seção usa o recorte de quem fez
+a análise: DQI, interrupções e cobertura vêm da Thalia (rotulagem M/C dela);
+persuasão vem do David (agrupamento dele, 10 × 10).
 
-| Seção | O que mostra | Origem |
+| Seção | Hipótese | Origem |
 |---|---|---|
-| H1 · Interrupções | parte das falas interrompidas de convidados, parlamentares e quem preside, somando cada grupo | sem modelo |
-| H2 · Respeito | parte dos códigos de respeito explicitamente positivos, por audiência | via LLM |
-| H2 · Hostilidade | parte dos códigos de respeito negativos ou degradantes, por audiência | via LLM |
-| H3 · Persuasão | análise do David: média do percentual de parágrafos com cada técnica, em 10 audiências sobre minorias e 10 de temáticas variadas, com o agrupamento dele (`frontend/data/persuasao-por-audiencia.json`) | via LLM |
-| H4 · Cobertura | déficit da sociedade civil (fala − citação na matéria original), por audiência | sem modelo |
+| H1 · Interrupções | convidados são mais interrompidos que parlamentares, sobretudo em M | sem modelo, **lógica em revisão** |
+| H2 · Conteúdo da justificação | mais bem comum sensível à diferença e menos interesse de grupo em M | via LLM |
+| H3 · Nível de justificação | o nível de justificação difere entre os grupos | via LLM |
+| H4 · Respeito | mais elogio explícito e mais hostilidade em M, sem mudar a média | via LLM |
+| H5 · Persuasão | as técnicas se distribuem de forma diferente (dados do David, em `frontend/data/persuasao-por-audiencia.json`) | via LLM |
+| Complementar · Cobertura | déficit da sociedade civil (fala − citação na matéria original) | sem modelo |
 | Contexto | palavras faladas por audiência | sem modelo |
+
+A página se apresenta como **análise exploratória**: as hipóteses podem ter sido
+formuladas depois de olhar parte dos dados, e DQI e persuasão ainda não passaram
+por validação humana.
 
 Os indicadores são calculados no servidor a partir do pacote da Thalia
 (`frontend/lib/comparacao.ts`) e ficam em cache enquanto o servidor roda. As
@@ -364,20 +377,22 @@ Cada hipótese tem um teste adequado à estrutura dos dados:
 | Hipótese | Unidade | Teste | Por quê |
 |---|---|---|---|
 | H1 · Interrupções | fala | regressão logística com GEE, falas agrupadas por audiência; termo de interação `convidado × minorias` | as falas de uma mesma audiência não são independentes; a hipótese é sobre a diferença entre convidados e parlamentares ser maior em M |
-| H2 · Respeito explícito | audiência | Mann-Whitney, tamanho de efeito (correlação rank-biserial) e bootstrap da diferença de medianas | proporções por audiência, sem supor normalidade |
-| H2 · Hostilidade | audiência | teste exato de Fisher (audiências com algum código negativo) | o evento é raro |
-| H3 · Persuasão | audiência | teste de permutação da diferença de médias, com correção de Holm para as 7 técnicas | só 10 audiências por grupo; 7 comparações ao mesmo tempo |
-| H4 · Cobertura | audiência | Mann-Whitney e bootstrap; regressão (OLS com erros robustos) controlando o tamanho da audiência | o déficit pode depender do tamanho da sessão |
+| H2 · Conteúdo da justificação | audiência | Mann-Whitney, rank-biserial e bootstrap da diferença de medianas | proporções por audiência, sem supor normalidade |
+| H3 · Nível de justificação | audiência | idem, sobre o nível médio (0 a 3) | idem |
+| H4 · Respeito | audiência | idem para o respeito explícito e o nível médio; teste exato de Fisher para a hostilidade | a hostilidade é rara |
+| H5 · Persuasão | audiência | permutação **exata** (todas as 184.756 divisões dos 20 audiências) da diferença de médias, com correção de Holm para as 7 técnicas | só 10 audiências por grupo; um teste por sorteio mudava o resultado de "nenhuma técnica" conforme a semente |
+| Cobertura | audiência | Mann-Whitney e bootstrap; OLS com erros robustos controlando o tamanho | o déficit pode depender do tamanho da sessão |
 
-Resultados preliminares (DQI e persuasão vêm de LLM, sem validação humana):
+Resultados preliminares:
 
 | Hipótese | Resultado | Leitura |
 |---|---|---|
-| H1 | interação OR 1,96 [IC95% 0,80–4,79], p = 0,14 | a diferença convidado × parlamentar parece maior em M, mas não é significativa |
-| H2 · respeito explícito | +7,2 pp [IC95% +5,3 a +9,6], p < 0,001, r = +0,59 | mais respeito explícito em M; efeito grande e robusto |
-| H2 · hostilidade | M 4/53, C 22/153, p = 0,24 | rara nos dois grupos; sem diferença |
-| H3 | "nenhuma técnica" −7,9 pp, p (Holm) = 0,045; chamada à ação +9,6 pp, p (Holm) = 0,07 | só "nenhuma" resiste à correção; as demais são sinais com 10 × 10 audiências |
-| H4 | −3,0 pts [IC95% −9,7 a +4,7], p = 0,47; controlando o tamanho, p = 0,61 | sem diferença entre M e C |
+| H1 | interação OR 1,96 [IC95% 0,80–4,79], p = 0,14 | sem diferença significativa; a regra de interrupção está sendo refeita |
+| H2 | bem comum sensível à diferença +12,7 pp [IC95% +7,8 a +17,4], p < 0,001, r = 0,63; interesse de grupo sem diferença (mediana 0% nos dois) | **principal achado**: mais justificação pelo bem comum sensível à diferença em M; a parte sobre interesse de grupo não se sustenta |
+| H3 | −0,04 na escala de 0 a 3, p = 0,12 | sem diferença |
+| H4 | respeito explícito +7,2 pp, p < 0,001; hostilidade M 4/53 × C 22/153, p = 0,24; nível médio +0,04, p < 0,001 | não se sustenta como formulada: há mais elogio, não mais hostilidade, e a média também sobe |
+| H5 | "nenhuma técnica" −7,9 pp, p (Holm) = 0,047; chamada à ação +9,6 pp, p (Holm) = 0,07 | só "nenhuma técnica" passa na correção, no limite |
+| Cobertura | −3,0 pts, p = 0,47; controlando o tamanho, p = 0,61 | sem diferença |
 
 Cuidados: a rotulagem M/C diz que as hipóteses foram registradas antes em
 `paper/PRE_REGISTRO.md` (no repositório da Thalia); os testes finais devem
@@ -397,11 +412,11 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 ## O que está faltando
 
-**Decisões de escopo**
+**Escopo (decidido)**
 
-- [ ] **Ferramenta geral ou recorte?** A ferramenta funciona para qualquer
-  audiência; o recorte de minorias seria o estudo de caso do artigo. Falta
-  decidir como apresentar isso na home.
+- [x] **Ferramenta geral, minorias como estudo de caso.** A home e o README já
+  dizem isso. No artigo, entra como limitação que a validação foi feita só no
+  recorte de minorias.
 - [ ] **Reprodutibilidade.** Rodar o pipeline ao vivo (upload, escolha de modelo e
   parâmetros) é caro e lento, porque cada etapa usa um LLM e uma API diferentes.
   A proposta é mostrar os dados já processados e documentar como rodar o
@@ -418,8 +433,12 @@ do Instituto Kunumi estão em `frontend/public/`.
 - [ ] **DQI.** Rodar de novo (talvez só no recorte de minorias, porque o corpus
   inteiro leva dias) e validar com anotação humana. Seis das sete dimensões vêm
   de LLM.
-- [ ] **Interrupções.** Conferir os casos marcados: parte deles pode ser fala de
-  alguém não identificado ou manifestação da plateia.
+- [ ] **Interrupções.** A regra atual marca como interrupção qualquer fala fora
+  da ordem esperada da sessão (presidência, convidado, réplica, tréplica), o que
+  inclui casos que não são interrupção, como quem preside falando fora da vez, e
+  falas de pessoas não identificadas ou da plateia. A Thalia está refazendo a
+  regra, provavelmente com LLM. Até lá, H1 e os ✕ do Turno a turno aparecem como
+  "em revisão".
 - [ ] **Interrupções × minorias (H1).** Calcular se convidados são mais
   interrompidos nas audiências do grupo M.
 - [ ] **Fundamentos.** Alguns trechos em "o que sustenta a posição" não fazem

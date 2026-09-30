@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-30T01:54:43+00:00",
+  "gerado_em": "2026-09-30T02:02:01+00:00",
   "h1": {
     "teste": "Regressão logística com GEE (falas agrupadas por audiência)",
     "n_falas": 4570,
@@ -21,15 +21,77 @@
     }
   },
   "h2": {
+    "bem_comum_diferenca": {
+      "teste": "Mann-Whitney e bootstrap da diferença de medianas",
+      "diferenca": 0.1274703557312253,
+      "ic": [
+        0.07777777777777778,
+        0.17428571428571427
+      ],
+      "p": 4.461588474604161e-12,
+      "r": 0.6337402885682575,
+      "mediana": {
+        "M": 0.18181818181818182,
+        "C": 0.05434782608695652
+      }
+    },
+    "interesse_de_grupo": {
+      "teste": "Mann-Whitney e bootstrap da diferença de medianas",
+      "diferenca": 0.0,
+      "ic": [
+        0.0,
+        0.0
+      ],
+      "p": 0.4871089327189141,
+      "r": -0.05537057590331729,
+      "mediana": {
+        "M": 0.0,
+        "C": 0.0
+      }
+    }
+  },
+  "h3": {
+    "teste": "Mann-Whitney e bootstrap da diferença de medianas",
+    "diferenca": -0.03703703703703709,
+    "ic": [
+      -0.13108108108108107,
+      0.01449275362318847
+    ],
+    "p": 0.1145855695124875,
+    "r": -0.14564064619558514,
+    "mediana": {
+      "M": 0.9629629629629629,
+      "C": 1.0
+    }
+  },
+  "h4": {
     "respeito": {
       "teste": "Mann-Whitney e bootstrap da diferença de medianas",
       "diferenca": 0.07222222222222222,
       "ic": [
-        0.053333333333333344,
-        0.09555208514084101
+        0.05494787623557423,
+        0.09520609318996415
       ],
       "p": 1.1633619376792299e-10,
-      "r": 0.5945246022937476
+      "r": 0.5945246022937476,
+      "mediana": {
+        "M": 0.26666666666666666,
+        "C": 0.19444444444444445
+      }
+    },
+    "media": {
+      "teste": "Mann-Whitney e bootstrap da diferença de medianas",
+      "diferenca": 0.03584995251661938,
+      "ic": [
+        0.025277777777777732,
+        0.04636591478696739
+      ],
+      "p": 1.068172201629469e-09,
+      "r": 0.5627081021087681,
+      "mediana": {
+        "M": 0.5790598290598291,
+        "C": 0.5432098765432097
+      }
     },
     "hostilidade": {
       "teste": "Teste exato de Fisher",
@@ -45,55 +107,59 @@
       "p": 0.23726089315724988
     }
   },
-  "h3": {
-    "teste": "Permutação da diferença de médias, com correção de Holm para as 7 técnicas",
+  "h5": {
+    "teste": "Permutação exata da diferença de médias (todas as divisões dos grupos), com correção de Holm para as 7 técnicas",
     "categorias": {
       "ataque_a_reputacao": {
         "diferenca": 0.08295999999999999,
-        "p": 0.0370962903709629,
-        "p_holm": 0.11128887111288871
+        "p": 0.03873216566715019,
+        "p_holm": 0.11619649700145057
       },
       "justificativa": {
         "diferenca": 0.07432000000000002,
-        "p": 0.016698330166983303,
-        "p_holm": 0.08349165083491651
+        "p": 0.016551559895213147,
+        "p_holm": 0.08275779947606574
       },
       "simplificacao": {
         "diferenca": -0.01535,
-        "p": 0.6998300169983002,
-        "p_holm": 0.6998300169983002
+        "p": 0.7000259802117387,
+        "p_holm": 0.7000259802117387
       },
       "distracao": {
         "diferenca": 0.03667999999999999,
-        "p": 0.2850714928507149,
-        "p_holm": 0.5701429857014298
+        "p": 0.28359566130463965,
+        "p_holm": 0.5671913226092793
       },
       "chamada": {
         "diferenca": 0.09582999999999992,
-        "p": 0.010998900109989001,
-        "p_holm": 0.065993400659934
+        "p": 0.012059148282058499,
+        "p_holm": 0.07235488969235099
       },
       "linguagem_manipulativa": {
         "diferenca": 0.06146000000000001,
-        "p": 0.017698230176982303,
-        "p_holm": 0.08349165083491651
+        "p": 0.018337699452250535,
+        "p_holm": 0.08275779947606574
       },
       "nenhuma": {
         "diferenca": -0.07927000000000003,
-        "p": 0.0064993500649935,
-        "p_holm": 0.045495450454954504
+        "p": 0.006744029963844205,
+        "p_holm": 0.04720820974690944
       }
     }
   },
-  "h4": {
+  "cobertura": {
     "teste": "Mann-Whitney e bootstrap; regressão controlando o tamanho da audiência",
     "diferenca": -0.029990910544070215,
     "ic": [
-      -0.0967017672234819,
-      0.04670656328231959
+      -0.09888316193928082,
+      0.0456238262490567
     ],
     "p": 0.47034725094950836,
     "r": -0.06671599457393018,
+    "mediana": {
+      "M": 0.011958028113244978,
+      "C": 0.04194893865731519
+    },
     "ajustado": {
       "efeito": -0.02079509493643111,
       "p": 0.6104033954332946

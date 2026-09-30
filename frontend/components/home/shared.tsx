@@ -4,10 +4,11 @@ import { getHealth } from "@/lib/api-server";
 import { getMinorityAudiences } from "@/lib/minorities";
 
 export const hypotheses = [
-  "Convidados são interrompidos com mais frequência que parlamentares.",
-  "Há mais elogio explícito e mais hostilidade, mas a média de respeito não muda.",
-  "Chamada à ação e linguagem carregada aparecem mais, sobretudo na sociedade civil.",
-  "A sociedade civil fala mais do que aparece na matéria da Agência Câmara.",
+  "Convidados são mais interrompidos que parlamentares, sobretudo nas audiências de minorias.",
+  "Nas audiências de minorias, as justificativas apelam mais ao bem comum sensível à diferença e menos ao interesse de grupo.",
+  "O nível de justificação das falas é diferente entre os dois grupos.",
+  "Há mais elogio explícito e mais hostilidade nas audiências de minorias, sem mudar a média de respeito.",
+  "As técnicas de persuasão se distribuem de forma diferente entre os grupos.",
 ];
 
 const methods = [

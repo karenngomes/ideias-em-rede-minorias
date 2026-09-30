@@ -16,6 +16,10 @@ export type AudienciaIndicadores = {
   palavras: number;
   falas: number;
   respeitoPositivo: number | null;
+  respeitoMedio: number | null;
+  bemComumDiferenca: number | null;
+  interesseDeGrupo: number | null;
+  nivelJustificacao: number | null;
   respeitoNegativo: number | null;
   deficitCivil: number | null;
 };
@@ -27,6 +31,9 @@ export type Comparacao = {
 
 type Cobertura = { falantes: Array<{ nome: string; parlamentar: boolean; mesa: boolean; n_palavras: number; n_turnos: number }>; proporcoes: { com_mesa: { deficit_civil: number | null } } };
 type Dqi = { codigos: Array<{ dimensao: string; rotulo: string; nivel: number; falante: string }> };
+
+const share = <T,>(items: T[], test: (item: T) => boolean) => (items.length ? items.filter(test).length / items.length : null);
+const mean = (values: number[]) => (values.length ? values.reduce((a, b) => a + b, 0) / values.length : null);
 
 async function readJson<T>(...parts: string[]) {
   return JSON.parse(await readFile(path.join(DATA_DIR, ...parts), "utf-8")) as T;
@@ -56,6 +63,8 @@ async function compute(): Promise<Comparacao> {
 
     // Respeito a grupos, a demandas e a contra-argumentos, juntos.
     const respeito = dqi.codigos.filter((codigo) => codigo.dimensao.startsWith("respeito_"));
+    const conteudo = dqi.codigos.filter((codigo) => codigo.dimensao === "justificacao_conteudo");
+    const nivel = dqi.codigos.filter((codigo) => codigo.dimensao === "justificacao_nivel").map((codigo) => codigo.nivel);
     return {
       id: item.sample_id,
       grupo: item.grupo,
@@ -64,6 +73,11 @@ async function compute(): Promise<Comparacao> {
       falas: cobertura.falantes.reduce((total, falante) => total + falante.n_turnos, 0),
       respeitoPositivo: respeito.length ? respeito.filter((c) => c.rotulo === "explicito_positivo" || c.rotulo === "valoriza").length / respeito.length : null,
       respeitoNegativo: respeito.length ? respeito.filter((c) => c.rotulo === "negativo" || c.rotulo === "degradante").length / respeito.length : null,
+      // Nível médio de respeito, de 0 (negativo) a 1 (explícito positivo / valoriza).
+      respeitoMedio: mean(respeito.map((c) => c.nivel / (c.dimensao === "respeito_contra" ? 3 : 2))),
+      bemComumDiferenca: share(conteudo, (c) => c.rotulo === "bem_comum_diferenca"),
+      interesseDeGrupo: share(conteudo, (c) => c.rotulo === "interesse_de_grupo"),
+      nivelJustificacao: mean(nivel),
       deficitCivil: cobertura.proporcoes.com_mesa.deficit_civil,
     };
   }));

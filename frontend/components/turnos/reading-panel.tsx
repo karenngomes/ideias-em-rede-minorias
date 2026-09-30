@@ -260,8 +260,10 @@ function Deliberation({ data, turn, onTurn }: { data: Audiencia; turn: number; o
             <div className="flex items-center gap-2">
               <h3 className="text-sm font-semibold text-ink">{dimensao.titulo}</h3>
               <Badge kind={dimensao.id === "participacao" ? "sem modelo" : "via LLM"}/>
+              {dimensao.id === "participacao" && <span className="whitespace-nowrap rounded bg-amber-100 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-amber-800">em revisão</span>}
             </div>
             <p className="mt-0.5 text-xs text-[#666666]">{dimensao.pergunta}</p>
+            {dimensao.id === "participacao" && <p className="mt-1 text-[11px] leading-5 text-[#999]">A regra atual conta como interrupção qualquer fala fora da ordem esperada da sessão, o que inclui casos que não são interrupção. Está sendo refeita.</p>}
             <div className="mt-3 flex h-2.5 overflow-hidden rounded-full bg-paper">
               {counts.map((count, index) => count > 0 && <span key={index} style={{ width: `${(count / total) * 100}%`, backgroundColor: levelColor(index, dimensao.niveis.length) }} title={`${rotuloLegivel(dimensao.niveis[index])}: ${count}`}/>)}
             </div>
