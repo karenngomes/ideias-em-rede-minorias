@@ -86,7 +86,8 @@ todas as partes ao mesmo tempo:
 
 ### Relações entre falas
 
-Análise do David, logo abaixo do Turno a turno. Um modelo de linguagem identifica
+Análise do David, na aba **Interações entre deputados** do Turno a turno, ao lado
+de "Mapa de posições" e "Rede de interação". Um modelo de linguagem identifica
 como cada fala reage às anteriores (responde, questiona, concorda, discorda,
 retoma, dá a palavra e mais 30 tipos), tanto entre falas consecutivas quanto
 entre falas distantes, recuperadas por embeddings (RAG). O resultado aparece num
@@ -103,6 +104,10 @@ Três abordagens: `rag_pairwise` (pares consecutivos e RAG para os distantes,
 padrão), `protocol` (cada fala confrontada com todas as anteriores) e
 `protocol_rag` (protocolo completo sobre as falas recuperadas por embeddings, com
 auditoria). Esta análise usa os trechos da API, não os turnos da Thalia.
+
+O modelo às vezes responde com sinônimos que o prompt menciona (`retomar`,
+`corrigir`). O backend os normaliza para os tipos canônicos (`retomada`,
+`correcao`); antes, um único sinônimo derrubava a análise da audiência inteira.
 
 Quando a audiência ainda não foi analisada, a seção mostra o botão **Gerar
 relações**, que chama a OpenAI (custo por uso). Por enquanto só a audiência 140

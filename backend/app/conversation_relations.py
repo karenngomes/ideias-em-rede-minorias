@@ -7,7 +7,7 @@ from datetime import datetime
 from typing import Callable, Literal, Sequence
 
 from openai import OpenAI
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 
 logger = logging.getLogger(__name__)
@@ -129,10 +129,24 @@ class RelationInferenceRequest(BaseModel):
         return self
 
 
+# O modelo às vezes usa sinônimos que o prompt menciona ("retomar", "corrigir");
+# normaliza para os tipos canônicos antes de validar, em vez de descartar a audiência.
+RELATION_TYPE_ALIASES = {"retomar": "retomada", "corrigir": "correcao"}
+
+
+def normalize_relation_type(value):
+    return RELATION_TYPE_ALIASES.get(value, value) if isinstance(value, str) else value
+
+
 class RelationDecision(BaseModel):
     type: RelationType
     confidence: float = Field(ge=0.0, le=1.0)
     reason: str = Field(min_length=1, max_length=500)
+
+    @field_validator("type", mode="before")
+    @classmethod
+    def normalize_type(cls, value):
+        return normalize_relation_type(value)
 
 
 class DirectRelationDecision(RelationDecision):
@@ -150,6 +164,11 @@ class ConversationRelation(BaseModel):
     type: RelationType
     confidence: float = Field(ge=0.0, le=1.0)
     reason: str
+
+    @field_validator("type", mode="before")
+    @classmethod
+    def normalize_type(cls, value):
+        return normalize_relation_type(value)
 
 
 class RelationInferenceResponse(BaseModel):

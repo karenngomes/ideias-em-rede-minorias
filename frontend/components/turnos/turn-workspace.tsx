@@ -3,7 +3,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { Pause, Play, RotateCcw } from "lucide-react";
 import { ReadingPanel, type PanelTab } from "@/components/turnos/reading-panel";
+import { ConversationRelationsView } from "@/components/relacoes/conversation-relations-view";
 import { TurnChart, type ChartMode } from "@/components/turnos/turn-chart";
+import type { ConversationRelationRun } from "@/lib/relations-api";
 import { superclassColors, superclassNames } from "@/lib/persuasion";
 import type { AuditExecution } from "@/lib/api-server";
 import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
@@ -11,17 +13,18 @@ import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao, type Per
 const SPEEDS = [0.5, 1, 2, 4];
 const MAX_BARS = 160;
 
-export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
+export function TurnWorkspace({ bundle, persuasao, loadAudit, relations }: {
   bundle: AudienciaBundle;
   persuasao: { tag: string; items: PersuasaoTurno[]; unmatched: number } | null;
   loadAudit?: (chunkIndexes: number[]) => Promise<AuditExecution[]>;
+  relations?: ConversationRelationRun | null;
 }) {
   const data = useMemo(() => derive(bundle), [bundle]);
   const total = data.turnos.length;
   const [turn, setTurn] = useState(1);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
-  const [mode, setMode] = useState<ChartMode>("posicoes");
+  const [mode, setMode] = useState<ChartMode | "relacoes">("posicoes");
   const [showThemes, setShowThemes] = useState(false);
   const [persuasionMode, setPersuasionMode] = useState(false);
   const [tab, setTab] = useState<PanelTab>("transcricao");
@@ -84,14 +87,24 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
           </div>
         )}
 
+        <div className="mb-3 flex w-fit max-w-full flex-wrap rounded-lg border border-black/10 bg-white p-1 text-xs font-semibold" role="tablist">
+          {([["posicoes", "Mapa de posições · opiniões"], ["interacao", "Rede de interação · pessoas"], ["relacoes", "Interações entre deputados"]] as const).map(([id, label]) => (
+            <button key={id} type="button" role="tab" aria-selected={mode === id} onClick={() => setMode(id)} className={`rounded-md px-3 py-1.5 transition ${mode === id ? "bg-ink text-white" : "text-[#666666] hover:text-ink"}`}>{label}</button>
+          ))}
+        </div>
+
+        {mode === "relacoes" ? (
+          <div>
+            <p className="mb-4 max-w-3xl text-sm leading-6 text-[#666666]">Análise do David: um modelo de linguagem, com apoio de embeddings, identifica como cada fala reage às anteriores (responde, questiona, concorda, discorda, retoma…), inclusive falas distantes. Usa os trechos da API, não os turnos das outras abas. <Judged label="via LLM"/></p>
+            {relations
+              ? <ConversationRelationsView data={relations}/>
+              : <p className="rounded-2xl border border-black/10 bg-white p-8 text-center text-sm text-[#666666]">Não foi possível carregar as relações: verifique se a API está rodando.</p>}
+          </div>
+        ) : (
+        <>
         <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_400px]">
           <div className="flex min-w-0 flex-col rounded-2xl border border-black/10 bg-white">
-            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-black/10 px-4 py-3">
-              <div className="flex flex-wrap rounded-lg bg-paper p-1 text-xs font-semibold">
-                {([["posicoes", "Mapa de posições · opiniões"], ["interacao", "Rede de interação · pessoas"]] as const).map(([id, label]) => (
-                  <button key={id} type="button" onClick={() => setMode(id)} className={`rounded-md px-3 py-1.5 transition ${mode === id ? "bg-white text-ink shadow-sm" : "text-[#666666] hover:text-ink"}`}>{label}</button>
-                ))}
-              </div>
+            <div className="flex flex-wrap items-center justify-end gap-3 border-b border-black/10 px-4 py-3">
               <div className="flex items-center gap-4 text-xs text-[#666666]">
                 {mode === "posicoes" && <label className="flex items-center gap-1.5"><input type="checkbox" checked={showThemes} onChange={(event) => setShowThemes(event.target.checked)} className="accent-orange-500"/>ligações por tema</label>}
                 <span>{visibleOpinions} de {data.opinioes.length} opiniões no gráfico</span>
@@ -155,6 +168,8 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
             <p className="font-semibold text-ink">{current?.falante_norm}</p>
           </div>
         </div>
+        </>
+        )}
       </div>
     </section>
   );
@@ -218,8 +233,8 @@ function ShareRow({ value, color }: { value: { count: number; total: number }; c
   );
 }
 
-function Judged() {
-  return <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">via modelo</span>;
+function Judged({ label = "via modelo" }: { label?: string }) {
+  return <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">{label}</span>;
 }
 
 function Exact() {

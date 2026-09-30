@@ -5,6 +5,8 @@ from fastapi import HTTPException
 from pydantic import ValidationError
 
 from app.conversation_relations import (
+    ConversationRelation,
+    IndirectRelationDecision,
     ConversationChunk,
     EmbeddingServiceError,
     RelationDecision,
@@ -325,3 +327,14 @@ class ConversationRelationTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RelationTypeAliasTests(unittest.TestCase):
+    def test_retomar_and_corrigir_are_normalized(self):
+        self.assertEqual(RelationDecision(type="retomar", confidence=0.9, reason="ok").type, "retomada")
+        self.assertEqual(RelationDecision(type="corrigir", confidence=0.9, reason="ok").type, "correcao")
+        self.assertEqual(IndirectRelationDecision(type="retomar", confidence=0.9, reason="ok").type, "retomada")
+        relation = ConversationRelation(source_chunk_id="chunk-1", target_chunk_id="chunk-2", scope="indirect",
+                                        type="retomar", confidence=0.8, reason="ok")
+        self.assertEqual(relation.type, "retomada")
+

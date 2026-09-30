@@ -117,3 +117,6 @@
 @media (max-width: 640px) { .deputyInteractions { margin-inline: -12px; padding: 22px 12px; }.sequenceHeading { align-items: stretch; flex-direction: column; }.relationRunControls { align-items: stretch; flex-direction: column; }.relationRunControls select { width: 100%; }.sequenceAside { grid-template-columns: 1fr; }.sequenceExplanation > header { align-items: flex-start; flex-direction: column; }.sequenceExplanation > div { grid-template-columns: 1fr; }.sequenceExplanation article + article { border-top: 1px solid #f1f1f2; border-left: 0; } }
 
 .relationGenerateButton:hover:not(:disabled), .relationRerunButton:hover:not(:disabled) { background: #ec3226; }
+/* Dentro da aba "Interações entre deputados", o bloco segue o alinhamento da página. */
+.deputyInteractions { margin: 0; padding: 0; background: transparent; }
+.relationsSection { padding-top: 0; }
