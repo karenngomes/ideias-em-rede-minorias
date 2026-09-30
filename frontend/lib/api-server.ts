@@ -81,7 +81,7 @@ export async function getHighlightedExcerpt(recordId: number, jobId: string, par
   return null;
 }
 
-export type PersuasionAnnotation = { speaker: string; superclass: string; trecho: string; explicacao: string };
+export type PersuasionAnnotation = { chunk_index: number; speaker: string; superclass: string; trecho: string; explicacao: string };
 
 // Todas as anotações de persuasão com evidência literal da execução mais recente da audiência.
 export async function getPersuasionAnnotations(recordId: number) {
@@ -93,9 +93,38 @@ export async function getPersuasionAnnotations(recordId: number) {
     const chunks = await request<Page<TranscriptionChunk>>(`/lds/${recordId}/chunks?page=${page}&page_size=200&classification_job_id=${run.job_id}`);
     chunks.items.forEach((chunk) => chunk.selected_classification?.superclass_classifications?.forEach((item) => {
       if (item.evidence_reliable === false || !item.text_spans[0]) return;
-      annotations.push({ speaker: chunk.speaker_name, superclass: item.superclass, trecho: item.text_spans[0], explicacao: item.explanation });
+      annotations.push({ chunk_index: chunk.chunk_index, speaker: chunk.speaker_name, superclass: item.superclass, trecho: item.text_spans[0], explicacao: item.explanation });
     }));
     if (page * chunks.page_size >= chunks.total) break;
   }
-  return { tag: run.experiments_tag, annotations };
+  return { tag: run.experiments_tag, jobId: run.job_id, annotations };
+}
+
+export type AuditExecution = {
+  chunk_index: number;
+  paragraph_index: number;
+  model: string;
+  system: string;
+  user: string;
+  response: unknown;
+  warnings: string[];
+};
+
+// Execuções do modelo registradas para as falas indicadas (auditoria da persuasão).
+export async function getPersuasionAudit(recordId: number, jobId: string, chunkIndexes: number[]) {
+  const executions: AuditExecution[] = [];
+  for (const chunkIndex of chunkIndexes) {
+    const page = await request<Page<TranscriptionChunk>>(`/lds/${recordId}/chunks?page=${chunkIndex + 1}&page_size=1&classification_job_id=${jobId}`);
+    const audit = page.items[0]?.selected_classification_audit;
+    audit?.executions?.forEach((execution) => executions.push({
+      chunk_index: chunkIndex,
+      paragraph_index: execution.paragraph_index,
+      model: audit.model,
+      system: execution.prompt.system,
+      user: execution.prompt.user,
+      response: execution.response,
+      warnings: execution.validation_warnings ?? [],
+    }));
+  }
+  return executions;
 }

@@ -78,6 +78,10 @@ manipulativa.
 As anotações vêm da API (segmentada em trechos próprios) e são ligadas aos
 turnos da Thalia procurando o texto da evidência dentro de cada fala.
 
+Cada fala com técnicas grifadas tem o botão **Ver auditoria**, que mostra cada
+chamada ao modelo: o prompt do sistema, o contexto enviado e a resposta original.
+A auditoria é buscada no servidor só quando o botão é clicado.
+
 ### Selos de origem
 
 Cada informação diz de onde vem:

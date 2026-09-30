@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
+import { AuditModal } from "@/components/turnos/audit-modal";
+import type { AuditExecution } from "@/lib/api-server";
 import { superclassColors, superclassNames } from "@/lib/persuasion";
 import { dimensoes, palavras, rotuloLegivel, temaCor, type Audiencia, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
 
@@ -16,9 +18,10 @@ const tabs: Array<{ id: PanelTab; label: string }> = [
 
 const TRANSCRIPT_WINDOW = 60;
 
-export function ReadingPanel({ data, persuasao, tab, onTab, turn, onTurn, selected, onClose }: {
+export function ReadingPanel({ data, persuasao, loadAudit, tab, onTab, turn, onTurn, selected, onClose }: {
   data: Audiencia;
   persuasao?: PersuasaoTurno[];
+  loadAudit?: (chunkIndexes: number[]) => Promise<AuditExecution[]>;
   tab: PanelTab;
   onTab: (tab: PanelTab) => void;
   turn: number;
@@ -39,7 +42,7 @@ export function ReadingPanel({ data, persuasao, tab, onTab, turn, onTurn, select
             ))}
           </div>
           <div key={tab} className="min-h-0 flex-1 overflow-y-auto">
-            {tab === "transcricao" && <Transcript data={data} persuasao={persuasao} turn={turn} onTurn={onTurn}/>}
+            {tab === "transcricao" && <Transcript data={data} persuasao={persuasao} loadAudit={loadAudit} turn={turn} onTurn={onTurn}/>}
             {tab === "resumo" && <Summary data={data} turn={turn} onTurn={onTurn}/>}
             {tab === "materia" && <Coverage data={data} onTurn={onTurn}/>}
             {tab === "deliberacao" && <Deliberation data={data} turn={turn} onTurn={onTurn}/>}
@@ -63,9 +66,9 @@ function Empty({ children }: { children: React.ReactNode }) {
   return <p className="p-5 text-sm text-[#666666]">{children}</p>;
 }
 
-function Transcript({ data, persuasao, turn, onTurn }: { data: Audiencia; persuasao?: PersuasaoTurno[]; turn: number; onTurn: (turn: number) => void }) {
+function Transcript({ data, persuasao, loadAudit, turn, onTurn }: { data: Audiencia; persuasao?: PersuasaoTurno[]; loadAudit?: (chunkIndexes: number[]) => Promise<AuditExecution[]>; turn: number; onTurn: (turn: number) => void }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const currentRef = useRef<HTMLButtonElement>(null);
+  const currentRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const container = containerRef.current;
     const current = currentRef.current;
@@ -79,7 +82,7 @@ function Transcript({ data, persuasao, turn, onTurn }: { data: Audiencia; persua
       {data.turnos.slice(start, turn).map((item) => {
         const active = item.turno_id === turn;
         return (
-          <button key={item.turno_id} ref={active ? currentRef : undefined} type="button" onClick={() => onTurn(item.turno_id)} className={`block w-full rounded-lg border-l-2 px-3 py-2.5 text-left transition ${active ? "border-orange-500 bg-orange-50/60" : "border-transparent hover:bg-paper"}`}>
+          <div key={item.turno_id} ref={active ? currentRef : undefined} role="button" tabIndex={0} onClick={() => onTurn(item.turno_id)} onKeyDown={(event) => { if (event.key === "Enter") onTurn(item.turno_id); }} className={`block w-full cursor-pointer rounded-lg border-l-2 px-3 py-2.5 text-left transition ${active ? "border-orange-500 bg-orange-50/60" : "border-transparent hover:bg-paper"}`}>
             <span className="flex flex-wrap items-baseline gap-x-2 text-xs">
               <strong className="font-semibold text-ink">{item.falante_norm}</strong>
               {item.papel && <span className="font-semibold text-orange-600">{item.papel.toLowerCase()}</span>}
@@ -90,7 +93,11 @@ function Transcript({ data, persuasao, turn, onTurn }: { data: Audiencia; persua
             <span className="mt-1 block whitespace-pre-line text-sm leading-6 text-[#333]">
               {persuasao ? <PersuasionText text={item.texto} items={persuasao.filter((p) => p.turno_id === item.turno_id)}/> : item.texto}
             </span>
-          </button>
+            {persuasao && loadAudit && (() => {
+              const chunkIndexes = Array.from(new Set(persuasao.filter((p) => p.turno_id === item.turno_id).map((p) => p.chunk_index)));
+              return chunkIndexes.length > 0 && <AuditModal turn={item.turno_id} chunkIndexes={chunkIndexes} load={loadAudit}/>;
+            })()}
+          </div>
         );
       })}
     </div>

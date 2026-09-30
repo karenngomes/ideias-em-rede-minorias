@@ -5,12 +5,17 @@ import { Pause, Play, RotateCcw } from "lucide-react";
 import { ReadingPanel, type PanelTab } from "@/components/turnos/reading-panel";
 import { TurnChart, type ChartMode } from "@/components/turnos/turn-chart";
 import { superclassColors, superclassNames } from "@/lib/persuasion";
+import type { AuditExecution } from "@/lib/api-server";
 import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
 
 const SPEEDS = [0.5, 1, 2, 4];
 const MAX_BARS = 160;
 
-export function TurnWorkspace({ bundle, persuasao }: { bundle: AudienciaBundle; persuasao: { tag: string; items: PersuasaoTurno[]; unmatched: number } | null }) {
+export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
+  bundle: AudienciaBundle;
+  persuasao: { tag: string; items: PersuasaoTurno[]; unmatched: number } | null;
+  loadAudit?: (chunkIndexes: number[]) => Promise<AuditExecution[]>;
+}) {
   const data = useMemo(() => derive(bundle), [bundle]);
   const total = data.turnos.length;
   const [turn, setTurn] = useState(1);
@@ -127,7 +132,7 @@ export function TurnWorkspace({ bundle, persuasao }: { bundle: AudienciaBundle; 
             </div>
           </div>
 
-          <ReadingPanel data={data} persuasao={persuasionMode ? persuasao?.items : undefined} tab={tab} onTab={setTab} turn={turn} onTurn={goTo} selected={selected} onClose={() => setSelected(undefined)}/>
+          <ReadingPanel data={data} persuasao={persuasionMode ? persuasao?.items : undefined} loadAudit={loadAudit} tab={tab} onTab={setTab} turn={turn} onTurn={goTo} selected={selected} onClose={() => setSelected(undefined)}/>
         </div>
 
         <div className="mt-4 flex flex-wrap items-center gap-4 rounded-2xl border border-black/10 bg-white px-4 py-3">

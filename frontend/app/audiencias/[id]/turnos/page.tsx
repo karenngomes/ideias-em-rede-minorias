@@ -1,4 +1,5 @@
 import { TurnWorkspace } from "@/components/turnos/turn-workspace";
+import { fetchPersuasionAudit } from "./actions";
 import { getPersuasionAnnotations } from "@/lib/api-server";
 import { persuasaoPorTurno } from "@/lib/thalia";
 import { getAudienciaBundle } from "@/lib/thalia-data";
@@ -14,5 +15,6 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
     );
   }
   const persuasao = persuasion ? { tag: persuasion.tag, ...persuasaoPorTurno(bundle.turnos, persuasion.annotations) } : null;
-  return <TurnWorkspace bundle={bundle} persuasao={persuasao}/>;
+  const loadAudit = persuasion ? fetchPersuasionAudit.bind(null, id, persuasion.jobId) : undefined;
+  return <TurnWorkspace bundle={bundle} persuasao={persuasao} loadAudit={loadAudit}/>;
 }

@@ -144,18 +144,18 @@ export function palavras(texto: string) {
   return texto.split(/\s+/).filter(Boolean).length;
 }
 
-export type PersuasaoTurno = { turno_id: number; superclass: string; trecho: string; explicacao: string };
+export type PersuasaoTurno = { turno_id: number; chunk_index: number; superclass: string; trecho: string; explicacao: string };
 
 // Liga cada evidência de persuasão (segmentada pela API) ao turno da Thalia que contém
 // o mesmo texto, preferindo a fala da mesma pessoa.
-export function persuasaoPorTurno(turnos: Turno[], annotations: Array<{ speaker: string; superclass: string; trecho: string; explicacao: string }>) {
+export function persuasaoPorTurno(turnos: Turno[], annotations: Array<{ chunk_index: number; speaker: string; superclass: string; trecho: string; explicacao: string }>) {
   const norm = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
   const items: PersuasaoTurno[] = [];
   let unmatched = 0;
   annotations.forEach((annotation) => {
     const candidates = turnos.filter((turno) => turno.texto.includes(annotation.trecho));
     const turno = candidates.find((item) => norm(item.falante_norm) === norm(annotation.speaker)) ?? candidates[0];
-    if (turno) items.push({ turno_id: turno.turno_id, superclass: annotation.superclass, trecho: annotation.trecho, explicacao: annotation.explicacao });
+    if (turno) items.push({ turno_id: turno.turno_id, chunk_index: annotation.chunk_index, superclass: annotation.superclass, trecho: annotation.trecho, explicacao: annotation.explicacao });
     else unmatched += 1;
   });
   return { items, unmatched };
