@@ -49,11 +49,13 @@ todas as partes ao mesmo tempo:
 
 - **Gráfico**, em dois modos:
   - *mapa de posições*: cada opinião no turno em que foi dita, colorida pelo
-    tema, com ligações entre opiniões do mesmo tema;
-  - *rede de interação*: sequência de falas, passagens de palavra e
-    interrupções.
+    tema do resumo. As linhas tracejadas ligam opiniões sobre o mesmo assunto;
+    ficam ocultas por padrão ("ligações por tema") e sempre aparecem para a
+    opinião selecionada;
+  - *rede de interação*: sequência de falas, passagens de palavra (setas) e
+    interrupções (✕).
 - **Painel de leitura**:
-  - *Transcrição*: acompanha o turno atual.
+  - *Transcrição*: acompanha o turno atual (mostra as 60 falas anteriores).
   - *Resumo*: cada seção acende quando ganha evidência.
   - *Matéria*: duas coisas separadas. A **cobertura na matéria original** da
     Agência Câmara (quem falou × quem foi citado, e o déficit da sociedade
@@ -64,7 +66,8 @@ todas as partes ao mesmo tempo:
 - **Detalhe da opinião**: mostra a fala que a sustenta (âncora), os
   fundamentos (dados, autoridades) e as ressalvas destacados no texto.
 - **Linha do tempo**: play, velocidades de 0,5× a 4× e histograma do tamanho
-  dos turnos.
+  dos turnos. Em audiências longas (a maior tem 4.873 turnos), o histograma
+  agrupa os turnos em faixas e o play avança vários turnos por passo.
 
 ### Modo persuasão
 
@@ -92,19 +95,14 @@ Cada informação diz de onde vem:
   fundamentos, ressalvas, persuasão, matéria gerada);
 - **via modelo**: as ligações "mesmo tema", por semelhança entre os textos.
 
-O recorte de minorias segue a rotulagem da Thalia: **53 audiências no grupo M**,
-em 8 categorias não exclusivas, e 153 no grupo C. A persuasão foi classificada
-em **10 audiências do grupo M**:
+### Recorte de minorias
 
-| Grupo | Audiências |
-|---|---|
-| Pessoas negras | 163, 180 |
-| Povos indígenas | 20, 136 |
-| LGBTQIA+ | 48, 85 |
-| Pessoas com deficiência | 37, 176 |
-| Mulheres | 26, 121 |
+Segue a rotulagem da Thalia (`dados/conteudo/dados/rotulos/`): **53 audiências no
+grupo M** (pautas de minorias), em 8 categorias não exclusivas, e **153 no grupo
+C** (as demais). O cabeçalho de cada audiência mostra as categorias e o tema.
 
-A audiência 140 foi usada como piloto e aparece como "fora do recorte".
+A persuasão foi classificada em **10 audiências do grupo M**: 20, 26, 37, 48, 85,
+121, 136, 163, 176 e 180. A audiência 140 foi usada como piloto da classificação.
 
 ## Estrutura do repositório
 
@@ -126,6 +124,7 @@ A audiência 140 foi usada como piloto e aparece como "fora do recorte".
 │   └── requirements.txt
 ├── frontend/
 │   ├── app/                           # rotas Next.js (App Router)
+│   │   └── audiencias/[id]/turnos/    # página Turno a turno e a busca da auditoria
 │   ├── components/
 │   │   ├── turnos/                    # página Turno a turno
 │   │   └── home/                      # partes compartilhadas das prévias
@@ -234,7 +233,7 @@ em [`dados/conteudo/README.md`](dados/conteudo/README.md) e
 | `…/opinioes.json` | as posições de cada participante, ancoradas no turno |
 | `…/grafo.json` | opiniões e participantes como rede |
 | `…/resumo.json` | o resumo por tema, ligado às opiniões |
-| `…/materia.json` | a matéria da Agência Câmara em blocos, com âncoras |
+| `…/materia.json` | a matéria **gerada pelo pipeline** a partir da audiência, em blocos, com âncoras (não é a matéria publicada) |
 | `…/argumento_intra.json` | o que sustenta cada posição |
 | `…/clausulas.json` | as ressalvas de cada posição |
 | `…/dqi.json` | os sete indicadores do DQI por fala |
@@ -243,6 +242,14 @@ em [`dados/conteudo/README.md`](dados/conteudo/README.md) e
 
 Os tipos e os dados derivados estão em `frontend/lib/thalia.ts`. Para ler o pacote
 de outro lugar, defina `THALIA_DATA_DIR`.
+
+Dois detalhes do pacote que a documentação dele ainda não explica:
+
+- os arquivos se chamam `indice_audiencias.json` e `audiencias/audiencia_NNN/`,
+  não `audiencias.json` e `NNN/` como diz o README do pacote;
+- o `char_start` de cada turno aponta para o cabeçalho com o nome de quem fala, e
+  o `texto` começa depois dele. Por isso o frontend localiza cada trecho pelo
+  próprio texto dentro da fala, em vez de subtrair os offsets.
 
 ## Backend
 
@@ -295,7 +302,9 @@ formulário de validação em `backend/google_apps_script/validacao_persuasao/`.
 
 - Next.js 15, React 19, Tailwind CSS e ícones `lucide-react`. Os gráficos são SVG
   feitos à mão, sem biblioteca de gráficos.
-- Páginas do servidor buscam a API direto (`lib/api-server.ts`).
+- As páginas buscam a API e leem o pacote da Thalia no servidor
+  (`lib/api-server.ts` e `lib/thalia-data.ts`). A auditoria da persuasão é
+  carregada sob demanda por uma server action.
 - O conteúdo tem largura máxima de 1200px.
 
 ## Identidade visual
@@ -312,28 +321,61 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 ## O que está faltando
 
-**Dados e análises**
+**Decisões de escopo**
 
-- [ ] **Persuasão no grupo C e no restante do grupo M.** Só 10 das 53 audiências
-  do grupo M têm a persuasão classificada. Para comparar minorias × demais, é
-  preciso classificar audiências do grupo C (e o resto do M), o que gera custo
-  na OpenAI.
-- [ ] **Painel comparativo minorias × demais.** Com o pacote da Thalia, DQI,
-  cobertura e tamanho já podem ser comparados entre M e C sem custo extra.
-- [ ] **Resultados da validação humana** da persuasão: concordância (kappa),
-  F1 por classe e matriz de confusão humano × modelo.
-- [ ] **Validação da extração de opiniões** contra o ground truth do corpus.
-
-**Visualizações**
-
-- [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
-  posição) e as perdas registradas em `clausulas.json`.
-
-**Home e textos**
-
+- [ ] **Ferramenta geral ou recorte?** A ferramenta funciona para qualquer
+  audiência; o recorte de minorias seria o estudo de caso do artigo. Falta
+  decidir como apresentar isso na home.
+- [ ] **Reprodutibilidade.** Rodar o pipeline ao vivo (upload, escolha de modelo e
+  parâmetros) é caro e lento, porque cada etapa usa um LLM e uma API diferentes.
+  A proposta é mostrar os dados já processados e documentar como rodar o
+  pipeline fora do site.
 - [ ] **Escolher a home.** A versão atual está em `/`, com quatro alternativas
   em `/previa/a` a `/previa/d`. Depois da escolha, apagar as prévias e
   `components/home/` se não forem usados.
+
+**Dados (pipeline da Thalia)**
+
+- [ ] **Resumo e temas.** Os temas do resumo saem muito parecidos entre si. A
+  proposta é usar um limite de semelhança maior (por exemplo, 0,8) e rodar o
+  resumo de novo, juntando a simplificação do Robson.
+- [ ] **DQI.** Rodar de novo (talvez só no recorte de minorias, porque o corpus
+  inteiro leva dias) e validar com anotação humana. Seis das sete dimensões vêm
+  de LLM.
+- [ ] **Interrupções.** Conferir os casos marcados: parte deles pode ser fala de
+  alguém não identificado ou manifestação da plateia.
+- [ ] **Interrupções × minorias (H1).** Calcular se convidados são mais
+  interrompidos nas audiências do grupo M.
+- [ ] **Fundamentos.** Alguns trechos em "o que sustenta a posição" não fazem
+  sentido; conferir o `argumento_intra.json`.
+- [ ] **Modelo de embeddings.** O `manifest.json` não registra qual modelo gerou
+  as ligações "mesmo tema", nem o limite usado (os pesos vão de 0,55 a 1,0).
+
+**Persuasão e validação**
+
+- [ ] **Persuasão no grupo C e no restante do grupo M.** Só 10 das 53 audiências
+  do grupo M têm a persuasão classificada. Para comparar minorias × demais, é
+  preciso classificar mais audiências, o que gera custo na OpenAI.
+- [ ] **Resultados da validação humana** da persuasão: concordância (kappa),
+  F1 por classe e matriz de confusão humano × modelo.
+- [ ] **Validação das opiniões.** Comparar com as opiniões do dataset é injusto,
+  porque elas vêm da matéria publicada, que inclui informação de fora da
+  audiência. Falta definir outra forma de validar.
+- [ ] **Matéria gerada.** Não foi validada; pode ficar como extra ou trabalho
+  futuro.
+
+**Visualizações**
+
+- [ ] **Painel comparativo minorias × demais.** DQI, cobertura e tamanho já podem
+  ser comparados entre M e C com o pacote da Thalia, sem custo extra.
+- [ ] **Persuasão por tipo de falante.** O endpoint
+  `/persuasion-classifications/{job_id}/summary` (parlamentares × convidados)
+  existe, mas deixou de ser exibido quando a página de argumentação saiu.
+- [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
+  posição) e as perdas registradas em `clausulas.json`.
+
+**Textos**
+
 - [ ] **Personas e histórias de uso** para a seção "Ferramenta" do artigo.
 - [ ] **Rodapé.** Confirmar o texto sobre o desafio e as parcerias
   (UFMG, UFCG).
