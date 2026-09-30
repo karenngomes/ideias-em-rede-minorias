@@ -20,7 +20,7 @@ export default async function PreviewA() {
             <p className="mt-5 text-lg leading-8 text-zinc-600">Uma ferramenta para ver como deliberam as audiências da Câmara sobre minorias: quem fala, como argumenta e quem chega ao público.</p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="#audiencias" className="rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-semibold text-white hover:bg-orange-600">Explorar audiências</Link>
-              {example && <Link href={`/audiencias/${example}/argumentacao`} className="rounded-lg border border-zinc-200 px-5 py-2.5 text-sm font-semibold text-zinc-800 hover:border-zinc-300">Ver um exemplo</Link>}
+              {example && <Link href={`/audiencias/${example}`} className="rounded-lg border border-zinc-200 px-5 py-2.5 text-sm font-semibold text-zinc-800 hover:border-zinc-300">Ver um exemplo</Link>}
             </div>
             <dl className="mt-12 flex divide-x divide-zinc-200">
               <div className="pr-6"><dt className="text-xs text-zinc-500">Audiências</dt><dd className="text-2xl font-semibold">{health.lds_records}</dd></div>

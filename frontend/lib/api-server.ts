@@ -80,3 +80,22 @@ export async function getHighlightedExcerpt(recordId: number, jobId: string, par
   }
   return null;
 }
+
+export type PersuasionAnnotation = { speaker: string; superclass: string; trecho: string; explicacao: string };
+
+// Todas as anotações de persuasão com evidência literal da execução mais recente da audiência.
+export async function getPersuasionAnnotations(recordId: number) {
+  const records = await getClassifiedRecords().catch(() => ({ items: [] as ClassifiedRecord[] }));
+  const run = records.items.find((record) => record.id === recordId)?.runs[0];
+  if (!run) return null;
+  const annotations: PersuasionAnnotation[] = [];
+  for (let page = 1; ; page += 1) {
+    const chunks = await request<Page<TranscriptionChunk>>(`/lds/${recordId}/chunks?page=${page}&page_size=200&classification_job_id=${run.job_id}`);
+    chunks.items.forEach((chunk) => chunk.selected_classification?.superclass_classifications?.forEach((item) => {
+      if (item.evidence_reliable === false || !item.text_spans[0]) return;
+      annotations.push({ speaker: chunk.speaker_name, superclass: item.superclass, trecho: item.text_spans[0], explicacao: item.explanation });
+    }));
+    if (page * chunks.page_size >= chunks.total) break;
+  }
+  return { tag: run.experiments_tag, annotations };
+}

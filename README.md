@@ -35,11 +35,11 @@ O projeto junta dois trabalhos anteriores:
 | Home do artigo | `/` | reais (contagens e recorte) |
 | Acervo de audiências | `/audiencias` | reais |
 | Turno a turno | `/audiencias/[id]/turnos` | reais (pacote da Thalia) |
-| Tipo de argumentação | `/audiencias/[id]/argumentacao` | reais (persuasão) |
 | Prévias da home | `/previa/a` … `/previa/d` | reais; em avaliação |
 
-Toda página de audiência tem o mesmo cabeçalho (assunto, data, grupo minoritário
-quando houver, tema, participantes) e um menu entre as análises.
+A página da audiência tem um cabeçalho (assunto, data, categorias de minoria
+quando houver, tema, quantas pessoas falaram, com a lista ao passar o mouse) e,
+logo abaixo, a tela Turno a turno.
 
 ### Turno a turno
 
@@ -55,24 +55,38 @@ todas as partes ao mesmo tempo:
 - **Painel de leitura**:
   - *Transcrição*: acompanha o turno atual.
   - *Resumo*: cada seção acende quando ganha evidência.
-  - *Matéria*: a notícia da Agência Câmara com cada citação ligada ao turno de
-    origem, e quem falou × quem foi citado, com o déficit da sociedade civil.
+  - *Matéria*: duas coisas separadas. A **cobertura na matéria original** da
+    Agência Câmara (quem falou × quem foi citado, e o déficit da sociedade
+    civil), calculada sem modelo, comparando nomes. E a **matéria gerada** pelo
+    pipeline a partir da audiência (título, linha fina, lead e as citações mais
+    representativas), feita por LLM e ainda não validada.
   - *Deliberação*: as 7 dimensões do DQI, com os trechos citados.
 - **Detalhe da opinião**: mostra a fala que a sustenta (âncora), os
   fundamentos (dados, autoridades) e as ressalvas destacados no texto.
 - **Linha do tempo**: play, velocidades de 0,5× a 4× e histograma do tamanho
   dos turnos.
 
-### Tipo de argumentação
+### Modo persuasão
 
-Cada parágrafo das falas é classificado por um modelo de linguagem em seis
-técnicas de persuasão, que podem coexistir: ataque à reputação, justificativa,
-simplificação, distração, chamada para ação e linguagem manipulativa. Também
-pode receber "nenhuma". A página mostra:
+Nas audiências com persuasão classificada, o Turno a turno ganha o botão
+**Modo persuasão**. Ele grifa na transcrição as técnicas encontradas pelo modelo,
+com a justificativa ao passar o mouse, e conta quantas vezes cada uma apareceu
+até o turno atual. As técnicas são seis e podem coexistir: ataque à reputação,
+justificativa, simplificação, distração, chamada para ação e linguagem
+manipulativa.
 
-- o resumo por tipo de falante (parlamentares × convidados);
-- a transcrição com os trechos de evidência destacados;
-- a auditoria de cada chamada ao modelo (prompt e resposta).
+As anotações vêm da API (segmentada em trechos próprios) e são ligadas aos
+turnos da Thalia procurando o texto da evidência dentro de cada fala.
+
+### Selos de origem
+
+Cada informação diz de onde vem:
+
+- **sem modelo**: sai da estrutura da transcrição (ordem dos turnos, quem
+  concede a palavra, interrupções, âncoras, cobertura por nomes);
+- **via LLM**: atribuído por modelo de linguagem (DQI, exceto participação;
+  fundamentos, ressalvas, persuasão, matéria gerada);
+- **via modelo**: as ligações "mesmo tema", por semelhança entre os textos.
 
 O recorte de minorias segue a rotulagem da Thalia: **53 audiências no grupo M**,
 em 8 categorias não exclusivas, e 153 no grupo C. A persuasão foi classificada
@@ -109,12 +123,11 @@ A audiência 140 foi usada como piloto e aparece como "fora do recorte".
 ├── frontend/
 │   ├── app/                           # rotas Next.js (App Router)
 │   ├── components/
-│   │   ├── argumentation/             # página de persuasão
 │   │   ├── turnos/                    # página Turno a turno
 │   │   └── home/                      # partes compartilhadas das prévias
 │   ├── lib/
 │   │   ├── api-server.ts              # chamadas à API no servidor
-│   │   ├── persuasion-api.ts          # chamadas à API no navegador
+│   │   ├── persuasion-api.ts          # tipos das respostas da API
 │   │   ├── thalia.ts                  # tipos e dados derivados do pacote da Thalia
 │   │   └── thalia-data.ts             # leitura do pacote no servidor
 │   └── public/                        # logos do Instituto Kunumi
@@ -176,8 +189,8 @@ npm install
 npm run dev
 ```
 
-Abra <http://localhost:3000>. O frontend usa `http://127.0.0.1:8000` como
-endereço da API. Para usar outra porta, crie `frontend/.env.local` com:
+Abra <http://localhost:3000>. O frontend (no servidor) usa `http://127.0.0.1:8000`
+como endereço da API. Para usar outra porta, crie `frontend/.env.local` com:
 
 ```text
 API_URL=http://127.0.0.1:8030
@@ -279,8 +292,6 @@ formulário de validação em `backend/google_apps_script/validacao_persuasao/`.
 - Next.js 15, React 19, Tailwind CSS e ícones `lucide-react`. Os gráficos são SVG
   feitos à mão, sem biblioteca de gráficos.
 - Páginas do servidor buscam a API direto (`lib/api-server.ts`).
-- Componentes do navegador usam o proxy `/api/backend`, configurado em
-  `next.config.ts`, para evitar CORS (`lib/persuasion-api.ts`).
 - O conteúdo tem largura máxima de 1200px.
 
 ## Identidade visual

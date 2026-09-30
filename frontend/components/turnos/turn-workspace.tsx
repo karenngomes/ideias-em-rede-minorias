@@ -4,12 +4,13 @@ import { useEffect, useMemo, useState } from "react";
 import { Pause, Play, RotateCcw } from "lucide-react";
 import { ReadingPanel, type PanelTab } from "@/components/turnos/reading-panel";
 import { TurnChart, type ChartMode } from "@/components/turnos/turn-chart";
-import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao } from "@/lib/thalia";
+import { superclassColors, superclassNames } from "@/lib/persuasion";
+import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
 
 const SPEEDS = [0.5, 1, 2, 4];
 const MAX_BARS = 160;
 
-export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
+export function TurnWorkspace({ bundle, persuasao }: { bundle: AudienciaBundle; persuasao: { tag: string; items: PersuasaoTurno[]; unmatched: number } | null }) {
   const data = useMemo(() => derive(bundle), [bundle]);
   const total = data.turnos.length;
   const [turn, setTurn] = useState(1);
@@ -17,6 +18,7 @@ export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
   const [speed, setSpeed] = useState(1);
   const [mode, setMode] = useState<ChartMode>("posicoes");
   const [showThemes, setShowThemes] = useState(false);
+  const [persuasionMode, setPersuasionMode] = useState(false);
   const [tab, setTab] = useState<PanelTab>("transcricao");
   const [selected, setSelected] = useState<Opiniao>();
 
@@ -63,6 +65,28 @@ export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[#666666]">Cada opinião entra no turno da fala que a sustenta. A linha do tempo filtra tudo ao mesmo tempo: o gráfico, a transcrição, o resumo e os indicadores de deliberação.</p>
         </div>
 
+        {persuasao && (
+          <div className="mb-4 rounded-2xl border border-black/10 bg-white px-4 py-3">
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
+              <label className="flex cursor-pointer items-center gap-2 text-sm font-semibold text-ink">
+                <input type="checkbox" checked={persuasionMode} onChange={(event) => { setPersuasionMode(event.target.checked); if (event.target.checked) { setTab("transcricao"); setSelected(undefined); } }} className="size-4 accent-orange-500"/>
+                Modo persuasão
+                <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">via LLM</span>
+              </label>
+              <span className="text-xs text-[#666666]">{persuasionMode ? "Técnicas grifadas na transcrição. Passe o mouse para ler a justificativa do modelo." : "Grifa na transcrição as técnicas de persuasão encontradas pelo modelo."}</span>
+            </div>
+            {persuasionMode && (
+              <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 border-t border-black/10 pt-3 text-[11px] text-[#666666]">
+                {Object.entries(superclassNames).map(([key, name]) => {
+                  const count = persuasao.items.filter((item) => item.superclass === key && item.turno_id <= turn).length;
+                  return <span key={key} className="flex items-center gap-1.5"><i className="size-2.5 rounded-sm" style={{ backgroundColor: superclassColors[key] }}/>{name} <b className="tabular-nums text-ink">{count}</b></span>;
+                })}
+                <span className="ml-auto text-[#999]">classificação em validação com anotadores humanos</span>
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_400px]">
           <div className="flex min-w-0 flex-col rounded-2xl border border-black/10 bg-white">
             <div className="flex flex-wrap items-center justify-between gap-3 border-b border-black/10 px-4 py-3">
@@ -103,7 +127,7 @@ export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
             </div>
           </div>
 
-          <ReadingPanel data={data} tab={tab} onTab={setTab} turn={turn} onTurn={goTo} selected={selected} onClose={() => setSelected(undefined)}/>
+          <ReadingPanel data={data} persuasao={persuasionMode ? persuasao?.items : undefined} tab={tab} onTab={setTab} turn={turn} onTurn={goTo} selected={selected} onClose={() => setSelected(undefined)}/>
         </div>
 
         <div className="mt-4 flex flex-wrap items-center gap-4 rounded-2xl border border-black/10 bg-white px-4 py-3">
@@ -139,9 +163,9 @@ export function TurnWorkspace({ bundle }: { bundle: AudienciaBundle }) {
 }
 
 function Judged() {
-  return <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">automática</span>;
+  return <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">via modelo</span>;
 }
 
 function Exact() {
-  return <span className="rounded bg-[#344b7f]/10 px-1 text-[9px] font-bold uppercase text-[#344b7f]">exata</span>;
+  return <span className="rounded bg-[#344b7f]/10 px-1 text-[9px] font-bold uppercase text-[#344b7f]">sem modelo</span>;
 }

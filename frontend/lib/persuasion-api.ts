@@ -1,5 +1,4 @@
-// Client for the FastAPI backend, reached through the /api/backend proxy (next.config.ts).
-const BASE = "/api/backend";
+// Tipos das respostas da API de persuasão (FastAPI).
 
 export type SpeakerMetadata = {
   raw_label: string | null;
@@ -110,22 +109,3 @@ export type ChunkPage = {
   total: number;
   items: TranscriptionChunk[];
 };
-
-async function request<T>(path: string): Promise<T> {
-  const response = await fetch(`${BASE}${path}`, { cache: "no-store" });
-  if (!response.ok) throw new Error(`API ${response.status}: ${path}`);
-  return response.json() as Promise<T>;
-}
-
-export function getClassifiedRecords() {
-  return request<{ items: ClassifiedRecord[] }>("/persuasion-classified-records");
-}
-
-export function getClassificationSummary(jobId: string) {
-  return request<ClassificationSummary>(`/persuasion-classifications/${jobId}/summary`);
-}
-
-export function getClassifiedChunks(recordId: number, jobId: string, page: number, pageSize: number) {
-  const query = new URLSearchParams({ page: String(page), page_size: String(pageSize), classification_job_id: jobId });
-  return request<ChunkPage>(`/lds/${recordId}/chunks?${query}`);
-}

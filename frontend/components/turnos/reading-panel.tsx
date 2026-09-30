@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
-import { dimensoes, palavras, rotuloLegivel, temaCor, type Audiencia, type Opiniao } from "@/lib/thalia";
+import { superclassColors, superclassNames } from "@/lib/persuasion";
+import { dimensoes, palavras, rotuloLegivel, temaCor, type Audiencia, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
 
 export type PanelTab = "transcricao" | "resumo" | "materia" | "deliberacao";
 
@@ -15,8 +16,9 @@ const tabs: Array<{ id: PanelTab; label: string }> = [
 
 const TRANSCRIPT_WINDOW = 60;
 
-export function ReadingPanel({ data, tab, onTab, turn, onTurn, selected, onClose }: {
+export function ReadingPanel({ data, persuasao, tab, onTab, turn, onTurn, selected, onClose }: {
   data: Audiencia;
+  persuasao?: PersuasaoTurno[];
   tab: PanelTab;
   onTab: (tab: PanelTab) => void;
   turn: number;
@@ -37,7 +39,7 @@ export function ReadingPanel({ data, tab, onTab, turn, onTurn, selected, onClose
             ))}
           </div>
           <div key={tab} className="min-h-0 flex-1 overflow-y-auto">
-            {tab === "transcricao" && <Transcript data={data} turn={turn} onTurn={onTurn}/>}
+            {tab === "transcricao" && <Transcript data={data} persuasao={persuasao} turn={turn} onTurn={onTurn}/>}
             {tab === "resumo" && <Summary data={data} turn={turn} onTurn={onTurn}/>}
             {tab === "materia" && <Coverage data={data} onTurn={onTurn}/>}
             {tab === "deliberacao" && <Deliberation data={data} turn={turn} onTurn={onTurn}/>}
@@ -48,8 +50,9 @@ export function ReadingPanel({ data, tab, onTab, turn, onTurn, selected, onClose
   );
 }
 
-function Badge({ kind }: { kind: "exata" | "julgada" }) {
-  return <span className={`rounded px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider ${kind === "exata" ? "bg-[#344b7f]/10 text-[#344b7f]" : "bg-orange-50 text-orange-700"}`}>{kind}</span>;
+// "sem modelo" sai da estrutura da transcrição; "via LLM" foi atribuído por um modelo de linguagem.
+function Badge({ kind }: { kind: "sem modelo" | "via LLM" }) {
+  return <span className={`whitespace-nowrap rounded px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider ${kind === "sem modelo" ? "bg-[#344b7f]/10 text-[#344b7f]" : "bg-orange-50 text-orange-700"}`}>{kind}</span>;
 }
 
 function TurnChip({ id, onTurn }: { id: number; onTurn: (turn: number) => void }) {
@@ -60,7 +63,7 @@ function Empty({ children }: { children: React.ReactNode }) {
   return <p className="p-5 text-sm text-[#666666]">{children}</p>;
 }
 
-function Transcript({ data, turn, onTurn }: { data: Audiencia; turn: number; onTurn: (turn: number) => void }) {
+function Transcript({ data, persuasao, turn, onTurn }: { data: Audiencia; persuasao?: PersuasaoTurno[]; turn: number; onTurn: (turn: number) => void }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const currentRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -84,12 +87,35 @@ function Transcript({ data, turn, onTurn }: { data: Audiencia; turn: number; onT
               {!data.parlamentares.has(item.falante_norm) && <span className="text-[#666666]">convidado(a)</span>}
               <span className="ml-auto font-mono text-[10px] text-[#999]">turno {item.turno_id}</span>
             </span>
-            <span className="mt-1 block whitespace-pre-line text-sm leading-6 text-[#333]">{item.texto}</span>
+            <span className="mt-1 block whitespace-pre-line text-sm leading-6 text-[#333]">
+              {persuasao ? <PersuasionText text={item.texto} items={persuasao.filter((p) => p.turno_id === item.turno_id)}/> : item.texto}
+            </span>
           </button>
         );
       })}
     </div>
   );
+}
+
+function PersuasionText({ text, items }: { text: string; items: PersuasaoTurno[] }) {
+  const spans = items
+    .map((item) => ({ ...item, start: text.indexOf(item.trecho) }))
+    .filter((item) => item.start >= 0)
+    .sort((a, b) => a.start - b.start)
+    .filter((item, index, list) => index === 0 || item.start >= list[index - 1].start + list[index - 1].trecho.length);
+  const parts: React.ReactNode[] = [];
+  let cursor = 0;
+  spans.forEach((item, index) => {
+    parts.push(text.slice(cursor, item.start));
+    parts.push(
+      <mark key={index} className="rounded border-b-2 px-0.5 text-ink" style={{ backgroundColor: superclassColors[item.superclass], borderColor: "rgba(0,0,0,.25)" }} title={`${superclassNames[item.superclass] ?? item.superclass}: ${item.explicacao}`}>
+        {text.slice(item.start, item.start + item.trecho.length)}
+      </mark>,
+    );
+    cursor = item.start + item.trecho.length;
+  });
+  parts.push(text.slice(cursor));
+  return <>{parts}</>;
 }
 
 function Summary({ data, turn, onTurn }: { data: Audiencia; turn: number; onTurn: (turn: number) => void }) {
@@ -138,8 +164,11 @@ function Coverage({ data, onTurn }: { data: Audiencia; onTurn: (turn: number) =>
     <div className="space-y-6 p-5">
       <div>
         <div className="flex items-center justify-between gap-3">
-          <h3 className="text-sm font-semibold text-ink">Sociedade civil: fala × matéria</h3>
-          <label className="flex items-center gap-1.5 text-xs text-[#666666]"><input type="checkbox" checked={withChair} onChange={(event) => setWithChair(event.target.checked)} className="accent-orange-500"/>incluir a mesa</label>
+          <div>
+            <p className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider text-[#999]">Matéria original da Agência Câmara <Badge kind="sem modelo"/></p>
+            <h3 className="mt-1 text-sm font-semibold text-ink">Sociedade civil: fala × citação</h3>
+          </div>
+          <label className="flex shrink-0 items-center gap-1.5 text-xs text-[#666666]" title="Com ou sem quem preside a sessão"><input type="checkbox" checked={withChair} onChange={(event) => setWithChair(event.target.checked)} className="accent-orange-500"/>incluir quem preside</label>
         </div>
         <div className="mt-4 space-y-3">
           <Share label="Parte da fala" value={proporcoes?.participacao_civil_palavras} color="bg-ink"/>
@@ -154,23 +183,8 @@ function Coverage({ data, onTurn }: { data: Audiencia; onTurn: (turn: number) =>
         )}
       </div>
 
-      {blocos.length > 0 && (
-        <div>
-          <h3 className="mb-3 text-sm font-semibold text-ink">A matéria da Agência Câmara</h3>
-          <div className="space-y-2.5 border-l-2 border-black/10 pl-3">
-            {blocos.map((bloco, index) => (
-              <div key={index}>
-                <p className="text-[10px] font-bold uppercase tracking-wider text-[#999]">{blockLabels[bloco.tipo] ?? bloco.tipo}{bloco.falante && ` · ${bloco.falante}`}</p>
-                <p className={`mt-0.5 text-[#333] ${bloco.tipo === "titulo" ? "text-base font-semibold text-ink" : "text-sm leading-6"}`}>{bloco.tipo === "citacao" ? `“${bloco.texto}”` : bloco.texto}</p>
-                {bloco.ancora && <div className="mt-1"><TurnChip id={bloco.ancora.turno_id} onTurn={onTurn}/></div>}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
       <div>
-        <h3 className="mb-3 text-sm font-semibold text-ink">Quem falou e quem foi citado</h3>
+        <h3 className="mb-3 text-sm font-semibold text-ink">Quem falou e quem foi citado na matéria original</h3>
         <ul className="space-y-2.5">
           {cobertura.falantes.map((falante) => (
             <li key={falante.nome}>
@@ -190,7 +204,24 @@ function Coverage({ data, onTurn }: { data: Audiencia; onTurn: (turn: number) =>
       {cobertura.citados_ausentes.length > 0 && (
         <p className="text-xs leading-5 text-[#666666]"><strong className="text-ink">Citados sem ter falado:</strong> {cobertura.citados_ausentes.join(", ")}.</p>
       )}
-      <p className="text-[11px] leading-5 text-[#999]">A cobertura compara a sessão inteira com a matéria; não muda com a linha do tempo. “Sem dado” quer dizer que não havia como calcular, não que deu zero.</p>
+      <p className="text-[11px] leading-5 text-[#999]">A cobertura compara os nomes de quem falou com a lista de citados da matéria original, para a sessão inteira; não muda com a linha do tempo. “Sem dado” quer dizer que não havia como calcular, não que deu zero.</p>
+
+      {blocos.length > 0 && (
+        <div>
+          <p className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider text-[#999]">Matéria gerada a partir da audiência <Badge kind="via LLM"/></p>
+          <p className="mb-3 mt-1 text-xs leading-5 text-[#666666]">Escrita pelo pipeline, com as citações mais representativas das falas. Não é a matéria publicada e ainda não foi validada.</p>
+          <div className="space-y-2.5 border-l-2 border-black/10 pl-3">
+            {blocos.map((bloco, index) => (
+              <div key={index}>
+                <p className="text-[10px] font-bold uppercase tracking-wider text-[#999]">{blockLabels[bloco.tipo] ?? bloco.tipo}{bloco.falante && ` · ${bloco.falante}`}</p>
+                <p className={`mt-0.5 text-[#333] ${bloco.tipo === "titulo" ? "text-base font-semibold text-ink" : "text-sm leading-6"}`}>{bloco.tipo === "citacao" ? `“${bloco.texto}”` : bloco.texto}</p>
+                {bloco.ancora && <div className="mt-1"><TurnChip id={bloco.ancora.turno_id} onTurn={onTurn}/></div>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }
@@ -221,7 +252,7 @@ function Deliberation({ data, turn, onTurn }: { data: Audiencia; turn: number; o
           <section key={dimensao.id} className="rounded-xl border border-black/10 p-4">
             <div className="flex items-center gap-2">
               <h3 className="text-sm font-semibold text-ink">{dimensao.titulo}</h3>
-              <Badge kind={dimensao.id === "participacao" ? "exata" : "julgada"}/>
+              <Badge kind={dimensao.id === "participacao" ? "sem modelo" : "via LLM"}/>
             </div>
             <p className="mt-0.5 text-xs text-[#666666]">{dimensao.pergunta}</p>
             <div className="mt-3 flex h-2.5 overflow-hidden rounded-full bg-paper">
@@ -302,7 +333,7 @@ function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; op
       <div className="min-h-0 flex-1 space-y-5 overflow-y-auto p-5">
         {opinion.fundamentos.length > 0 && (
           <div>
-            <p className="mb-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">O que sustenta a posição</p>
+            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">O que sustenta a posição <Badge kind="via LLM"/></p>
             <ul className="space-y-1.5">
               {opinion.fundamentos.map((f, index) => <li key={index} className="border-l-2 border-[#344b7f] pl-2.5 text-xs leading-5 text-[#333]"><span className="font-semibold text-[#344b7f]">{f.tipo}</span> · “{f.trecho}”</li>)}
             </ul>
@@ -310,7 +341,7 @@ function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; op
         )}
         {opinion.qualificadores.length > 0 && (
           <div>
-            <p className="mb-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Ressalvas</p>
+            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Ressalvas <Badge kind="via LLM"/></p>
             <ul className="space-y-1.5">
               {opinion.qualificadores.map((q, index) => <li key={index} className="border-l-2 border-orange-400 pl-2.5 text-xs leading-5 text-[#333]"><span className="font-semibold text-orange-700">{rotuloLegivel(q.tipo)}</span> · “{q.trecho}”{q.preservado === false && <span className="text-[#999]"> (perdida no resumo da posição)</span>}</li>)}
             </ul>
@@ -318,7 +349,7 @@ function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; op
         )}
         {turn && (
           <div>
-            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Fala de origem · turno {turn.turno_id} <Badge kind="exata"/></p>
+            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Fala de origem · turno {turn.turno_id} <Badge kind="sem modelo"/></p>
             <blockquote className="whitespace-pre-line border-l-2 border-orange-500 pl-3 text-sm leading-6 text-[#333]"><HighlightedTurn text={turn.texto} highlights={highlights}/></blockquote>
             <p className="mt-3 text-[11px] leading-5 text-[#999]">A âncora garante que a posição aponta para uma fala real da pessoa certa. A fidelidade da leitura foi medida à parte: 94,9% em 59 afirmações de 6 audiências.</p>
           </div>

@@ -34,7 +34,7 @@ export default async function PreviewC() {
                 <ul className="space-y-2">
                   {records.map((record) => (
                     <li key={record.id}>
-                      <Link href={`/audiencias/${record.id}/argumentacao`} className="group flex items-start justify-between gap-3 text-sm leading-6 text-zinc-700 hover:text-zinc-950">
+                      <Link href={`/audiencias/${record.id}`} className="group flex items-start justify-between gap-3 text-sm leading-6 text-zinc-700 hover:text-zinc-950">
                         <span>{record.assunto}</span>
                         <ArrowUpRight className="mt-1 size-4 shrink-0 text-zinc-300 group-hover:text-orange-500"/>
                       </Link>

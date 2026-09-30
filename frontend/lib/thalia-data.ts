@@ -64,3 +64,14 @@ export async function getCoberturaResumo(id: number) {
     return null;
   }
 }
+
+// Quem falou na sessão, com o papel de cada pessoa (cobertura.json já agrega isso).
+export async function getFalantes(id: number) {
+  const folder = `audiencia_${String(id).padStart(3, "0")}`;
+  try {
+    const cobertura = await readJson<{ falantes: Array<{ nome: string; parlamentar: boolean; mesa: boolean; n_turnos: number }> }>("audiencias", folder, "cobertura.json");
+    return cobertura.falantes;
+  } catch {
+    return null;
+  }
+}

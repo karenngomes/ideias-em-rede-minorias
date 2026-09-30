@@ -14,7 +14,7 @@ const methods = [
   { icon: FileText, title: "Sumarização ancorada", text: "Resumos em que cada frase aponta para a fala original.", view: "turnos" },
   { icon: Quote, title: "Extração de opiniões", text: "O que cada participante defendeu, ligado ao turno de fala." },
   { icon: Newspaper, title: "Análise de cobertura", text: "Quem falou na sessão × quem a matéria citou." },
-  { icon: Megaphone, title: "Técnicas de persuasão", text: "Seis técnicas por parágrafo, comparadas com anotação humana.", view: "argumentacao" },
+  { icon: Megaphone, title: "Técnicas de persuasão", text: "Seis técnicas por parágrafo, comparadas com anotação humana.", view: "turnos" },
   { icon: Network, title: "Rede de interação", text: "Quem falou depois de quem e quem concedeu a palavra.", view: "turnos" },
   { icon: Scale, title: "Qualidade deliberativa", text: "Sete indicadores do DQI, como justificação e respeito." },
 ];
@@ -34,7 +34,7 @@ export default async function PreviewD() {
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link href="#audiencias" className="rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-orange-400">Explorar audiências</Link>
-            {example && <Link href={`/audiencias/${example}/argumentacao`} className="rounded-lg border border-white/20 px-5 py-2.5 text-sm font-semibold text-white transition hover:border-white/40">Ver um exemplo</Link>}
+            {example && <Link href={`/audiencias/${example}`} className="rounded-lg border border-white/20 px-5 py-2.5 text-sm font-semibold text-white transition hover:border-white/40">Ver um exemplo</Link>}
           </div>
 
           <div className="mx-auto mt-16 max-w-4xl border border-white/10 border-l-4 border-l-orange-500 px-8 py-8 text-left text-base leading-8 text-zinc-300">

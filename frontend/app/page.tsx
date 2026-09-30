@@ -14,7 +14,7 @@ const methods = [
   { icon: FileText, title: "Sumarização ancorada", text: "Resumos em que cada frase aponta para a fala original.", view: "turnos" },
   { icon: Quote, title: "Extração de opiniões", text: "O que cada participante defendeu, ligado ao turno de fala.", view: "turnos" },
   { icon: Newspaper, title: "Análise de cobertura", text: "Quem falou na sessão × quem a matéria citou.", view: "turnos" },
-  { icon: Megaphone, title: "Técnicas de persuasão", text: "Seis técnicas por parágrafo, comparadas com anotação humana.", view: "argumentacao" },
+  { icon: Megaphone, title: "Técnicas de persuasão", text: "Seis técnicas por parágrafo, comparadas com anotação humana.", view: "turnos" },
   { icon: Network, title: "Rede de interação", text: "Quem falou depois de quem e quem concedeu a palavra.", view: "turnos" },
   { icon: Scale, title: "Qualidade deliberativa", text: "Sete indicadores do DQI, como justificação e respeito.", view: "turnos" },
 ];
@@ -35,7 +35,7 @@ export default async function Home() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="#audiencias" className="rounded-lg bg-zinc-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-orange-600">Explorar audiências</Link>
-              {example && <Link href={`/audiencias/${example}/argumentacao`} className="inline-flex items-center gap-1.5 px-2 py-2.5 text-sm font-semibold text-zinc-700 hover:text-zinc-950">Ver um exemplo <ArrowRight className="size-4"/></Link>}
+              {example && <Link href={`/audiencias/${example}`} className="inline-flex items-center gap-1.5 px-2 py-2.5 text-sm font-semibold text-zinc-700 hover:text-zinc-950">Ver um exemplo <ArrowRight className="size-4"/></Link>}
             </div>
           </div>
           <figure className="border-t-2 border-zinc-900 pt-5">

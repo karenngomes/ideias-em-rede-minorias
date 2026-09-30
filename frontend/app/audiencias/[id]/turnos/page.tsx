@@ -1,9 +1,11 @@
 import { TurnWorkspace } from "@/components/turnos/turn-workspace";
+import { getPersuasionAnnotations } from "@/lib/api-server";
+import { persuasaoPorTurno } from "@/lib/thalia";
 import { getAudienciaBundle } from "@/lib/thalia-data";
 
 export default async function Page({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
-  const bundle = await getAudienciaBundle(Number(id));
+  const id = Number((await params).id);
+  const [bundle, persuasion] = await Promise.all([getAudienciaBundle(id), getPersuasionAnnotations(id).catch(() => null)]);
   if (!bundle) {
     return (
       <section className="px-5 py-12 lg:px-8">
@@ -11,5 +13,6 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
       </section>
     );
   }
-  return <TurnWorkspace bundle={bundle}/>;
+  const persuasao = persuasion ? { tag: persuasion.tag, ...persuasaoPorTurno(bundle.turnos, persuasion.annotations) } : null;
+  return <TurnWorkspace bundle={bundle} persuasao={persuasao}/>;
 }
