@@ -110,8 +110,9 @@ O modelo às vezes responde com sinônimos que o prompt menciona (`retomar`,
 `correcao`); antes, um único sinônimo derrubava a análise da audiência inteira.
 
 Quando a audiência ainda não foi analisada, a seção mostra o botão **Gerar
-relações**, que chama a OpenAI (custo por uso). Por enquanto só a audiência 140
-tem relações no nosso banco; as execuções que o David fez estão no banco dele.
+relações**, que chama a OpenAI (custo por uso). No nosso banco, têm relações
+geradas (abordagem `rag_pairwise`) as audiências 37 e 26 (grupo M) e 54 e 140
+(grupo C); as execuções que o David fez estão no banco dele.
 
 ### Modo persuasão
 

@@ -95,7 +95,7 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit, relations }: {
 
         {mode === "relacoes" ? (
           <div>
-            <p className="mb-4 max-w-3xl text-sm leading-6 text-[#666666]">Análise do David: um modelo de linguagem, com apoio de embeddings, identifica como cada fala reage às anteriores (responde, questiona, concorda, discorda, retoma…), inclusive falas distantes. Usa os trechos da API, não os turnos das outras abas. <Judged label="via LLM"/></p>
+            <p className="mb-4 max-w-3xl text-sm leading-6 text-[#666666]">Um modelo de linguagem, com apoio de embeddings, identifica como cada fala reage às anteriores (responde, questiona, concorda, discorda, retoma…), inclusive falas distantes. Usa os trechos da API, não os turnos das outras abas. <Judged label="via LLM"/></p>
             {relations
               ? <ConversationRelationsView data={relations}/>
               : <p className="rounded-2xl border border-black/10 bg-white p-8 text-center text-sm text-[#666666]">Não foi possível carregar as relações: verifique se a API está rodando.</p>}

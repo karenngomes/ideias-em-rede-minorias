@@ -108,7 +108,7 @@ export default async function ComparacaoPage() {
         <p className="mb-2 text-xs font-bold uppercase tracking-[0.16em] text-orange-600">Comparação</p>
         <h1 className="text-4xl font-semibold tracking-[-0.035em]">Minorias × demais audiências</h1>
         <p className="mt-3 max-w-3xl text-base leading-7 text-[#666666]">
-          O estudo de caso do artigo: as {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura (Thalia) e da classificação de persuasão (David).
+          O estudo de caso do artigo: as {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura e da classificação de persuasão (David).
           Cada ponto é uma audiência; clique para abri-la.
         </p>
         <p className="mt-3 max-w-3xl rounded-xl border border-black/10 bg-white px-4 py-3 text-xs leading-5 text-[#666666]">
@@ -121,7 +121,7 @@ export default async function ComparacaoPage() {
 
         <Section eyebrow="H1 · Interrupções" title="Quem é interrompido no meio da fala" badge="sem modelo" warning="lógica em revisão"
           text={<>Parte das falas de cada papel marcadas como interrompidas, somando todas as audiências de cada grupo. Nas audiências de minorias, convidados são interrompidos <strong className="text-ink">{ratio("M")?.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}×</strong> mais que parlamentares; nas demais, <strong className="text-ink">{ratio("C")?.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}×</strong>.</>}
-          note="A regra atual marca como interrupção qualquer fala fora da ordem esperada da sessão (presidência, convidado, réplica, tréplica), inclusive quando quem preside fala fora da vez. Isso não é necessariamente interrupção, e parte dos casos é fala de alguém não identificado ou da plateia. A Thalia está refazendo a regra; estes números vão mudar."
+          note="A regra atual marca como interrupção qualquer fala fora da ordem esperada da sessão (presidência, convidado, réplica, tréplica), inclusive quando quem preside fala fora da vez. Isso não é necessariamente interrupção, e parte dos casos é fala de alguém não identificado ou da plateia."
           test={<TestBox name={`${testes.h1.teste}, ${testes.h1.n_falas.toLocaleString("pt-BR")} falas`} significant={testes.h1.interacao.p < 0.05}>
             <p>A diferença entre convidados e parlamentares é maior nas audiências de minorias? Razão de chances da interação <strong>{num(testes.h1.interacao.or)}</strong> (IC95% {num(testes.h1.interacao.ic[0])}–{num(testes.h1.interacao.ic[1])}), {pValue(testes.h1.interacao.p)}.</p>
             <p className="text-xs text-[#666666]">Nas demais audiências, convidados têm {num(testes.h1.convidado.or)} vezes a chance de parlamentares de serem interrompidos (IC95% {num(testes.h1.convidado.ic[0])}–{num(testes.h1.convidado.ic[1])}), {pValue(testes.h1.convidado.p)}.</p>
@@ -163,8 +163,8 @@ export default async function ComparacaoPage() {
         </Section>
 
         <Section eyebrow="H5 · Persuasão" title="Técnicas de persuasão por grupo" badge="via LLM"
-          text={<>Análise do David: média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. {tecnicasMais.length > 0 && <> As maiores diferenças a favor das audiências de minorias estão em {listar(tecnicasMais)}{deltasDavid.nenhuma < 0 ? ", e elas têm menos trechos sem nenhuma técnica" : ""}.</>} Uma fala pode ter mais de uma técnica.</>}
-          note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. Os grupos são os do David${divergentes.length ? `; na rotulagem da Thalia, usada nas outras seções, a audiência ${divergentes.map((a) => a.id).join(", ")} é do grupo de minorias. Com essa rotulagem, a maior mudança é em ${categoriaNomes[maiorDivergencia].toLowerCase()} (${ppTexto(deltasThalia[maiorDivergencia])} em vez de ${ppTexto(deltasDavid[maiorDivergencia])})` : ""}.`}>
+          text={<>Média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. {tecnicasMais.length > 0 && <> As maiores diferenças a favor das audiências de minorias estão em {listar(tecnicasMais)}{deltasDavid.nenhuma < 0 ? ", e elas têm menos trechos sem nenhuma técnica" : ""}.</>} Uma fala pode ter mais de uma técnica.</>}
+          note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. A diferença de medianas (M − C) é ${ppTexto(deltasDavid.maior_diferenca)} para a técnica com maior diferença a favor das audiências de minorias (“${categoriaNomes[maiorDivergencia]}”), e ${ppTexto(deltasDavid.nenhuma)} para trechos sem nenhuma técnica.`}>
           <CategoryDumbbell categories={persuasaoCategorias} max={100}/>
           <TestBox name={testes.h5.teste} significant={h5Significativas.length > 0} label={`${h5Significativas.length} de ${persuasao.categorias.length} técnicas com diferença significativa`}>
             <div className="overflow-x-auto">
