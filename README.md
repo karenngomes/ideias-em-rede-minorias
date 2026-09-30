@@ -94,6 +94,11 @@ diagrama de sequência: uma coluna por participante, o tempo descendo, uma seta
 por relação, com linha do tempo, explicação de cada relação e a auditoria das
 chamadas ao modelo.
 
+As cores das setas agrupam os tipos em famílias, com a paleta da identidade
+validada para daltonismo: condução da sessão (cinza), concordância (azul),
+discordância (coral), diálogo (vinho), elaboração (amarelo) e retomada (verde).
+O nome de cada relação vai escrito na seta, em grafite.
+
 Três abordagens: `rag_pairwise` (pares consecutivos e RAG para os distantes,
 padrão), `protocol` (cada fala confrontada com todas as anteriores) e
 `protocol_rag` (protocolo completo sobre as falas recuperadas por embeddings, com
