@@ -78,6 +78,13 @@ até o turno atual. As técnicas são seis e podem coexistir: ataque à reputaç
 justificativa, simplificação, distração, chamada para ação e linguagem
 manipulativa.
 
+O painel também compara **parlamentares × convidados**: para cada técnica, a
+porcentagem das falas de cada grupo que a usam, até o turno atual. Só entram
+falas com 50 palavras ou mais (o mesmo corte do DQI), e quem preside conta como
+parlamentar. Numa audiência isolada os grupos podem ser pequenos, então o painel
+serve para explorar; a comparação que sustenta a hipótese H3 é a que soma as
+audiências.
+
 As anotações vêm da API (segmentada em trechos próprios) e são ligadas aos
 turnos da Thalia procurando o texto da evidência dentro de cada fala.
 
@@ -368,9 +375,6 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 - [ ] **Painel comparativo minorias × demais.** DQI, cobertura e tamanho já podem
   ser comparados entre M e C com o pacote da Thalia, sem custo extra.
-- [ ] **Persuasão por tipo de falante.** O endpoint
-  `/persuasion-classifications/{job_id}/summary` (parlamentares × convidados)
-  existe, mas deixou de ser exibido quando a página de argumentação saiu.
 - [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
   posição) e as perdas registradas em `clausulas.json`.
 
@@ -383,8 +387,8 @@ do Instituto Kunumi estão em `frontend/public/`.
 **Infraestrutura**
 
 - [ ] **Deploy** do backend e do frontend (o frontend precisa da pasta `dados/`).
-- [ ] **Testes** dos endpoints novos (`summary`, `persuasion-classified-records`)
-  e do frontend.
+- [ ] **Testes** do endpoint `persuasion-classified-records` e do frontend. O
+  endpoint `summary` ficou sem uso no frontend.
 
 ## Licença
 

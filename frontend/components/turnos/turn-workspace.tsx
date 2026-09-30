@@ -80,15 +80,7 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
               </label>
               <span className="text-xs text-[#666666]">{persuasionMode ? "Técnicas grifadas na transcrição. Passe o mouse para ler a justificativa do modelo." : "Grifa na transcrição as técnicas de persuasão encontradas pelo modelo."}</span>
             </div>
-            {persuasionMode && (
-              <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 border-t border-black/10 pt-3 text-[11px] text-[#666666]">
-                {Object.entries(superclassNames).map(([key, name]) => {
-                  const count = persuasao.items.filter((item) => item.superclass === key && item.turno_id <= turn).length;
-                  return <span key={key} className="flex items-center gap-1.5"><i className="size-2.5 rounded-sm" style={{ backgroundColor: superclassColors[key] }}/>{name} <b className="tabular-nums text-ink">{count}</b></span>;
-                })}
-                <span className="ml-auto text-[#999]">classificação em validação com anotadores humanos</span>
-              </div>
-            )}
+            {persuasionMode && <PersuasionBySpeaker data={data} items={persuasao.items} turn={turn}/>}
           </div>
         )}
 
@@ -164,6 +156,56 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
         </div>
       </div>
     </section>
+  );
+}
+
+// Parte das falas substantivas (50+ palavras, o corte do DQI) de cada grupo que usa cada técnica.
+function PersuasionBySpeaker({ data, items, turn }: { data: ReturnType<typeof derive>; items: PersuasaoTurno[]; turn: number }) {
+  const groups = useMemo(() => {
+    const falas = data.turnos.filter((item) => item.turno_id <= turn && palavras(item.texto) >= 50);
+    const byGroup = {
+      parlamentar: falas.filter((item) => data.parlamentares.has(item.falante_norm)).map((item) => item.turno_id),
+      convidado: falas.filter((item) => !data.parlamentares.has(item.falante_norm)).map((item) => item.turno_id),
+    };
+    const techniques = new Map<number, Set<string>>();
+    items.forEach((item) => {
+      if (item.turno_id > turn) return;
+      techniques.set(item.turno_id, (techniques.get(item.turno_id) ?? new Set()).add(item.superclass));
+    });
+    const share = (ids: number[], key: string) => ids.length ? ids.filter((id) => techniques.get(id)?.has(key)).length / ids.length : null;
+    return { byGroup, share };
+  }, [data, items, turn]);
+  const { byGroup, share } = groups;
+
+  return (
+    <div className="mt-3 border-t border-black/10 pt-3">
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-2 text-[11px] text-[#666666]">
+        <span className="font-semibold text-ink">Falas com cada técnica, por tipo de falante</span>
+        <span className="flex items-center gap-4">
+          <span className="flex items-center gap-1.5"><i className="h-2 w-4 rounded-sm bg-ink"/>parlamentares ({byGroup.parlamentar.length} falas)</span>
+          <span className="flex items-center gap-1.5"><i className="h-2 w-4 rounded-sm bg-orange-500"/>convidados ({byGroup.convidado.length} falas)</span>
+        </span>
+      </div>
+      <div className="grid gap-x-6 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
+        {Object.entries(superclassNames).map(([key, name]) => (
+          <div key={key}>
+            <p className="mb-1 flex items-center gap-1.5 text-xs font-medium text-ink"><i className="size-2.5 rounded-sm" style={{ backgroundColor: superclassColors[key] }}/>{name}</p>
+            <ShareRow value={share(byGroup.parlamentar, key)} color="bg-ink"/>
+            <ShareRow value={share(byGroup.convidado, key)} color="bg-orange-500"/>
+          </div>
+        ))}
+      </div>
+      <p className="mt-3 text-[11px] leading-5 text-[#999]">Porcentagem das falas com 50 palavras ou mais de cada grupo, até o turno atual. Uma fala pode ter mais de uma técnica. Quem preside conta como parlamentar. Classificação via LLM, em validação com anotadores humanos.</p>
+    </div>
+  );
+}
+
+function ShareRow({ value, color }: { value: number | null; color: string }) {
+  return (
+    <div className="mb-1 flex items-center gap-2">
+      <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-paper"><div className={`h-full rounded-full ${color}`} style={{ width: `${(value ?? 0) * 100}%` }}/></div>
+      <span className="w-9 text-right font-mono text-[11px] tabular-nums text-[#666666]">{value == null ? "–" : `${Math.round(value * 100)}%`}</span>
+    </div>
   );
 }
 
