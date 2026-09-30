@@ -101,8 +101,9 @@ A auditoria é buscada no servidor só quando o botão é clicado.
 A página `/comparacao` compara as 53 audiências do grupo M com as 153 do grupo C,
 uma seção por hipótese. Cada seção usa o recorte de quem fez a análise: DQI,
 interrupções e cobertura vêm da Thalia (rotulagem M/C dela); persuasão vem do
-David (agrupamento dele, 10 × 10). É descritiva (medianas e proporções, sem teste
-estatístico), e cada ponto dos gráficos é uma audiência clicável.
+David (agrupamento dele, 10 × 10). Cada seção traz medianas, proporções e o
+resultado do teste estatístico (veja [Análise estatística](#análise-estatística)),
+e cada ponto dos gráficos é uma audiência clicável.
 
 | Seção | O que mostra | Origem |
 |---|---|---|
@@ -345,12 +346,18 @@ formulário de validação em `backend/google_apps_script/validacao_persuasao/`.
 
 ## Análise estatística
 
-O painel `/comparacao` é descritivo. Os testes ficam em
-`analises/testes_estatisticos.py` (numpy, scipy, pandas e statsmodels):
+Os testes ficam em `analises/testes_estatisticos.py` (numpy, scipy, pandas e
+statsmodels). O script imprime os resultados e grava
+`frontend/data/testes-estatisticos.json`, que o painel `/comparacao` mostra numa
+caixa "Teste estatístico" em cada seção (teste usado, efeito com intervalo de
+confiança, p-valor e se a diferença é significativa). Rode de novo sempre que os
+dados mudarem:
 
 ```bash
 python3 analises/testes_estatisticos.py
 ```
+
+Os sorteios usam semente fixa, então os resultados se repetem.
 
 Cada hipótese tem um teste adequado à estrutura dos dados:
 
@@ -445,8 +452,7 @@ do Instituto Kunumi estão em `frontend/public/`.
 
 - [ ] **Testes estatísticos finais.** Há uma primeira versão em
   `analises/testes_estatisticos.py`. Falta alinhar com o pré-registro da Thalia,
-  rodar de novo depois da validação do DQI e da persuasão e decidir se os
-  resultados entram no painel.
+  rodar de novo depois da validação do DQI e da persuasão.
 - [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
   posição) e as perdas registradas em `clausulas.json`.
 
