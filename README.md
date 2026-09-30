@@ -380,7 +380,7 @@ Cada hipótese tem um teste adequado à estrutura dos dados:
 | H2 · Conteúdo da justificação | audiência | Mann-Whitney, rank-biserial e bootstrap da diferença de medianas | proporções por audiência, sem supor normalidade |
 | H3 · Nível de justificação | audiência | idem, sobre o nível médio (0 a 3) | idem |
 | H4 · Respeito | audiência | idem para o respeito explícito e o nível médio; teste exato de Fisher para a hostilidade | a hostilidade é rara |
-| H5 · Persuasão | audiência | permutação **exata** (todas as 184.756 divisões dos 20 audiências) da diferença de médias, com correção de Holm para as 7 técnicas | só 10 audiências por grupo; um teste por sorteio mudava o resultado de "nenhuma técnica" conforme a semente |
+| H5 · Persuasão | audiência | permutação **exata** (todas as 184.756 divisões das 20 audiências) da diferença de médias, com correção de Holm para as 7 técnicas | só 10 audiências por grupo; um teste por sorteio mudava o resultado de "nenhuma técnica" conforme a semente |
 | Cobertura | audiência | Mann-Whitney e bootstrap; OLS com erros robustos controlando o tamanho | o déficit pode depender do tamanho da sessão |
 
 Resultados preliminares:
