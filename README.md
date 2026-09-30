@@ -30,6 +30,7 @@ O projeto junta dois trabalhos anteriores:
 - [Backend](#backend)
 - [Frontend](#frontend)
 - [Análise estatística](#análise-estatística)
+- [De onde vem cada número](#de-onde-vem-cada-número)
 - [Identidade visual](#identidade-visual)
 - [O que está faltando](#o-que-está-faltando)
 - [Licença](#licença)
@@ -397,6 +398,45 @@ Resultados preliminares:
 Cuidados: a rotulagem M/C diz que as hipóteses foram registradas antes em
 `paper/PRE_REGISTRO.md` (no repositório da Thalia); os testes finais devem
 seguir esse registro. Com várias hipóteses, vale corrigir também entre elas.
+
+## De onde vem cada número
+
+Não há dados fictícios no site. O mock da audiência 901 e as páginas de exemplo
+(a audiência inventada sobre transição energética) foram removidos. O que aparece
+vem de três fontes:
+
+**Calculado na hora, a partir dos dados**
+
+- Tudo o que está no Turno a turno e no cabeçalho de cada audiência (pacote da
+  Thalia em `dados/conteudo/` e API de persuasão).
+- Os gráficos e medianas do painel `/comparacao` (`frontend/lib/comparacao.ts`).
+- O número do topo da home, a parte de quem fala e não aparece na matéria
+  (hoje 68%, 1.732 de 2.543 falantes), somado a partir de todos os
+  `cobertura.json`.
+- As frases de conclusão do painel: se a hipótese se sustenta, quais técnicas de
+  persuasão têm as maiores diferenças e a nota sobre a audiência 92. São montadas
+  a partir dos resultados dos testes e das médias, então acompanham os dados
+  quando o script rodar de novo.
+
+**Gerado por script e guardado em arquivo**
+
+- `frontend/data/testes-estatisticos.json`: resultados dos testes estatísticos,
+  gerados por `analises/testes_estatisticos.py`. Não se atualiza sozinho: rode o
+  script de novo quando o DQI, as interrupções ou a persuasão mudarem.
+
+**Copiado de outra fonte (não se atualiza sozinho)**
+
+- `frontend/data/persuasao-por-audiencia.json`: os percentuais de parágrafos
+  com cada técnica nas 20 audiências da análise do David, copiados do HTML que
+  ele enviou. A classificação por fala das 10 audiências de temáticas variadas
+  ainda não está no MongoDB.
+- **94,9%** de fidelidade das opiniões, no detalhe da opinião: medido pela Thalia
+  (59 afirmações de 6 audiências) e copiado da documentação do pacote dela.
+
+**Desatualizado de propósito**
+
+- A prévia D da home (`/previa/d`) ainda mostra a lista antiga de hipóteses e
+  as etiquetas antigas da metodologia. Ela só será atualizada se for a escolhida.
 
 ## Identidade visual
 

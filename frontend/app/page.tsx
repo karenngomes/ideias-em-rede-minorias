@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, FileText, Megaphone, Network, Newspaper, Quote, Scale } from "lucide-react";
 import { getHealth } from "@/lib/api-server";
 import { getMinorityAudiences } from "@/lib/minorities";
+import { getSilenciadosCorpus } from "@/lib/thalia-data";
 
 const hypotheses = [
   "Convidados são mais interrompidos que parlamentares, sobretudo nas audiências de minorias.",
@@ -21,7 +22,8 @@ const methods = [
 ];
 
 export default async function Home() {
-  const [health, minorities] = await Promise.all([getHealth(), getMinorityAudiences()]);
+  const [health, minorities, corpus] = await Promise.all([getHealth(), getMinorityAudiences(), getSilenciadosCorpus()]);
+  const silenciados = corpus.falantes ? Math.round((corpus.silenciados / corpus.falantes) * 100) : null;
   const example = minorities.find((record) => record.persuasao)?.id ?? minorities[0]?.id;
 
   return (
@@ -40,9 +42,9 @@ export default async function Home() {
             </div>
           </div>
           <figure className="border-t-2 border-zinc-900 pt-5">
-            <p className="text-7xl font-semibold tracking-[-0.05em] text-orange-600">68%</p>
+            <p className="text-7xl font-semibold tracking-[-0.05em] text-orange-600">{silenciados ?? "–"}%</p>
             <figcaption className="mt-3 text-sm leading-6 text-zinc-600">de quem fala numa audiência <strong className="text-zinc-900">não aparece na matéria</strong> da Agência Câmara sobre ela.</figcaption>
-            <p className="mt-4 text-[11px] leading-5 text-zinc-400">1.732 de 2.543 falantes no corpus. Medição preliminar da etapa de cobertura.</p>
+            <p className="mt-4 text-[11px] leading-5 text-zinc-400">{corpus.silenciados.toLocaleString("pt-BR")} de {corpus.falantes.toLocaleString("pt-BR")} falantes no corpus, pelos dados de cobertura (sem modelo).</p>
           </figure>
         </div>
       </section>

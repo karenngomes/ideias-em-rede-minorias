@@ -75,3 +75,18 @@ export async function getFalantes(id: number) {
     return null;
   }
 }
+
+// Quantas pessoas falaram no corpus e quantas não aparecem na matéria original.
+export const getSilenciadosCorpus = cache(async () => {
+  const indice = await getIndice();
+  let falantes = 0;
+  let silenciados = 0;
+  await Promise.all(Array.from(indice.keys()).map(async (id) => {
+    const folder = `audiencia_${String(id).padStart(3, "0")}`;
+    const cobertura = await readJson<{ falantes: unknown[]; falantes_silenciados: unknown[] }>("audiencias", folder, "cobertura.json").catch(() => null);
+    if (!cobertura) return;
+    falantes += cobertura.falantes.length;
+    silenciados += cobertura.falantes_silenciados.length;
+  }));
+  return { falantes, silenciados };
+});

@@ -69,6 +69,30 @@ export default async function ComparacaoPage() {
 
   const h5Significativas = persuasao.categorias.filter((key) => testes.h5.categorias[key as keyof typeof testes.h5.categorias].p_holm < 0.05);
 
+  // Frases calculadas a partir dos resultados, para não ficarem desatualizadas quando o script rodar de novo.
+  const meanOf = (values: number[]) => values.reduce((a, b) => a + b, 0) / (values.length || 1);
+  const deltaPorCategoria = (grupoDoItem: (item: (typeof persuasaoAudiencias)[number]) => Grupo) => Object.fromEntries(persuasao.categorias.map((key, index) => [
+    key,
+    meanOf(persuasaoAudiencias.filter((a) => grupoDoItem(a) === "M").map((a) => a.values[index])) - meanOf(persuasaoAudiencias.filter((a) => grupoDoItem(a) === "C").map((a) => a.values[index])),
+  ])) as Record<string, number>;
+  const deltasDavid = deltaPorCategoria((a) => a.grupo);
+  const deltasThalia = deltaPorCategoria((a) => a.info!.grupo);
+  const tecnicasMais = persuasao.categorias.filter((key) => key !== "nenhuma" && deltasDavid[key] > 0).sort((a, b) => deltasDavid[b] - deltasDavid[a]).slice(0, 3);
+  const listar = (keys: string[]) => keys.map((key) => categoriaNomes[key].toLowerCase()).join(", ").replace(/, ([^,]*)$/, " e $1");
+  const maiorDivergencia = persuasao.categorias.reduce((best, key) => (Math.abs(deltasDavid[key] - deltasThalia[key]) > Math.abs(deltasDavid[best] - deltasThalia[best]) ? key : best), persuasao.categorias[0]);
+  const ppTexto = (value: number) => `${value >= 0 ? "+" : "−"}${Math.abs(value).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} pp`;
+
+  const h2Interesse = testes.h2.interesse_de_grupo;
+  const h2InteresseTexto = h2Interesse.p >= 0.05
+    ? "A parte da hipótese sobre “menos interesse de grupo” não se sustenta."
+    : h2Interesse.diferenca < 0 ? "A parte da hipótese sobre “menos interesse de grupo” se sustenta." : "O interesse de grupo vai na direção contrária à hipótese: é maior nas audiências de minorias.";
+
+  const h4Elogio = testes.h4.respeito.p < 0.05 && testes.h4.respeito.diferenca > 0;
+  const h4Hostilidade = testes.h4.hostilidade.p < 0.05 && testes.h4.hostilidade.m[0] / testes.h4.hostilidade.m[1] > testes.h4.hostilidade.c[0] / testes.h4.hostilidade.c[1];
+  const h4MediaMuda = testes.h4.media.p < 0.05;
+  const h4Sustentada = h4Elogio && h4Hostilidade && !h4MediaMuda;
+  const h4Texto = `${h4Elogio ? "Há mais elogio" : "Não há mais elogio"}, ${h4Hostilidade ? "há mais hostilidade" : "não há mais hostilidade"} e a média ${h4MediaMuda ? `também ${testes.h4.media.diferenca > 0 ? "sobe" : "cai"}` : "não muda"}. Por isso a hipótese, como foi formulada, ${h4Sustentada ? "se sustenta" : "não se sustenta"}.`;
+
   const palavras = rows(audiencias, (a) => a.palavras);
   const positivo = rows(audiencias, (a) => a.respeitoPositivo);
   const negativo = rows(audiencias, (a) => a.respeitoNegativo);
@@ -110,7 +134,7 @@ export default async function ComparacaoPage() {
           note="É a dimensão que a anotação humana da Thalia está validando (bem comum × interesse de grupo). Atribuído por modelo de linguagem: o instrumento indica, não afirma."
           test={<TestBox name={testes.h2.bem_comum_diferenca.teste} significant={testes.h2.bem_comum_diferenca.p < 0.05}>
             <p>Bem comum sensível à diferença: diferença de medianas (M − C) de <strong>{signed(testes.h2.bem_comum_diferenca.diferenca, "pp")}</strong> ({interval(testes.h2.bem_comum_diferenca.ic, "pp")}), {pValue(testes.h2.bem_comum_diferenca.p)}, efeito r = {num(testes.h2.bem_comum_diferenca.r)} (grande a partir de 0,5).</p>
-            <p className="text-xs text-[#666666]">Interesse de grupo: raro nos dois grupos (mediana 0%), sem diferença ({pValue(testes.h2.interesse_de_grupo.p)}). A parte da hipótese sobre “menos interesse de grupo” não se sustenta.</p>
+            <p className="text-xs text-[#666666]">Interesse de grupo: mediana de {pct(h2Interesse.mediana.M)} nas audiências de minorias e {pct(h2Interesse.mediana.C)} nas demais, {h2Interesse.p < 0.05 ? "com" : "sem"} diferença significativa ({pValue(h2Interesse.p)}). {h2InteresseTexto}</p>
           </TestBox>}>
           <StripPlot rows={bemComum} min={0} max={Math.ceil(Math.max(...bemComum.flatMap((r) => r.points.map((p) => p.value))) * 10) / 10} format={pct}/>
         </Section>
@@ -127,11 +151,11 @@ export default async function ComparacaoPage() {
         <Section eyebrow="H4 · Respeito" title="Mais elogio e mais hostilidade, com a mesma média?" badge="via LLM"
           text={<>A hipótese previa mais manifestações nas duas pontas (explícito positivo e negativo) sem mudar o nível médio. O gráfico mostra a parte dos códigos de respeito (a grupos, a demandas e a contra-argumentos) que são explicitamente positivos: mediana de <strong className="text-ink">{pct(medianOf(positivo, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pct(medianOf(positivo, "C") ?? 0)}</strong> nas demais.</>}
           note="Atribuído por modelo de linguagem e ainda sem conferência humana: o instrumento indica, não afirma."
-          test={<TestBox name="Mann-Whitney e bootstrap; teste exato de Fisher para a hostilidade" significant={testes.h4.respeito.p < 0.05} label="hipótese não sustentada como formulada">
+          test={<TestBox name="Mann-Whitney e bootstrap; teste exato de Fisher para a hostilidade" significant={h4Sustentada} label={h4Sustentada ? "hipótese sustentada" : "hipótese não sustentada como formulada"}>
             <p>Respeito explícito: <strong>{signed(testes.h4.respeito.diferenca, "pp")}</strong> ({interval(testes.h4.respeito.ic, "pp")}), {pValue(testes.h4.respeito.p)}, efeito r = {num(testes.h4.respeito.r)}.</p>
-            <p>Hostilidade (algum código negativo): {testes.h4.hostilidade.m[0]} de {testes.h4.hostilidade.m[1]} audiências de minorias e {testes.h4.hostilidade.c[0]} de {testes.h4.hostilidade.c[1]} demais, {pValue(testes.h4.hostilidade.p)}: rara nos dois grupos, sem diferença.</p>
+            <p>Hostilidade (algum código negativo): {testes.h4.hostilidade.m[0]} de {testes.h4.hostilidade.m[1]} audiências de minorias e {testes.h4.hostilidade.c[0]} de {testes.h4.hostilidade.c[1]} demais, {pValue(testes.h4.hostilidade.p)}, {testes.h4.hostilidade.p < 0.05 ? "diferença significativa" : "sem diferença significativa"}.</p>
             <p>Nível médio de respeito (0 a 1): {testes.h4.media.diferenca >= 0 ? "+" : "−"}{num(Math.abs(testes.h4.media.diferenca))} (IC95% {num(testes.h4.media.ic[0])} a {num(testes.h4.media.ic[1])}), {pValue(testes.h4.media.p)}.</p>
-            <p className="text-xs text-[#666666]">Há mais elogio, mas não mais hostilidade, e a média também sobe. Por isso a hipótese, como foi formulada, não se sustenta.</p>
+            <p className="text-xs text-[#666666]">{h4Texto}</p>
           </TestBox>}>
           <StripPlot rows={positivo} min={0} max={Math.ceil(Math.max(...positivo.flatMap((r) => r.points.map((p) => p.value))) * 10) / 10} format={pct}/>
           <p className="mb-2 mt-6 text-xs font-semibold text-ink">Respeito negativo ou degradante</p>
@@ -139,8 +163,8 @@ export default async function ComparacaoPage() {
         </Section>
 
         <Section eyebrow="H5 · Persuasão" title="Técnicas de persuasão por grupo" badge="via LLM"
-          text={<>Análise do David: média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. As audiências de minorias têm mais chamada à ação, ataque à reputação e justificativa, e menos trechos sem nenhuma técnica. Uma fala pode ter mais de uma técnica.</>}
-          note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. Os grupos são os do David${divergentes.length ? `; na rotulagem da Thalia, usada nas outras seções, a audiência ${divergentes.map((a) => a.id).join(", ")} é do grupo de minorias. Com essa rotulagem, as diferenças mudam pouco (por exemplo, chamada à ação +9,4 pp em vez de +9,6 pp)` : ""}.`}>
+          text={<>Análise do David: média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. {tecnicasMais.length > 0 && <> As maiores diferenças a favor das audiências de minorias estão em {listar(tecnicasMais)}{deltasDavid.nenhuma < 0 ? ", e elas têm menos trechos sem nenhuma técnica" : ""}.</>} Uma fala pode ter mais de uma técnica.</>}
+          note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. Os grupos são os do David${divergentes.length ? `; na rotulagem da Thalia, usada nas outras seções, a audiência ${divergentes.map((a) => a.id).join(", ")} é do grupo de minorias. Com essa rotulagem, a maior mudança é em ${categoriaNomes[maiorDivergencia].toLowerCase()} (${ppTexto(deltasThalia[maiorDivergencia])} em vez de ${ppTexto(deltasDavid[maiorDivergencia])})` : ""}.`}>
           <CategoryDumbbell categories={persuasaoCategorias} max={100}/>
           <TestBox name={testes.h5.teste} significant={h5Significativas.length > 0} label={`${h5Significativas.length} de ${persuasao.categorias.length} técnicas com diferença significativa`}>
             <div className="overflow-x-auto">
