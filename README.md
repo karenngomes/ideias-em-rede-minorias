@@ -79,9 +79,11 @@ justificativa, simplificação, distração, chamada para ação e linguagem
 manipulativa.
 
 O painel também compara **parlamentares × convidados**: para cada técnica, a
-porcentagem das falas de cada grupo que a usam, até o turno atual. Só entram
-falas com 50 palavras ou mais (o mesmo corte do DQI), e quem preside conta como
-parlamentar. Numa audiência isolada os grupos podem ser pequenos, então o painel
+porcentagem e o número de falas de cada grupo que a usam (por exemplo, "80% · 12
+de 15"), até o turno atual. Só entram falas com 50 palavras ou mais (o mesmo
+corte do DQI). Quem preside fica de fora por padrão, porque suas falas são
+sobretudo de condução da sessão; a opção "incluir quem preside" o soma aos
+parlamentares. Numa audiência isolada os grupos podem ser pequenos, então o painel
 serve para explorar; a comparação que sustenta a hipótese H3 é a que soma as
 audiências.
 

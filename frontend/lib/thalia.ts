@@ -112,11 +112,15 @@ export function derive(bundle: AudienciaBundle) {
       : turnos.filter((turno) => /- [A-Z]{2}$/.test(turno.partido ?? "")).map((turno) => turno.falante_norm),
   );
 
+  // Quem preside a sessão (a "mesa" em cobertura.json).
+  const mesa = new Set((bundle.cobertura?.falantes ?? []).filter((falante) => falante.mesa).map((falante) => falante.nome));
+
   return {
     turnos,
     opinioes,
     participantes,
     parlamentares,
+    mesa,
     secoes,
     arestas: bundle.grafo?.arestas ?? [],
     codigos: bundle.dqi?.codigos ?? [],

@@ -161,8 +161,9 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit }: {
 
 // Parte das falas substantivas (50+ palavras, o corte do DQI) de cada grupo que usa cada técnica.
 function PersuasionBySpeaker({ data, items, turn }: { data: ReturnType<typeof derive>; items: PersuasaoTurno[]; turn: number }) {
+  const [withChair, setWithChair] = useState(false);
   const groups = useMemo(() => {
-    const falas = data.turnos.filter((item) => item.turno_id <= turn && palavras(item.texto) >= 50);
+    const falas = data.turnos.filter((item) => item.turno_id <= turn && palavras(item.texto) >= 50 && (withChair || !data.mesa.has(item.falante_norm)));
     const byGroup = {
       parlamentar: falas.filter((item) => data.parlamentares.has(item.falante_norm)).map((item) => item.turno_id),
       convidado: falas.filter((item) => !data.parlamentares.has(item.falante_norm)).map((item) => item.turno_id),
@@ -172,20 +173,24 @@ function PersuasionBySpeaker({ data, items, turn }: { data: ReturnType<typeof de
       if (item.turno_id > turn) return;
       techniques.set(item.turno_id, (techniques.get(item.turno_id) ?? new Set()).add(item.superclass));
     });
-    const share = (ids: number[], key: string) => ids.length ? ids.filter((id) => techniques.get(id)?.has(key)).length / ids.length : null;
+    const share = (ids: number[], key: string) => ({ count: ids.filter((id) => techniques.get(id)?.has(key)).length, total: ids.length });
     return { byGroup, share };
-  }, [data, items, turn]);
+  }, [data, items, turn, withChair]);
   const { byGroup, share } = groups;
 
   return (
     <div className="mt-3 border-t border-black/10 pt-3">
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2 text-[11px] text-[#666666]">
         <span className="font-semibold text-ink">Falas com cada técnica, por tipo de falante</span>
-        <span className="flex items-center gap-4">
+        <span className="flex flex-wrap items-center gap-x-4 gap-y-1">
+          {data.mesa.size > 0 && <label className="flex items-center gap-1.5"><input type="checkbox" checked={withChair} onChange={(event) => setWithChair(event.target.checked)} className="accent-orange-500"/>incluir quem preside</label>}
           <span className="flex items-center gap-1.5"><i className="h-2 w-4 rounded-sm bg-ink"/>parlamentares ({byGroup.parlamentar.length} falas)</span>
           <span className="flex items-center gap-1.5"><i className="h-2 w-4 rounded-sm bg-orange-500"/>convidados ({byGroup.convidado.length} falas)</span>
         </span>
       </div>
+      {!withChair && byGroup.parlamentar.length === 0 && data.mesa.size > 0 && (
+        <p className="mb-3 rounded-lg bg-paper px-3 py-2 text-[11px] text-[#666666]">Até aqui, nenhum parlamentar além de quem preside fez fala com 50 palavras ou mais. Marque “incluir quem preside” para comparar com as falas da presidência.</p>
+      )}
       <div className="grid gap-x-6 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
         {Object.entries(superclassNames).map(([key, name]) => (
           <div key={key}>
@@ -195,16 +200,19 @@ function PersuasionBySpeaker({ data, items, turn }: { data: ReturnType<typeof de
           </div>
         ))}
       </div>
-      <p className="mt-3 text-[11px] leading-5 text-[#999]">Porcentagem das falas com 50 palavras ou mais de cada grupo, até o turno atual. Uma fala pode ter mais de uma técnica. Quem preside conta como parlamentar. Classificação via LLM, em validação com anotadores humanos.</p>
+      <p className="mt-3 text-[11px] leading-5 text-[#999]">Porcentagem das falas com 50 palavras ou mais de cada grupo, até o turno atual. Uma fala pode ter mais de uma técnica. {withChair ? "Quem preside conta como parlamentar." : "Quem preside fica de fora, porque suas falas são sobretudo de condução da sessão."} Classificação via LLM, em validação com anotadores humanos.</p>
     </div>
   );
 }
 
-function ShareRow({ value, color }: { value: number | null; color: string }) {
+function ShareRow({ value, color }: { value: { count: number; total: number }; color: string }) {
+  const ratio = value.total ? value.count / value.total : 0;
   return (
     <div className="mb-1 flex items-center gap-2">
-      <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-paper"><div className={`h-full rounded-full ${color}`} style={{ width: `${(value ?? 0) * 100}%` }}/></div>
-      <span className="w-9 text-right font-mono text-[11px] tabular-nums text-[#666666]">{value == null ? "–" : `${Math.round(value * 100)}%`}</span>
+      <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-paper"><div className={`h-full rounded-full ${color}`} style={{ width: `${ratio * 100}%` }}/></div>
+      <span className="w-[118px] shrink-0 whitespace-nowrap text-right font-mono text-[11px] tabular-nums text-[#666666]">
+        {value.total ? <>{Math.round(ratio * 100)}% <span className="text-[#aaa]">· {value.count} de {value.total}</span></> : "sem falas"}
+      </span>
     </div>
   );
 }
