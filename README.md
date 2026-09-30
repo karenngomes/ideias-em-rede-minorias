@@ -98,7 +98,9 @@ A auditoria é buscada no servidor só quando o botão é clicado.
 ### Minorias × demais
 
 A página `/comparacao` compara as 53 audiências do grupo M com as 153 do grupo C,
-uma seção por hipótese. É descritiva (medianas e proporções, sem teste
+uma seção por hipótese. Cada seção usa o recorte de quem fez a análise: DQI,
+interrupções e cobertura vêm da Thalia (rotulagem M/C dela); persuasão vem do
+David (agrupamento dele, 10 × 10). É descritiva (medianas e proporções, sem teste
 estatístico), e cada ponto dos gráficos é uma audiência clicável.
 
 | Seção | O que mostra | Origem |
@@ -106,7 +108,7 @@ estatístico), e cada ponto dos gráficos é uma audiência clicável.
 | H1 · Interrupções | parte das falas interrompidas de convidados, parlamentares e quem preside, somando cada grupo | sem modelo |
 | H2 · Respeito | parte dos códigos de respeito explicitamente positivos, por audiência | via LLM |
 | H2 · Hostilidade | parte dos códigos de respeito negativos ou degradantes, por audiência | via LLM |
-| H3 · Persuasão | média do percentual de parágrafos com cada técnica, em 11 audiências de M e 9 de C (classificação do David, em `frontend/data/persuasao-por-audiencia.json`) | via LLM |
+| H3 · Persuasão | análise do David: média do percentual de parágrafos com cada técnica, em 10 audiências sobre minorias e 10 de temáticas variadas, com o agrupamento dele (`frontend/data/persuasao-por-audiencia.json`) | via LLM |
 | H4 · Cobertura | déficit da sociedade civil (fala − citação na matéria original), por audiência | sem modelo |
 | Contexto | palavras faladas por audiência | sem modelo |
 
@@ -390,8 +392,9 @@ do Instituto Kunumi estão em `frontend/public/`.
   Para o modo persuasão funcionar nelas, é preciso importar as classificações
   por fala no MongoDB.
 - [ ] **Audiência 92.** O David a conta como temática variada, mas na rotulagem
-  da Thalia ela é do grupo M ("Crianças e adolescentes"). O painel segue a
-  Thalia (11 × 9); combinar um critério único com o David.
+  da Thalia ela é do grupo M ("Crianças e adolescentes"). A seção de persuasão
+  segue o David (10 × 10); com a rotulagem da Thalia (11 × 9) as diferenças
+  mudam pouco. Vale combinar um critério único para o artigo.
 - [ ] **Mais audiências com persuasão.** Com 10 a 11 audiências por grupo, a
   comparação é só um sinal descritivo; ampliar gera custo na OpenAI.
 - [ ] **Resultados da validação humana** da persuasão: concordância (kappa),

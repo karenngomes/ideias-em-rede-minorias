@@ -45,17 +45,19 @@ export default async function ComparacaoPage() {
     return convidado && parlamentar ? convidado / parlamentar : null;
   };
 
-  // Persuasão: classificação do David, agrupada pela rotulagem da Thalia (M ou C).
+  // Persuasão: análise do David, com o agrupamento dele (as demais seções usam a rotulagem da Thalia).
   const grupoDe = new Map(audiencias.map((a) => [a.id, a]));
   const categoriaNomes: Record<string, string> = { ataque_a_reputacao: "Ataque à reputação", justificativa: "Justificativa", simplificacao: "Simplificação", distracao: "Distração", chamada: "Chamada à ação", linguagem_manipulativa: "Linguagem manipulativa", nenhuma: "Nenhuma técnica" };
-  const persuasaoAudiencias = Object.entries(persuasao.audiencias).map(([id, values]) => ({ id: Number(id), values, info: grupoDe.get(Number(id)) })).filter((item) => item.info);
-  const nPersuasao = { M: persuasaoAudiencias.filter((a) => a.info!.grupo === "M").length, C: persuasaoAudiencias.filter((a) => a.info!.grupo === "C").length };
-  const divergentes = persuasaoAudiencias.filter((a) => (a.info!.grupo === "M") !== persuasao.grupos_do_autor.minorias.includes(a.id));
+  const persuasaoAudiencias = Object.entries(persuasao.audiencias)
+    .map(([id, values]) => ({ id: Number(id), values, info: grupoDe.get(Number(id)), grupo: (persuasao.grupos_do_autor.minorias.includes(Number(id)) ? "M" : "C") as Grupo }))
+    .filter((item) => item.info);
+  const nPersuasao = { M: persuasaoAudiencias.filter((a) => a.grupo === "M").length, C: persuasaoAudiencias.filter((a) => a.grupo === "C").length };
+  const divergentes = persuasaoAudiencias.filter((a) => a.grupo !== a.info!.grupo);
   const persuasaoCategorias = persuasao.categorias.map((key, index) => ({
     label: categoriaNomes[key] ?? key,
     points: {
-      M: persuasaoAudiencias.filter((a) => a.info!.grupo === "M").map((a) => ({ id: a.id, value: a.values[index], title: a.info!.assunto })),
-      C: persuasaoAudiencias.filter((a) => a.info!.grupo === "C").map((a) => ({ id: a.id, value: a.values[index], title: a.info!.assunto })),
+      M: persuasaoAudiencias.filter((a) => a.grupo === "M").map((a) => ({ id: a.id, value: a.values[index], title: a.info!.assunto })),
+      C: persuasaoAudiencias.filter((a) => a.grupo === "C").map((a) => ({ id: a.id, value: a.values[index], title: a.info!.assunto })),
     },
   }));
 
@@ -72,7 +74,7 @@ export default async function ComparacaoPage() {
         <p className="mb-2 text-xs font-bold uppercase tracking-[0.16em] text-orange-600">Comparação</p>
         <h1 className="text-4xl font-semibold tracking-[-0.035em]">Minorias × demais audiências</h1>
         <p className="mt-3 max-w-3xl text-base leading-7 text-[#666666]">
-          As {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura.
+          As {n.M} audiências convocadas sobre pautas de minorias (grupo M) comparadas com as outras {n.C} (grupo C), a partir dos dados de turnos, DQI e cobertura (Thalia) e da classificação de persuasão (David).
           Cada ponto é uma audiência; clique para abri-la.
         </p>
         <div className="mt-5 flex flex-wrap items-center justify-between gap-4">
@@ -98,8 +100,8 @@ export default async function ComparacaoPage() {
         </Section>
 
         <Section eyebrow="H3 · Persuasão" title="Técnicas de persuasão por grupo" badge="via LLM"
-          text={<>Média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências de minorias e {nPersuasao.C} demais. As audiências de minorias têm mais chamada à ação, ataque à reputação e justificativa, e menos trechos sem nenhuma técnica. Uma fala pode ter mais de uma técnica.</>}
-          note={`Classificação do David (multilabel, via LLM, em validação humana), só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. Os grupos seguem a rotulagem da Thalia${divergentes.length ? `; no agrupamento do David, a audiência ${divergentes.map((a) => a.id).join(", ")} aparece entre as temáticas variadas, e as diferenças mudam pouco (por exemplo, chamada à ação +9,6 pp em vez de +9,4 pp)` : ""}.`}>
+          text={<>Análise do David: média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. As audiências de minorias têm mais chamada à ação, ataque à reputação e justificativa, e menos trechos sem nenhuma técnica. Uma fala pode ter mais de uma técnica.</>}
+          note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. Os grupos são os do David${divergentes.length ? `; na rotulagem da Thalia, usada nas outras seções, a audiência ${divergentes.map((a) => a.id).join(", ")} é do grupo de minorias. Com essa rotulagem, as diferenças mudam pouco (por exemplo, chamada à ação +9,4 pp em vez de +9,6 pp)` : ""}.`}>
           <CategoryDumbbell categories={persuasaoCategorias} max={100}/>
         </Section>
 
