@@ -62,7 +62,7 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit, relations }: {
 
   const current = data.turnos[turn - 1];
   const visibleOpinions = data.opinioes.filter((opiniao) => opiniao.turno_id <= turn).length;
-  const themes = data.secoes.map((secao, index) => ({ titulo: secao.titulo, index })).filter((item, index, list) => list.findIndex((other) => other.titulo === item.titulo) === index);
+  const themes = data.temas.map((titulo, index) => ({ titulo, index }));
 
   return (
     <section className="px-5 py-8 lg:px-8">

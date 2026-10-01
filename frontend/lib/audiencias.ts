@@ -75,9 +75,13 @@ export function temaCor(tema: number) {
 export function derive(bundle: AudienciaBundle) {
   const turnos = bundle.turnos;
   const secoes = bundle.resumo?.secoes ?? [];
+  // O resumo pode ter várias seções com o mesmo título; o tema (e a cor) é o título,
+  // para o mapa, a legenda e o resumo usarem a mesma cor.
+  const temas = Array.from(new Set(secoes.map((secao) => secao.titulo)));
+  const temaDaSecao = secoes.map((secao) => temas.indexOf(secao.titulo));
   const temaPorOpiniao = new Map<string, number>();
   secoes.forEach((secao, indice) => secao.deriva_de.forEach((id) => {
-    if (!temaPorOpiniao.has(id)) temaPorOpiniao.set(id, indice);
+    if (!temaPorOpiniao.has(id)) temaPorOpiniao.set(id, temaDaSecao[indice]);
   }));
 
   const chave = (turno: number, texto: string) => `${turno}::${texto.trim().toLowerCase()}`;
@@ -122,6 +126,8 @@ export function derive(bundle: AudienciaBundle) {
     parlamentares,
     mesa,
     secoes,
+    temas,
+    temaDaSecao,
     arestas: bundle.grafo?.arestas ?? [],
     codigos: bundle.dqi?.codigos ?? [],
     dqi: bundle.dqi,

@@ -128,7 +128,7 @@ function Summary({ data, turn, onTurn }: { data: Audiencia; turn: number; onTurn
         const active = first <= turn;
         return (
           <section key={`${secao.titulo}-${index}`} className={`transition ${active ? "" : "opacity-35"}`}>
-            <h3 className="flex items-center gap-2 text-sm font-semibold text-ink"><i className="size-2.5 shrink-0 rounded-full" style={{ backgroundColor: temaCor(index) }}/>{secao.titulo}</h3>
+            <h3 className="flex items-center gap-2 text-sm font-semibold text-ink"><i className="size-2.5 shrink-0 rounded-full" style={{ backgroundColor: temaCor(data.temaDaSecao[index]) }}/>{secao.titulo}</h3>
             {Number.isFinite(first) && <p className="mt-0.5 text-[11px] text-[#999]">{active ? `com evidência desde o turno ${first}` : `ganha evidência no turno ${first}`}</p>}
             <p className="mt-2 text-sm leading-6 text-[#333]">{secao.sintese}</p>
             <ul className="mt-2 space-y-1.5">
@@ -227,7 +227,7 @@ function HighlightedTurn({ text, highlights }: { text: string; highlights: Highl
 
 function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; opinion: Opiniao; onClose: () => void; onTurn: (turn: number) => void }) {
   const turn = data.turnos.find((item) => item.turno_id === opinion.turno_id);
-  const secao = data.secoes[opinion.tema];
+  const tema = data.temas[opinion.tema];
   const highlights = turn ? [
     ...opinion.fundamentos.map((f) => locate(turn.texto, f.trecho, "fundamento")),
     ...opinion.qualificadores.map((q) => locate(turn.texto, q.trecho, "qualificador")),
@@ -239,7 +239,7 @@ function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; op
         <div>
           <p className="text-xs font-semibold text-[#666666]">{opinion.falante}</p>
           <h3 className="mt-1 text-lg font-semibold leading-snug text-ink">{opinion.texto}</h3>
-          {secao && <p className="mt-2 flex items-center gap-1.5 text-xs text-[#666666]"><i className="size-2 rounded-full" style={{ backgroundColor: temaCor(opinion.tema) }}/>{secao.titulo}</p>}
+          {tema && <p className="mt-2 flex items-center gap-1.5 text-xs text-[#666666]"><i className="size-2 rounded-full" style={{ backgroundColor: temaCor(opinion.tema) }}/>{tema}</p>}
         </div>
         <button type="button" onClick={onClose} aria-label="Fechar" className="grid size-8 shrink-0 place-items-center rounded-lg border border-black/10 text-[#666666] hover:text-ink"><X className="size-4"/></button>
       </div>
