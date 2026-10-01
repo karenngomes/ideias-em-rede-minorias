@@ -91,6 +91,12 @@ export function TurnChart({ data, mode, showThemes, turn, selected, onSelect, on
 
       {mode === "posicoes" && (
         <>
+          {/* Cada fala é uma marca pequena, para ver os turnos de quem fala mesmo sem opinião extraída. */}
+          {turnos.map((t) => (
+            <circle key={`fala-${t.turno_id}`} cx={x(t.turno_id)} cy={y(t.falante_norm)} r={2.5} fill={t.turno_id <= turn ? "#1c2127" : "#c9c9c9"} opacity={t.turno_id <= turn ? 0.55 : 0.8} onClick={() => onTurn(t.turno_id)} className="cursor-pointer">
+              <title>{`${t.falante_norm}, turno ${t.turno_id}`}</title>
+            </circle>
+          ))}
           {sameTheme.map((aresta) => {
             const a = opinionById.get(aresta.origem);
             const b = opinionById.get(aresta.destino);
