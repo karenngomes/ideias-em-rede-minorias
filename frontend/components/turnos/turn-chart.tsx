@@ -33,24 +33,18 @@ export function TurnChart({ data, mode, showThemes, turn, selected, onSelect, on
   const sameTheme = useMemo(() => arestas.filter((aresta) => aresta.tipo === "mesmo_tema"), [arestas]);
   const grants = useMemo(() => arestas.filter((aresta) => aresta.tipo === "concede_palavra"), [arestas]);
   const dotRadius = Math.max(3, Math.min(8, row / 5));
-  // Várias opiniões da mesma pessoa no mesmo turno cairiam no mesmo ponto; espalha em colunas
-  // de até três, com o grupo centrado no ponto do turno.
+  // Várias opiniões da mesma pessoa no mesmo turno cairiam no mesmo ponto; empilha na vertical,
+  // sempre no x do turno e dentro da linha da pessoa (encostando quando são muitas).
   const offsets = useMemo(() => {
     const groups = new Map<string, string[]>();
     opinioes.forEach((opiniao) => {
       const key = `${opiniao.falante}::${opiniao.turno_id}`;
       groups.set(key, [...(groups.get(key) ?? []), opiniao.id]);
     });
-    const step = dotRadius * 2.1;
-    const lanes = Math.min(row * 0.3, step);
     const result = new Map<string, { dx: number; dy: number }>();
     groups.forEach((ids) => {
-      const columns = Math.ceil(ids.length / 3);
-      ids.forEach((id, index) => {
-        const column = Math.floor(index / 3);
-        const inColumn = Math.min(3, ids.length - column * 3);
-        result.set(id, { dx: (column - (columns - 1) / 2) * step, dy: ((index % 3) - (inColumn - 1) / 2) * lanes });
-      });
+      const step = ids.length > 1 ? Math.min(dotRadius * 2.1, (row - dotRadius * 2) / (ids.length - 1)) : 0;
+      ids.forEach((id, index) => result.set(id, { dx: 0, dy: (index - (ids.length - 1) / 2) * step }));
     });
     return result;
   }, [opinioes, dotRadius, row]);
