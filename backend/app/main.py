@@ -162,8 +162,25 @@ def audience_relation_chunks(record_id: int) -> list[dict]:
     ]
 
 
-def audience_relation_payload(record_id: int, run: dict | None) -> Dict[str, Any]:
+def available_relation_runs(record_id: int) -> list[dict]:
+    """Execução mais recente de cada abordagem já gerada para a audiência."""
+    latest: Dict[str, dict] = {}
+    for run in conversation_relation_runs_collection.find(
+        {"record_id": record_id},
+        {"_id": 0, "approach": 1, "run_id": 1, "created_at": 1},
+    ).sort("created_at", -1):
+        latest.setdefault(run.get("approach") or "rag_pairwise", run)
+    return [
+        {"approach": approach, "run_id": run["run_id"], "created_at": run["created_at"]}
+        for approach, run in latest.items()
+    ]
+
+
+def audience_relation_payload(
+    record_id: int, run: dict | None, approach: str | None = None
+) -> Dict[str, Any]:
     chunks = audience_relation_chunks(record_id)
+    available = available_relation_runs(record_id)
     if run is None:
         return {
             "record_id": record_id,
@@ -172,26 +189,32 @@ def audience_relation_payload(record_id: int, run: dict | None) -> Dict[str, Any
             "created_at": None,
             "candidate_count": None,
             "min_confidence": None,
-            "approach": None,
+            "approach": approach,
             "model": None,
             "embedding_model": None,
             "relations": [],
             "audit": [],
             "chunks": chunks,
+            "available": available,
         }
     without_mongo_id(run)
-    return {**run, "chunks": chunks}
+    return {**run, "chunks": chunks, "available": available}
 
 
 @app.get("/lds/{record_id}/conversation-relations")
-def get_audience_relations(record_id: int) -> Dict[str, Any]:
+def get_audience_relations(
+    record_id: int,
+    approach: InferenceApproach | None = Query(
+        default=None, description="Abordagem; sem ela, devolve a execução mais recente"
+    ),
+) -> Dict[str, Any]:
     if not lds_collection.find_one({"id": record_id}, {"_id": 1}):
         raise HTTPException(status_code=404, detail=f"Record {record_id} not found")
-    run = conversation_relation_runs_collection.find_one(
-        {"record_id": record_id},
-        sort=[("created_at", -1)],
-    )
-    return audience_relation_payload(record_id, run)
+    query: Dict[str, Any] = {"record_id": record_id}
+    if approach:
+        query["approach"] = approach
+    run = conversation_relation_runs_collection.find_one(query, sort=[("created_at", -1)])
+    return audience_relation_payload(record_id, run, approach)
 
 
 @app.post("/lds/{record_id}/conversation-relations")

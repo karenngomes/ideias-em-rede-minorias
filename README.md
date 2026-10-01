@@ -109,8 +109,9 @@ O modelo às vezes responde com sinônimos que o prompt menciona (`retomar`,
 `corrigir`). O backend os normaliza para os tipos canônicos (`retomada`,
 `correcao`); antes, um único sinônimo derrubava a análise da audiência inteira.
 
-Quando a audiência ainda não foi analisada, a seção mostra o botão **Gerar
-relações**, que chama a OpenAI (custo por uso). No nosso banco, têm relações
+O seletor de abordagem mostra o resultado já gerado daquela abordagem, sem custo,
+e marca com "(gerado)" as que têm resultado. Quando a abordagem escolhida ainda
+não foi gerada para a audiência, a aba mostra o botão **Gerar relações**, que chama a OpenAI (custo por uso). No nosso banco, têm relações
 geradas (abordagem `rag_pairwise`) as audiências 37 e 26 (grupo M) e 54 e 140
 (grupo C); as execuções que o David fez estão no banco dele.
 
@@ -377,7 +378,7 @@ curl -X POST "http://localhost:8000/persuasion-classifications" \
 | GET | `/persuasion-classifications/{job_id}/results` | resultados |
 | GET | `/persuasion-classifications/{job_id}/summary` | técnicas por tipo de falante |
 | GET | `/persuasion-classified-records` | audiências com classificação |
-| GET | `/lds/{id}/conversation-relations` | última execução de relações entre falas da audiência |
+| GET | `/lds/{id}/conversation-relations?approach=…` | execução mais recente da abordagem (sem `approach`, a mais recente de todas); `available` lista as abordagens já geradas |
 | POST | `/lds/{id}/conversation-relations?approach=…` | gera relações para a audiência (usa a OpenAI) |
 | POST | `/conversation-relations/infer` | infere relações para falas enviadas no corpo |
 | GET | `/nli`, `/nli/{id}`, `/records/{id}` | dados de avaliação NLI |

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
 import type { ConversationRelation, ConversationRelationRun, ConversationRelationType, RelationChunk } from "@/lib/relations-api";
 
 type InferenceApproach = "rag_pairwise" | "protocol" | "protocol_rag";
@@ -50,11 +49,60 @@ function shortName(name: string) { const words = name.trim().split(/\s+/); retur
 function initials(name: string) { return name.split(/\s+/).map((part) => part[0]).join("").slice(0, 2).toUpperCase(); }
 function PlayIcon({ paused = false }: { paused?: boolean }) { return paused ? <span className="sequencePauseIcon"><i /><i /></span> : <span className="sequencePlayIcon" />; }
 
-export function ConversationRelationsView({ data }: { data: ConversationRelationRun }) {
-  const router = useRouter();
-  const [approach, setApproach] = useState<InferenceApproach>(data.approach ?? "rag_pairwise");
+const approachLabels: Record<InferenceApproach, string> = {
+  rag_pairwise: "RAG por pares",
+  protocol: "Protocolo completo",
+  protocol_rag: "Protocolo completo + embeddings",
+};
+
+function approachOptions(data: ConversationRelationRun) {
+  const generated = new Set((data.available ?? []).map((item) => item.approach));
+  return (Object.keys(approachLabels) as InferenceApproach[]).map((key) => (
+    <option key={key} value={key}>{approachLabels[key]}{generated.has(key) ? " (gerado)" : ""}</option>
+  ));
+}
+
+// Mostra o resultado da abordagem escolhida: troca sem custo quando já foi gerado,
+// e oferece gerar quando ainda não existe.
+export function ConversationRelationsView({ data: initial }: { data: ConversationRelationRun }) {
+  const [data, setData] = useState(initial);
+  const [approach, setApproach] = useState<InferenceApproach>(initial.approach ?? "rag_pairwise");
+  const [isLoading, setIsLoading] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
   const [generationError, setGenerationError] = useState<string | null>(null);
+
+  async function selectApproach(next: InferenceApproach) {
+    setApproach(next); setGenerationError(null); setIsLoading(true);
+    try {
+      const response = await fetch(`/api/audiencias/${data.record_id}/relations?approach=${next}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Falha ao carregar relações (${response.status}).`);
+      setData(await response.json() as ConversationRelationRun);
+    } catch (error) { setGenerationError(error instanceof Error ? error.message : "Não foi possível carregar as relações."); }
+    finally { setIsLoading(false); }
+  }
+
+  async function generate() {
+    setIsGenerating(true); setGenerationError(null);
+    try {
+      const response = await fetch(`/api/audiencias/${data.record_id}/relations?approach=${approach}`, { method: "POST" });
+      if (!response.ok) { const payload = await response.json().catch(() => null) as { detail?: string } | null; throw new Error(payload?.detail ?? `Falha ao gerar relações (${response.status}).`); }
+      setData(await response.json() as ConversationRelationRun);
+    } catch (error) { setGenerationError(error instanceof Error ? error.message : "Não foi possível gerar as relações."); }
+    finally { setIsGenerating(false); }
+  }
+
+  return <RelationsRun key={`${data.approach ?? approach}-${data.run_id ?? "vazio"}`} data={data} approach={approach} onApproach={selectApproach} onGenerate={generate} isGenerating={isGenerating} isLoading={isLoading} generationError={generationError} />;
+}
+
+function RelationsRun({ data, approach, onApproach, onGenerate, isGenerating, isLoading, generationError }: {
+  data: ConversationRelationRun;
+  approach: InferenceApproach;
+  onApproach: (approach: InferenceApproach) => void;
+  onGenerate: () => void;
+  isGenerating: boolean;
+  isLoading: boolean;
+  generationError: string | null;
+}) {
   const [isPlaying, setIsPlaying] = useState(false);
   const usableRelations = useMemo(() => data.relations.filter((relation) => relation.source_chunk_id !== null && relation.type !== "sem_relacao"), [data.relations]);
   const [currentStep, setCurrentStep] = useState(usableRelations.length);
@@ -81,20 +129,14 @@ export function ConversationRelationsView({ data }: { data: ConversationRelation
   const visibleRelations = usableRelations.slice(0, currentStep);
   const presentTypes = [...new Set(usableRelations.map((relation) => relation.type))];
 
-  async function generate() {
-    setIsGenerating(true); setGenerationError(null);
-    try {
-      const response = await fetch(`/api/audiencias/${data.record_id}/relations?approach=${approach}`, { method: "POST" });
-      if (!response.ok) { const payload = await response.json().catch(() => null) as { detail?: string } | null; throw new Error(payload?.detail ?? `Falha ao gerar relações (${response.status}).`); }
-      router.refresh();
-    } catch (error) { setGenerationError(error instanceof Error ? error.message : "Não foi possível gerar as relações."); }
-    finally { setIsGenerating(false); }
-  }
 
-  if (data.status === "not_started") return <section className="relationsSection"><div className="relationEmptyState"><span>RELAÇÕES ENTRE FALAS</span><h2>Esta audiência ainda não foi analisada</h2><p>Escolha a abordagem e gere as interações entre os participantes.</p><label className="relationApproachField">Abordagem<select value={approach} onChange={(event) => setApproach(event.target.value as InferenceApproach)}><option value="rag_pairwise">RAG por pares</option><option value="protocol">Protocolo completo</option><option value="protocol_rag">Protocolo completo + embeddings</option></select></label><button className="relationGenerateButton" type="button" onClick={generate} disabled={isGenerating}>{isGenerating ? "Analisando falas…" : "Gerar relações"}</button>{generationError && <p className="relationGenerationError" role="alert">{generationError}</p>}</div></section>;
+  if (data.status === "not_started") return <section className="relationsSection"><div className="relationEmptyState"><span>RELAÇÕES ENTRE FALAS</span><h2>{isLoading ? "Carregando…" : data.available?.length ? `Ainda não gerada com “${approachLabels[approach]}”` : "Esta audiência ainda não foi analisada"}</h2><p>{data.available?.length ? `Já existe resultado com ${data.available.map((item) => approachLabels[item.approach]).join(", ")}: escolha no seletor para ver sem gerar de novo, ou gere com esta abordagem.` : "Escolha a abordagem e gere as interações entre os participantes."}</p><label className="relationApproachField">Abordagem<select value={approach} onChange={(event) => onApproach(event.target.value as InferenceApproach)}>{approachOptions(data)}</select></label><button className="relationGenerateButton" type="button" onClick={onGenerate} disabled={isGenerating}>{isGenerating ? "Analisando falas…" : "Gerar relações"}</button>{generationError && <p className="relationGenerationError" role="alert">{generationError}</p>}</div></section>;
 
   return <section className="deputyInteractions" aria-label="Interações entre deputados">
-    <header className="sequenceHeading"><div><p>SEQUÊNCIA DA AUDIÊNCIA</p><h2>Interações entre deputados</h2><span>O tempo avança de cima para baixo e cada seta mostra quem iniciou e quem recebeu a interação.</span></div><div className="relationRunControls"><label>Abordagem<select value={approach} onChange={(event) => setApproach(event.target.value as InferenceApproach)}><option value="rag_pairwise">RAG por pares</option><option value="protocol">Protocolo completo</option><option value="protocol_rag">Protocolo completo + embeddings</option></select></label><button className="relationRerunButton" type="button" onClick={generate} disabled={isGenerating}>{isGenerating ? "Analisando…" : "Executar novamente"}</button></div></header>
+    <header className="sequenceHeading"><div><p>SEQUÊNCIA DA AUDIÊNCIA</p><h2>Interações entre deputados</h2><span>O tempo avança de cima para baixo e cada seta mostra quem iniciou e quem recebeu a interação.</span></div><div className="relationRunControls"><label>Abordagem<select value={approach} onChange={(event) => onApproach(event.target.value as InferenceApproach)}>{approachOptions(data)}</select></label>
+    {/* <button className="relationRerunButton" type="button" onClick={onGenerate} disabled={isGenerating}>
+      {isGenerating ? "Analisando…" : "Gerar de novo"}</button> */}
+      </div></header>
     {generationError && <p className="relationGenerationError" role="alert">{generationError}</p>}
     <div className="sequenceLayout"><div className="sequenceCard">
       <div className="sequencePlayer"><button type="button" aria-label="Voltar ao início" onClick={() => { setIsPlaying(false); setCurrentStep(0); }} className="sequenceReset">↤</button><button type="button" aria-label={isPlaying ? "Pausar" : "Reproduzir"} onClick={() => { if (currentStep >= usableRelations.length) setCurrentStep(0); setIsPlaying((value) => !value); }} className="sequencePlay"><PlayIcon paused={isPlaying} /></button><div><div className="sequencePlayerLabel"><span>Linha do tempo</span><strong>{currentStep} / {usableRelations.length}</strong></div><input type="range" min="0" max={Math.max(1, usableRelations.length)} value={currentStep} onChange={(event) => { setIsPlaying(false); setCurrentStep(Number(event.target.value)); }} style={{ "--progress": `${usableRelations.length ? currentStep / usableRelations.length * 100 : 0}%` } as React.CSSProperties} /></div></div>

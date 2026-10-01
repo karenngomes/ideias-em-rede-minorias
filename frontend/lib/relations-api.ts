@@ -68,6 +68,8 @@ export type ConversationRelationRun = {
   candidate_count: number | null;
   min_confidence: number | null;
   approach: "rag_pairwise" | "protocol" | "protocol_rag" | null;
+  /** Execução mais recente de cada abordagem já gerada para a audiência. */
+  available?: Array<{ approach: "rag_pairwise" | "protocol" | "protocol_rag"; run_id: string; created_at: string }>;
   model: string | null;
   embedding_model: string | null;
   relations: ConversationRelation[];
