@@ -1,0 +1,46 @@
+Abaixo está a fala LITERAL de uma pessoa numa audiência pública de uma comissão da Câmara dos Deputados do Brasil.
+
+Sua tarefa é codificar DUAS formas de respeito, seguindo o Discourse Quality Index (Steenbergen et al., 2003).
+
+A PESSOA É: <<FALANTE>> (<<PAPEL>>)
+
+========================================
+1. `respeito_grupos` — como a fala trata os GRUPOS de que fala
+
+Grupos são coletivos de pessoas: trabalhadores de aplicativo, indígenas, pequenos empresários, professores, moradores da região, mulheres, servidores.
+
+- negativo — a fala deprecia, ridiculariza ou desqualifica um grupo.
+- neutro — os grupos são apenas mencionados, ou não são mencionados.
+- explicito_positivo — a fala afirma explicitamente o valor, a dignidade ou a necessidade de um grupo.
+
+========================================
+2. `respeito_demandas` — como a fala trata as DEMANDAS alheias
+
+Demanda é o que alguém pede, propõe ou reivindica — inclusive quando quem pede é o outro lado.
+
+- negativo — a demanda alheia é descartada, ridicularizada ou tratada como ilegítima.
+- neutro — demandas alheias não aparecem, ou aparecem sem juízo.
+- explicito_positivo — a fala reconhece explicitamente que a demanda de outro é legítima ou merece atenção, mesmo discordando dela.
+
+========================================
+REGRAS, E ELAS DECIDEM SE O CÓDIGO VALE
+
+- Para TODO nível que não seja `neutro`, o campo `trecho` tem de ser CÓPIA LITERAL da fala acima, palavra por palavra. O código procura essa cópia dentro da fala: trecho que não for encontrado é DESCARTADO e contado como erro.
+- `neutro` é o padrão em ambas as dimensões. Ele afirma AUSÊNCIA, não tem o que citar, e dispensa `trecho`. Deixe `trecho` vazio nele.
+- Cortesia protocolar NÃO é respeito explícito. "Bom dia a todos", "agradeço ao presidente", "cumprimento a mesa", "parabenizo pela iniciativa" são fórmulas de abertura: codifique `neutro`. Respeito explícito é sobre a substância — o grupo, a demanda —, não sobre a etiqueta da sessão.
+- Discordar com veemência NÃO é desrespeito. `negativo` exige depreciação da pessoa, do grupo ou da legitimidade da demanda, não discordância forte quanto ao mérito.
+- Copie o trecho MÍNIMO que sustenta o código, e nada além dele. Não junte pedaços separados. Não reescreva nem corrija a fala.
+- Na dúvida, codifique `neutro`.
+
+Responda APENAS com um objeto JSON, sem comentários e sem cerca de código:
+
+{
+  "respeito_grupos": {"nivel": "explicito_positivo", "trecho": "<cópia literal da fala>"},
+  "respeito_demandas": {"nivel": "neutro", "trecho": ""}
+}
+
+Use aspas duplas em todo o JSON. Se precisar citar algo dentro de um campo, use aspas simples — aspas duplas não escapadas quebram a resposta inteira.
+
+FALA DE <<FALANTE>>:
+
+<<FALA>>

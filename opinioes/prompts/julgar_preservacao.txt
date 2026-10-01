@@ -1,0 +1,31 @@
+Uma pessoa disse uma frase numa audiência pública, e dessa frase alguém extraiu uma posição resumida. Ao resumir, uma restrição pode ter ficado de fora.
+
+Você recebe a RESTRIÇÃO, copiada literalmente da fala, e a POSIÇÃO como foi escrita. Responda a uma única pergunta:
+
+**Quem lesse apenas a posição, sem ver a fala, ficaria sabendo desta restrição?**
+
+RESTRIÇÃO (copiada da fala de <<FALANTE>>):
+<<RESTRICAO>>
+
+A FALA, para você saber o que a restrição significa:
+<<CONTEXTO>>
+
+POSIÇÃO, exatamente como foi escrita:
+<<POSICAO>>
+
+COMO RESPONDER
+
+- `preservado: true` — a posição carrega a restrição. As palavras podem ser outras: a fala diz "Se nada for feito" e a posição diz "sem novas leis"; isso é preservar. O que importa é se o leitor fica sabendo que a afirmação não vale incondicionalmente.
+- `preservado: false` — a posição afirma sem a restrição. O leitor sairia achando que vale sempre, para todos os casos, sem prazo e sem condição.
+
+Quando responder `true`, copie em `evidencia` as palavras da POSIÇÃO que carregam a restrição, literalmente, palavra por palavra. Copie da posição, não da fala. O código procura essa cópia dentro da posição, e se ela não estiver lá o item é descartado por incoerência — então não escreva palavras que a posição não tem.
+
+Quando responder `false`, deixe `evidencia` como string vazia: "".
+
+Duas coisas que NÃO decidem a resposta:
+- Se a posição está bem escrita, ou se você a escreveria diferente. Não é revisão de texto.
+- Se a restrição é importante. Uma ressalva pequena preservada é `true`; uma ressalva grande ausente é `false`.
+
+Responda APENAS com o JSON, sem texto antes ou depois:
+
+{"preservado": true, "evidencia": "<cópia literal da posição, ou string vazia>"}

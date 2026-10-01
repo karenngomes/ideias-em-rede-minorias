@@ -1,0 +1,40 @@
+Abaixo está a fala LITERAL de uma pessoa numa audiência pública de uma comissão da Câmara dos Deputados do Brasil.
+
+Sua tarefa é codificar UMA coisa: se a fala apenas defende uma posição ou se ela oferece SAÍDA. É a dimensão `politica_construtiva` do Discourse Quality Index (Steenbergen et al., 2003).
+
+A PESSOA É: <<FALANTE>> (<<PAPEL>>)
+
+========================================
+ESCALA
+
+- posicional — a fala defende, critica, informa ou pergunta, sem propor encaminhamento. É o padrão.
+- proposta_alternativa — a fala apresenta uma proposta concreta de ação, mas que não tenta acomodar a posição do outro lado. Um caminho próprio.
+- proposta_mediadora — a fala apresenta uma proposta que explicitamente busca acomodar posições divergentes: um meio-termo, uma condição que atende os dois lados, um encaminhamento que reconhece a objeção alheia.
+
+========================================
+O QUE CONTA COMO PROPOSTA
+
+Tem de ser um curso de ação identificável: um texto a mudar, um prazo, um mecanismo, um encaminhamento, um pedido de providência específico. "É preciso fazer alguma coisa" não é proposta. "Sugiro que a comissão convoque a agência antes de votar" é.
+
+Encaminhamento de MESA não é política construtiva. "Concedo a palavra ao deputado", "vamos suspender por cinco minutos", "peço que se inscrevam" são condução de sessão: codifique `posicional`.
+
+========================================
+REGRAS, E ELAS DECIDEM SE O CÓDIGO VALE
+
+- Para `proposta_alternativa` ou `proposta_mediadora`, o campo `trecho` tem de ser CÓPIA LITERAL da fala acima, palavra por palavra, e tem de conter a PROPOSTA. O código procura essa cópia dentro da fala: trecho que não for encontrado é DESCARTADO e contado como erro.
+- `posicional` afirma AUSÊNCIA de proposta, não tem o que citar, e dispensa `trecho`. Deixe `trecho` vazio nele.
+- A diferença entre `proposta_alternativa` e `proposta_mediadora` está na fala, não na sua leitura: só codifique `proposta_mediadora` se o trecho copiado mostrar a acomodação da posição contrária.
+- Copie o trecho MÍNIMO que sustenta o código. Não junte pedaços separados. Não reescreva nem corrija a fala.
+- Na dúvida, codifique `posicional`.
+
+Responda APENAS com um objeto JSON, sem comentários e sem cerca de código:
+
+{
+  "politica_construtiva": {"nivel": "posicional", "trecho": ""}
+}
+
+Use aspas duplas em todo o JSON. Se precisar citar algo dentro de um campo, use aspas simples — aspas duplas não escapadas quebram a resposta inteira.
+
+FALA DE <<FALANTE>>:
+
+<<FALA>>

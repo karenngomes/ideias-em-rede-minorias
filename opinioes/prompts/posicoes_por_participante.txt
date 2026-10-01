@@ -1,0 +1,121 @@
+Abaixo está <<ESCOPO>> de UMA única pessoa numa audiência pública de uma comissão da Câmara dos Deputados do Brasil. As falas de todos os outros participantes foram removidas.
+
+A pessoa é: <<FALANTE>>
+
+Sua tarefa é RESUMIR FIELMENTE o que esta pessoa disse — fala por fala, e depois no conjunto —, deixando de fora tudo que é protocolo.
+
+============================================================
+A REGRA QUE GOVERNA TUDO
+
+Resuma o que a fala É, não o que você gostaria que ela fosse. Uma audiência pública é feita, em boa parte, de coisas que não são posicionamento: abrir a sessão, agradecer, conceder a palavra, perguntar, responder, apresentar um dado, encerrar. Descrever uma dessas como se fosse defesa de uma tese é erro, não simplificação.
+
+Em particular:
+- Anunciar o tema da sessão NÃO é defender o tema. "Reunião destinada a debater a obrigatoriedade de X" é pauta, não posição sobre X.
+- Pedir que alguém conclua, controlar o tempo ou organizar a ordem dos oradores é condução de sessão, não preocupação com o mérito.
+- Relatar o que outra pessoa disse não é posição de <<FALANTE>>.
+- Citar um dado, uma lei ou um número não é, por si, tomar posição sobre ele.
+
+============================================================
+O QUE NÃO ENTRA NO RESUMO
+
+O resumo é sobre o DEBATE. Descarte, sem mencionar, tudo que é moldura da sessão:
+
+- saudação e despedida: "bom dia a todos", "boa tarde", "obrigado", "até logo";
+- agradecimento e elogio protocolar: "agradeço o convite", "cumprimento a Mesa", "parabenizo V.Exa. pela iniciativa", "obrigado pelas palavras esclarecedoras";
+- apresentação de si e credenciamento: "meu nome é X, sou da entidade Y" — isso vai para o campo `cargo`, não para o resumo;
+- condução de sessão: declarar aberta ou encerrada, conceder e cassar a palavra, anunciar tempo de exposição, chamar o próximo orador, informar que a reunião é interativa, ler número de requerimento;
+- logística: testar microfone, avisar de queda de conexão, pedir para repetir, resolver problema de áudio;
+- referência ao rito por si só: "conforme o Regimento", quando não há afirmação de mérito junto.
+
+**Descartar, aqui, quer dizer não escrever a respeito.** Não escreva "após cumprimentar os presentes, defendeu..." — escreva só o que ela defendeu. A moldura não é resumida em versão curta: ela sai.
+
+Quando a mesma frase carrega protocolo E mérito, fique com o mérito. "Agradeço o convite e digo que as operadoras não são contrárias à cobertura rural" vira um resumo sobre a posição quanto à cobertura rural, e o agradecimento desaparece.
+
+Alguns cabeçalhos podem já vir marcados com `| protocolo`. É uma sugestão de uma etapa anterior, não uma ordem: confira contra a fala e discorde se ela tiver mérito.
+
+============================================================
+1. `falas` — um item para cada turno que tenha ALGUM conteúdo de debate
+
+Use exatamente os números que aparecem nos cabeçalhos `[turno_NNNN | ...]`, sem zeros à esquerda (para `turno_0007`, escreva 7).
+
+**Todo turno listado abaixo tem de aparecer OU em `protocolo` OU em `falas`. Nunca nos dois, e nunca em nenhum.** O código confere: turno que sumir dos dois derruba a resposta inteira.
+
+Cada item tem três campos.
+
+`tipo` — o que a fala faz. Use exatamente um destes:
+    exposicao       apresenta informação, dado, contexto ou experiência
+    pergunta        pergunta ou pede esclarecimento a outro participante
+    resposta        responde a uma pergunta ou objeção feita a ela
+    posicionamento  defende, critica, propõe ou se opõe a algo
+    Uma fala longa costuma fazer mais de uma coisa; escolha o que ela faz de mais
+    substantivo, e deixe o `resumo` dar conta do resto.
+
+`resumo` — o que sobra da fala depois de tirada a moldura, nas palavras dela.
+    Comece como fizer sentido para AQUELA fala. Não há fórmula de abertura: se a fala
+    apresenta um dado, diga qual dado; se defende algo, diga o que defende; se pergunta,
+    diga o que ela pergunta.
+    **No máximo 40 palavras, e sempre MUITO mais curto que a fala.** Como referência: uma
+    fala de 100 palavras vira um resumo de umas 25. Se o seu resumo tem quase o tamanho da
+    fala, ele não é resumo — é cópia, e não serve.
+    Corte o exemplo, o número de apoio, a repetição e o floreio. Guarde a afirmação.
+    Escreva em TERCEIRA pessoa, descrevendo a fala. Não escreva na voz do falante:
+    "reconhece que o custo é maior", nunca "reconheço que o custo é maior".
+
+`posicoes` — as posições que ESTA fala sustenta. **Quase sempre uma lista vazia.**
+    Só entra aqui aquilo que a pessoa defende, critica, propõe ou rejeita. Se a fala é
+    `exposicao`, `pergunta` ou `resposta`, normalmente é vazia: apresentar um dado só vira
+    posição quando a pessoa diz o que se deve fazer com ele.
+    **Uma posição por ato de posicionamento, e quase sempre no máximo uma por fala.** Uma
+    tese com a sua condição é UMA posição, não duas: "defende a cobertura rural com prazo
+    de cinco anos por causa do custo" é um item só — a condição e a razão fazem parte da
+    posição, não são posições separadas. Na dúvida entre uma e duas, é uma.
+    Cerca de 20 palavras, autocontida. Nunca invente posição para preencher.
+
+============================================================
+2. `protocolo` — os turnos que sobraram, e SÓ os que são pura moldura
+
+Depois de listar em `falas` tudo que tem conteúdo, ponha aqui os números dos turnos que restaram: aqueles em que, tirada a moldura, não sobra nada — abrir, encerrar, conceder a palavra, controlar o tempo, cumprimentar, agradecer, testar o áudio, e nada além disso.
+
+**Na dúvida, NÃO ponha aqui.** O custo dos dois erros é muito diferente: um turno de protocolo que vai para `falas` gasta trinta tokens e some no resumo; um turno com conteúdo que vai para `protocolo` desaparece do sistema e ninguém nunca mais o encontra.
+
+NÃO são protocolo, por mais curtos e educados que sejam:
+- pedido, proposta, sugestão ou cobrança de encaminhamento — "peço que a Comissão registre em ata", "sugiro que o edital trate X como prioridade";
+- qualquer fala que diga o que deve ser feito, mesmo em uma frase;
+- resposta a pergunta, ainda que breve;
+- fala que declara apoio, discordância ou ressalva a alguma coisa.
+
+Se nenhum turno for pura moldura, o vetor é vazio — e isso é comum em quem foi convidado a expor.
+
+============================================================
+3. `resumo_parcial` — a participação da pessoa NESTE trecho
+
+Duas a quatro frases sobre o que ela trouxe ao debate aqui: em que qualidade falou, o que apresentou, o que sustentou, se mudou de posição. A moldura fica de fora também aqui.
+
+Se, tirado o protocolo, ela não contribuiu com nada neste trecho — porque apenas presidiu, cumprimentou ou concedeu a palavra —, então `resumo_parcial` é `null`. Não escreva um parágrafo dizendo que ela conduziu a sessão: o `null` já diz isso, e dizê-lo em prosa faria condução de sessão parecer contribuição.
+
+Não repita as posições uma a uma; o campo é sobre o conjunto.
+
+============================================================
+FORMATO
+
+Responda APENAS com um objeto JSON, sem comentários e sem cerca de código, exatamente nesta estrutura e sem aninhar objetos além do mostrado:
+
+{
+  "cargo": "<cargo ou vínculo desta pessoa, como declarado NAS FALAS; string vazia se ela não o declarar>",
+  "falas": [
+    {
+      "turno_id": 4,
+      "tipo": "posicionamento",
+      "resumo": "<no máximo 40 palavras, muito mais curto que a fala>",
+      "posicoes": ["<o que a pessoa sustenta aqui>"]
+    }
+  ],
+  "protocolo": [3, 5, 9],
+  "resumo_parcial": "<a participação dela neste trecho, ou null se não houve>"
+}
+
+Use aspas duplas em todo o JSON e feche cada objeto com `}`. Escreva `null` sem aspas. Se precisar citar algo dentro de um campo, use aspas simples — aspas duplas não escapadas quebram a resposta inteira.
+
+FALAS DE <<FALANTE>>:
+
+<<FALAS>>

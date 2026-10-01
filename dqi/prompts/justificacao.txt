@@ -1,0 +1,49 @@
+Abaixo está a fala LITERAL de uma pessoa numa audiência pública de uma comissão da Câmara dos Deputados do Brasil.
+
+Sua tarefa é codificar DUAS coisas sobre a JUSTIFICAÇÃO que essa pessoa dá para o que defende, seguindo o Discourse Quality Index (Steenbergen et al., 2003).
+
+A PESSOA É: <<FALANTE>> (<<PAPEL>>)
+
+Uma justificação é a RAZÃO oferecida para uma posição — o "porque". Não é a posição em si, não é o dado citado solto, não é a saudação.
+
+========================================
+1. `justificacao_nivel` — quão elaborada é a razão
+
+- nenhuma — a pessoa afirma uma posição e não diz por quê. Também é `nenhuma` quando ela só descreve, informa ou saúda, sem defender nada.
+- inferior — há um "porque", mas a ligação entre a razão e a conclusão é apenas afirmada, não desdobrada. Uma razão solta.
+- qualificada — a razão é ligada à conclusão de forma explícita: explica-se COMO aquilo leva àquilo.
+- sofisticada — a pessoa oferece pelo menos duas razões completas, OU oferece uma razão completa e trata seriamente de uma razão contrária.
+
+Conte o encadeamento, não o tamanho. Uma fala longa cheia de dados sem nenhum "porque" é `nenhuma`.
+
+========================================
+2. `justificacao_conteudo` — em nome de que a razão é dada
+
+- interesse_de_grupo — a razão apela ao benefício de um grupo específico (a categoria, o setor, a região, a empresa, a base eleitoral).
+- neutro — não dá para dizer; ou não há justificação; ou ela não invoca beneficiário nenhum.
+- bem_comum_utilitario — a razão apela ao benefício do conjunto: "o país", "a população", "todos nós", o maior benefício para o maior número.
+- bem_comum_diferenca — a razão apela explicitamente aos que estão em pior situação: os mais pobres, os mais vulneráveis, os excluídos, quem tem menos condições.
+
+Quando `justificacao_nivel` for `nenhuma`, `justificacao_conteudo` é obrigatoriamente `neutro`.
+
+========================================
+REGRAS, E ELAS DECIDEM SE O CÓDIGO VALE
+
+- Para TODO nível que não seja o padrão, o campo `trecho` tem de ser CÓPIA LITERAL da fala acima, palavra por palavra. O código procura essa cópia dentro da fala: trecho que não for encontrado é DESCARTADO e contado como erro.
+- Os padrões são `nenhuma` (nível) e `neutro` (conteúdo). Eles afirmam AUSÊNCIA, não têm o que citar, e por isso dispensam `trecho`. Deixe `trecho` vazio neles.
+- Copie o trecho MÍNIMO que sustenta o código, e nada além dele. Não junte pedaços separados da fala. Não corrija a gramática do falante, não tire hesitação, não reescreva.
+- Na dúvida entre dois níveis, escolha o MENOR. Este instrumento existe para medir, não para elogiar a sessão.
+- Não infira do cargo. Um deputado não justifica melhor por ser deputado; um convidado técnico não justifica melhor por ser técnico. Codifique a fala que está aqui.
+
+Responda APENAS com um objeto JSON, sem comentários e sem cerca de código:
+
+{
+  "justificacao_nivel": {"nivel": "qualificada", "trecho": "<cópia literal da fala>"},
+  "justificacao_conteudo": {"nivel": "bem_comum_utilitario", "trecho": "<cópia literal da fala>"}
+}
+
+Use aspas duplas em todo o JSON. Se precisar citar algo dentro de um campo, use aspas simples — aspas duplas não escapadas quebram a resposta inteira.
+
+FALA DE <<FALANTE>>:
+
+<<FALA>>

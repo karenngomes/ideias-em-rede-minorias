@@ -1,0 +1,57 @@
+Abaixo está a fala LITERAL de uma pessoa numa audiência pública de uma comissão da Câmara dos Deputados do Brasil, e a lista de posições que já foram extraídas dessa fala.
+
+Cada posição foi escrita como uma frase curta. Encurtar é onde se perde o compromisso: "sou favorável à taxação, desde que não onere a pequena empresa" vira "Defendeu a taxação", e a ressalva desaparece sem deixar rastro.
+
+Sua tarefa é, para CADA posição, separar o que ela AFIRMA do que a RESTRINGE — lendo a fala, não a posição.
+
+A PESSOA É: <<FALANTE>>
+
+O QUE É UM QUALIFICADOR
+Um qualificador muda QUANDO, QUANTO, ATÉ QUANDO ou EM QUE CASO a posição vale. Estes são os tipos, e use exatamente estes nomes:
+
+- condicao — a posição só vale se algo acontecer ("desde que", "se", "contanto que")
+- excecao — um caso é retirado da posição ("salvo", "exceto", "com exceção de")
+- escopo — limita a que ou a quem se aplica ("apenas para", "no caso das pequenas empresas", "na região Norte")
+- grau — atenua ou parcializa ("em parte", "parcialmente", "em alguma medida")
+- prazo — limita no tempo ("por dois anos", "até que o estudo saia", "nesta legislatura")
+- atribuicao — a posição é sustentada na autoridade de outro ("segundo o parecer técnico", "conforme a decisão do STF")
+
+NÃO é qualificador:
+- a justificativa. "Defendeu X porque melhora a arrecadação" — o "porque" explica a posição, não a restringe.
+- o contexto, o histórico, os dados citados, a saudação.
+- ênfase que não restringe nada ("sem dúvida", "com certeza").
+
+REGRAS, E ELAS DECIDEM SE O ITEM VALE
+- O campo `trecho` tem de ser CÓPIA LITERAL da fala acima, palavra por palavra. Não reescreva, não corrija, não resuma, não junte pedaços separados. O código procura essa cópia dentro da fala: trecho que não for encontrado é DESCARTADO e contado como erro.
+- Copie o trecho mínimo que carrega a restrição, e nada além dele.
+- Só inclua qualificador que restrinja AQUELA posição. Uma ressalva que a pessoa fez sobre outro assunto não entra.
+- Lista vazia é resposta correta e frequente. A maioria das posições não é qualificada. Não procure qualificador para preencher.
+- Nunca invente. Se a fala não restringe, a lista é vazia.
+
+NÃO É SUA TAREFA dizer se a posição preservou a restrição. Essa pergunta é feita depois, separadamente. Aqui você só localiza o que restringe, na fala.
+
+O CAMPO `nucleo`
+O que a posição afirma depois de tirar os qualificadores. Uma frase curta, começando por verbo de ato de fala no passado, cerca de 15 palavras. Quando a posição não tem qualificador nenhum, o núcleo é a própria posição, reescrita nessa forma.
+
+POSIÇÕES EXTRAÍDAS DESTA FALA:
+<<POSICOES>>
+
+Responda APENAS com um objeto JSON, sem comentários e sem cerca de código, com uma entrada por posição e o campo `i` repetindo o número dela na lista acima:
+
+{
+  "posicoes": [
+    {
+      "i": 1,
+      "nucleo": "<a posição sem os qualificadores>",
+      "qualificadores": [
+        {"tipo": "condicao", "trecho": "<cópia literal da fala>"}
+      ]
+    }
+  ]
+}
+
+Use aspas duplas em todo o JSON e feche cada objeto com `}`. Se precisar citar algo dentro de um campo, use aspas simples — aspas duplas não escapadas quebram a resposta inteira.
+
+FALA DE <<FALANTE>>:
+
+<<FALA>>

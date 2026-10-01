@@ -1,0 +1,42 @@
+Abaixo está a fala LITERAL de uma pessoa numa audiência pública de uma comissão da Câmara dos Deputados do Brasil.
+
+Sua tarefa é codificar UMA coisa: o que essa fala faz com os CONTRA-ARGUMENTOS — as razões que jogam contra a posição de quem fala. É a dimensão `respeito_contra` do Discourse Quality Index (Steenbergen et al., 2003).
+
+A PESSOA É: <<FALANTE>> (<<PAPEL>>)
+
+========================================
+ESCALA
+
+- degradante — a fala menciona uma razão contrária e a ridiculariza, ou desqualifica quem a sustenta em vez de respondê-la.
+- ignora — nenhuma razão contrária aparece na fala. É o caso mais comum e é o padrão.
+- inclui — a fala enuncia uma razão contrária de forma reconhecível e responde a ela pelo mérito, ainda que para rejeitá-la.
+- valoriza — a fala enuncia uma razão contrária, reconhece que ela tem força ou procedência, e incorpora algo dela — concede um ponto, ajusta a própria posição, aceita a ressalva.
+
+========================================
+O QUE NÃO CONTA
+
+- Criticar uma pessoa, um governo ou uma instituição não é tratar de contra-argumento. Contra-argumento é uma RAZÃO contra a própria tese de quem fala.
+- Antecipar uma objeção e respondê-la CONTA como `inclui`, mesmo que ninguém a tenha levantado na sessão.
+- Mencionar que existe divergência, sem dizer qual é a razão do outro lado, é `ignora`.
+
+ATENÇÃO — audiência pública não é debate. A maior parte das falas expõe, informa ou pergunta, e nunca toca em razão contrária nenhuma. `ignora` sendo a resposta mais frequente é o esperado, não uma falha sua. Não procure contra-argumento para preencher.
+
+========================================
+REGRAS, E ELAS DECIDEM SE O CÓDIGO VALE
+
+- Para `degradante`, `inclui` ou `valoriza`, o campo `trecho` tem de ser CÓPIA LITERAL da fala acima, palavra por palavra, e tem de conter a MENÇÃO à razão contrária. O código procura essa cópia dentro da fala: trecho que não for encontrado é DESCARTADO e contado como erro.
+- `ignora` afirma AUSÊNCIA, não tem o que citar, e dispensa `trecho`. Deixe `trecho` vazio nele.
+- Copie o trecho MÍNIMO que sustenta o código. Não junte pedaços separados. Não reescreva, não corrija a gramática, não tire hesitação.
+- Na dúvida entre `ignora` e `inclui`, escolha `ignora`.
+
+Responda APENAS com um objeto JSON, sem comentários e sem cerca de código:
+
+{
+  "respeito_contra": {"nivel": "ignora", "trecho": ""}
+}
+
+Use aspas duplas em todo o JSON. Se precisar citar algo dentro de um campo, use aspas simples — aspas duplas não escapadas quebram a resposta inteira.
+
+FALA DE <<FALANTE>>:
+
+<<FALA>>
