@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight, FileText, Megaphone, Network, Newspaper, Quote, Scale } from "lucide-react";
 import { getHealth } from "@/lib/api-server";
 import { getMinorityAudiences } from "@/lib/minorities";
-import { getSilenciadosCorpus } from "@/lib/thalia-data";
+import { getSilenciadosCorpus } from "@/lib/conteudo-data";
 
 const hypotheses = [
   "Convidados são mais interrompidos que parlamentares, sobretudo nas audiências de minorias.",

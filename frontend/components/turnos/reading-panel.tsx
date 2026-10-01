@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 import { AuditModal } from "@/components/turnos/audit-modal";
 import type { AuditExecution } from "@/lib/api-server";
 import { superclassColors, superclassNames } from "@/lib/persuasion";
-import { dimensoes, palavras, rotuloLegivel, temaCor, type Audiencia, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
+import { dimensoes, palavras, rotuloLegivel, temaCor, type Audiencia, type Opiniao, type PersuasaoTurno } from "@/lib/audiencias";
 
 export type PanelTab = "transcricao" | "resumo" | "deliberacao";
 

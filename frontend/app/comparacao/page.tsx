@@ -51,11 +51,11 @@ export default async function ComparacaoPage() {
     return convidado && parlamentar ? convidado / parlamentar : null;
   };
 
-  // Persuasão: análise do David, com o agrupamento dele (as demais seções usam a rotulagem da Thalia).
+  // Persuasão: usa o agrupamento definido na amostra agregada; as demais seções usam a rotulagem do corpus.
   const grupoDe = new Map(audiencias.map((a) => [a.id, a]));
   const categoriaNomes: Record<string, string> = { ataque_a_reputacao: "Ataque à reputação", justificativa: "Justificativa", simplificacao: "Simplificação", distracao: "Distração", chamada: "Chamada à ação", linguagem_manipulativa: "Linguagem manipulativa", nenhuma: "Nenhuma técnica" };
   const persuasaoAudiencias = Object.entries(persuasao.audiencias)
-    .map(([id, values]) => ({ id: Number(id), values, info: grupoDe.get(Number(id)), grupo: (persuasao.grupos_do_autor.minorias.includes(Number(id)) ? "M" : "C") as Grupo }))
+    .map(([id, values]) => ({ id: Number(id), values, info: grupoDe.get(Number(id)), grupo: (persuasao.grupos_da_amostra.minorias.includes(Number(id)) ? "M" : "C") as Grupo }))
     .filter((item) => item.info);
   const nPersuasao = { M: persuasaoAudiencias.filter((a) => a.grupo === "M").length, C: persuasaoAudiencias.filter((a) => a.grupo === "C").length };
   const divergentes = persuasaoAudiencias.filter((a) => a.grupo !== a.info!.grupo);
@@ -75,11 +75,11 @@ export default async function ComparacaoPage() {
     key,
     meanOf(persuasaoAudiencias.filter((a) => grupoDoItem(a) === "M").map((a) => a.values[index])) - meanOf(persuasaoAudiencias.filter((a) => grupoDoItem(a) === "C").map((a) => a.values[index])),
   ])) as Record<string, number>;
-  const deltasDavid = deltaPorCategoria((a) => a.grupo);
-  const deltasThalia = deltaPorCategoria((a) => a.info!.grupo);
-  const tecnicasMais = persuasao.categorias.filter((key) => key !== "nenhuma" && deltasDavid[key] > 0).sort((a, b) => deltasDavid[b] - deltasDavid[a]).slice(0, 3);
+  const deltasPersuasao = deltaPorCategoria((a) => a.grupo);
+  const deltasRotulagemCorpus = deltaPorCategoria((a) => a.info!.grupo);
+  const tecnicasMais = persuasao.categorias.filter((key) => key !== "nenhuma" && deltasPersuasao[key] > 0).sort((a, b) => deltasPersuasao[b] - deltasPersuasao[a]).slice(0, 3);
   const listar = (keys: string[]) => keys.map((key) => categoriaNomes[key].toLowerCase()).join(", ").replace(/, ([^,]*)$/, " e $1");
-  const maiorDivergencia = persuasao.categorias.reduce((best, key) => (Math.abs(deltasDavid[key] - deltasThalia[key]) > Math.abs(deltasDavid[best] - deltasThalia[best]) ? key : best), persuasao.categorias[0]);
+  const maiorDivergencia = persuasao.categorias.reduce((best, key) => (Math.abs(deltasPersuasao[key] - deltasRotulagemCorpus[key]) > Math.abs(deltasPersuasao[best] - deltasRotulagemCorpus[best]) ? key : best), persuasao.categorias[0]);
   const ppTexto = (value: number) => `${value >= 0 ? "+" : "−"}${Math.abs(value).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} pp`;
 
   const h2Interesse = testes.h2.interesse_de_grupo;
@@ -162,8 +162,8 @@ export default async function ComparacaoPage() {
         </Section>
 
         <Section eyebrow="H5 · Persuasão" title="Técnicas de persuasão por grupo"
-          text={<>Média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. {tecnicasMais.length > 0 && <> As maiores diferenças a favor das audiências de minorias estão em {listar(tecnicasMais)}{deltasDavid.nenhuma < 0 ? ", e elas têm menos trechos sem nenhuma técnica" : ""}.</>} Uma fala pode ter mais de uma técnica.</>}
-          note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. A diferença de medianas (M − C) é ${ppTexto(deltasDavid.maior_diferenca)} para a técnica com maior diferença a favor das audiências de minorias (“${categoriaNomes[maiorDivergencia]}”), e ${ppTexto(deltasDavid.nenhuma)} para trechos sem nenhuma técnica.`}>
+          text={<>Média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. {tecnicasMais.length > 0 && <> As maiores diferenças a favor das audiências de minorias estão em {listar(tecnicasMais)}{deltasPersuasao.nenhuma < 0 ? ", e elas têm menos trechos sem nenhuma técnica" : ""}.</>} Uma fala pode ter mais de uma técnica.</>}
+          note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. A diferença de medianas (M − C) é ${ppTexto(deltasPersuasao.maior_diferenca)} para a técnica com maior diferença a favor das audiências de minorias (“${categoriaNomes[maiorDivergencia]}”), e ${ppTexto(deltasPersuasao.nenhuma)} para trechos sem nenhuma técnica.`}>
           <CategoryDumbbell categories={persuasaoCategorias} max={100}/>
           <TestBox name={testes.h5.teste} significant={h5Significativas.length > 0} label={`${h5Significativas.length} de ${persuasao.categorias.length} técnicas com diferença significativa`}>
             <div className="overflow-x-auto">

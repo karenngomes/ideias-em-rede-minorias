@@ -6,9 +6,9 @@ const CONFIG = {
   assignmentSheet: 'Atribuicoes',
   participantSheet: 'Participantes',
   knownAnnotators: {
-    thali: { name: 'Thali', email: 'thali@anotadores.local' },
-    robson: { name: 'Robson', email: 'robson@anotadores.local' },
-    karen: { name: 'Karen', email: 'karen@anotadores.local' }
+    anotador_a: { name: 'Anotador A', email: 'anotador-a@anotadores.local' },
+    anotador_b: { name: 'Anotador B', email: 'anotador-b@anotadores.local' },
+    anotador_c: { name: 'Anotador C', email: 'anotador-c@anotadores.local' }
   },
   annotationsPerTask: 2,
   categories: [
@@ -414,7 +414,7 @@ function getStudyStats_() {
     });
   }
 
-  const knownOrder = { 'thali@anotadores.local': 0, 'robson@anotadores.local': 1, 'karen@anotadores.local': 2 };
+  const knownOrder = { 'anotador-a@anotadores.local': 0, 'anotador-b@anotadores.local': 1, 'anotador-c@anotadores.local': 2 };
   const participants = Object.keys(participantsByEmail).map(function(email) {
     const participant = participantsByEmail[email];
     return { name: participant.name, email: email, completed: participant.completed };

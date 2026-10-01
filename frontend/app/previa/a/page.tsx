@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { hypotheses, loadHomeData, Methodology, MinorityList } from "@/components/home/shared";
-import { getCoberturaResumo } from "@/lib/thalia-data";
+import { getCoberturaResumo } from "@/lib/conteudo-data";
 
 export default async function PreviewA() {
   const { health, minorities, example } = await loadHomeData();

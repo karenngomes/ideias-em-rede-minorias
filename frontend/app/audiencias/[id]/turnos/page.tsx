@@ -1,8 +1,8 @@
 import { TurnWorkspace } from "@/components/turnos/turn-workspace";
 import { fetchPersuasionAudit } from "./actions";
 import { getConversationRelations, getPersuasionAnnotations } from "@/lib/api-server";
-import { persuasaoPorTurno } from "@/lib/thalia";
-import { getAudienciaBundle } from "@/lib/thalia-data";
+import { persuasaoPorTurno } from "@/lib/audiencias";
+import { getAudienciaBundle } from "@/lib/conteudo-data";
 
 export default async function Page({ params }: { params: Promise<{ id: string }> }) {
   const id = Number((await params).id);

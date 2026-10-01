@@ -1,4 +1,4 @@
-// Tipos das relações entre falas (análise do David), servidas pela API em
+// Tipos das relações entre falas (análise de persuasão), servidas pela API em
 // /lds/{id}/conversation-relations.
 
 export type ConversationRelationType =

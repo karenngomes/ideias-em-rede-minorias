@@ -1,231 +1,143 @@
-# Karkará · Ideias em Rede
+# Ideias em Rede · Audiências públicas
 
-Ferramenta de visualização da equipe **Karkará** para o desafio **Ideias em Rede**,
-do Instituto Kunumi. Ela acompanha o artigo *O Comportamento das Audiências
-Públicas e suas Características Argumentativas: um Recorte sobre Grupos
-Minoritários*.
+Aplicação de exploração e análise de audiências públicas da Câmara dos Deputados, com foco em deliberação, participação, cobertura institucional e técnicas de persuasão. O recorte principal compara audiências sobre pautas de grupos minoritários às demais audiências do corpus.
 
-> Como deliberam as audiências públicas sobre minorias, e como essa deliberação
-> chega ao público?
-
-A ferramenta é geral: transcrição, opiniões, deliberação e cobertura funcionam
-para qualquer audiência pública. As audiências sobre pautas de minorias são o
-**estudo de caso** do artigo, e é nelas que os resultados estão sendo validados.
-Levar a validação a outros temas fica como trabalho futuro.
-
-O projeto junta dois trabalhos anteriores:
-
-- `backend/`: API FastAPI sobre o MongoDB `public_hearing_br` (206 audiências da
-  Câmara dos Deputados), com a classificação de técnicas de persuasão e os
-  scripts de anotação humana. Veio do projeto `ideias-em-rede-am`.
-- `frontend/`: aplicação Next.js com a home do artigo, o acervo de audiências e
-  as páginas de análise de cada audiência. Veio do projeto `ideias-em-rede`.
+O sistema reúne uma API FastAPI, um banco MongoDB e uma interface Next.js. A interface permite navegar por audiências, acompanhar falas turno a turno, inspecionar posições, justificações, indicadores deliberativos, relações entre falas e resultados agregados por grupo.
 
 ## Sumário
 
-- [O que a ferramenta mostra](#o-que-a-ferramenta-mostra)
-- [Estrutura do repositório](#estrutura-do-repositório)
+- [Funcionalidades](#funcionalidades)
+- [Estrutura](#estrutura)
 - [Como rodar](#como-rodar)
 - [Dados](#dados)
 - [Backend](#backend)
 - [Frontend](#frontend)
-- [Análise estatística](#análise-estatística)
-- [De onde vem cada número](#de-onde-vem-cada-número)
-- [Identidade visual](#identidade-visual)
-- [O que está faltando](#o-que-está-faltando)
+- [Análises](#análises)
+- [Variáveis de ambiente](#variáveis-de-ambiente)
+- [Pendências](#pendências)
 - [Licença](#licença)
 
-## O que a ferramenta mostra
+## Funcionalidades
 
-| Página | Endereço | Dados |
+| Página | Rota | Conteúdo |
 |---|---|---|
-| Home do artigo | `/` | reais (contagens e recorte) |
-| Acervo de audiências | `/audiencias`, com filtros `?grupo=M`, `?grupo=C` e `?categoria=…` | reais |
-| Turno a turno | `/audiencias/[id]/turnos` | reais (pacote da Thalia) |
-| Minorias × demais | `/comparacao` | reais (pacote da Thalia) |
-| Prévias da home | `/previa/a` … `/previa/d` | reais; em avaliação |
-
-Na home, o recorte de minorias aparece resumido: as 8 categorias como etiquetas
-(cada uma abre a lista filtrada), 5 audiências com análise de persuasão e links
-para as 53 do recorte e para o acervo completo.
-
-A página da audiência tem um cabeçalho (assunto, data, categorias de minoria
-quando houver, tema, quantas pessoas falaram, com a lista ao passar o mouse) e,
-logo abaixo, a tela Turno a turno.
+| Página inicial | `/` | síntese do estudo, números gerais e acesso ao recorte |
+| Acervo | `/audiencias` | lista paginada das 206 audiências, com filtros por grupo e categoria |
+| Turno a turno | `/audiencias/[id]/turnos` | transcrição, opiniões, resumo, DQI, cobertura, persuasão e relações entre falas |
+| Comparação | `/comparacao` | comparação exploratória entre grupo M e grupo C |
+| Prévias | `/previa/a` a `/previa/d` | alternativas de apresentação da página inicial |
 
 ### Turno a turno
 
-Inspirada na implementação de referência da Thalia e ligada ao pacote de dados
-dela (206 audiências). Tudo se resolve pelo `turno_id`, e a linha do tempo filtra
-todas as partes ao mesmo tempo:
+A página de cada audiência combina quatro camadas do pacote de conteúdo:
 
-- **Gráfico**, em dois modos:
-  - *mapa de posições*: cada opinião no turno em que foi dita, colorida pelo
-    tema do resumo. Os temas agrupam as opiniões por semelhança (embeddings
-    SBERT + agrupamento hierárquico Ward, que não deixa nenhuma opinião de
-    fora); alguns saem parecidos entre si e serão refeitos. As linhas tracejadas ligam opiniões sobre o mesmo assunto;
-    ficam ocultas por padrão ("ligações por tema") e sempre aparecem para a
-    opinião selecionada;
-  - *rede de interação*: sequência de falas, passagens de palavra (setas) e
-    interrupções (✕). A regra das interrupções está em revisão (veja as
-    pendências).
-- **Painel de leitura** (transcrição, resumo e deliberação):
-  - *Transcrição*: acompanha o turno atual (mostra as 60 falas anteriores).
-  - *Resumo*: cada seção acende quando ganha evidência.
-  - *Deliberação*: as 7 dimensões do DQI, com os trechos citados.
-- **Detalhe da opinião**: mostra a fala que a sustenta (âncora), os
-  fundamentos (dados, autoridades) e as ressalvas destacados no texto.
-- **Linha do tempo**: play, velocidades de 0,5× a 4× e histograma do tamanho
-  dos turnos. Em audiências longas (a maior tem 4.873 turnos), o histograma
-  agrupa os turnos em faixas e o play avança vários turnos por passo.
+- transcrição segmentada por `turno_id`;
+- posições/opiniões associadas às falas;
+- resumo temático e grafo de relações do pacote;
+- indicadores deliberativos, cobertura e evidências de persuasão.
+
+O gráfico principal possui dois modos. O mapa de posições mostra cada opinião no turno em que foi dita, com cor por tema do resumo. A rede de interação mostra a sequência de falas, concessões de palavra e marcações de interrupção. A regra de interrupção ainda está em revisão, por isso esses sinais devem ser tratados como exploratórios.
+
+O painel de leitura alterna entre transcrição, resumo, matéria gerada e deliberação. O detalhe da opinião mostra a fala de origem, qualificadores e fundamentos extraídos do pacote de conteúdo.
 
 ### Relações entre falas
 
-Análise do David, na aba **Interações entre deputados** do Turno a turno, ao lado
-de "Mapa de posições" e "Rede de interação". Um modelo de linguagem identifica
-como cada fala reage às anteriores (responde, questiona, concorda, discorda,
-retoma, dá a palavra e mais 30 tipos), tanto entre falas consecutivas quanto
-entre falas distantes, recuperadas por embeddings (RAG). O resultado aparece num
-diagrama de sequência: uma coluna por participante, o tempo descendo, uma seta
-por relação, com linha do tempo, explicação de cada relação e a auditoria das
-chamadas ao modelo.
+A aba de relações usa uma rotina baseada em modelo de linguagem para classificar como uma fala se relaciona com falas anteriores. As relações incluem resposta, pergunta, concordância, discordância, retomada, correção, concessão de palavra e outros tipos. O diagrama apresenta uma coluna por participante e uma seta por relação.
 
-As cores das setas agrupam os tipos em famílias, com a paleta da identidade
-validada para daltonismo: condução da sessão (cinza), concordância (azul),
-discordância (coral), diálogo (vinho), elaboração (amarelo) e retomada (verde).
-O nome de cada relação vai escrito na seta, em grafite.
+Há três abordagens disponíveis:
 
-Três abordagens: `rag_pairwise` (pares consecutivos e RAG para os distantes,
-padrão), `protocol` (cada fala confrontada com todas as anteriores) e
-`protocol_rag` (protocolo completo sobre as falas recuperadas por embeddings, com
-auditoria). Esta análise usa os trechos da API, não os turnos da Thalia.
+| Abordagem | Descrição |
+|---|---|
+| `rag_pairwise` | pares consecutivos e pares distantes recuperados por embeddings |
+| `protocol` | cada fala comparada com todas as anteriores |
+| `protocol_rag` | protocolo aplicado sobre falas recuperadas por embeddings |
 
-O modelo às vezes responde com sinônimos que o prompt menciona (`retomar`,
-`corrigir`). O backend os normaliza para os tipos canônicos (`retomada`,
-`correcao`); antes, um único sinônimo derrubava a análise da audiência inteira.
+O frontend mostra resultados já salvos no MongoDB. Quando uma abordagem ainda não foi gerada para a audiência, a interface oferece a opção de executar a análise, o que consome a API configurada no backend.
 
-O seletor de abordagem mostra o resultado já gerado daquela abordagem, sem custo,
-e marca com "(gerado)" as que têm resultado. Quando a abordagem escolhida ainda
-não foi gerada para a audiência, a aba mostra o botão **Gerar relações**, que chama a OpenAI (custo por uso). No nosso banco, têm relações
-geradas (abordagem `rag_pairwise`) as audiências 37 e 26 (grupo M) e 54 e 140
-(grupo C); as execuções que o David fez estão no banco dele.
+### Persuasão
 
-### Modo persuasão
+Nas audiências classificadas, o modo persuasão destaca na transcrição as técnicas encontradas pelo modelo e mostra a explicação de cada marcação. As classes usadas são:
 
-Nas audiências com persuasão classificada, o Turno a turno ganha o botão
-**Modo persuasão**. Ele grifa na transcrição as técnicas encontradas pelo modelo,
-com a justificativa ao passar o mouse, e conta quantas vezes cada uma apareceu
-até o turno atual. As técnicas são seis e podem coexistir: ataque à reputação,
-justificativa, simplificação, distração, chamada para ação e linguagem
-manipulativa.
+- ataque à reputação;
+- justificativa;
+- simplificação;
+- distração;
+- chamada à ação;
+- linguagem manipulativa;
+- nenhuma técnica.
 
-O painel também compara **parlamentares × convidados**: para cada técnica, a
-porcentagem e o número de falas de cada grupo que a usam (por exemplo, "80% · 12
-de 15"), até o turno atual. Só entram falas com 50 palavras ou mais (o mesmo
-corte do DQI). Quem preside fica de fora por padrão, porque suas falas são
-sobretudo de condução da sessão; a opção "incluir quem preside" o soma aos
-parlamentares. Numa audiência isolada os grupos podem ser pequenos, então o painel
-serve para explorar; a comparação que sustenta a hipótese H3 é a que soma as
-audiências.
+A classificação é multilabel: uma fala ou trecho pode receber mais de uma técnica. O painel também compara parlamentares e convidados, usando apenas falas com pelo menos 50 palavras. Falas de quem preside são excluídas por padrão, pois em geral cumprem função de condução da sessão.
 
-As anotações vêm da API (segmentada em trechos próprios) e são ligadas aos
-turnos da Thalia procurando o texto da evidência dentro de cada fala.
+### Comparação entre grupos
 
-Cada fala com técnicas grifadas tem o botão **Ver auditoria**, que mostra cada
-chamada ao modelo: o prompt do sistema, o contexto enviado e a resposta original.
-A auditoria é buscada no servidor só quando o botão é clicado.
+A página `/comparacao` apresenta uma análise exploratória das 53 audiências do grupo M e das 153 audiências do grupo C. As seções seguem as hipóteses do estudo:
 
-### Minorias × demais
-
-A página `/comparacao` compara as 53 audiências do grupo M com as 153 do grupo C,
-seguindo as hipóteses da Thalia. Cada seção traz o gráfico por audiência (cada
-ponto é clicável) e o resultado do teste estatístico (veja
-[Análise estatística](#análise-estatística)). Cada seção usa o recorte de quem fez
-a análise: DQI, interrupções e cobertura vêm da Thalia (rotulagem M/C dela);
-persuasão vem do David (agrupamento dele, 10 × 10).
-
-| Seção | Hipótese | Origem |
+| Seção | Indicador | Origem |
 |---|---|---|
-| H1 · Interrupções | convidados são mais interrompidos que parlamentares, sobretudo em M | sem modelo, **lógica em revisão** |
-| H2 · Conteúdo da justificação | mais bem comum sensível à diferença e menos interesse de grupo em M | via LLM |
-| H3 · Nível de justificação | o nível de justificação difere entre os grupos | via LLM |
-| H4 · Respeito | mais elogio explícito e mais hostilidade em M, sem mudar a média | via LLM |
-| H5 · Persuasão | as técnicas se distribuem de forma diferente (dados do David, em `frontend/data/persuasao-por-audiencia.json`) | via LLM |
-| Complementar · Cobertura | déficit da sociedade civil (fala − citação na matéria original) | sem modelo |
-| Contexto | palavras faladas por audiência | sem modelo |
+| H1 · Interrupções | interrupções por papel do falante | regra heurística, em revisão |
+| H2 · Conteúdo da justificação | bem comum sensível à diferença e interesse de grupo | DQI via LLM |
+| H3 · Nível de justificação | nível médio de justificação | DQI via LLM |
+| H4 · Respeito | respeito explícito, hostilidade e média de respeito | DQI via LLM |
+| H5 · Persuasão | distribuição de técnicas persuasivas | classificação via LLM |
+| Cobertura | déficit da sociedade civil na matéria institucional | pacote de conteúdo |
+| Contexto | palavras por audiência | pacote de conteúdo |
 
-A página se apresenta como **análise exploratória**: as hipóteses podem ter sido
-formuladas depois de olhar parte dos dados, e DQI e persuasão ainda não passaram
-por validação humana.
+Os resultados estatísticos são carregados de `frontend/data/testes-estatisticos.json`, gerado por `analises/testes_estatisticos.py`. As medianas e gráficos são calculados no servidor a partir do pacote de conteúdo.
 
-Os indicadores são calculados no servidor a partir do pacote da Thalia
-(`frontend/lib/comparacao.ts`) e ficam em cache enquanto o servidor roda. As
-cores dos grupos (coral `#ff4b3e` para M, azul `#3d63d9` para C) foram validadas
-para daltonismo e contraste.
-
-### Recorte de minorias
-
-Segue a rotulagem da Thalia (`dados/conteudo/dados/rotulos/`): **53 audiências no
-grupo M** (pautas de minorias), em 8 categorias não exclusivas, e **153 no grupo
-C** (as demais). O cabeçalho de cada audiência mostra as categorias e o tema.
-
-A persuasão foi classificada em **10 audiências do grupo M**: 20, 26, 37, 48, 85,
-121, 136, 163, 176 e 180. A audiência 140 foi usada como piloto da classificação.
-
-## Estrutura do repositório
+## Estrutura
 
 ```text
 .
 ├── backend/
 │   ├── app/
 │   │   ├── main.py                    # endpoints FastAPI
-│   │   ├── persuasion_approaches.py   # classificador de persuasão (7 classes)
-│   │   ├── conversation_relations.py  # relações entre falas (David)
-│   │   └── database.py                # conexão MongoDB
-│   ├── tests/                         # testes (unittest)
-│   ├── importar_mongodb.py            # importa os JSONL do corpus
-│   ├── baixar_dados.py                # baixa o corpus PublicHearingBR
-│   ├── chunk_transcricoes.py          # divide as transcrições em falas
-│   ├── exportar_anotacoes.py          # exporta anotações para Excel
+│   │   ├── database.py                # conexão MongoDB
+│   │   ├── persuasion_approaches.py   # classificação de persuasão
+│   │   └── conversation_relations.py  # relações entre falas
+│   ├── tests/                         # testes do backend
+│   ├── baixar_dados.py                # download do corpus PublicHearingBR
+│   ├── importar_mongodb.py            # importação para MongoDB
+│   ├── chunk_transcricoes.py          # segmentação em falas
+│   ├── exportar_anotacoes.py          # exportações para validação
 │   ├── exportar_amostra_estratificada.py
-│   ├── google_apps_script/            # formulário de validação humana
-│   ├── outputs/                       # amostras de anotação já exportadas
-│   └── requirements.txt
+│   └── google_apps_script/            # protótipo de validação humana
 ├── frontend/
-│   ├── app/                           # rotas Next.js (App Router)
-│   │   └── audiencias/[id]/turnos/    # página Turno a turno e a busca da auditoria
-│   ├── components/
-│   │   ├── turnos/                    # página Turno a turno
-│   │   ├── relacoes/                  # diagrama de relações entre falas (David)
-│   │   ├── comparacao/                # gráficos da página Minorias × demais
-│   │   └── home/                      # partes compartilhadas das prévias
+│   ├── app/                           # rotas Next.js
+│   ├── components/                    # componentes de visualização
+│   ├── data/                          # resultados agregados usados no frontend
 │   ├── lib/
 │   │   ├── api-server.ts              # chamadas à API no servidor
-│   │   ├── persuasion-api.ts          # tipos das respostas da API
-│   │   ├── thalia.ts                  # tipos e dados derivados do pacote da Thalia
-│   │   └── thalia-data.ts             # leitura do pacote no servidor
-│   └── public/                        # logos do Instituto Kunumi
+│   │   ├── audiencias.ts              # tipos e derivados do pacote de conteúdo
+│   │   ├── conteudo-data.ts           # leitura dos JSONs de conteúdo
+│   │   ├── comparacao.ts              # indicadores da comparação M × C
+│   │   └── persuasion-api.ts          # tipos da API de persuasão
+│   └── public/                        # imagens e logos
 ├── analises/
-│   └── testes_estatisticos.py         # um teste por hipótese (M × C)
-├── dados/conteudo/                    # pacote de dados da Thalia (JSON)
+│   ├── testes_estatisticos.py         # testes do painel comparativo
+│   └── transcript_simplification.ipynb
+├── dados/conteudo/                    # pacote de conteúdo em JSON
+├── backups/                           # dumps locais do MongoDB, quando gerados
 ├── LICENSE
 └── README.md
 ```
 
 ## Como rodar
 
-Pré-requisitos: Docker, Python 3.10+ e Node 20.
+Pré-requisitos:
+
+- Docker;
+- Python 3.10+;
+- Node 20+.
 
 ### 1. MongoDB
 
-Suba um MongoDB com usuário `admin`:
+Suba um MongoDB local:
 
 ```bash
 docker run -d --name ideias_em_rede_mongo --restart unless-stopped -p 27018:27017 -v ideias_em_rede_mongo_data:/data/db -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=change-this-password mongo:latest
 ```
 
-Restaure o banco a partir do backup `public_hearing_br.dump.gz`, que é
-compartilhado à parte e não fica no repositório:
+Para restaurar um dump:
 
 ```bash
 docker cp public_hearing_br.dump.gz ideias_em_rede_mongo:/tmp/
@@ -235,9 +147,7 @@ docker cp public_hearing_br.dump.gz ideias_em_rede_mongo:/tmp/
 docker exec ideias_em_rede_mongo mongorestore --uri="mongodb://admin:change-this-password@localhost:27017/?authSource=admin" --archive=/tmp/public_hearing_br.dump.gz --gzip
 ```
 
-Sem o backup, dá para montar o banco a partir do corpus público com
-`baixar_dados.py`, `importar_mongodb.py` e `chunk_transcricoes.py`. Nesse caso
-as classificações de persuasão precisam ser rodadas de novo.
+Sem dump, o banco pode ser reconstruído a partir do corpus público com `baixar_dados.py`, `importar_mongodb.py` e `chunk_transcricoes.py`. Classificações de persuasão e relações entre falas precisam ser executadas novamente nesse caso.
 
 ### 2. Backend
 
@@ -248,11 +158,7 @@ python3 -m venv .venv
 cp .env.example .env
 ```
 
-No `.env`, ajuste `MONGODB_URL` (por exemplo, a porta 27018 do passo anterior) e
-`OPENAI_API_KEY`, necessária só para rodar novas classificações. As relações
-entre falas também leem `OPENAI_EMBEDDING_MODEL`, `OPENAI_RELATION_MODEL`,
-`RELATION_RAG_CANDIDATE_COUNT` e `RELATION_MIN_CONFIDENCE` (veja
-`.env.example`). Depois:
+Edite `backend/.env` e configure `MONGODB_URL`, `MONGODB_DATABASE` e, quando for executar novas chamadas a modelo, `OPENAI_API_KEY`.
 
 ```bash
 .venv/bin/uvicorn app.main:app --reload --port 8000
@@ -268,12 +174,15 @@ npm install
 npm run dev
 ```
 
-Abra <http://localhost:3000>. O frontend (no servidor) usa `http://127.0.0.1:8000`
-como endereço da API. Para usar outra porta, crie `frontend/.env.local` com:
+Abra <http://localhost:3000>.
+
+Por padrão, o frontend chama a API em `http://127.0.0.1:8000`. Para alterar:
 
 ```text
 API_URL=http://127.0.0.1:8030
 ```
+
+Crie essa variável em `frontend/.env.local`.
 
 ### Testes
 
@@ -287,61 +196,73 @@ cd frontend && npx tsc --noEmit
 
 ## Dados
 
-### Corpus
+### MongoDB
 
-O banco `public_hearing_br` tem 206 audiências (`lds`), os dados de avaliação
-NLI (`nli`) e 17.261 falas (`transcript_chunks`). As classificações ficam em
-`classification_jobs` e `persuasion_classification_results`.
+O banco padrão é `public_hearing_br`. Ele contém:
 
-### Pacote da Thalia
+| Coleção | Conteúdo |
+|---|---|
+| `lds` | registros das audiências |
+| `nli` | dados de avaliação NLI |
+| `transcript_chunks` | falas segmentadas |
+| `classification_jobs` | execuções de classificação |
+| `persuasion_classification_results` | resultados de persuasão |
+| `conversation_relation_runs` | execuções de relações entre falas |
 
-Fica em `dados/conteudo/` e não precisa de servidor: são arquivos JSON lidos pelo
-frontend no servidor (`frontend/lib/thalia-data.ts`). A documentação completa está
-em [`dados/conteudo/README.md`](dados/conteudo/README.md) e
-[`dados/conteudo/CONTRATO.md`](dados/conteudo/CONTRATO.md).
+### Pacote de conteúdo
+
+Os arquivos em `dados/conteudo/dados` são lidos diretamente pelo frontend no servidor. A documentação do formato fica em `dados/conteudo/README.md` e `dados/conteudo/CONTRATO.md`.
 
 | Arquivo | Conteúdo |
 |---|---|
-| `indice_audiencias.json` | uma linha por audiência, com grupo (M ou C), tema e assunto |
-| `rotulos/rotulos_minorias.json` | as 8 categorias do grupo M |
-| `rotulos/temas.json` | os 24 temas, exclusivos |
-| `audiencias/audiencia_NNN/turnos.json` | a transcrição dividida em falas; todo dado se resolve por `turno_id` |
-| `…/opinioes.json` | as posições de cada participante, ancoradas no turno |
-| `…/grafo.json` | opiniões e participantes como rede |
-| `…/resumo.json` | o resumo por tema, ligado às opiniões |
-| `…/materia.json` | a matéria **gerada pelo pipeline** a partir da audiência, em blocos, com âncoras (não é a matéria publicada) |
-| `…/argumento_intra.json` | o que sustenta cada posição |
-| `…/clausulas.json` | as ressalvas de cada posição |
-| `…/dqi.json` | os sete indicadores do DQI por fala |
-| `…/cobertura.json` | quem falou × quem foi citado |
-| `…/proveniencia.json` | a conferência de que cada posição aponta para fala real |
+| `indice_audiencias.json` | uma linha por audiência, com grupo, tema e assunto |
+| `rotulos/rotulos_minorias.json` | categorias não exclusivas do grupo M |
+| `rotulos/temas.json` | temas exclusivos do corpus |
+| `audiencias/audiencia_NNN/turnos.json` | transcrição segmentada por fala |
+| `audiencias/audiencia_NNN/opinioes.json` | posições dos participantes |
+| `audiencias/audiencia_NNN/grafo.json` | grafo de opiniões e participantes |
+| `audiencias/audiencia_NNN/resumo.json` | resumo temático ligado às opiniões |
+| `audiencias/audiencia_NNN/materia.json` | matéria gerada pelo pipeline, com âncoras |
+| `audiencias/audiencia_NNN/argumento_intra.json` | fundamentos de cada posição |
+| `audiencias/audiencia_NNN/clausulas.json` | ressalvas associadas às posições |
+| `audiencias/audiencia_NNN/dqi.json` | indicadores deliberativos por fala |
+| `audiencias/audiencia_NNN/cobertura.json` | participantes, citações e déficit de cobertura |
+| `audiencias/audiencia_NNN/proveniencia.json` | conferência de ancoragem das posições |
 
-Os tipos e os dados derivados estão em `frontend/lib/thalia.ts`. Para ler o pacote
-de outro lugar, defina `THALIA_DATA_DIR`.
+A variável `CONTENT_DATA_DIR` permite apontar o frontend para outro diretório de dados.
 
-Dois detalhes do pacote que a documentação dele ainda não explica:
+### Recorte M/C
 
-- os arquivos se chamam `indice_audiencias.json` e `audiencias/audiencia_NNN/`,
-  não `audiencias.json` e `NNN/` como diz o README do pacote;
-- o `char_start` de cada turno aponta para o cabeçalho com o nome de quem fala, e
-  o `texto` começa depois dele. Por isso o frontend localiza cada trecho pelo
-  próprio texto dentro da fala, em vez de subtrair os offsets.
+O grupo M reúne 53 audiências sobre pautas de grupos minoritários. O grupo C reúne as demais 153 audiências. As categorias do grupo M não são exclusivas: uma mesma audiência pode aparecer em mais de uma categoria.
+
+A análise agregada de persuasão usa uma subamostra balanceada de 20 audiências, com 10 audiências no grupo M e 10 no grupo C conforme a amostra de persuasão registrada em `frontend/data/persuasao-por-audiencia.json`.
 
 ## Backend
 
+### Endpoints principais
+
+| Método | Rota | Uso |
+|---|---|---|
+| GET | `/health` | status e contagens do banco |
+| GET | `/lds` | lista paginada de audiências |
+| GET | `/lds/{id}` | dados de uma audiência |
+| GET | `/lds/{id}/chunks` | falas segmentadas |
+| GET | `/lds/{id}/persuasion-classifications` | execuções de persuasão de uma audiência |
+| POST | `/persuasion-classifications` | inicia classificação de persuasão |
+| GET | `/persuasion-classifications/{job_id}` | status da execução |
+| GET | `/persuasion-classifications/{job_id}/results` | resultados da execução |
+| GET | `/persuasion-classifications/{job_id}/summary` | resumo por tipo de falante |
+| GET | `/persuasion-classified-records` | audiências com classificação |
+| GET | `/lds/{id}/conversation-relations` | relações entre falas já geradas |
+| POST | `/lds/{id}/conversation-relations` | gera relações entre falas |
+| POST | `/conversation-relations/infer` | infere relações para falas enviadas no corpo |
+| GET | `/nli`, `/nli/{id}`, `/records/{id}` | dados auxiliares de avaliação |
+
 ### Classificação de persuasão
 
-A abordagem `persuationclassifcona_7_class_few_shot` funciona assim:
+A abordagem `persuationclassifcona_7_class_few_shot` segmenta falas longas, envia trechos ao modelo e grava resultados e auditoria no MongoDB. Evidências que não aparecem literalmente no texto são marcadas com `evidence_reliable=false`.
 
-1. Separa cada fala por quebras de linha e junta trechos com menos de 250
-   caracteres.
-2. Divide segmentos acima de 4.000 caracteres.
-3. Faz uma chamada ao modelo por segmento (padrão `gpt-4o-mini`), usando os
-   segmentos vizinhos só como contexto.
-4. Guarda em `audit.executions` o prompt enviado e a resposta do modelo.
-
-Evidências que não aparecem literalmente no texto ficam marcadas com
-`evidence_reliable=false`.
+Exemplo:
 
 ```bash
 curl -X POST "http://localhost:8000/persuasion-classifications" \
@@ -349,216 +270,92 @@ curl -X POST "http://localhost:8000/persuasion-classifications" \
   -d '{"id": 163, "approach": "persuationclassifcona_7_class_few_shot", "experiments_tag": "minorias-001"}'
 ```
 
-### Endpoints
-
-| Método | Rota | Uso |
-|---|---|---|
-| GET | `/health` | contagens do banco |
-| GET | `/lds` | audiências paginadas |
-| GET | `/lds/{id}` | uma audiência |
-| GET | `/lds/{id}/chunks` | falas; com `classification_job_id`, inclui as anotações |
-| GET | `/lds/{id}/persuasion-classifications` | execuções de uma audiência |
-| POST | `/persuasion-classifications` | inicia uma classificação |
-| GET | `/persuasion-classifications/{job_id}` | andamento |
-| GET | `/persuasion-classifications/{job_id}/results` | resultados |
-| GET | `/persuasion-classifications/{job_id}/summary` | técnicas por tipo de falante |
-| GET | `/persuasion-classified-records` | audiências com classificação |
-| GET | `/lds/{id}/conversation-relations?approach=…` | execução mais recente da abordagem (sem `approach`, a mais recente de todas); `available` lista as abordagens já geradas |
-| POST | `/lds/{id}/conversation-relations?approach=…` | gera relações para a audiência (usa a OpenAI) |
-| POST | `/conversation-relations/infer` | infere relações para falas enviadas no corpo |
-| GET | `/nli`, `/nli/{id}`, `/records/{id}` | dados de avaliação NLI |
-
-Conta como parlamentar quem tem partido informado em alguma fala da audiência,
-porque a filiação só aparece na primeira fala.
-
-### Anotação humana
-
-`exportar_anotacoes.py` e `exportar_amostra_estratificada.py` geram as
-planilhas de validação. As amostras exportadas estão em `backend/outputs/`, e o
-formulário de validação em `backend/google_apps_script/validacao_persuasao/`.
-
 ## Frontend
 
-- Next.js 15, React 19, Tailwind CSS e ícones `lucide-react`. Os gráficos são SVG
-  feitos à mão, sem biblioteca de gráficos.
-- As páginas buscam a API e leem o pacote da Thalia no servidor
-  (`lib/api-server.ts` e `lib/thalia-data.ts`). A auditoria da persuasão é
-  carregada sob demanda por uma server action.
-- O conteúdo tem largura máxima de 1200px.
+O frontend usa Next.js 15, React 19, Tailwind CSS e `lucide-react`. Os gráficos principais são SVGs implementados no próprio projeto.
 
-## Análise estatística
+As páginas leem duas fontes:
 
-Os testes ficam em `analises/testes_estatisticos.py` (numpy, scipy, pandas e
-statsmodels). O script imprime os resultados e grava
-`frontend/data/testes-estatisticos.json`, que o painel `/comparacao` mostra numa
-caixa "Teste estatístico" em cada seção (teste usado, efeito com intervalo de
-confiança, p-valor e se a diferença é significativa). Rode de novo sempre que os
-dados mudarem:
+- API FastAPI, via `frontend/lib/api-server.ts`;
+- pacote de conteúdo, via `frontend/lib/conteudo-data.ts`.
+
+Os tipos e funções derivadas do pacote ficam em `frontend/lib/audiencias.ts`. Os indicadores do painel comparativo ficam em `frontend/lib/comparacao.ts`.
+
+## Análises
+
+### Testes estatísticos
+
+O script `analises/testes_estatisticos.py` calcula os testes exibidos em `/comparacao` e grava `frontend/data/testes-estatisticos.json`.
 
 ```bash
 python3 analises/testes_estatisticos.py
 ```
 
-Os sorteios usam semente fixa, então os resultados se repetem.
+Resumo dos métodos:
 
-Cada hipótese tem um teste adequado à estrutura dos dados:
-
-| Hipótese | Unidade | Teste | Por quê |
-|---|---|---|---|
-| H1 · Interrupções | fala | regressão logística com GEE, falas agrupadas por audiência; termo de interação `convidado × minorias` | as falas de uma mesma audiência não são independentes; a hipótese é sobre a diferença entre convidados e parlamentares ser maior em M |
-| H2 · Conteúdo da justificação | audiência | Mann-Whitney, rank-biserial e bootstrap da diferença de medianas | proporções por audiência, sem supor normalidade |
-| H3 · Nível de justificação | audiência | idem, sobre o nível médio (0 a 3) | idem |
-| H4 · Respeito | audiência | idem para o respeito explícito e o nível médio; teste exato de Fisher para a hostilidade | a hostilidade é rara |
-| H5 · Persuasão | audiência | permutação **exata** (todas as 184.756 divisões das 20 audiências) da diferença de médias, com correção de Holm para as 7 técnicas | só 10 audiências por grupo; um teste por sorteio mudava o resultado de "nenhuma técnica" conforme a semente |
-| Cobertura | audiência | Mann-Whitney e bootstrap; OLS com erros robustos controlando o tamanho | o déficit pode depender do tamanho da sessão |
-
-Resultados preliminares:
-
-| Hipótese | Resultado | Leitura |
+| Hipótese | Unidade | Teste |
 |---|---|---|
-| H1 | interação OR 1,96 [IC95% 0,80–4,79], p = 0,14 | sem diferença significativa; a regra de interrupção está sendo refeita |
-| H2 | bem comum sensível à diferença +12,7 pp [IC95% +7,8 a +17,4], p < 0,001, r = 0,63; interesse de grupo sem diferença (mediana 0% nos dois) | **principal achado**: mais justificação pelo bem comum sensível à diferença em M; a parte sobre interesse de grupo não se sustenta |
-| H3 | −0,04 na escala de 0 a 3, p = 0,12 | sem diferença |
-| H4 | respeito explícito +7,2 pp, p < 0,001; hostilidade M 4/53 × C 22/153, p = 0,24; nível médio +0,04, p < 0,001 | não se sustenta como formulada: há mais elogio, não mais hostilidade, e a média também sobe |
-| H5 | "nenhuma técnica" −7,9 pp, p (Holm) = 0,047; chamada à ação +9,6 pp, p (Holm) = 0,07 | só "nenhuma técnica" passa na correção, no limite |
-| Cobertura | −3,0 pts, p = 0,47; controlando o tamanho, p = 0,61 | sem diferença |
+| H1 · Interrupções | fala | regressão logística com GEE, agrupada por audiência |
+| H2 · Conteúdo da justificação | audiência | Mann-Whitney, rank-biserial e bootstrap da diferença de medianas |
+| H3 · Nível de justificação | audiência | Mann-Whitney e bootstrap |
+| H4 · Respeito | audiência | Mann-Whitney e teste exato de Fisher para hostilidade |
+| H5 · Persuasão | audiência | permutação exata da diferença de médias, com correção de Holm |
+| Cobertura | audiência | Mann-Whitney, bootstrap e OLS com erros robustos |
 
-Cuidados: a rotulagem M/C diz que as hipóteses foram registradas antes em
-`paper/PRE_REGISTRO.md` (no repositório da Thalia); os testes finais devem
-seguir esse registro. Com várias hipóteses, vale corrigir também entre elas.
+Resultados atuais, ainda exploratórios:
 
-## De onde vem cada número
+| Hipótese | Resultado |
+|---|---|
+| H1 | sem diferença significativa na interação entre papel do falante e grupo |
+| H2 | maior presença de bem comum sensível à diferença no grupo M; interesse de grupo sem diferença |
+| H3 | sem diferença significativa no nível médio de justificação |
+| H4 | mais respeito explícito no grupo M; sem maior hostilidade |
+| H5 | menor proporção de trechos sem técnica no grupo M após correção de Holm; técnicas específicas sem evidência robusta após correção |
+| Cobertura | sem diferença significativa entre M e C |
 
-Não há dados fictícios no site. O mock da audiência 901 e as páginas de exemplo
-(a audiência inventada sobre transição energética) foram removidos. O que aparece
-vem de três fontes:
+### Notebook de simplificação
 
-**Calculado na hora, a partir dos dados**
+`analises/transcript_simplification.ipynb` contém experimentos de simplificação de transcrições. O notebook foi mantido na pasta de análises por ser material de apoio ao pipeline, não parte do frontend.
 
-- Tudo o que está no Turno a turno e no cabeçalho de cada audiência (pacote da
-  Thalia em `dados/conteudo/` e API de persuasão).
-- Os gráficos e medianas do painel `/comparacao` (`frontend/lib/comparacao.ts`).
-- O número do topo da home, a parte de quem fala e não aparece na matéria
-  (hoje 68%, 1.732 de 2.543 falantes), somado a partir de todos os
-  `cobertura.json`.
-- As frases de conclusão do painel: se a hipótese se sustenta, quais técnicas de
-  persuasão têm as maiores diferenças e a nota sobre a audiência 92. São montadas
-  a partir dos resultados dos testes e das médias, então acompanham os dados
-  quando o script rodar de novo.
+## Variáveis de ambiente
 
-**Gerado por script e guardado em arquivo**
+| Variável | Local | Uso |
+|---|---|---|
+| `MONGODB_URL` | backend | conexão com MongoDB |
+| `MONGODB_DATABASE` | backend | nome do banco |
+| `OPENAI_API_KEY` | backend | chamadas a modelos |
+| `OPENAI_CLASSIFICATION_MODEL` | backend | modelo de classificação de persuasão |
+| `OPENAI_EMBEDDING_MODEL` | backend | embeddings para relações entre falas |
+| `OPENAI_RELATION_MODEL` | backend | modelo de relações entre falas |
+| `RELATION_RAG_CANDIDATE_COUNT` | backend | quantidade de candidatos por RAG |
+| `RELATION_MIN_CONFIDENCE` | backend | confiança mínima para relações |
+| `API_URL` | frontend | URL da API FastAPI |
+| `CONTENT_DATA_DIR` | frontend | diretório alternativo do pacote de conteúdo |
 
-- `frontend/data/testes-estatisticos.json`: resultados dos testes estatísticos,
-  gerados por `analises/testes_estatisticos.py`. Não se atualiza sozinho: rode o
-  script de novo quando o DQI, as interrupções ou a persuasão mudarem.
+## Pendências
 
-**Copiado de outra fonte (não se atualiza sozinho)**
+### Dados e validação
 
-- `frontend/data/persuasao-por-audiencia.json`: os percentuais de parágrafos
-  com cada técnica nas 20 audiências da análise do David, copiados do HTML que
-  ele enviou. A classificação por fala das 10 audiências de temáticas variadas
-  ainda não está no MongoDB.
-- **94,9%** de fidelidade das opiniões, no detalhe da opinião: medido pela Thalia
-  (59 afirmações de 6 audiências) e copiado da documentação do pacote dela.
+- Validar manualmente classificações de DQI e persuasão.
+- Revisar a regra de interrupções antes de usar H1 como resultado substantivo.
+- Registrar de forma reprodutível parâmetros de embeddings e limites de similaridade.
+- Conferir trechos de fundamentos em `argumento_intra.json`.
+- Integrar ao MongoDB as classificações por fala das audiências de comparação usadas apenas em forma agregada.
+- Consolidar um critério único para a audiência 92, que aparece em grupo diferente dependendo da rotulagem usada na amostra de persuasão.
 
-**Desatualizado de propósito**
+### Visualização e produto
 
-- A prévia D da home (`/previa/d`) ainda mostra a lista antiga de hipóteses e
-  as etiquetas antigas da metodologia. Ela só será atualizada se for a escolhida.
+- Escolher a versão final da página inicial e remover prévias não usadas.
+- Exibir camadas ainda ausentes, como `proveniencia.json` e perdas registradas em `clausulas.json`.
+- Ampliar testes do frontend e dos endpoints de classificação.
+- Preparar deploy do backend e do frontend com acesso ao pacote `dados/conteudo`.
 
-## Identidade visual
+### Texto e artigo
 
-Segue o guia rápido da marca do Instituto Kunumi:
-
-- **Fonte:** Figtree.
-- **Cores:** grafite `#1c2127`, cinza `#f0f0f0` e coral `#ff4b3e`.
-- **Degradê:** vai do preto `#060902` ao laranja `#f54d20` e ao azul `#344b7f`,
-  e aparece no cabeçalho das audiências.
-
-Os tokens estão em `frontend/tailwind.config.ts`. Os logos positivo e negativo
-do Instituto Kunumi estão em `frontend/public/`.
-
-## O que está faltando
-
-**Escopo (decidido)**
-
-- [x] **Ferramenta geral, minorias como estudo de caso.** A home e o README já
-  dizem isso. No artigo, entra como limitação que a validação foi feita só no
-  recorte de minorias.
-- [ ] **Reprodutibilidade.** Rodar o pipeline ao vivo (upload, escolha de modelo e
-  parâmetros) é caro e lento, porque cada etapa usa um LLM e uma API diferentes.
-  A proposta é mostrar os dados já processados e documentar como rodar o
-  pipeline fora do site.
-- [ ] **Escolher a home.** A versão atual está em `/`, com quatro alternativas
-  em `/previa/a` a `/previa/d`. Depois da escolha, apagar as prévias e
-  `components/home/` se não forem usados.
-
-**Dados (pipeline da Thalia)**
-
-- [ ] **Resumo e temas.** Os temas do resumo saem muito parecidos entre si. A
-  proposta é usar um limite de semelhança maior (por exemplo, 0,8) e rodar o
-  resumo de novo, juntando a simplificação do Robson.
-- [ ] **DQI.** Rodar de novo (talvez só no recorte de minorias, porque o corpus
-  inteiro leva dias) e validar com anotação humana. Seis das sete dimensões vêm
-  de LLM.
-- [ ] **Interrupções.** A regra atual marca como interrupção qualquer fala fora
-  da ordem esperada da sessão (presidência, convidado, réplica, tréplica), o que
-  inclui casos que não são interrupção, como quem preside falando fora da vez, e
-  falas de pessoas não identificadas ou da plateia. A Thalia está refazendo a
-  regra, provavelmente com LLM. Até lá, H1 e os ✕ do Turno a turno aparecem como
-  "em revisão".
-- [ ] **Interrupções × minorias (H1).** Calcular se convidados são mais
-  interrompidos nas audiências do grupo M.
-- [ ] **Fundamentos.** Alguns trechos em "o que sustenta a posição" não fazem
-  sentido; conferir o `argumento_intra.json`.
-- [ ] **Modelo de embeddings.** O `manifest.json` não registra qual modelo gerou
-  as ligações "mesmo tema", nem o limite usado (os pesos vão de 0,55 a 1,0).
-
-**Persuasão e validação**
-
-- [ ] **Persuasão no banco.** As 10 audiências de "temáticas variadas" que o
-  David classificou (54, 92, 108, 118, 130, 138, 156, 171, 183, 190) só existem,
-  por enquanto, como números agregados em `frontend/data/persuasao-por-audiencia.json`.
-  Para o modo persuasão funcionar nelas, é preciso importar as classificações
-  por fala no MongoDB.
-- [ ] **Audiência 92.** O David a conta como temática variada, mas na rotulagem
-  da Thalia ela é do grupo M ("Crianças e adolescentes"). A seção de persuasão
-  segue o David (10 × 10); com a rotulagem da Thalia (11 × 9) as diferenças
-  mudam pouco. Vale combinar um critério único para o artigo.
-- [ ] **Mais audiências com persuasão.** Com 10 a 11 audiências por grupo, a
-  comparação é só um sinal descritivo; ampliar gera custo na OpenAI.
-- [ ] **Relações entre falas no banco.** O David rodou as relações no banco dele;
-  para aparecerem aqui sem gerar de novo, é preciso exportar a coleção
-  `conversation_relation_runs` dele e importar no nosso MongoDB
-  (`mongodump --collection conversation_relation_runs` e `mongorestore`).
-- [ ] **Resultados da validação humana** da persuasão: concordância (kappa),
-  F1 por classe e matriz de confusão humano × modelo.
-- [ ] **Validação das opiniões.** Comparar com as opiniões do dataset é injusto,
-  porque elas vêm da matéria publicada, que inclui informação de fora da
-  audiência. Falta definir outra forma de validar.
-- [ ] **Matéria gerada.** Não foi validada; pode ficar como extra ou trabalho
-  futuro.
-
-**Visualizações**
-
-- [ ] **Testes estatísticos finais.** Há uma primeira versão em
-  `analises/testes_estatisticos.py`. Falta alinhar com o pré-registro da Thalia,
-  rodar de novo depois da validação do DQI e da persuasão.
-- [ ] **Camadas ainda não exibidas:** `proveniencia.json` (a conferência de cada
-  posição) e as perdas registradas em `clausulas.json`.
-
-**Textos**
-
-- [ ] **Personas e histórias de uso** para a seção "Ferramenta" do artigo.
-- [ ] **Rodapé.** Confirmar o texto sobre o desafio e as parcerias
-  (UFMG, UFCG).
-
-**Infraestrutura**
-
-- [ ] **Deploy** do backend e do frontend (o frontend precisa da pasta `dados/`).
-- [ ] **Testes** do endpoint `persuasion-classified-records` e do frontend. O
-  endpoint `summary` ficou sem uso no frontend.
+- Incorporar a seção de resultados revisada ao manuscrito.
+- Explicitar no artigo que a análise é exploratória e que parte dos indicadores deriva de LLM.
+- Documentar o pipeline completo de geração dos dados fora da interface.
 
 ## Licença
 
-MIT. Veja [LICENSE](LICENSE).
+MIT. Veja `LICENSE`.

@@ -1,11 +1,11 @@
-// Leitura, no servidor, do pacote de dados da Thalia em ../dados/conteudo/dados.
+// Leitura, no servidor, do pacote de dados de conteúdo em ../dados/conteudo/dados.
 // Veja dados/conteudo/README.md e CONTRATO.md para o formato de cada arquivo.
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { cache } from "react";
-import type { AudienciaBundle } from "@/lib/thalia";
+import type { AudienciaBundle } from "@/lib/audiencias";
 
-const DATA_DIR = process.env.THALIA_DATA_DIR ?? path.join(process.cwd(), "..", "dados", "conteudo", "dados");
+const DATA_DIR = process.env.CONTENT_DATA_DIR ?? path.join(process.cwd(), "..", "dados", "conteudo", "dados");
 
 export type IndiceItem = {
   sample_id: number;

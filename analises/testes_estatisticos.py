@@ -1,13 +1,13 @@
 """Testes estatísticos para as hipóteses do painel Minorias × demais.
 
-A numeração segue as hipóteses da Thalia: H1 interrupções, H2 conteúdo da
-justificação, H3 nível de justificação, H4 respeito e H5 persuasão (análise do
-David). A cobertura na matéria entra como análise complementar. Os testes são
-exploratórios: as hipóteses podem ter sido formuladas depois de olhar os dados.
+A numeração segue as hipóteses do estudo: H1 interrupções, H2 conteúdo da
+justificação, H3 nível de justificação, H4 respeito e H5 persuasão. A cobertura
+na matéria entra como análise complementar. Os testes são exploratórios: as
+hipóteses podem ter sido formuladas depois de olhar os dados.
 
-Lê o pacote da Thalia (dados/conteudo/dados) e a classificação de persuasão do
-David (frontend/data/persuasao-por-audiencia.json) e imprime um teste por
-hipótese. Resultados preliminares: o DQI e a persuasão vêm de LLM e ainda não
+Lê o pacote de dados de conteúdo (dados/conteudo/dados) e a classificação
+agregada de persuasão (frontend/data/persuasao-por-audiencia.json) e imprime um
+teste por hipótese. Resultados preliminares: o DQI e a persuasão vêm de LLM e ainda não
 passaram por validação humana.
 
     python3 analises/testes_estatisticos.py
@@ -163,9 +163,9 @@ def h4(audiencias):
 
 
 def h5():
-    print("\nH5 · Persuasão (análise do David, 10 × 10; permutação exata + correção de Holm)")
+    print("\nH5 · Persuasão (amostra agregada, 10 × 10; permutação exata + correção de Holm)")
     persuasao = json.loads((ROOT / "frontend" / "data" / "persuasao-por-audiencia.json").read_text())
-    minorias = set(persuasao["grupos_do_autor"]["minorias"])
+    minorias = set(persuasao["grupos_da_amostra"]["minorias"])
     rows = [(int(sid) in minorias, values) for sid, values in persuasao["audiencias"].items()]
     results = []
     for index, categoria in enumerate(persuasao["categorias"]):

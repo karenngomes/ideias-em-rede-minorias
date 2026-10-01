@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { extractDate, firstLine, getAudiencias } from "@/lib/api-server";
-import { getCategoriasMinoria, getIndice } from "@/lib/thalia-data";
+import { getCategoriasMinoria, getIndice } from "@/lib/conteudo-data";
 
 const PAGE_SIZE = 20;
 
@@ -35,7 +35,7 @@ export default async function AudienciasPage({ searchParams }: { searchParams: P
     </div>
   );
 
-  // Com filtro: lista a partir do índice da Thalia, sem paginação.
+  // Com filtro: lista a partir do índice do pacote de conteúdo, sem paginação.
   if (grupo) {
     const lista = todas.filter((a) => a.grupo === grupo && (!categoria || (categoriasPorId.get(a.sample_id) ?? []).includes(categoria)));
     return (

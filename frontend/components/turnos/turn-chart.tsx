@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import { temaCor, type Audiencia, type Opiniao } from "@/lib/thalia";
+import { temaCor, type Audiencia, type Opiniao } from "@/lib/audiencias";
 
 export type ChartMode = "posicoes" | "interacao";
 

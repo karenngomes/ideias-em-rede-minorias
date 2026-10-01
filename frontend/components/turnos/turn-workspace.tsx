@@ -8,7 +8,7 @@ import { TurnChart, type ChartMode } from "@/components/turnos/turn-chart";
 import type { ConversationRelationRun } from "@/lib/relations-api";
 import { superclassColors, superclassNames } from "@/lib/persuasion";
 import type { AuditExecution } from "@/lib/api-server";
-import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
+import { derive, palavras, temaCor, type AudienciaBundle, type Opiniao, type PersuasaoTurno } from "@/lib/audiencias";
 
 const SPEEDS = [0.5, 1, 2, 4];
 const MAX_BARS = 160;

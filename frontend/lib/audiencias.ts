@@ -1,4 +1,4 @@
-// Tipos do pacote de dados da Thalia e os dados derivados usados pela página
+// Tipos do pacote de dados de conteúdo e os dados derivados usados pela página
 // Turno a turno. Tudo se resolve pelo turno_id (veja dados/conteudo/CONTRATO.md).
 
 export type Turno = {
@@ -149,7 +149,7 @@ export function palavras(texto: string) {
 
 export type PersuasaoTurno = { turno_id: number; chunk_index: number; superclass: string; trecho: string; explicacao: string };
 
-// Liga cada evidência de persuasão (segmentada pela API) ao turno da Thalia que contém
+// Liga cada evidência de persuasão (segmentada pela API) ao turno do pacote de conteúdo que contém
 // o mesmo texto, preferindo a fala da mesma pessoa.
 export function persuasaoPorTurno(turnos: Turno[], annotations: Array<{ chunk_index: number; speaker: string; superclass: string; trecho: string; explicacao: string }>) {
   const norm = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();

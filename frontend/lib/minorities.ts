@@ -1,8 +1,8 @@
-// Recorte de minorias a partir da rotulagem da Thalia (dados/conteudo/dados/rotulos).
+// Recorte de minorias a partir da rotulagem de minorias (dados/conteudo/dados/rotulos).
 // O grupo M reúne as audiências convocadas sobre pautas de grupos historicamente
 // vulnerabilizados; as categorias não são exclusivas.
 import { getClassifiedRecords } from "@/lib/api-server";
-import { getCategoriasMinoria, getIndice } from "@/lib/thalia-data";
+import { getCategoriasMinoria, getIndice } from "@/lib/conteudo-data";
 
 export type MinorityAudience = {
   id: number;

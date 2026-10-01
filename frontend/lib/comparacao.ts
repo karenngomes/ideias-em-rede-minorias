@@ -1,10 +1,10 @@
 // Indicadores por audiência para comparar o grupo M (pautas de minorias) com o
-// grupo C (as demais), a partir do pacote da Thalia. Tudo é descritivo.
+// grupo C (as demais), a partir do pacote de dados de conteúdo. Tudo é descritivo.
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { getIndice } from "@/lib/thalia-data";
+import { getIndice } from "@/lib/conteudo-data";
 
-const DATA_DIR = process.env.THALIA_DATA_DIR ?? path.join(process.cwd(), "..", "dados", "conteudo", "dados");
+const DATA_DIR = process.env.CONTENT_DATA_DIR ?? path.join(process.cwd(), "..", "dados", "conteudo", "dados");
 
 export type Grupo = "M" | "C";
 export type Papel = "convidado" | "parlamentar" | "preside";

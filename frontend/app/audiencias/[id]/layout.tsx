@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronLeft, MessageSquare, Users } from "lucide-react";
 import { extractDate, getAudiencia } from "@/lib/api-server";
-import { getFalantes, getRotuloAudiencia } from "@/lib/thalia-data";
+import { getFalantes, getRotuloAudiencia } from "@/lib/conteudo-data";
 
 type Props = { children: React.ReactNode; params: Promise<{ id: string }> };
 

@@ -1,7 +1,7 @@
 {
   "versao": "1.0",
   "data": "2026-09-28",
-  "procedencia": "Agrupamento manual por Thalia Almeida sobre o campo `metadados.assunto` das 206 amostras do PublicHearingBR_LDS.",
+  "procedencia": "Agrupamento manual sobre o campo `metadados.assunto` das 206 amostras do PublicHearingBR_LDS.",
   "criterio": "Partição EXCLUSIVA por assunto convocado: cada audiência pertence a exatamente um tema. Diferente de `data/rotulos_minorias.json`, onde as categorias são não exclusivas e uma audiência pode estar em várias.",
   "relacao_com_minorias": "Os dois arquivos são independentes e não devem ser derivados um do outro. Um tema como `pessoa_idosa` aqui reúne 8 audiências; a categoria de mesmo nome na rotulagem de minorias reúne 10, porque lá o critério admite sobreposição (a 41 e a 60 entram em minorias por outro eixo). Colapsar os dois faria o contraste M vs C ser testado contra a sua própria definição.",
   "revisao_humana": "PENDENTE. Agrupamento feito à mão por uma pessoa só, sem segunda opinião. Ver ANOTACAO.md, tarefa T4.",
