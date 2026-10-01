@@ -1,0 +1,164 @@
+{
+  "sample_id": 14,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 20,
+      "n_palavras": 11284,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.1772421127259837,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 7666,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.26089225150013046
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3618,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 20,
+      "n_palavras": 11284,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.05,
+      "eventos_por_mil_palavras": 0.08862105636299185,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 7666,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.13044612575006523
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3618,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09090909090909091,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 20,
+      "n_palavras": 11284,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 7666,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3618,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 20,
+      "n_palavras": 11284,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.1772421127259837,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 7666,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.26089225150013046
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3618,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 14,
+      "evento_id": "014:e0001",
+      "alvo_turno_id": 7,
+      "alvo": "Diego Bruno Martins Alves",
+      "interrompente": "Ivan Valente",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Sr. Diego, só uma pergunta, V.Sa. vai ter que sair ou vai permanecer na audiência?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 13429,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 14,
+      "evento_id": "014:e0002",
+      "alvo_turno_id": 13,
+      "alvo": "Roberta Lima Barbosa Bomfim",
+      "interrompente": "Ivan Valente",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço a V.Sa. que conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 24482,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

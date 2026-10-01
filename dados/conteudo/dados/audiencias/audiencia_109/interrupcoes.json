@@ -1,0 +1,197 @@
+{
+  "sample_id": 109,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 41,
+      "n_palavras": 26647,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.024390243902439025,
+      "eventos_por_mil_palavras": 0.03752767666153788,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 20772,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5875,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.1702127659574468
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.0625,
+      "por_tipo": {
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 41,
+      "n_palavras": 26647,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 20772,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5875,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 41,
+      "n_palavras": 26647,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 20772,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5875,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 41,
+      "n_palavras": 26647,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.0975609756097561,
+      "eventos_por_mil_palavras": 0.15011070664615153,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 20772,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.08,
+          "eventos_por_mil_palavras": 0.09628345850182939
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5875,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.3404255319148936
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.045,
+      "por_tipo": {
+        "intercalacao": 2,
+        "pergunta_intercalada": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 109,
+      "evento_id": "109:e0001",
+      "alvo_turno_id": 5,
+      "alvo": "Rodrigo de Castro",
+      "interrompente": "Ministro Waldez Góes",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Não, não entrou.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 15788,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 109,
+      "evento_id": "109:e0002",
+      "alvo_turno_id": 55,
+      "alvo": "Gabriel Nunes",
+      "interrompente": "José Rocha",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Qual é o nome do perímetro?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 119070,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 109,
+      "evento_id": "109:e0003",
+      "alvo_turno_id": 64,
+      "alvo": "Ministro Waldez Góes",
+      "interrompente": "Paulo Roberto Galvão da Rocha",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Mas o Deputado Carlos Henrique Gaguim quer a SUDAM também.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 144295,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 109,
+      "evento_id": "109:e0004",
+      "alvo_turno_id": 66,
+      "alvo": "Ministro Waldez Góes",
+      "interrompente": "Paulo Roberto Galvão da Rocha",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Sem perder a minha experiência de Parlamentar, V.Exa. me concede um aparte? Permita-me acrescentar algo sobre o que disse agora.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 151128,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

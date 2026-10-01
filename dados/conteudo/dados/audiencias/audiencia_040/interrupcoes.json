@@ -1,0 +1,196 @@
+{
+  "sample_id": 40,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 40,
+      "n_palavras": 20619,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.05,
+      "eventos_por_mil_palavras": 0.09699791454483729,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 16543,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.041666666666666664,
+          "eventos_por_mil_palavras": 0.06044852807834129
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 4076,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.24533856722276742
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.020833333333333336,
+      "por_tipo": {
+        "intercalacao": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 40,
+      "n_palavras": 20619,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 16543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 4076,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 40,
+      "n_palavras": 20619,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 16543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 4076,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 40,
+      "n_palavras": 20619,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.19399582908967458,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 16543,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.041666666666666664,
+          "eventos_por_mil_palavras": 0.06044852807834129
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 4076,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.1875,
+          "eventos_por_mil_palavras": 0.7360157016683022
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.14583333333333334,
+      "por_tipo": {
+        "intercalacao": 4
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 40,
+      "evento_id": "040:e0001",
+      "alvo_turno_id": 22,
+      "alvo": "Luiz Lima",
+      "interrompente": "Márcio Marinho",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Já me tornei baiano.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 59421,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 40,
+      "evento_id": "040:e0002",
+      "alvo_turno_id": 53,
+      "alvo": "Cleiber Pinheiro Maia",
+      "interrompente": "Márcio Marinho",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Parabéns pelo seu trabalho, que é muito bacana e muito legal!(Palmas.)\n\nVocê já pode fazer suas considerações finais.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 116840,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 40,
+      "evento_id": "040:e0003",
+      "alvo_turno_id": 64,
+      "alvo": "Luiz Lima",
+      "interrompente": "Danys Marques Maia Queiroz",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Pode ser.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 126974,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 40,
+      "evento_id": "040:e0004",
+      "alvo_turno_id": 70,
+      "alvo": "Luiz Lima",
+      "interrompente": "Danys Marques Maia Queiroz",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Não.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 127584,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

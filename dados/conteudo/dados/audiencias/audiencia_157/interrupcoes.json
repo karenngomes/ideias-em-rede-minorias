@@ -1,0 +1,199 @@
+{
+  "sample_id": 157,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 32,
+      "n_palavras": 19210,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.03125,
+      "eventos_por_mil_palavras": 0.052056220718375845,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 15572,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.06421782686873877
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3638,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05263157894736842,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 32,
+      "n_palavras": 19210,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.0625,
+      "eventos_por_mil_palavras": 0.10411244143675169,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 15572,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.10526315789473684,
+          "eventos_por_mil_palavras": 0.12843565373747753
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3638,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.10526315789473684,
+      "por_tipo": {
+        "gestao_tempo": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 32,
+      "n_palavras": 19210,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 15572,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3638,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 32,
+      "n_palavras": 19210,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.125,
+      "eventos_por_mil_palavras": 0.20822488287350338,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 15572,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.21052631578947367,
+          "eventos_por_mil_palavras": 0.25687130747495507
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3638,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.21052631578947367,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "intercalacao": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 157,
+      "evento_id": "157:e0001",
+      "alvo_turno_id": 2,
+      "alvo": "Daniela Marreco Cerqueira",
+      "interrompente": "Paulão",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Dra. Daniela, a senhora tem um tempo de 10 minutos, mas sabemos da importância da exposição. Então, pode dar continuidade à exposição.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 14841,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 157,
+      "evento_id": "157:e0002",
+      "alvo_turno_id": 31,
+      "alvo": "Antoine Daher",
+      "interrompente": "Celso Russomanno",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Pode contar comigo. Eu vou depois conversar com a Comissão e vamos trocar telefones. Estou à disposição para trabalharmos em conjunto.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 100685,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 157,
+      "evento_id": "157:e0003",
+      "alvo_turno_id": 35,
+      "alvo": "Salmo Raskin",
+      "interrompente": "Celso Russomanno",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É possível, sim.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 103693,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 157,
+      "evento_id": "157:e0004",
+      "alvo_turno_id": 49,
+      "alvo": "Valtenir Pereira",
+      "interrompente": "Celso Russomanno",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Por sinal, eu conheço um garoto, com 6 ou 7 anos de idade, que tem o maior tempo de vida atualmente. Não é isso?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 115981,
+      "atual": false,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

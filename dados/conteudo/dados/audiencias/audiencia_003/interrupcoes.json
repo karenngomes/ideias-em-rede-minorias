@@ -1,0 +1,205 @@
+{
+  "sample_id": 3,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 29,
+      "n_palavras": 23254,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.10344827586206896,
+      "eventos_por_mil_palavras": 0.1290100627848972,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 9473,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 26,
+          "n_palavras": 13781,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.11538461538461539,
+          "eventos_por_mil_palavras": 0.21769102387344896
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.11538461538461539,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1,
+        "manifestacao_plateia": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 29,
+      "n_palavras": 23254,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.06896551724137931,
+      "eventos_por_mil_palavras": 0.08600670852326482,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 9473,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 26,
+          "n_palavras": 13781,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.14512734924896598
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.07692307692307693,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "manifestacao_plateia": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 29,
+      "n_palavras": 23254,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.034482758620689655,
+      "eventos_por_mil_palavras": 0.04300335426163241,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 9473,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 26,
+          "n_palavras": 13781,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.038461538461538464,
+          "eventos_por_mil_palavras": 0.07256367462448299
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.038461538461538464,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 29,
+      "n_palavras": 23254,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.13793103448275862,
+      "eventos_por_mil_palavras": 0.17201341704652964,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 9473,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 26,
+          "n_palavras": 13781,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.29025469849793195
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.15384615384615385,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 2,
+        "manifestacao_plateia": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 3,
+      "evento_id": "003:e0001",
+      "alvo_turno_id": 8,
+      "alvo": "Capitão Alberto Neto",
+      "interrompente": "Lucas Ramos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Atendido o pedido de V.Exa., Deputado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 38416,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 3,
+      "evento_id": "003:e0002",
+      "alvo_turno_id": 19,
+      "alvo": "Airton Faleiro",
+      "interrompente": "plateia/desconhecido",
+      "tipo": "manifestacao_plateia",
+      "sinal": "A-X-A",
+      "trecho": "Eu vou pedir silêncio, por conta dos trabalhos. Sei que está perto da hora do almoço, todo mundo está com fome, mas é para melhorar a comunicação.\n\nO tempo de V.Exa. será restabelecido.",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 55615,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 3,
+      "evento_id": "003:e0003",
+      "alvo_turno_id": 32,
+      "alvo": "Alfredinho",
+      "interrompente": "Lucas Ramos",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Deputado Alfredinho, peço que faça o encaminhamento.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 83568,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 3,
+      "evento_id": "003:e0004",
+      "alvo_turno_id": 45,
+      "alvo": "Cabo Gilberto Silva",
+      "interrompente": "Túlio Gadêlha",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Elas estão no Ministério, Cabo, não estão na assessoria, estão no Ministério.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 100717,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

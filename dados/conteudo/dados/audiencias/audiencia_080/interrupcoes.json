@@ -1,0 +1,142 @@
+{
+  "sample_id": 80,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 26,
+      "n_palavras": 11844,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.08443093549476528,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8697,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11498217776244682
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3147,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07692307692307693,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 26,
+      "n_palavras": 11844,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8697,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3147,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 26,
+      "n_palavras": 11844,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8697,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3147,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 26,
+      "n_palavras": 11844,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.08443093549476528,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8697,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11498217776244682
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3147,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07692307692307693,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 80,
+      "evento_id": "080:e0001",
+      "alvo_turno_id": 20,
+      "alvo": "Maria Regina Reis",
+      "interrompente": "Augusto Coutinho",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Agradeço à Maria Regina, que inclusive é consultora da Casa. Ela se aposentou, mas nem parece que tem idade para isso.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 41973,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

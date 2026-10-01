@@ -1,0 +1,140 @@
+{
+  "sample_id": 118,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 27,
+      "n_palavras": 14466,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5982,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 8484,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "registrada": {
+      "n_oportunidades": 27,
+      "n_palavras": 14466,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5982,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 8484,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 27,
+      "n_palavras": 14466,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5982,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 8484,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 27,
+      "n_palavras": 14466,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.037037037037037035,
+      "eventos_por_mil_palavras": 0.06912760956726116,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5982,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.1671681711802073
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 8484,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09090909090909091,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 118,
+      "evento_id": "118:e0001",
+      "alvo_turno_id": 31,
+      "alvo": "Wolnei Wolff",
+      "interrompente": "Alberto Mourão",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eu sou de Praia Grande.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 80640,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

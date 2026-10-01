@@ -1,0 +1,162 @@
+{
+  "sample_id": 23,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 44,
+      "n_palavras": 20616,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.09701202949165696,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14936,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.06695232994108195
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 5680,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.043478260869565216,
+          "eventos_por_mil_palavras": 0.176056338028169
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0041407867494824,
+      "por_tipo": {
+        "intercalacao": 1,
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 44,
+      "n_palavras": 20616,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14936,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 5680,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 44,
+      "n_palavras": 20616,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14936,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 5680,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 44,
+      "n_palavras": 20616,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.09701202949165696,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14936,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.06695232994108195
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 5680,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.043478260869565216,
+          "eventos_por_mil_palavras": 0.176056338028169
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0041407867494824,
+      "por_tipo": {
+        "intercalacao": 1,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 23,
+      "evento_id": "023:e0001",
+      "alvo_turno_id": 51,
+      "alvo": "Leônidas Cristino",
+      "interrompente": "Hugo Leal",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim, é preocupante, mas a transição tem que passar por todos esses elementos, não adianta pular de fase.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 118749,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 23,
+      "evento_id": "023:e0002",
+      "alvo_turno_id": 66,
+      "alvo": "Rogerio Manso",
+      "interrompente": "Hugo Leal",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Para a Comissão?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 126609,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

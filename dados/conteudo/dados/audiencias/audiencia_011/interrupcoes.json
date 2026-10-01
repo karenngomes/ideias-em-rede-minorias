@@ -1,0 +1,164 @@
+{
+  "sample_id": 11,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 22,
+      "n_palavras": 16713,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.09090909090909091,
+      "eventos_por_mil_palavras": 0.11966732483695328,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 14015,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.14270424545130217
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 2698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15384615384615385,
+      "por_tipo": {
+        "pergunta_intercalada": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 22,
+      "n_palavras": 16713,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.05983366241847664,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 14015,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.07135212272565108
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 2698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07692307692307693,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 22,
+      "n_palavras": 16713,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 14015,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 2698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 22,
+      "n_palavras": 16713,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.09090909090909091,
+      "eventos_por_mil_palavras": 0.11966732483695328,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 14015,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.14270424545130217
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 2698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15384615384615385,
+      "por_tipo": {
+        "pergunta_intercalada": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 11,
+      "evento_id": "011:e0001",
+      "alvo_turno_id": 10,
+      "alvo": "Jose Almir Cirilo",
+      "interrompente": "Fernando Mineiro",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Não.\n\nPeço ao pessoal técnico aqui que nos socorra.(Pausa.)\n\nAlmir, acho que o senhor não está compartilhando a apresentação conosco.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 43638,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 11,
+      "evento_id": "011:e0002",
+      "alvo_turno_id": 20,
+      "alvo": "Crispiniano Neto",
+      "interrompente": "Fernando Mineiro",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Isso aconteceu quando, Crispiniano, para podermos datar aqui?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 88671,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

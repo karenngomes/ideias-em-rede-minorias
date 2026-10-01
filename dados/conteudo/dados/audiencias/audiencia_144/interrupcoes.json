@@ -1,0 +1,292 @@
+{
+  "sample_id": 144,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 49,
+      "n_palavras": 25317,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.12244897959183673,
+      "eventos_por_mil_palavras": 0.2369949046095509,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 11722,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.2727272727272727,
+          "eventos_por_mil_palavras": 0.2559290223511346
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 13595,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.07894736842105263,
+          "eventos_por_mil_palavras": 0.2206693637366679
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.19377990430622008,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "intercalacao": 3,
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 49,
+      "n_palavras": 25317,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.04081632653061224,
+      "eventos_por_mil_palavras": 0.07899830153651696,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 11722,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.08530967411704488
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 13595,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.02631578947368421,
+          "eventos_por_mil_palavras": 0.07355645457888929
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0645933014354067,
+      "por_tipo": {
+        "gestao_tempo": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 49,
+      "n_palavras": 25317,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 11722,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 13595,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 49,
+      "n_palavras": 25317,
+      "n_eventos": 9,
+      "n_turnos_interrompidos": 9,
+      "taxa_turnos": 0.1836734693877551,
+      "eventos_por_mil_palavras": 0.35549235691432635,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 11722,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.5454545454545454,
+          "eventos_por_mil_palavras": 0.5118580447022693
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 13595,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.07894736842105263,
+          "eventos_por_mil_palavras": 0.2206693637366679
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.46650717703349276,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "intercalacao": 5,
+        "pergunta_intercalada": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0001",
+      "alvo_turno_id": 6,
+      "alvo": "Zé Trovão",
+      "interrompente": "Cezinha de Madureira",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Aproveito para dar os parabéns a V.Exa. pela frente parlamentar lançada na semana passada. Eu estive lá. Até a Sula Miranda estava presente.\n\nFoi forte lá, Deputado Antonio Carlos. O jantar do Deputado Zé Trovão foi poderoso.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 3550,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0002",
+      "alvo_turno_id": 16,
+      "alvo": "Ministro Jader Barbalho Filho",
+      "interrompente": "Cezinha de Madureira",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Ministro, só um minutinho.\n\nQuero convidar o Deputado José Priante, Presidente de Comissão, para se sentar aqui, por gentileza. Há um lugar para V.Exa.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 10501,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0003",
+      "alvo_turno_id": 18,
+      "alvo": "Ministro Jader Barbalho Filho",
+      "interrompente": "Cezinha de Madureira",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Quero dizer ao Sr. Ministro que, como o senhor vê, esta Comissão, os nobres pares, colegas, são todos interessados no melhor para o Brasil. O senhor vai ter sempre paz neste lugar aqui.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 39099,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0004",
+      "alvo_turno_id": 37,
+      "alvo": "Ministro Jader Barbalho Filho",
+      "interrompente": "Cezinha de Madureira",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Esse é o cara, hein?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 61681,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0005",
+      "alvo_turno_id": 71,
+      "alvo": "Ministro Jader Barbalho Filho",
+      "interrompente": "Abilio Brunini",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Entra na Faixa 1 também?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 120201,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0006",
+      "alvo_turno_id": 74,
+      "alvo": "Ministro Jader Barbalho Filho",
+      "interrompente": "Abilio Brunini",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Por exemplo, numa reunião de bancada nós colocamos 40 milhões facilmente, numa reunião de bancada, num projeto, não especificando qual, e o Governo do Estado faz a ponte com o Ministério, e esse projeto se desenvolve.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 120718,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0007",
+      "alvo_turno_id": 79,
+      "alvo": "Helena Lima",
+      "interrompente": "Cezinha de Madureira",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Está valendo 20 mil casas lá.(Risos.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 126869,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0008",
+      "alvo_turno_id": 81,
+      "alvo": "Helena Lima",
+      "interrompente": "Cezinha de Madureira",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Conclua, Deputada, porque já estamos com o horário bastante estourado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 130970,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 144,
+      "evento_id": "144:e0009",
+      "alvo_turno_id": 101,
+      "alvo": "Ministro Jader Barbalho Filho",
+      "interrompente": "Max Lemos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É sempre feito por meio do Município ou do Estado. Mas eu vou levar a legislação que temos.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 161918,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

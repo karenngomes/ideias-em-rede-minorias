@@ -1,0 +1,142 @@
+{
+  "sample_id": 148,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 40,
+      "n_palavras": 22381,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.025,
+      "eventos_por_mil_palavras": 0.04468075599839149,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 13854,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.07218131947452
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 8527,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05263157894736842,
+      "por_tipo": {
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 40,
+      "n_palavras": 22381,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 13854,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 8527,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 40,
+      "n_palavras": 22381,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 13854,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 8527,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 40,
+      "n_palavras": 22381,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.025,
+      "eventos_por_mil_palavras": 0.04468075599839149,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 13854,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.07218131947452
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 8527,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05263157894736842,
+      "por_tipo": {
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 148,
+      "evento_id": "148:e0001",
+      "alvo_turno_id": 21,
+      "alvo": "Humberto de Mattos Brandão",
+      "interrompente": "Marcos Pollon",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Dr. Humberto, muitíssimo obrigado. Sei que a agenda do senhor é apertada. Então, desde já, agradeço. Se o senhor tiver alguma consideração final e quiser pontuar, fique à vontade.\n\nO senhor tem alguma consideração final que queira fazer?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 93817,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

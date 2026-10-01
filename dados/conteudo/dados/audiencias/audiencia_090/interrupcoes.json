@@ -1,0 +1,234 @@
+{
+  "sample_id": 90,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 33,
+      "n_palavras": 11454,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.18181818181818182,
+      "eventos_por_mil_palavras": 0.5238344683080147,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 9911,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.2857142857142857,
+          "eventos_por_mil_palavras": 0.6053879527797397
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 1543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2857142857142857,
+      "por_tipo": {
+        "intercalacao": 2,
+        "pergunta_intercalada": 4
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 33,
+      "n_palavras": 11454,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 9911,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 1543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 33,
+      "n_palavras": 11454,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 9911,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 1543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 33,
+      "n_palavras": 11454,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.18181818181818182,
+      "eventos_por_mil_palavras": 0.5238344683080147,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 9911,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.2857142857142857,
+          "eventos_por_mil_palavras": 0.6053879527797397
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 1543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2857142857142857,
+      "por_tipo": {
+        "intercalacao": 2,
+        "pergunta_intercalada": 4
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 90,
+      "evento_id": "090:e0001",
+      "alvo_turno_id": 16,
+      "alvo": "Alexandre Montrimas",
+      "interrompente": "Roberto Alves",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Você trabalha com o Marco Aurélio?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 32265,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 90,
+      "evento_id": "090:e0002",
+      "alvo_turno_id": 20,
+      "alvo": "Alexandre Montrimas",
+      "interrompente": "Roberto Alves",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Alexandre, eu quero aproveitar a sua fala. Você acredita que os falsos técnicos ou olheiros denigrem o futebol brasileiro? Você acredita que a profissionalização dos olheiros vai diminuir os casos de abuso e assédio sexual no esporte?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 36254,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 90,
+      "evento_id": "090:e0003",
+      "alvo_turno_id": 32,
+      "alvo": "Marcia de Andrade Angelo Bueno",
+      "interrompente": "Roberto Alves",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Estamos ouvindo. Estamos ouvindo e vendo a senhora.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 42990,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 90,
+      "evento_id": "090:e0004",
+      "alvo_turno_id": 45,
+      "alvo": "Luísa Carvalho Rodrigues",
+      "interrompente": "Roberto Alves",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "A senhora pode, por gentileza, repetir osite?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 56873,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 90,
+      "evento_id": "090:e0005",
+      "alvo_turno_id": 70,
+      "alvo": "Marcia de Andrade Angelo Bueno",
+      "interrompente": "Roberto Alves",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eu lhe agradeço a participação. Leve meu abraço a todo o povo paranaense, em especial ao grupo de ginástica artística.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 76122,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 90,
+      "evento_id": "090:e0006",
+      "alvo_turno_id": 74,
+      "alvo": "Luciana Neder",
+      "interrompente": "Roberto Alves",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Estou vendo aí várias medalhas. Elas são suas?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 77346,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

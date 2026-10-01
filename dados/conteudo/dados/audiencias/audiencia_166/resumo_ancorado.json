@@ -1,0 +1,2085 @@
+{
+  "sample_id": 166,
+  "assunto": "Uso da tecnologia blockchain no serviço público",
+  "fonte": {
+    "arquivo": "simplificacao.csv",
+    "campo": "falas_resumidas_str",
+    "transcricao_original": "data/PublicHearingBR/PublicHearingBR_LDS.jsonl"
+  },
+  "secoes": [
+    {
+      "id": "t::166::01",
+      "titulo": "Blockchain na administração pública: aplicações, limites e proteção de dados",
+      "frases": [
+        {
+          "texto": "A audiência debateu o uso de blockchain para modernizar a administração pública, com destaque para aplicações além de bitcoin, criptomoedas e tokenização, distinção enfatizada por Caio Sanas e Felipe Leão.",
+          "deriva_de": [
+            "u::166::00001",
+            "u::166::00217",
+            "u::166::00218",
+            "u::166::00290"
+          ]
+        },
+        {
+          "texto": "Diego Oliveira Farias apresentou a tecnologia como uma camada comum e confiável de compartilhamento de dados entre serviços e entes públicos; Caio Vianna destacou seu potencial para automatizar serviços, facilitar a interoperabilidade e permitir o rastreamento do orçamento público, dificultando desvios.",
+          "deriva_de": [
+            "u::166::00024",
+            "u::166::00574",
+            "u::166::00575"
+          ]
+        },
+        {
+          "texto": "Ao explicar a possível redução de burocracia e custos de transação, Diego apontou a garantia de unicidade dos dados e a eliminação de intermediários; também descreveu a tokenização como forma de representar direitos e ativos físicos digitalmente, facilitando sua custódia, verificação e negociação.",
+          "deriva_de": [
+            "u::166::00320",
+            "u::166::00321",
+            "u::166::00037"
+          ]
+        },
+        {
+          "texto": "Julien Dutra defendeu o uso de identidade digital em blockchain para transações e transferências de propriedade e valores, além da adoção de boas práticas do sistema financeiro tradicional para compatibilizar descentralização, regulação e liberdade.",
+          "deriva_de": [
+            "u::166::00159",
+            "u::166::00135",
+            "u::166::00136"
+          ]
+        },
+        {
+          "texto": "Caio Sanas apresentou possibilidades de aplicação em identidade digital, sistemas notariais e Juntas Comerciais, citou certificações já utilizadas pela UNIFESP e projetos de rastreamento de cadeias de suprimento, associando o uso público a transparência, governança e compliance, com observância da proteção de dados.",
+          "deriva_de": [
+            "u::166::00237",
+            "u::166::00241",
+            "u::166::00242",
+            "u::166::00243"
+          ]
+        },
+        {
+          "texto": "Chicão Bulhões ressaltou que a digitalização básica deve preceder avanços em blockchain e considerou ainda inicial a incorporação de certificações e contratos inteligentes à administração pública; Eliana Cardoso Emediato de Azambuja apresentou o Projeto Ilíada, voltado à disseminação e inovação na tecnologia, com previsão de um observatório.",
+          "deriva_de": [
+            "u::166::00065",
+            "u::166::00076",
+            "u::166::00102"
+          ]
+        },
+        {
+          "texto": "Aristides Andrade Cavalcante Neto ponderou que blockchain não entrega necessariamente as expectativas iniciais e exige casos de uso produtivos, enquanto Caio Sanas avaliou que essa fase de desilusão ajuda a identificar seus benefícios e falhas.",
+          "deriva_de": [
+            "u::166::00050",
+            "u::166::00236"
+          ]
+        },
+        {
+          "texto": "Aristides também afirmou que o benefício depende da participação de vários atores na mesma rede, e não de uma organização isolada, e relatou que um estudo de 2017 não conseguiu combinar simultaneamente descentralização total, privacidade e garantia de saldos e veracidade das transações.",
+          "deriva_de": [
+            "u::166::00058",
+            "u::166::00043"
+          ]
+        },
+        {
+          "texto": "Felipe Leão relatou soluções públicas já estabelecidas, como b-CPF, b-CNPJ, b-Cadastros e BNDESTOKEN, destinadas a ampliar confiança, permanência e compartilhamento dos dados.",
+          "deriva_de": [
+            "u::166::00291"
+          ]
+        },
+        {
+          "texto": "Na experiência apresentada por Felipe, blockchain aumentou a velocidade de distribuição e o acesso a dados atualizados sem sobrecarregar os servidores da Receita, enquanto uma base relacional atualizável em tempo real simplificou o uso e dispensou os usuários de operar diretamente a tecnologia.",
+          "deriva_de": [
+            "u::166::00273",
+            "u::166::00274"
+          ]
+        },
+        {
+          "texto": "Felipe ressaltou que a viabilidade técnica não justifica adotar blockchain em toda solução, pois uma base relacional pode ser mais adequada; como exemplo de decisão ainda em discussão, mencionou a possibilidade de levar o cadastro do Diploma Digital à blockchain para facilitar sua verificação e distribuição.",
+          "deriva_de": [
+            "u::166::00299",
+            "u::166::00302",
+            "u::166::00296",
+            "u::166::00297"
+          ]
+        },
+        {
+          "texto": "Sobre a configuração das redes, Felipe apontou situações que exigem redes privadas ou controle das informações inseridas, Diego defendeu uma rede sob jurisdição própria diante das limitações de jurisdição brasileira sobre redes públicas, e Caio Vianna perguntou sobre a possibilidade de a sociedade operar nós para ampliar descentralização e segurança.",
+          "deriva_de": [
+            "u::166::00280",
+            "u::166::00334",
+            "u::166::00349"
+          ]
+        },
+        {
+          "texto": "Jeferson Dias Barbosa reconheceu o potencial de blockchain para auditoria, rastreabilidade e segurança, mas recomendou avaliar previamente a pertinência de seu uso à luz da LGPD e apontou a necessidade de orientações mais claras aos controladores.",
+          "deriva_de": [
+            "u::166::00173",
+            "u::166::00184",
+            "u::166::00174"
+          ]
+        },
+        {
+          "texto": "Entre os riscos de proteção de dados, Jeferson destacou o armazenamento de dados pessoais e sensíveis na cadeia, a identificação e reidentificação de pessoas e as transferências internacionais, especialmente em redes públicas; esclareceu ainda que nem todos os atores são controladores, pois mineradores apenas validam transações, sem definir finalidades e meios do tratamento.",
+          "deriva_de": [
+            "u::166::00176",
+            "u::166::00186",
+            "u::166::00181"
+          ]
+        },
+        {
+          "texto": "Jeferson considerou central compatibilizar a arquitetura blockchain com a eliminação de dados e aprofundar a análise dos direitos de correção e oposição, observando que os registros não podem ser tecnicamente alterados ou excluídos, embora existam soluções técnicas em discussão para minimizar o problema.",
+          "deriva_de": [
+            "u::166::00194",
+            "u::166::00197",
+            "u::166::00192"
+          ]
+        },
+        {
+          "texto": "Felipe tratou a permanência dos dados como benefício que também pode gerar problemas, recomendou avaliar previamente quais informações podem permanecer sem remoção e apresentou o armazenamento de hashes como alternativa para verificar autenticidade sem registrar a informação propriamente dita na blockchain.",
+          "deriva_de": [
+            "u::166::00304",
+            "u::166::00305",
+            "u::166::00308"
+          ]
+        },
+        {
+          "texto": "Quanto à segurança e à implementação, Jeferson ressaltou a dependência do número de mineradores e dos mecanismos criptográficos e a responsabilidade dos controladores e das instituições que coletam dados, enquanto Diego recomendou compreender e gerir riscos e identificar fatores críticos de sucesso antes de implementar a solução.",
+          "deriva_de": [
+            "u::166::00202",
+            "u::166::00540",
+            "u::166::00010"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00001",
+        "u::166::00003",
+        "u::166::00010",
+        "u::166::00013",
+        "u::166::00014",
+        "u::166::00024",
+        "u::166::00031",
+        "u::166::00036",
+        "u::166::00037",
+        "u::166::00040",
+        "u::166::00041",
+        "u::166::00043",
+        "u::166::00050",
+        "u::166::00058",
+        "u::166::00065",
+        "u::166::00075",
+        "u::166::00076",
+        "u::166::00081",
+        "u::166::00084",
+        "u::166::00086",
+        "u::166::00102",
+        "u::166::00118",
+        "u::166::00119",
+        "u::166::00123",
+        "u::166::00132",
+        "u::166::00135",
+        "u::166::00136",
+        "u::166::00143",
+        "u::166::00144",
+        "u::166::00147",
+        "u::166::00153",
+        "u::166::00159",
+        "u::166::00164",
+        "u::166::00165",
+        "u::166::00166",
+        "u::166::00169",
+        "u::166::00170",
+        "u::166::00173",
+        "u::166::00174",
+        "u::166::00176",
+        "u::166::00177",
+        "u::166::00178",
+        "u::166::00181",
+        "u::166::00184",
+        "u::166::00186",
+        "u::166::00192",
+        "u::166::00194",
+        "u::166::00197",
+        "u::166::00202",
+        "u::166::00209",
+        "u::166::00216",
+        "u::166::00217",
+        "u::166::00218",
+        "u::166::00226",
+        "u::166::00228",
+        "u::166::00236",
+        "u::166::00237",
+        "u::166::00241",
+        "u::166::00242",
+        "u::166::00243",
+        "u::166::00247",
+        "u::166::00258",
+        "u::166::00260",
+        "u::166::00262",
+        "u::166::00263",
+        "u::166::00265",
+        "u::166::00273",
+        "u::166::00274",
+        "u::166::00275",
+        "u::166::00276",
+        "u::166::00280",
+        "u::166::00290",
+        "u::166::00291",
+        "u::166::00296",
+        "u::166::00297",
+        "u::166::00299",
+        "u::166::00300",
+        "u::166::00302",
+        "u::166::00303",
+        "u::166::00304",
+        "u::166::00305",
+        "u::166::00307",
+        "u::166::00308",
+        "u::166::00309",
+        "u::166::00311",
+        "u::166::00312",
+        "u::166::00320",
+        "u::166::00321",
+        "u::166::00332",
+        "u::166::00334",
+        "u::166::00349",
+        "u::166::00355",
+        "u::166::00394",
+        "u::166::00412",
+        "u::166::00443",
+        "u::166::00470",
+        "u::166::00540",
+        "u::166::00574",
+        "u::166::00575"
+      ],
+      "unidades_citadas": [
+        "u::166::00001",
+        "u::166::00010",
+        "u::166::00024",
+        "u::166::00037",
+        "u::166::00043",
+        "u::166::00050",
+        "u::166::00058",
+        "u::166::00065",
+        "u::166::00076",
+        "u::166::00102",
+        "u::166::00135",
+        "u::166::00136",
+        "u::166::00159",
+        "u::166::00173",
+        "u::166::00174",
+        "u::166::00176",
+        "u::166::00181",
+        "u::166::00184",
+        "u::166::00186",
+        "u::166::00192",
+        "u::166::00194",
+        "u::166::00197",
+        "u::166::00202",
+        "u::166::00217",
+        "u::166::00218",
+        "u::166::00236",
+        "u::166::00237",
+        "u::166::00241",
+        "u::166::00242",
+        "u::166::00243",
+        "u::166::00273",
+        "u::166::00274",
+        "u::166::00280",
+        "u::166::00290",
+        "u::166::00291",
+        "u::166::00296",
+        "u::166::00297",
+        "u::166::00299",
+        "u::166::00302",
+        "u::166::00304",
+        "u::166::00305",
+        "u::166::00308",
+        "u::166::00320",
+        "u::166::00321",
+        "u::166::00334",
+        "u::166::00349",
+        "u::166::00540",
+        "u::166::00574",
+        "u::166::00575"
+      ],
+      "participantes": [
+        "Caio Vianna",
+        "Diego Oliveira Farias",
+        "Aristides Andrade Cavalcante Neto",
+        "Chicão Bulhões",
+        "Eliana Cardoso Emediato de Azambuja",
+        "Julien Dutra",
+        "Jeferson Dias Barbosa",
+        "Caio Sanas",
+        "Felipe Leão"
+      ]
+    },
+    {
+      "id": "t::166::02",
+      "titulo": "Blockchain no poder público: Drex, cadastros nacionais e Rede Blockchain Brasil",
+      "frases": [
+        {
+          "texto": "Diego Oliveira Farias informou que o TCU estudou o uso governamental de blockchain em 2019 e 2020, elaborando um modelo para avaliar a necessidade da tecnologia e um levantamento de aplicações no Brasil e no exterior como referência para gestores.",
+          "deriva_de": [
+            "u::166::00002",
+            "u::166::00008",
+            "u::166::00019"
+          ]
+        },
+        {
+          "texto": "Aristides Andrade Cavalcante Neto relatou que o Banco Central iniciou seus estudos com o projeto SALT, em 2017, para testar a continuidade do sistema financeiro caso o órgão ficasse fora do ar, e começou a estudar moedas digitais de bancos centrais em 2020, promovendo webinars e uma prova de conceito em 2021.",
+          "deriva_de": [
+            "u::166::00042",
+            "u::166::00051"
+          ]
+        },
+        {
+          "texto": "Segundo Aristides, o piloto do Drex busca ampliar a inclusão financeira para crédito e investimento, além dos meios de pagamento alcançados pelo Pix, mas a tecnologia ainda precisa amadurecer com participação do setor privado para enfrentar desafios de privacidade, escalabilidade e interoperabilidade.",
+          "deriva_de": [
+            "u::166::00054",
+            "u::166::00060"
+          ]
+        },
+        {
+          "texto": "Julien Dutra afirmou que o Mercado Bitcoin participa das iniciativas de fomento do Banco Central e lidera um consórcio do LIFT Challenge, com a intenção de transformar o piloto em realidade e testar privacidade, imutabilidade e escalabilidade na rede do órgão.",
+          "deriva_de": [
+            "u::166::00127",
+            "u::166::00158"
+          ]
+        },
+        {
+          "texto": "Caio Vianna apoiou a iniciativa do Drex, destacou a necessidade de adoção em massa e simplificação para o usuário final e perguntou como o Banco Central trabalha com outras instituições para ampliar sua utilização; em resposta, Aristides ressaltou que os laboratórios e desafios de inovação procuram avaliar o benefício real para o cidadão diante das alternativas, e não apenas explorar a tecnologia.",
+          "deriva_de": [
+            "u::166::00362",
+            "u::166::00363",
+            "u::166::00373",
+            "u::166::00375"
+          ]
+        },
+        {
+          "texto": "Ao ser questionado por Caio Vianna sobre simplificação, segurança e redução de custos, Aristides descreveu o Drex como uma plataforma com o real fiduciário em formato tokenizado, compatível com ativos tokenizados para permitir trocas seguras, sem confirmar expressamente todos os benefícios sugeridos na pergunta.",
+          "deriva_de": [
+            "u::166::00391",
+            "u::166::00393",
+            "u::166::00396"
+          ]
+        },
+        {
+          "texto": "Sobre a conexão com outras redes, Aristides explicou que o perímetro regulatório do Banco Central abrange as instituições reguladas e autorizadas, enquanto redes de imóveis ou veículos podem ficar fora dele; previu uma rede-base do Drex e a tentativa futura de estabelecer interoperabilidade com governança e regras definidas, havendo o entendimento de que instituições financeiras privadas poderão atuar como pontes.",
+          "deriva_de": [
+            "u::166::00380",
+            "u::166::00381",
+            "u::166::00382",
+            "u::166::00383"
+          ]
+        },
+        {
+          "texto": "Em resposta à pergunta de Caio Vianna sobre a inclusão de Estados e Municípios nas discussões, Aristides esclareceu que o Banco Central ainda não mantinha conversas diretas com esses entes e previa ampliar o diálogo conforme o avanço do piloto e dos casos de uso, buscando oportunidades de eficiência na administração pública.",
+          "deriva_de": [
+            "u::166::00403",
+            "u::166::00407",
+            "u::166::00409"
+          ]
+        },
+        {
+          "texto": "Na perspectiva municipal, Chicão Bulhões informou que o Rio de Janeiro se declarou uma cidade favorável ao setor cripto e permite o pagamento de IPTU com criptoativos por empresas registradas junto à cidade.",
+          "deriva_de": [
+            "u::166::00080"
+          ]
+        },
+        {
+          "texto": "Felipe Leão relatou que DATAPREV e Receita Federal desenvolveram o b-CPF a partir de 2018, transpondo a base nacional do CPF para blockchain sob controle da Receita, e o b-CNPJ em 2019, relacionando à tecnologia as empresas formalmente estabelecidas com CNPJ.",
+          "deriva_de": [
+            "u::166::00269",
+            "u::166::00270"
+          ]
+        },
+        {
+          "texto": "Segundo Felipe Leão, a articulação entre DATAPREV, BNDES e TCU para a Rede Blockchain Brasil começou no fim de 2020, buscando evitar a criação de uma nova rede para cada projeto governamental; Diego Oliveira Farias reforçou que a proposta inicial é oferecer infraestrutura básica compartilhada a outras organizações.",
+          "deriva_de": [
+            "u::166::00277",
+            "u::166::00279",
+            "u::166::00413"
+          ]
+        },
+        {
+          "texto": "Felipe informou que a Rede Blockchain Brasil ainda estava em laboratório e iniciava a etapa de rede-piloto para projetos de interesse público, buscava uma estrutura perene diante do término previsto de seu acordo de cooperação — estimado por ele, com incerteza, para o fim do ano seguinte — e discutia possíveis usos indevidos.",
+          "deriva_de": [
+            "u::166::00289",
+            "u::166::00287",
+            "u::166::00447"
+          ]
+        },
+        {
+          "texto": "Como exemplo de aplicação, Felipe apresentou o BNDESTOKEN, criptoativo desenvolvido pelo BNDES para rastrear o que o banco fornece a participantes, colaboradores e instituições colaboradoras.",
+          "deriva_de": [
+            "u::166::00292"
+          ]
+        },
+        {
+          "texto": "Jeferson Dias Barbosa ressalvou que a segurança de bancos centralizados e distribuídos depende da implementação de camadas e mecanismos específicos, que, segundo sua avaliação, não estão sendo implementados.",
+          "deriva_de": [
+            "u::166::00539"
+          ]
+        },
+        {
+          "texto": "Caio Vianna propôs aprofundar o debate com Banco Central e TCU e considerou a chegada do Drex uma oportunidade para transformar moedas sociais em moedas na rede ou utilizar o próprio Drex.",
+          "deriva_de": [
+            "u::166::00558"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00002",
+        "u::166::00004",
+        "u::166::00008",
+        "u::166::00019",
+        "u::166::00042",
+        "u::166::00051",
+        "u::166::00053",
+        "u::166::00054",
+        "u::166::00060",
+        "u::166::00061",
+        "u::166::00080",
+        "u::166::00127",
+        "u::166::00156",
+        "u::166::00158",
+        "u::166::00160",
+        "u::166::00259",
+        "u::166::00269",
+        "u::166::00270",
+        "u::166::00277",
+        "u::166::00278",
+        "u::166::00279",
+        "u::166::00283",
+        "u::166::00286",
+        "u::166::00287",
+        "u::166::00289",
+        "u::166::00292",
+        "u::166::00331",
+        "u::166::00337",
+        "u::166::00362",
+        "u::166::00363",
+        "u::166::00365",
+        "u::166::00367",
+        "u::166::00373",
+        "u::166::00375",
+        "u::166::00377",
+        "u::166::00378",
+        "u::166::00380",
+        "u::166::00381",
+        "u::166::00382",
+        "u::166::00383",
+        "u::166::00391",
+        "u::166::00393",
+        "u::166::00396",
+        "u::166::00403",
+        "u::166::00407",
+        "u::166::00409",
+        "u::166::00410",
+        "u::166::00411",
+        "u::166::00413",
+        "u::166::00447",
+        "u::166::00539",
+        "u::166::00558",
+        "u::166::00572"
+      ],
+      "unidades_citadas": [
+        "u::166::00002",
+        "u::166::00008",
+        "u::166::00019",
+        "u::166::00042",
+        "u::166::00051",
+        "u::166::00054",
+        "u::166::00060",
+        "u::166::00080",
+        "u::166::00127",
+        "u::166::00158",
+        "u::166::00269",
+        "u::166::00270",
+        "u::166::00277",
+        "u::166::00279",
+        "u::166::00287",
+        "u::166::00289",
+        "u::166::00292",
+        "u::166::00362",
+        "u::166::00363",
+        "u::166::00373",
+        "u::166::00375",
+        "u::166::00380",
+        "u::166::00381",
+        "u::166::00382",
+        "u::166::00383",
+        "u::166::00391",
+        "u::166::00393",
+        "u::166::00396",
+        "u::166::00403",
+        "u::166::00407",
+        "u::166::00409",
+        "u::166::00413",
+        "u::166::00447",
+        "u::166::00539",
+        "u::166::00558"
+      ],
+      "participantes": [
+        "Diego Oliveira Farias",
+        "Aristides Andrade Cavalcante Neto",
+        "Chicão Bulhões",
+        "Julien Dutra",
+        "Caio Sanas",
+        "Felipe Leão",
+        "Caio Vianna",
+        "Jeferson Dias Barbosa"
+      ]
+    },
+    {
+      "id": "t::166::03",
+      "titulo": "Adoção de tecnologias emergentes na administração pública: capacitação, cooperação e adequação das ferramentas",
+      "frases": [
+        {
+          "texto": "Diego Oliveira Farias destacou o risco elevado das tecnologias emergentes e explicou que o modelo apresentado busca evitar sua adoção por modismo ou entusiasmo, com consequente desperdício de recursos públicos.",
+          "deriva_de": [
+            "u::166::00005",
+            "u::166::00009"
+          ]
+        },
+        {
+          "texto": "Aristides Andrade Cavalcante Neto situou a inovação nos modelos de negócio viabilizados pela tecnologia, defendeu parcerias entre os setores público e privado para identificar aplicações e limitações e ressalvou que o processo não oferece garantia integral de resultados.",
+          "deriva_de": [
+            "u::166::00059",
+            "u::166::00052",
+            "u::166::00370"
+          ]
+        },
+        {
+          "texto": "Chicão Bulhões defendeu que o País e suas cidades se preparem para as tecnologias a fim de manter a competitividade, reconhecendo preocupações com a perda de empregos ou funções e a necessidade de treinamento e cultura tecnológica entre servidores.",
+          "deriva_de": [
+            "u::166::00069",
+            "u::166::00070",
+            "u::166::00072"
+          ]
+        },
+        {
+          "texto": "Bulhões propôs o uso racional dessas ferramentas para melhorar a vida dos cidadãos e facilitar serviços e licenciamentos, associando a possibilidade de abrir empresas remotamente a ganhos de produtividade.",
+          "deriva_de": [
+            "u::166::00089",
+            "u::166::00090"
+          ]
+        },
+        {
+          "texto": "Eliana Cardoso Emediato de Azambuja distinguiu a atuação do Ministério, voltada a políticas de transformação digital para todo o País, das experiências internas apresentadas e defendeu apoio financeiro à pesquisa e à capacitação, além de infraestrutura e conectividade.",
+          "deriva_de": [
+            "u::166::00092",
+            "u::166::00097",
+            "u::166::00505"
+          ]
+        },
+        {
+          "texto": "Eliana relatou esforços para reunir instituições e alinhar políticas de transformação digital e inteligência artificial, apontando que a convergência institucional permite direcionar investimentos; embora tenha avaliado positivamente a Estratégia de Governo Digital, ressalvou que não trabalha com ela e não poderia falar em seu nome.",
+          "deriva_de": [
+            "u::166::00433",
+            "u::166::00440",
+            "u::166::00434"
+          ]
+        },
+        {
+          "texto": "Julien Dutra enfatizou a educação sobre a tecnologia e suas possibilidades e considerou útil a troca de informações entre os setores privado e público para desenvolver melhores serviços ao cidadão.",
+          "deriva_de": [
+            "u::166::00122",
+            "u::166::00155"
+          ]
+        },
+        {
+          "texto": "Dutra defendeu a identidade digital como ativo do cidadão e sugeriu vinculá-la a um prontuário único de saúde, acessível para atendimento e recebimento de benefícios em qualquer lugar do mundo.",
+          "deriva_de": [
+            "u::166::00167",
+            "u::166::00161"
+          ]
+        },
+        {
+          "texto": "Caio Sanas apresentou a inovação como motor do crescimento econômico e social e citou empresas e governos que já utilizam ou trabalham com a tecnologia discutida.",
+          "deriva_de": [
+            "u::166::00214",
+            "u::166::00232",
+            "u::166::00233"
+          ]
+        },
+        {
+          "texto": "Como aplicação possível, Sanas propôs a interoperabilidade de sistemas de Juntas Comerciais para consultar e baixar dados com um único acesso, o que, em sua avaliação, reduziria custos de transação da iniciativa privada.",
+          "deriva_de": [
+            "u::166::00239",
+            "u::166::00240"
+          ]
+        },
+        {
+          "texto": "Sanas também ressalvou a necessidade de tornar a tecnologia mais amigável ao usuário e recomendou estudo e atualização contínuos diante da novidade e da rápida evolução do tema.",
+          "deriva_de": [
+            "u::166::00248",
+            "u::166::00267"
+          ]
+        },
+        {
+          "texto": "Caio Vianna destacou o potencial da tecnologia, mas também sua complexidade de implementação e a necessidade de aprendizado e capacitação para desenvolver e manter a rede.",
+          "deriva_de": [
+            "u::166::00418"
+          ]
+        },
+        {
+          "texto": "Embora tenha reconhecido o avanço do Governo Digital e reiterado seu apoio à inovação, Vianna questionou a adoção das melhores práticas e alertou para os danos que ferramentas inadequadas podem causar.",
+          "deriva_de": [
+            "u::166::00487",
+            "u::166::00526",
+            "u::166::00533"
+          ]
+        },
+        {
+          "texto": "Jeferson Dias Barbosa afirmou que o controlador pode utilizar blockchain e sistemas distribuídos DLT, com potencial de avanço significativo; Vianna, por sua vez, considerou a tecnologia mais adequada ao cidadão em pontos sensíveis, sem afirmar que ela resolva todos os casos.",
+          "deriva_de": [
+            "u::166::00541",
+            "u::166::00544"
+          ]
+        },
+        {
+          "texto": "Vianna pediu trabalho conjunto para aprimorar procedimentos, legislação e uso de novas tecnologias, defendendo que a discussão avance agora, sem esperar a implementação por outros países, e que se explorem boas práticas para sua incorporação à administração pública.",
+          "deriva_de": [
+            "u::166::00496",
+            "u::166::00560",
+            "u::166::00578"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00005",
+        "u::166::00009",
+        "u::166::00011",
+        "u::166::00052",
+        "u::166::00059",
+        "u::166::00069",
+        "u::166::00070",
+        "u::166::00071",
+        "u::166::00072",
+        "u::166::00083",
+        "u::166::00089",
+        "u::166::00090",
+        "u::166::00092",
+        "u::166::00097",
+        "u::166::00099",
+        "u::166::00106",
+        "u::166::00109",
+        "u::166::00122",
+        "u::166::00131",
+        "u::166::00155",
+        "u::166::00161",
+        "u::166::00167",
+        "u::166::00214",
+        "u::166::00215",
+        "u::166::00227",
+        "u::166::00232",
+        "u::166::00233",
+        "u::166::00239",
+        "u::166::00240",
+        "u::166::00245",
+        "u::166::00248",
+        "u::166::00267",
+        "u::166::00298",
+        "u::166::00310",
+        "u::166::00323",
+        "u::166::00370",
+        "u::166::00408",
+        "u::166::00418",
+        "u::166::00433",
+        "u::166::00434",
+        "u::166::00440",
+        "u::166::00441",
+        "u::166::00487",
+        "u::166::00496",
+        "u::166::00505",
+        "u::166::00509",
+        "u::166::00526",
+        "u::166::00533",
+        "u::166::00541",
+        "u::166::00544",
+        "u::166::00560",
+        "u::166::00578"
+      ],
+      "unidades_citadas": [
+        "u::166::00005",
+        "u::166::00009",
+        "u::166::00052",
+        "u::166::00059",
+        "u::166::00069",
+        "u::166::00070",
+        "u::166::00072",
+        "u::166::00089",
+        "u::166::00090",
+        "u::166::00092",
+        "u::166::00097",
+        "u::166::00122",
+        "u::166::00155",
+        "u::166::00161",
+        "u::166::00167",
+        "u::166::00214",
+        "u::166::00232",
+        "u::166::00233",
+        "u::166::00239",
+        "u::166::00240",
+        "u::166::00248",
+        "u::166::00267",
+        "u::166::00370",
+        "u::166::00418",
+        "u::166::00433",
+        "u::166::00434",
+        "u::166::00440",
+        "u::166::00487",
+        "u::166::00496",
+        "u::166::00505",
+        "u::166::00526",
+        "u::166::00533",
+        "u::166::00541",
+        "u::166::00544",
+        "u::166::00560",
+        "u::166::00578"
+      ],
+      "participantes": [
+        "Diego Oliveira Farias",
+        "Aristides Andrade Cavalcante Neto",
+        "Chicão Bulhões",
+        "Eliana Cardoso Emediato de Azambuja",
+        "Julien Dutra",
+        "Caio Sanas",
+        "Felipe Leão",
+        "Caio Vianna",
+        "Jeferson Dias Barbosa"
+      ]
+    },
+    {
+      "id": "t::166::04",
+      "titulo": "Transformação digital, aplicações de blockchain e segurança de dados no setor público e privado",
+      "frases": [
+        {
+          "texto": "Diego Oliveira Farias afirmou que o TCU busca promover a cultura da inovação e o uso de tecnologia pela administração pública; Eliana Cardoso Emediato de Azambuja relatou que o MCTI constrói políticas de transformação digital desde 2015 ou 2016 e busca integrá-las desde 2017 ou 2018.",
+          "deriva_de": [
+            "u::166::00006",
+            "u::166::00091",
+            "u::166::00430"
+          ]
+        },
+        {
+          "texto": "Eliana explicou que o apoio do MCTI utiliza recursos do FNDCT, cuja retomada destacou, por meio de editais da FINEP, recursos para a EMBRAPII e bolsas do CNPq, e também recursos da Lei de TICs para pesquisa e capacitação.",
+          "deriva_de": [
+            "u::166::00095",
+            "u::166::00096",
+            "u::166::00098",
+            "u::166::00100"
+          ]
+        },
+        {
+          "texto": "Entre as iniciativas, mencionou projetos de blockchain apoiados pela FINEP em áreas como saúde, agropecuária e financiamento público, além da previsão de entrada em operação do Projeto Ilíada, parceria entre RNP e CPQD com investimento de cerca de R$ 23 milhões da Lei de TICs.",
+          "deriva_de": [
+            "u::166::00105",
+            "u::166::00101",
+            "u::166::00103"
+          ]
+        },
+        {
+          "texto": "Na formação e pesquisa, Eliana apresentou a Residência em TICs, o Hackers do Bem, voltado à segurança cibernética, e centros de pesquisa aplicada em inteligência artificial criados com CGI e FAPESP; informou ainda a previsão de contratação de três novos centros voltados à segurança cibernética e a meta do MGI de levar aos Estados e Municípios soluções já utilizadas no Governo Federal.",
+          "deriva_de": [
+            "u::166::00110",
+            "u::166::00112",
+            "u::166::00114",
+            "u::166::00115",
+            "u::166::00442"
+          ]
+        },
+        {
+          "texto": "As experiências de inovação incluíram o Sandbox de testes de produtos e serviços apresentado por Chicão Bulhões e, segundo Aristides Andrade Cavalcante Neto, um piloto com 16 grupos privados e o Tesouro para testar a entrega mediante pagamento de títulos públicos federais tokenizados, além de um experimento de financiamento agrícola com uso do dinheiro restrito a essa finalidade.",
+          "deriva_de": [
+            "u::166::00079",
+            "u::166::00056",
+            "u::166::00406"
+          ]
+        },
+        {
+          "texto": "Felipe Leão relatou projetos motivados pela necessidade da Receita Federal de acelerar a distribuição de informações de CPF e CNPJ e apresentou aplicações como o MG Florestas, já em funcionamento para rastrear a produção de árvores, o AssinadorBR e a cadeia de custódia de óleo desenvolvidos pela PUC-Rio, além de registros de artefatos arqueológicos marítimos e da produção de vinhos divulgados pela FAPERJ.",
+          "deriva_de": [
+            "u::166::00271",
+            "u::166::00293",
+            "u::166::00294",
+            "u::166::00295"
+          ]
+        },
+        {
+          "texto": "Caio Sanas apontou dificuldades operacionais e custos no ambiente jurídico: relatou a necessidade de consultar 27 sistemas de Juntas Comerciais em diligências de fusões e aquisições e, citando membros do Judiciário, mencionou mais de 70 milhões de processos em tramitação, muitos ligados a contratos descumpridos cuja execução geraria elevado gasto público.",
+          "deriva_de": [
+            "u::166::00238",
+            "u::166::00256",
+            "u::166::00257"
+          ]
+        },
+        {
+          "texto": "Julien Dutra apresentou o Mercado Bitcoin como empresa brasileira com dez anos de operação, mais de 3,8 milhões de clientes e mais de 300 colaboradores, e afirmou que, somadas, as corretoras cripto brasileiras superam a Bolsa tradicional em número de operadores.",
+          "deriva_de": [
+            "u::166::00121",
+            "u::166::00125",
+            "u::166::00126"
+          ]
+        },
+        {
+          "texto": "Sobre a governança do Mercado Bitcoin, Dutra relatou a busca de licenças para operar corretamente, práticas de segregação de ativos, identificação de clientes e transações, prevenção à lavagem de dinheiro e ao financiamento do terrorismo, e um sistema integrado de gestão de riscos; explicou que, após o descredenciamento mencionado, os reportes de operações suspeitas passaram a ser feitos pelo Fala.BR, com encaminhamento ao COAF.",
+          "deriva_de": [
+            "u::166::00129",
+            "u::166::00139",
+            "u::166::00142",
+            "u::166::00140"
+          ]
+        },
+        {
+          "texto": "Caio Vianna apresentou dados sobre mais de 5 mil denúncias de invasões de sistemas com dados da população em 2022 e quase 5 mil incidentes cibernéticos enfrentados pelo Governo em 2021, citando o ataque ao Ministério da Saúde e interrupções de serviços, exposição de dados ou desvio de impostos em pelo menos 310 cidades entre 2019 e 2021.",
+          "deriva_de": [
+            "u::166::00471",
+            "u::166::00479",
+            "u::166::00480"
+          ]
+        },
+        {
+          "texto": "Vianna também mencionou o bloqueio de acesso aos documentos do STJ em um ataque em 2020 e alertou que a exclusão de dados pode impedir o acompanhamento dos gastos públicos, atribuindo alguns desaparecimentos de informações à má-fé de empresas contratadas.",
+          "deriva_de": [
+            "u::166::00481",
+            "u::166::00492"
+          ]
+        },
+        {
+          "texto": "Em referência aos números apresentados por Vianna, Jeferson Dias Barbosa informou que mais de 700 incidentes haviam sido comunicados à ANPD nos últimos tempos e explicou que incidentes confirmados envolvendo dados pessoais devem ser informados à autoridade, que avalia medidas e pode sancionar controladores.",
+          "deriva_de": [
+            "u::166::00536",
+            "u::166::00537",
+            "u::166::00478"
+          ]
+        },
+        {
+          "texto": "Eliana caracterizou a contribuição do MCTI à segurança cibernética como modesta, concentrada no treinamento de pessoas, e informou a criação de centros para ampliar a formação e os projetos de pesquisa nessa área.",
+          "deriva_de": [
+            "u::166::00520",
+            "u::166::00521"
+          ]
+        },
+        {
+          "texto": "Dutra relatou ataques diários ao setor privado, às centenas ou milhares por mês, mas afirmou que o Mercado Bitcoin não havia sofrido ataque bem-sucedido e investia diariamente em defesa; associou a frequência dos ataques ao volume de dados em circulação e ao porte do país, sem deixar de destacar talentos em soluções tecnológicas.",
+          "deriva_de": [
+            "u::166::00546",
+            "u::166::00547",
+            "u::166::00550"
+          ]
+        },
+        {
+          "texto": "Raimundo Santos manifestou preocupação com os vazamentos apresentados por Caio Vianna, ressaltando que os avanços não afastavam o caráter alarmante desses dados.",
+          "deriva_de": [
+            "u::166::00566"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00006",
+        "u::166::00056",
+        "u::166::00079",
+        "u::166::00091",
+        "u::166::00095",
+        "u::166::00096",
+        "u::166::00098",
+        "u::166::00100",
+        "u::166::00101",
+        "u::166::00103",
+        "u::166::00104",
+        "u::166::00105",
+        "u::166::00107",
+        "u::166::00108",
+        "u::166::00110",
+        "u::166::00112",
+        "u::166::00114",
+        "u::166::00115",
+        "u::166::00116",
+        "u::166::00117",
+        "u::166::00120",
+        "u::166::00121",
+        "u::166::00124",
+        "u::166::00125",
+        "u::166::00126",
+        "u::166::00129",
+        "u::166::00130",
+        "u::166::00133",
+        "u::166::00134",
+        "u::166::00139",
+        "u::166::00140",
+        "u::166::00142",
+        "u::166::00238",
+        "u::166::00256",
+        "u::166::00257",
+        "u::166::00271",
+        "u::166::00293",
+        "u::166::00294",
+        "u::166::00295",
+        "u::166::00406",
+        "u::166::00430",
+        "u::166::00442",
+        "u::166::00471",
+        "u::166::00478",
+        "u::166::00479",
+        "u::166::00480",
+        "u::166::00481",
+        "u::166::00486",
+        "u::166::00492",
+        "u::166::00520",
+        "u::166::00521",
+        "u::166::00536",
+        "u::166::00537",
+        "u::166::00546",
+        "u::166::00547",
+        "u::166::00550",
+        "u::166::00563",
+        "u::166::00566"
+      ],
+      "unidades_citadas": [
+        "u::166::00006",
+        "u::166::00056",
+        "u::166::00079",
+        "u::166::00091",
+        "u::166::00095",
+        "u::166::00096",
+        "u::166::00098",
+        "u::166::00100",
+        "u::166::00101",
+        "u::166::00103",
+        "u::166::00105",
+        "u::166::00110",
+        "u::166::00112",
+        "u::166::00114",
+        "u::166::00115",
+        "u::166::00121",
+        "u::166::00125",
+        "u::166::00126",
+        "u::166::00129",
+        "u::166::00139",
+        "u::166::00140",
+        "u::166::00142",
+        "u::166::00238",
+        "u::166::00256",
+        "u::166::00257",
+        "u::166::00271",
+        "u::166::00293",
+        "u::166::00294",
+        "u::166::00295",
+        "u::166::00406",
+        "u::166::00430",
+        "u::166::00442",
+        "u::166::00471",
+        "u::166::00478",
+        "u::166::00479",
+        "u::166::00480",
+        "u::166::00481",
+        "u::166::00492",
+        "u::166::00520",
+        "u::166::00521",
+        "u::166::00536",
+        "u::166::00537",
+        "u::166::00546",
+        "u::166::00547",
+        "u::166::00550",
+        "u::166::00566"
+      ],
+      "participantes": [
+        "Diego Oliveira Farias",
+        "Aristides Andrade Cavalcante Neto",
+        "Chicão Bulhões",
+        "Eliana Cardoso Emediato de Azambuja",
+        "Julien Dutra",
+        "Caio Sanas",
+        "Felipe Leão",
+        "Caio Vianna",
+        "Jeferson Dias Barbosa",
+        "Raimundo Santos"
+      ]
+    },
+    {
+      "id": "t::166::05",
+      "titulo": "Blockchain, Drex e contratos inteligentes nas transações e na administração pública",
+      "frases": [
+        {
+          "texto": "Julien Dutra apresentou a tecnologia de registros distribuídos (DLT) como meio de registrar informações, direitos e obrigações de forma descentralizada, com operações atestadas por consenso e contratos inteligentes executados quando suas condições são cumpridas.",
+          "deriva_de": [
+            "u::166::00145",
+            "u::166::00146"
+          ]
+        },
+        {
+          "texto": "Diego Oliveira Farias destacou que a automação de contratos pode reduzir erros e burocracia nos processos governamentais e que informações de propriedade já registradas em blockchain podem tornar as transações menos custosas e permitir auditorias on-line, sem amostragem.",
+          "deriva_de": [
+            "u::166::00026",
+            "u::166::00322",
+            "u::166::00330"
+          ]
+        },
+        {
+          "texto": "No campo financeiro, Julien Dutra apontou a perspectiva de reduzir intermediários e ampliar o acesso a produtos e serviços, enquanto Aristides Andrade Cavalcante Neto afirmou que a tokenização e o fracionamento de ativos poderiam permitir investimentos de 10 ou 20 reais.",
+          "deriva_de": [
+            "u::166::00150",
+            "u::166::00055"
+          ]
+        },
+        {
+          "texto": "Aristides também condicionou uma possível redução do custo do crédito, especialmente imobiliário, à formação de um ecossistema tecnológico capaz de baratear a recuperação de garantias.",
+          "deriva_de": [
+            "u::166::00376"
+          ]
+        },
+        {
+          "texto": "Ao responder à pergunta de Caio Vianna sobre a transferência de veículos pelo Drex, Aristides descreveu um cenário hipotético de integração dos DETRANs à Rede Blockchain Brasil, com carros tokenizados e interoperabilidade com a rede Drex, no qual propriedade e pagamento seriam transferidos simultaneamente, com menores custos e maior segurança.",
+          "deriva_de": [
+            "u::166::00384",
+            "u::166::00385",
+            "u::166::00386",
+            "u::166::00387"
+          ]
+        },
+        {
+          "texto": "Caio Sanas avaliou que o Judiciário provavelmente reconhecerá a validade e a eficácia de contratos inteligentes que atendam aos requisitos legais e previu que a tecnologia poderá facilitar a verificação de sua execução em litígios.",
+          "deriva_de": [
+            "u::166::00230",
+            "u::166::00250"
+          ]
+        },
+        {
+          "texto": "Sanas ressalvou que contratos de execução imediata são mais fáceis de implementar do que os de execução diferida, que exigem acompanhamento de comportamentos, e exemplificou hipoteticamente um financiamento de carro elétrico cujo contrato poderia desativar o veículo e informar sua localização após quatro meses de inadimplência.",
+          "deriva_de": [
+            "u::166::00252",
+            "u::166::00253"
+          ]
+        },
+        {
+          "texto": "Para a administração pública, Julien Dutra propôs moedas digitais municipais vinculadas a programas sociais e pagamentos a fornecedores por contratos autoexecutáveis; Caio Vianna também apontou a possibilidade de usar o Real digital para pagar automaticamente fornecedores e prestadores após a conclusão dos serviços.",
+          "deriva_de": [
+            "u::166::00162",
+            "u::166::00163",
+            "u::166::00404"
+          ]
+        },
+        {
+          "texto": "Chicão Bulhões relatou que o licenciamento municipal ainda funcionava em papel até 2021 e que a digitalização dos processos urbanísticos e ambientais eliminou pastas intermináveis e ambientes que, em sua avaliação, podiam adoecer os servidores.",
+          "deriva_de": [
+            "u::166::00064",
+            "u::166::00073"
+          ]
+        },
+        {
+          "texto": "Bulhões anunciou um edital para fiscalização da cidade com drones e imagens, com possibilidade de certificação por blockchain, e afirmou que esse modelo poderia reduzir deslocamentos de servidores, riscos e ineficiências nos contratos de veículos.",
+          "deriva_de": [
+            "u::166::00085",
+            "u::166::00087"
+          ]
+        },
+        {
+          "texto": "Eliana Cardoso Emediato de Azambuja afirmou que o Governo Federal já trabalha com processos automatizados, sem papel e com assinaturas virtuais, trazendo rapidez e segurança aos servidores.",
+          "deriva_de": [
+            "u::166::00435"
+          ]
+        },
+        {
+          "texto": "Como exemplo internacional, Caio Vianna informou que Dubai teria reduzido custos em 5,5 bilhões de dirhans, aproximadamente 1,5 bilhão de dólares, em um ano após implementar blockchain na administração pública.",
+          "deriva_de": [
+            "u::166::00422"
+          ]
+        },
+        {
+          "texto": "Na discussão sobre registros digitais, Jeferson Dias Barbosa observou que a ANPD pode estabelecer padrões de interoperabilidade, portabilidade, livre acesso, segurança e tempo de guarda, enquanto Caio Vianna mencionou que Prefeituras podem criar prontuários próprios ou terceirizar seu armazenamento antes da conexão com o Ministério da Saúde.",
+          "deriva_de": [
+            "u::166::00172",
+            "u::166::00527"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00015",
+        "u::166::00026",
+        "u::166::00055",
+        "u::166::00064",
+        "u::166::00073",
+        "u::166::00085",
+        "u::166::00087",
+        "u::166::00145",
+        "u::166::00146",
+        "u::166::00148",
+        "u::166::00150",
+        "u::166::00151",
+        "u::166::00152",
+        "u::166::00157",
+        "u::166::00162",
+        "u::166::00163",
+        "u::166::00172",
+        "u::166::00230",
+        "u::166::00246",
+        "u::166::00249",
+        "u::166::00250",
+        "u::166::00251",
+        "u::166::00252",
+        "u::166::00253",
+        "u::166::00254",
+        "u::166::00261",
+        "u::166::00322",
+        "u::166::00330",
+        "u::166::00335",
+        "u::166::00359",
+        "u::166::00361",
+        "u::166::00376",
+        "u::166::00384",
+        "u::166::00385",
+        "u::166::00386",
+        "u::166::00387",
+        "u::166::00388",
+        "u::166::00389",
+        "u::166::00390",
+        "u::166::00404",
+        "u::166::00422",
+        "u::166::00435",
+        "u::166::00527"
+      ],
+      "unidades_citadas": [
+        "u::166::00026",
+        "u::166::00055",
+        "u::166::00064",
+        "u::166::00073",
+        "u::166::00085",
+        "u::166::00087",
+        "u::166::00145",
+        "u::166::00146",
+        "u::166::00150",
+        "u::166::00162",
+        "u::166::00163",
+        "u::166::00172",
+        "u::166::00230",
+        "u::166::00250",
+        "u::166::00252",
+        "u::166::00253",
+        "u::166::00322",
+        "u::166::00330",
+        "u::166::00376",
+        "u::166::00384",
+        "u::166::00385",
+        "u::166::00386",
+        "u::166::00387",
+        "u::166::00404",
+        "u::166::00422",
+        "u::166::00435",
+        "u::166::00527"
+      ],
+      "participantes": [
+        "Diego Oliveira Farias",
+        "Aristides Andrade Cavalcante Neto",
+        "Chicão Bulhões",
+        "Julien Dutra",
+        "Jeferson Dias Barbosa",
+        "Caio Sanas",
+        "Caio Vianna",
+        "Eliana Cardoso Emediato de Azambuja"
+      ]
+    },
+    {
+      "id": "t::166::06",
+      "titulo": "Registros distribuídos no poder público: transparência, continuidade das redes e proteção de dados",
+      "frases": [
+        {
+          "texto": "Diego Oliveira Farias apresentou os registros distribuídos como instrumentos de melhoria dos serviços, eficiência administrativa e confiança no Governo, destacando que o compliance by design permite incorporar requisitos regulatórios desde a concepção e antecipar a atuação dos auditores.",
+          "deriva_de": [
+            "u::166::00018",
+            "u::166::00028",
+            "u::166::00328"
+          ]
+        },
+        {
+          "texto": "Ao tratar do combate à fraude, Diego citou auditorias do TCU que cruzam bases para identificar irregularidades e sustentou que regras incorporadas aos sistemas poderiam, em tese, impedir benefícios incompatíveis com os critérios de elegibilidade, além de permitir rejeitar transações fora das regras.",
+          "deriva_de": [
+            "u::166::00029",
+            "u::166::00030",
+            "u::166::00034"
+          ]
+        },
+        {
+          "texto": "Aristides Andrade Cavalcante Neto relatou que Banco Central, CVM e SUSEP criaram a plataforma PIER para compartilhar informações com respostas em canais privados e exposição apenas de hashes aos demais participantes; segundo ele, mais de 8 mil requisições entre Banco Central e CVM já haviam ocorrido, substituindo respostas em papel que demoravam dias por respostas em segundos.",
+          "deriva_de": [
+            "u::166::00048",
+            "u::166::00049"
+          ]
+        },
+        {
+          "texto": "Questionado por Caio Vianna sobre privacidade, Aristides explicou que o desafio é compatibilizar sigilo bancário e proteção de dados com conhecimento do cliente e prevenção à lavagem de dinheiro e ao terrorismo, e apontou privacidade, escalabilidade e interoperabilidade como desafios tecnológicos do piloto Drex.",
+          "deriva_de": [
+            "u::166::00364",
+            "u::166::00366",
+            "u::166::00379"
+          ]
+        },
+        {
+          "texto": "Em resposta às perguntas sobre a emissão do Real digital, Aristides afirmou que um real continuaria equivalente a um real e que os preceitos permaneceriam os mesmos, com mudança apenas do formato tecnológico.",
+          "deriva_de": [
+            "u::166::00398",
+            "u::166::00399",
+            "u::166::00400"
+          ]
+        },
+        {
+          "texto": "Caio Vianna questionou como garantir a continuidade de uma rede mais centralizada diante de desligamentos ou mudanças governamentais e se cidadãos e organizações não governamentais poderiam operar nós; Diego respondeu que instituições governamentais, indústria e sociedade poderiam participar e que a distribuição dos dados poderia sustentar a rede mesmo com a extinção de um órgão.",
+          "deriva_de": [
+            "u::166::00339",
+            "u::166::00347",
+            "u::166::00348",
+            "u::166::00344",
+            "u::166::00345"
+          ]
+        },
+        {
+          "texto": "Diego apontou a adesão massiva das diferentes esferas governamentais como desafio inicial, enquanto Caio advertiu contra a proliferação de redes incompatíveis que dificultassem a troca de informações e a prestação de serviços.",
+          "deriva_de": [
+            "u::166::00414",
+            "u::166::00419"
+          ]
+        },
+        {
+          "texto": "Caio Sanas contrapôs a concentração de dados em servidores de empresas na Web 2.0 à possibilidade, por ele atribuída à Web 3.0, de o usuário manter a titularidade de seus dados e conteúdos e preservá-los em outros servidores caso um deles falhasse.",
+          "deriva_de": [
+            "u::166::00222",
+            "u::166::00223",
+            "u::166::00224"
+          ]
+        },
+        {
+          "texto": "Julien Dutra reconheceu a orientação libertária e descentralizada da tecnologia, mas defendeu regulação e adequações de compliance e governança para evitar que excessos de liberdade levassem a regras mais rigorosas que inibissem a inovação.",
+          "deriva_de": [
+            "u::166::00128",
+            "u::166::00137",
+            "u::166::00138"
+          ]
+        },
+        {
+          "texto": "Jeferson Dias Barbosa advertiu que a imutabilidade pode proteger registros contra fraudes e corrupção, mas conflitar com os direitos de correção e eliminação previstos na LGPD, exigindo avaliação prévia da adequação da tecnologia e garantia dos direitos desde sua concepção.",
+          "deriva_de": [
+            "u::166::00175",
+            "u::166::00185",
+            "u::166::00543"
+          ]
+        },
+        {
+          "texto": "Jeferson explicou que participantes que definem finalidades e meios do tratamento podem ser responsáveis ou cocontroladores, devendo delimitar suas responsabilidades de forma transparente e permitir que titulares e ANPD identifiquem a quem recorrer.",
+          "deriva_de": [
+            "u::166::00180",
+            "u::166::00182",
+            "u::166::00183"
+          ]
+        },
+        {
+          "texto": "Também defendeu coleta limitada ao necessário e retenção vinculada à finalidade, ressalvadas exceções, indicando o armazenamento de dados fora da cadeia, com apenas metadados ou referências nela, como uma solução possível; observou que, no poder público, interesse público e obrigação legal podem impedir a eliminação solicitada pelo titular.",
+          "deriva_de": [
+            "u::166::00190",
+            "u::166::00191",
+            "u::166::00193",
+            "u::166::00195"
+          ]
+        },
+        {
+          "texto": "Para Jeferson, redes sem permissão apresentam maiores riscos de não conformidade à LGPD quanto à responsabilização e à mutabilidade, enquanto redes permissionadas podem mitigar parte desses problemas com controles técnicos, contratuais e operacionais; recomendou ainda procedimentos de contingência e proteção das chaves secretas.",
+          "deriva_de": [
+            "u::166::00206",
+            "u::166::00208",
+            "u::166::00203",
+            "u::166::00204"
+          ]
+        },
+        {
+          "texto": "Felipe Leão afirmou que, no b-CPF, o interesse público justificaria desativar um cadastro, por exemplo em caso de falecimento, sem apagá-lo, mas, ao responder a Caio sobre situações que exigiriam exclusão, apresentou o cenário extremo e hipotético de inserção de conteúdo de abuso sexual infantil por falha em contrato inteligente ou uso indevido de credencial.",
+          "deriva_de": [
+            "u::166::00306",
+            "u::166::00444",
+            "u::166::00449"
+          ]
+        },
+        {
+          "texto": "Nesse cenário, Felipe sustentou que o conteúdo não poderia permanecer disponível e que, sem possibilidade de removê-lo, seria necessário derrubar a rede; apontou como alternativa em discussão manter o hash na cadeia e o conteúdo em armazenamento externo, preservando o rastreio da inclusão sem tornar o próprio dado necessariamente perene.",
+          "deriva_de": [
+            "u::166::00451",
+            "u::166::00452",
+            "u::166::00457",
+            "u::166::00466"
+          ]
+        },
+        {
+          "texto": "Ao responder sobre a segurança dos bancos de dados tradicionais, Jeferson considerou robustas e consolidadas tanto as estruturas centralizadas quanto as distribuídas e relacionou invasões e vazamentos à camada de segurança; Caio contestou a segurança dos sistemas atuais para o cidadão, e Jeferson posteriormente reconheceu que eles não oferecem proteção suficiente.",
+          "deriva_de": [
+            "u::166::00476",
+            "u::166::00477",
+            "u::166::00485",
+            "u::166::00535"
+          ]
+        },
+        {
+          "texto": "Caio defendeu que o Governo deve oferecer garantias de proteção ao cidadão que fornece dados para serviços públicos e questionou como evitar novos vazamentos, especialmente diante da perspectiva de prontuários digitais com informações sensíveis de saúde.",
+          "deriva_de": [
+            "u::166::00532",
+            "u::166::00488"
+          ]
+        },
+        {
+          "texto": "Eliana Cardoso Emediato de Azambuja destacou a segurança cibernética e a confiança no ambiente digital, defendendo capacitação de pessoas e informação aos cidadãos sobre riscos, além da atuação de diferentes instituições; Raimundo Santos ressaltou os direitos constitucionais à privacidade e à intimidade e a necessidade de avançar na proteção de dados.",
+          "deriva_de": [
+            "u::166::00511",
+            "u::166::00506",
+            "u::166::00513",
+            "u::166::00568",
+            "u::166::00570"
+          ]
+        },
+        {
+          "texto": "Caio defendeu acesso permanente aos dados de gastos públicos e informou ter protocolado projeto de lei voltado à transparência, rastreabilidade, auditabilidade e mutabilidade dos dados públicos, com correções que preservem o histórico, associando a tecnologia ao acompanhamento dos recursos e ao apoio às auditorias e ao combate à corrupção.",
+          "deriva_de": [
+            "u::166::00491",
+            "u::166::00551",
+            "u::166::00553",
+            "u::166::00556"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00017",
+        "u::166::00018",
+        "u::166::00025",
+        "u::166::00028",
+        "u::166::00029",
+        "u::166::00030",
+        "u::166::00032",
+        "u::166::00034",
+        "u::166::00038",
+        "u::166::00044",
+        "u::166::00045",
+        "u::166::00047",
+        "u::166::00048",
+        "u::166::00049",
+        "u::166::00057",
+        "u::166::00066",
+        "u::166::00111",
+        "u::166::00128",
+        "u::166::00137",
+        "u::166::00138",
+        "u::166::00149",
+        "u::166::00171",
+        "u::166::00175",
+        "u::166::00180",
+        "u::166::00182",
+        "u::166::00183",
+        "u::166::00185",
+        "u::166::00189",
+        "u::166::00190",
+        "u::166::00191",
+        "u::166::00193",
+        "u::166::00195",
+        "u::166::00196",
+        "u::166::00198",
+        "u::166::00200",
+        "u::166::00201",
+        "u::166::00203",
+        "u::166::00204",
+        "u::166::00205",
+        "u::166::00206",
+        "u::166::00207",
+        "u::166::00208",
+        "u::166::00210",
+        "u::166::00219",
+        "u::166::00221",
+        "u::166::00222",
+        "u::166::00223",
+        "u::166::00224",
+        "u::166::00225",
+        "u::166::00284",
+        "u::166::00288",
+        "u::166::00306",
+        "u::166::00317",
+        "u::166::00324",
+        "u::166::00328",
+        "u::166::00329",
+        "u::166::00336",
+        "u::166::00339",
+        "u::166::00340",
+        "u::166::00341",
+        "u::166::00342",
+        "u::166::00344",
+        "u::166::00345",
+        "u::166::00347",
+        "u::166::00348",
+        "u::166::00352",
+        "u::166::00353",
+        "u::166::00356",
+        "u::166::00357",
+        "u::166::00360",
+        "u::166::00364",
+        "u::166::00366",
+        "u::166::00368",
+        "u::166::00369",
+        "u::166::00371",
+        "u::166::00372",
+        "u::166::00379",
+        "u::166::00397",
+        "u::166::00398",
+        "u::166::00399",
+        "u::166::00400",
+        "u::166::00401",
+        "u::166::00402",
+        "u::166::00405",
+        "u::166::00414",
+        "u::166::00416",
+        "u::166::00417",
+        "u::166::00419",
+        "u::166::00437",
+        "u::166::00444",
+        "u::166::00446",
+        "u::166::00449",
+        "u::166::00450",
+        "u::166::00451",
+        "u::166::00452",
+        "u::166::00453",
+        "u::166::00455",
+        "u::166::00456",
+        "u::166::00457",
+        "u::166::00458",
+        "u::166::00459",
+        "u::166::00460",
+        "u::166::00461",
+        "u::166::00462",
+        "u::166::00463",
+        "u::166::00464",
+        "u::166::00465",
+        "u::166::00466",
+        "u::166::00469",
+        "u::166::00472",
+        "u::166::00473",
+        "u::166::00474",
+        "u::166::00476",
+        "u::166::00477",
+        "u::166::00482",
+        "u::166::00484",
+        "u::166::00485",
+        "u::166::00488",
+        "u::166::00489",
+        "u::166::00490",
+        "u::166::00491",
+        "u::166::00493",
+        "u::166::00497",
+        "u::166::00499",
+        "u::166::00506",
+        "u::166::00507",
+        "u::166::00508",
+        "u::166::00511",
+        "u::166::00512",
+        "u::166::00513",
+        "u::166::00514",
+        "u::166::00515",
+        "u::166::00516",
+        "u::166::00517",
+        "u::166::00518",
+        "u::166::00519",
+        "u::166::00528",
+        "u::166::00532",
+        "u::166::00535",
+        "u::166::00543",
+        "u::166::00545",
+        "u::166::00548",
+        "u::166::00551",
+        "u::166::00553",
+        "u::166::00555",
+        "u::166::00556",
+        "u::166::00561",
+        "u::166::00562",
+        "u::166::00568",
+        "u::166::00569",
+        "u::166::00570",
+        "u::166::00573",
+        "u::166::00577"
+      ],
+      "unidades_citadas": [
+        "u::166::00018",
+        "u::166::00028",
+        "u::166::00029",
+        "u::166::00030",
+        "u::166::00034",
+        "u::166::00048",
+        "u::166::00049",
+        "u::166::00128",
+        "u::166::00137",
+        "u::166::00138",
+        "u::166::00175",
+        "u::166::00180",
+        "u::166::00182",
+        "u::166::00183",
+        "u::166::00185",
+        "u::166::00190",
+        "u::166::00191",
+        "u::166::00193",
+        "u::166::00195",
+        "u::166::00203",
+        "u::166::00204",
+        "u::166::00206",
+        "u::166::00208",
+        "u::166::00222",
+        "u::166::00223",
+        "u::166::00224",
+        "u::166::00306",
+        "u::166::00328",
+        "u::166::00339",
+        "u::166::00344",
+        "u::166::00345",
+        "u::166::00347",
+        "u::166::00348",
+        "u::166::00364",
+        "u::166::00366",
+        "u::166::00379",
+        "u::166::00398",
+        "u::166::00399",
+        "u::166::00400",
+        "u::166::00414",
+        "u::166::00419",
+        "u::166::00444",
+        "u::166::00449",
+        "u::166::00451",
+        "u::166::00452",
+        "u::166::00457",
+        "u::166::00466",
+        "u::166::00476",
+        "u::166::00477",
+        "u::166::00485",
+        "u::166::00488",
+        "u::166::00491",
+        "u::166::00506",
+        "u::166::00511",
+        "u::166::00513",
+        "u::166::00532",
+        "u::166::00535",
+        "u::166::00543",
+        "u::166::00551",
+        "u::166::00553",
+        "u::166::00556",
+        "u::166::00568",
+        "u::166::00570"
+      ],
+      "participantes": [
+        "Diego Oliveira Farias",
+        "Aristides Andrade Cavalcante Neto",
+        "Chicão Bulhões",
+        "Eliana Cardoso Emediato de Azambuja",
+        "Julien Dutra",
+        "Jeferson Dias Barbosa",
+        "Caio Sanas",
+        "Felipe Leão",
+        "Caio Vianna",
+        "Raimundo Santos"
+      ]
+    },
+    {
+      "id": "t::166::07",
+      "titulo": "Regulação, governança pública e proteção de dados nas aplicações de blockchain",
+      "frases": [
+        {
+          "texto": "Diego Oliveira Farias relatou que as aplicações identificadas pelo TCU se apoiavam em normas internas das organizações, sem inserção legal específica, e que a legislação não reconhecia contratos inteligentes como vinculativos e aplicáveis nos tribunais.",
+          "deriva_de": [
+            "u::166::00020",
+            "u::166::00021"
+          ]
+        },
+        {
+          "texto": "Também informou que o TCU não identificou regulamentação de incentivo à pesquisa e ao desenvolvimento em blockchain nem sandbox regulatório para startups do setor, e apontou a falta de previsão legal aplicável a todo o Governo.",
+          "deriva_de": [
+            "u::166::00022",
+            "u::166::00354"
+          ]
+        },
+        {
+          "texto": "Retomando a observação de Diego sobre a lacuna legislativa, Caio Sanas afirmou que a adoção de contratos inteligentes poderia desafogar o Poder Judiciário.",
+          "deriva_de": [
+            "u::166::00229",
+            "u::166::00231"
+          ]
+        },
+        {
+          "texto": "Aristides Andrade Cavalcante Neto apontou custos, dificuldades de atualização e riscos de controle e responsabilização no compartilhamento centralizado de informações, enquanto Felipe Leão relatou dificuldades para compartilhar bases relacionais entre atores públicos e privados.",
+          "deriva_de": [
+            "u::166::00046",
+            "u::166::00272"
+          ]
+        },
+        {
+          "texto": "Felipe Leão apresentou a RBB como uma rede voltada a soluções de interesse público, com nove participantes, oito deles integrantes do Comitê Executivo responsável pela governança, e explicou que a expectativa era submeter cada solução à avaliação prévia desse comitê para validar seu interesse público.",
+          "deriva_de": [
+            "u::166::00281",
+            "u::166::00285",
+            "u::166::00448"
+          ]
+        },
+        {
+          "texto": "Caio Vianna relatou a falta de comunicação entre sistemas de saúde municipais e estaduais e a sobreposição de soluções desenvolvidas por ministérios, com desperdício de recursos e tempo, e perguntou como o Governo tratava a integração e a coordenação do desenvolvimento de sistemas.",
+          "deriva_de": [
+            "u::166::00420",
+            "u::166::00428",
+            "u::166::00426",
+            "u::166::00429"
+          ]
+        },
+        {
+          "texto": "Em resposta, Eliana Cardoso Emediato de Azambuja explicou que a Casa Civil coordenava a estratégia porque um ministério não comanda outro e afirmou que, após a mudança governamental, era necessário recuperar a liderança e reunir novamente as instituições para alinhar políticas e direcionar recursos.",
+          "deriva_de": [
+            "u::166::00432",
+            "u::166::00438",
+            "u::166::00439"
+          ]
+        },
+        {
+          "texto": "Jeferson Dias Barbosa observou que os princípios da LGPD foram concebidos em um contexto de gestão centralizada, enquanto a governança descentralizada, a multiplicidade de intervenientes e a distribuição dos dados por vários nós tornam mais complexas a definição de papéis e a operacionalização das responsabilidades.",
+          "deriva_de": [
+            "u::166::00179",
+            "u::166::00199"
+          ]
+        },
+        {
+          "texto": "Jeferson também relatou que instituições frequentemente negligenciam mecanismos técnicos, operacionais e administrativos de segurança, possibilitando vazamentos.",
+          "deriva_de": [
+            "u::166::00475"
+          ]
+        },
+        {
+          "texto": "Caio Vianna questionou quem detém os dados e sustentou que o cidadão não controla, na prática, as informações fornecidas ao Governo e às empresas; criticou ainda o foco na adequação das empresas à LGPD sem atenção suficiente a quem efetivamente armazena os dados.",
+          "deriva_de": [
+            "u::166::00529",
+            "u::166::00483",
+            "u::166::00498"
+          ]
+        },
+        {
+          "texto": "Vianna ressaltou que apoiava a inovação e que sua preocupação era o uso de ferramentas inadequadas diante de invasões e perdas de dados, além de advertir que a implementação da tecnologia sem estudo prévio poderia gerar problemas em vez de soluções.",
+          "deriva_de": [
+            "u::166::00530",
+            "u::166::00421"
+          ]
+        },
+        {
+          "texto": "Julien Dutra defendeu um esforço conjunto do Governo e dos setores público e privado para enfrentar os problemas discutidos.",
+          "deriva_de": [
+            "u::166::00549"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00020",
+        "u::166::00021",
+        "u::166::00022",
+        "u::166::00046",
+        "u::166::00154",
+        "u::166::00179",
+        "u::166::00199",
+        "u::166::00213",
+        "u::166::00220",
+        "u::166::00229",
+        "u::166::00231",
+        "u::166::00244",
+        "u::166::00272",
+        "u::166::00281",
+        "u::166::00282",
+        "u::166::00285",
+        "u::166::00301",
+        "u::166::00316",
+        "u::166::00319",
+        "u::166::00350",
+        "u::166::00354",
+        "u::166::00420",
+        "u::166::00421",
+        "u::166::00426",
+        "u::166::00427",
+        "u::166::00428",
+        "u::166::00429",
+        "u::166::00432",
+        "u::166::00436",
+        "u::166::00438",
+        "u::166::00439",
+        "u::166::00448",
+        "u::166::00475",
+        "u::166::00483",
+        "u::166::00495",
+        "u::166::00498",
+        "u::166::00525",
+        "u::166::00529",
+        "u::166::00530",
+        "u::166::00549",
+        "u::166::00554",
+        "u::166::00559"
+      ],
+      "unidades_citadas": [
+        "u::166::00020",
+        "u::166::00021",
+        "u::166::00022",
+        "u::166::00046",
+        "u::166::00179",
+        "u::166::00199",
+        "u::166::00229",
+        "u::166::00231",
+        "u::166::00272",
+        "u::166::00281",
+        "u::166::00285",
+        "u::166::00354",
+        "u::166::00420",
+        "u::166::00421",
+        "u::166::00426",
+        "u::166::00428",
+        "u::166::00429",
+        "u::166::00432",
+        "u::166::00438",
+        "u::166::00439",
+        "u::166::00448",
+        "u::166::00475",
+        "u::166::00483",
+        "u::166::00498",
+        "u::166::00529",
+        "u::166::00530",
+        "u::166::00549"
+      ],
+      "participantes": [
+        "Diego Oliveira Farias",
+        "Aristides Andrade Cavalcante Neto",
+        "Julien Dutra",
+        "Jeferson Dias Barbosa",
+        "Caio Sanas",
+        "Felipe Leão",
+        "Caio Vianna",
+        "Eliana Cardoso Emediato de Azambuja"
+      ]
+    },
+    {
+      "id": "t::166::08",
+      "titulo": "Avanços e desafios da inovação digital e do uso de blockchain no Brasil",
+      "frases": [
+        {
+          "texto": "Chicão Bulhões apresentou o Rio de Janeiro como a segunda maior economia do País e destacou a criação, no terceiro mandato de Eduardo Paes, de estruturas de desenvolvimento econômico, inovação e simplificação, gestão de dados e transformação digital.",
+          "deriva_de": [
+            "u::166::00062",
+            "u::166::00063"
+          ]
+        },
+        {
+          "texto": "Segundo Bulhões, a cidade busca, mas ainda não alcançou, a posição de capital nacional da inovação tecnológica, apoiando-se na produção de conhecimento e profissionais por suas universidades e na realização prevista do Web Summit e de outros eventos para ampliar oportunidades.",
+          "deriva_de": [
+            "u::166::00077",
+            "u::166::00078",
+            "u::166::00082"
+          ]
+        },
+        {
+          "texto": "Eliana Cardoso Emediato de Azambuja explicou que a Estratégia Brasileira de Transformação Digital, criada em 2018, é liderada pela Casa Civil, tem o MCTI como Secretaria-Executiva e envolve diversos órgãos, e mencionou também a Estratégia Brasileira de Inteligência Artificial.",
+          "deriva_de": [
+            "u::166::00093",
+            "u::166::00431",
+            "u::166::00094"
+          ]
+        },
+        {
+          "texto": "Eliana também relatou o apoio do MCTI a programas com a FAPESP e o Comitê Gestor da Internet, utilizando recursos depositados na fundação quando começaram os registros de domínios no Brasil.",
+          "deriva_de": [
+            "u::166::00113"
+          ]
+        },
+        {
+          "texto": "No campo normativo, Caio Sanas destacou a presença da inovação na Constituição de 1988, frequentemente associada ao desenvolvimento econômico e social, enquanto Julien Dutra qualificou como inovadora a Instrução Normativa nº 1.888, de 2019, por definir ativos virtuais e regras de reporte à Receita Federal de operações acima de R$ 30 mil.",
+          "deriva_de": [
+            "u::166::00212",
+            "u::166::00141"
+          ]
+        },
+        {
+          "texto": "Sanas afirmou que o Brasil está entre os países mais avançados no desenvolvimento de blockchain, sobretudo no governo, citando iniciativas do TCU, Banco Central, BNDES, Drex, e-Notariado, estados e municípios; Diego Oliveira Farias relatou ter observado no evento a adesão de Minas Gerais e Maranhão à rede.",
+          "deriva_de": [
+            "u::166::00234",
+            "u::166::00235",
+            "u::166::00415"
+          ]
+        },
+        {
+          "texto": "Caio Vianna defendeu acelerar o desenvolvimento de redes distribuídas e da web 3.0 para evitar a perda de participação e oportunidades, e alertou que o Brasil exporta profissionais qualificados em vez de retê-los para desenvolver o mercado nacional.",
+          "deriva_de": [
+            "u::166::00423",
+            "u::166::00425",
+            "u::166::00314"
+          ]
+        },
+        {
+          "texto": "Vianna perguntou como eram avaliadas as redes próprias desenvolvidas pelo TCU, Banco Central e outras entidades brasileiras, além de questionar se o Drex seria indexado ao real.",
+          "deriva_de": [
+            "u::166::00333",
+            "u::166::00392"
+          ]
+        },
+        {
+          "texto": "Eliana avaliou que o Brasil está avançado na área digital, ressaltou a necessidade de acompanhar experiências internacionais e relatou a impressão favorável de alemães sobre o governo brasileiro e a ausência, na Europa, de alguns serviços digitais mencionados.",
+          "deriva_de": [
+            "u::166::00502",
+            "u::166::00522"
+          ]
+        },
+        {
+          "texto": "Nesse debate, Vianna esclareceu que não considerava o governo brasileiro atrasado em inovação, e Eliana respondeu que sua avaliação se referia ao Brasil de maneira mais ampla, não apenas ao governo; Raimundo Santos concordou com a percepção de avanço do País.",
+          "deriva_de": [
+            "u::166::00523",
+            "u::166::00524",
+            "u::166::00564"
+          ]
+        },
+        {
+          "texto": "Quanto à tecnologia discutida, Vianna afirmou que a OCDE e a ONU reconhecem seu valor, mas avaliou que o Brasil ainda está no início, apesar das iniciativas promissoras e do trabalho em andamento.",
+          "deriva_de": [
+            "u::166::00576"
+          ]
+        },
+        {
+          "texto": "Vianna também defendeu que gastos e investimentos públicos não sejam simplesmente apagados da história do País e denunciou que, no Estado do Rio, uma única empresa seria responsável por mais de 150 moedas sociais, com recursos de várias prefeituras concentrados em uma conta, dificultando a auditoria e o controle.",
+          "deriva_de": [
+            "u::166::00552",
+            "u::166::00557"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00062",
+        "u::166::00063",
+        "u::166::00077",
+        "u::166::00078",
+        "u::166::00082",
+        "u::166::00093",
+        "u::166::00094",
+        "u::166::00113",
+        "u::166::00141",
+        "u::166::00212",
+        "u::166::00234",
+        "u::166::00235",
+        "u::166::00266",
+        "u::166::00268",
+        "u::166::00313",
+        "u::166::00314",
+        "u::166::00333",
+        "u::166::00392",
+        "u::166::00415",
+        "u::166::00423",
+        "u::166::00425",
+        "u::166::00431",
+        "u::166::00502",
+        "u::166::00503",
+        "u::166::00522",
+        "u::166::00523",
+        "u::166::00524",
+        "u::166::00552",
+        "u::166::00557",
+        "u::166::00564",
+        "u::166::00565",
+        "u::166::00576"
+      ],
+      "unidades_citadas": [
+        "u::166::00062",
+        "u::166::00063",
+        "u::166::00077",
+        "u::166::00078",
+        "u::166::00082",
+        "u::166::00093",
+        "u::166::00094",
+        "u::166::00113",
+        "u::166::00141",
+        "u::166::00212",
+        "u::166::00234",
+        "u::166::00235",
+        "u::166::00314",
+        "u::166::00333",
+        "u::166::00392",
+        "u::166::00415",
+        "u::166::00423",
+        "u::166::00425",
+        "u::166::00431",
+        "u::166::00502",
+        "u::166::00522",
+        "u::166::00523",
+        "u::166::00524",
+        "u::166::00552",
+        "u::166::00557",
+        "u::166::00564",
+        "u::166::00576"
+      ],
+      "participantes": [
+        "Chicão Bulhões",
+        "Eliana Cardoso Emediato de Azambuja",
+        "Julien Dutra",
+        "Caio Sanas",
+        "Felipe Leão",
+        "Caio Vianna",
+        "Diego Oliveira Farias",
+        "Raimundo Santos"
+      ]
+    },
+    {
+      "id": "t::166::09",
+      "titulo": "Aprofundamento legislativo, participação pública e cooperação com a ANPD",
+      "frases": [
+        {
+          "texto": "Soraya Santos destacou que a contribuição dos participantes permite legislar com maior segurança, enquanto Chicão Bulhões advertiu que discussões macro podem deixar de lado pequenos problemas cotidianos da administração, apesar dos avanços já obtidos.",
+          "deriva_de": [
+            "u::166::00168",
+            "u::166::00067"
+          ]
+        },
+        {
+          "texto": "Caio Vianna defendeu a ampliação das discussões no Congresso e a modernização da legislação em conjunto com a ANPD, para garantir um ambiente seguro ao desenvolvimento.",
+          "deriva_de": [
+            "u::166::00315",
+            "u::166::00494",
+            "u::166::00424"
+          ]
+        },
+        {
+          "texto": "Jeferson Dias Barbosa informou que a ANPD mantinha, até 14 de outubro, consulta pública sobre transferências internacionais e cláusulas-padrão contratuais, disponível no Participa + Brasil e no site da autoridade, convidou os presentes a contribuir e colocou a instituição à disposição para aprofundar as discussões.",
+          "deriva_de": [
+            "u::166::00187",
+            "u::166::00188",
+            "u::166::00211"
+          ]
+        },
+        {
+          "texto": "Ao avaliar as respostas recebidas, Caio Vianna reconheceu que ainda havia um longo caminho, mas também soluções, e sustentou que os benefícios continuariam relevantes caso fosse contornado o desafio da exclusão.",
+          "deriva_de": [
+            "u::166::00467",
+            "u::166::00468"
+          ]
+        },
+        {
+          "texto": "Eliana Cardoso Emediato de Azambuja destacou a importância da questão da infraestrutura e seu possível impacto na vida do cidadão; Caio Vianna concordou que educar e capacitar a população também é responsabilidade do Governo.",
+          "deriva_de": [
+            "u::166::00504",
+            "u::166::00531"
+          ]
+        },
+        {
+          "texto": "Em resposta à distinção entre o avanço dos dados e sua utilização, Jeferson Dias Barbosa afirmou concordância com o interlocutor e com a ANPD, inclusive sobre a necessidade de melhorar os sistemas; Caio Vianna pediu desculpas por ter interpretado que havia discordância.",
+          "deriva_de": [
+            "u::166::00534",
+            "u::166::00538",
+            "u::166::00542"
+          ]
+        },
+        {
+          "texto": "Raimundo Santos pediu uma análise aprofundada do projeto para que a proteção constitucional se tornasse realidade para o cidadão, e Caio Vianna afirmou que o assunto continuaria avançando após a audiência.",
+          "deriva_de": [
+            "u::166::00567",
+            "u::166::00571"
+          ]
+        }
+      ],
+      "unidades": [
+        "u::166::00067",
+        "u::166::00168",
+        "u::166::00187",
+        "u::166::00188",
+        "u::166::00211",
+        "u::166::00255",
+        "u::166::00264",
+        "u::166::00315",
+        "u::166::00318",
+        "u::166::00325",
+        "u::166::00338",
+        "u::166::00351",
+        "u::166::00395",
+        "u::166::00424",
+        "u::166::00445",
+        "u::166::00454",
+        "u::166::00467",
+        "u::166::00468",
+        "u::166::00494",
+        "u::166::00500",
+        "u::166::00501",
+        "u::166::00504",
+        "u::166::00510",
+        "u::166::00531",
+        "u::166::00534",
+        "u::166::00538",
+        "u::166::00542",
+        "u::166::00567",
+        "u::166::00571"
+      ],
+      "unidades_citadas": [
+        "u::166::00067",
+        "u::166::00168",
+        "u::166::00187",
+        "u::166::00188",
+        "u::166::00211",
+        "u::166::00315",
+        "u::166::00424",
+        "u::166::00467",
+        "u::166::00468",
+        "u::166::00494",
+        "u::166::00504",
+        "u::166::00531",
+        "u::166::00534",
+        "u::166::00538",
+        "u::166::00542",
+        "u::166::00567",
+        "u::166::00571"
+      ],
+      "participantes": [
+        "Chicão Bulhões",
+        "Soraya Santos",
+        "Jeferson Dias Barbosa",
+        "Caio Sanas",
+        "Caio Vianna",
+        "Diego Oliveira Farias",
+        "Felipe Leão",
+        "Eliana Cardoso Emediato de Azambuja",
+        "Raimundo Santos"
+      ]
+    }
+  ],
+  "cobertura": {
+    "blocos": 73,
+    "unidades": 561,
+    "unidades_rejeitadas_sem_ancora": 17,
+    "unidades_ancora_exata_simplificacao": 561,
+    "taxa_ancora_exata_simplificacao": 1.0,
+    "unidades_ancora_exata_original": 561,
+    "taxa_ancora_exata_original": 1.0,
+    "unidades_associadas_a_tema": 561,
+    "unidades_citadas_na_sintese": 327,
+    "taxa_unidades_citadas_na_sintese": 0.582888
+  },
+  "selecao_temas": {
+    "k_escolhido": 9,
+    "k_antes_fusoes": 9,
+    "k_min": 8,
+    "k_max": 10,
+    "metodo": "ward_euclidiano_sobre_embeddings_normalizados",
+    "criterio": "menor_k_na_faixa_adaptativa_dentro_da_tolerancia_do_melhor_score",
+    "melhor_score": -0.13334,
+    "candidatos": [
+      {
+        "k": 8,
+        "silhueta": 0.071774,
+        "max_similaridade_entre_temas": 0.86794,
+        "taxa_temas_unitarios": 0.0,
+        "score": -0.18315
+      },
+      {
+        "k": 9,
+        "silhueta": 0.077971,
+        "max_similaridade_entre_temas": 0.825049,
+        "taxa_temas_unitarios": 0.0,
+        "score": -0.13334
+      },
+      {
+        "k": 10,
+        "silhueta": 0.07888,
+        "max_similaridade_entre_temas": 0.877302,
+        "taxa_temas_unitarios": 0.0,
+        "score": -0.207748
+      }
+    ],
+    "fusoes": [],
+    "fusoes_pos_sintese": [],
+    "k_final": 9
+  }
+}

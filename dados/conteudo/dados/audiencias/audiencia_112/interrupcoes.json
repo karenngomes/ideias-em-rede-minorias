@@ -1,0 +1,334 @@
+{
+  "sample_id": 112,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 64,
+      "n_palavras": 20909,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.09375,
+      "eventos_por_mil_palavras": 0.286957769381606,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 37,
+          "n_palavras": 13403,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.16216216216216217,
+          "eventos_por_mil_palavras": 0.447660971424308
+        },
+        "parlamentares": {
+          "n_oportunidades": 27,
+          "n_palavras": 7506,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16216216216216217,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "intercalacao": 2,
+        "manifestacao_plateia": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 64,
+      "n_palavras": 20909,
+      "n_eventos": 8,
+      "n_turnos_interrompidos": 8,
+      "taxa_turnos": 0.125,
+      "eventos_por_mil_palavras": 0.3826103591754747,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 37,
+          "n_palavras": 13403,
+          "n_eventos": 7,
+          "n_turnos_interrompidos": 7,
+          "taxa_turnos": 0.1891891891891892,
+          "eventos_por_mil_palavras": 0.5222711333283593
+        },
+        "parlamentares": {
+          "n_oportunidades": 27,
+          "n_palavras": 7506,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.037037037037037035,
+          "eventos_por_mil_palavras": 0.1332267519317879
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15215215215215216,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "gestao_tempo": 3,
+        "manifestacao_plateia": 4
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 64,
+      "n_palavras": 20909,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.078125,
+      "eventos_por_mil_palavras": 0.23913147448467167,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 37,
+          "n_palavras": 13403,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.10810810810810811,
+          "eventos_por_mil_palavras": 0.2984406476162053
+        },
+        "parlamentares": {
+          "n_oportunidades": 27,
+          "n_palavras": 7506,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.037037037037037035,
+          "eventos_por_mil_palavras": 0.1332267519317879
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07107107107107108,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "manifestacao_plateia": 4
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 64,
+      "n_palavras": 20909,
+      "n_eventos": 11,
+      "n_turnos_interrompidos": 11,
+      "taxa_turnos": 0.171875,
+      "eventos_por_mil_palavras": 0.5260892438662776,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 37,
+          "n_palavras": 13403,
+          "n_eventos": 10,
+          "n_turnos_interrompidos": 10,
+          "taxa_turnos": 0.2702702702702703,
+          "eventos_por_mil_palavras": 0.7461016190405133
+        },
+        "parlamentares": {
+          "n_oportunidades": 27,
+          "n_palavras": 7506,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.037037037037037035,
+          "eventos_por_mil_palavras": 0.1332267519317879
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.23323323323323325,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "gestao_tempo": 3,
+        "intercalacao": 3,
+        "manifestacao_plateia": 4
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0001",
+      "alvo_turno_id": 22,
+      "alvo": "Carina Mineia dos Santos Trindade",
+      "interrompente": "plateia/desconhecido",
+      "tipo": "manifestacao_plateia",
+      "sinal": "A-X-A",
+      "trecho": "Eu gostaria de dizer uma coisa. Neste momento, não vamos interromper a fala da Carina. Já estamos fazendo isso, e não deveríamos.\n\nDepois vamos ouvir as outras intervenções.\n\nCarina, prossiga, por favor.",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 35612,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0002",
+      "alvo_turno_id": 38,
+      "alvo": "Rodrigo Carelli",
+      "interrompente": "Glauber Braga",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 46683,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0003",
+      "alvo_turno_id": 63,
+      "alvo": "Hítalo",
+      "interrompente": "Glauber Braga",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Gente, vamos garantir ao Hítalo a palavra, por favor!\n\nEu tenho que fazer o papel chato, pois alguém tem que assumir essa tarefa de coordenar os trabalhos e garantir que todos sejam ouvidos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 80507,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0004",
+      "alvo_turno_id": 71,
+      "alvo": "Denis Moura",
+      "interrompente": "Glauber Braga",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigado, Denis.\n\nEu quero só fazer uma correção. Naquela discussão com o Deputado Zarattini, nós não estávamos do mesmo lado. A minha posição continua sendo a mesma.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 92545,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0005",
+      "alvo_turno_id": 84,
+      "alvo": "Aderson Ribeiro da Silva",
+      "interrompente": "Glauber Braga",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 100041,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0006",
+      "alvo_turno_id": 89,
+      "alvo": "Gleidson Veras",
+      "interrompente": "Glauber Braga",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 103983,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0007",
+      "alvo_turno_id": 116,
+      "alvo": "Carina Mineia dos Santos Trindade",
+      "interrompente": "Daniel Agrobom",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Mas aí tem urgência para a carta...",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 127250,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0008",
+      "alvo_turno_id": 42,
+      "alvo": "Simone Almeida",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "ar recebendo por hora e tempo, sim.\n\nE, mais uma coisa, isso vai ser maravilhoso, porque poderá aumentar os nossos ganhos. As plataformas vão continuar com a...(Manifestação na plateia.)",
+      "origem": "plateia",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 50336,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0009",
+      "alvo_turno_id": 46,
+      "alvo": "Daniel Agrobom",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "ia Bomfim, minha colega Deputada Dayany Bittencourt e Deputado Hildo do Candango, que estava por aqui agora.\n\nBom dia a todos os motoristas que estão presentes.(Manifestação na plateia.)\n\nEu gosto sempre de iniciar minhas palavras agradecendo a Deus, porque esta oportunidade que estamos tendo aqui, gostaríamos de ter tido lá no grupo de trabalh",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 53825,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0010",
+      "alvo_turno_id": 91,
+      "alvo": "Gleidson Veras",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "eiro: a mulher é mulher independentemente do momento em que ela tiver um filho, está certo? Então, é importante reforçarmos essa posição. Entendo que foi uma...(Manifestação na plateia.)\n\nSenhores e senhoras, a mulher é mulher, independentemente de ter um filho.\n\nSenhores e senhoras, ele teve a oportunidade de fazer a sua colocação.\n\nEu estou t",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 105446,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 112,
+      "evento_id": "112:e0011",
+      "alvo_turno_id": 2,
+      "alvo": "Jair Gomes de Almeida",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "É até menos!",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 7062,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

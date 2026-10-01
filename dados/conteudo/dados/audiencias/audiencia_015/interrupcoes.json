@@ -1,0 +1,351 @@
+{
+  "sample_id": 15,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 50,
+      "n_palavras": 24425,
+      "n_eventos": 7,
+      "n_turnos_interrompidos": 7,
+      "taxa_turnos": 0.14,
+      "eventos_por_mil_palavras": 0.2865916069600819,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 14418,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.06935774726036899
+        },
+        "parlamentares": {
+          "n_oportunidades": 34,
+          "n_palavras": 10007,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.17647058823529413,
+          "eventos_por_mil_palavras": 0.599580293794344
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.11397058823529413,
+      "por_tipo": {
+        "gestao_tempo": 4,
+        "intercalacao": 1,
+        "manifestacao_plateia": 1,
+        "procedimento": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 50,
+      "n_palavras": 24425,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.24564994882292732,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 14418,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.06935774726036899
+        },
+        "parlamentares": {
+          "n_oportunidades": 34,
+          "n_palavras": 10007,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.11764705882352941,
+          "eventos_por_mil_palavras": 0.49965024482861997
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.05514705882352941,
+      "por_tipo": {
+        "gestao_tempo": 4,
+        "manifestacao_plateia": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 50,
+      "n_palavras": 24425,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02,
+      "eventos_por_mil_palavras": 0.08188331627430911,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 14418,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 34,
+          "n_palavras": 10007,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.029411764705882353,
+          "eventos_por_mil_palavras": 0.199860097931448
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.029411764705882353,
+      "por_tipo": {
+        "manifestacao_plateia": 2
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 50,
+      "n_palavras": 24425,
+      "n_eventos": 12,
+      "n_turnos_interrompidos": 11,
+      "taxa_turnos": 0.22,
+      "eventos_por_mil_palavras": 0.49129989764585463,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 14418,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.13871549452073798
+        },
+        "parlamentares": {
+          "n_oportunidades": 34,
+          "n_palavras": 10007,
+          "n_eventos": 10,
+          "n_turnos_interrompidos": 9,
+          "taxa_turnos": 0.2647058823529412,
+          "eventos_por_mil_palavras": 0.9993004896572399
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.13970588235294118,
+      "por_tipo": {
+        "gestao_tempo": 4,
+        "intercalacao": 5,
+        "manifestacao_plateia": 2,
+        "procedimento": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0001",
+      "alvo_turno_id": 14,
+      "alvo": "Caio Salvino",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Dr. Caio, eu sinto ter que interrompê-lo, mas os 20 minutos já se esgotaram, e precisamos prosseguir. Depois, na resposta às perguntas, o senhor pode complementar sua fala.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 55954,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0002",
+      "alvo_turno_id": 30,
+      "alvo": "Jorge Solla",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Deputado, nós estamos aguardando a chegada da sua delegação como Vice-Líder. Então, eu vou seguir a lista. Vou conceder mais 1 minuto a V.Exa., para V.Exa. concluir, e, chegando a delegação, eu lhe dou o tempo de Líder.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 77473,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0003",
+      "alvo_turno_id": 34,
+      "alvo": "General Girão",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Conclua, Deputado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 82352,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0004",
+      "alvo_turno_id": 38,
+      "alvo": "Sargento Gonçalves",
+      "interrompente": "plateia/desconhecido",
+      "tipo": "manifestacao_plateia",
+      "sinal": "A-X-A",
+      "trecho": "Vamos respeitar.\n\nAssessoria, eu peço que respeitem a fala do Deputado. Senão, vou ter que esvaziar o plenário.",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 83803,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0005",
+      "alvo_turno_id": 50,
+      "alvo": "Coronel Chrisóstomo",
+      "interrompente": "Eder Gatti",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eu fui do corpo de saúde. Meu papel no Exército era salvar vidas.(Palmas.)",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 99581,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0006",
+      "alvo_turno_id": 68,
+      "alvo": "Delegado Paulo Bilynskyj",
+      "interrompente": "Eder Gatti",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Isso depende da variante. Por exemplo, nos estudos clínicos, há determinada proporção definida. Vou dar um exemplo: quando foi licenciada a vacina de vírus inativado, 50,4% das pessoas imunizadas não adquiriam COVID. Esse foi um dado clínico.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 103508,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0007",
+      "alvo_turno_id": 78,
+      "alvo": "Delegado Paulo Bilynskyj",
+      "interrompente": "Eder Gatti",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Ele não disse isso. Eu, pelo menos, não ouvi em nenhum lugar ele dizendo isso, da forma como o senhor está dizendo. Eu desconheço.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 105553,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0008",
+      "alvo_turno_id": 80,
+      "alvo": "Delegado Paulo Bilynskyj",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que conclua, Deputado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 106966,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0009",
+      "alvo_turno_id": 95,
+      "alvo": "Franciane Bayer",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Por gentileza, eu peço ao pessoal que aguarda o próximo evento que espere do lado de fora. Não custa nada. Vocês não vão tumultuar nossa reunião.\n\nObrigada.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 130510,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0010",
+      "alvo_turno_id": 97,
+      "alvo": "Franciane Bayer",
+      "interrompente": "Bia Kicis",
+      "tipo": "procedimento",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigada, Deputada.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 131170,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0011",
+      "alvo_turno_id": 115,
+      "alvo": "Eder Gatti",
+      "interrompente": "Osmar Terra",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Presidente, depois eu quero responder.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 146478,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 15,
+      "evento_id": "015:e0012",
+      "alvo_turno_id": 38,
+      "alvo": "Sargento Gonçalves",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "filhas mais do que eu? Por elas, eu sou capaz de matar e de morrer. Existem riscos desconhecidos. E eu quero deixar claro aqui também que não sou negacionista.(Manifestação na plateia.)",
+      "origem": "plateia",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 83775,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

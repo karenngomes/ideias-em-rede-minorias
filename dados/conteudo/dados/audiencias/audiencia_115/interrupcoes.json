@@ -1,0 +1,239 @@
+{
+  "sample_id": 115,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 36,
+      "n_palavras": 22956,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.16666666666666666,
+      "eventos_por_mil_palavras": 0.26136957658128596,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 15531,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.3333333333333333,
+          "eventos_por_mil_palavras": 0.32193677161805423
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7425,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.13468013468013468
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2857142857142857,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "pergunta_intercalada": 1,
+        "tecnica": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 36,
+      "n_palavras": 22956,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.1388888888888889,
+      "eventos_por_mil_palavras": 0.21780798048440494,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 15531,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.26666666666666666,
+          "eventos_por_mil_palavras": 0.25754941729444336
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7425,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.13468013468013468
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.21904761904761905,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "tecnica": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 36,
+      "n_palavras": 22956,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 15531,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7425,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 36,
+      "n_palavras": 22956,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.16666666666666666,
+      "eventos_por_mil_palavras": 0.26136957658128596,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 15531,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.3333333333333333,
+          "eventos_por_mil_palavras": 0.32193677161805423
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7425,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.13468013468013468
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2857142857142857,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "pergunta_intercalada": 1,
+        "tecnica": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 115,
+      "evento_id": "115:e0001",
+      "alvo_turno_id": 15,
+      "alvo": "Luciana Vanni Gatti",
+      "interrompente": "Tarcísio Motta",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Fique tranquila. Você acha que consegue encerrar em 5 minutos?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 47166,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 115,
+      "evento_id": "115:e0002",
+      "alvo_turno_id": 17,
+      "alvo": "Luciana Vanni Gatti",
+      "interrompente": "Tarcísio Motta",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Luciana, se você puder acelerar a conclusão, por favor, porque senão vamos estourar o tempo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 53966,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 115,
+      "evento_id": "115:e0003",
+      "alvo_turno_id": 21,
+      "alvo": "Alexandre Araújo Costa",
+      "interrompente": "Tarcísio Motta",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Alexandre, se você puder acelerar a conclusão, eu agradeceria. Desculpe-me.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 74632,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 115,
+      "evento_id": "115:e0004",
+      "alvo_turno_id": 25,
+      "alvo": "Marcio Astrini",
+      "interrompente": "Tarcísio Motta",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Depois, todas as apresentações estarão disponíveis na pasta da Comissão, nositeda própria Câmara dos Deputados. Inclusive, estará completa sua apresentação, Marcio.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 79999,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 115,
+      "evento_id": "115:e0005",
+      "alvo_turno_id": 34,
+      "alvo": "Jorge Goetten",
+      "interrompente": "Tarcísio Motta",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Desculpe-me, Deputado. Religue o microfone, porque acho que cometi um erro aqui.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 110567,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 115,
+      "evento_id": "115:e0006",
+      "alvo_turno_id": 54,
+      "alvo": "Alexandre Araújo Costa",
+      "interrompente": "Tarcísio Motta",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Alexandre, obrigado. Repita o arroba, por favor. Qual é?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 139037,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

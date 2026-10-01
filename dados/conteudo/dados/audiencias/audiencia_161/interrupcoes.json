@@ -1,0 +1,261 @@
+{
+  "sample_id": 161,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 35,
+      "n_palavras": 20095,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.17142857142857143,
+      "eventos_por_mil_palavras": 0.2985817367504354,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 14862,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.29411764705882354,
+          "eventos_por_mil_palavras": 0.3364284753061499
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5233,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05555555555555555,
+          "eventos_por_mil_palavras": 0.19109497420217847
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.238562091503268,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "intercalacao": 1,
+        "interrupcao_explicita": 1,
+        "procedimento": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 35,
+      "n_palavras": 20095,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.11428571428571428,
+      "eventos_por_mil_palavras": 0.19905449116695695,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 14862,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.23529411764705882,
+          "eventos_por_mil_palavras": 0.26914278024491994
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5233,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.23529411764705882,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "interrupcao_explicita": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 35,
+      "n_palavras": 20095,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02857142857142857,
+      "eventos_por_mil_palavras": 0.04976362279173924,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 14862,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.058823529411764705,
+          "eventos_por_mil_palavras": 0.06728569506122999
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5233,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.058823529411764705,
+      "por_tipo": {
+        "interrupcao_explicita": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 35,
+      "n_palavras": 20095,
+      "n_eventos": 7,
+      "n_turnos_interrompidos": 7,
+      "taxa_turnos": 0.2,
+      "eventos_por_mil_palavras": 0.34834535954217466,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 14862,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.29411764705882354,
+          "eventos_por_mil_palavras": 0.3364284753061499
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5233,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.1111111111111111,
+          "eventos_por_mil_palavras": 0.38218994840435694
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18300653594771243,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "intercalacao": 2,
+        "interrupcao_explicita": 1,
+        "procedimento": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 161,
+      "evento_id": "161:e0001",
+      "alvo_turno_id": 3,
+      "alvo": "Ricardo Catanant",
+      "interrompente": "Neto Carletto",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Nós podemos estender para mais 5 minutos, caso seja necessário. Basta o senhor fazer a solicitação.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 7339,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 161,
+      "evento_id": "161:e0002",
+      "alvo_turno_id": 8,
+      "alvo": "Elton Fernandes",
+      "interrompente": "Juninho do Pneu",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Professor, respeitando o tempo regimental, eu lhe concedo mais 2 minutos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 30598,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 161,
+      "evento_id": "161:e0003",
+      "alvo_turno_id": 12,
+      "alvo": "Neto Carletto",
+      "interrompente": "Juninho do Pneu",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eu queria fazer um aparte.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 35797,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 161,
+      "evento_id": "161:e0004",
+      "alvo_turno_id": 15,
+      "alvo": "Juninho do Pneu",
+      "interrompente": "Neto Carletto",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Só quero retificar que seria interessante sabermos, em vez da quantidade, o percentual, pois teria uma relevância maior até para entendermos o cenário de uma forma geral.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 36576,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 161,
+      "evento_id": "161:e0005",
+      "alvo_turno_id": 32,
+      "alvo": "Alberto Fajerman",
+      "interrompente": "Neto Carletto",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 88521,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 161,
+      "evento_id": "161:e0006",
+      "alvo_turno_id": 48,
+      "alvo": "Jurema Monteiro",
+      "interrompente": "Neto Carletto",
+      "tipo": "interrupcao_explicita",
+      "sinal": "A-X-A",
+      "trecho": "Desculpe-me por interromper, mas quero só esclarecer que os dados são da Associação Internacional de Transportes Aéreos — IATA.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 122208,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 161,
+      "evento_id": "161:e0007",
+      "alvo_turno_id": 52,
+      "alvo": "Jurema Monteiro",
+      "interrompente": "Neto Carletto",
+      "tipo": "procedimento",
+      "sinal": "A-X-A",
+      "trecho": "Está concedido.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 123870,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

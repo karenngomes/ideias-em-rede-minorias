@@ -1,0 +1,220 @@
+{
+  "sample_id": 102,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 24,
+      "n_palavras": 12875,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.16666666666666666,
+      "eventos_por_mil_palavras": 0.3106796116504854,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 8443,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.3553239369892218
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 4432,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.08333333333333333,
+          "eventos_por_mil_palavras": 0.22563176895306858
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666669,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1,
+        "pergunta_intercalada": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 24,
+      "n_palavras": 12875,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.041666666666666664,
+      "eventos_por_mil_palavras": 0.07766990291262135,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 8443,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.08333333333333333,
+          "eventos_por_mil_palavras": 0.11844131232974062
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 4432,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.08333333333333333,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 24,
+      "n_palavras": 12875,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 8443,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 4432,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 24,
+      "n_palavras": 12875,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.20833333333333334,
+      "eventos_por_mil_palavras": 0.3883495145631068,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 8443,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.3333333333333333,
+          "eventos_por_mil_palavras": 0.47376524931896247
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 4432,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.08333333333333333,
+          "eventos_por_mil_palavras": 0.22563176895306858
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.25,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 2,
+        "pergunta_intercalada": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 102,
+      "evento_id": "102:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Eduardo Nery Machado Filho",
+      "interrompente": "Arnaldo Jardim",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "O senhor fala sobre portos marítimos e fluviais?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 23751,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 102,
+      "evento_id": "102:e0002",
+      "alvo_turno_id": 6,
+      "alvo": "Eduardo Nery Machado Filho",
+      "interrompente": "Arnaldo Jardim",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Dessas quatro hidrovias, qual seria a primeira?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 28559,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 102,
+      "evento_id": "102:e0003",
+      "alvo_turno_id": 25,
+      "alvo": "Dino Antunes Dias Batista",
+      "interrompente": "Arnaldo Jardim",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigado, Dr. Dino Antunes Dias Batista, por sua participação e exposição. Você tem um limite de tempo, não é, Dino?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 62705,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 102,
+      "evento_id": "102:e0004",
+      "alvo_turno_id": 35,
+      "alvo": "Eduardo Nery Machado Filho",
+      "interrompente": "Leônidas Cristino",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Quero dizer algo só para ajudar: não se pode separar o Tocantins do Araguaia, mesmo porque o problema grave está no Tocantins, com a questão do Pedral.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 75692,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 102,
+      "evento_id": "102:e0005",
+      "alvo_turno_id": 41,
+      "alvo": "Arnaldo Jardim",
+      "interrompente": "Leônidas Cristino",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Tem a palavra o Deputado Arnaldo Jardim.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 82087,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

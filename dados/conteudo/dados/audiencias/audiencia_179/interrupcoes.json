@@ -1,0 +1,144 @@
+{
+  "sample_id": 179,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 18,
+      "n_palavras": 10586,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.05555555555555555,
+      "eventos_por_mil_palavras": 0.09446438692612885,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8987,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11127183709803048
+        },
+        "parlamentares": {
+          "n_oportunidades": 5,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07692307692307693,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 18,
+      "n_palavras": 10586,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.05555555555555555,
+      "eventos_por_mil_palavras": 0.09446438692612885,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8987,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11127183709803048
+        },
+        "parlamentares": {
+          "n_oportunidades": 5,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07692307692307693,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 18,
+      "n_palavras": 10586,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8987,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 5,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 18,
+      "n_palavras": 10586,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.05555555555555555,
+      "eventos_por_mil_palavras": 0.09446438692612885,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 8987,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11127183709803048
+        },
+        "parlamentares": {
+          "n_oportunidades": 5,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07692307692307693,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 179,
+      "evento_id": "179:e0001",
+      "alvo_turno_id": 16,
+      "alvo": "Paula Farani",
+      "interrompente": "Any Ortiz",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Maravilha. Muito obrigada.\n\nPaula, sobraram uns minutinhos. Não quer falar sobre a ANATEL?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 56922,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

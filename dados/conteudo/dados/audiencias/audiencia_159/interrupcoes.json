@@ -1,0 +1,164 @@
+{
+  "sample_id": 159,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 47,
+      "n_palavras": 19601,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.0425531914893617,
+      "eventos_por_mil_palavras": 0.10203561042803938,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 12401,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.10526315789473684,
+          "eventos_por_mil_palavras": 0.161277316345456
+        },
+        "parlamentares": {
+          "n_oportunidades": 28,
+          "n_palavras": 7200,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.10526315789473684,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 47,
+      "n_palavras": 19601,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02127659574468085,
+      "eventos_por_mil_palavras": 0.05101780521401969,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 12401,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.080638658172728
+        },
+        "parlamentares": {
+          "n_oportunidades": 28,
+          "n_palavras": 7200,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05263157894736842,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 47,
+      "n_palavras": 19601,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 12401,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 28,
+          "n_palavras": 7200,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 47,
+      "n_palavras": 19601,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.0425531914893617,
+      "eventos_por_mil_palavras": 0.10203561042803938,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 12401,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.10526315789473684,
+          "eventos_por_mil_palavras": 0.161277316345456
+        },
+        "parlamentares": {
+          "n_oportunidades": 28,
+          "n_palavras": 7200,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.10526315789473684,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 159,
+      "evento_id": "159:e0001",
+      "alvo_turno_id": 19,
+      "alvo": "Alexandre Ben",
+      "interrompente": "Weliton Prado",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Alexandre, para otimizar nosso tempo, se você quiser, já pode fazer suas considerações finais, porque nós vamos fazendo aqui a roda e já vamos adiantando. Pode ficar à vontade.\n\nMuito obrigado à FEMAMA.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 68167,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 159,
+      "evento_id": "159:e0002",
+      "alvo_turno_id": 25,
+      "alvo": "Luciana Holtz de Camargo Barros",
+      "interrompente": "Weliton Prado",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Está tudo o.k.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 74355,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

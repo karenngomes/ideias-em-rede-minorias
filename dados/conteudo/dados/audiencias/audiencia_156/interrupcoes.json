@@ -1,0 +1,164 @@
+{
+  "sample_id": 156,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 19,
+      "n_palavras": 13180,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.10526315789473684,
+      "eventos_por_mil_palavras": 0.15174506828528073,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 10131,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.19741387819563716
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3049,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "intercalacao": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 19,
+      "n_palavras": 13180,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.05263157894736842,
+      "eventos_por_mil_palavras": 0.07587253414264036,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 10131,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.08333333333333333,
+          "eventos_por_mil_palavras": 0.09870693909781858
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3049,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.08333333333333333,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 19,
+      "n_palavras": 13180,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 10131,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3049,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 19,
+      "n_palavras": 13180,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.10526315789473684,
+      "eventos_por_mil_palavras": 0.15174506828528073,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 10131,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.19741387819563716
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3049,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "intercalacao": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 156,
+      "evento_id": "156:e0001",
+      "alvo_turno_id": 6,
+      "alvo": "Ulysses Tavares Teixeira",
+      "interrompente": "Pedro Uczai",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Se quiser, pode ficar de pé para fazer a apresentação.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 18077,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 156,
+      "evento_id": "156:e0002",
+      "alvo_turno_id": 12,
+      "alvo": "Ulysses Tavares Teixeira",
+      "interrompente": "Pedro Uczai",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Concedo-lhe mais 30 segundos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 37530,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

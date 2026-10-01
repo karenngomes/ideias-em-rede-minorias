@@ -1,0 +1,234 @@
+{
+  "sample_id": 174,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 21,
+      "n_palavras": 15706,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.23809523809523808,
+      "eventos_por_mil_palavras": 0.3183496752833312,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11608,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.3333333333333333,
+          "eventos_por_mil_palavras": 0.43073742246726393
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 4098,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.3333333333333333,
+      "por_tipo": {
+        "intercalacao": 3,
+        "pergunta_intercalada": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 21,
+      "n_palavras": 15706,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11608,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 4098,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 21,
+      "n_palavras": 15706,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11608,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 4098,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 21,
+      "n_palavras": 15706,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.2857142857142857,
+      "eventos_por_mil_palavras": 0.38201961033999743,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11608,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.4,
+          "eventos_por_mil_palavras": 0.5168849069607168
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 4098,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.4,
+      "por_tipo": {
+        "intercalacao": 4,
+        "pergunta_intercalada": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 174,
+      "evento_id": "174:e0001",
+      "alvo_turno_id": 3,
+      "alvo": "Ulysses Tavares Teixeira",
+      "interrompente": "Evair Vieira de Melo",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "E o resultado desses é publicado?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 35740,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 174,
+      "evento_id": "174:e0002",
+      "alvo_turno_id": 9,
+      "alvo": "Francisco de Assis Rocha Neves",
+      "interrompente": "Evair Vieira de Melo",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Os que já estão na estrada.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 53545,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 174,
+      "evento_id": "174:e0003",
+      "alvo_turno_id": 14,
+      "alvo": "Elizabeth Regina Nunes Guedes",
+      "interrompente": "Evair Vieira de Melo",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "A senhora estava citando itens. Referiu-se à validação simplificada e ia citar outro item que tem que ser considerado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 65656,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 174,
+      "evento_id": "174:e0004",
+      "alvo_turno_id": 18,
+      "alvo": "Jeancarlo Cavalcante",
+      "interrompente": "Coronel Chrisóstomo",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Vice-Presidente, o senhor está nos ouvindo?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 73623,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 174,
+      "evento_id": "174:e0005",
+      "alvo_turno_id": 24,
+      "alvo": "Francisco de Assis Rocha Neves",
+      "interrompente": "Coronel Chrisóstomo",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigado, Dr. Francisco.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 76807,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 174,
+      "evento_id": "174:e0006",
+      "alvo_turno_id": 34,
+      "alvo": "Francisco de Assis Rocha Neves",
+      "interrompente": "Coronel Chrisóstomo",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Uma observação. Quando eu falei em terceira categoria, eu não falei por mim. Eles são considerados dessa forma. Eu não penso assim.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 95647,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "sample_id": 177,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 51,
+      "n_palavras": 21302,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.11764705882352941,
+      "eventos_por_mil_palavras": 0.2816636935499014,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14302,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.2,
+          "eventos_por_mil_palavras": 0.4195217452104601
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7000,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "intercalacao": 4
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 51,
+      "n_palavras": 21302,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.0784313725490196,
+      "eventos_por_mil_palavras": 0.18777579569993427,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14302,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.06666666666666667,
+          "eventos_por_mil_palavras": 0.13984058173682
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7000,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.09523809523809523,
+          "eventos_por_mil_palavras": 0.2857142857142857
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.028571428571428567,
+      "por_tipo": {
+        "fala_anonima": 2,
+        "gestao_tempo": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 51,
+      "n_palavras": 21302,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.0392156862745098,
+      "eventos_por_mil_palavras": 0.09388789784996714,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14302,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7000,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.09523809523809523,
+          "eventos_por_mil_palavras": 0.2857142857142857
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.09523809523809523,
+      "por_tipo": {
+        "fala_anonima": 2
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 51,
+      "n_palavras": 21302,
+      "n_eventos": 9,
+      "n_turnos_interrompidos": 9,
+      "taxa_turnos": 0.17647058823529413,
+      "eventos_por_mil_palavras": 0.42249554032485215,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14302,
+          "n_eventos": 7,
+          "n_turnos_interrompidos": 7,
+          "taxa_turnos": 0.23333333333333334,
+          "eventos_por_mil_palavras": 0.4894420360788701
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 7000,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.09523809523809523,
+          "eventos_por_mil_palavras": 0.2857142857142857
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.1380952380952381,
+      "por_tipo": {
+        "fala_anonima": 2,
+        "gestao_tempo": 2,
+        "intercalacao": 5
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0001",
+      "alvo_turno_id": 16,
+      "alvo": "Tiago Albrecht",
+      "interrompente": "Gilson Marques",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Foi Milton Friedman.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 48542,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0002",
+      "alvo_turno_id": 31,
+      "alvo": "Jonathas Amorim",
+      "interrompente": "Gilson Marques",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Queres falar mais 1 minuto?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 70089,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0003",
+      "alvo_turno_id": 52,
+      "alvo": "Vinicius Borges",
+      "interrompente": "Celso Russomanno",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É claro.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 101392,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0004",
+      "alvo_turno_id": 54,
+      "alvo": "Vinicius Borges",
+      "interrompente": "Celso Russomanno",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É o primeiro tópico.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 103161,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0005",
+      "alvo_turno_id": 68,
+      "alvo": "Evandro Henrique",
+      "interrompente": "Celso Russomanno",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eu tenho a comprovação.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 111518,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0006",
+      "alvo_turno_id": 78,
+      "alvo": "Rodrigo Saraiva Marinho",
+      "interrompente": "Celso Russomanno",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço ao senhor que encerre, Dr. Rodrigo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 120602,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0007",
+      "alvo_turno_id": 96,
+      "alvo": "Lucas Dias",
+      "interrompente": "Eliseu Paulino",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eliseu.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 133056,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0008",
+      "alvo_turno_id": 37,
+      "alvo": "Gilson Marques",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Mais de 50% dos entregadores têm outra fonte de renda.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 87997,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 177,
+      "evento_id": "177:e0009",
+      "alvo_turno_id": 38,
+      "alvo": "Gilson Marques",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Elas já têm isso.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 88617,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

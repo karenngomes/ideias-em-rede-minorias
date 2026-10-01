@@ -1,0 +1,140 @@
+{
+  "sample_id": 20,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 19,
+      "n_palavras": 7960,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 6,
+          "n_palavras": 4366,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3594,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "registrada": {
+      "n_oportunidades": 19,
+      "n_palavras": 7960,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 6,
+          "n_palavras": 4366,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3594,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 19,
+      "n_palavras": 7960,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 6,
+          "n_palavras": 4366,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3594,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 19,
+      "n_palavras": 7960,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.05263157894736842,
+      "eventos_por_mil_palavras": 0.12562814070351758,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 6,
+          "n_palavras": 4366,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.22904260192395787
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3594,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "plateia_apos_encerramento": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 20,
+      "evento_id": "020:e0001",
+      "alvo_turno_id": 14,
+      "alvo": "Lucia Alberta",
+      "interrompente": "plateia",
+      "tipo": "plateia_apos_encerramento",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "io da Educação. Não dá para a nossa parenta, Rosilene Tuxá, ficar lá sozinha, trabalhando com a educação escolar indígena, sem estrutura, sem equipe.\n\nObrigada.(Manifestação na plateia.)",
+      "origem": "plateia",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 39636,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

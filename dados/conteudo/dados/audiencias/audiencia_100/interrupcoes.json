@@ -1,0 +1,202 @@
+{
+  "sample_id": 100,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 47,
+      "n_palavras": 18719,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.0851063829787234,
+      "eventos_por_mil_palavras": 0.2136866285592179,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14537,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.13333333333333333,
+          "eventos_por_mil_palavras": 0.27515993671321454
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 4182,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.13333333333333333,
+      "por_tipo": {
+        "intercalacao": 2,
+        "pergunta_intercalada": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 47,
+      "n_palavras": 18719,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02127659574468085,
+      "eventos_por_mil_palavras": 0.05342165713980448,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14537,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.03333333333333333,
+          "eventos_por_mil_palavras": 0.06878998417830363
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 4182,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.03333333333333333,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 47,
+      "n_palavras": 18719,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14537,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 4182,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 47,
+      "n_palavras": 18719,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.0851063829787234,
+      "eventos_por_mil_palavras": 0.2136866285592179,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 30,
+          "n_palavras": 14537,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.13333333333333333,
+          "eventos_por_mil_palavras": 0.27515993671321454
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 4182,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.13333333333333333,
+      "por_tipo": {
+        "intercalacao": 2,
+        "pergunta_intercalada": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 100,
+      "evento_id": "100:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Taís Niffinegger",
+      "interrompente": "Silvye Alves",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim, é possível.(Pausa.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 15340,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 100,
+      "evento_id": "100:e0002",
+      "alvo_turno_id": 6,
+      "alvo": "Taís Niffinegger",
+      "interrompente": "Silvye Alves",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Taís, desculpe interrompê-la.\n\nVocê quer tentar novamente? Liberamos a permissão. Podemos tentar exibir sua apresentação agora?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 16871,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 100,
+      "evento_id": "100:e0003",
+      "alvo_turno_id": 24,
+      "alvo": "George Neves Lodder",
+      "interrompente": "Silvye Alves",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Da mensagem?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 74307,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 100,
+      "evento_id": "100:e0004",
+      "alvo_turno_id": 40,
+      "alvo": "George Neves Lodder",
+      "interrompente": "Silvye Alves",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Não havia, não, porque esse projeto é meu, inclusive.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 98620,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

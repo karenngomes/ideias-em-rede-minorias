@@ -1,0 +1,220 @@
+{
+  "sample_id": 44,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 29,
+      "n_palavras": 28835,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.10344827586206896,
+      "eventos_por_mil_palavras": 0.10404022888850356,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 20120,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.09940357852882704
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 8715,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11474469305794607
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.04807692307692307,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 29,
+      "n_palavras": 28835,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.10344827586206896,
+      "eventos_por_mil_palavras": 0.10404022888850356,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 20120,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.09940357852882704
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 8715,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11474469305794607
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.04807692307692307,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 29,
+      "n_palavras": 28835,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 20120,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 8715,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 29,
+      "n_palavras": 28835,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.1724137931034483,
+      "eventos_por_mil_palavras": 0.17340038148083925,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 20120,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.1988071570576541
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 8715,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.11474469305794607
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.17307692307692307,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "pergunta_intercalada": 2,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 44,
+      "evento_id": "044:e0001",
+      "alvo_turno_id": 14,
+      "alvo": "Carlos Eduardo Rezende",
+      "interrompente": "José Priante",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Sim, sim. Está aparecendo.\n\nO senhor poderia falar só um pouquinho mais alto para facilitar audiência aqui da Comissão, por favor?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 57790,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 44,
+      "evento_id": "044:e0002",
+      "alvo_turno_id": 18,
+      "alvo": "Carlos Eduardo Rezende",
+      "interrompente": "Ivan Valente",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Presidente, gostaria de pedir que o participante paralisasse um pouco a fala. Eu acho que ele está falando pensando que há um Power Pointsendo exposto na tela. É isso?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 58944,
+      "atual": false,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 44,
+      "evento_id": "044:e0003",
+      "alvo_turno_id": 39,
+      "alvo": "Ivan Valente",
+      "interrompente": "José Priante",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "V.Exa. tem todo o tempo. É claro que nós vamos ouvi-la. Afinal de contas, isto aqui é um debate. Nós temos que ouvir todos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 142579,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 44,
+      "evento_id": "044:e0004",
+      "alvo_turno_id": 58,
+      "alvo": "Marcelo Martins",
+      "interrompente": "José Priante",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que conclua, por favor, Vereador.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 169333,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 44,
+      "evento_id": "044:e0005",
+      "alvo_turno_id": 66,
+      "alvo": "Daniele Zaneti Puelker",
+      "interrompente": "Gabriel Mota",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Dra. Daniele, só uma pergunta: a senhora teria alguma informação sobre Roraima, por favor? Desculpe-me pelo incômodo.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 182893,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "sample_id": 93,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 15,
+      "n_palavras": 9284,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.13333333333333333,
+      "eventos_por_mil_palavras": 0.2154243860404998,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 7907,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.25294043252813964
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1377,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.25,
+      "por_tipo": {
+        "intercalacao": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 15,
+      "n_palavras": 9284,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.06666666666666667,
+      "eventos_por_mil_palavras": 0.1077121930202499,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 7907,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.12647021626406982
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1377,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.125,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 15,
+      "n_palavras": 9284,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 7907,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1377,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 15,
+      "n_palavras": 9284,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.13333333333333333,
+      "eventos_por_mil_palavras": 0.2154243860404998,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 7907,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.25294043252813964
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1377,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.25,
+      "por_tipo": {
+        "intercalacao": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 93,
+      "evento_id": "093:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Maria Leopoldina Veras Camelo",
+      "interrompente": "Flávia Morais",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Claro.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 17087,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 93,
+      "evento_id": "093:e0002",
+      "alvo_turno_id": 8,
+      "alvo": "Francisco Aparecido Cordão",
+      "interrompente": "Flávia Morais",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Nós que agradecemos, Sr. Francisco Cordão, pela contribuição. Com certeza, ela será analisada pela Comissão. Nós a olharemos com muito carinho. Se o senhor puder disponibilizá-la também por escrito para a Comissão, será muito importante. Agradecemos muito a apresentação presencial.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 31658,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

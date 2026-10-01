@@ -1,0 +1,146 @@
+{
+  "sample_id": 192,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 32,
+      "n_palavras": 13756,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.03125,
+      "eventos_por_mil_palavras": 0.07269555103227683,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 8670,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.11534025374855825
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5086,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 32,
+      "n_palavras": 13756,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.03125,
+      "eventos_por_mil_palavras": 0.07269555103227683,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 8670,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.11534025374855825
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5086,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 32,
+      "n_palavras": 13756,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.03125,
+      "eventos_por_mil_palavras": 0.07269555103227683,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 8670,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.11534025374855825
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5086,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 32,
+      "n_palavras": 13756,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.03125,
+      "eventos_por_mil_palavras": 0.07269555103227683,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 8670,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.11534025374855825
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5086,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 192,
+      "evento_id": "192:e0001",
+      "alvo_turno_id": 10,
+      "alvo": "Igor Rodrigues Britto",
+      "interrompente": "plateia/desconhecido",
+      "tipo": "manifestacao_plateia",
+      "sinal": "A-X-A",
+      "trecho": "Só um minutinho, Dr. Igor.\n\nEu peço à plateia, por favor, que faça silêncio, para ouvirmos o expositor.",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 41464,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

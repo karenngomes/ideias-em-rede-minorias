@@ -1,0 +1,198 @@
+{
+  "sample_id": 42,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 39,
+      "n_palavras": 16559,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02564102564102564,
+      "eventos_por_mil_palavras": 0.06039012017633915,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 13162,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.04,
+          "eventos_por_mil_palavras": 0.0759762953958365
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 3397,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.04,
+      "por_tipo": {
+        "procedimento": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 39,
+      "n_palavras": 16559,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 13162,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 3397,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 39,
+      "n_palavras": 16559,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 13162,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 3397,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 39,
+      "n_palavras": 16559,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.05128205128205128,
+      "eventos_por_mil_palavras": 0.2415604807053566,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 13162,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.08,
+          "eventos_por_mil_palavras": 0.303905181583346
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 3397,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.08,
+      "por_tipo": {
+        "manifestacao_plateia": 1,
+        "plateia_solicitada": 2,
+        "procedimento": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 42,
+      "evento_id": "042:e0001",
+      "alvo_turno_id": 2,
+      "alvo": "Cleomar Manhas",
+      "interrompente": "Glauber Braga",
+      "tipo": "procedimento",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigado, Cleo.\n\nCom certeza, nós vamos fazer essa pressão mesmo neste ambiente inóspito aqui, que é a representação da Câmara.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 8771,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 42,
+      "evento_id": "042:e0002",
+      "alvo_turno_id": 15,
+      "alvo": "Rafaela Albergaria",
+      "interrompente": "plateia",
+      "tipo": "plateia_solicitada",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "ne isso aí é se vamos viver ou se vamos morrer.(Palmas.)\n\nDesculpem-me por eu ter alongado o meu tempo.\n\nEu queria pedir que gritassem comigo.\n\nJoana, presente!(Manifestação na plateia: Joana, presente! Joana, presente! Joana, presente!)\n\nMarielle, presente!(Manifestação na plateia: Marielle, presente! Marielle, presente! Marielle, presente!)\n\nBraulio, presente!(Manifestação na plateia: Braulio",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 51189,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 42,
+      "evento_id": "042:e0003",
+      "alvo_turno_id": 15,
+      "alvo": "Rafaela Albergaria",
+      "interrompente": "plateia",
+      "tipo": "plateia_solicitada",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "empo.\n\nEu queria pedir que gritassem comigo.\n\nJoana, presente!(Manifestação na plateia: Joana, presente! Joana, presente! Joana, presente!)\n\nMarielle, presente!(Manifestação na plateia: Marielle, presente! Marielle, presente! Marielle, presente!)\n\nBraulio, presente!(Manifestação na plateia: Braulio, presente! Braulio, presente! Braulio, presente!)\n\nObrigada.",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 51287,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 42,
+      "evento_id": "042:e0004",
+      "alvo_turno_id": 15,
+      "alvo": "Rafaela Albergaria",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "oana, presente! Joana, presente!)\n\nMarielle, presente!(Manifestação na plateia: Marielle, presente! Marielle, presente! Marielle, presente!)\n\nBraulio, presente!(Manifestação na plateia: Braulio, presente! Braulio, presente! Braulio, presente!)\n\nObrigada.",
+      "origem": "plateia",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 51393,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

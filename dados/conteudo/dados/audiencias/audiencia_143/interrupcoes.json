@@ -1,0 +1,163 @@
+{
+  "sample_id": 143,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 37,
+      "n_palavras": 20881,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 15171,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5710,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "registrada": {
+      "n_oportunidades": 37,
+      "n_palavras": 20881,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02702702702702703,
+      "eventos_por_mil_palavras": 0.04789042670370193,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 15171,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.0659152330103487
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5710,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.047619047619047616,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 37,
+      "n_palavras": 20881,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02702702702702703,
+      "eventos_por_mil_palavras": 0.04789042670370193,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 15171,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.0659152330103487
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5710,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.047619047619047616,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 37,
+      "n_palavras": 20881,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.05405405405405406,
+      "eventos_por_mil_palavras": 0.09578085340740386,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 15171,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.0659152330103487
+        },
+        "parlamentares": {
+          "n_oportunidades": 16,
+          "n_palavras": 5710,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.17513134851138354
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.014880952380952384,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 143,
+      "evento_id": "143:e0001",
+      "alvo_turno_id": 16,
+      "alvo": "Celso Russomanno",
+      "interrompente": "Antônio Carlos Fontes Cintra",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "No final das contas, a dificuldade sempre é a prova. Temos provocado sempre a polícia.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 62703,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 143,
+      "evento_id": "143:e0002",
+      "alvo_turno_id": 2,
+      "alvo": "Belline Santana",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Já acabou o tempo do senhor.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 13058,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

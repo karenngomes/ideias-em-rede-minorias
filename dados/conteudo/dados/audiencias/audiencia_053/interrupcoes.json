@@ -1,0 +1,166 @@
+{
+  "sample_id": 53,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 41,
+      "n_palavras": 17938,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.024390243902439025,
+      "eventos_por_mil_palavras": 0.05574757498048835,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 12476,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05,
+          "eventos_por_mil_palavras": 0.0801538954793203
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 5462,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 41,
+      "n_palavras": 17938,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.04878048780487805,
+      "eventos_por_mil_palavras": 0.1114951499609767,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 12476,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05,
+          "eventos_por_mil_palavras": 0.0801538954793203
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 5462,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.1830831197363603
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0023809523809523864,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 41,
+      "n_palavras": 17938,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.024390243902439025,
+      "eventos_por_mil_palavras": 0.05574757498048835,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 12476,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 5462,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.1830831197363603
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.047619047619047616,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 41,
+      "n_palavras": 17938,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.04878048780487805,
+      "eventos_por_mil_palavras": 0.1114951499609767,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 12476,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05,
+          "eventos_por_mil_palavras": 0.0801538954793203
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 5462,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.1830831197363603
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0023809523809523864,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "gestao_tempo": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 53,
+      "evento_id": "053:e0001",
+      "alvo_turno_id": 54,
+      "alvo": "Intérprete",
+      "interrompente": "Erika Kokay",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigada, Luérgio.\n\nVou passar a palavra à Renata Rezende, que é do Festival de Cultura para Surdos, para que faça suas considerações finais pelo tempo de 1 minuto.\n\nA SRA. RENATA REZENDE-(Manifestação em LIBRAS.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 103980,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 53,
+      "evento_id": "053:e0002",
+      "alvo_turno_id": 2,
+      "alvo": "Márcio Jerry",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Presidente...",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 3032,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

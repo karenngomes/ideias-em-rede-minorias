@@ -1,0 +1,243 @@
+{
+  "sample_id": 91,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 46,
+      "n_palavras": 22002,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.08695652173913043,
+      "eventos_por_mil_palavras": 0.181801654395055,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 14729,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.17391304347826086,
+          "eventos_por_mil_palavras": 0.2715730871070677
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 7273,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.17391304347826086,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "intercalacao": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 46,
+      "n_palavras": 22002,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.10869565217391304,
+      "eventos_por_mil_palavras": 0.22725206799381875,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 14729,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.21739130434782608,
+          "eventos_por_mil_palavras": 0.3394663588838346
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 7273,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.21739130434782608,
+      "por_tipo": {
+        "fala_anonima": 2,
+        "gestao_tempo": 2,
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 46,
+      "n_palavras": 22002,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.0909008271975275,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 14729,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.08695652173913043,
+          "eventos_por_mil_palavras": 0.13578654355353384
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 7273,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.08695652173913043,
+      "por_tipo": {
+        "fala_anonima": 2
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 46,
+      "n_palavras": 22002,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.13043478260869565,
+      "eventos_por_mil_palavras": 0.2727024815925825,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 14729,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.2608695652173913,
+          "eventos_por_mil_palavras": 0.40735963066060155
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 7273,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2608695652173913,
+      "por_tipo": {
+        "fala_anonima": 2,
+        "gestao_tempo": 2,
+        "intercalacao": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 91,
+      "evento_id": "091:e0001",
+      "alvo_turno_id": 7,
+      "alvo": "Davi Antunes Lima",
+      "interrompente": "Danilo Forte",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Quem passa sou eu. Você ainda não preside esta sessão, não. Quem preside a sessão sou eu, Davi. Calma!(Risos.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 24012,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 91,
+      "evento_id": "091:e0002",
+      "alvo_turno_id": 35,
+      "alvo": "Márcia Sandra Roque Vieira Silva",
+      "interrompente": "Danilo Forte",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Márcia, a sua apresentação está congelada na imagem da capa, aliás, muito parecida com a capa da apresentação anterior. Até a logomarca é igual.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 48710,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 91,
+      "evento_id": "091:e0003",
+      "alvo_turno_id": 38,
+      "alvo": "Márcia Sandra Roque Vieira Silva",
+      "interrompente": "Danilo Forte",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Márcia, vamos nos ater ao problema da conta, porque o tempo está passando. Eu quero saber como se dá a equação do preço. A Enel já conhecemos. Quero saber como se dá a formação do preço. Vamos lá.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 52309,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 91,
+      "evento_id": "091:e0004",
+      "alvo_turno_id": 57,
+      "alvo": "Márcio Caires",
+      "interrompente": "Danilo Forte",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Márcio, acabou o seu tempo. O senhor pode concluir?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 87028,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 91,
+      "evento_id": "091:e0005",
+      "alvo_turno_id": 65,
+      "alvo": "Marcos Madureira",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Madureira, deixe-me interrompê-lo. Não está passando a apresentação. A tela está com o mesmo problema que a da Márcia. Nós estamos no eslaide número 2 ainda.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 104115,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 91,
+      "evento_id": "091:e0006",
+      "alvo_turno_id": 72,
+      "alvo": "Marcos Madureira",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Madureira, não estamos vendo. A apresentação está na tela dos \"80%\" de novo.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 106210,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "sample_id": 7,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 28,
+      "n_palavras": 14928,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.03571428571428571,
+      "eventos_por_mil_palavras": 0.0669882100750268,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 1385,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 25,
+          "n_palavras": 13543,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.04,
+          "eventos_por_mil_palavras": 0.07383888355608063
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.04,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 28,
+      "n_palavras": 14928,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 1385,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 25,
+          "n_palavras": 13543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 28,
+      "n_palavras": 14928,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 1385,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 25,
+          "n_palavras": 13543,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 28,
+      "n_palavras": 14928,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.07142857142857142,
+      "eventos_por_mil_palavras": 0.1339764201500536,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 3,
+          "n_palavras": 1385,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.3333333333333333,
+          "eventos_por_mil_palavras": 0.7220216606498195
+        },
+        "parlamentares": {
+          "n_oportunidades": 25,
+          "n_palavras": 13543,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.04,
+          "eventos_por_mil_palavras": 0.07383888355608063
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.29333333333333333,
+      "por_tipo": {
+        "intercalacao": 1,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 7,
+      "evento_id": "007:e0001",
+      "alvo_turno_id": 2,
+      "alvo": "Pedro Lupion",
+      "interrompente": "Danilo Forte",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eu que lhe agradeço, Deputado Pedro Lupion.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 16885,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 7,
+      "evento_id": "007:e0002",
+      "alvo_turno_id": 33,
+      "alvo": "Vicente Martins Prata Braga",
+      "interrompente": "Mauro Benevides Filho",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Presidente, pela ordem.\n\nComo ficaria, então, essa ideia de termos a primeira instância nos Estados e Municípios e a segunda no conselho? Isso não atenderia ao processo de padronização? Quem vai executar eu não sei, refiro-me à decisão.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 86807,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

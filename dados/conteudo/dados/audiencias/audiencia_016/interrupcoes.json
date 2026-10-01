@@ -1,0 +1,368 @@
+{
+  "sample_id": 16,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 82,
+      "n_palavras": 29665,
+      "n_eventos": 9,
+      "n_turnos_interrompidos": 9,
+      "taxa_turnos": 0.10975609756097561,
+      "eventos_por_mil_palavras": 0.3033878307770099,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 8907,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.33681374200067365
+        },
+        "parlamentares": {
+          "n_oportunidades": 58,
+          "n_palavras": 20758,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.10344827586206896,
+          "eventos_por_mil_palavras": 0.28904518739762985
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.021551724137931036,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "intercalacao": 6,
+        "manifestacao_plateia": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 82,
+      "n_palavras": 29665,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.036585365853658534,
+      "eventos_por_mil_palavras": 0.10112927692566998,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 8907,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.041666666666666664,
+          "eventos_por_mil_palavras": 0.11227124733355788
+        },
+        "parlamentares": {
+          "n_oportunidades": 58,
+          "n_palavras": 20758,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.034482758620689655,
+          "eventos_por_mil_palavras": 0.09634839579920994
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.00718390804597701,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "manifestacao_plateia": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 82,
+      "n_palavras": 29665,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.012195121951219513,
+      "eventos_por_mil_palavras": 0.033709758975223325,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 8907,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 58,
+          "n_palavras": 20758,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.017241379310344827,
+          "eventos_por_mil_palavras": 0.04817419789960497
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.017241379310344827,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 82,
+      "n_palavras": 29665,
+      "n_eventos": 13,
+      "n_turnos_interrompidos": 13,
+      "taxa_turnos": 0.15853658536585366,
+      "eventos_por_mil_palavras": 0.4382268666779032,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 24,
+          "n_palavras": 8907,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.6736274840013473
+        },
+        "parlamentares": {
+          "n_oportunidades": 58,
+          "n_palavras": 20758,
+          "n_eventos": 7,
+          "n_turnos_interrompidos": 7,
+          "taxa_turnos": 0.1206896551724138,
+          "eventos_por_mil_palavras": 0.3372193852972348
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.1293103448275862,
+      "por_tipo": {
+        "gestao_tempo": 2,
+        "intercalacao": 9,
+        "manifestacao_plateia": 1,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0001",
+      "alvo_turno_id": 15,
+      "alvo": "Ministro Silvio Almeida",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Ministro... Ministro...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 37282,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0002",
+      "alvo_turno_id": 83,
+      "alvo": "Ministro Silvio Almeida",
+      "interrompente": "Eduardo Bolsonaro",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "O Lula tem? O Lula tem respeito?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 67700,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0003",
+      "alvo_turno_id": 89,
+      "alvo": "Nikolas Ferreira",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Podem repor o tempo do Deputado.\n\nV.Exa. ainda tem 2 minutos e 14 segundos, Deputado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 71826,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0004",
+      "alvo_turno_id": 106,
+      "alvo": "Ministro Silvio Almeida",
+      "interrompente": "Marcos Pollon",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sr. Ministro, eu fiz uma pergunta objetiva.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 90939,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0005",
+      "alvo_turno_id": 131,
+      "alvo": "Marcos Pollon",
+      "interrompente": "Ministro Silvio Almeida",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Doutor, desculpe-me...",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 96766,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0006",
+      "alvo_turno_id": 187,
+      "alvo": "Rogério Correia",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Deputado, o art. 70 não versa sobre isso.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 106606,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0007",
+      "alvo_turno_id": 193,
+      "alvo": "Rogério Correia",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Deputado, como esse não é o artigo correto, então está indeferida a questão de ordem.\n\nEu passo a palavra imediatamente ao Deputado Evair, requerente.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 107724,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0008",
+      "alvo_turno_id": 209,
+      "alvo": "Evair Vieira de Melo",
+      "interrompente": "plateia/desconhecido",
+      "tipo": "manifestacao_plateia",
+      "sinal": "A-X-A",
+      "trecho": "Vamos respeitar a fala. Sem gracejos.",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 113212,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0009",
+      "alvo_turno_id": 213,
+      "alvo": "Ministro Silvio Almeida",
+      "interrompente": "Evair Vieira de Melo",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Desculpe, eu perguntei se o senhor foi à Papuda, objetivamente.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 120326,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0010",
+      "alvo_turno_id": 221,
+      "alvo": "Ministro Silvio Almeida",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É ponto facultativo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 121556,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0011",
+      "alvo_turno_id": 258,
+      "alvo": "Ministro Silvio Almeida",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que encerre, Ministro.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 151741,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0012",
+      "alvo_turno_id": 272,
+      "alvo": "Sargento Fahur",
+      "interrompente": "Sanderson",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigado, Deputado Sargento Fahur. V.Exa. tinha ainda 30 segundos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 176992,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 16,
+      "evento_id": "016:e0013",
+      "alvo_turno_id": 297,
+      "alvo": "Jorge Solla",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigada, Deputado Jorge Solla.\n\nTem a palavra o Deputado Rogério Correia.(Pausa.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 198954,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

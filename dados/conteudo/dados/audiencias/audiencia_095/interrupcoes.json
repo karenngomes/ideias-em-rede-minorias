@@ -1,0 +1,165 @@
+{
+  "sample_id": 95,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 16,
+      "n_palavras": 10602,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.125,
+      "eventos_por_mil_palavras": 0.18864365214110546,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 9,
+          "n_palavras": 8209,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.2222222222222222,
+          "eventos_por_mil_palavras": 0.24363503471799244
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2393,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2222222222222222,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 16,
+      "n_palavras": 10602,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.125,
+      "eventos_por_mil_palavras": 0.18864365214110546,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 9,
+          "n_palavras": 8209,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.2222222222222222,
+          "eventos_por_mil_palavras": 0.24363503471799244
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2393,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2222222222222222,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 16,
+      "n_palavras": 10602,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 9,
+          "n_palavras": 8209,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2393,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 16,
+      "n_palavras": 10602,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.125,
+      "eventos_por_mil_palavras": 0.18864365214110546,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 9,
+          "n_palavras": 8209,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.2222222222222222,
+          "eventos_por_mil_palavras": 0.24363503471799244
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2393,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2222222222222222,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 95,
+      "evento_id": "095:e0001",
+      "alvo_turno_id": 16,
+      "alvo": "Vanessa Negrini",
+      "interrompente": "Zé Silva",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Vanessa, se eu puder, vou consultar os universitários.\n\nAlguém arrisca? Vou abrir o microfone; vamos fazer uma audiência interativa. Esta Comissão aqui é participativa.(Risos.)\n\nAlguém arrisca?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 57235,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 95,
+      "evento_id": "095:e0002",
+      "alvo_turno_id": 22,
+      "alvo": "Vanessa Negrini",
+      "interrompente": "Zé Silva",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Falta 1 minuto, Vanessa.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 60294,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

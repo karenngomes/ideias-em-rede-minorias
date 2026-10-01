@@ -1,0 +1,144 @@
+{
+  "sample_id": 190,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 26,
+      "n_palavras": 16708,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.05985156811108451,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 13552,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.058823529411764705,
+          "eventos_por_mil_palavras": 0.07378984651711924
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3156,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.058823529411764705,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 26,
+      "n_palavras": 16708,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.05985156811108451,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 13552,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.058823529411764705,
+          "eventos_por_mil_palavras": 0.07378984651711924
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3156,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.058823529411764705,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 26,
+      "n_palavras": 16708,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 13552,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3156,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 26,
+      "n_palavras": 16708,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.05985156811108451,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 17,
+          "n_palavras": 13552,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.058823529411764705,
+          "eventos_por_mil_palavras": 0.07378984651711924
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3156,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.058823529411764705,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 190,
+      "evento_id": "190:e0001",
+      "alvo_turno_id": 2,
+      "alvo": "Marina Domenech",
+      "interrompente": "Erika Kokay",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Marina, procure concluir, por favor.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 15613,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

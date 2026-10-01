@@ -1,0 +1,164 @@
+{
+  "sample_id": 123,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 26,
+      "n_palavras": 14584,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.07692307692307693,
+      "eventos_por_mil_palavras": 0.13713658804168952,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 10610,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.13333333333333333,
+          "eventos_por_mil_palavras": 0.1885014137606032
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3974,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.13333333333333333,
+      "por_tipo": {
+        "procedimento": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 26,
+      "n_palavras": 14584,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.06856829402084476,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 10610,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.06666666666666667,
+          "eventos_por_mil_palavras": 0.0942507068803016
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3974,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.06666666666666667,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 26,
+      "n_palavras": 14584,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 10610,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3974,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 26,
+      "n_palavras": 14584,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.07692307692307693,
+      "eventos_por_mil_palavras": 0.13713658804168952,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 10610,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.13333333333333333,
+          "eventos_por_mil_palavras": 0.1885014137606032
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3974,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.13333333333333333,
+      "por_tipo": {
+        "procedimento": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 123,
+      "evento_id": "123:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Ethel Leonor Noia Maciel",
+      "interrompente": "Ana Paula Lima",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigada pela bela explanação, Sra. Ethel Maciel, Secretária de Vigilância em Saúde e Ambiente, representando aqui a nossa Ministra Nísia.\n\nPeço à senhora que nos deixe esta apresentação para que depois os Deputados possam acessá-la.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 25679,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 123,
+      "evento_id": "123:e0002",
+      "alvo_turno_id": 22,
+      "alvo": "Carla Patrícia Gomes Almeida",
+      "interrompente": "Ana Paula Lima",
+      "tipo": "procedimento",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigada.\n\nEu só vou pedir a gentileza de você se identificar e dizer qual instituição está representando.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 71582,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

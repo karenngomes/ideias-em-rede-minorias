@@ -1,0 +1,309 @@
+{
+  "sample_id": 124,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 36,
+      "n_palavras": 8650,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.1388888888888889,
+      "eventos_por_mil_palavras": 0.5780346820809249,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 4357,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.06666666666666667,
+          "eventos_por_mil_palavras": 0.22951572182694516
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 4293,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.19047619047619047,
+          "eventos_por_mil_palavras": 0.9317493594223154
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.1238095238095238,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 4
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 36,
+      "n_palavras": 8650,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.027777777777777776,
+      "eventos_por_mil_palavras": 0.11560693641618497,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 4357,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.06666666666666667,
+          "eventos_por_mil_palavras": 0.22951572182694516
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 4293,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.06666666666666667,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 36,
+      "n_palavras": 8650,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 4357,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 4293,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 36,
+      "n_palavras": 8650,
+      "n_eventos": 10,
+      "n_turnos_interrompidos": 10,
+      "taxa_turnos": 0.2777777777777778,
+      "eventos_por_mil_palavras": 1.1560693641618498,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 4357,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.2,
+          "eventos_por_mil_palavras": 0.6885471654808354
+        },
+        "parlamentares": {
+          "n_oportunidades": 21,
+          "n_palavras": 4293,
+          "n_eventos": 7,
+          "n_turnos_interrompidos": 7,
+          "taxa_turnos": 0.3333333333333333,
+          "eventos_por_mil_palavras": 1.6305613789890518
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.1333333333333333,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 8,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0001",
+      "alvo_turno_id": 10,
+      "alvo": "Coronel Fernanda",
+      "interrompente": "Daniel Agrobom",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É a Shirley Abreu.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 20949,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0002",
+      "alvo_turno_id": 12,
+      "alvo": "Coronel Fernanda",
+      "interrompente": "Daniel Agrobom",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "O.k., Deputada. Está tranquilo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 21567,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0003",
+      "alvo_turno_id": 18,
+      "alvo": "Coronel Fernanda",
+      "interrompente": "Bohn Gass",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Presidente, uma questão de ordem.\n\nDeputada Coronel Fernanda, eu tenho participado de muitas audiências. Eu não sei se não seria melhor para o nosso trabalho V.Exa. fazer toda a fala. É assim que é feito normalmente.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 22852,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0004",
+      "alvo_turno_id": 27,
+      "alvo": "Bohn Gass",
+      "interrompente": "Daniel Agrobom",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Deputado, regimentalmente, não se fala que tem que ser dessa forma. Isso é decidido pela Presidência. Como estamos num dia muito tranquilo, eu permito que a Deputada continue fazendo as perguntas, se for de acordo com...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 24577,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0005",
+      "alvo_turno_id": 35,
+      "alvo": "Coronel Fernanda",
+      "interrompente": "Daniel Agrobom",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Mas V.Exa. tem direito a réplica, Deputada.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 25670,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0006",
+      "alvo_turno_id": 60,
+      "alvo": "Coronel Fernanda",
+      "interrompente": "César Fernando Schiavon Aldrighi",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Eu não tenho isso aqui. Eu posso providenciar para senhora, se for importante.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 29555,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0007",
+      "alvo_turno_id": 72,
+      "alvo": "Shirley Anny Abreu do Nascimento",
+      "interrompente": "Coronel Fernanda",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Espera aí. Deixe-me perguntar uma coisa: floresta pública...",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 33753,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0008",
+      "alvo_turno_id": 74,
+      "alvo": "Shirley Anny Abreu do Nascimento",
+      "interrompente": "Coronel Fernanda",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Minha pergunta: a senhora é funcionária efetiva ou a senhora exerce cargo de confiança?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 34329,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0009",
+      "alvo_turno_id": 102,
+      "alvo": "Bohn Gass",
+      "interrompente": "Coronel Fernanda",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Isso tem que ser investigado mesmo, Deputado, porque...",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 46629,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 124,
+      "evento_id": "124:e0010",
+      "alvo_turno_id": 115,
+      "alvo": "César Fernando Schiavon Aldrighi",
+      "interrompente": "Daniel Agrobom",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Não havendo mais Parlamentares inscritos, eu devolvo a palavra, então, ao senhor por mais 3 minutos para as considerações finais.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 61775,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

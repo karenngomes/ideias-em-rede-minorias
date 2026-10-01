@@ -1,0 +1,306 @@
+{
+  "sample_id": 164,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 51,
+      "n_palavras": 20726,
+      "n_eventos": 10,
+      "n_turnos_interrompidos": 10,
+      "taxa_turnos": 0.19607843137254902,
+      "eventos_por_mil_palavras": 0.48248576666988324,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 28,
+          "n_palavras": 16667,
+          "n_eventos": 10,
+          "n_turnos_interrompidos": 10,
+          "taxa_turnos": 0.35714285714285715,
+          "eventos_por_mil_palavras": 0.5999880002399952
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.35714285714285715,
+      "por_tipo": {
+        "intercalacao": 6,
+        "pergunta_intercalada": 4
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 51,
+      "n_palavras": 20726,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 28,
+          "n_palavras": 16667,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 51,
+      "n_palavras": 20726,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 28,
+          "n_palavras": 16667,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 51,
+      "n_palavras": 20726,
+      "n_eventos": 10,
+      "n_turnos_interrompidos": 10,
+      "taxa_turnos": 0.19607843137254902,
+      "eventos_por_mil_palavras": 0.48248576666988324,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 28,
+          "n_palavras": 16667,
+          "n_eventos": 10,
+          "n_turnos_interrompidos": 10,
+          "taxa_turnos": 0.35714285714285715,
+          "eventos_por_mil_palavras": 0.5999880002399952
+        },
+        "parlamentares": {
+          "n_oportunidades": 23,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.35714285714285715,
+      "por_tipo": {
+        "intercalacao": 6,
+        "pergunta_intercalada": 4
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0001",
+      "alvo_turno_id": 6,
+      "alvo": "Jamaci Avelino do Nascimento Junior",
+      "interrompente": "Max Lemos",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Nós vamos fazer a seguinte dinâmica: após a exposição, vamos imediatamente tirando as dúvidas que as pessoas apresentarem.\n\nEu queria pedir um esclarecimento, Jamaci.\n\nNós entendemos que existem mais de mil Municípios hoje sem acesso a saneamento. É isso mesmo?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 13089,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0002",
+      "alvo_turno_id": 22,
+      "alvo": "Jamaci Avelino do Nascimento Junior",
+      "interrompente": "Max Lemos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Então, o Ministério já tem hoje uma política de auxílio às cidades que não conseguem ter um quadro técnico, não conseguem contratar empresas de projetos...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 19585,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0003",
+      "alvo_turno_id": 42,
+      "alvo": "Marcelo Trindade Miterhof",
+      "interrompente": "Max Lemos",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Alguém quer fazer alguma pergunta ao Marcelo, do BNDES?(Pausa.)\n\nMarcelo, deixe-me fazer uma pergunta, a qual você poderá responder como representante da instituição ou como técnico: você acha que a concessão de Alagoas foi exitosa? Ela é positiva ou não?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 44702,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0004",
+      "alvo_turno_id": 44,
+      "alvo": "Marcelo Trindade Miterhof",
+      "interrompente": "Max Lemos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Então, a única crítica é no sentido de se buscar universalização com mais investimento. Essa é a maior crítica. Mas você acha que o modelo...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 45619,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0005",
+      "alvo_turno_id": 46,
+      "alvo": "Marcelo Trindade Miterhof",
+      "interrompente": "Max Lemos",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "No Amapá também?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 46244,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0006",
+      "alvo_turno_id": 52,
+      "alvo": "Marcelo Trindade Miterhof",
+      "interrompente": "Max Lemos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Nós vamos fazer uma troca, porque a ANA tem um compromisso.\n\nAntes de ouvirmos o Filipe, eu queria sua opinião, Marcelo, sobre a SABESP.\n\nSe preferir, pode declinar.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 50616,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0007",
+      "alvo_turno_id": 54,
+      "alvo": "Marcelo Trindade Miterhof",
+      "interrompente": "Max Lemos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "São 12 anos! Vamos ver se eles cumprem.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 51326,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0008",
+      "alvo_turno_id": 58,
+      "alvo": "Marcelo Trindade Miterhof",
+      "interrompente": "Max Lemos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sua opinião é ser favorável.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 52246,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0009",
+      "alvo_turno_id": 60,
+      "alvo": "Marcelo Trindade Miterhof",
+      "interrompente": "Max Lemos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Na sua opinião, você é a favorável.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 52861,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 164,
+      "evento_id": "164:e0010",
+      "alvo_turno_id": 88,
+      "alvo": "Percy Soares Neto",
+      "interrompente": "Max Lemos",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Esse material está disponível nas páginas da ABCON SINDCON?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 120216,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

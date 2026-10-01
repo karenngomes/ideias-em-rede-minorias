@@ -1,0 +1,165 @@
+{
+  "sample_id": 187,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 33,
+      "n_palavras": 16631,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.030303030303030304,
+      "eventos_por_mil_palavras": 0.0601286753652817,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9982,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.10018032458425165
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 6649,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 33,
+      "n_palavras": 16631,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.030303030303030304,
+      "eventos_por_mil_palavras": 0.0601286753652817,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9982,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 6649,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.058823529411764705,
+          "eventos_por_mil_palavras": 0.15039855617386072
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.058823529411764705,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 33,
+      "n_palavras": 16631,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.030303030303030304,
+      "eventos_por_mil_palavras": 0.0601286753652817,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9982,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 6649,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.058823529411764705,
+          "eventos_por_mil_palavras": 0.15039855617386072
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.058823529411764705,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 33,
+      "n_palavras": 16631,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.06060606060606061,
+      "eventos_por_mil_palavras": 0.1202573507305634,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9982,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.10018032458425165
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 6649,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.058823529411764705,
+          "eventos_por_mil_palavras": 0.15039855617386072
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.003676470588235295,
+      "por_tipo": {
+        "manifestacao_plateia": 1,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 187,
+      "evento_id": "187:e0001",
+      "alvo_turno_id": 30,
+      "alvo": "Marlete Queiroz Reys",
+      "interrompente": "Prof. Paulo Fernando",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Onde fica isso?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 92188,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 187,
+      "evento_id": "187:e0002",
+      "alvo_turno_id": 26,
+      "alvo": "Prof. Paulo Fernando",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "visão de que os policiais podem votar de maneira itinerante no dia das eleições, e essa mesma alternativa não é dada à comunidade cigana em relação às votações.(Manifestação na plateia.)\n\nEntão, urge também a necessidade de marcarmos, na Corregedoria do TSE, uma audiência no sentido de viabilizar esse voto itinerante.\n\nAlém disso, há a questão",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 89229,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

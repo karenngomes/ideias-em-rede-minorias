@@ -1,0 +1,164 @@
+{
+  "sample_id": 195,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 21,
+      "n_palavras": 8774,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.09523809523809523,
+      "eventos_por_mil_palavras": 0.22794620469569182,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 6933,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.28847540747151307
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 1841,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 21,
+      "n_palavras": 8774,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.047619047619047616,
+      "eventos_por_mil_palavras": 0.11397310234784591,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 6933,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.14423770373575653
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 1841,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09090909090909091,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 21,
+      "n_palavras": 8774,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 6933,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 1841,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 21,
+      "n_palavras": 8774,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.09523809523809523,
+      "eventos_por_mil_palavras": 0.22794620469569182,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 6933,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.28847540747151307
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 1841,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 195,
+      "evento_id": "195:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Assimakis Komninos",
+      "interrompente": "Any Ortiz",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Está bem. Obrigada.\n\nA próxima pergunta era sobre isso. Eu queria saber se as empresas estão restringindo o lançamento de seus produtos após a promulgação da Lei de Mercados Digitais. Há o exemplo desse produto da Meta. Existe algum outro?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 18529,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 195,
+      "evento_id": "195:e0002",
+      "alvo_turno_id": 20,
+      "alvo": "Krisztian Katona",
+      "interrompente": "Any Ortiz",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Obrigada.\n\nNesses países, usando o próprio exemplo da Europa, tem como fazer uma avaliação se já houve o aumento desses custos aos consumidores? Com o tempo que se tem, já é possível fazer essa afirmação?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 54631,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

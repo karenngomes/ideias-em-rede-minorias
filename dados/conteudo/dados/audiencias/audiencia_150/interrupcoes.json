@@ -1,0 +1,162 @@
+{
+  "sample_id": 150,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 13,
+      "n_palavras": 7091,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.15384615384615385,
+      "eventos_por_mil_palavras": 0.2820476660555634,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 7,
+          "n_palavras": 5647,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.2857142857142857,
+          "eventos_por_mil_palavras": 0.3541703559412077
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 1444,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2857142857142857,
+      "por_tipo": {
+        "tecnica": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 13,
+      "n_palavras": 7091,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.15384615384615385,
+      "eventos_por_mil_palavras": 0.2820476660555634,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 7,
+          "n_palavras": 5647,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.2857142857142857,
+          "eventos_por_mil_palavras": 0.3541703559412077
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 1444,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2857142857142857,
+      "por_tipo": {
+        "tecnica": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 13,
+      "n_palavras": 7091,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 7,
+          "n_palavras": 5647,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 1444,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 13,
+      "n_palavras": 7091,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.15384615384615385,
+      "eventos_por_mil_palavras": 0.2820476660555634,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 7,
+          "n_palavras": 5647,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.2857142857142857,
+          "eventos_por_mil_palavras": 0.3541703559412077
+        },
+        "parlamentares": {
+          "n_oportunidades": 6,
+          "n_palavras": 1444,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2857142857142857,
+      "por_tipo": {
+        "tecnica": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 150,
+      "evento_id": "150:e0001",
+      "alvo_turno_id": 9,
+      "alvo": "Cláudio Gomide",
+      "interrompente": "Luisa Canziani",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Dr. Cláudio, desculpe-me, nós perdemos o seu áudio.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 33412,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 150,
+      "evento_id": "150:e0002",
+      "alvo_turno_id": 17,
+      "alvo": "Cláudio Gomide",
+      "interrompente": "Luisa Canziani",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Cláudio, de novo, houve uma falha no som.(Pausa.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 36292,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

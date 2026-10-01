@@ -1,0 +1,164 @@
+{
+  "sample_id": 94,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 38,
+      "n_palavras": 16482,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.05263157894736842,
+      "eventos_por_mil_palavras": 0.12134449702705982,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 11306,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.09523809523809523,
+          "eventos_por_mil_palavras": 0.1768972227136034
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 5176,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09523809523809523,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 38,
+      "n_palavras": 16482,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02631578947368421,
+      "eventos_por_mil_palavras": 0.06067224851352991,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 11306,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.047619047619047616,
+          "eventos_por_mil_palavras": 0.0884486113568017
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 5176,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.047619047619047616,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 38,
+      "n_palavras": 16482,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 11306,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 5176,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 38,
+      "n_palavras": 16482,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.05263157894736842,
+      "eventos_por_mil_palavras": 0.12134449702705982,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 11306,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.09523809523809523,
+          "eventos_por_mil_palavras": 0.1768972227136034
+        },
+        "parlamentares": {
+          "n_oportunidades": 17,
+          "n_palavras": 5176,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09523809523809523,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 94,
+      "evento_id": "094:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Telma Sá Nascimento",
+      "interrompente": "Erika Kokay",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Pode fazer, Telma.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 9985,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 94,
+      "evento_id": "094:e0002",
+      "alvo_turno_id": 6,
+      "alvo": "Telma Sá Nascimento",
+      "interrompente": "Erika Kokay",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Já acabou o seu tempo. Você poderia concluir.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 10515,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "sample_id": 97,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 25,
+      "n_palavras": 18314,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 15159,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3155,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "registrada": {
+      "n_oportunidades": 25,
+      "n_palavras": 18314,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.04,
+      "eventos_por_mil_palavras": 0.054603035928797644,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 15159,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3155,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.31695721077654515
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.07692307692307693,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 25,
+      "n_palavras": 18314,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.04,
+      "eventos_por_mil_palavras": 0.054603035928797644,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 15159,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3155,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.31695721077654515
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.07692307692307693,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 25,
+      "n_palavras": 18314,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.04,
+      "eventos_por_mil_palavras": 0.054603035928797644,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 15159,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 13,
+          "n_palavras": 3155,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07692307692307693,
+          "eventos_por_mil_palavras": 0.31695721077654515
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.07692307692307693,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 97,
+      "evento_id": "097:e0001",
+      "alvo_turno_id": 1,
+      "alvo": "Vicentinho",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Estamos ao vivo!",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 2017,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

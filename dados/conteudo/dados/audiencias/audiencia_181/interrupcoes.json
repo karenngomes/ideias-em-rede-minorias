@@ -1,0 +1,162 @@
+{
+  "sample_id": 181,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 20,
+      "n_palavras": 11667,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.17142367360932545,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 10286,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.19443904335990667
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1381,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15384615384615385,
+      "por_tipo": {
+        "intercalacao": 1,
+        "procedimento": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 20,
+      "n_palavras": 11667,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 10286,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1381,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 20,
+      "n_palavras": 11667,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 10286,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1381,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 20,
+      "n_palavras": 11667,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.17142367360932545,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 10286,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.19443904335990667
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1381,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15384615384615385,
+      "por_tipo": {
+        "intercalacao": 1,
+        "procedimento": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 181,
+      "evento_id": "181:e0001",
+      "alvo_turno_id": 6,
+      "alvo": "Margareth Dalcolmo",
+      "interrompente": "Dr. Zacharias Calil",
+      "tipo": "procedimento",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigado. Eu acho que temos que tomar providência em relação ao cigarro eletrônico. Temos andado pelas ruas e visto que a incidência está altíssima.\n\nOutro dia, eu parei no trânsito e tinha...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 32009,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 181,
+      "evento_id": "181:e0002",
+      "alvo_turno_id": 23,
+      "alvo": "Diogo Alves",
+      "interrompente": "Dr. Zacharias Calil",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Estou vendo aqui que o projeto é do Senador José Serra, de São Paulo. Estão, está no Senado. Às vezes, conseguimos puxá-lo para a Câmara.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 70845,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

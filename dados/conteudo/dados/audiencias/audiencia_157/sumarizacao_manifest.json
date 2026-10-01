@@ -1,0 +1,17 @@
+{
+  "sample_id": 157,
+  "status": "concluida",
+  "segundos": 202.48,
+  "modelos": {
+    "extracao": "gpt-6-luna",
+    "sintese": "gpt-6.1-sol",
+    "embeddings": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+  },
+  "contagem_tokens": "tiktoken/cl100k_base",
+  "n_lotes": 10,
+  "chamadas_extracao": 10,
+  "chamadas_sintese": 3,
+  "tokens_in": 85395,
+  "tokens_out": 35164,
+  "cache_hits": 0
+}

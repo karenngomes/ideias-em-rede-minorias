@@ -1,0 +1,313 @@
+{
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "grupo_M": {
+        "n_audiencias": 53,
+        "n_eventos": 75,
+        "n_turnos_interrompidos": 75,
+        "n_oportunidades": 1450,
+        "n_palavras": 796807,
+        "taxa_agregada_turnos": 0.05172413793103448,
+        "eventos_agregados_por_mil_palavras": 0.09412567911677483,
+        "mediana_taxa_por_audiencia": 0.03571428571428571
+      },
+      "grupo_C": {
+        "n_audiencias": 153,
+        "n_eventos": 411,
+        "n_turnos_interrompidos": 411,
+        "n_oportunidades": 5567,
+        "n_palavras": 2665584,
+        "taxa_agregada_turnos": 0.07382791449613796,
+        "eventos_agregados_por_mil_palavras": 0.15418760016566727,
+        "mediana_taxa_por_audiencia": 0.047619047619047616
+      },
+      "comparacoes": {
+        "taxa_turnos": {
+          "hipotese": "EXP-INT",
+          "medida": "atual: proporção de turnos interrompidos",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.03571428571428571,
+          "mediana_c": 0.047619047619047616,
+          "u": 3138.0,
+          "p": 0.012821889434637376,
+          "delta": -0.22604513503514614,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "pequeno",
+          "significante": null
+        },
+        "eventos_por_mil_palavras": {
+          "hipotese": "EXP-INT",
+          "medida": "atual: eventos por mil palavras",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.05769341718109964,
+          "mediana_c": 0.09446438692612885,
+          "u": 3197.0,
+          "p": 0.01989807536933681,
+          "delta": -0.2114934023924035,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "pequeno",
+          "significante": null
+        },
+        "assimetria_convidados_parlamentares": {
+          "hipotese": "EXP-INT",
+          "medida": "atual: convidados menos parlamentares",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 152,
+          "mediana_m": 0.05555555555555555,
+          "mediana_c": 0.0625,
+          "u": 3747.0,
+          "p": 0.4429227056313616,
+          "delta": -0.06976166832174777,
+          "excluidas": [
+            133
+          ],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        }
+      }
+    },
+    "registrada": {
+      "grupo_M": {
+        "n_audiencias": 53,
+        "n_eventos": 62,
+        "n_turnos_interrompidos": 47,
+        "n_oportunidades": 1450,
+        "n_palavras": 796807,
+        "taxa_agregada_turnos": 0.032413793103448274,
+        "eventos_agregados_por_mil_palavras": 0.07781056140320053,
+        "mediana_taxa_por_audiencia": 0.0
+      },
+      "grupo_C": {
+        "n_audiencias": 153,
+        "n_eventos": 184,
+        "n_turnos_interrompidos": 182,
+        "n_oportunidades": 5567,
+        "n_palavras": 2665584,
+        "taxa_agregada_turnos": 0.032692653134542844,
+        "eventos_agregados_por_mil_palavras": 0.06902802537830359,
+        "mediana_taxa_por_audiencia": 0.0
+      },
+      "comparacoes": {
+        "taxa_turnos": {
+          "hipotese": "EXP-INT",
+          "medida": "registrada: proporção de turnos interrompidos",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.0,
+          "mediana_c": 0.0,
+          "u": 3790.0,
+          "p": 0.4421528383279103,
+          "delta": -0.06523615735602417,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        },
+        "eventos_por_mil_palavras": {
+          "hipotese": "EXP-INT",
+          "medida": "registrada: eventos por mil palavras",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.0,
+          "mediana_c": 0.0,
+          "u": 3813.0,
+          "p": 0.4829379644441154,
+          "delta": -0.059563448020717724,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        },
+        "assimetria_convidados_parlamentares": {
+          "hipotese": "EXP-INT",
+          "medida": "registrada: convidados menos parlamentares",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 152,
+          "mediana_m": 0.0,
+          "mediana_c": 0.0,
+          "u": 4098.5,
+          "p": 0.8369741464203184,
+          "delta": 0.01750248262164846,
+          "excluidas": [
+            133
+          ],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        }
+      }
+    },
+    "substantiva": {
+      "grupo_M": {
+        "n_audiencias": 53,
+        "n_eventos": 29,
+        "n_turnos_interrompidos": 15,
+        "n_oportunidades": 1450,
+        "n_palavras": 796807,
+        "taxa_agregada_turnos": 0.010344827586206896,
+        "eventos_agregados_por_mil_palavras": 0.0363952625918196,
+        "mediana_taxa_por_audiencia": 0.0
+      },
+      "grupo_C": {
+        "n_audiencias": 153,
+        "n_eventos": 39,
+        "n_turnos_interrompidos": 37,
+        "n_oportunidades": 5567,
+        "n_palavras": 2665584,
+        "taxa_agregada_turnos": 0.006646308604275193,
+        "eventos_agregados_por_mil_palavras": 0.014630940161705653,
+        "mediana_taxa_por_audiencia": 0.0
+      },
+      "comparacoes": {
+        "taxa_turnos": {
+          "hipotese": "EXP-INT",
+          "medida": "substantiva: proporção de turnos interrompidos",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.0,
+          "mediana_c": 0.0,
+          "u": 3914.5,
+          "p": 0.5373599545606113,
+          "delta": -0.03452953508447404,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        },
+        "eventos_por_mil_palavras": {
+          "hipotese": "EXP-INT",
+          "medida": "substantiva: eventos por mil palavras",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.0,
+          "mediana_c": 0.0,
+          "u": 3938.0,
+          "p": 0.6080198020777645,
+          "delta": -0.028733505981008756,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        },
+        "assimetria_convidados_parlamentares": {
+          "hipotese": "EXP-INT",
+          "medida": "substantiva: convidados menos parlamentares",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 152,
+          "mediana_m": 0.0,
+          "mediana_c": 0.0,
+          "u": 3963.5,
+          "p": 0.7764038763233247,
+          "delta": -0.016012909632571997,
+          "excluidas": [
+            133
+          ],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        }
+      }
+    },
+    "ampla": {
+      "grupo_M": {
+        "n_audiencias": 53,
+        "n_eventos": 134,
+        "n_turnos_interrompidos": 115,
+        "n_oportunidades": 1450,
+        "n_palavras": 796807,
+        "taxa_agregada_turnos": 0.07931034482758621,
+        "eventos_agregados_por_mil_palavras": 0.16817121335530436,
+        "mediana_taxa_por_audiencia": 0.043478260869565216
+      },
+      "grupo_C": {
+        "n_audiencias": 153,
+        "n_eventos": 882,
+        "n_turnos_interrompidos": 878,
+        "n_oportunidades": 5567,
+        "n_palavras": 2665584,
+        "taxa_agregada_turnos": 0.15771510687982757,
+        "eventos_agregados_por_mil_palavras": 0.33088433904165093,
+        "mediana_taxa_por_audiencia": 0.07142857142857142
+      },
+      "comparacoes": {
+        "taxa_turnos": {
+          "hipotese": "EXP-INT",
+          "medida": "ampla: proporção de turnos interrompidos",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.043478260869565216,
+          "mediana_c": 0.07142857142857142,
+          "u": 3287.0,
+          "p": 0.038488225427114865,
+          "delta": -0.18929584412381303,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "pequeno",
+          "significante": null
+        },
+        "eventos_por_mil_palavras": {
+          "hipotese": "EXP-INT",
+          "medida": "ampla: eventos por mil palavras",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 153,
+          "mediana_m": 0.08829242450997704,
+          "mediana_c": 0.11966732483695328,
+          "u": 3435.0,
+          "p": 0.09488758193546887,
+          "delta": -0.15279319274879763,
+          "excluidas": [],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "pequeno",
+          "significante": null
+        },
+        "assimetria_convidados_parlamentares": {
+          "hipotese": "EXP-INT",
+          "medida": "ampla: convidados menos parlamentares",
+          "alternativa": "two-sided",
+          "n_m": 53,
+          "n_c": 152,
+          "mediana_m": 0.06666666666666667,
+          "mediana_c": 0.08998895841001105,
+          "u": 3854.5,
+          "p": 0.6386715896586488,
+          "delta": -0.04307348560079444,
+          "excluidas": [
+            133
+          ],
+          "p_holm": null,
+          "exploratoria": true,
+          "magnitude": "desprezível",
+          "significante": null
+        }
+      }
+    }
+  }
+}

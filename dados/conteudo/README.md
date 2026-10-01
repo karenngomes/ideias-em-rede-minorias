@@ -31,11 +31,32 @@ proveniencia.json      a conferência de que cada posição aponta para fala rea
 materia.json           as posições que viraram notícia
 grafo.json             as opiniões como rede
 resumo.json            o resumo por tema
+resumo_ancorado.json   o novo resumo por tema, com proveniência por frase
+unidades_resumo.json   unidades substantivas que sustentam o resumo ancorado
+interrupcoes.json      eventos e quatro leituras das interrupções observáveis
 clausulas.json         as ressalvas de cada posição
 argumento_intra.json   o que sustenta cada posição
 dqi.json               os sete indicadores, por fala
 cobertura.json         quem falou e quem foi citado
 ```
+
+## Atualização das novas pipelines
+
+Os arquivos antigos foram preservados para não quebrar consumidores existentes. As
+novas saídas entram como camadas adicionais:
+
+- `resumo_ancorado.json`: nova sumarização feita a partir de `simplificacao.csv`;
+- `unidades_resumo.json`: unidades aceitas, com âncora na simplificação e na
+  transcrição original;
+- `unidades_rejeitadas_resumo.json`: extrações que não passaram pela verificação;
+- `blocos_simplificados.json`: blocos de entrada usados pela nova sumarização;
+- `sumarizacao_manifest.json`: modelos, tokens, cache e duração da audiência;
+- `interrupcoes.json`: análise determinística exploratória, com eventos e evidência.
+
+Nesta importação há **186 sumarizações concluídas** e **206 análises de interrupção**.
+Os vinte IDs ainda sem sumarização estão registrados em `manifest.json`; nenhuma
+pipeline foi executada durante a importação. Os agregados de interrupção ficam em
+`interrupcoes_resultados.json` e `interrupcoes_eventos.csv`.
 
 ## Os dois índices
 

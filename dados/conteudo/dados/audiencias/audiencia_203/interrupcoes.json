@@ -1,0 +1,162 @@
+{
+  "sample_id": 203,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 20,
+      "n_palavras": 10791,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.18533963488091929,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 6732,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.29708853238265004
+        },
+        "parlamentares": {
+          "n_oportunidades": 8,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "gestao_tempo": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 20,
+      "n_palavras": 10791,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.18533963488091929,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 6732,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.29708853238265004
+        },
+        "parlamentares": {
+          "n_oportunidades": 8,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "gestao_tempo": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 20,
+      "n_palavras": 10791,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 6732,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 8,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 20,
+      "n_palavras": 10791,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.18533963488091929,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 6732,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.29708853238265004
+        },
+        "parlamentares": {
+          "n_oportunidades": 8,
+          "n_palavras": 4059,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "gestao_tempo": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 203,
+      "evento_id": "203:e0001",
+      "alvo_turno_id": 7,
+      "alvo": "Letícia Godinho",
+      "interrompente": "Ana Pimentel",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Letícia, você completou os 7 minutos, mas pode concluir tranquilamente.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 24903,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 203,
+      "evento_id": "203:e0002",
+      "alvo_turno_id": 15,
+      "alvo": "Wilma dos Reis",
+      "interrompente": "Ana Pimentel",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Wilma, só para você saber, já se passaram 8 minutos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 45672,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

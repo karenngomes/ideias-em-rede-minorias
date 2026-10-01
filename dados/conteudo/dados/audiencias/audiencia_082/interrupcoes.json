@@ -1,0 +1,142 @@
+{
+  "sample_id": 82,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 38,
+      "n_palavras": 11695,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02631578947368421,
+      "eventos_por_mil_palavras": 0.08550662676357418,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 18,
+          "n_palavras": 7997,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05555555555555555,
+          "eventos_por_mil_palavras": 0.12504689258471927
+        },
+        "parlamentares": {
+          "n_oportunidades": 20,
+          "n_palavras": 3698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05555555555555555,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 38,
+      "n_palavras": 11695,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 18,
+          "n_palavras": 7997,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 20,
+          "n_palavras": 3698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 38,
+      "n_palavras": 11695,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 18,
+          "n_palavras": 7997,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 20,
+          "n_palavras": 3698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 38,
+      "n_palavras": 11695,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02631578947368421,
+      "eventos_por_mil_palavras": 0.08550662676357418,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 18,
+          "n_palavras": 7997,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05555555555555555,
+          "eventos_por_mil_palavras": 0.12504689258471927
+        },
+        "parlamentares": {
+          "n_oportunidades": 20,
+          "n_palavras": 3698,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05555555555555555,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 82,
+      "evento_id": "082:e0001",
+      "alvo_turno_id": 16,
+      "alvo": "Francisco Paulo Jorge Pinto",
+      "interrompente": "Erika Kokay",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Está devidamente corrigido.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 28884,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

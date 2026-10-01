@@ -1,0 +1,165 @@
+{
+  "sample_id": 111,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 23,
+      "n_palavras": 13131,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.0761556621734826,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 9983,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.10017028949213663
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 3148,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09090909090909091,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 23,
+      "n_palavras": 13131,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.0761556621734826,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 9983,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.10017028949213663
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 3148,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09090909090909091,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 23,
+      "n_palavras": 13131,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.0761556621734826,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 9983,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.10017028949213663
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 3148,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09090909090909091,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 23,
+      "n_palavras": 13131,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.08695652173913043,
+      "eventos_por_mil_palavras": 0.1523113243469652,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 9983,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.20034057898427327
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 3148,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 111,
+      "evento_id": "111:e0001",
+      "alvo_turno_id": 24,
+      "alvo": "Intérprete",
+      "interrompente": "Amália Barros",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Passo a palavra, para as considerações finais, ao Prof. Messias Ramos.\n\nO SR. MESSIAS RAMOS COSTA-(Manifestação em LIBRAS.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 71499,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 111,
+      "evento_id": "111:e0002",
+      "alvo_turno_id": 12,
+      "alvo": "Intérprete",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "(Manifestação em LIBRAS.)",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 59305,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

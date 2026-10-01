@@ -1,0 +1,198 @@
+{
+  "sample_id": 79,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 31,
+      "n_palavras": 19927,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.12903225806451613,
+      "eventos_por_mil_palavras": 0.20073267426105285,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 13893,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.2879147772259411
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 6034,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 4
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 31,
+      "n_palavras": 19927,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.12903225806451613,
+      "eventos_por_mil_palavras": 0.20073267426105285,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 13893,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.2879147772259411
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 6034,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 4
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 31,
+      "n_palavras": 19927,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 13893,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 6034,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 31,
+      "n_palavras": 19927,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.12903225806451613,
+      "eventos_por_mil_palavras": 0.20073267426105285,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 13893,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.2879147772259411
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 6034,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 4
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 79,
+      "evento_id": "079:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Mauro Silva",
+      "interrompente": "Felipe Rigoni",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Falta 1 minuto, Mauro.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 11000,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 79,
+      "evento_id": "079:e0002",
+      "alvo_turno_id": 15,
+      "alvo": "Alberto Macedo",
+      "interrompente": "Felipe Rigoni",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Por favor, conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 42283,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 79,
+      "evento_id": "079:e0003",
+      "alvo_turno_id": 17,
+      "alvo": "Alberto Macedo",
+      "interrompente": "Felipe Rigoni",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Alberto, eu preciso que você conclua sua fala.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 43090,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 79,
+      "evento_id": "079:e0004",
+      "alvo_turno_id": 37,
+      "alvo": "Edson Vismona",
+      "interrompente": "Felipe Rigoni",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Edson, peço a você que encaminhe esse estudo hoje, porque estamos terminando esse processo aqui. Então, é importante que você o envie o quanto antes.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 82262,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

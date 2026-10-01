@@ -1,0 +1,219 @@
+{
+  "sample_id": 96,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 33,
+      "n_palavras": 17867,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.12121212121212122,
+      "eventos_por_mil_palavras": 0.22387642021604073,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11855,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.2,
+          "eventos_por_mil_palavras": 0.25305778152678193
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6012,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05555555555555555,
+          "eventos_por_mil_palavras": 0.16633399866932802
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.14444444444444446,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 3
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 33,
+      "n_palavras": 17867,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.030303030303030304,
+      "eventos_por_mil_palavras": 0.05596910505401018,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11855,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.06666666666666667,
+          "eventos_por_mil_palavras": 0.08435259384226065
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6012,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.06666666666666667,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 33,
+      "n_palavras": 17867,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11855,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6012,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 33,
+      "n_palavras": 17867,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.15151515151515152,
+      "eventos_por_mil_palavras": 0.2798455252700509,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 15,
+          "n_palavras": 11855,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.26666666666666666,
+          "eventos_por_mil_palavras": 0.3374103753690426
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6012,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05555555555555555,
+          "eventos_por_mil_palavras": 0.16633399866932802
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2111111111111111,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 3,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 96,
+      "evento_id": "096:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Cybelle Fraga",
+      "interrompente": "Fábio Trad",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Cybelle, você tem mais 2 minutos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 32786,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 96,
+      "evento_id": "096:e0002",
+      "alvo_turno_id": 10,
+      "alvo": "Benjamim Vale",
+      "interrompente": "Fábio Trad",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim, estamos ouvindo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 37782,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 96,
+      "evento_id": "096:e0003",
+      "alvo_turno_id": 15,
+      "alvo": "Yuri Maia",
+      "interrompente": "Benjamim Vale",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "O.k.?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 38638,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 96,
+      "evento_id": "096:e0004",
+      "alvo_turno_id": 26,
+      "alvo": "Cybelle Fraga",
+      "interrompente": "Fábio Trad",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Exatamente, fique à vontade para responder.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 65929,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 96,
+      "evento_id": "096:e0005",
+      "alvo_turno_id": 44,
+      "alvo": "Eduardo Barbosa",
+      "interrompente": "Fábio Trad",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim, estamos ouvindo, Deputado Eduardo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 96982,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

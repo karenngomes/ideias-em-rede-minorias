@@ -1,0 +1,281 @@
+{
+  "sample_id": 131,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 37,
+      "n_palavras": 13249,
+      "n_eventos": 7,
+      "n_turnos_interrompidos": 7,
+      "taxa_turnos": 0.1891891891891892,
+      "eventos_por_mil_palavras": 0.5283417616423881,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 7484,
+          "n_eventos": 7,
+          "n_turnos_interrompidos": 7,
+          "taxa_turnos": 0.3684210526315789,
+          "eventos_por_mil_palavras": 0.9353287012292891
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5765,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.3684210526315789,
+      "por_tipo": {
+        "intercalacao": 2,
+        "interrupcao_explicita": 1,
+        "pergunta_intercalada": 2,
+        "procedimento": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 37,
+      "n_palavras": 13249,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.05405405405405406,
+      "eventos_por_mil_palavras": 0.15095478904068232,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 7484,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.10526315789473684,
+          "eventos_por_mil_palavras": 0.2672367717797969
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5765,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.10526315789473684,
+      "por_tipo": {
+        "interrupcao_explicita": 1,
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 37,
+      "n_palavras": 13249,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02702702702702703,
+      "eventos_por_mil_palavras": 0.07547739452034116,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 7484,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.13361838588989844
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5765,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05263157894736842,
+      "por_tipo": {
+        "interrupcao_explicita": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 37,
+      "n_palavras": 13249,
+      "n_eventos": 8,
+      "n_turnos_interrompidos": 8,
+      "taxa_turnos": 0.21621621621621623,
+      "eventos_por_mil_palavras": 0.6038191561627293,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 7484,
+          "n_eventos": 8,
+          "n_turnos_interrompidos": 8,
+          "taxa_turnos": 0.42105263157894735,
+          "eventos_por_mil_palavras": 1.0689470871191875
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 5765,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.42105263157894735,
+      "por_tipo": {
+        "intercalacao": 2,
+        "interrupcao_explicita": 1,
+        "pergunta_intercalada": 3,
+        "procedimento": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0001",
+      "alvo_turno_id": 8,
+      "alvo": "Carlos Rafael Menin Simões",
+      "interrompente": "Jorge Solla",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "É isso o que eu queria que você complementasse, por favor. Você falou dos prazos a partir da admissibilidade. O estágio atual é o de admissibilidade. Isso tem prazo estabelecido? Como funciona?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 19366,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0002",
+      "alvo_turno_id": 28,
+      "alvo": "Anderson Santos Bellas",
+      "interrompente": "Jorge Solla",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Anderson, perdoe-me, mas não estamos conseguindo entender direito o que você está dizendo. Se você puder, aumente o volume do som e chegue mais perto do microfone. Está meio difícil entendermos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 57331,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0003",
+      "alvo_turno_id": 45,
+      "alvo": "José Bartolomeu",
+      "interrompente": "Jorge Solla",
+      "tipo": "procedimento",
+      "sinal": "A-X-A",
+      "trecho": "Fique à vontade, porque todos nós estamos ansiosos para ouvir suas respostas.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 75323,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0004",
+      "alvo_turno_id": 47,
+      "alvo": "José Bartolomeu",
+      "interrompente": "Jorge Solla",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Desculpe-me. Quais são as BAs, além da Estrada da Base Naval?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 77974,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0005",
+      "alvo_turno_id": 51,
+      "alvo": "José Bartolomeu",
+      "interrompente": "Jorge Solla",
+      "tipo": "interrupcao_explicita",
+      "sinal": "A-X-A",
+      "trecho": "Permita-me interrompê-lo. Só falou da estimativa de início. E o cronograma de obras de duplicação e dos investimentos?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 79025,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0006",
+      "alvo_turno_id": 53,
+      "alvo": "José Bartolomeu",
+      "interrompente": "Jorge Solla",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "São 432 quilômetros de duplicação...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 79802,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0007",
+      "alvo_turno_id": 59,
+      "alvo": "José Bartolomeu",
+      "interrompente": "Jorge Solla",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Outra pergunta que ficou em aberto diz respeito às estimativas de reajuste de pedágio.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 80667,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 131,
+      "evento_id": "131:e0008",
+      "alvo_turno_id": 66,
+      "alvo": "Carlos Rafael Menin Simões",
+      "interrompente": "Rogéria Santos",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "O senhor sabe, então, quem teria essa resposta? Seria o próprio Ministério?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 83876,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

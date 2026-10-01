@@ -1,0 +1,158 @@
+{
+  "sample_id": 170,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 38,
+      "n_palavras": 19516,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 29,
+          "n_palavras": 16203,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3313,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "registrada": {
+      "n_oportunidades": 38,
+      "n_palavras": 19516,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 29,
+          "n_palavras": 16203,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3313,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 38,
+      "n_palavras": 19516,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 29,
+          "n_palavras": 16203,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3313,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 38,
+      "n_palavras": 19516,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02631578947368421,
+      "eventos_por_mil_palavras": 0.10248001639680263,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 29,
+          "n_palavras": 16203,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.034482758620689655,
+          "eventos_por_mil_palavras": 0.12343393198790348
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 3313,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.034482758620689655,
+      "por_tipo": {
+        "fala_anonima": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 170,
+      "evento_id": "170:e0001",
+      "alvo_turno_id": 44,
+      "alvo": "Damiana Neto",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Nós queríamos agradecer a nossa participação aqui, agradecer a vocês por terem nos aceitado aqui.\n\nObrigado.(Palmas.)",
+      "origem": "nao_identificada",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 101052,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 170,
+      "evento_id": "170:e0002",
+      "alvo_turno_id": 44,
+      "alvo": "Damiana Neto",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Bem, gente, eu agradeço a vocês e à AME por nos darem a oportunidade de estar aqui e pela acolhida. Eu garanto que isso vai ficar sempre guardado na memória deles.\n\nQueremos mais espaços assim.\n\nObrigada.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 101052,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "sample_id": 197,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 17,
+      "n_palavras": 16834,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.058823529411764705,
+      "eventos_por_mil_palavras": 0.059403587976713794,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 14742,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.1,
+          "eventos_por_mil_palavras": 0.0678334011667345
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2092,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.1,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 17,
+      "n_palavras": 16834,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.058823529411764705,
+      "eventos_por_mil_palavras": 0.059403587976713794,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 14742,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.1,
+          "eventos_por_mil_palavras": 0.0678334011667345
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2092,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.1,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 17,
+      "n_palavras": 16834,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.058823529411764705,
+      "eventos_por_mil_palavras": 0.059403587976713794,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 14742,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.1,
+          "eventos_por_mil_palavras": 0.0678334011667345
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2092,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.1,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 17,
+      "n_palavras": 16834,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.058823529411764705,
+      "eventos_por_mil_palavras": 0.059403587976713794,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 14742,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.1,
+          "eventos_por_mil_palavras": 0.0678334011667345
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 2092,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.1,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 197,
+      "evento_id": "197:e0001",
+      "alvo_turno_id": 13,
+      "alvo": "Odir Antônio Dellagostin",
+      "interrompente": "plateia/desconhecido",
+      "tipo": "manifestacao_plateia",
+      "sinal": "A-X-A",
+      "trecho": "Pessoal, por gentileza, silêncio.\n\nMuito obrigada.",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 55617,
+      "atual": true,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

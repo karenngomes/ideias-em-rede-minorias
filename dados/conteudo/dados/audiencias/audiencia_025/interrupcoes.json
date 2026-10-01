@@ -1,0 +1,203 @@
+{
+  "sample_id": 25,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 64,
+      "n_palavras": 26168,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.046875,
+      "eventos_por_mil_palavras": 0.11464383980434117,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 26,
+          "n_palavras": 16000,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.11538461538461539,
+          "eventos_por_mil_palavras": 0.1875
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 10168,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.11538461538461539,
+      "por_tipo": {
+        "intercalacao": 1,
+        "pergunta_intercalada": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 64,
+      "n_palavras": 26168,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.015625,
+      "eventos_por_mil_palavras": 0.03821461326811373,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 26,
+          "n_palavras": 16000,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 10168,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.02631578947368421,
+          "eventos_por_mil_palavras": 0.0983477576711251
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.02631578947368421,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 64,
+      "n_palavras": 26168,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.015625,
+      "eventos_por_mil_palavras": 0.03821461326811373,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 26,
+          "n_palavras": 16000,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 10168,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.02631578947368421,
+          "eventos_por_mil_palavras": 0.0983477576711251
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.02631578947368421,
+      "por_tipo": {
+        "fala_anonima": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 64,
+      "n_palavras": 26168,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.0625,
+      "eventos_por_mil_palavras": 0.1528584530724549,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 26,
+          "n_palavras": 16000,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.11538461538461539,
+          "eventos_por_mil_palavras": 0.1875
+        },
+        "parlamentares": {
+          "n_oportunidades": 38,
+          "n_palavras": 10168,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.02631578947368421,
+          "eventos_por_mil_palavras": 0.0983477576711251
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.08906882591093118,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "intercalacao": 1,
+        "pergunta_intercalada": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 25,
+      "evento_id": "025:e0001",
+      "alvo_turno_id": 8,
+      "alvo": "Ricardo Demicheli",
+      "interrompente": "Zé Silva",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Qual é o valor?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 29802,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 25,
+      "evento_id": "025:e0002",
+      "alvo_turno_id": 23,
+      "alvo": "Wolnei Aparecido Wolff Barreiros",
+      "interrompente": "Zé Neto",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Wolnei, quer dizer que está disponível para os Municípios acessarem?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 62214,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 25,
+      "evento_id": "025:e0003",
+      "alvo_turno_id": 35,
+      "alvo": "Keny Soares",
+      "interrompente": "Zé Silva",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Não tem, não.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 81213,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 25,
+      "evento_id": "025:e0004",
+      "alvo_turno_id": 84,
+      "alvo": "Zé Silva",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Nós que estamos aqui gostaríamos de pedir uma salva de palmas para vocês que foram sensíveis à nossa causa e estão aqui. Isso demonstra o compromisso de vocês quando andaram em nossa região. É isto o que esperamos, o político que vai lá pedir o nosso voto e volta para trabalhar conosco. Então, uma salva de palmas de todos nós, de pé, para os políticos que estão aqui.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 161392,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

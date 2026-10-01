@@ -1,0 +1,277 @@
+{
+  "sample_id": 99,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 43,
+      "n_palavras": 22718,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.046511627906976744,
+      "eventos_por_mil_palavras": 0.08803591865481117,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 16387,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.06102398242509306
+        },
+        "parlamentares": {
+          "n_oportunidades": 24,
+          "n_palavras": 6331,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.041666666666666664,
+          "eventos_por_mil_palavras": 0.15795293002685198
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.010964912280701754,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 43,
+      "n_palavras": 22718,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.046511627906976744,
+      "eventos_por_mil_palavras": 0.13205387798221674,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 16387,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.06102398242509306
+        },
+        "parlamentares": {
+          "n_oportunidades": 24,
+          "n_palavras": 6331,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.041666666666666664,
+          "eventos_por_mil_palavras": 0.31590586005370397
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.010964912280701754,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "manifestacao_plateia": 2
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 43,
+      "n_palavras": 22718,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.023255813953488372,
+      "eventos_por_mil_palavras": 0.08803591865481117,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 16387,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 24,
+          "n_palavras": 6331,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.041666666666666664,
+          "eventos_por_mil_palavras": 0.31590586005370397
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.041666666666666664,
+      "por_tipo": {
+        "manifestacao_plateia": 2
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 43,
+      "n_palavras": 22718,
+      "n_eventos": 8,
+      "n_turnos_interrompidos": 7,
+      "taxa_turnos": 0.16279069767441862,
+      "eventos_por_mil_palavras": 0.3521436746192447,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 19,
+          "n_palavras": 16387,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.2631578947368421,
+          "eventos_por_mil_palavras": 0.3051199121254653
+        },
+        "parlamentares": {
+          "n_oportunidades": 24,
+          "n_palavras": 6331,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.08333333333333333,
+          "eventos_por_mil_palavras": 0.473858790080556
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.17982456140350878,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 4,
+        "manifestacao_plateia": 2,
+        "plateia_solicitada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0001",
+      "alvo_turno_id": 24,
+      "alvo": "Intérprete",
+      "interrompente": "Jamal Naim",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 46591,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0002",
+      "alvo_turno_id": 26,
+      "alvo": "Intérprete",
+      "interrompente": "Jamal Naim",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 48451,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0003",
+      "alvo_turno_id": 28,
+      "alvo": "Intérprete",
+      "interrompente": "Jamal Naim",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 51562,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0004",
+      "alvo_turno_id": 42,
+      "alvo": "Breno Altman",
+      "interrompente": "Glauber Braga",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 73238,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0005",
+      "alvo_turno_id": 80,
+      "alvo": "Gilvan da Federal",
+      "interrompente": "Abilio Brunini",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Ninguém vai agredi-lo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 146510,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0006",
+      "alvo_turno_id": 7,
+      "alvo": "Padre João",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "(palmas); Dra. Clarita Costa Maia, Presidente da Comissão de Relações Internacionais da OAB (palmas).\n\nAnuncio a presença do Deputado Federal Gilvan da Federal.(Manifestação na plateia.)\n\nDeputado Gilvan da Federal, por favor. Deputado Gilvan da Federal, V.Exa. veio aqui participar de uma audiência sabendo do objeto desta audiência.(Manifestaçã",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 11181,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0007",
+      "alvo_turno_id": 7,
+      "alvo": "Padre João",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "na plateia.)\n\nDeputado Gilvan da Federal, por favor. Deputado Gilvan da Federal, V.Exa. veio aqui participar de uma audiência sabendo do objeto desta audiência.(Manifestação na plateia.)\n\nDeputado Gilvan da Federal, por favor.\n\nPor favor, peço silêncio.\n\nNão vamos ceder a provocações. Nós sabemos dos Deputados que querem fazer isso. Deputado Gi",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 11181,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    },
+    {
+      "sample_id": 99,
+      "evento_id": "099:e0008",
+      "alvo_turno_id": 12,
+      "alvo": "Ahmed Shehada",
+      "interrompente": "plateia",
+      "tipo": "plateia_solicitada",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "crimes de genocídio e limpeza étnica praticados pela entidade sionista.\n\nEu teria muito a falar, mas vou respeitar o tempo.\n\nAgradeço muito.\n\nViva a Palestina!(Manifestação na plateia: Viva!)(Palmas.)",
+      "origem": "plateia",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 38836,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

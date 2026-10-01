@@ -1,0 +1,309 @@
+{
+  "sample_id": 129,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 69,
+      "n_palavras": 25554,
+      "n_eventos": 6,
+      "n_turnos_interrompidos": 6,
+      "taxa_turnos": 0.08695652173913043,
+      "eventos_por_mil_palavras": 0.23479690068091102,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 7988,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.08695652173913043,
+          "eventos_por_mil_palavras": 0.25037556334501754
+        },
+        "parlamentares": {
+          "n_oportunidades": 46,
+          "n_palavras": 17566,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.08695652173913043,
+          "eventos_por_mil_palavras": 0.22771262666514858
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "intercalacao": 3
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 69,
+      "n_palavras": 25554,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.11739845034045551,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 7988,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.043478260869565216,
+          "eventos_por_mil_palavras": 0.12518778167250877
+        },
+        "parlamentares": {
+          "n_oportunidades": 46,
+          "n_palavras": 17566,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.043478260869565216,
+          "eventos_por_mil_palavras": 0.11385631333257429
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {
+        "gestao_tempo": 3
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 69,
+      "n_palavras": 25554,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 7988,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 46,
+          "n_palavras": 17566,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 69,
+      "n_palavras": 25554,
+      "n_eventos": 10,
+      "n_turnos_interrompidos": 10,
+      "taxa_turnos": 0.14492753623188406,
+      "eventos_por_mil_palavras": 0.39132816780151836,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 23,
+          "n_palavras": 7988,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.13043478260869565,
+          "eventos_por_mil_palavras": 0.3755633450175263
+        },
+        "parlamentares": {
+          "n_oportunidades": 46,
+          "n_palavras": 17566,
+          "n_eventos": 7,
+          "n_turnos_interrompidos": 7,
+          "taxa_turnos": 0.15217391304347827,
+          "eventos_por_mil_palavras": 0.39849709666401
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.021739130434782622,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "intercalacao": 6,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Ministra Nísia Trindade",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Quase 4 minutos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 22374,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0002",
+      "alvo_turno_id": 15,
+      "alvo": "Eduardo Bolsonaro",
+      "interrompente": "Ministra Nísia Trindade",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Eu gostaria de um esclarecimento só para poder responder. A que pressões externas o senhor se refere?",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 40529,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0003",
+      "alvo_turno_id": 31,
+      "alvo": "Evair Vieira de Melo",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Deputado...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 56420,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0004",
+      "alvo_turno_id": 98,
+      "alvo": "Ministra Nísia Trindade",
+      "interrompente": "Tadeu Veneri",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É servidora do Ministério da Saúde.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 107586,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0005",
+      "alvo_turno_id": 118,
+      "alvo": "Ministra Nísia Trindade",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Infelizmente, agora não. Tivemos um problema técnico.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 119017,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0006",
+      "alvo_turno_id": 149,
+      "alvo": "Mario Frias",
+      "interrompente": "Ministra Nísia Trindade",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Deputado, de uma maneira muito clara, já falei aqui do compromisso do Ministério da Saúde com o direito à vida.\n\nCom relação a...",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 137385,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0007",
+      "alvo_turno_id": 178,
+      "alvo": "Osmar Terra",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Conclua, Deputado, porque outros Deputados estão aguardando para falar.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 148819,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0008",
+      "alvo_turno_id": 180,
+      "alvo": "Osmar Terra",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Deputado, conclua, porque há outros Deputados aguardando.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 149483,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0009",
+      "alvo_turno_id": 186,
+      "alvo": "Padovani",
+      "interrompente": "Osmar Terra",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "O senhor tem toda razão, ainda mais que 90% das luvas são importadas.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 151859,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 129,
+      "evento_id": "129:e0010",
+      "alvo_turno_id": 192,
+      "alvo": "Chris Tonietto",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 158170,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

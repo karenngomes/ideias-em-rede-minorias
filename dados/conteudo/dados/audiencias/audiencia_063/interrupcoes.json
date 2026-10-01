@@ -1,0 +1,140 @@
+{
+  "sample_id": 63,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 15,
+      "n_palavras": 13471,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 11889,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1582,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "registrada": {
+      "n_oportunidades": 15,
+      "n_palavras": 13471,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 11889,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1582,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 15,
+      "n_palavras": 13471,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 11889,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1582,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 15,
+      "n_palavras": 13471,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.06666666666666667,
+      "eventos_por_mil_palavras": 0.07423353871279044,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 11889,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.08411136344520145
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 1582,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.125,
+      "por_tipo": {
+        "plateia_solicitada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 63,
+      "evento_id": "063:e0001",
+      "alvo_turno_id": 6,
+      "alvo": "Élder Ximenes Filho",
+      "interrompente": "plateia",
+      "tipo": "plateia_solicitada",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "a. O pessoal já está marcando outro. Para fazer festa, não precisa ter data, é só ter vontade.\n\nQuem aqui tem 80 anos que nem meu pai? Ninguém? Alguém tem mais?(Manifestação na plateia.)\n\nOlha que maravilha! Está juntinho dele.\n\nEsta Bandeira Nacional pertence mais à senhora do que a mim ou à Vejuse ou ao Deputado, sabia?\n\nO Deputado aqui é bem",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 28571,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

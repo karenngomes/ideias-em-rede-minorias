@@ -1,0 +1,363 @@
+{
+  "sample_id": 199,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 113,
+      "n_palavras": 34087,
+      "n_eventos": 10,
+      "n_turnos_interrompidos": 10,
+      "taxa_turnos": 0.08849557522123894,
+      "eventos_por_mil_palavras": 0.2933669727462082,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 48,
+          "n_palavras": 14581,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.08333333333333333,
+          "eventos_por_mil_palavras": 0.27432960702283793
+        },
+        "parlamentares": {
+          "n_oportunidades": 65,
+          "n_palavras": 19506,
+          "n_eventos": 6,
+          "n_turnos_interrompidos": 6,
+          "taxa_turnos": 0.09230769230769231,
+          "eventos_por_mil_palavras": 0.30759766225776686
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.008974358974358984,
+      "por_tipo": {
+        "gestao_tempo": 4,
+        "intercalacao": 6
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 113,
+      "n_palavras": 34087,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.035398230088495575,
+      "eventos_por_mil_palavras": 0.1173467890984833,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 48,
+          "n_palavras": 14581,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.020833333333333332,
+          "eventos_por_mil_palavras": 0.06858240175570948
+        },
+        "parlamentares": {
+          "n_oportunidades": 65,
+          "n_palavras": 19506,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.046153846153846156,
+          "eventos_por_mil_palavras": 0.15379883112888343
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.025320512820512824,
+      "por_tipo": {
+        "gestao_tempo": 4
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 113,
+      "n_palavras": 34087,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 48,
+          "n_palavras": 14581,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 65,
+          "n_palavras": 19506,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 113,
+      "n_palavras": 34087,
+      "n_eventos": 13,
+      "n_turnos_interrompidos": 13,
+      "taxa_turnos": 0.11504424778761062,
+      "eventos_por_mil_palavras": 0.3813770645700707,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 48,
+          "n_palavras": 14581,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.10416666666666667,
+          "eventos_por_mil_palavras": 0.34291200877854744
+        },
+        "parlamentares": {
+          "n_oportunidades": 65,
+          "n_palavras": 19506,
+          "n_eventos": 8,
+          "n_turnos_interrompidos": 8,
+          "taxa_turnos": 0.12307692307692308,
+          "eventos_por_mil_palavras": 0.4101302163436891
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.018910256410256412,
+      "por_tipo": {
+        "fala_anonima": 1,
+        "gestao_tempo": 4,
+        "intercalacao": 8
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0001",
+      "alvo_turno_id": 12,
+      "alvo": "Ministra Nísia Trindade Lima",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigada.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 28244,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0002",
+      "alvo_turno_id": 54,
+      "alvo": "Ministra Nísia Trindade Lima",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigada.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 35320,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0003",
+      "alvo_turno_id": 60,
+      "alvo": "Evair Vieira de Melo",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Deputado Evair, faço uma pergunta antes de passar a palavra para a Ministra. V.Exa. também está inscrito como Líder. Pergunto se vai fazer uso do tempo da Liderança agora ou em outro momento da nossa reunião.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 39267,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0004",
+      "alvo_turno_id": 165,
+      "alvo": "Dandara",
+      "interrompente": "Nikolas Ferreira",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "A Ministra da Saúde não conseguiu responder objetivamente se homem pode ou não pode menstruar! É isto! Não pode!",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 88838,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0005",
+      "alvo_turno_id": 192,
+      "alvo": "Alberto Mourão",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Ministra, o Deputado usou o tempo de Liderança. Então, V.Exa. tem 2 minutos para a resposta do tempo de inscrição e mais 2 minutos pelo tempo de Liderança. V.Exa. têm 4 minutos para responder.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 112906,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0006",
+      "alvo_turno_id": 215,
+      "alvo": "Jorge Solla",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Deputado, pode continuar a falar.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 129822,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0007",
+      "alvo_turno_id": 223,
+      "alvo": "Jorge Solla",
+      "interrompente": "Bia Kicis",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "V.Exa. tem 4 minutos, 2 minutos somados com os 2 minutos da Liderança.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 136661,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0008",
+      "alvo_turno_id": 231,
+      "alvo": "Ministra Nísia Trindade Lima",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigada, Ministra.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 140564,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0009",
+      "alvo_turno_id": 266,
+      "alvo": "Aureo Ribeiro",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigada, Deputado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 174943,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0010",
+      "alvo_turno_id": 287,
+      "alvo": "Padre João",
+      "interrompente": "Bia Kicis",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Obrigada, Deputado.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 190879,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0011",
+      "alvo_turno_id": 371,
+      "alvo": "Ministra Nísia Trindade Lima",
+      "interrompente": "Dorinaldo Malafaia",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 234168,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0012",
+      "alvo_turno_id": 378,
+      "alvo": "Ministra Nísia Trindade Lima",
+      "interrompente": "André Fernandes",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Ministra, o Deputado Pedro tem direito a 1 minuto. Depois, V.Exa. terá a palavra para suas considerações finais.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 238176,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 199,
+      "evento_id": "199:e0013",
+      "alvo_turno_id": 338,
+      "alvo": "Ana Pimentel",
+      "interrompente": "não identificado",
+      "tipo": "fala_anonima",
+      "sinal": "cabecalho_nao_identificado",
+      "trecho": "Presidente, acabou o tempo.",
+      "origem": "nao_identificada",
+      "retomada": "retomada_nao_observada",
+      "tempo_restabelecido": false,
+      "char_start": 218134,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "sample_id": 154,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 38,
+      "n_palavras": 20085,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.13157894736842105,
+      "eventos_por_mil_palavras": 0.24894199651481205,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 16653,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.3002462018855461
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 3432,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.25,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 2,
+        "pergunta_intercalada": 1,
+        "procedimento": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 38,
+      "n_palavras": 20085,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.02631578947368421,
+      "eventos_por_mil_palavras": 0.04978839930296241,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 16653,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05,
+          "eventos_por_mil_palavras": 0.06004924037710923
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 3432,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.05,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 38,
+      "n_palavras": 20085,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 16653,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 3432,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 38,
+      "n_palavras": 20085,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.13157894736842105,
+      "eventos_por_mil_palavras": 0.24894199651481205,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 20,
+          "n_palavras": 16653,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.3002462018855461
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 3432,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.25,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 2,
+        "pergunta_intercalada": 1,
+        "procedimento": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 154,
+      "evento_id": "154:e0001",
+      "alvo_turno_id": 35,
+      "alvo": "Adriana Ferreira",
+      "interrompente": "Lêda Borges",
+      "tipo": "procedimento",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigada, Adriana, pelas considerações. Contem com este Parlamento para os avanços nas legislações específicas.\n\nQuero passar a palavra agora ao Dr. Jaime, representante da SOBRAC e da comissão da FEBRASGO, para suas considerações finais, se ainda estiver conosco.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 119256,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 154,
+      "evento_id": "154:e0002",
+      "alvo_turno_id": 41,
+      "alvo": "Sonia Regina Umbelino Mendes",
+      "interrompente": "Lêda Borges",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Dra. Sonia, a senhora já gostaria de fazer as suas considerações finais neste momento?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 120998,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 154,
+      "evento_id": "154:e0003",
+      "alvo_turno_id": 47,
+      "alvo": "Ana Priscila Soggia",
+      "interrompente": "Lêda Borges",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "De igual modo, Dra. Ana Priscila, que sugeri à Dra. Sonia, eu coloco à disposição o substitutivo que vou apresentar, fruto da minha relatoria, para as sugestões necessárias, se assim a senhora entender. Muito obrigada pelo seu rico tempo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 123425,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 154,
+      "evento_id": "154:e0004",
+      "alvo_turno_id": 51,
+      "alvo": "Pérola Grinberg Plapler",
+      "interrompente": "Lêda Borges",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Nós é que agradecemos.\n\nQuando eu for a São Paulo, vou fazer questão de visitá-la e de ser consultada por você.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 125208,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 154,
+      "evento_id": "154:e0005",
+      "alvo_turno_id": 53,
+      "alvo": "Pérola Grinberg Plapler",
+      "interrompente": "Lêda Borges",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Isso é muito bom e nos traz mais esperança numa vida mais saudável, com longevidade...",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 125782,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

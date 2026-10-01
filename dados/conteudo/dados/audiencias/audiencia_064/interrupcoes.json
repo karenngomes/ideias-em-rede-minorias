@@ -1,0 +1,142 @@
+{
+  "sample_id": 64,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 22,
+      "n_palavras": 10380,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.09633911368015415,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 5640,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.1773049645390071
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 4740,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.125,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 22,
+      "n_palavras": 10380,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 5640,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 4740,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 22,
+      "n_palavras": 10380,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 5640,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 4740,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 22,
+      "n_palavras": 10380,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.09633911368015415,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 5640,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.125,
+          "eventos_por_mil_palavras": 0.1773049645390071
+        },
+        "parlamentares": {
+          "n_oportunidades": 14,
+          "n_palavras": 4740,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.125,
+      "por_tipo": {
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 64,
+      "evento_id": "064:e0001",
+      "alvo_turno_id": 8,
+      "alvo": "Gervásio Maciel",
+      "interrompente": "Rodrigo Coelho",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Nós é que lhe agradecemos, Prefeito Gervásio, pela sua gentileza. Se o senhor não falasse que tinha 80 anos, eu iria dizer que tinha 60.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 23527,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

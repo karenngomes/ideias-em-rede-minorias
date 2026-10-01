@@ -1,0 +1,164 @@
+{
+  "sample_id": 36,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 44,
+      "n_palavras": 22463,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.08903530249744024,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 18425,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.04,
+          "eventos_por_mil_palavras": 0.054274084124830396
+        },
+        "parlamentares": {
+          "n_oportunidades": 19,
+          "n_palavras": 4038,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.24764735017335315
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.012631578947368417,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 44,
+      "n_palavras": 22463,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.022727272727272728,
+      "eventos_por_mil_palavras": 0.04451765124872012,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 18425,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.04,
+          "eventos_por_mil_palavras": 0.054274084124830396
+        },
+        "parlamentares": {
+          "n_oportunidades": 19,
+          "n_palavras": 4038,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.04,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 44,
+      "n_palavras": 22463,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 18425,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 19,
+          "n_palavras": 4038,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 44,
+      "n_palavras": 22463,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.08903530249744024,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 25,
+          "n_palavras": 18425,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.04,
+          "eventos_por_mil_palavras": 0.054274084124830396
+        },
+        "parlamentares": {
+          "n_oportunidades": 19,
+          "n_palavras": 4038,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05263157894736842,
+          "eventos_por_mil_palavras": 0.24764735017335315
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.012631578947368417,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 36,
+      "evento_id": "036:e0001",
+      "alvo_turno_id": 24,
+      "alvo": "Prof. Paulo Fernando",
+      "interrompente": "Coronel Meira",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Com certeza. Será um prazer.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 40502,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 36,
+      "evento_id": "036:e0002",
+      "alvo_turno_id": 36,
+      "alvo": "Osvaldo Agripino de Castro Junior",
+      "interrompente": "Coronel Meira",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Professor, peço que conclua.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 82900,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

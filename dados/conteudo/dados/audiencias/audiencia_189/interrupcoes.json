@@ -1,0 +1,164 @@
+{
+  "sample_id": 189,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 21,
+      "n_palavras": 9179,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.09523809523809523,
+      "eventos_por_mil_palavras": 0.2178886588953045,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 7580,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.2638522427440633
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 21,
+      "n_palavras": 9179,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.047619047619047616,
+      "eventos_por_mil_palavras": 0.10894432944765226,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 7580,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.08333333333333333,
+          "eventos_por_mil_palavras": 0.13192612137203166
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.08333333333333333,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 21,
+      "n_palavras": 9179,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 7580,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 21,
+      "n_palavras": 9179,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.09523809523809523,
+      "eventos_por_mil_palavras": 0.2178886588953045,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 12,
+          "n_palavras": 7580,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.16666666666666666,
+          "eventos_por_mil_palavras": 0.2638522427440633
+        },
+        "parlamentares": {
+          "n_oportunidades": 9,
+          "n_palavras": 1599,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.16666666666666666,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 189,
+      "evento_id": "189:e0001",
+      "alvo_turno_id": 2,
+      "alvo": "Luizio Felipe Rocha",
+      "interrompente": "Any Ortiz",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Muito obrigada, Luizio Rocha.\n\nEu só gostaria de fazer uma pergunta: considerando o tempo do DMA — Digital Markets Act, a empresa já consegue ver ou perceber algum impacto positivo ou negativo dessa legislação, na Europa, em relação ao Spotify?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 16075,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 189,
+      "evento_id": "189:e0002",
+      "alvo_turno_id": 8,
+      "alvo": "Adriana Laporta Cardinali Straube",
+      "interrompente": "Any Ortiz",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Não há como fazer um escalonamento de posição?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 28985,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

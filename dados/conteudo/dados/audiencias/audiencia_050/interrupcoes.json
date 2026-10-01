@@ -1,0 +1,160 @@
+{
+  "sample_id": 50,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 18,
+      "n_palavras": 11402,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1111111111111111,
+      "eventos_por_mil_palavras": 0.17540782318891424,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 8256,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.24224806201550386
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 3146,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.25,
+      "por_tipo": {
+        "intercalacao": 2
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 18,
+      "n_palavras": 11402,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 8256,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 3146,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 18,
+      "n_palavras": 11402,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 8256,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 3146,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 18,
+      "n_palavras": 11402,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.1111111111111111,
+      "eventos_por_mil_palavras": 0.17540782318891424,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 8,
+          "n_palavras": 8256,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.25,
+          "eventos_por_mil_palavras": 0.24224806201550386
+        },
+        "parlamentares": {
+          "n_oportunidades": 10,
+          "n_palavras": 3146,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.25,
+      "por_tipo": {
+        "intercalacao": 2
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 50,
+      "evento_id": "050:e0001",
+      "alvo_turno_id": 6,
+      "alvo": "Veriano de Souza Terto Junior",
+      "interrompente": "Daiana Santos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim, já está visível.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 19256,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 50,
+      "evento_id": "050:e0002",
+      "alvo_turno_id": 10,
+      "alvo": "Veriano de Souza Terto Junior",
+      "interrompente": "Daiana Santos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Fique tranquilo, Veriano. Vai se organizando, estamos aguardando aqui.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 20496,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

@@ -27,9 +27,52 @@ proveniencia.json      a verificação da cadeia posição para turno
 materia.json           as posições que viraram notícia
 grafo.json             o grafo de discurso
 resumo.json            o resumo por tema
+resumo_ancorado.json   nova síntese, com proveniência por frase
+unidades_resumo.json   unidades e âncoras da nova síntese
+interrupcoes.json      eventos observáveis de interrupção
 clausulas.json         as ressalvas de cada posição
 argumento_intra.json   o que sustenta cada posição
 ```
+
+As três novas camadas são aditivas. `resumo.json` e a antiga dimensão
+`participacao` de `dqi.json` continuam no pacote enquanto o front migra para os
+novos contratos.
+
+## resumo_ancorado.json e unidades_resumo.json
+
+`resumo_ancorado.json` organiza a audiência em seções. Diferentemente do resumo
+anterior, a proveniência está em cada frase:
+
+```json
+{
+  "secoes": [
+    {
+      "id": "t::005::01",
+      "titulo": "Efetivação dos direitos das pessoas autistas",
+      "frases": [
+        {
+          "texto": "A audiência discutiu atendimento e educação inclusiva.",
+          "deriva_de": ["u::005::00003", "u::005::00005"]
+        }
+      ]
+    }
+  ]
+}
+```
+
+Cada identificador de `deriva_de` deve existir em `unidades_resumo.json`. A unidade
+contém `falante`, `funcao_comunicativa`, `papel_argumentativo`, `texto`,
+`trecho_ancora`, `ancora_simplificacao` e `ancora_original`. Quando a âncora original
+foi localizada, `ancora_original.turno_id` liga a frase à transcrição em
+`turnos.json`.
+
+## interrupcoes.json
+
+Contém `variantes` (`atual`, `registrada`, `substantiva` e `ampla`) e `eventos`.
+A leitura principal é `substantiva`: exclui problemas técnicos e gestão de tempo.
+Cada evento registra o turno-alvo, as pessoas envolvidas, o tipo, a origem, a
+retomada, a reposição de tempo, o trecho e o offset disponível. É uma análise
+determinística exploratória, não uma verdade de campo validada por anotadores.
 
 `manifest.json` traz `cobertura_por_camada` com a contagem exata de cada uma.
 

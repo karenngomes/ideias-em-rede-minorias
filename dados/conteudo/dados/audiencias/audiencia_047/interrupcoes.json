@@ -1,0 +1,182 @@
+{
+  "sample_id": 47,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 22,
+      "n_palavras": 8061,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.09090909090909091,
+      "eventos_por_mil_palavras": 0.24810817516437167,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5189,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.3854307188282906
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2872,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "intercalacao": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 22,
+      "n_palavras": 8061,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.045454545454545456,
+      "eventos_por_mil_palavras": 0.12405408758218583,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5189,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.1927153594141453
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2872,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.09090909090909091,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 22,
+      "n_palavras": 8061,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5189,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2872,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 22,
+      "n_palavras": 8061,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.13636363636363635,
+      "eventos_por_mil_palavras": 0.3721622627465575,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 11,
+          "n_palavras": 5189,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.2727272727272727,
+          "eventos_por_mil_palavras": 0.5781460782424359
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2872,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2727272727272727,
+      "por_tipo": {
+        "intercalacao": 2,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 47,
+      "evento_id": "047:e0001",
+      "alvo_turno_id": 13,
+      "alvo": "Max Maciel",
+      "interrompente": "Thiago Rocha Leandro",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "É um valor.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 30196,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 47,
+      "evento_id": "047:e0002",
+      "alvo_turno_id": 17,
+      "alvo": "Fernanda Morgani",
+      "interrompente": "Alfredinho",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "O microfone está fechado. Nós não estamos ouvindo a senhora.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 36073,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 47,
+      "evento_id": "047:e0003",
+      "alvo_turno_id": 23,
+      "alvo": "Fernanda Morgani",
+      "interrompente": "Alfredinho",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Deu problema de novo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 36953,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

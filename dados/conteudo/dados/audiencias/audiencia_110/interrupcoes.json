@@ -1,0 +1,144 @@
+{
+  "sample_id": 110,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 26,
+      "n_palavras": 11307,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.08844078889183692,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 8418,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07142857142857142,
+          "eventos_por_mil_palavras": 0.11879306248515087
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 2889,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07142857142857142,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 26,
+      "n_palavras": 11307,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.08844078889183692,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 8418,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07142857142857142,
+          "eventos_por_mil_palavras": 0.11879306248515087
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 2889,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07142857142857142,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 26,
+      "n_palavras": 11307,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 8418,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 2889,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 26,
+      "n_palavras": 11307,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.038461538461538464,
+      "eventos_por_mil_palavras": 0.08844078889183692,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 8418,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.07142857142857142,
+          "eventos_por_mil_palavras": 0.11879306248515087
+        },
+        "parlamentares": {
+          "n_oportunidades": 12,
+          "n_palavras": 2889,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.07142857142857142,
+      "por_tipo": {
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 110,
+      "evento_id": "110:e0001",
+      "alvo_turno_id": 12,
+      "alvo": "Marcos Wagner de Sousa Porto",
+      "interrompente": "Luiz Couto",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "A sua apresentação está travando. Deve haver algum problema, alguma interferência.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 48495,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

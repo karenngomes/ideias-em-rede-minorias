@@ -1,0 +1,165 @@
+{
+  "sample_id": 205,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 49,
+      "n_palavras": 26561,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.04081632653061224,
+      "eventos_por_mil_palavras": 0.07529836979029404,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 15188,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.1316829075585989
+        },
+        "parlamentares": {
+          "n_oportunidades": 36,
+          "n_palavras": 11373,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15384615384615385,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 49,
+      "n_palavras": 26561,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.04081632653061224,
+      "eventos_por_mil_palavras": 0.07529836979029404,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 15188,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.1316829075585989
+        },
+        "parlamentares": {
+          "n_oportunidades": 36,
+          "n_palavras": 11373,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15384615384615385,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 49,
+      "n_palavras": 26561,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 15188,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 36,
+          "n_palavras": 11373,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 49,
+      "n_palavras": 26561,
+      "n_eventos": 2,
+      "n_turnos_interrompidos": 2,
+      "taxa_turnos": 0.04081632653061224,
+      "eventos_por_mil_palavras": 0.07529836979029404,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 13,
+          "n_palavras": 15188,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.15384615384615385,
+          "eventos_por_mil_palavras": 0.1316829075585989
+        },
+        "parlamentares": {
+          "n_oportunidades": 36,
+          "n_palavras": 11373,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.15384615384615385,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 205,
+      "evento_id": "205:e0001",
+      "alvo_turno_id": 17,
+      "alvo": "Eldison Martins do Prado",
+      "interrompente": "Coronel Ulysses",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "O senhor tem 30 segundos para concluir.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 24720,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 205,
+      "evento_id": "205:e0002",
+      "alvo_turno_id": 29,
+      "alvo": "Everson Antônio Rozeni",
+      "interrompente": "Coronel Ulysses",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "O senhor tem que compartilhar sua tela, o.k.? Se o senhor fizer o compartilhamento, conseguimos exibi-la aqui.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 30653,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

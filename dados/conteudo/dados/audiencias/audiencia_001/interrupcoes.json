@@ -1,0 +1,201 @@
+{
+  "sample_id": 1,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 39,
+      "n_palavras": 18988,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.10256410256410256,
+      "eventos_por_mil_palavras": 0.2106593638087213,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 8311,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.3,
+          "eventos_por_mil_palavras": 0.3609673926122007
+        },
+        "parlamentares": {
+          "n_oportunidades": 29,
+          "n_palavras": 10677,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.034482758620689655,
+          "eventos_por_mil_palavras": 0.09365926758452749
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2655172413793103,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 39,
+      "n_palavras": 18988,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.10256410256410256,
+      "eventos_por_mil_palavras": 0.2106593638087213,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 8311,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.3,
+          "eventos_por_mil_palavras": 0.3609673926122007
+        },
+        "parlamentares": {
+          "n_oportunidades": 29,
+          "n_palavras": 10677,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.034482758620689655,
+          "eventos_por_mil_palavras": 0.09365926758452749
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2655172413793103,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 39,
+      "n_palavras": 18988,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 8311,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 29,
+          "n_palavras": 10677,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 39,
+      "n_palavras": 18988,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.10256410256410256,
+      "eventos_por_mil_palavras": 0.2106593638087213,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 10,
+          "n_palavras": 8311,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.3,
+          "eventos_por_mil_palavras": 0.3609673926122007
+        },
+        "parlamentares": {
+          "n_oportunidades": 29,
+          "n_palavras": 10677,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.034482758620689655,
+          "eventos_por_mil_palavras": 0.09365926758452749
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.2655172413793103,
+      "por_tipo": {
+        "gestao_tempo": 3,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 1,
+      "evento_id": "001:e0001",
+      "alvo_turno_id": 8,
+      "alvo": "David Ágape",
+      "interrompente": "Lucas Redecker",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Sr. David, vou pedir ao senhor que se encaminhe para o encerramento de sua fala. Após a manifestação dos Parlamentares, o senhor vai dispor de um novo tempo. Assim, ficaremos dentro do tempo que está previamente estipulado para cada expositor.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 21462,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 1,
+      "evento_id": "001:e0002",
+      "alvo_turno_id": 12,
+      "alvo": "Glenn Edward Greenwald",
+      "interrompente": "Lucas Redecker",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Está na tela, Glenn, pode prosseguir. Todos estão conseguindo enxergar.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 29171,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 1,
+      "evento_id": "001:e0003",
+      "alvo_turno_id": 32,
+      "alvo": "General Girão",
+      "interrompente": "Lucas Redecker",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Deputado General Girão, peço que conclua. Pretendo que todos concluam em 3 minutos.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 66052,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 1,
+      "evento_id": "001:e0004",
+      "alvo_turno_id": 56,
+      "alvo": "David Ágape",
+      "interrompente": "Lucas Redecker",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Peço que encaminhe o encerramento, Sr. David Ágape, porque já passou o seu tempo. Conclua, por favor.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 101287,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

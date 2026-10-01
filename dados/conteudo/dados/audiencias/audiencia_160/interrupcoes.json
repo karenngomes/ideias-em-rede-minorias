@@ -1,0 +1,221 @@
+{
+  "sample_id": 160,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 32,
+      "n_palavras": 16682,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.15625,
+      "eventos_por_mil_palavras": 0.2997242536866083,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14126,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.23809523809523808,
+          "eventos_por_mil_palavras": 0.3539572419651706
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2556,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.23809523809523808,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1,
+        "tecnica": 3
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 32,
+      "n_palavras": 16682,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.125,
+      "eventos_por_mil_palavras": 0.23977940294928665,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14126,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.19047619047619047,
+          "eventos_por_mil_palavras": 0.2831657935721365
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2556,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.19047619047619047,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "tecnica": 3
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 32,
+      "n_palavras": 16682,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14126,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2556,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 32,
+      "n_palavras": 16682,
+      "n_eventos": 5,
+      "n_turnos_interrompidos": 5,
+      "taxa_turnos": 0.15625,
+      "eventos_por_mil_palavras": 0.2997242536866083,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 21,
+          "n_palavras": 14126,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.23809523809523808,
+          "eventos_por_mil_palavras": 0.3539572419651706
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 2556,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.23809523809523808,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "pergunta_intercalada": 1,
+        "tecnica": 3
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 160,
+      "evento_id": "160:e0001",
+      "alvo_turno_id": 2,
+      "alvo": "Pedro Lucas Costa",
+      "interrompente": "Glauber Braga",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Pedro, pode esperar um minutinho?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 4502,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 160,
+      "evento_id": "160:e0002",
+      "alvo_turno_id": 9,
+      "alvo": "Pedro Lucas Costa",
+      "interrompente": "Glauber Braga",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Pedro, poderia baixar um pouco o microfone?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 10154,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 160,
+      "evento_id": "160:e0003",
+      "alvo_turno_id": 24,
+      "alvo": "Tatiana Sampaio Paixão",
+      "interrompente": "Glauber Braga",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "A apresentação já está sendo exibida na sala da Comissão.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 69043,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 160,
+      "evento_id": "160:e0004",
+      "alvo_turno_id": 44,
+      "alvo": "Luciana Viegas",
+      "interrompente": "Glauber Braga",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Luciana, não estamos conseguindo escutá-la agora. Não foi possível ouvir o final da sua fala. Não sei se você consegue abrir o microfone novamente. Parece que houve falha no sinal da Internet.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 99027,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 160,
+      "evento_id": "160:e0005",
+      "alvo_turno_id": 55,
+      "alvo": "Eduardo Barison",
+      "interrompente": "Glauber Braga",
+      "tipo": "pergunta_intercalada",
+      "sinal": "A-X-A",
+      "trecho": "Obrigado, Prefeito. É um prazer conhecê-lo.\n\nMococa tem quantos habitantes?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 108879,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

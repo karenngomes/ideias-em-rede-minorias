@@ -1,0 +1,144 @@
+{
+  "sample_id": 152,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 23,
+      "n_palavras": 12180,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.08210180623973727,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9090,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.11001100110011001
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3090,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 23,
+      "n_palavras": 12180,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.08210180623973727,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9090,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.11001100110011001
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3090,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 23,
+      "n_palavras": 12180,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9090,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3090,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 23,
+      "n_palavras": 12180,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.043478260869565216,
+      "eventos_por_mil_palavras": 0.08210180623973727,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 16,
+          "n_palavras": 9090,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.0625,
+          "eventos_por_mil_palavras": 0.11001100110011001
+        },
+        "parlamentares": {
+          "n_oportunidades": 7,
+          "n_palavras": 3090,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0625,
+      "por_tipo": {
+        "gestao_tempo": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 152,
+      "evento_id": "152:e0001",
+      "alvo_turno_id": 11,
+      "alvo": "Enio Alberto Siloti",
+      "interrompente": "Márcio Jerry",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Enio, eu peço a sua compreensão, pois já extrapolamos o tempo.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 43881,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

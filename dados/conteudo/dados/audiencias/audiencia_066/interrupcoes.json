@@ -1,0 +1,178 @@
+{
+  "sample_id": 66,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 25,
+      "n_palavras": 12753,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.12,
+      "eventos_por_mil_palavras": 0.2352387673488591,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 9448,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.21428571428571427,
+          "eventos_por_mil_palavras": 0.31752751905165116
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3305,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.21428571428571427,
+      "por_tipo": {
+        "intercalacao": 3
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 25,
+      "n_palavras": 12753,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 9448,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3305,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "substantiva": {
+      "n_oportunidades": 25,
+      "n_palavras": 12753,
+      "n_eventos": 0,
+      "n_turnos_interrompidos": 0,
+      "taxa_turnos": 0.0,
+      "eventos_por_mil_palavras": 0.0,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 9448,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3305,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.0,
+      "por_tipo": {}
+    },
+    "ampla": {
+      "n_oportunidades": 25,
+      "n_palavras": 12753,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.12,
+      "eventos_por_mil_palavras": 0.2352387673488591,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 14,
+          "n_palavras": 9448,
+          "n_eventos": 3,
+          "n_turnos_interrompidos": 3,
+          "taxa_turnos": 0.21428571428571427,
+          "eventos_por_mil_palavras": 0.31752751905165116
+        },
+        "parlamentares": {
+          "n_oportunidades": 11,
+          "n_palavras": 3305,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.21428571428571427,
+      "por_tipo": {
+        "intercalacao": 3
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 66,
+      "evento_id": "066:e0001",
+      "alvo_turno_id": 2,
+      "alvo": "Mario Avelino",
+      "interrompente": "Paulo Ramos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 6148,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 66,
+      "evento_id": "066:e0002",
+      "alvo_turno_id": 18,
+      "alvo": "Mario Avelino",
+      "interrompente": "Paulo Ramos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Na verdade, a \"pejotização\" foi uma forma de desonerar.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 64481,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 66,
+      "evento_id": "066:e0003",
+      "alvo_turno_id": 24,
+      "alvo": "Maria Henriqueta Arantes Ferreira Alves",
+      "interrompente": "Paulo Ramos",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Dra. Henriqueta, agora eu vou retirar as observações que eu fiz.(Risos.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 67314,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    }
+  ]
+}

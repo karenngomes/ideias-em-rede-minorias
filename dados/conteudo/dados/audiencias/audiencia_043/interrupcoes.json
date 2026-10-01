@@ -1,0 +1,261 @@
+{
+  "sample_id": 43,
+  "metodo": "deterministico_exploratorio_v2",
+  "variantes": {
+    "atual": {
+      "n_oportunidades": 40,
+      "n_palavras": 21393,
+      "n_eventos": 4,
+      "n_turnos_interrompidos": 4,
+      "taxa_turnos": 0.1,
+      "eventos_por_mil_palavras": 0.18697704856728836,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 14648,
+          "n_eventos": 4,
+          "n_turnos_interrompidos": 4,
+          "taxa_turnos": 0.18181818181818182,
+          "eventos_por_mil_palavras": 0.2730748225013654
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6745,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.18181818181818182,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 2,
+        "tecnica": 1
+      }
+    },
+    "registrada": {
+      "n_oportunidades": 40,
+      "n_palavras": 21393,
+      "n_eventos": 3,
+      "n_turnos_interrompidos": 3,
+      "taxa_turnos": 0.075,
+      "eventos_por_mil_palavras": 0.14023278642546627,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 14648,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.09090909090909091,
+          "eventos_por_mil_palavras": 0.1365374112506827
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6745,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05555555555555555,
+          "eventos_por_mil_palavras": 0.14825796886582654
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.03535353535353536,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "manifestacao_plateia": 1,
+        "tecnica": 1
+      }
+    },
+    "substantiva": {
+      "n_oportunidades": 40,
+      "n_palavras": 21393,
+      "n_eventos": 1,
+      "n_turnos_interrompidos": 1,
+      "taxa_turnos": 0.025,
+      "eventos_por_mil_palavras": 0.04674426214182209,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 14648,
+          "n_eventos": 0,
+          "n_turnos_interrompidos": 0,
+          "taxa_turnos": 0.0,
+          "eventos_por_mil_palavras": 0.0
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6745,
+          "n_eventos": 1,
+          "n_turnos_interrompidos": 1,
+          "taxa_turnos": 0.05555555555555555,
+          "eventos_por_mil_palavras": 0.14825796886582654
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": -0.05555555555555555,
+      "por_tipo": {
+        "manifestacao_plateia": 1
+      }
+    },
+    "ampla": {
+      "n_oportunidades": 40,
+      "n_palavras": 21393,
+      "n_eventos": 7,
+      "n_turnos_interrompidos": 7,
+      "taxa_turnos": 0.175,
+      "eventos_por_mil_palavras": 0.32720983499275463,
+      "por_papel": {
+        "convidados": {
+          "n_oportunidades": 22,
+          "n_palavras": 14648,
+          "n_eventos": 5,
+          "n_turnos_interrompidos": 5,
+          "taxa_turnos": 0.22727272727272727,
+          "eventos_por_mil_palavras": 0.3413435281267067
+        },
+        "parlamentares": {
+          "n_oportunidades": 18,
+          "n_palavras": 6745,
+          "n_eventos": 2,
+          "n_turnos_interrompidos": 2,
+          "taxa_turnos": 0.1111111111111111,
+          "eventos_por_mil_palavras": 0.2965159377316531
+        }
+      },
+      "diferenca_convidados_menos_parlamentares": 0.11616161616161616,
+      "por_tipo": {
+        "gestao_tempo": 1,
+        "intercalacao": 4,
+        "manifestacao_plateia": 1,
+        "tecnica": 1
+      }
+    }
+  },
+  "eventos": [
+    {
+      "sample_id": 43,
+      "evento_id": "043:e0001",
+      "alvo_turno_id": 4,
+      "alvo": "Heraldo Luiz Rodrigues",
+      "interrompente": "Fernanda Melchionna",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Estamos providenciando, Brigadeiro.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 7086,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 43,
+      "evento_id": "043:e0002",
+      "alvo_turno_id": 8,
+      "alvo": "Heraldo Luiz Rodrigues",
+      "interrompente": "Fernanda Melchionna",
+      "tipo": "gestao_tempo",
+      "sinal": "A-X-A",
+      "trecho": "Brigadeiro, acabou o seu tempo. Eu vou conceder mais uns 2 minutinhos. Pode ser?",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 21019,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 43,
+      "evento_id": "043:e0003",
+      "alvo_turno_id": 14,
+      "alvo": "Jéssica Rocha",
+      "interrompente": "Albuquerque",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Quero dizer aos amigos que aguardem um pouco, porque houve um problema técnico. Ele será resolvido rapidamente. É importante a fala com a replicação do material.",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 49060,
+      "atual": true,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 43,
+      "evento_id": "043:e0004",
+      "alvo_turno_id": 21,
+      "alvo": "Vanderley Carlos Gonçalves",
+      "interrompente": "Fernanda Melchionna",
+      "tipo": "tecnica",
+      "sinal": "A-X-A",
+      "trecho": "Peço que parem o cronômetro enquanto resolvemos o problema com a apresentação.(Pausa.)",
+      "origem": "mesa_presidencia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 72756,
+      "atual": true,
+      "registrada": true,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 43,
+      "evento_id": "043:e0005",
+      "alvo_turno_id": 27,
+      "alvo": "Vanderley Carlos Gonçalves",
+      "interrompente": "Claudio Lino",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Subtenente.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 80443,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 43,
+      "evento_id": "043:e0006",
+      "alvo_turno_id": 39,
+      "alvo": "Sargento Portugal",
+      "interrompente": "Heraldo Luiz Rodrigues",
+      "tipo": "intercalacao",
+      "sinal": "A-X-A",
+      "trecho": "Sim.",
+      "origem": "participante_identificado",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 104261,
+      "atual": false,
+      "registrada": false,
+      "substantiva": false,
+      "ampla": true
+    },
+    {
+      "sample_id": 43,
+      "evento_id": "043:e0007",
+      "alvo_turno_id": 37,
+      "alvo": "Albuquerque",
+      "interrompente": "plateia",
+      "tipo": "manifestacao_plateia",
+      "sinal": "marca_editorial_plateia",
+      "trecho": "inte: os senhores se lembram de quando prendiam cabos e soldados à revelia, sem direito ao contraditório?\"Está preso! Vai para a cadeia!\"Quem lembra disso aqui?(Manifestação na plateia.)\n\nTodo mundo.\n\nSe não estávamos em forma, o comandante ou o capitão da companhia dizia:\"Está preso! Bota na cadeia\". E sabem o que os senhores estão fazendo hoj",
+      "origem": "plateia",
+      "retomada": "retomada_imediata",
+      "tempo_restabelecido": false,
+      "char_start": 100672,
+      "atual": false,
+      "registrada": true,
+      "substantiva": true,
+      "ampla": true
+    }
+  ]
+}

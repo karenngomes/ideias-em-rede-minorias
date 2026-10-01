@@ -1,0 +1,84 @@
+[
+  {
+    "id": "u::079::00158",
+    "sample_id": 79,
+    "bloco_id": "b::079::0008",
+    "ordem_bloco": 8,
+    "falante": "Alberto Macedo",
+    "papel": null,
+    "partido": null,
+    "funcao_comunicativa": "discordar",
+    "papel_argumentativo": "justificativa",
+    "marcadores": [
+      "ressalva"
+    ],
+    "descricao_outro": "",
+    "texto": "Macedo critica que o projeto possa igualar o bom contribuinte e o sonegador, aumentando desigualdades e prejudicando recursos públicos.",
+    "trecho_ancora": "igual e o bom contribuinte e o sonegador",
+    "trecho_ancora_modelo": "igual e o bom contribuinte e o sonegador",
+    "ancora_simplificacao": {
+      "status": "nao_encontrada",
+      "char_start": null,
+      "char_end": null,
+      "candidatos": [],
+      "trecho_resolvido": null
+    },
+    "ancora_original": {
+      "status": "nao_encontrada",
+      "char_start": null,
+      "char_end": null,
+      "turno_id": null,
+      "candidatos": []
+    }
+  },
+  {
+    "id": "u::079::00441",
+    "sample_id": 79,
+    "bloco_id": "b::079::0021",
+    "ordem_bloco": 21,
+    "falante": "Pedro Paulo",
+    "papel": null,
+    "partido": "PSD - RJ",
+    "funcao_comunicativa": "informar",
+    "papel_argumentativo": "nenhum",
+    "marcadores": [],
+    "descricao_outro": "",
+    "texto": "Informa que será retirada a restrição à Fazenda Pública para bloquear, suspender ou cancelar a inscrição do contribuinte antes da decisão terminativa do processo administrativo.",
+    "trecho_ancora": "isso também está sendo retirado.",
+    "trecho_ancora_modelo": "isso também está sendo retirado.",
+    "ancora_simplificacao": {
+      "status": "ambigua",
+      "char_start": null,
+      "char_end": null,
+      "candidatos": [
+        {
+          "char_start": 89429,
+          "char_end": 89461
+        },
+        {
+          "char_start": 89801,
+          "char_end": 89833
+        }
+      ],
+      "trecho_resolvido": null
+    },
+    "ancora_original": {
+      "status": "ambigua",
+      "char_start": null,
+      "char_end": null,
+      "turno_id": null,
+      "candidatos": [
+        {
+          "char_start": 100641,
+          "char_end": 100673,
+          "turno_id": 47
+        },
+        {
+          "char_start": 101013,
+          "char_end": 101045,
+          "turno_id": 47
+        }
+      ]
+    }
+  }
+]
