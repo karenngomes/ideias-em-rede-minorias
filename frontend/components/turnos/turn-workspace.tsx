@@ -79,7 +79,6 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit, relations }: {
               <label className="flex cursor-pointer items-center gap-2 text-sm font-semibold text-ink">
                 <input type="checkbox" checked={persuasionMode} onChange={(event) => { setPersuasionMode(event.target.checked); if (event.target.checked) { setTab("transcricao"); setSelected(undefined); } }} className="size-4 accent-orange-500"/>
                 Modo persuasão
-                <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">via LLM</span>
               </label>
               <span className="text-xs text-[#666666]">{persuasionMode ? "Técnicas grifadas na transcrição. Passe o mouse para ler a justificativa do modelo." : "Grifa na transcrição as técnicas de persuasão encontradas pelo modelo."}</span>
             </div>
@@ -95,7 +94,7 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit, relations }: {
 
         {mode === "relacoes" ? (
           <div>
-            <p className="mb-4 max-w-3xl text-sm leading-6 text-[#666666]">Um modelo de linguagem, com apoio de embeddings, identifica como cada fala reage às anteriores (responde, questiona, concorda, discorda, retoma…), inclusive falas distantes. Usa os trechos da API, não os turnos das outras abas. <Judged label="via LLM"/></p>
+            <p className="mb-4 max-w-3xl text-sm leading-6 text-[#666666]">Um modelo de linguagem, com apoio de embeddings, identifica como cada fala reage às anteriores (responde, questiona, concorda, discorda, retoma…), inclusive falas distantes. Usa os trechos da API, não os turnos das outras abas.</p>
             {relations
               ? <ConversationRelationsView data={relations}/>
               : <p className="rounded-2xl border border-black/10 bg-white p-8 text-center text-sm text-[#666666]">Não foi possível carregar as relações: verifique se a API está rodando.</p>}
@@ -121,14 +120,14 @@ export function TurnWorkspace({ bundle, persuasao, loadAudit, relations }: {
                   {themes.map((theme) => (
                     <span key={theme.index} className="flex items-center gap-1.5"><i className="size-2.5 rounded-full" style={{ backgroundColor: temaCor(theme.index) }}/>{theme.titulo}</span>
                   ))}
-                  <span className="basis-full text-[#999]">Cor: tema do resumo, com as opiniões agrupadas por semelhança (SBERT + agrupamento hierárquico Ward) <Judged/>. Alguns temas saem parecidos entre si e serão refeitos.</span>
-                  <span className="flex basis-full items-center gap-1.5"><i className="w-4 border-t-2 border-dashed border-[#999]"/>linha tracejada: liga opiniões que tratam do mesmo assunto. Clique numa opinião para ver só as ligações dela. <Judged/></span>
+                  <span className="basis-full text-[#999]">Cor: tema do resumo, com as opiniões agrupadas por semelhança (SBERT + agrupamento hierárquico Ward). Alguns temas saem parecidos entre si e serão refeitos.</span>
+                  <span className="flex basis-full items-center gap-1.5"><i className="w-4 border-t-2 border-dashed border-[#999]"/>linha tracejada: liga opiniões que tratam do mesmo assunto. Clique numa opinião para ver só as ligações dela.</span>
                 </>
               ) : (
                 <>
-                  <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-[#c9c9c9]"/>fala após <Exact/></span>
-                  <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-orange-500"/>concede a palavra <Exact/></span>
-                  <span className="flex items-center gap-1.5"><b className="text-orange-500">✕</b>interrompido(a) <Exact/><span className="rounded bg-amber-100 px-1 text-[9px] font-bold uppercase text-amber-800">em revisão</span></span>
+                  <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-[#c9c9c9]"/>fala após</span>
+                  <span className="flex items-center gap-1.5"><i className="h-0.5 w-4 bg-orange-500"/>concede a palavra</span>
+                  <span className="flex items-center gap-1.5"><b className="text-orange-500">✕</b>interrompido(a)<span className="rounded bg-amber-100 px-1 text-[9px] font-bold uppercase text-amber-800">em revisão</span></span>
                 </>
               )}
               <span className="ml-auto flex items-center gap-3">
@@ -233,10 +232,4 @@ function ShareRow({ value, color }: { value: { count: number; total: number }; c
   );
 }
 
-function Judged({ label = "via modelo" }: { label?: string }) {
-  return <span className="rounded bg-orange-50 px-1 text-[9px] font-bold uppercase text-orange-700">{label}</span>;
-}
 
-function Exact() {
-  return <span className="rounded bg-[#344b7f]/10 px-1 text-[9px] font-bold uppercase text-[#344b7f]">sem modelo</span>;
-}

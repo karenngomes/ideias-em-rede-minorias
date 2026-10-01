@@ -119,7 +119,7 @@ export default async function ComparacaoPage() {
           <p className="text-xs text-[#999]">Testes gerados em {new Date(testes.gerado_em).toLocaleDateString("pt-BR")} por <code>analises/testes_estatisticos.py</code>.</p>
         </div>
 
-        <Section eyebrow="H1 · Interrupções" title="Quem é interrompido no meio da fala" badge="sem modelo" warning="lógica em revisão"
+        <Section eyebrow="H1 · Interrupções" title="Quem é interrompido no meio da fala" warning="lógica em revisão"
           text={<>Parte das falas de cada papel marcadas como interrompidas, somando todas as audiências de cada grupo. Nas audiências de minorias, convidados são interrompidos <strong className="text-ink">{ratio("M")?.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}×</strong> mais que parlamentares; nas demais, <strong className="text-ink">{ratio("C")?.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}×</strong>.</>}
           note="A regra atual marca como interrupção qualquer fala fora da ordem esperada da sessão (presidência, convidado, réplica, tréplica), inclusive quando quem preside fala fora da vez. Isso não é necessariamente interrupção, e parte dos casos é fala de alguém não identificado ou da plateia."
           test={<TestBox name={`${testes.h1.teste}, ${testes.h1.n_falas.toLocaleString("pt-BR")} falas`} significant={testes.h1.interacao.p < 0.05}>
@@ -129,7 +129,7 @@ export default async function ComparacaoPage() {
           <GroupedBars categories={interruptionCategories} max={maxInterruption} format={pct}/>
         </Section>
 
-        <Section eyebrow="H2 · Conteúdo da justificação" title="Justificativas pelo bem comum sensível à diferença" badge="via LLM"
+        <Section eyebrow="H2 · Conteúdo da justificação" title="Justificativas pelo bem comum sensível à diferença"
           text={<>Parte dos códigos de conteúdo da justificação que apelam ao bem comum sensível à diferença (em vez de interesse de grupo, neutro ou bem comum utilitário). A hipótese: mais desse tipo e menos interesse de grupo nas audiências de minorias. Mediana de <strong className="text-ink">{pct(medianOf(bemComum, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pct(medianOf(bemComum, "C") ?? 0)}</strong> nas demais.</>}
           test={<TestBox name={testes.h2.bem_comum_diferenca.teste} significant={testes.h2.bem_comum_diferenca.p < 0.05}>
             <p>Bem comum sensível à diferença: diferença de medianas (M − C) de <strong>{signed(testes.h2.bem_comum_diferenca.diferenca, "pp")}</strong> ({interval(testes.h2.bem_comum_diferenca.ic, "pp")}), {pValue(testes.h2.bem_comum_diferenca.p)}, efeito r = {num(testes.h2.bem_comum_diferenca.r)} (grande a partir de 0,5).</p>
@@ -138,7 +138,7 @@ export default async function ComparacaoPage() {
           <StripPlot rows={bemComum} min={0} max={Math.ceil(Math.max(...bemComum.flatMap((r) => r.points.map((p) => p.value))) * 10) / 10} format={pct}/>
         </Section>
 
-        <Section eyebrow="H3 · Nível de justificação" title="As posições vêm com razões?" badge="via LLM"
+        <Section eyebrow="H3 · Nível de justificação" title="As posições vêm com razões?"
           text={<>Nível médio de justificação das falas de cada audiência, de 0 (nenhuma) a 3 (sofisticada). Mediana de <strong className="text-ink">{num(medianOf(nivel, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{num(medianOf(nivel, "C") ?? 0)}</strong> nas demais.</>}
           note="Atribuído por modelo de linguagem, sem conferência humana."
           test={<TestBox name={testes.h3.teste} significant={testes.h3.p < 0.05}>
@@ -147,7 +147,7 @@ export default async function ComparacaoPage() {
           <StripPlot rows={nivel} min={0} max={Math.ceil(Math.max(...nivel.flatMap((r) => r.points.map((p) => p.value))) * 2) / 2} format={(value) => num(value, 1)}/>
         </Section>
 
-        <Section eyebrow="H4 · Respeito" title="Mais elogio e mais hostilidade, com a mesma média?" badge="via LLM"
+        <Section eyebrow="H4 · Respeito" title="Mais elogio e mais hostilidade, com a mesma média?"
           text={<>A hipótese previa mais manifestações nas duas pontas (explícito positivo e negativo) sem mudar o nível médio. O gráfico mostra a parte dos códigos de respeito (a grupos, a demandas e a contra-argumentos) que são explicitamente positivos: mediana de <strong className="text-ink">{pct(medianOf(positivo, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pct(medianOf(positivo, "C") ?? 0)}</strong> nas demais.</>}
           note="Atribuído por modelo de linguagem e ainda sem conferência humana: o instrumento indica, não afirma."
           test={<TestBox name="Mann-Whitney e bootstrap; teste exato de Fisher para a hostilidade" significant={h4Sustentada} label={h4Sustentada ? "hipótese sustentada" : "hipótese não sustentada como formulada"}>
@@ -161,7 +161,7 @@ export default async function ComparacaoPage() {
           <StripPlot rows={negativo} min={0} max={Math.ceil(Math.max(0.01, ...negativo.flatMap((r) => r.points.map((p) => p.value))) * 100) / 100} format={pct}/>
         </Section>
 
-        <Section eyebrow="H5 · Persuasão" title="Técnicas de persuasão por grupo" badge="via LLM"
+        <Section eyebrow="H5 · Persuasão" title="Técnicas de persuasão por grupo"
           text={<>Média do percentual de parágrafos de cada audiência com cada técnica, em {nPersuasao.M} audiências sobre minorias e {nPersuasao.C} de temáticas variadas. {tecnicasMais.length > 0 && <> As maiores diferenças a favor das audiências de minorias estão em {listar(tecnicasMais)}{deltasDavid.nenhuma < 0 ? ", e elas têm menos trechos sem nenhuma técnica" : ""}.</>} Uma fala pode ter mais de uma técnica.</>}
           note={`Classificação multilabel via LLM, em validação humana, só nas ${nPersuasao.M + nPersuasao.C} audiências classificadas até agora: sinal descritivo, não causal. A diferença de medianas (M − C) é ${ppTexto(deltasDavid.maior_diferenca)} para a técnica com maior diferença a favor das audiências de minorias (“${categoriaNomes[maiorDivergencia]}”), e ${ppTexto(deltasDavid.nenhuma)} para trechos sem nenhuma técnica.`}>
           <CategoryDumbbell categories={persuasaoCategorias} max={100}/>
@@ -190,7 +190,7 @@ export default async function ComparacaoPage() {
           </TestBox>
         </Section>
 
-        <Section eyebrow="Complementar · Cobertura" title="A sociedade civil fala mais do que aparece na matéria?" badge="sem modelo"
+        <Section eyebrow="Complementar · Cobertura" title="A sociedade civil fala mais do que aparece na matéria?"
           text={<>Fora das hipóteses principais. Déficit da sociedade civil: parte das palavras ditas por convidados menos a parte das posições citadas na matéria original da Agência Câmara (com quem preside). Positivo significa que a sociedade civil fala mais do que aparece. Mediana de <strong className="text-ink">{pts(medianOf(deficit, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{pts(medianOf(deficit, "C") ?? 0)}</strong> nas demais.</>}
           note="Audiências sem denominador (“sem dado”) ficam de fora; não é o mesmo que zero."
           test={<TestBox name={testes.cobertura.teste} significant={testes.cobertura.p < 0.05 || testes.cobertura.ajustado.p < 0.05}>
@@ -199,7 +199,7 @@ export default async function ComparacaoPage() {
           <StripPlot rows={deficit} min={deficitExtent.min} max={deficitExtent.max} format={pts} zero/>
         </Section>
 
-        <Section eyebrow="Contexto" title="Tamanho das audiências" badge="sem modelo"
+        <Section eyebrow="Contexto" title="Tamanho das audiências"
           text={<>Palavras faladas por audiência. Mediana de <strong className="text-ink">{mil(medianOf(palavras, "M") ?? 0)}</strong> nas audiências de minorias e <strong className="text-ink">{mil(medianOf(palavras, "C") ?? 0)}</strong> nas demais.</>}>
           <StripPlot rows={palavras} min={0} max={Math.ceil(Math.max(...palavras.flatMap((r) => r.points.map((p) => p.value))) / 20000) * 20000} format={mil}/>
         </Section>
@@ -208,10 +208,9 @@ export default async function ComparacaoPage() {
   );
 }
 
-function Section({ eyebrow, title, badge, warning, text, note, test, children }: {
+function Section({ eyebrow, title, warning, text, note, test, children }: {
   eyebrow: string;
   title: string;
-  badge: "sem modelo" | "via LLM";
   warning?: string;
   text: React.ReactNode;
   note?: string;
@@ -222,7 +221,6 @@ function Section({ eyebrow, title, badge, warning, text, note, test, children }:
     <section className="mt-6 rounded-2xl border border-black/10 bg-white p-6">
       <div className="flex flex-wrap items-center gap-2">
         <p className="text-xs font-bold uppercase tracking-[0.16em] text-orange-600">{eyebrow}</p>
-        <span className={`rounded px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider ${badge === "sem modelo" ? "bg-[#344b7f]/10 text-[#344b7f]" : "bg-orange-50 text-orange-700"}`}>{badge}</span>
         {warning && <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-amber-800">{warning}</span>}
       </div>
       <h2 className="mt-1 text-xl font-semibold tracking-[-0.02em]">{title}</h2>

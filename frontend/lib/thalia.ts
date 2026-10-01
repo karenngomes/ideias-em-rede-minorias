@@ -126,7 +126,6 @@ export function derive(bundle: AudienciaBundle) {
     codigos: bundle.dqi?.codigos ?? [],
     dqi: bundle.dqi,
     cobertura: bundle.cobertura,
-    materia: bundle.materia,
   };
 }
 

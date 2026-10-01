@@ -42,7 +42,7 @@ export async function getRotuloAudiencia(id: number) {
   return item ? { ...item, categorias: categorias.get(id) ?? [] } : undefined;
 }
 
-const ARQUIVOS = ["turnos", "opinioes", "dqi", "cobertura", "grafo", "resumo", "materia", "argumento_intra"] as const;
+const ARQUIVOS = ["turnos", "opinioes", "dqi", "cobertura", "grafo", "resumo", "argumento_intra"] as const;
 
 export async function getAudienciaBundle(id: number): Promise<AudienciaBundle | null> {
   const folder = `audiencia_${String(id).padStart(3, "0")}`;

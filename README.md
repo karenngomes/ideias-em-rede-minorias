@@ -69,14 +69,9 @@ todas as partes ao mesmo tempo:
   - *rede de interação*: sequência de falas, passagens de palavra (setas) e
     interrupções (✕). A regra das interrupções está em revisão (veja as
     pendências).
-- **Painel de leitura**:
+- **Painel de leitura** (transcrição, resumo e deliberação):
   - *Transcrição*: acompanha o turno atual (mostra as 60 falas anteriores).
   - *Resumo*: cada seção acende quando ganha evidência.
-  - *Matéria*: duas coisas separadas. A **cobertura na matéria original** da
-    Agência Câmara (quem falou × quem foi citado, e o déficit da sociedade
-    civil), calculada sem modelo, comparando nomes. E a **matéria gerada** pelo
-    pipeline a partir da audiência (título, linha fina, lead e as citações mais
-    representativas), feita por LLM e ainda não validada.
   - *Deliberação*: as 7 dimensões do DQI, com os trechos citados.
 - **Detalhe da opinião**: mostra a fala que a sustenta (âncora), os
   fundamentos (dados, autoridades) e as ressalvas destacados no texto.
@@ -167,16 +162,6 @@ Os indicadores são calculados no servidor a partir do pacote da Thalia
 (`frontend/lib/comparacao.ts`) e ficam em cache enquanto o servidor roda. As
 cores dos grupos (coral `#ff4b3e` para M, azul `#3d63d9` para C) foram validadas
 para daltonismo e contraste.
-
-### Selos de origem
-
-Cada informação diz de onde vem:
-
-- **sem modelo**: sai da estrutura da transcrição (ordem dos turnos, quem
-  concede a palavra, interrupções, âncoras, cobertura por nomes);
-- **via LLM**: atribuído por modelo de linguagem (DQI, exceto participação;
-  fundamentos, ressalvas, persuasão, matéria gerada);
-- **via modelo**: as ligações "mesmo tema", por semelhança entre os textos.
 
 ### Recorte de minorias
 

@@ -46,7 +46,7 @@ export default async function Home() {
           <figure className="border-t-2 border-zinc-900 pt-5">
             <p className="text-7xl font-semibold tracking-[-0.05em] text-orange-600">{silenciados ?? "–"}%</p>
             <figcaption className="mt-3 text-sm leading-6 text-zinc-600">de quem fala numa audiência <strong className="text-zinc-900">não aparece na matéria</strong> da Agência Câmara sobre ela.</figcaption>
-            <p className="mt-4 text-[11px] leading-5 text-zinc-400">{corpus.silenciados.toLocaleString("pt-BR")} de {corpus.falantes.toLocaleString("pt-BR")} falantes no corpus, pelos dados de cobertura (sem modelo).</p>
+            <p className="mt-4 text-[11px] leading-5 text-zinc-400">{corpus.silenciados.toLocaleString("pt-BR")} de {corpus.falantes.toLocaleString("pt-BR")} falantes no corpus, pelos dados de cobertura.</p>
           </figure>
         </div>
       </section>

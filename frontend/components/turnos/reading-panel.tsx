@@ -7,12 +7,11 @@ import type { AuditExecution } from "@/lib/api-server";
 import { superclassColors, superclassNames } from "@/lib/persuasion";
 import { dimensoes, palavras, rotuloLegivel, temaCor, type Audiencia, type Opiniao, type PersuasaoTurno } from "@/lib/thalia";
 
-export type PanelTab = "transcricao" | "resumo" | "materia" | "deliberacao";
+export type PanelTab = "transcricao" | "resumo" | "deliberacao";
 
 const tabs: Array<{ id: PanelTab; label: string }> = [
   { id: "transcricao", label: "Transcrição" },
   { id: "resumo", label: "Resumo" },
-  { id: "materia", label: "Matéria" },
   { id: "deliberacao", label: "Deliberação" },
 ];
 
@@ -44,18 +43,12 @@ export function ReadingPanel({ data, persuasao, loadAudit, tab, onTab, turn, onT
           <div key={tab} className="min-h-0 flex-1 overflow-y-auto">
             {tab === "transcricao" && <Transcript data={data} persuasao={persuasao} loadAudit={loadAudit} turn={turn} onTurn={onTurn}/>}
             {tab === "resumo" && <Summary data={data} turn={turn} onTurn={onTurn}/>}
-            {tab === "materia" && <Coverage data={data} onTurn={onTurn}/>}
             {tab === "deliberacao" && <Deliberation data={data} turn={turn} onTurn={onTurn}/>}
           </div>
         </>
       )}
     </div>
   );
-}
-
-// "sem modelo" sai da estrutura da transcrição; "via LLM" foi atribuído por um modelo de linguagem.
-function Badge({ kind }: { kind: "sem modelo" | "via LLM" }) {
-  return <span className={`whitespace-nowrap rounded px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider ${kind === "sem modelo" ? "bg-[#344b7f]/10 text-[#344b7f]" : "bg-orange-50 text-orange-700"}`}>{kind}</span>;
 }
 
 function TurnChip({ id, onTurn }: { id: number; onTurn: (turn: number) => void }) {
@@ -153,95 +146,6 @@ function Summary({ data, turn, onTurn }: { data: Audiencia; turn: number; onTurn
   );
 }
 
-function percent(value: number | null | undefined) {
-  return value == null ? "sem dado" : `${Math.round(value * 100)}%`;
-}
-
-const blockLabels: Record<string, string> = { titulo: "Título", linha_fina: "Linha fina", lead: "Lead", citacao: "Citação", parafrase: "Paráfrase" };
-
-function Coverage({ data, onTurn }: { data: Audiencia; onTurn: (turn: number) => void }) {
-  const [withChair, setWithChair] = useState(true);
-  const cobertura = data.cobertura;
-  if (!cobertura) return <Empty>Esta audiência não tem dados de cobertura.</Empty>;
-  const proporcoes = cobertura.proporcoes[withChair ? "com_mesa" : "sem_mesa"];
-  const maxWords = Math.max(1, ...cobertura.falantes.map((falante) => falante.n_palavras));
-  const silenced = new Set(cobertura.falantes_silenciados);
-  const blocos = data.materia?.blocos ?? [];
-  return (
-    <div className="space-y-6 p-5">
-      <div>
-        <div className="flex items-center justify-between gap-3">
-          <div>
-            <p className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider text-[#999]">Matéria original da Agência Câmara <Badge kind="sem modelo"/></p>
-            <h3 className="mt-1 text-sm font-semibold text-ink">Sociedade civil: fala × citação</h3>
-          </div>
-          <label className="flex shrink-0 items-center gap-1.5 text-xs text-[#666666]" title="Com ou sem quem preside a sessão"><input type="checkbox" checked={withChair} onChange={(event) => setWithChair(event.target.checked)} className="accent-orange-500"/>incluir quem preside</label>
-        </div>
-        <div className="mt-4 space-y-3">
-          <Share label="Parte da fala" value={proporcoes?.participacao_civil_palavras} color="bg-ink"/>
-          <Share label="Parte das posições citadas na matéria" value={proporcoes?.citacao_civil_opinioes} color="bg-orange-500"/>
-        </div>
-        {proporcoes?.deficit_civil != null && (
-          <p className="mt-3 text-sm text-[#333]">
-            {proporcoes.deficit_civil > 0
-              ? <>Déficit de <strong className="text-orange-600">{Math.round(proporcoes.deficit_civil * 100)} pontos</strong>: a sociedade civil fala mais do que aparece.</>
-              : <>A sociedade civil aparece na matéria <strong>{Math.round(-proporcoes.deficit_civil * 100)} pontos</strong> acima da sua parte na fala.</>}
-          </p>
-        )}
-      </div>
-
-      <div>
-        <h3 className="mb-3 text-sm font-semibold text-ink">Quem falou e quem foi citado na matéria original</h3>
-        <ul className="space-y-2.5">
-          {cobertura.falantes.map((falante) => (
-            <li key={falante.nome}>
-              <button type="button" onClick={() => falante.turnos[0] && onTurn(falante.turnos[0])} className="w-full text-left">
-                <span className="flex items-baseline justify-between gap-2 text-xs">
-                  <span className="font-medium text-ink">{falante.nome} <span className="font-normal text-[#999]">· {falante.mesa ? "mesa" : falante.parlamentar ? "parlamentar" : "convidado(a)"}</span></span>
-                  <span className={`shrink-0 font-semibold ${silenced.has(falante.nome) ? "text-orange-600" : "text-[#344b7f]"}`}>{silenced.has(falante.nome) ? "não citado" : "citado"}</span>
-                </span>
-                <span className="mt-1 block h-1.5 overflow-hidden rounded-full bg-paper"><span className={`block h-full rounded-full ${falante.parlamentar ? "bg-ink" : "bg-orange-400"}`} style={{ width: `${(falante.n_palavras / maxWords) * 100}%` }}/></span>
-                <span className="mt-0.5 block text-[10px] text-[#999]">{falante.n_palavras.toLocaleString("pt-BR")} palavras em {falante.n_turnos} turno(s)</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      {cobertura.citados_ausentes.length > 0 && (
-        <p className="text-xs leading-5 text-[#666666]"><strong className="text-ink">Citados sem ter falado:</strong> {cobertura.citados_ausentes.join(", ")}.</p>
-      )}
-      <p className="text-[11px] leading-5 text-[#999]">A cobertura compara os nomes de quem falou com a lista de citados da matéria original, para a sessão inteira; não muda com a linha do tempo. “Sem dado” quer dizer que não havia como calcular, não que deu zero.</p>
-
-      {blocos.length > 0 && (
-        <div>
-          <p className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider text-[#999]">Matéria gerada a partir da audiência <Badge kind="via LLM"/></p>
-          <p className="mb-3 mt-1 text-xs leading-5 text-[#666666]">Escrita pelo pipeline, com as citações mais representativas das falas. Não é a matéria publicada e ainda não foi validada.</p>
-          <div className="space-y-2.5 border-l-2 border-black/10 pl-3">
-            {blocos.map((bloco, index) => (
-              <div key={index}>
-                <p className="text-[10px] font-bold uppercase tracking-wider text-[#999]">{blockLabels[bloco.tipo] ?? bloco.tipo}{bloco.falante && ` · ${bloco.falante}`}</p>
-                <p className={`mt-0.5 text-[#333] ${bloco.tipo === "titulo" ? "text-base font-semibold text-ink" : "text-sm leading-6"}`}>{bloco.tipo === "citacao" ? `“${bloco.texto}”` : bloco.texto}</p>
-                {bloco.ancora && <div className="mt-1"><TurnChip id={bloco.ancora.turno_id} onTurn={onTurn}/></div>}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-    </div>
-  );
-}
-
-function Share({ label, value, color }: { label: string; value: number | null | undefined; color: string }) {
-  return (
-    <div>
-      <div className="mb-1 flex justify-between text-xs"><span className="text-[#666666]">{label}</span><span className="font-semibold tabular-nums text-ink">{percent(value)}</span></div>
-      <div className="h-2.5 overflow-hidden rounded-full bg-paper"><div className={`h-full rounded-full ${color}`} style={{ width: `${(value ?? 0) * 100}%` }}/></div>
-    </div>
-  );
-}
-
 function Deliberation({ data, turn, onTurn }: { data: Audiencia; turn: number; onTurn: (turn: number) => void }) {
   const [open, setOpen] = useState<string>();
   if (!data.dqi) return <Empty>Esta audiência não tem indicadores de deliberação.</Empty>;
@@ -259,7 +163,7 @@ function Deliberation({ data, turn, onTurn }: { data: Audiencia; turn: number; o
           <section key={dimensao.id} className="rounded-xl border border-black/10 p-4">
             <div className="flex items-center gap-2">
               <h3 className="text-sm font-semibold text-ink">{dimensao.titulo}</h3>
-              <Badge kind={dimensao.id === "participacao" ? "sem modelo" : "via LLM"}/>
+             
               {dimensao.id === "participacao" && <span className="whitespace-nowrap rounded bg-amber-100 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-amber-800">em revisão</span>}
             </div>
             <p className="mt-0.5 text-xs text-[#666666]">{dimensao.pergunta}</p>
@@ -342,7 +246,7 @@ function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; op
       <div className="min-h-0 flex-1 space-y-5 overflow-y-auto p-5">
         {opinion.fundamentos.length > 0 && (
           <div>
-            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">O que sustenta a posição <Badge kind="via LLM"/></p>
+            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">O que sustenta a posição</p>
             <ul className="space-y-1.5">
               {opinion.fundamentos.map((f, index) => <li key={index} className="border-l-2 border-[#344b7f] pl-2.5 text-xs leading-5 text-[#333]"><span className="font-semibold text-[#344b7f]">{f.tipo}</span> · “{f.trecho}”</li>)}
             </ul>
@@ -350,7 +254,7 @@ function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; op
         )}
         {opinion.qualificadores.length > 0 && (
           <div>
-            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Ressalvas <Badge kind="via LLM"/></p>
+            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Ressalvas</p>
             <ul className="space-y-1.5">
               {opinion.qualificadores.map((q, index) => <li key={index} className="border-l-2 border-orange-400 pl-2.5 text-xs leading-5 text-[#333]"><span className="font-semibold text-orange-700">{rotuloLegivel(q.tipo)}</span> · “{q.trecho}”{q.preservado === false && <span className="text-[#999]"> (perdida no resumo da posição)</span>}</li>)}
             </ul>
@@ -358,7 +262,7 @@ function OpinionDetail({ data, opinion, onClose, onTurn }: { data: Audiencia; op
         )}
         {turn && (
           <div>
-            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Fala de origem · turno {turn.turno_id} <Badge kind="sem modelo"/></p>
+            <p className="mb-2 flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-[#999]">Fala de origem · turno {turn.turno_id}</p>
             <blockquote className="whitespace-pre-line border-l-2 border-orange-500 pl-3 text-sm leading-6 text-[#333]"><HighlightedTurn text={turn.texto} highlights={highlights}/></blockquote>
             <p className="mt-3 text-[11px] leading-5 text-[#999]">A âncora garante que a posição aponta para uma fala real da pessoa certa. A fidelidade da leitura foi medida à parte: 94,9% em 59 afirmações de 6 audiências.</p>
           </div>
