@@ -14,7 +14,6 @@ O sistema reúne uma API FastAPI, um banco MongoDB e uma interface Next.js. A in
 - [Frontend](#frontend)
 - [Análises](#análises)
 - [Variáveis de ambiente](#variáveis-de-ambiente)
-- [Pendências](#pendências)
 - [Licença](#licença)
 
 ## Funcionalidades
@@ -331,30 +330,6 @@ Resultados atuais, ainda exploratórios:
 | `RELATION_MIN_CONFIDENCE` | backend | confiança mínima para relações |
 | `API_URL` | frontend | URL da API FastAPI |
 | `CONTENT_DATA_DIR` | frontend | diretório alternativo do pacote de conteúdo |
-
-## Pendências
-
-### Dados e validação
-
-- Validar manualmente classificações de DQI e persuasão.
-- Revisar a regra de interrupções antes de usar H1 como resultado substantivo.
-- Registrar de forma reprodutível parâmetros de embeddings e limites de similaridade.
-- Conferir trechos de fundamentos em `argumento_intra.json`.
-- Integrar ao MongoDB as classificações por fala das audiências de comparação usadas apenas em forma agregada.
-- Consolidar um critério único para a audiência 92, que aparece em grupo diferente dependendo da rotulagem usada na amostra de persuasão.
-
-### Visualização e produto
-
-- Escolher a versão final da página inicial e remover prévias não usadas.
-- Exibir camadas ainda ausentes, como `proveniencia.json` e perdas registradas em `clausulas.json`.
-- Ampliar testes do frontend e dos endpoints de classificação.
-- Preparar deploy do backend e do frontend com acesso ao pacote `dados/conteudo`.
-
-### Texto e artigo
-
-- Incorporar a seção de resultados revisada ao manuscrito.
-- Explicitar no artigo que a análise é exploratória e que parte dos indicadores deriva de LLM.
-- Documentar o pipeline completo de geração dos dados fora da interface.
 
 ## Licença
 
